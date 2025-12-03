@@ -2,5 +2,85 @@
 
 {% block content %}
   <h1>Help & Instructions</h1>
-  <p>Step-by-step guide for how to use RIQ will go here.</p>
+  
+  <div class="help-section">
+    <h2>Getting Started</h2>
+    <p>Welcome to RIQ Lab Matcher! This platform helps you find and connect with research opportunities at Harvard University.</p>
+    
+    <h3>Step 1: Create an Account</h3>
+    <p>Click on "Sign Up" in the navigation bar to create your account. You'll need:</p>
+    <ul>
+      <li>A valid email address</li>
+      <li>A secure password</li>
+    </ul>
+    
+    <h3>Step 2: Browse Labs</h3>
+    <p>Navigate to the <a href="{{ url_for('general') }}">General</a> page to browse available Principal Investigators (PIs) and their research labs.</p>
+    <ul>
+      <li>Use the filters to search by <strong>School</strong> (e.g., Harvard) and <strong>Department</strong> (e.g., Computer Science, Biology)</li>
+      <li>Click "Apply Filters" to see matching labs</li>
+      <li>Each lab card shows the PI's name, title, research areas, and contact information</li>
+    </ul>
+    
+    <h3>Step 3: Save PIs</h3>
+    <p>When you find labs that interest you:</p>
+    <ul>
+      <li>Click the "Save PI" button on any lab card (you must be logged in)</li>
+      <li>View all your saved PIs on the <a href="{{ url_for('saved_pis') }}">Saved PIs</a> page</li>
+      <li>You can remove saved PIs from your list at any time</li>
+    </ul>
+    
+    <h3>Step 4: Upload Your Resume</h3>
+    <p>Prepare for research applications by uploading your resume:</p>
+    <ul>
+      <li>Go to the <a href="{{ url_for('resume_upload') }}">Resume Upload</a> page</li>
+      <li>Upload a PDF or DOCX file</li>
+      <li>Your resume will be used for future AI-powered matching features</li>
+    </ul>
+    
+    <h3>Step 5: Draft Emails</h3>
+    <p>Use our AI-powered email drafting tool to write professional cold emails:</p>
+    <ul>
+      <li>Navigate to <a href="{{ url_for('draft_email') }}">Draft Email</a></li>
+      <li>Select a PI from your saved list or browse all PIs</li>
+      <li>Fill in your information and research interests</li>
+      <li>Click "Generate Email Draft" to create a personalized email</li>
+      <li>Copy the draft and send it via your email client</li>
+    </ul>
+  </div>
+
+  <div class="help-section">
+    <h2>Tips for Success</h2>
+    <ul>
+      <li><strong>Research First:</strong> Read about each PI's research areas before reaching out</li>
+      <li><strong>Be Specific:</strong> Mention specific research projects or papers that interest you</li>
+      <li><strong>Show Enthusiasm:</strong> Express genuine interest in their work</li>
+      <li><strong>Be Professional:</strong> Use the email draft tool, but personalize it further</li>
+      <li><strong>Follow Up:</strong> If you don't hear back, send a polite follow-up after 1-2 weeks</li>
+    </ul>
+  </div>
+
+  <div class="help-section">
+    <h2>Frequently Asked Questions</h2>
+    
+    <h3>Do I need to be a Harvard student?</h3>
+    <p>No! While many labs are at Harvard, the platform is open to all students seeking research opportunities.</p>
+    
+    <h3>How do I know if a lab is accepting students?</h3>
+    <p>Contact the PI directly using the email provided. Many labs welcome inquiries from motivated students.</p>
+    
+    <h3>Can I save multiple PIs?</h3>
+    <p>Yes! Save as many PIs as you'd like. There's no limit to your saved list.</p>
+    
+    <h3>Is my resume data secure?</h3>
+    <p>Yes, your uploaded resumes are stored securely and only used for matching purposes within the platform.</p>
+    
+    <h3>How accurate is the email draft tool?</h3>
+    <p>The AI generates professional email drafts, but you should always review and personalize them before sending.</p>
+  </div>
+
+  <div class="help-section">
+    <h2>Need More Help?</h2>
+    <p>If you have additional questions or encounter any issues, please contact the RIQ Lab Matcher support team.</p>
+  </div>
 {% endblock %}

@@ -1,22 +1,53 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Saved PIs</h1>
-
+  <h1>Your Saved PIs</h1>
+  
   {% if saved_pis %}
-    {% for pi in saved_pis %}
-      <div class="pi-card">
-        <h2>{{ pi.name }}</h2>
-        <p>{{ pi.title }}</p>
-        <p>{{ pi.department }}, {{ pi.school }} — {{ pi.location }}</p>
-        <p><strong>Research:</strong> {{ pi.research_areas }}</p>
-        <p>
-          <a href="{{ pi.website }}" target="_blank">Website</a> |
-          <a href="mailto:{{ pi.email }}">Email</a>
-        </p>
-      </div>
-    {% endfor %}
+    <div class="saved-header">
+      <p>You have saved <strong>{{ saved_pis|length }}</strong> PI{{ 's' if saved_pis|length != 1 else '' }}. Use the actions below to draft emails or remove PIs from your list.</p>
+      {% if saved_pis|length > 1 %}
+        <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for All Saved PIs</a>
+      {% endif %}
+    </div>
+    
+    <div class="pi-list">
+      {% for pi in saved_pis %}
+        <div class="pi-card">
+          <div class="pi-header">
+            <h2>{{ pi.name }}</h2>
+            <span class="saved-badge">✓ Saved</span>
+          </div>
+          <p class="pi-title">{{ pi.title }}</p>
+          <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
+          <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
+          {% if pi.get('lab_techniques') %}
+            <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
+          {% endif %}
+          {% if pi.get('h_index') %}
+            <p class="pi-hindex"><strong>H-index:</strong> {{ pi.h_index }}</p>
+          {% endif %}
+          <div class="pi-links">
+            {% if pi.website %}
+              <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
+            {% endif %}
+            <a href="mailto:{{ pi.email }}" class="link-button">Email PI</a>
+          </div>
+
+          <div class="pi-actions">
+            <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary">Draft Email</a>
+            <form method="post" action="{{ url_for('unsave_pi', pi_id=pi.id) }}" style="display: inline;" onsubmit="return confirm('Remove this PI from your saved list?');">
+              <button type="submit" class="btn-danger">Remove</button>
+            </form>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   {% else %}
-    <p>You haven't saved any PIs yet. Go to the <a href="{{ url_for('general') }}">General</a> page to browse and save some.</p>
+    <div class="no-results">
+      <p>You haven't saved any PIs yet.</p>
+      <p>Go to the <a href="{{ url_for('general') }}">General</a> page to browse and save labs that interest you.</p>
+      <a href="{{ url_for('general') }}" class="btn-primary">Browse Labs</a>
+    </div>
   {% endif %}
 {% endblock %}

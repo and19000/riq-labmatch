@@ -1,21 +1,32 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Login</h1>
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1>Welcome Back</h1>
+      <p class="auth-subtitle">Sign in to your account to continue</p>
 
-  {% if error %}
-    <p style="color: red;">{{ error }}</p>
-  {% endif %}
+      {% if error %}
+        <div class="error-message">{{ error }}</div>
+      {% endif %}
 
-  <form action="{{ url_for('login') }}" method="post">
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+      <form action="{{ url_for('login') }}" method="post" class="auth-form">
+        <div class="form-group">
+          <label for="email">Email or Username</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email or username" required autofocus>
+        </div>
 
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
 
-    <button type="submit">Log In</button>
-  </form>
+        <button type="submit" class="btn-primary btn-full">Sign In</button>
+      </form>
 
-  <p>Don't have an account? <a href="{{ url_for('signup') }}">Sign up here</a>.</p>
+      <div class="auth-footer">
+        <p>Don't have an account? <a href="{{ url_for('signup') }}">Sign up here</a></p>
+      </div>
+    </div>
+  </div>
 {% endblock %}

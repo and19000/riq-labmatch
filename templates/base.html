@@ -12,23 +12,34 @@
           <a href="{{ url_for('index') }}" class="brand">RIQ</a>
         </div>
         <div class="nav-right">
-            <a href="{{ url_for('general') }}">General</a>
-            <a href="{{ url_for('resume_upload') }}">Resume Upload</a>
-            <a href="{{ url_for('saved_pis') }}">Saved PIs</a>
-            <a href="{{ url_for('help_page') }}">Help</a>
-            <a href="{{ url_for('account') }}">Account</a>
-          
+            <a href="{{ url_for('general') }}">Browse Labs</a>
             {% if session.get('user_id') %}
+              <a href="{{ url_for('matches') }}">My Matches</a>
+              <a href="{{ url_for('resume_upload') }}">Resume</a>
+              <a href="{{ url_for('saved_pis') }}">Saved</a>
+            {% endif %}
+            <a href="{{ url_for('help_page') }}">Help</a>
+            {% if session.get('user_id') %}
+              <a href="{{ url_for('account') }}">{{ session.get('username', 'Account') }}</a>
               <a href="{{ url_for('logout') }}">Logout</a>
             {% else %}
               <a href="{{ url_for('login') }}">Login</a>
-              <a href="{{ url_for('signup') }}">Sign Up</a>
+              <a href="{{ url_for('signup') }}" class="btn-nav-signup">Sign Up</a>
             {% endif %}
           </div>          
       </nav>
     </header>
 
     <main class="content">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flash-messages">
+            {% for category, message in messages %}
+              <div class="flash-message flash-{{ category }}">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
       {% block content %}
       {% endblock %}
     </main>

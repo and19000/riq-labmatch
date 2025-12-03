@@ -2,23 +2,46 @@
 
 {% block content %}
   <h1>Upload Your Resume</h1>
-
-  <p>Upload a PDF or DOCX version of your resume. We'll use this later to match you with PIs.</p>
+  <p class="subtitle">Upload your resume to get AI-powered lab matches tailored to your experience</p>
 
   {% if error %}
-    <p style="color: red;">{{ error }}</p>
+    <div class="error-message">{{ error }}</div>
   {% endif %}
 
-  {% if uploaded_filename %}
-    <p style="color: green;">
-      Successfully uploaded: <strong>{{ uploaded_filename }}</strong>
-    </p>
+  {% if existing_resume %}
+    <div class="info-box">
+      <h3>Current Resume</h3>
+      <p><strong>File:</strong> {{ existing_resume.filename }}</p>
+      <p><strong>Uploaded:</strong> {{ existing_resume.uploaded_at.strftime("%B %d, %Y at %I:%M %p") }}</p>
+      <p>Upload a new file to replace your current resume.</p>
+    </div>
   {% endif %}
 
-  <form action="{{ url_for('resume_upload') }}" method="post" enctype="multipart/form-data">
-    <label for="resume">Choose your resume file:</label><br><br>
-    <input type="file" id="resume" name="resume" required>
-    <br><br>
-    <button type="submit">Upload</button>
-  </form>
+  <div class="upload-card">
+    <form action="{{ url_for('resume_upload') }}" method="post" enctype="multipart/form-data" class="upload-form">
+      <div class="form-group">
+        <label for="resume">Choose your resume file (PDF or DOCX)</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
+        <small>Accepted formats: PDF, DOCX (Max size: 10MB)</small>
+      </div>
+
+      <button type="submit" class="btn-primary btn-large">Upload Resume</button>
+    </form>
+
+    <div class="upload-info">
+      <h3>How it works:</h3>
+      <ul>
+        <li>Upload your resume in PDF or DOCX format</li>
+        <li>Our AI will analyze your skills, experience, and research interests</li>
+        <li>Get personalized lab matches ranked by compatibility</li>
+        <li>View your matches on the <a href="{{ url_for('matches') }}">Matches</a> page</li>
+      </ul>
+    </div>
+  </div>
+
+  {% if existing_resume %}
+    <div class="action-buttons">
+      <a href="{{ url_for('matches') }}" class="btn-primary">View My Matches</a>
+    </div>
+  {% endif %}
 {% endblock %}

@@ -1,24 +1,44 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Create an Account</h1>
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1>Create Account</h1>
+      <p class="auth-subtitle">Join RIQ Lab Matcher to find your perfect research opportunity</p>
 
-  {% if error %}
-    <p style="color: red;">{{ error }}</p>
-  {% endif %}
+      {% if error %}
+        <div class="error-message">{{ error }}</div>
+      {% endif %}
 
-  <form action="{{ url_for('signup') }}" method="post">
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+      <form action="{{ url_for('signup') }}" method="post" class="auth-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Choose a username" required autofocus minlength="3">
+          <small>At least 3 characters</small>
+        </div>
 
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
 
-    <label for="confirm_password">Confirm Password:</label><br>
-    <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6">
+          <small>At least 6 characters</small>
+        </div>
 
-    <button type="submit">Sign Up</button>
-  </form>
+        <div class="form-group">
+          <label for="confirm_password">Confirm Password</label>
+          <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+        </div>
 
-  <p>Already have an account? <a href="{{ url_for('login') }}">Log in here</a>.</p>
+        <button type="submit" class="btn-primary btn-full">Create Account</button>
+      </form>
+
+      <div class="auth-footer">
+        <p>Already have an account? <a href="{{ url_for('login') }}">Log in here</a></p>
+      </div>
+    </div>
+  </div>
 {% endblock %}

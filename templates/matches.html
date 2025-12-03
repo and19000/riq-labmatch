@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Your Lab Matches</h1>
+  <p class="subtitle">AI-powered matches based on your resume</p>
+
+  {% if matches %}
+    <div class="matches-header">
+      <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
+      <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
+    </div>
+
+    <div class="pi-list">
+      {% for pi in matches %}
+        <div class="pi-card match-card">
+          <div class="match-header">
+            <div class="match-score">
+              <div class="score-circle" data-score="{{ pi.match_score }}">
+                <span class="score-number">{{ pi.match_score }}</span>
+                <span class="score-label">Match</span>
+              </div>
+            </div>
+            <div class="pi-header">
+              <h2>{{ pi.name }}</h2>
+              {% if pi.id in saved_pi_ids %}
+                <span class="saved-badge">✓ Saved</span>
+              {% endif %}
+            </div>
+          </div>
+          
+          <p class="pi-title">{{ pi.title }}</p>
+          <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
+          <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
+          {% if pi.get('lab_techniques') %}
+            <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
+          {% endif %}
+          {% if pi.get('h_index') %}
+            <p class="pi-hindex"><strong>H-index:</strong> {{ pi.h_index }}</p>
+          {% endif %}
+          
+          <div class="match-reason">
+            <strong>Why this match:</strong> {{ pi.match_reason }}
+          </div>
+          
+          <div class="pi-links">
+            {% if pi.website %}
+              <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
+            {% endif %}
+            <a href="mailto:{{ pi.email }}" class="link-button">Email PI</a>
+          </div>
+
+          <div class="pi-actions">
+            {% if pi.id in saved_pi_ids %}
+              <span class="saved-indicator">Already saved</span>
+              <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary">Draft Email</a>
+            {% else %}
+              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
+                <button type="submit" class="btn-primary">Save PI</button>
+              </form>
+              <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary">Draft Email</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="no-results">
+      <p>No matches found. Try uploading or updating your resume.</p>
+      <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
+    </div>
+  {% endif %}
+{% endblock %}
+

@@ -1,6 +1,78 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Welcome to RIQ Lab Matcher</h1>
-  <p>This is the prototype. Use the nav bar above to explore the pages.</p>
+  <div class="hero-section">
+    <h1>Welcome to RIQ Lab Matcher</h1>
+    <p class="subtitle">Find your perfect research opportunity at Harvard University</p>
+  </div>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <h2>🔍 Browse Labs</h2>
+      <p>Explore hundreds of research labs across Harvard's departments. Filter by school, department, and research area to find labs that match your interests.</p>
+      <a href="{{ url_for('general') }}" class="btn-primary">Browse Labs</a>
+    </div>
+
+    <div class="feature-card">
+      <h2>💾 Save Favorites</h2>
+      <p>Save PIs you're interested in to your personal list. Keep track of all the labs you want to reach out to in one place.</p>
+      {% if session.get('user_id') %}
+        <a href="{{ url_for('saved_pis') }}" class="btn-primary">View Saved PIs</a>
+      {% else %}
+        <a href="{{ url_for('signup') }}" class="btn-primary">Get Started</a>
+      {% endif %}
+    </div>
+
+    <div class="feature-card">
+      <h2>📧 Draft Emails</h2>
+      <p>Use our AI-powered tool to generate professional cold emails to Principal Investigators. Get personalized email drafts in seconds.</p>
+      {% if session.get('user_id') %}
+        <a href="{{ url_for('draft_email') }}" class="btn-primary">Draft Email</a>
+      {% else %}
+        <a href="{{ url_for('login') }}" class="btn-primary">Login to Use</a>
+      {% endif %}
+    </div>
+
+    <div class="feature-card">
+      <h2>📄 Upload Resume</h2>
+      <p>Upload your resume to help us match you with relevant research opportunities. Your resume will be used for future AI matching features.</p>
+      <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
+    </div>
+  </div>
+
+  <div class="stats-section">
+    <h2>Why Use RIQ Lab Matcher?</h2>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">40+</div>
+        <div class="stat-label">Research Labs</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">10+</div>
+        <div class="stat-label">Departments</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">AI-Powered</div>
+        <div class="stat-label">Email Drafting</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    {% if not session.get('user_id') %}
+      <h2>Ready to Find Your Research Opportunity?</h2>
+      <p>Create a free account to start saving labs and drafting emails.</p>
+      <div class="cta-buttons">
+        <a href="{{ url_for('signup') }}" class="btn-primary btn-large">Sign Up Free</a>
+        <a href="{{ url_for('login') }}" class="btn-secondary btn-large">Log In</a>
+      </div>
+    {% else %}
+      <h2>Continue Your Research Journey</h2>
+      <p>Browse labs, save favorites, and draft professional emails to PIs.</p>
+      <div class="cta-buttons">
+        <a href="{{ url_for('general') }}" class="btn-primary btn-large">Browse Labs</a>
+        <a href="{{ url_for('saved_pis') }}" class="btn-secondary btn-large">View Saved PIs</a>
+      </div>
+    {% endif %}
+  </div>
 {% endblock %}

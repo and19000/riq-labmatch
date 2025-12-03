@@ -2,57 +2,109 @@
 
 {% block content %}
   <h1>Find Potential PIs</h1>
+  <p>Browse research labs and filter by school and department to find opportunities that match your interests.</p>
 
   <form method="get" action="{{ url_for('general') }}" class="filters">
-    <label for="school">School:</label>
-    <select id="school" name="school">
-      <option value="">All</option>
-      <option value="Harvard" {% if selected_school == "Harvard" %}selected{% endif %}>Harvard</option>
-      <option value="MIT" {% if selected_school == "MIT" %}selected{% endif %}>MIT</option>
-      <option value="Stanford" {% if selected_school == "Stanford" %}selected{% endif %}>Stanford</option>
-      <option value="Princeton" {% if selected_school == "Princeton" %}selected{% endif %}>Princeton</option>
-      <option value="Yale" {% if selected_school == "Yale" %}selected{% endif %}>Yale</option>
-    </select>
+    <div class="filter-group">
+      <label for="school">School:</label>
+      <select id="school" name="school">
+        <option value="">All Schools</option>
+        {% for school in schools %}
+          <option value="{{ school }}" {% if selected_school == school %}selected{% endif %}>{{ school }}</option>
+        {% endfor %}
+      </select>
+    </div>
 
-    <label for="department">Department:</label>
-    <select id="department" name="department">
-      <option value="">All</option>
-      <option value="Math" {% if selected_department == "Math" %}selected{% endif %}>Math</option>
-      <option value="Applied Math" {% if selected_department == "Applied Math" %}selected{% endif %}>Applied Math</option>
-      <option value="CS" {% if selected_department == "CS" %}selected{% endif %}>CS</option>
-      <option value="Bio" {% if selected_department == "Bio" %}selected{% endif %}>Bio</option>
-      <option value="Neuroscience" {% if selected_department == "Neuroscience" %}selected{% endif %}>Neuroscience</option>
-      <option value="Stats" {% if selected_department == "Stats" %}selected{% endif %}>Stats</option>
-      <option value="Physics" {% if selected_department == "Physics" %}selected{% endif %}>Physics</option>
-    </select>
+    <div class="filter-group">
+      <label for="department">Department:</label>
+      <select id="department" name="department">
+        <option value="">All Departments</option>
+        {% for dept in departments %}
+          <option value="{{ dept }}" {% if selected_department == dept %}selected{% endif %}>{{ dept }}</option>
+        {% endfor %}
+      </select>
+    </div>
 
-    <button type="submit">Apply Filters</button>
+    <div class="filter-group">
+      <label for="technique">Lab Technique:</label>
+      <select id="technique" name="technique">
+        <option value="">All Techniques</option>
+        {% for tech in techniques %}
+          <option value="{{ tech }}" {% if selected_technique == tech %}selected{% endif %}>{{ tech }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="location">Location:</label>
+      <select id="location" name="location">
+        <option value="">All Locations</option>
+        {% for loc in locations %}
+          <option value="{{ loc }}" {% if selected_location == loc %}selected{% endif %}>{{ loc }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <button type="submit" class="btn-primary">Apply Filters</button>
+    {% if selected_school or selected_department or selected_technique or selected_location %}
+      <a href="{{ url_for('general') }}" class="btn-secondary">Clear Filters</a>
+    {% endif %}
   </form>
 
-  <hr>
+  <div class="results-info">
+    {% if faculty_list %}
+      <p><strong>{{ faculty_list|length }}</strong> lab{{ 's' if faculty_list|length != 1 else '' }} found</p>
+    {% endif %}
+  </div>
 
   {% if faculty_list %}
-    {% for pi in faculty_list %}
-      <div class="pi-card">
-        <h2>{{ pi.name }}</h2>
-        <p>{{ pi.title }}</p>
-        <p>{{ pi.department }}, {{ pi.school }} — {{ pi.location }}</p>
-        <p><strong>Research:</strong> {{ pi.research_areas }}</p>
-        <p>
-          <a href="{{ pi.website }}" target="_blank">Website</a> |
-          <a href="mailto:{{ pi.email }}">Email</a>
-        </p>
+    <div class="pi-list">
+      {% for pi in faculty_list %}
+        <div class="pi-card">
+          <div class="pi-header">
+            <h2>{{ pi.name }}</h2>
+            {% if pi.id in saved_pi_ids %}
+              <span class="saved-badge">✓ Saved</span>
+            {% endif %}
+          </div>
+          <p class="pi-title">{{ pi.title }}</p>
+          <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
+          <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
+          {% if pi.get('lab_techniques') %}
+            <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
+          {% endif %}
+          {% if pi.get('h_index') %}
+            <p class="pi-hindex"><strong>H-index:</strong> {{ pi.h_index }}</p>
+          {% endif %}
+          <div class="pi-links">
+            {% if pi.website %}
+              <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
+            {% endif %}
+            <a href="mailto:{{ pi.email }}" class="link-button">Email PI</a>
+          </div>
 
-        {% if session.get('user_id') %}
-          <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}">
-            <button type="submit">Save PI</button>
-          </form>
-        {% else %}
-          <p><em>Log in to save this PI.</em></p>
-        {% endif %}
-      </div>
-    {% endfor %}
+          <div class="pi-actions">
+            {% if session.get('user_id') %}
+              {% if pi.id in saved_pi_ids %}
+                <span class="saved-indicator">Already saved</span>
+                <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary">Draft Email</a>
+              {% else %}
+                <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
+                  <button type="submit" class="btn-primary">Save PI</button>
+                </form>
+                <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary">Draft Email</a>
+              {% endif %}
+            {% else %}
+              <p class="login-prompt"><a href="{{ url_for('login') }}">Log in</a> to save PIs and draft emails.</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   {% else %}
-    <p>No PIs matched your filters yet.</p>
+    <div class="no-results">
+      <p>No PIs matched your filters. Try adjusting your search criteria.</p>
+      <a href="{{ url_for('general') }}" class="btn-primary">View All Labs</a>
+    </div>
   {% endif %}
 {% endblock %}

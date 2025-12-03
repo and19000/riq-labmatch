@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Generated Email Drafts</h1>
+  <p class="subtitle">Review and copy your personalized email drafts</p>
+
+  <div class="bulk-email-actions">
+    <button onclick="copyAllEmails()" class="btn-primary">Copy All Emails</button>
+    <a href="{{ url_for('saved_pis') }}" class="btn-secondary">Back to Saved PIs</a>
+  </div>
+
+  <div class="email-list">
+    {% for email_data in emails %}
+      <div class="email-card">
+        <div class="email-header">
+          <h2>Email to {{ email_data.pi.name }}</h2>
+          <div class="email-actions">
+            <button onclick="copyEmail({{ loop.index0 }})" class="btn-secondary">Copy</button>
+            <a href="mailto:{{ email_data.pi_email }}?subject=Research%20Opportunity%20Inquiry" class="btn-primary">Open in Email Client</a>
+          </div>
+        </div>
+        <div class="pi-info">
+          <p><strong>{{ email_data.pi.title }}</strong></p>
+          <p>{{ email_data.pi.department }}, {{ email_data.pi.school }}</p>
+          <p><strong>Email:</strong> {{ email_data.pi_email }}</p>
+        </div>
+        <div class="email-draft" id="email-{{ loop.index0 }}">
+          <pre>{{ email_data.draft }}</pre>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    function copyEmail(index) {
+      const emailText = document.getElementById('email-' + index).innerText;
+      navigator.clipboard.writeText(emailText).then(() => {
+        alert('Email copied to clipboard!');
+      });
+    }
+
+    function copyAllEmails() {
+      let allEmails = '';
+      {% for email_data in emails %}
+        allEmails += '=== Email to {{ email_data.pi.name }} ===\n';
+        allEmails += document.getElementById('email-{{ loop.index0 }}').innerText + '\n\n';
+      {% endfor %}
+      navigator.clipboard.writeText(allEmails).then(() => {
+        alert('All emails copied to clipboard!');
+      });
+    }
+  </script>
+{% endblock %}
+

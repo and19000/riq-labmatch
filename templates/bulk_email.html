@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Generate Emails for Saved PIs</h1>
+  <p class="subtitle">Select multiple saved PIs and generate personalized emails for all of them at once</p>
+
+  {% if saved_pis %}
+    <form method="post" action="{{ url_for('bulk_email') }}" class="bulk-email-form">
+      <div class="form-group">
+        <label>Select PIs to Email:</label>
+        <div class="pi-checkboxes">
+          {% for pi in saved_pis %}
+            <div class="checkbox-item">
+              <input type="checkbox" id="pi_{{ pi.id }}" name="pi_ids" value="{{ pi.id }}" checked>
+              <label for="pi_{{ pi.id }}">
+                <strong>{{ pi.name }}</strong> — {{ pi.department }}, {{ pi.school }}
+                <br><small>{{ pi.research_areas }}</small>
+              </label>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="student_name">Your Name:</label>
+        <input type="text" id="student_name" name="student_name" value="{{ user.username }}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="student_email">Your Email:</label>
+        <input type="email" id="student_email" name="student_email" value="{{ user.email }}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="student_background">Your Background (optional):</label>
+        <textarea id="student_background" name="student_background" rows="3" placeholder="e.g., Junior at Harvard, majoring in Computer Science, with experience in machine learning..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="research_interest">General Research Interest (optional):</label>
+        <textarea id="research_interest" name="research_interest" rows="2" placeholder="e.g., I'm particularly interested in AI applications in healthcare..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary btn-large">Generate All Emails</button>
+    </form>
+  {% else %}
+    <div class="no-results">
+      <p>You haven't saved any PIs yet.</p>
+      <a href="{{ url_for('general') }}" class="btn-primary">Browse Labs</a>
+    </div>
+  {% endif %}
+{% endblock %}
+
