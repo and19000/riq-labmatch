@@ -12,14 +12,19 @@
           <a href="{{ url_for('index') }}" class="brand">RIQ</a>
         </div>
         <div class="nav-right">
-          <a href="{{ url_for('general') }}">General</a>
-          <a href="{{ url_for('resume_upload') }}">Resume Upload</a>
-          <a href="{{ url_for('saved_pis') }}">Saved PIs</a>
-          <a href="{{ url_for('help_page') }}">Help</a>
-          <a href="{{ url_for('account') }}">Account</a>
-          <a href="{{ url_for('login') }}">Login</a>
-          <a href="{{ url_for('signup') }}">Sign Up</a>
-        </div>
+            <a href="{{ url_for('general') }}">General</a>
+            <a href="{{ url_for('resume_upload') }}">Resume Upload</a>
+            <a href="{{ url_for('saved_pis') }}">Saved PIs</a>
+            <a href="{{ url_for('help_page') }}">Help</a>
+            <a href="{{ url_for('account') }}">Account</a>
+          
+            {% if session.get('user_id') %}
+              <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+              <a href="{{ url_for('login') }}">Login</a>
+              <a href="{{ url_for('signup') }}">Sign Up</a>
+            {% endif %}
+          </div>          
       </nav>
     </header>
 
