@@ -211,16 +211,6 @@ def account():
     if not user_id:
         return redirect(url_for("login"))
 
-
-@app.route("/login")
-    user = User.query.get(user_id)
-    if user is None:
-        # Session had a bad user_id; clear it and force login
-        session.pop("user_id", None)
-        return redirect(url_for("login"))
-
-    return render_template("account.html", user=user)
-
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
@@ -243,8 +233,6 @@ def login():
 
     return render_template("login.html")
 
-
-@app.route("/signup")
 @app.route("/logout")
 def logout():
     session.pop("user_id", None)
