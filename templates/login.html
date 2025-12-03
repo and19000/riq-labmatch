@@ -3,6 +3,10 @@
 {% block content %}
   <h1>Login</h1>
 
+  {% if error %}
+    <p style="color: red;">{{ error }}</p>
+  {% endif %}
+
   <form action="{{ url_for('login') }}" method="post">
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br><br>
