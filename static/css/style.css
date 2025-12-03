@@ -24,3 +24,27 @@ body {
   .content {
     padding: 1.5rem;
   }
+
+  .filters {
+    margin-bottom: 1rem;
+  }
+  
+  .filters label {
+    margin-right: 0.5rem;
+  }
+  
+  .filters select {
+    margin-right: 1rem;
+  }
+  
+  .pi-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pi-card h2 {
+    margin-top: 0;
+  }
+  

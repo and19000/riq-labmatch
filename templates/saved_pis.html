@@ -2,5 +2,21 @@
 
 {% block content %}
   <h1>Saved PIs</h1>
-  <p>Here you'll see PIs you've favorited.</p>
+
+  {% if saved_pis %}
+    {% for pi in saved_pis %}
+      <div class="pi-card">
+        <h2>{{ pi.name }}</h2>
+        <p>{{ pi.title }}</p>
+        <p>{{ pi.department }}, {{ pi.school }} — {{ pi.location }}</p>
+        <p><strong>Research:</strong> {{ pi.research_areas }}</p>
+        <p>
+          <a href="{{ pi.website }}" target="_blank">Website</a> |
+          <a href="mailto:{{ pi.email }}">Email</a>
+        </p>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>You haven't saved any PIs yet. Go to the <a href="{{ url_for('general') }}">General</a> page to browse and save some.</p>
+  {% endif %}
 {% endblock %}

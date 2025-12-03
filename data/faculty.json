@@ -1,0 +1,90 @@
+[
+    {
+      "id": "harvard-math-1",
+      "name": "Dr. Alice Fourier",
+      "title": "Professor of Mathematics",
+      "department": "Math",
+      "school": "Harvard",
+      "location": "Cambridge, MA",
+      "research_areas": "Harmonic analysis, PDEs, Fourier transforms",
+      "website": "https://example.com/alice-fourier",
+      "email": "alice_fourier@example.edu"
+    },
+    {
+      "id": "harvard-cs-1",
+      "name": "Dr. Bob Turing",
+      "title": "Associate Professor of Computer Science",
+      "department": "CS",
+      "school": "Harvard",
+      "location": "Cambridge, MA",
+      "research_areas": "Machine learning systems, distributed computing",
+      "website": "https://example.com/bob-turing",
+      "email": "bob_turing@example.edu"
+    },
+    {
+      "id": "mit-math-1",
+      "name": "Dr. Carol Euler",
+      "title": "Professor of Applied Mathematics",
+      "department": "Applied Math",
+      "school": "MIT",
+      "location": "Cambridge, MA",
+      "research_areas": "Numerical analysis, scientific computing",
+      "website": "https://example.com/carol-euler",
+      "email": "carol_euler@example.edu"
+    },
+    {
+      "id": "mit-cs-1",
+      "name": "Dr. David Hopper",
+      "title": "Assistant Professor of Computer Science",
+      "department": "CS",
+      "school": "MIT",
+      "location": "Cambridge, MA",
+      "research_areas": "Programming languages, compilers",
+      "website": "https://example.com/david-hopper",
+      "email": "david_hopper@example.edu"
+    },
+    {
+      "id": "stanford-bio-1",
+      "name": "Dr. Emma Watson",
+      "title": "Professor of Biology",
+      "department": "Bio",
+      "school": "Stanford",
+      "location": "Stanford, CA",
+      "research_areas": "Cell biology, microscopy, signaling pathways",
+      "website": "https://example.com/emma-watson",
+      "email": "emma_watson@example.edu"
+    },
+    {
+      "id": "princeton-physics-1",
+      "name": "Dr. Felix Noether",
+      "title": "Professor of Physics",
+      "department": "Physics",
+      "school": "Princeton",
+      "location": "Princeton, NJ",
+      "research_areas": "Quantum field theory, symmetry",
+      "website": "https://example.com/felix-noether",
+      "email": "felix_noether@example.edu"
+    },
+    {
+      "id": "yale-neuro-1",
+      "name": "Dr. Grace Hodgkin",
+      "title": "Associate Professor of Neuroscience",
+      "department": "Neuroscience",
+      "school": "Yale",
+      "location": "New Haven, CT",
+      "research_areas": "Neural coding, computational neuroscience",
+      "website": "https://example.com/grace-hodgkin",
+      "email": "grace_hodgkin@example.edu"
+    },
+    {
+      "id": "yale-stats-1",
+      "name": "Dr. Henry Fisher",
+      "title": "Professor of Statistics",
+      "department": "Stats",
+      "school": "Yale",
+      "location": "New Haven, CT",
+      "research_areas": "High-dimensional statistics, causal inference",
+      "website": "https://example.com/henry-fisher",
+      "email": "henry_fisher@example.edu"
+    }
+  ]  
