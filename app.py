@@ -1,6 +1,21 @@
-from flask import Flask, render_template
+import os
+
+from flask import Flask, render_template, request
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
+
+UPLOAD_FOLDER = "uploads"
+ALLOWED_EXTENSIONS = {"pdf", "docx"}
+
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+
+def allowed_file(filename: str) -> bool:
+    """Return True if the file has an allowed extension."""
+    return (
+        "." in filename
+        and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
+    )
 
 @app.route("/")
 def index():
@@ -10,8 +25,37 @@ def index():
 def general():
     return render_template("general.html")
 
-@app.route("/resume")
+@app.route("/resume", methods=["GET", "POST"])
 def resume_upload():
+    if request.method == "POST":
+        # Check that the form actually included a file
+        if "resume" not in request.files:
+            error = "No file part in the form."
+            return render_template("resume_upload.html", error=error)
+
+        file = request.files["resume"]
+
+        # If user submitted without choosing a file
+        if file.filename == "":
+            error = "No file selected."
+            return render_template("resume_upload.html", error=error)
+
+        # Validate the extension and save the file
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            save_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
+            file.save(save_path)
+            # Pass the filename to the template so we can confirm to the user
+            return render_template(
+                "resume_upload.html",
+                uploaded_filename=filename,
+                error=None,
+            )
+        else:
+            error = "File type not allowed. Please upload a PDF or DOCX."
+            return render_template("resume_upload.html", error=error)
+
+    # GET request → just show the empty form
     return render_template("resume_upload.html")
 
 @app.route("/saved")

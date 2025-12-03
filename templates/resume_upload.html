@@ -2,5 +2,23 @@
 
 {% block content %}
   <h1>Upload Your Resume</h1>
-  <p>This page will have the file upload form and instructions.</p>
+
+  <p>Upload a PDF or DOCX version of your resume. We'll use this later to match you with PIs.</p>
+
+  {% if error %}
+    <p style="color: red;">{{ error }}</p>
+  {% endif %}
+
+  {% if uploaded_filename %}
+    <p style="color: green;">
+      Successfully uploaded: <strong>{{ uploaded_filename }}</strong>
+    </p>
+  {% endif %}
+
+  <form action="{{ url_for('resume_upload') }}" method="post" enctype="multipart/form-data">
+    <label for="resume">Choose your resume file:</label><br><br>
+    <input type="file" id="resume" name="resume" required>
+    <br><br>
+    <button type="submit">Upload</button>
+  </form>
 {% endblock %}
