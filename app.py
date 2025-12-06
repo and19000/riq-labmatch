@@ -724,9 +724,14 @@ def export_report():
     pi_by_id = {pi["id"]: pi for pi in all_faculty}
     saved_pis_data = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id][:10]
     
+    user = User.query.get(user_id)
+    if not user:
+        flash("User not found.", "error")
+        return redirect(url_for("account"))
+    
     # For now, return a simple text version
     # In production, use a library like reportlab or weasyprint for PDF
-    return render_template("export_report.html", labs=saved_pis_data, user=User.query.get(user_id))
+    return render_template("export_report.html", labs=saved_pis_data, user=user, current_date=datetime.now().strftime("%B %d, %Y"))
 
 @app.route("/help")
 def help_page():

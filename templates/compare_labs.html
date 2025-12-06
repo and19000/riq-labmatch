@@ -103,7 +103,7 @@
 
       <div class="compare-actions">
         <a href="{{ url_for('saved_pis') }}" class="btn-secondary">← Back to Saved Labs</a>
-        <a href="{{ url_for('multi_email') }}?pi_ids={% for lab in labs %}{{ lab.id }}{% if not loop.last %},{% endif %}{% endfor %}" class="btn-primary">Generate Emails for These Labs</a>
+        <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for These Labs</a>
       </div>
     </div>
   {% else %}
@@ -113,4 +113,5 @@
     </div>
   {% endif %}
 {% endblock %}
+
 

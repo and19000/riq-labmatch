@@ -15,7 +15,7 @@
       <div class="report-header">
         <h2>RIQ Lab Matcher - Research Opportunity Report</h2>
         <p><strong>Generated for:</strong> {{ user.username }} ({{ user.email }})</p>
-        <p><strong>Date:</strong> {{ "now"|date("%B %d, %Y") }}</p>
+        <p><strong>Date:</strong> {{ current_date }}</p>
       </div>
 
       <div class="report-summary">
@@ -71,4 +71,5 @@
     }
   </script>
 {% endblock %}
+
 
