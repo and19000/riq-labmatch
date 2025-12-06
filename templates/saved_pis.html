@@ -61,11 +61,11 @@
                 <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
               {% endif %}
           <div class="pi-links">
-            {% if pi.get('google_scholar') %}
-              <a href="{{ pi.google_scholar }}" target="_blank" class="link-button" style="background: #4285f4; border-color: #4285f4;">📚 Google Scholar</a>
-            {% endif %}
             {% if pi.website %}
               <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
+            {% endif %}
+            {% if pi.get('google_scholar') %}
+              <a href="{{ pi.google_scholar }}" target="_blank" class="link-button" style="background: #4285f4; border-color: #4285f4;">📚 Google Scholar</a>
             {% endif %}
             <a href="mailto:{{ pi.email }}" class="link-button">Email PI</a>
           </div>
