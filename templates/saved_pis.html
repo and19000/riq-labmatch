@@ -14,6 +14,8 @@
         {% endif %}
         {% if saved_pis|length > 1 %}
           <button onclick="compareSelected()" class="btn-secondary" id="compare-btn" disabled>Compare Selected (0)</button>
+        {% endif %}
+        {% if saved_pis|length > 0 %}
           <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for All</a>
         {% endif %}
       </div>

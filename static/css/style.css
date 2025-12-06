@@ -2281,12 +2281,22 @@ footer {
   top: 1rem;
   right: 1rem;
   z-index: 10;
+  background: var(--bg-elevated);
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--accent);
 }
 
 .compare-checkbox {
   width: 20px;
   height: 20px;
   cursor: pointer;
+  accent-color: var(--accent);
+}
+
+.compare-card {
+  position: relative;
+  padding-top: 3rem;
 }
 
 .saved-header-actions,
