@@ -4,14 +4,14 @@
   <h1>Your Account</h1>
 
   {% if user %}
-    {% if profile and profile.profile_completeness < 100 %}
+    {% if not profile or (profile.profile_completeness is not none and profile.profile_completeness < 100) %}
       <div class="profile-completeness-banner">
         <div class="completeness-header">
-          <h3>Complete your profile ({{ profile.profile_completeness }}% done)</h3>
+          <h3>Complete your profile ({{ profile.profile_completeness if profile and profile.profile_completeness is not none else 0 }}% done)</h3>
           <a href="{{ url_for('onboarding') }}" class="btn-primary btn-small">Complete Profile</a>
         </div>
         <div class="completeness-bar">
-          <div class="completeness-fill" style="width: {{ profile.profile_completeness }}%"></div>
+          <div class="completeness-fill" style="width: {{ profile.profile_completeness if profile and profile.profile_completeness is not none else 0 }}%"></div>
         </div>
       </div>
     {% endif %}
