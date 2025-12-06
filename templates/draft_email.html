@@ -57,6 +57,26 @@
   {% if draft %}
     <div class="draft-result">
       <h2>Generated Email Draft</h2>
+      
+      <!-- Pre-flight Email Checks -->
+      <div class="email-checks" id="email-checks">
+        <h3>Email Quality Checks</h3>
+        <div class="check-list">
+          <div class="check-item" id="check-length">
+            <span class="check-icon">⏳</span>
+            <span class="check-text">Checking length...</span>
+          </div>
+          <div class="check-item" id="check-personalization">
+            <span class="check-icon">⏳</span>
+            <span class="check-text">Checking personalization...</span>
+          </div>
+          <div class="check-item" id="check-tone">
+            <span class="check-icon">⏳</span>
+            <span class="check-text">Checking tone...</span>
+          </div>
+        </div>
+      </div>
+      
       <div class="draft-actions">
         <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
         <a href="mailto:{{ pi.email if pi else '' }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
@@ -74,5 +94,46 @@
         alert('Email draft copied to clipboard!');
       });
     }
+    
+    // Pre-flight email checks
+    document.addEventListener('DOMContentLoaded', function() {
+      const draftEl = document.getElementById('draft-content');
+      if (!draftEl) return;
+      
+      const draftText = draftEl.innerText;
+      const wordCount = draftText.split(/\s+/).length;
+      const hasPIname = draftText.match(/Dr\.|Professor/i);
+      const hasLabName = draftText.match(/lab|research group|group/i);
+      const tooApologetic = /sorry|apologize|hope.*not.*bother/i.test(draftText);
+      const tooGeneric = wordCount < 50 || (!hasPIname && !hasLabName);
+      
+      // Length check
+      const lengthCheck = document.getElementById('check-length');
+      if (wordCount > 50 && wordCount < 500) {
+        lengthCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Length OK (' + wordCount + ' words)</span>';
+      } else if (wordCount >= 500) {
+        lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is quite long (' + wordCount + ' words). Consider shortening.</span>';
+      } else {
+        lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is very short (' + wordCount + ' words). Consider adding more detail.</span>';
+      }
+      
+      // Personalization check
+      const personalCheck = document.getElementById('check-personalization');
+      if (hasPIname && hasLabName) {
+        personalCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Well personalized with PI and lab references</span>';
+      } else if (hasPIname || hasLabName) {
+        personalCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Consider mentioning specific research or recent papers</span>';
+      } else {
+        personalCheck.innerHTML = '<span class="check-icon check-fail">✗</span><span class="check-text">Too generic. Add PI name and specific research details.</span>';
+      }
+      
+      // Tone check
+      const toneCheck = document.getElementById('check-tone');
+      if (tooApologetic) {
+        toneCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Tone may be overly apologetic. Be confident!</span>';
+      } else {
+        toneCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Professional and confident tone</span>';
+      }
+    });
   </script>
 {% endblock %}

@@ -56,6 +56,16 @@ class Resume(db.Model):
     uploaded_at = db.Column(db.DateTime, default=datetime.utcnow)
     resume_text = db.Column(db.Text)  # Extracted text from resume for AI matching
 
+class UserProfile(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), unique=True, nullable=False)
+    major_field = db.Column(db.String(255))
+    looking_for = db.Column(db.String(255))  # thesis lab, summer RA, rotation, gap year
+    top_techniques = db.Column(db.Text)  # JSON array or comma-separated
+    onboarding_complete = db.Column(db.Boolean, default=False)
+    profile_completeness = db.Column(db.Integer, default=0)  # 0-100
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = {"pdf", "docx"}
 
@@ -189,10 +199,13 @@ def matches():
     if not user_id:
         return redirect(url_for("login"))
     
+    # Check for demo mode
+    use_demo = request.args.get("demo") == "true"
+    
     # Get user's most recent resume
     resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
     
-    if not resume:
+    if not resume and not use_demo:
         flash("Please upload a resume first to see your matches.", "info")
         return redirect(url_for("resume_upload"))
     
@@ -215,7 +228,14 @@ def matches():
         
         faculty_text = "\n".join(faculty_summaries[:150])  # Process more labs
         
-        resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
+        if use_demo:
+            resume_info = """Computer Science major with strong background in machine learning and neuroscience. 
+            Research experience: 2 years in computational neuroscience lab working with neural networks and electrophysiology data.
+            Skills: Python, PyTorch, MATLAB, data analysis, statistical modeling.
+            Interests: Computational neuroscience, brain-computer interfaces, AI applications in healthcare.
+            Publications: 1 first-author paper in preparation on neural decoding algorithms."""
+        else:
+            resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
         
         prompt = f"""You are an expert research lab matching algorithm. Your task is to analyze a student's resume and match them with the most compatible research labs.
 
@@ -623,10 +643,144 @@ Best regards,
     )
 
 
+@app.route("/try-demo")
+def try_demo():
+    """Demo mode - show sample matches without resume upload."""
+    user_id = session.get("user_id")
+    if not user_id:
+        # Allow demo for non-logged-in users
+        session["demo_mode"] = True
+        return redirect(url_for("matches", demo="true"))
+    return redirect(url_for("matches", demo="true"))
+
+@app.route("/compare-labs")
+def compare_labs():
+    """Compare selected labs side-by-side."""
+    user_id = session.get("user_id")
+    if not user_id:
+        return redirect(url_for("login"))
+    
+    pi_ids = request.args.getlist("pi_ids")
+    if not pi_ids:
+        flash("Please select labs to compare.", "info")
+        return redirect(url_for("saved_pis"))
+    
+    all_faculty = load_faculty()
+    pi_by_id = {pi["id"]: pi for pi in all_faculty}
+    labs_to_compare = [pi_by_id.get(pi_id) for pi_id in pi_ids if pi_id in pi_by_id]
+    
+    return render_template("compare_labs.html", labs=labs_to_compare)
+
+@app.route("/multi-email", methods=["GET", "POST"])
+def multi_email():
+    """Multi-lab outreach planner."""
+    user_id = session.get("user_id")
+    if not user_id:
+        return redirect(url_for("login"))
+    
+    if request.method == "POST":
+        selected_pi_ids = request.form.getlist("pi_ids")
+        if not selected_pi_ids:
+            flash("Please select at least one lab.", "error")
+            return redirect(url_for("multi_email"))
+        
+        # This is similar to bulk_email but with enhanced UI
+        return redirect(url_for("bulk_email") + "?selected=" + ",".join(selected_pi_ids))
+    
+    # Get saved PIs
+    all_faculty = load_faculty()
+    pi_by_id = {pi["id"]: pi for pi in all_faculty}
+    saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+    saved_pis_data = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
+    
+    return render_template("multi_email.html", saved_pis=saved_pis_data)
+
+@app.route("/feedback", methods=["POST"])
+def submit_feedback():
+    """Submit user feedback."""
+    user_id = session.get("user_id")
+    feedback_text = request.form.get("feedback", "").strip()
+    page_context = request.form.get("page", "")
+    
+    if feedback_text:
+        # In a real app, you'd save this to a database
+        # For now, just log it or store in a simple file
+        with open("feedback_log.txt", "a") as f:
+            f.write(f"[{datetime.now()}] User: {user_id}, Page: {page_context}\n{feedback_text}\n\n")
+        flash("Thank you for your feedback!", "success")
+    
+    return redirect(request.referrer or url_for("index"))
+
+@app.route("/export-report")
+def export_report():
+    """Export user's top matches as PDF report."""
+    user_id = session.get("user_id")
+    if not user_id:
+        return redirect(url_for("login"))
+    
+    # Get user's saved PIs or top matches
+    saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+    all_faculty = load_faculty()
+    pi_by_id = {pi["id"]: pi for pi in all_faculty}
+    saved_pis_data = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id][:10]
+    
+    # For now, return a simple text version
+    # In production, use a library like reportlab or weasyprint for PDF
+    return render_template("export_report.html", labs=saved_pis_data, user=User.query.get(user_id))
+
 @app.route("/help")
 def help_page():
     return render_template("help.html")
 
+
+@app.route("/onboarding", methods=["GET", "POST"])
+def onboarding():
+    user_id = session.get("user_id")
+    if not user_id:
+        return redirect(url_for("login"))
+    
+    profile = UserProfile.query.filter_by(user_id=user_id).first()
+    if not profile:
+        profile = UserProfile(user_id=user_id)
+        db.session.add(profile)
+        db.session.commit()
+    
+    step = int(request.args.get("step", 1))
+    
+    if request.method == "POST":
+        if step == 1:
+            major_field = request.form.get("major_field", "").strip()
+            profile.major_field = major_field
+            profile.profile_completeness = 33
+            db.session.commit()
+            return redirect(url_for("onboarding", step=2))
+        
+        elif step == 2:
+            looking_for = request.form.get("looking_for", "").strip()
+            profile.looking_for = looking_for
+            profile.profile_completeness = 66
+            db.session.commit()
+            return redirect(url_for("onboarding", step=3))
+        
+        elif step == 3:
+            top_techniques = request.form.getlist("top_techniques")
+            profile.top_techniques = ",".join(top_techniques)
+            profile.onboarding_complete = True
+            profile.profile_completeness = 100
+            db.session.commit()
+            flash("Profile setup complete! Start exploring labs.", "success")
+            return redirect(url_for("account"))
+    
+    # Load all techniques for step 3
+    all_faculty = load_faculty()
+    all_techniques = set()
+    for pi in all_faculty:
+        if pi.get("lab_techniques"):
+            techniques = [t.strip() for t in pi["lab_techniques"].split(",")]
+            all_techniques.update(techniques)
+    techniques_list = sorted(all_techniques)
+    
+    return render_template("onboarding.html", step=step, profile=profile, techniques=techniques_list)
 
 @app.route("/account")
 def account():
@@ -635,7 +789,8 @@ def account():
         return redirect(url_for("login"))
     
     user = User.query.get(user_id)
-    return render_template("account.html", user=user)
+    profile = UserProfile.query.filter_by(user_id=user_id).first()
+    return render_template("account.html", user=user, profile=profile)
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -722,8 +877,8 @@ def signup():
         session["username"] = user.username
 
         flash("Account created successfully!", "success")
-        # Redirect to account page
-        return redirect(url_for("account"))
+        # Redirect to onboarding for new users
+        return redirect(url_for("onboarding"))
 
     # GET request
     return render_template("signup.html")

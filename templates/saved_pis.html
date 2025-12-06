@@ -5,15 +5,26 @@
   
   {% if saved_pis %}
     <div class="saved-header">
-      <p>You have saved <strong>{{ saved_pis|length }}</strong> PI{{ 's' if saved_pis|length != 1 else '' }}. Use the actions below to draft emails or remove PIs from your list.</p>
-      {% if saved_pis|length > 1 %}
-        <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for All Saved PIs</a>
-      {% endif %}
+      <div>
+        <p>You have saved <strong>{{ saved_pis|length }}</strong> PI{{ 's' if saved_pis|length != 1 else '' }}. Use the actions below to draft emails or remove PIs from your list.</p>
+      </div>
+      <div class="saved-header-actions">
+        {% if saved_pis|length > 0 %}
+          <a href="{{ url_for('export_report') }}" class="btn-secondary">Export Report</a>
+        {% endif %}
+        {% if saved_pis|length > 1 %}
+          <button onclick="compareSelected()" class="btn-secondary" id="compare-btn" disabled>Compare Selected (0)</button>
+          <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for All</a>
+        {% endif %}
+      </div>
     </div>
     
     <div class="pi-list">
       {% for pi in saved_pis %}
-        <div class="pi-card">
+        <div class="pi-card compare-card">
+          <div class="compare-checkbox-wrapper">
+            <input type="checkbox" class="compare-checkbox" value="{{ pi.id }}" onchange="updateCompareButton()">
+          </div>
           <div class="pi-card-layout">
             <div class="pi-logo">
               {% if pi.get('institution_logo_url') %}
@@ -62,6 +73,23 @@
         </div>
       {% endfor %}
     </div>
+    <script>
+      function updateCompareButton() {
+        const checked = document.querySelectorAll('.compare-checkbox:checked');
+        const btn = document.getElementById('compare-btn');
+        if (btn) {
+          btn.disabled = checked.length < 2;
+          btn.textContent = `Compare Selected (${checked.length})`;
+        }
+      }
+      
+      function compareSelected() {
+        const checked = document.querySelectorAll('.compare-checkbox:checked');
+        if (checked.length < 2) return;
+        const ids = Array.from(checked).map(cb => cb.value);
+        window.location.href = '{{ url_for("compare_labs") }}?pi_ids=' + ids.join('&pi_ids=');
+      }
+    </script>
   {% else %}
     <div class="no-results">
       <p>You haven't saved any PIs yet.</p>

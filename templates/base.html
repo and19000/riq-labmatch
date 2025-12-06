@@ -54,9 +54,42 @@
     <footer>
       <div class="footer-content">
         <p>&copy; 2025 RIQ Lab Matcher. Connecting students with research opportunities.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+          Currently featuring 1000+ labs from MIT, Broad Institute, Harvard Medical School, and Harvard. 
+          Data updated regularly from institutional sources.
+        </p>
       </div>
     </footer>
 
+    <!-- Feedback Widget -->
+    <div class="feedback-widget" id="feedback-widget">
+      <button class="feedback-toggle" onclick="toggleFeedback()">?</button>
+      <div class="feedback-panel" id="feedback-panel" style="display: none;">
+        <div class="feedback-header">
+          <h4>Send Feedback</h4>
+          <button class="close-feedback" onclick="toggleFeedback()">×</button>
+        </div>
+        <form action="{{ url_for('submit_feedback') }}" method="post" class="feedback-form">
+          <input type="hidden" name="page" value="{{ request.endpoint or '' }}">
+          <textarea name="feedback" placeholder="Tell us what you think, report bugs, or suggest improvements..." rows="4" required></textarea>
+          <button type="submit" class="btn-primary btn-small">Send</button>
+        </form>
+      </div>
+    </div>
+
     <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+      function toggleFeedback() {
+        const panel = document.getElementById('feedback-panel');
+        panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+      }
+      
+      function toggleFitExplanation(id) {
+        const popup = document.getElementById(id);
+        if (popup) {
+          popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+      }
+    </script>
   </body>
 </html>

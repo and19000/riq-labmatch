@@ -6,8 +6,16 @@
 
   {% if matches %}
     <div class="matches-header">
-      <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
-      <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
+      <div>
+        <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
+          Select labs to compare or generate emails for multiple labs at once.
+        </p>
+      </div>
+      <div class="matches-header-actions">
+        <a href="{{ url_for('saved_pis') }}?compare=true" class="btn-secondary">Compare Labs</a>
+        <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
+      </div>
     </div>
 
     <div class="labs-table-container">
@@ -67,10 +75,23 @@
                 <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
               </td>
               <td style="text-align: center;">
-                <div class="score-circle table-fit-score" data-score="{{ pi.match_score }}" style="width: 70px; height: 70px; margin: 0 auto;">
+                <div class="score-circle table-fit-score" data-score="{{ pi.match_score }}" style="width: 70px; height: 70px; margin: 0 auto; position: relative; cursor: pointer;" 
+                     onclick="toggleFitExplanation('fit-{{ pi.id }}')">
                   <span class="score-number">{{ pi.match_score }}</span>
                   <span class="score-label">Match</span>
                 </div>
+                {% if pi.match_reason %}
+                  <button class="fit-explanation-btn" onclick="toggleFitExplanation('fit-{{ pi.id }}')">
+                    Why this match?
+                  </button>
+                  <div id="fit-{{ pi.id }}" class="fit-explanation-popup" style="display: none;">
+                    <div class="fit-explanation-content">
+                      <button class="close-fit-explanation" onclick="toggleFitExplanation('fit-{{ pi.id }}')">×</button>
+                      <h4>Match Explanation</h4>
+                      <p>{{ pi.match_reason }}</p>
+                    </div>
+                  </div>
+                {% endif %}
               </td>
               <td>
                 <div style="display: flex; flex-direction: column; gap: 0.5rem;">

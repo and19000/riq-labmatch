@@ -18,6 +18,11 @@
   {% endif %}
 
   <div class="upload-card">
+    <div class="demo-resume-banner">
+      <p><strong>New to RIQ?</strong> Try our demo mode to see how matching works without uploading your resume.</p>
+      <a href="{{ url_for('try_demo') }}" class="btn-secondary">Try with Sample Resume</a>
+    </div>
+
     <form action="{{ url_for('resume_upload') }}" method="post" enctype="multipart/form-data" class="upload-form">
       <div class="form-group">
         <label for="resume">Choose your resume file (PDF or DOCX)</label>

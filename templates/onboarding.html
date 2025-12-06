@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="onboarding-container">
+  <div class="onboarding-card">
+    <div class="onboarding-progress">
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: {{ (step / 3 * 100)|int }}%"></div>
+      </div>
+      <p class="progress-text">Step {{ step }} of 3</p>
+    </div>
+
+    {% if step == 1 %}
+      <h2>What are you studying?</h2>
+      <p class="onboarding-subtitle">Tell us about your academic background to personalize your experience</p>
+      
+      <form method="post" class="onboarding-form">
+        <div class="form-group">
+          <label for="major_field">Your Major / Field of Study:</label>
+          <input type="text" id="major_field" name="major_field" 
+                 placeholder="e.g., Computer Science, Biology, Neuroscience, Psychology..." 
+                 value="{{ profile.major_field if profile else '' }}"
+                 required autofocus>
+          <small>This helps us match you with relevant research labs</small>
+        </div>
+        
+        <div class="onboarding-actions">
+          <button type="submit" class="btn-primary btn-large">Continue →</button>
+        </div>
+      </form>
+
+    {% elif step == 2 %}
+      <h2>What are you looking for?</h2>
+      <p class="onboarding-subtitle">Help us understand your research goals</p>
+      
+      <form method="post" class="onboarding-form">
+        <div class="form-group">
+          <label>I'm looking for:</label>
+          <div class="radio-group">
+            <label class="radio-option">
+              <input type="radio" name="looking_for" value="thesis lab" 
+                     {% if profile and profile.looking_for == 'thesis lab' %}checked{% endif %} required>
+              <span>Thesis lab (graduation requirement)</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="looking_for" value="summer RA" 
+                     {% if profile and profile.looking_for == 'summer RA' %}checked{% endif %}>
+              <span>Summer research assistant position</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="looking_for" value="rotation" 
+                     {% if profile and profile.looking_for == 'rotation' %}checked{% endif %}>
+              <span>Lab rotation (for grad students)</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="looking_for" value="gap year" 
+                     {% if profile and profile.looking_for == 'gap year' %}checked{% endif %}>
+              <span>Gap year research opportunity</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="looking_for" value="exploring" 
+                     {% if profile and profile.looking_for == 'exploring' %}checked{% endif %}>
+              <span>Just exploring options</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="onboarding-actions">
+          <a href="{{ url_for('onboarding', step=1) }}" class="btn-secondary">← Back</a>
+          <button type="submit" class="btn-primary btn-large">Continue →</button>
+        </div>
+      </form>
+
+    {% elif step == 3 %}
+      <h2>Top techniques & topics</h2>
+      <p class="onboarding-subtitle">Select up to 5 techniques or research topics that interest you most</p>
+      
+      <form method="post" class="onboarding-form">
+        <div class="form-group">
+          <label>Select your top interests (hold Ctrl/Cmd to select multiple):</label>
+          <div class="technique-select-grid">
+            {% for tech in techniques[:30] %}
+              <label class="technique-checkbox">
+                <input type="checkbox" name="top_techniques" value="{{ tech }}"
+                       {% if profile and profile.top_techniques and tech in profile.top_techniques.split(',') %}checked{% endif %}>
+                <span>{{ tech }}</span>
+              </label>
+            {% endfor %}
+          </div>
+          <small>We'll use this to pre-filter labs and personalize email templates</small>
+        </div>
+        
+        <div class="onboarding-actions">
+          <a href="{{ url_for('onboarding', step=2) }}" class="btn-secondary">← Back</a>
+          <button type="submit" class="btn-primary btn-large">Complete Setup ✓</button>
+        </div>
+      </form>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
