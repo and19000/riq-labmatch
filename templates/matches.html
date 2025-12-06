@@ -7,14 +7,14 @@
   {% if matches %}
     <div class="matches-header">
       <div>
-        <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
+      <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
         <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
           Select labs to compare or generate emails for multiple labs at once.
         </p>
       </div>
       <div class="matches-header-actions">
         <a href="{{ url_for('saved_pis') }}?compare=true" class="btn-secondary">Compare Labs</a>
-        <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
+      <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
       </div>
     </div>
 
@@ -24,14 +24,14 @@
           <tr>
             <th style="width: 60px;">Logo</th>
             <th>Professor</th>
-            <th>Title / Website</th>
+            <th>Info</th>
             <th>Email</th>
             <th style="width: 100px; text-align: center;">Fit</th>
             <th style="width: 150px;">Actions</th>
           </tr>
         </thead>
         <tbody>
-          {% for pi in matches %}
+      {% for pi in matches %}
             <tr class="pi-row match-row" data-name="{{ pi.name|lower }}" data-institution="{{ pi.school|lower }}">
               <td>
                 <div class="pi-logo">
@@ -65,10 +65,15 @@
               </td>
               <td>
                 <div class="table-lab-name" style="font-size: 0.9rem;">{{ pi.title }}</div>
+                {% if pi.get('google_scholar') %}
+                  <a href="{{ pi.google_scholar }}" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">
+                    📚 Google Scholar
+                  </a>
+                {% endif %}
                 {% if pi.website %}
-                  <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem;">View Website</a>
+                  <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem; display: block; margin-top: 0.25rem;">View Website</a>
                 {% else %}
-                  <span style="font-size: 0.85rem; color: var(--text-dim);">No website</span>
+                  <span style="font-size: 0.85rem; color: var(--text-dim); display: block; margin-top: 0.25rem;">No website</span>
                 {% endif %}
               </td>
               <td>
@@ -77,9 +82,9 @@
               <td style="text-align: center;">
                 <div class="score-circle table-fit-score" data-score="{{ pi.match_score }}" style="width: 70px; height: 70px; margin: 0 auto; position: relative; cursor: pointer;" 
                      onclick="toggleFitExplanation('fit-{{ pi.id }}')">
-                  <span class="score-number">{{ pi.match_score }}</span>
-                  <span class="score-label">Match</span>
-                </div>
+                <span class="score-number">{{ pi.match_score }}</span>
+                <span class="score-label">Match</span>
+              </div>
                 {% if pi.match_reason %}
                   <button class="fit-explanation-btn" onclick="toggleFitExplanation('fit-{{ pi.id }}')">
                     Why this match?
@@ -89,19 +94,19 @@
                       <button class="close-fit-explanation" onclick="toggleFitExplanation('fit-{{ pi.id }}')">×</button>
                       <h4>Match Explanation</h4>
                       <p>{{ pi.match_reason }}</p>
-                    </div>
-                  </div>
-                {% endif %}
+            </div>
+          </div>
+          {% endif %}
               </td>
               <td>
                 <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                  {% if pi.id in saved_pi_ids %}
+            {% if pi.id in saved_pi_ids %}
                     <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
-                  {% else %}
-                    <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
+            {% else %}
+              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
                       <button type="submit" class="btn-primary" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
-                    </form>
+              </form>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
                   {% endif %}
                 </div>
@@ -117,7 +122,7 @@
                 </td>
               </tr>
             {% endif %}
-          {% endfor %}
+      {% endfor %}
         </tbody>
       </table>
     </div>

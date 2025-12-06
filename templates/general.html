@@ -77,7 +77,7 @@
               <tr>
                 <th style="width: 60px;">Logo</th>
                 <th>Professor</th>
-                <th>Title / Website</th>
+                <th>Info</th>
                 <th>Email</th>
                 <th style="width: 80px; text-align: center;">Fit</th>
                 <th style="width: 120px;">Actions</th>
@@ -111,10 +111,15 @@
                   </td>
                   <td>
                     <div class="table-lab-name" style="font-size: 0.9rem;">{{ pi.title }}</div>
+                    {% if pi.get('google_scholar') %}
+                      <a href="{{ pi.google_scholar }}" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">
+                        📚 Google Scholar
+                      </a>
+                    {% endif %}
                     {% if pi.website %}
-                      <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem;">View Website</a>
+                      <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem; display: block; margin-top: 0.25rem;">View Website</a>
                     {% else %}
-                      <span style="font-size: 0.85rem; color: var(--text-dim);">No website</span>
+                      <span style="font-size: 0.85rem; color: var(--text-dim); display: block; margin-top: 0.25rem;">No website</span>
                     {% endif %}
                   </td>
                   <td>
