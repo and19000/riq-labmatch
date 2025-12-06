@@ -733,4 +733,7 @@ if __name__ == "__main__":
     # Ensure database is initialized
     with app.app_context():
         db.create_all()
-    app.run(debug=True)
+    # Run on all interfaces (0.0.0.0) to make it accessible
+    # Using port 5001 to avoid conflict with macOS AirPlay on port 5000
+    # Access via http://localhost:5001 or http://127.0.0.1:5001
+    app.run(debug=True, host='0.0.0.0', port=5001)

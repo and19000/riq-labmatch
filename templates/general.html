@@ -2,109 +2,191 @@
 
 {% block content %}
   <h1>Find Potential PIs</h1>
-  <p>Browse research labs and filter by school and department to find opportunities that match your interests.</p>
+  
+  <div class="page-with-sidebar">
+    <!-- Filters Sidebar -->
+    <aside class="filters-sidebar">
+      <h3>Filters</h3>
+      <form method="get" action="{{ url_for('general') }}">
+        <div class="filter-section">
+          <label for="school">Institution:</label>
+          <select id="school" name="school" onchange="this.form.submit()">
+            <option value="">All Institutions</option>
+            {% for school in schools %}
+              <option value="{{ school }}" {% if selected_school == school %}selected{% endif %}>{{ school }}</option>
+            {% endfor %}
+          </select>
+        </div>
 
-  <form method="get" action="{{ url_for('general') }}" class="filters">
-    <div class="filter-group">
-      <label for="school">School:</label>
-      <select id="school" name="school">
-        <option value="">All Schools</option>
-        {% for school in schools %}
-          <option value="{{ school }}" {% if selected_school == school %}selected{% endif %}>{{ school }}</option>
-        {% endfor %}
-      </select>
+        <div class="filter-section">
+          <label for="department">Field:</label>
+          <select id="department" name="department" onchange="this.form.submit()">
+            <option value="">All Fields</option>
+            {% for dept in departments %}
+              <option value="{{ dept }}" {% if selected_department == dept %}selected{% endif %}>{{ dept }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="filter-section">
+          <label for="technique">Techniques:</label>
+          <input type="hidden" name="technique" id="technique-input" value="{{ selected_technique if selected_technique else '' }}">
+          <div class="technique-multiselect">
+            {% for tech in techniques %}
+              <button type="button" class="technique-pill" data-value="{{ tech }}" aria-label="Select {{ tech }}">
+                {{ tech }}
+              </button>
+            {% endfor %}
+          </div>
+          <button type="submit" class="btn-primary" style="margin-top: 0.5rem; width: 100%; padding: 0.5rem; font-size: 0.9rem;">Apply Filters</button>
+        </div>
+
+        <div class="filter-section">
+          <label for="location">Location:</label>
+          <select id="location" name="location" onchange="this.form.submit()">
+            <option value="">All Locations</option>
+            {% for loc in locations %}
+              <option value="{{ loc }}" {% if selected_location == loc %}selected{% endif %}>{{ loc }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        {% if selected_school or selected_department or selected_technique or selected_location %}
+          <a href="{{ url_for('general') }}" class="btn-secondary" style="width: 100%; text-align: center; margin-top: 1rem; display: inline-block;">Clear Filters</a>
+        {% endif %}
+      </form>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="search-bar-container">
+        <input type="text" class="search-bar" placeholder="Search by keyword/institution..." id="searchInput">
+        <div class="search-count">
+          {% if faculty_list %}
+            <strong>{{ faculty_list|length }}</strong> lab{{ 's' if faculty_list|length != 1 else '' }}
+          {% else %}
+            0 labs
+          {% endif %}
+        </div>
+      </div>
+
+      {% if faculty_list %}
+        <div class="labs-table-container">
+          <table class="labs-table">
+            <thead>
+              <tr>
+                <th style="width: 60px;">Logo</th>
+                <th>Professor</th>
+                <th>Title / Website</th>
+                <th>Email</th>
+                <th style="width: 80px; text-align: center;">Fit</th>
+                <th style="width: 120px;">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for pi in faculty_list %}
+                <tr class="pi-row" data-name="{{ pi.name|lower }}" data-institution="{{ pi.school|lower }}" data-research="{{ pi.research_areas|lower }}">
+                  <td>
+                    {% if 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
+                      <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                      </svg>
+                    {% else %}
+                      <div class="table-logo">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
+                    {% endif %}
+                  </td>
+                  <td>
+                    <div class="table-lab-name">{{ pi.name }}</div>
+                    <div class="table-lab-info">{{ pi.school }}, {{ pi.department }}</div>
+                    {% if pi.get('h_index') %}
+                      <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-muted);">
+                        H-index: <strong style="color: var(--accent);">{{ pi.h_index }}</strong>
+                      </div>
+                    {% endif %}
+                    <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-dim);">{{ pi.get('specific_location', pi.location) }}</div>
+                  </td>
+                  <td>
+                    <div class="table-lab-name" style="font-size: 0.9rem;">{{ pi.title }}</div>
+                    {% if pi.website %}
+                      <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem;">View Website</a>
+                    {% else %}
+                      <span style="font-size: 0.85rem; color: var(--text-dim);">No website</span>
+                    {% endif %}
+                  </td>
+                  <td>
+                    <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+                  </td>
+                  <td style="text-align: center;">
+                    {% if session.get('user_id') and pi.id in saved_pi_ids %}
+                      <div class="table-fit-score" style="background: linear-gradient(135deg, #10b981, #059669); color: white;">
+                        <span style="font-size: 0.8rem;">✓</span>
+                      </div>
+                    {% else %}
+                      <div class="table-fit-score" style="background: var(--bg-elevated); border: 2px solid var(--border-subtle); color: var(--text-muted);">
+                        <span style="font-size: 0.8rem;">—</span>
+                      </div>
+                    {% endif %}
+                  </td>
+                  <td>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                      {% if session.get('user_id') %}
+                        {% if pi.id in saved_pi_ids %}
+                          <span class="saved-indicator" style="font-size: 0.85rem;">Saved</span>
+                        {% else %}
+                          <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
+                            <button type="submit" class="btn-primary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Save</button>
+                          </form>
+                        {% endif %}
+                        <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Email</a>
+                      {% else %}
+                        <a href="{{ url_for('login') }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Login</a>
+                      {% endif %}
+                    </div>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <div class="no-results">
+          <p>No PIs matched your filters. Try adjusting your search criteria.</p>
+          <a href="{{ url_for('general') }}" class="btn-primary">View All Labs</a>
+        </div>
+      {% endif %}
     </div>
-
-    <div class="filter-group">
-      <label for="department">Department:</label>
-      <select id="department" name="department">
-        <option value="">All Departments</option>
-        {% for dept in departments %}
-          <option value="{{ dept }}" {% if selected_department == dept %}selected{% endif %}>{{ dept }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="filter-group">
-      <label for="technique">Lab Technique:</label>
-      <select id="technique" name="technique">
-        <option value="">All Techniques</option>
-        {% for tech in techniques %}
-          <option value="{{ tech }}" {% if selected_technique == tech %}selected{% endif %}>{{ tech }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="filter-group">
-      <label for="location">Location:</label>
-      <select id="location" name="location">
-        <option value="">All Locations</option>
-        {% for loc in locations %}
-          <option value="{{ loc }}" {% if selected_location == loc %}selected{% endif %}>{{ loc }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <button type="submit" class="btn-primary">Apply Filters</button>
-    {% if selected_school or selected_department or selected_technique or selected_location %}
-      <a href="{{ url_for('general') }}" class="btn-secondary">Clear Filters</a>
-    {% endif %}
-  </form>
-
-  <div class="results-info">
-    {% if faculty_list %}
-      <p><strong>{{ faculty_list|length }}</strong> lab{{ 's' if faculty_list|length != 1 else '' }} found</p>
-    {% endif %}
   </div>
 
-  {% if faculty_list %}
-    <div class="pi-list">
-      {% for pi in faculty_list %}
-        <div class="pi-card">
-          <div class="pi-header">
-            <h2>{{ pi.name }}</h2>
-            {% if pi.id in saved_pi_ids %}
-              <span class="saved-badge">✓ Saved</span>
-            {% endif %}
-          </div>
-          <p class="pi-title">{{ pi.title }}</p>
-          <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
-          <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
-          {% if pi.get('lab_techniques') %}
-            <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
-          {% endif %}
-          {% if pi.get('h_index') %}
-            <p class="pi-hindex"><strong>H-index:</strong> {{ pi.h_index }}</p>
-          {% endif %}
-          <div class="pi-links">
-            {% if pi.website %}
-              <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
-            {% endif %}
-            <a href="mailto:{{ pi.email }}" class="link-button">Email PI</a>
-          </div>
-
-          <div class="pi-actions">
-            {% if session.get('user_id') %}
-              {% if pi.id in saved_pi_ids %}
-                <span class="saved-indicator">Already saved</span>
-                <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary">Draft Email</a>
-              {% else %}
-                <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
-                  <button type="submit" class="btn-primary">Save PI</button>
-                </form>
-                <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary">Draft Email</a>
-              {% endif %}
-            {% else %}
-              <p class="login-prompt"><a href="{{ url_for('login') }}">Log in</a> to save PIs and draft emails.</p>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <div class="no-results">
-      <p>No PIs matched your filters. Try adjusting your search criteria.</p>
-      <a href="{{ url_for('general') }}" class="btn-primary">View All Labs</a>
-    </div>
-  {% endif %}
+  <script>
+    // Simple search functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('searchInput');
+      if (!searchInput) return;
+      
+      const rows = document.querySelectorAll('.pi-row');
+      
+      searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase();
+        
+        rows.forEach(row => {
+          const name = row.getAttribute('data-name') || '';
+          const institution = row.getAttribute('data-institution') || '';
+          const research = row.getAttribute('data-research') || '';
+          
+          if (name.includes(searchTerm) || institution.includes(searchTerm) || research.includes(searchTerm)) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+        
+        // Update count
+        const visibleRows = Array.from(rows).filter(row => row.style.display !== 'none');
+        const countEl = document.querySelector('.search-count');
+        if (countEl) {
+          countEl.innerHTML = '<strong>' + visibleRows.length + '</strong> lab' + (visibleRows.length !== 1 ? 's' : '');
+        }
+      });
+    });
+  </script>
 {% endblock %}

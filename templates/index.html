@@ -2,54 +2,84 @@
 
 {% block content %}
   <div class="hero-section">
-    <h1>Welcome to RIQ Lab Matcher</h1>
-    <p class="subtitle">Find your perfect research opportunity at Harvard University</p>
-  </div>
-
-  <div class="features-grid">
-    <div class="feature-card">
-      <h2>🔍 Browse Labs</h2>
-      <p>Explore hundreds of research labs across Harvard's departments. Filter by school, department, and research area to find labs that match your interests.</p>
-      <a href="{{ url_for('general') }}" class="btn-primary">Browse Labs</a>
+    <div class="torus-container">
+      <div class="torus-ring torus-outer">
+        <div class="torus-inner-ring"></div>
+      </div>
+      <div class="torus-ring torus-middle">
+        <div class="torus-inner-ring"></div>
+      </div>
+      <div class="torus-ring torus-inner">
+        <div class="torus-inner-ring"></div>
+      </div>
     </div>
-
-    <div class="feature-card">
-      <h2>💾 Save Favorites</h2>
-      <p>Save PIs you're interested in to your personal list. Keep track of all the labs you want to reach out to in one place.</p>
-      {% if session.get('user_id') %}
-        <a href="{{ url_for('saved_pis') }}" class="btn-primary">View Saved PIs</a>
-      {% else %}
-        <a href="{{ url_for('signup') }}" class="btn-primary">Get Started</a>
-      {% endif %}
-    </div>
-
-    <div class="feature-card">
-      <h2>📧 Draft Emails</h2>
-      <p>Use our AI-powered tool to generate professional cold emails to Principal Investigators. Get personalized email drafts in seconds.</p>
-      {% if session.get('user_id') %}
-        <a href="{{ url_for('draft_email') }}" class="btn-primary">Draft Email</a>
-      {% else %}
-        <a href="{{ url_for('login') }}" class="btn-primary">Login to Use</a>
-      {% endif %}
-    </div>
-
-    <div class="feature-card">
-      <h2>📄 Upload Resume</h2>
-      <p>Upload your resume to help us match you with relevant research opportunities. Your resume will be used for future AI matching features.</p>
-      <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
+    <div class="hero-content">
+      <h1>Find your next research lab in seconds.</h1>
+      <p class="subtitle">Connect with leading researchers at MIT, Broad Institute, Harvard Medical School, and more. AI-powered matching helps you discover labs that align with your skills and interests.</p>
+      <div class="hero-buttons">
+        <a href="{{ url_for('general') }}" class="btn-primary btn-large">Explore labs</a>
+        <a href="{{ url_for('resume_upload') }}" class="btn-secondary btn-large">Upload resume</a>
+      </div>
     </div>
   </div>
+
+  <section class="features-deepmind-section">
+    <h2 class="section-title">What you can do with RIQ</h2>
+    <div class="features-deepmind-grid">
+      <div class="feature-deepmind-card">
+        <div class="feature-image gradient-ai">
+          <div class="feature-icon">🤖</div>
+        </div>
+        <div class="feature-content">
+          <h3>AI-Powered Matches</h3>
+          <p>Our advanced algorithm analyzes your resume and matches you with compatible research labs based on your skills, experience, and research interests.</p>
+          {% if session.get('user_id') %}
+            <a href="{{ url_for('matches') }}" class="feature-link">Learn more →</a>
+          {% else %}
+            <a href="{{ url_for('signup') }}" class="feature-link">Get started →</a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="feature-deepmind-card">
+        <div class="feature-image gradient-email">
+          <div class="feature-icon">📧</div>
+        </div>
+        <div class="feature-content">
+          <h3>Email Drafting</h3>
+          <p>Generate professional, personalized cold emails to Principal Investigators in seconds. Our AI crafts compelling emails that highlight your relevant experience.</p>
+          {% if session.get('user_id') %}
+            <a href="{{ url_for('draft_email') }}" class="feature-link">Learn more →</a>
+          {% else %}
+            <a href="{{ url_for('login') }}" class="feature-link">Learn more →</a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="feature-deepmind-card">
+        <div class="feature-image gradient-browse">
+          <div class="feature-icon">🔍</div>
+        </div>
+        <div class="feature-content">
+          <h3>Browse & Save Labs</h3>
+          <p>Explore thousands of research labs across MIT, Broad Institute, Harvard Medical School, and more. Filter by school, department, techniques, and location. Save your favorites for easy access.</p>
+          <a href="{{ url_for('general') }}" class="feature-link">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <div class="stats-section">
     <h2>Why Use RIQ Lab Matcher?</h2>
     <div class="stats-grid">
       <div class="stat-item">
-        <div class="stat-number">40+</div>
-        <div class="stat-label">Research Labs</div>
+        <div class="stat-number">1000+</div>
+        <div class="stat-label">Researchers & Professors</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">10+</div>
-        <div class="stat-label">Departments</div>
+        <div class="stat-number">MIT, Broad, HMS</div>
+        <div class="stat-label">Top Institutions</div>
       </div>
       <div class="stat-item">
         <div class="stat-number">AI-Powered</div>

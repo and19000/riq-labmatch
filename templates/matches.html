@@ -10,58 +10,91 @@
       <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
     </div>
 
-    <div class="pi-list">
-      {% for pi in matches %}
-        <div class="pi-card match-card">
-          <div class="match-header">
-            <div class="match-score">
-              <div class="score-circle" data-score="{{ pi.match_score }}">
-                <span class="score-number">{{ pi.match_score }}</span>
-                <span class="score-label">Match</span>
-              </div>
-            </div>
-            <div class="pi-header">
-              <h2>{{ pi.name }}</h2>
-              {% if pi.id in saved_pi_ids %}
-                <span class="saved-badge">✓ Saved</span>
-              {% endif %}
-            </div>
-          </div>
-          
-          <p class="pi-title">{{ pi.title }}</p>
-          <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
-          <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
-          {% if pi.get('lab_techniques') %}
-            <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
-          {% endif %}
-          {% if pi.get('h_index') %}
-            <p class="pi-hindex"><strong>H-index:</strong> {{ pi.h_index }}</p>
-          {% endif %}
-          
-          <div class="match-reason">
-            <strong>Why this match:</strong> {{ pi.match_reason }}
-          </div>
-          
-          <div class="pi-links">
-            {% if pi.website %}
-              <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
+    <div class="labs-table-container">
+      <table class="labs-table">
+        <thead>
+          <tr>
+            <th style="width: 60px;">Logo</th>
+            <th>Professor</th>
+            <th>Title / Website</th>
+            <th>Email</th>
+            <th style="width: 100px; text-align: center;">Fit</th>
+            <th style="width: 150px;">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for pi in matches %}
+            <tr class="pi-row match-row" data-name="{{ pi.name|lower }}" data-institution="{{ pi.school|lower }}">
+              <td>
+                <div class="pi-logo">
+                  {% if pi.get('institution_logo_url') %}
+                    <img src="{{ pi.institution_logo_url }}" alt="{{ pi.school }} logo">
+                  {% elif 'Harvard' in pi.school or 'harvard' in (pi.school or '').lower() %}
+                    <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                      <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                    </svg>
+                  {% else %}
+                    <div class="pi-logo-placeholder">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
+                  {% endif %}
+                </div>
+              </td>
+              <td>
+                <div class="table-lab-name">{{ pi.name }}</div>
+                <div class="table-lab-info">{{ pi.school }}, {{ pi.department }}</div>
+                {% if pi.get('h_index') %}
+                  <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-muted);">
+                    H-index: <strong style="color: var(--accent);">{{ pi.h_index }}</strong>
+                  </div>
+                {% endif %}
+                <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-dim);">{{ pi.get('specific_location', pi.location) }}</div>
+                {% if pi.id in saved_pi_ids %}
+                  <span class="saved-badge" style="margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;">✓ Saved</span>
+                {% endif %}
+              </td>
+              <td>
+                <div class="table-lab-name" style="font-size: 0.9rem;">{{ pi.title }}</div>
+                {% if pi.website %}
+                  <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem;">View Website</a>
+                {% else %}
+                  <span style="font-size: 0.85rem; color: var(--text-dim);">No website</span>
+                {% endif %}
+              </td>
+              <td>
+                <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+              </td>
+              <td style="text-align: center;">
+                <div class="score-circle table-fit-score" data-score="{{ pi.match_score }}" style="width: 70px; height: 70px; margin: 0 auto;">
+                  <span class="score-number">{{ pi.match_score }}</span>
+                  <span class="score-label">Match</span>
+                </div>
+              </td>
+              <td>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                  {% if pi.id in saved_pi_ids %}
+                    <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
+                    <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
+                  {% else %}
+                    <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
+                      <button type="submit" class="btn-primary" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
+                    </form>
+                    <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
+                  {% endif %}
+                </div>
+              </td>
+            </tr>
+            <!-- Match reason row -->
+            {% if pi.match_reason %}
+              <tr class="match-reason-row" style="background: var(--bg-elevated);">
+                <td colspan="6" style="padding: 1rem; border-top: none; padding-top: 0;">
+                  <div class="match-reason" style="margin: 0;">
+                    <strong>Why this match:</strong> {{ pi.match_reason }}
+                  </div>
+                </td>
+              </tr>
             {% endif %}
-            <a href="mailto:{{ pi.email }}" class="link-button">Email PI</a>
-          </div>
-
-          <div class="pi-actions">
-            {% if pi.id in saved_pi_ids %}
-              <span class="saved-indicator">Already saved</span>
-              <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary">Draft Email</a>
-            {% else %}
-              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
-                <button type="submit" class="btn-primary">Save PI</button>
-              </form>
-              <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary">Draft Email</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
   {% else %}
     <div class="no-results">

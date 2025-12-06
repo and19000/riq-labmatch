@@ -91,7 +91,9 @@ python3 -c "from app import app, db; app.app_context().push(); db.create_all()"
 python app.py
 ```
 
-The application will be available at `http://localhost:5000`
+The application will be available at `http://localhost:5001`
+
+**Note:** Port 5001 is used instead of 5000 to avoid conflicts with macOS AirPlay service.
 
 ## Routes
 
@@ -138,5 +140,7 @@ The application will be available at `http://localhost:5000`
 - [ ] Add more filtering options
 - [ ] Implement search functionality
 - [ ] Add email sending capability
+
+
 
 
