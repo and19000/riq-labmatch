@@ -2276,22 +2276,34 @@ footer {
   position: relative;
 }
 
-.compare-checkbox-wrapper {
+.compare-select-wrapper {
   position: absolute;
-  top: 3.5rem;
+  top: 6rem;
   right: 1rem;
   z-index: 10;
-  background: var(--bg-elevated);
-  padding: 0.5rem;
-  border-radius: var(--radius-sm);
-  border: 2px solid var(--accent);
 }
 
-.compare-checkbox {
-  width: 20px;
-  height: 20px;
+.compare-select {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 2px solid #f59e0b;
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
   cursor: pointer;
-  accent-color: var(--accent);
+  min-width: 150px;
+  transition: all var(--transition-fast);
+}
+
+.compare-select:hover {
+  border-color: #fbbf24;
+  background: var(--bg-elevated);
+}
+
+.compare-select:focus {
+  outline: none;
+  border-color: #fbbf24;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
 }
 
 .compare-card {
