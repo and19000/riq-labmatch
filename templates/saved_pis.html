@@ -18,6 +18,10 @@
             <div class="pi-logo">
               {% if pi.get('institution_logo_url') %}
                 <img src="{{ pi.institution_logo_url }}" alt="{{ pi.school }} logo">
+              {% elif 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
+                <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                </svg>
               {% else %}
                 <div class="pi-logo-placeholder">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
               {% endif %}
@@ -27,15 +31,15 @@
                 <h2>{{ pi.name }}</h2>
                 <span class="saved-badge">✓ Saved</span>
               </div>
-          <p class="pi-title">{{ pi.title }}</p>
-          <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
-          <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
-          {% if pi.get('lab_techniques') %}
-            <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
-          {% endif %}
-          {% if pi.get('h_index') %}
-            <p class="pi-hindex"><strong>H-index:</strong> {{ pi.h_index }}</p>
-          {% endif %}
+              <p class="pi-title">{{ pi.title }}</p>
+              <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
+              {% if pi.get('h_index') %}
+                <p class="pi-hindex" style="margin: 0.5rem 0;"><strong>H-index:</strong> <span style="color: var(--accent);">{{ pi.h_index }}</span></p>
+              {% endif %}
+              <p class="pi-research"><strong>Research Areas:</strong> {{ pi.research_areas }}</p>
+              {% if pi.get('lab_techniques') %}
+                <p class="pi-techniques"><strong>Lab Techniques:</strong> {{ pi.lab_techniques }}</p>
+              {% endif %}
           <div class="pi-links">
             {% if pi.website %}
               <a href="{{ pi.website }}" target="_blank" class="link-button">Visit Website</a>
