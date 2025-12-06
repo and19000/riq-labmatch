@@ -665,9 +665,20 @@ def compare_labs():
         flash("Please select labs to compare.", "info")
         return redirect(url_for("saved_pis"))
     
+    if len(pi_ids) < 2:
+        flash("Please select at least 2 labs to compare.", "info")
+        return redirect(url_for("saved_pis"))
+    
     all_faculty = load_faculty()
     pi_by_id = {pi["id"]: pi for pi in all_faculty}
     labs_to_compare = [pi_by_id.get(pi_id) for pi_id in pi_ids if pi_id in pi_by_id]
+    
+    # Filter out None values in case some IDs weren't found
+    labs_to_compare = [lab for lab in labs_to_compare if lab is not None]
+    
+    if len(labs_to_compare) < 2:
+        flash("Could not find the selected labs. Please try again.", "error")
+        return redirect(url_for("saved_pis"))
     
     return render_template("compare_labs.html", labs=labs_to_compare)
 
