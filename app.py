@@ -805,7 +805,17 @@ def account():
         return redirect(url_for("login"))
     
     user = User.query.get(user_id)
+    if not user:
+        flash("User not found. Please log in again.", "error")
+        session.pop("user_id", None)
+        return redirect(url_for("login"))
+    
     profile = UserProfile.query.filter_by(user_id=user_id).first()
+    # Ensure profile_completeness has a default value if profile exists
+    if profile and profile.profile_completeness is None:
+        profile.profile_completeness = 0
+        db.session.commit()
+    
     return render_template("account.html", user=user, profile=profile)
 
 @app.route("/login", methods=["GET", "POST"])
