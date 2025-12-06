@@ -87,17 +87,19 @@
               {% for pi in faculty_list %}
                 <tr class="pi-row" data-name="{{ pi.name|lower }}" data-institution="{{ pi.school|lower }}" data-research="{{ pi.research_areas|lower }}">
                   <td>
-                    {% if 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
-                      <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
-                      </svg>
-                    {% elif 'MIT' in (pi.school or '') or pi.school == 'MIT' %}
-                      <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
-                      </svg>
-                    {% else %}
-                      <div class="table-logo">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
-                    {% endif %}
+                    <div class="logo-container">
+                      {% if 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
+                        <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                          <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                        </svg>
+                      {% elif 'MIT' in (pi.school or '') or pi.school == 'MIT' %}
+                        <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                          <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
+                        </svg>
+                      {% else %}
+                        <div class="table-logo">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
+                      {% endif %}
+                    </div>
                   </td>
                   <td>
                     <div class="table-lab-name">{{ pi.name }}</div>

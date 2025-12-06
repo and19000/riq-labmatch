@@ -459,16 +459,20 @@ body {
 
 /* Harvard Logo Small (for table) */
 .harvard-logo-small {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   opacity: 0.9;
+  flex-shrink: 0;
+  display: block;
 }
 
 /* MIT Logo Small (for table) */
 .mit-logo-small {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   opacity: 0.9;
+  flex-shrink: 0;
+  display: block;
 }
 
 .hero-content {
@@ -1138,6 +1142,22 @@ body {
   vertical-align: middle;
 }
 
+/* Logo cell styling - ensure proper centering */
+.labs-table td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Logo container for consistent centering */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 44px;
+}
+
 .labs-table tbody tr {
   transition: all var(--transition-fast);
   cursor: pointer;
@@ -1152,8 +1172,8 @@ body {
 }
 
 .table-logo {
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: var(--bg-elevated);
   border: 2px solid var(--border-subtle);
@@ -1162,21 +1182,26 @@ body {
   justify-content: center;
   font-weight: 700;
   color: var(--accent);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  margin: 0 auto;
 }
 
 /* PI Logo Styles */
 .pi-logo {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   flex-shrink: 0;
-  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .pi-logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius-sm);
   border: 2px solid var(--border-subtle);
 }
@@ -1184,15 +1209,16 @@ body {
 .pi-logo-placeholder {
   width: 100%;
   height: 100%;
-  border-radius: var(--radius-sm);
+  border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), #8b5cf6);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
   color: var(--text-main);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   border: 2px solid var(--border-subtle);
+  flex-shrink: 0;
 }
 
 .pi-card-layout {
@@ -2041,8 +2067,28 @@ footer {
   }
   
   .harvard-logo-small {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .mit-logo-small {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .table-logo {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .pi-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .pi-logo-placeholder {
+    font-size: 1.2rem;
   }
   
   .features-deepmind-grid {
