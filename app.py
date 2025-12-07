@@ -1,6 +1,8 @@
 import os
 import json
+import re
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from flask_sqlalchemy import SQLAlchemy
@@ -103,6 +105,103 @@ def allowed_file(filename: str) -> bool:
         "." in filename
         and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
     )
+
+
+def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
+    """Process a batch of faculty members and return match scores."""
+    try:
+        # Create summaries for this batch
+        faculty_summaries = []
+        for pi in faculty_batch:
+            summary = f"- {pi['name']} ({pi['id']}): {pi['title']}\n"
+            summary += f"  Department: {pi['department']}, {pi['school']}\n"
+            summary += f"  Research Areas: {pi['research_areas']}\n"
+            if pi.get('lab_techniques'):
+                summary += f"  Lab Techniques: {pi['lab_techniques']}\n"
+            if pi.get('h_index'):
+                summary += f"  H-index: {pi['h_index']}\n"
+            summary += f"  Location: {pi.get('specific_location', pi['location'])}\n"
+            faculty_summaries.append(summary)
+        
+        faculty_text = "\n".join(faculty_summaries)
+        
+        prompt = f"""You are an expert research lab matching algorithm. Your task is to analyze a student's resume and match them with the most compatible research labs.
+
+STUDENT RESUME/CV INFORMATION:
+{resume_info}
+
+AVAILABLE RESEARCH LABS (Batch {batch_num + 1} of {total_batches}):
+{faculty_text}
+
+MATCHING CRITERIA (weight these factors):
+1. Research area alignment (40%): How well do the student's skills/interests match the lab's research areas?
+2. Technical skills match (25%): Do the student's technical skills align with lab techniques used?
+3. Academic level fit (15%): Is the student's level (undergrad/grad) appropriate for this lab?
+4. Department alignment (10%): Does the student's background match the department?
+5. Research impact (10%): Consider the PI's H-index and research prominence
+
+SCORING GUIDELINES:
+- 90-100: Exceptional match - strong alignment across all criteria
+- 80-89: Excellent match - very good fit with minor gaps
+- 70-79: Good match - solid fit with some areas of alignment
+- 60-69: Moderate match - some relevant overlap
+- 50-59: Weak match - minimal but potential alignment
+- Below 50: Poor match - exclude from results
+
+For each lab, analyze:
+1. Specific skills/techniques mentioned in resume that match the lab
+2. Research interests alignment
+3. Academic background compatibility
+4. Potential for meaningful contribution
+
+Return ONLY a valid JSON array with this exact format:
+[
+  {{"pi_id": "harvard-cs-1", "score": 92, "reason": "Exceptional match: Student's ML experience in healthcare directly aligns with lab's focus on healthcare AI. Strong Python skills match computational requirements. Undergraduate research experience shows readiness."}},
+  {{"pi_id": "harvard-bio-2", "score": 78, "reason": "Good match: Background in molecular biology aligns with research areas. Some relevant techniques overlap. Would benefit from additional training in specific methods."}}
+]
+
+IMPORTANT:
+- Rank from highest to lowest score
+- Only include labs with score >= 50
+- Provide specific, detailed reasons referencing actual resume content
+- Return valid JSON only, no markdown or extra text"""
+
+        completion = client.chat.completions.create(
+            model=GPT_MODEL,
+            messages=[
+                {"role": "system", "content": "You are an expert research lab matching algorithm. You analyze student resumes and match them with compatible labs using weighted criteria. Always return valid JSON arrays with no markdown formatting."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.2,
+        )
+        
+        response_text = completion.choices[0].message.content
+        
+        # Try to extract JSON array from response
+        json_match = re.search(r'\[.*\]', response_text, re.DOTALL)
+        if json_match:
+            try:
+                matches_data = json.loads(json_match.group())
+                return matches_data
+            except json.JSONDecodeError:
+                # Try to find matches key if it's a JSON object
+                try:
+                    full_json = json.loads(response_text)
+                    if 'matches' in full_json:
+                        return full_json['matches']
+                    elif isinstance(full_json, list):
+                        return full_json
+                    else:
+                        return []
+                except:
+                    return []
+        else:
+            return []
+            
+    except Exception as e:
+        # Return empty list on error - will be handled by caller
+        print(f"Error processing batch {batch_num + 1}: {str(e)}")
+        return []
 
 
 @app.route("/test-gpt")
@@ -211,106 +310,46 @@ def matches():
     
     all_faculty = load_faculty()
     
-    # Use AI to rank labs based on resume with improved algorithm
+    # Prepare resume info
+    if use_demo:
+        resume_info = """Computer Science major with strong background in machine learning and neuroscience. 
+        Research experience: 2 years in computational neuroscience lab working with neural networks and electrophysiology data.
+        Skills: Python, PyTorch, MATLAB, data analysis, statistical modeling.
+        Interests: Computational neuroscience, brain-computer interfaces, AI applications in healthcare.
+        Publications: 1 first-author paper in preparation on neural decoding algorithms."""
+    else:
+        resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
+    
+    # Use parallel batch processing to speed up matching
     try:
-        # Create detailed summaries with all relevant information
-        faculty_summaries = []
-        for pi in all_faculty:
-            summary = f"- {pi['name']} ({pi['id']}): {pi['title']}\n"
-            summary += f"  Department: {pi['department']}, {pi['school']}\n"
-            summary += f"  Research Areas: {pi['research_areas']}\n"
-            if pi.get('lab_techniques'):
-                summary += f"  Lab Techniques: {pi['lab_techniques']}\n"
-            if pi.get('h_index'):
-                summary += f"  H-index: {pi['h_index']}\n"
-            summary += f"  Location: {pi.get('specific_location', pi['location'])}\n"
-            faculty_summaries.append(summary)
+        # Split faculty into batches for parallel processing
+        # Use batches of 15-20 faculty members for optimal performance
+        BATCH_SIZE = 15
+        faculty_to_process = all_faculty[:150]  # Process up to 150 labs
+        batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
+        total_batches = len(batches)
         
-        faculty_text = "\n".join(faculty_summaries[:150])  # Process more labs
-        
-        if use_demo:
-            resume_info = """Computer Science major with strong background in machine learning and neuroscience. 
-            Research experience: 2 years in computational neuroscience lab working with neural networks and electrophysiology data.
-            Skills: Python, PyTorch, MATLAB, data analysis, statistical modeling.
-            Interests: Computational neuroscience, brain-computer interfaces, AI applications in healthcare.
-            Publications: 1 first-author paper in preparation on neural decoding algorithms."""
-        else:
-            resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
-        
-        prompt = f"""You are an expert research lab matching algorithm. Your task is to analyze a student's resume and match them with the most compatible research labs.
-
-STUDENT RESUME/CV INFORMATION:
-{resume_info}
-
-AVAILABLE RESEARCH LABS:
-{faculty_text}
-
-MATCHING CRITERIA (weight these factors):
-1. Research area alignment (40%): How well do the student's skills/interests match the lab's research areas?
-2. Technical skills match (25%): Do the student's technical skills align with lab techniques used?
-3. Academic level fit (15%): Is the student's level (undergrad/grad) appropriate for this lab?
-4. Department alignment (10%): Does the student's background match the department?
-5. Research impact (10%): Consider the PI's H-index and research prominence
-
-SCORING GUIDELINES:
-- 90-100: Exceptional match - strong alignment across all criteria
-- 80-89: Excellent match - very good fit with minor gaps
-- 70-79: Good match - solid fit with some areas of alignment
-- 60-69: Moderate match - some relevant overlap
-- 50-59: Weak match - minimal but potential alignment
-- Below 50: Poor match - exclude from results
-
-For each lab, analyze:
-1. Specific skills/techniques mentioned in resume that match the lab
-2. Research interests alignment
-3. Academic background compatibility
-4. Potential for meaningful contribution
-
-Return ONLY a valid JSON array with this exact format:
-[
-  {{"pi_id": "harvard-cs-1", "score": 92, "reason": "Exceptional match: Student's ML experience in healthcare directly aligns with lab's focus on healthcare AI. Strong Python skills match computational requirements. Undergraduate research experience shows readiness."}},
-  {{"pi_id": "harvard-bio-2", "score": 78, "reason": "Good match: Background in molecular biology aligns with research areas. Some relevant techniques overlap. Would benefit from additional training in specific methods."}}
-]
-
-IMPORTANT:
-- Rank from highest to lowest score
-- Only include labs with score >= 50
-- Provide specific, detailed reasons referencing actual resume content
-- Return valid JSON only, no markdown or extra text"""
-
-        completion = client.chat.completions.create(
-            model=GPT_MODEL,
-            messages=[
-                {"role": "system", "content": "You are an expert research lab matching algorithm. You analyze student resumes and match them with compatible labs using weighted criteria. Always return valid JSON arrays with no markdown formatting."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.2,  # Lower temperature for more consistent scoring
-            response_format={"type": "json_object"} if hasattr(client.chat.completions.create, '__annotations__') else None
-        )
-        
-        import re
-        response_text = completion.choices[0].message.content
-        
-        # Try to extract JSON array from response
-        # Handle both direct JSON arrays and wrapped JSON objects
-        json_match = re.search(r'\[.*\]', response_text, re.DOTALL)
-        if json_match:
-            try:
-                matches_data = json.loads(json_match.group())
-            except json.JSONDecodeError:
-                # Try to find matches key if it's a JSON object
+        # Process batches in parallel using ThreadPoolExecutor
+        all_matches_data = []
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            # Submit all batch processing tasks
+            future_to_batch = {
+                executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
+                for idx, batch in enumerate(batches)
+            }
+            
+            # Collect results as they complete
+            for future in as_completed(future_to_batch):
+                batch_idx = future_to_batch[future]
                 try:
-                    full_json = json.loads(response_text)
-                    if 'matches' in full_json:
-                        matches_data = full_json['matches']
-                    elif isinstance(full_json, list):
-                        matches_data = full_json
-                    else:
-                        matches_data = []
-                except:
-                    matches_data = []
-        else:
-            matches_data = []
+                    batch_results = future.result()
+                    if batch_results:
+                        all_matches_data.extend(batch_results)
+                except Exception as e:
+                    print(f"Error in batch {batch_idx + 1}: {str(e)}")
+                    # Continue processing other batches even if one fails
+        
+        matches_data = all_matches_data
             
     except Exception as e:
         # Fallback: return all labs without ranking if AI fails
