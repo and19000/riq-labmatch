@@ -2852,31 +2852,42 @@ footer {
 
 /* Draft Email Page Layout */
 .draft-email-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 400px;
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 200px);
+  background: var(--bg);
+  margin: -2rem;
+  padding: 2rem 3rem;
   gap: 3rem;
-  align-items: start;
-  min-height: 60vh;
+  width: calc(100% + 4rem);
+  max-width: none;
 }
 
 .draft-email-content {
-  flex: 1;
+  max-width: 36rem;
+  width: 100%;
+  flex-shrink: 0;
+  padding-right: 2rem;
 }
 
 .draft-email-graphic {
   position: relative;
-  height: 600px;
+  flex: 1;
+  min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background: var(--bg);
 }
 
 /* Black Hole / Space Theme */
 .blackhole-container {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
+  min-width: 600px;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2884,8 +2895,10 @@ footer {
 
 .blackhole-core {
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 15%;
+  height: 15%;
+  min-width: 120px;
+  min-height: 120px;
   border-radius: 50%;
   background: radial-gradient(circle, #0a0e1a 0%, #05060a 40%, #000000 100%);
   box-shadow: 
@@ -2904,8 +2917,10 @@ footer {
 }
 
 .ring-1 {
-  width: 200px;
-  height: 200px;
+  width: 35%;
+  height: 35%;
+  min-width: 200px;
+  min-height: 200px;
   border-top-color: rgba(59, 130, 246, 0.6);
   border-right-color: rgba(99, 102, 241, 0.5);
   border-bottom-color: rgba(139, 124, 248, 0.4);
@@ -2916,8 +2931,10 @@ footer {
 }
 
 .ring-2 {
-  width: 300px;
-  height: 300px;
+  width: 55%;
+  height: 55%;
+  min-width: 300px;
+  min-height: 300px;
   border-top-color: rgba(99, 102, 241, 0.5);
   border-right-color: rgba(139, 124, 248, 0.4);
   border-bottom-color: rgba(59, 130, 246, 0.5);
@@ -2929,8 +2946,10 @@ footer {
 }
 
 .ring-3 {
-  width: 400px;
-  height: 400px;
+  width: 75%;
+  height: 75%;
+  min-width: 400px;
+  min-height: 400px;
   border-top-color: rgba(139, 124, 248, 0.4);
   border-right-color: rgba(59, 130, 246, 0.3);
   border-bottom-color: rgba(99, 102, 241, 0.4);
@@ -2999,6 +3018,53 @@ footer {
   50% {
     opacity: 1;
     transform: scale(1.5);
+  }
+}
+
+/* Responsive styles for Draft Email Page */
+@media (max-width: 1024px) {
+  .draft-email-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .draft-email-content {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .draft-email-graphic {
+    min-height: 400px;
+    height: 400px;
+  }
+
+  .blackhole-container {
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+    min-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .draft-email-wrapper {
+    margin: -2rem -1rem;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .draft-email-graphic {
+    min-height: 300px;
+    height: 300px;
+  }
+
+  .blackhole-container {
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
   }
 }
 
