@@ -150,8 +150,8 @@ def init_db():
             # Or if migration fails, continue anyway
             print(f"Migration check: {e}")
 
+# Initialize the database when the app starts
 init_db()
->>>>>>> 3b602bd8c26eba064138860e2a2ff2d93d180af3
 
 # Set up paths to our data files
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
@@ -709,7 +709,6 @@ def draft_email():
                         # Only include the first 500 characters to keep the prompt manageable
                         resume_context = f"\nStudent's Resume Summary: {user_resume.resume_text[:500]}"
                     
-<<<<<<< HEAD
                     # Build a detailed prompt for the AI to generate a personalized email
                     # We include all the PI's information and the student's background
                     # The email should sound natural, human, and conversational - not robotic, overly formal, or edgy
@@ -783,18 +782,6 @@ Thank you for your time and consideration,
                 except Exception as e:
                     error = f"Error generating email draft: {str(e)}"
     
-<<<<<<< HEAD
-    # If no PI is selected yet, populate the dropdown with only the user's saved PIs
-    # This way they can only draft emails to PIs they've already saved
-    all_faculty = None
-    saved_pis_list = None
-    if not pi:
-        all_faculty_data = load_faculty()
-        pi_by_id = {fac["id"]: fac for fac in all_faculty_data}
-        saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
-        saved_pis_list = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
-        saved_pis_list = [p for p in saved_pis_list if p]  # Remove any None values
-    
     # Check if this is an AJAX/JSON request (for dynamic email generation)
     wants_json = (
         request.headers.get('X-Requested-With') == 'XMLHttpRequest' or
@@ -828,14 +815,13 @@ Thank you for your time and consideration,
         saved_pis_data = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
         # Filter out None values in case some IDs weren't found
         saved_pis_data = [pi for pi in saved_pis_data if pi is not None]
->>>>>>> 3b602bd8c26eba064138860e2a2ff2d93d180af3
     
     return render_template(
         "draft_email.html",
         error=error,
         draft=draft,
         pi=pi,
-        saved_pis=saved_pis_data if 'saved_pis_data' in locals() else saved_pis_list,
+        saved_pis=saved_pis_data,
         student_name=request.form.get("student_name", ""),
         student_email=request.form.get("student_email", ""),
         student_background=request.form.get("student_background", ""),

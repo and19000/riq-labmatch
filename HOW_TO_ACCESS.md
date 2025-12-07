@@ -20,7 +20,33 @@ http://127.0.0.1:5001
 
 ## If the Server Isn't Running
 
-If you need to start the server, run these commands in your terminal:
+### Option 1: Using the Startup Script (Recommended)
+
+**To run in the foreground** (you'll see output, but server stops when you close terminal):
+```bash
+cd /Users/kerrynguyen/Projects/riq-labmatch
+./START_SERVER.sh
+```
+
+**To run in the background** (server keeps running even if you close terminal):
+```bash
+cd /Users/kerrynguyen/Projects/riq-labmatch
+./START_SERVER.sh --background
+```
+
+The background mode will:
+- Keep the server running even after you close the terminal
+- Save logs to `server.log` file
+- Allow you to access the website anytime
+
+**To stop a background server:**
+```bash
+pkill -f 'python app.py'
+```
+
+### Option 2: Manual Start
+
+If you need to start the server manually, run these commands:
 
 ```bash
 cd /Users/kerrynguyen/Projects/riq-labmatch
@@ -33,6 +59,8 @@ You should see:
  * Running on http://127.0.0.1:5001
 ```
 Then open your browser to `http://localhost:5001`
+
+**Note:** If you close the terminal, the server will stop. Use the `--background` option above to keep it running.
 
 
 ## Troubleshooting
