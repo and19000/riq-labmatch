@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <div class="homepage-wrapper">
+    <!-- Ocean Wave Background - flows across entire page -->
+    <div class="ocean-waves">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+    </div>
+  
   <div class="hero-section">
     <div class="torus-container">
       <div class="torus-ring torus-outer">
@@ -28,7 +36,7 @@
     <div class="features-deepmind-grid">
       <div class="feature-deepmind-card">
         <div class="feature-image gradient-ai">
-          <div class="feature-icon">🤖</div>
+          <img src="{{ url_for('static', filename='images/ai-matching.svg') }}" alt="AI Matching" class="feature-icon-image">
         </div>
         <div class="feature-content">
           <h3>AI-Powered Matches</h3>
@@ -43,7 +51,7 @@
 
       <div class="feature-deepmind-card">
         <div class="feature-image gradient-email">
-          <div class="feature-icon">📧</div>
+          <img src="{{ url_for('static', filename='images/email-drafting.svg') }}" alt="Email Drafting" class="feature-icon-image">
         </div>
         <div class="feature-content">
           <h3>Email Drafting</h3>
@@ -58,7 +66,7 @@
 
       <div class="feature-deepmind-card">
         <div class="feature-image gradient-browse">
-          <div class="feature-icon">🔍</div>
+          <img src="{{ url_for('static', filename='images/browse-labs.svg') }}" alt="Browse Labs" class="feature-icon-image">
         </div>
         <div class="feature-content">
           <h3>Browse & Save Labs</h3>
@@ -104,5 +112,6 @@
         <a href="{{ url_for('saved_pis') }}" class="btn-secondary btn-large">View Saved PIs</a>
       </div>
     {% endif %}
+  </div>
   </div>
 {% endblock %}

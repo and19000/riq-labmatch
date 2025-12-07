@@ -11,23 +11,20 @@
       <nav class="top-nav">
         <div class="nav-left">
           <a href="{{ url_for('index') }}" class="brand">
-            <span class="riq-logo">
-              <span class="riq-letter r">R</span>
-              <span class="riq-letter i">I</span>
-              <span class="riq-letter q">Q</span>
-            </span>
+            <img src="{{ url_for('static', filename='images/riq-logo.svg') }}" alt="RIQ" class="riq-logo-image">
+            <span class="riq-brand-text">RIQ</span>
           </a>
         </div>
         <div class="nav-right">
-            <a href="{{ url_for('index') }}"><span class="nav-icon">🏠</span> Home</a>
-            <a href="{{ url_for('general') }}"><span class="nav-icon">🔬</span> Browse Labs</a>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('general') }}">Browse Labs</a>
             {% if session.get('user_id') %}
-              <a href="{{ url_for('matches') }}"><span class="nav-icon">🎯</span> My Matches</a>
-              <a href="{{ url_for('saved_pis') }}"><span class="nav-icon">⭐</span> Saved PIs</a>
+              <a href="{{ url_for('matches') }}">My Matches</a>
+              <a href="{{ url_for('saved_pis') }}">Saved PIs</a>
             {% endif %}
-            <a href="{{ url_for('help_page') }}"><span class="nav-icon">❓</span> Help</a>
+            <a href="{{ url_for('help_page') }}">Help</a>
             {% if session.get('user_id') %}
-              <a href="{{ url_for('account') }}"><span class="nav-icon">👤</span> {{ session.get('username', 'Account') }}</a>
+              <a href="{{ url_for('account') }}">{{ session.get('username', 'Account') }}</a>
               <a href="{{ url_for('logout') }}">Logout</a>
             {% else %}
               <a href="{{ url_for('login') }}">Log in</a>

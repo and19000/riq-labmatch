@@ -3,9 +3,9 @@
   --bg: #05060a;
   --bg-elevated: #0f1117;
   --bg-card: #1a1d26;
-  --accent: #3b82f6;
-  --accent-soft: rgba(59, 130, 246, 0.16);
-  --accent-hover: #2563eb;
+  --accent: #8b7cf8;
+  --accent-soft: rgba(139, 124, 248, 0.2);
+  --accent-hover: #7c6cf0;
   --border-subtle: rgba(148, 163, 184, 0.35);
   --border-strong: rgba(148, 163, 184, 0.5);
   --text-main: #f9fafb;
@@ -63,64 +63,44 @@ body {
   }
   
 .brand {
-  text-decoration: none;
+    text-decoration: none;
   margin-right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
   transition: transform var(--transition-fast);
 }
 
 .brand:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
-.riq-logo {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
+.riq-logo-image {
+  height: 42px;
+  width: auto;
+  display: block;
+  transition: transform var(--transition-smooth);
+  filter: drop-shadow(0 2px 8px rgba(139, 124, 248, 0.3));
+}
+
+.riq-brand-text {
   font-size: 1.8rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-}
-
-.riq-letter {
-  display: inline-block;
+  background: linear-gradient(135deg, #3b82f6, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   transition: transform var(--transition-fast);
-  position: relative;
 }
 
-.riq-letter.r {
-  color: #3b82f6;
-  background: linear-gradient(135deg, #3b82f6, #60a5fa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.brand:hover .riq-logo-image {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 16px rgba(139, 124, 248, 0.5));
 }
 
-.riq-letter.i {
-  color: #8b5cf6;
-  background: linear-gradient(135deg, #8b5cf6, #a78bfa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.riq-letter.q {
-  color: #f59e0b;
-  background: linear-gradient(135deg, #f59e0b, #fbbf24);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.brand:hover .riq-letter.r {
-  transform: translateY(-2px) rotate(-5deg);
-}
-
-.brand:hover .riq-letter.i {
-  transform: translateY(-3px) scale(1.1);
-}
-
-.brand:hover .riq-letter.q {
-  transform: translateY(-2px) rotate(5deg);
+.brand:hover .riq-brand-text {
+  transform: translateY(-1px);
 }
 
 .nav-right {
@@ -157,18 +137,6 @@ body {
   width: 100%;
 }
 
-.nav-icon {
-  display: inline-block;
-  margin-right: 0.4rem;
-  font-size: 1rem;
-  line-height: 1;
-  transition: transform var(--transition-fast);
-  vertical-align: middle;
-}
-
-.top-nav a:hover .nav-icon {
-  transform: translateY(-1px) scale(1.05);
-}
 
 .btn-nav-signup {
   background: var(--accent);
@@ -181,7 +149,8 @@ body {
 .btn-nav-signup:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 4px 12px rgba(139, 124, 248, 0.5),
+              0 0 30px rgba(139, 124, 248, 0.3);
 }
 
 .btn-nav-signup::after {
@@ -307,7 +276,8 @@ body {
 .btn-primary:hover {
   background: var(--accent-hover);
   transform: scale(1.05) translateY(-2px);
-  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 8px 24px rgba(139, 124, 248, 0.5), 
+              0 0 40px rgba(139, 124, 248, 0.3);
 }
 
 .btn-primary:active {
@@ -360,7 +330,7 @@ body {
   border-color: var(--accent);
   color: var(--accent);
   transform: scale(1.05) translateY(-2px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 4px 12px rgba(139, 124, 248, 0.3);
 }
 
 /* Hero Section - Landing Page */
@@ -376,8 +346,82 @@ body {
   overflow: hidden;
   background: radial-gradient(ellipse at center, 
     rgba(139, 92, 246, 0.08) 0%,
-    rgba(59, 130, 246, 0.05) 40%,
+    rgba(139, 124, 248, 0.08) 40%,
     transparent 70%);
+}
+
+/* Homepage Wrapper for Waves */
+.homepage-wrapper {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Ocean Wave Background Animation */
+.ocean-waves {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.wave {
+  position: absolute;
+  width: 300%;
+  height: 250px;
+  bottom: -100px;
+  background: linear-gradient(180deg, 
+    transparent 0%,
+    rgba(59, 130, 246, 0.12) 20%,
+    rgba(99, 102, 241, 0.18) 40%,
+    rgba(139, 92, 246, 0.22) 50%,
+    rgba(99, 102, 241, 0.18) 60%,
+    rgba(59, 130, 246, 0.12) 80%,
+    transparent 100%
+  );
+  border-radius: 100%;
+  animation: waveMove 10s linear infinite;
+}
+
+.wave1 {
+  left: -100%;
+  height: 220px;
+  opacity: 0.9;
+  animation-delay: 0s;
+}
+
+.wave2 {
+  left: -100%;
+  height: 240px;
+  opacity: 0.7;
+  animation-delay: -3.3s;
+  filter: blur(2px);
+}
+
+.wave3 {
+  left: -100%;
+  height: 200px;
+  opacity: 0.6;
+  animation-delay: -6.6s;
+  filter: blur(3px);
+}
+
+@keyframes waveMove {
+  0% {
+    transform: translateX(0) translateY(0);
+    left: -100%;
+  }
+  50% {
+    transform: translateX(0) translateY(-15px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+    left: 100%;
+  }
 }
 
 /* Spinning Torus Background (Lila Sciences inspired - Purple & Blue) */
@@ -776,15 +820,15 @@ body {
 }
 
 .gradient-ai {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.3));
+  background: linear-gradient(135deg, rgba(139, 124, 248, 0.15), rgba(99, 102, 241, 0.25));
 }
 
 .gradient-email {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(59, 130, 246, 0.3));
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(139, 124, 248, 0.25));
 }
 
 .gradient-browse {
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(239, 68, 68, 0.3));
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.15), rgba(139, 124, 248, 0.25));
 }
 
 .feature-icon {
@@ -793,8 +837,21 @@ body {
   transition: transform var(--transition-smooth);
 }
 
+.feature-icon-image {
+  width: 120px;
+  height: 120px;
+  opacity: 0.9;
+  transition: transform var(--transition-smooth);
+  filter: drop-shadow(0 0 20px rgba(139, 124, 248, 0.5));
+}
+
 .feature-deepmind-card:hover .feature-icon {
   transform: scale(1.1) rotate(5deg);
+}
+
+.feature-deepmind-card:hover .feature-icon-image {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 30px rgba(139, 124, 248, 0.8));
 }
 
 .feature-content {
@@ -869,7 +926,10 @@ body {
 
 .stats-section h2 {
   margin-bottom: 2rem;
-  color: var(--text-main);
+  background: linear-gradient(135deg, #3b82f6, #6366f1, #8b5cf6, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .stats-grid {
@@ -886,7 +946,7 @@ body {
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--accent), #8b5cf6);
+  background: linear-gradient(135deg, #3b82f6, #6366f1, #8b5cf6, #a78bfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -910,7 +970,10 @@ body {
 
 .cta-section h2 {
   margin-bottom: 1rem;
-  color: var(--text-main);
+  background: linear-gradient(135deg, #3b82f6, #6366f1, #8b5cf6, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: 2rem;
 }
 
@@ -2099,7 +2162,7 @@ footer {
     gap: 1rem;
     padding: 1rem;
   }
-  
+
   .nav-right {
     flex-wrap: wrap;
     justify-content: center;
@@ -2109,7 +2172,7 @@ footer {
   .page {
     padding: 1rem;
   }
-  
+
   .hero-section h1 {
     font-size: 2.5rem;
   }
