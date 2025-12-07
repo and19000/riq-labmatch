@@ -83,12 +83,12 @@ def init_db():
     with app.app_context():
         db.create_all()
         
-        # Migration: Add username column to User table if it doesn't exist
+        # Run migrations for existing tables
         try:
             from sqlalchemy import inspect, text
             inspector = inspect(db.engine)
             
-            # Check if user table exists
+            # Migration: Add username column to User table if it doesn't exist
             if 'user' in inspector.get_table_names():
                 columns = [col['name'] for col in inspector.get_columns('user')]
                 
@@ -98,6 +98,21 @@ def init_db():
                     with db.engine.begin() as conn:
                         conn.execute(text("ALTER TABLE user ADD COLUMN username VARCHAR(80)"))
                     print("Migration: Added username column to user table")
+            
+            # Migration: Add year_in_school column to user_profile table if it doesn't exist
+            if 'user_profile' in inspector.get_table_names():
+                columns = [col['name'] for col in inspector.get_columns('user_profile')]
+                
+                if 'year_in_school' not in columns:
+                    with db.engine.begin() as conn:
+                        conn.execute(text("ALTER TABLE user_profile ADD COLUMN year_in_school VARCHAR(50)"))
+                    print("Migration: Added year_in_school column to user_profile table")
+                
+                # Migration: Update looking_for column size if it's still 255
+                # Check the column type - SQLite doesn't enforce VARCHAR lengths, but we update for consistency
+                # Since SQLite stores everything as TEXT, we'll just ensure the column exists with proper size
+                # The model definition will handle the size going forward
+                
         except Exception as e:
             # If table doesn't exist yet, create_all will handle it
             # Or if migration fails, continue anyway
