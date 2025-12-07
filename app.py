@@ -619,8 +619,8 @@ def draft_email():
                     if user_resume and user_resume.resume_text:
                         resume_context = f"\nStudent's Resume Summary: {user_resume.resume_text[:500]}"
                     
-                    # Enhanced email generation with better context
-                    prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}.
+                    # Enhanced email generation with better context - natural and human tone
+                    prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}. The email should sound natural, human, and conversational - not robotic, overly formal, or edgy.
 
 PI INFORMATION:
 - Name: {pi['name']}
@@ -640,34 +640,51 @@ STUDENT INFORMATION:
 - Specific Research Interest: {research_interest if research_interest else f'Interested in {pi["research_areas"]}'}
 {resume_context}
 
-EMAIL REQUIREMENTS:
-1. Subject line: Clear, specific, and professional (e.g., "Research Opportunity Inquiry - [Your Name]")
-2. Opening: Brief introduction with your name, academic level, and institution
-3. Body paragraph 1: Express specific interest in their research - mention 1-2 specific research areas or papers
-4. Body paragraph 2: Highlight relevant background/skills that align with their lab
-5. Body paragraph 3: Explain what you hope to contribute and learn
-6. Closing: Polite request for a meeting or conversation opportunity
-7. Keep total length under 250 words
-8. Be genuine, enthusiastic, but not overly casual
-9. Show you've researched their work specifically
+EMAIL TONE & STYLE (CRITICAL - base on this example):
+- Start with a warm, natural greeting like "I hope you're doing well" or "I hope this email finds you well"
+- Write conversationally, as if speaking to a mentor, not a corporate executive
+- Be specific about what interests you (mention research areas, papers if known, or specific techniques)
+- Show genuine interest without being overly enthusiastic or gushing
+- Be humble but confident - acknowledge what you don't know while showing willingness to learn
+- Mention specific courses, skills, or experiences that are relevant
+- Be direct about what you're asking for (research opportunity, joining a project, etc.)
+- Keep it professional but warm - avoid corporate jargon or overly formal language
+- End naturally with "Thank you for your time and consideration" or similar
+
+EMAIL STRUCTURE:
+1. Subject line: Clear and specific (e.g., "Research Opportunity Inquiry - [Your Name]" or "Inquiry About Research Opportunities")
+2. Opening: Warm greeting + brief introduction (name, year/level, institution, major/field)
+3. Body paragraph 1: Express specific interest in their research - mention specific research areas, papers, or techniques that interest you. Explain why it's meaningful to you.
+4. Body paragraph 2: Your relevant background - courses, skills, programming languages, research experience. Mention time commitment if relevant (e.g., "10+ hours per week"). Show you're a determined learner.
+5. Closing: Direct but polite request + mention resume if attached + thank you
+
+IMPORTANT GUIDELINES:
+- Sound like a real student writing to a professor, not a business email
+- Be specific and genuine - avoid generic phrases
+- Keep total length around 200-300 words
+- Avoid: "I am writing to inquire", "I would like to take this opportunity", overly formal corporate language
+- Use: Natural transitions, specific details, genuine interest, conversational tone
+- Show you've done your research on their work
+- Be authentic and human - write as you would speak to a respected mentor
 
 Format the response as:
 Subject: [subject line]
 
 Dear Dr. [Last Name],
 
-[email body]
+[email body - natural, conversational, human tone]
 
-Best regards,
+Thank you for your time and consideration,
+
 {student_name}"""
 
                     completion = client.chat.completions.create(
                         model=GPT_MODEL,
                         messages=[
-                            {"role": "system", "content": "You are a helpful assistant that writes professional academic emails."},
+                            {"role": "system", "content": "You are a helpful assistant that writes natural, human-sounding academic emails. Write as a real student would write to a professor - conversational, genuine, and authentic. Avoid corporate jargon, overly formal language, or robotic phrasing."},
                             {"role": "user", "content": prompt}
                         ],
-                        temperature=0.7,
+                        temperature=0.8,  # Slightly higher temperature for more natural variation
                     )
                     draft = completion.choices[0].message.content
                 except Exception as e:

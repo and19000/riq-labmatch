@@ -8,27 +8,11 @@
       <span></span>
       <span></span>
     </div>
-    <p>Making matches...</p>
+    <p>Thinking...</p>
   </div>
   
-  <script>
-    // Hide loading overlay when page is fully loaded
-    (function() {
-      const loadingOverlay = document.getElementById('matches-loading');
-      if (loadingOverlay && document.readyState === 'complete') {
-        setTimeout(() => {
-          loadingOverlay.style.display = 'none';
-        }, 300);
-      } else if (loadingOverlay) {
-        window.addEventListener('load', function() {
-          setTimeout(() => {
-            loadingOverlay.style.display = 'none';
-          }, 300);
-        });
-      }
-    })();
-  </script>
-
+  <!-- Content wrapper - hidden initially, shown after page loads -->
+  <div id="matches-content" style="opacity: 0; transition: opacity 0.3s ease-in;">
   <h1>Your Lab Matches</h1>
   <p class="subtitle">AI-powered matches based on your resume</p>
 
@@ -158,8 +142,34 @@
       <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
     </div>
   {% endif %}
+  </div> <!-- End matches-content wrapper -->
 
   <script>
+    // Show content and hide loading overlay when page is fully loaded
+    (function() {
+      const loadingOverlay = document.getElementById('matches-loading');
+      const contentWrapper = document.getElementById('matches-content');
+      
+      function showContent() {
+        if (loadingOverlay) {
+          loadingOverlay.style.display = 'none';
+        }
+        if (contentWrapper) {
+          contentWrapper.style.opacity = '1';
+        }
+      }
+      
+      // If page is already loaded
+      if (document.readyState === 'complete') {
+        setTimeout(showContent, 300);
+      } else {
+        // Wait for page to fully load
+        window.addEventListener('load', function() {
+          setTimeout(showContent, 300);
+        });
+      }
+    })();
+    
     // Handle AJAX save PI functionality
     document.addEventListener('DOMContentLoaded', function() {
       const saveButtons = document.querySelectorAll('.save-pi-btn');
