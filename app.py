@@ -2,7 +2,11 @@
 import os
 import json
 import re
-from datetime import datetime
+import secrets
+import smtplib
+from datetime import datetime, timedelta
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Flask handles our web server and routing
@@ -99,6 +103,20 @@ class UserProfile(db.Model):
     profile_completeness = db.Column(db.Integer, default=0)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
+# PasswordResetToken stores temporary tokens for password reset requests
+# These tokens expire after 1 hour for security
+class PasswordResetToken(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
+    token = db.Column(db.String(64), unique=True, nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    expires_at = db.Column(db.DateTime, nullable=False)
+    used = db.Column(db.Boolean, default=False)
+    
+    # Check if the token is still valid (not expired and not used)
+    def is_valid(self):
+        return not self.used and datetime.utcnow() < self.expires_at
+
 # Configuration for file uploads
 UPLOAD_FOLDER = "uploads"
 # Only allow PDF and DOCX files for resumes
@@ -179,6 +197,90 @@ def allowed_file(filename: str) -> bool:
         "." in filename
         and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
     )
+
+# Email Helper Functions - for sending password reset emails
+
+def send_password_reset_email(user_email: str, reset_token: str, base_url: str = None) -> bool:
+    """
+    Send a password reset email to the user.
+    This function uses SMTP to send emails. You'll need to configure SMTP settings in your .env file.
+    
+    Args:
+        user_email: The email address to send the reset link to
+        reset_token: The secure token for password reset
+        base_url: The base URL of the application (for creating the reset link)
+    
+    Returns True if email was sent successfully, False otherwise.
+    """
+    try:
+        # Get the base URL - use the one provided or try to get it from Flask request context
+        if not base_url:
+            try:
+                base_url = request.url_root
+            except RuntimeError:
+                # If we're not in a request context, use localhost as default
+                base_url = "http://localhost:5001/"
+        
+        # Get email configuration from environment variables
+        # For development, you can use Gmail SMTP or another email service
+        smtp_server = os.getenv("SMTP_SERVER", "smtp.gmail.com")
+        smtp_port = int(os.getenv("SMTP_PORT", "587"))
+        smtp_username = os.getenv("SMTP_USERNAME", "")
+        smtp_password = os.getenv("SMTP_PASSWORD", "")
+        from_email = os.getenv("FROM_EMAIL", smtp_username)
+        
+        # Create the reset link
+        reset_link = f"{base_url}reset-password/{reset_token}"
+        
+        # If SMTP credentials aren't configured, we can't send emails
+        # In development, we'll just print the reset link instead
+        if not smtp_username or not smtp_password:
+            print(f"\n{'='*60}")
+            print("PASSWORD RESET EMAIL (SMTP not configured - showing link here):")
+            print(f"To: {user_email}")
+            print(f"Reset Link: {reset_link}")
+            print(f"{'='*60}\n")
+            return True  # Return True so the user flow continues
+        
+        # Create the email message
+        msg = MIMEMultipart()
+        msg['From'] = from_email
+        msg['To'] = user_email
+        msg['Subject'] = "RIQ Lab Matcher - Password Reset Request"
+        
+        # Email body with the reset link
+        body = f"""
+Hello,
+
+You requested to reset your password for your RIQ Lab Matcher account.
+
+Click the link below to reset your password:
+{reset_link}
+
+This link will expire in 1 hour.
+
+If you didn't request this password reset, please ignore this email.
+
+Best regards,
+RIQ Lab Matcher Team
+"""
+        
+        msg.attach(MIMEText(body, 'plain'))
+        
+        # Connect to SMTP server and send email
+        server = smtplib.SMTP(smtp_server, smtp_port)
+        server.starttls()  # Enable encryption
+        server.login(smtp_username, smtp_password)
+        server.send_message(msg)
+        server.quit()
+        
+        return True
+    except Exception as e:
+        # If email sending fails, log the error but don't break the flow
+        print(f"Error sending password reset email: {str(e)}")
+        # In development, still show the link
+        print(f"\nPassword reset link: {request.url_root}reset-password/{reset_token}\n")
+        return False
 
 
 # This function processes a batch of faculty members in parallel for faster matching
@@ -1111,6 +1213,112 @@ def signup():
 
     # GET request
     return render_template("signup.html")
+
+# Password Reset Routes - allow users to reset forgotten passwords
+
+@app.route("/forgot-password", methods=["GET", "POST"])
+def forgot_password():
+    """
+    Handle password reset requests. Users enter their email and receive a reset link.
+    """
+    if request.method == "POST":
+        email = request.form.get("email", "").strip().lower()
+        
+        if not email:
+            error = "Please enter your email address."
+            return render_template("forgot_password.html", error=error)
+        
+        # Find the user by email
+        user = User.query.filter_by(email=email).first()
+        
+        # Always show success message (even if user doesn't exist) for security
+        # This prevents attackers from knowing which emails are registered
+        if user:
+            # Generate a secure random token for password reset
+            token = secrets.token_urlsafe(32)
+            
+            # Create expiration time (1 hour from now)
+            expires_at = datetime.utcnow() + timedelta(hours=1)
+            
+            # Invalidate any existing reset tokens for this user
+            existing_tokens = PasswordResetToken.query.filter_by(user_id=user.id, used=False).all()
+            for existing_token in existing_tokens:
+                existing_token.used = True
+            
+            # Create new reset token
+            reset_token = PasswordResetToken(
+                user_id=user.id,
+                token=token,
+                expires_at=expires_at
+            )
+            db.session.add(reset_token)
+            db.session.commit()
+            
+            # Send password reset email
+            # Get the base URL for the reset link
+            base_url = request.url_root
+            send_password_reset_email(user.email, token, base_url)
+        
+        # Show success message regardless of whether user exists (security best practice)
+        flash("If an account with that email exists, we've sent a password reset link. Please check your email.", "info")
+        return redirect(url_for("login"))
+    
+    # GET request - show the forgot password form
+    return render_template("forgot_password.html")
+
+@app.route("/reset-password/<token>", methods=["GET", "POST"])
+def reset_password(token):
+    """
+    Handle password reset with the token from the email link.
+    Users can set a new password here.
+    """
+    # Find the reset token
+    reset_token_obj = PasswordResetToken.query.filter_by(token=token).first()
+    
+    # Check if token exists and is valid
+    if not reset_token_obj or not reset_token_obj.is_valid():
+        flash("Invalid or expired password reset link. Please request a new one.", "error")
+        return redirect(url_for("forgot_password"))
+    
+    # Get the user associated with this token
+    user = User.query.get(reset_token_obj.user_id)
+    if not user:
+        flash("User not found. Please request a new password reset.", "error")
+        return redirect(url_for("forgot_password"))
+    
+    if request.method == "POST":
+        # Get the new password from the form
+        new_password = request.form.get("password", "")
+        confirm_password = request.form.get("confirm_password", "")
+        
+        # Validate the passwords
+        if not new_password or not confirm_password:
+            error = "Please fill in all fields."
+            return render_template("reset_password.html", token=token, error=error)
+        
+        if new_password != confirm_password:
+            error = "Passwords do not match."
+            return render_template("reset_password.html", token=token, error=error)
+        
+        if len(new_password) < 6:
+            error = "Password must be at least 6 characters long."
+            return render_template("reset_password.html", token=token, error=error)
+        
+        # Update the user's password
+        user.set_password(new_password)
+        
+        # Mark the token as used so it can't be used again
+        reset_token_obj.used = True
+        
+        # Save changes to database
+        db.session.commit()
+        
+        # Success! Redirect to login
+        flash("Your password has been reset successfully. Please log in with your new password.", "success")
+        return redirect(url_for("login"))
+    
+    # GET request - show the reset password form
+    return render_template("reset_password.html", token=token)
 
 
 # This is the main entry point - it runs when you execute the file directly
