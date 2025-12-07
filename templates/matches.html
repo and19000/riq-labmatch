@@ -12,7 +12,7 @@
   </div>
   
   <!-- Content wrapper - hidden initially, shown after page loads -->
-  <div id="matches-content" style="opacity: 0; transition: opacity 0.3s ease-in;">
+  <div id="matches-content" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in, visibility 0.3s ease-in;">
   <h1>Your Lab Matches</h1>
   <p class="subtitle">AI-powered matches based on your resume</p>
 
@@ -148,6 +148,7 @@
     // Show thinking bar during page load, then hide when content is ready
     (function() {
       let thinkingBar = null;
+      let contentShown = false;
       const loadingOverlay = document.getElementById('matches-loading');
       const contentWrapper = document.getElementById('matches-content');
       
@@ -158,34 +159,74 @@
       
       // Show thinking bar if available
       if (window.ThinkingBar) {
-        thinkingBar = new window.ThinkingBar('matches');
-        thinkingBar.show();
+        try {
+          thinkingBar = new window.ThinkingBar('matches');
+          thinkingBar.show();
+        } catch (e) {
+          console.error('Error showing thinking bar:', e);
+        }
       }
       
       function showContent() {
-        // Hide thinking bar
-        if (thinkingBar) {
-          thinkingBar.hide();
-          setTimeout(() => {
-            thinkingBar.destroy();
-            thinkingBar = null;
-          }, 300);
-        }
+        // Prevent showing content multiple times
+        if (contentShown) return;
+        contentShown = true;
         
-        if (contentWrapper) {
-          contentWrapper.style.opacity = '1';
+        try {
+          // Hide thinking bar
+          if (thinkingBar) {
+            thinkingBar.hide();
+            setTimeout(() => {
+              try {
+                thinkingBar.destroy();
+              } catch (e) {
+                console.error('Error destroying thinking bar:', e);
+              }
+              thinkingBar = null;
+            }, 300);
+          }
+          
+          // Show content
+          if (contentWrapper) {
+            contentWrapper.style.visibility = 'visible';
+            // Use requestAnimationFrame to ensure style changes are applied
+            requestAnimationFrame(() => {
+              contentWrapper.style.opacity = '1';
+            });
+          }
+        } catch (e) {
+          console.error('Error showing content:', e);
+          // Fallback: make content visible even if there's an error
+          if (contentWrapper) {
+            contentWrapper.style.visibility = 'visible';
+            contentWrapper.style.opacity = '1';
+          }
         }
       }
       
-      // If page is already loaded
-      if (document.readyState === 'complete') {
-        setTimeout(showContent, 300);
-      } else {
-        // Wait for page to fully load (including all API calls and processing)
-        window.addEventListener('load', function() {
+      // Show content when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          // Small delay to ensure content is rendered
           setTimeout(showContent, 300);
         });
+      } else {
+        // Document already loaded, show content after a brief delay
+        setTimeout(showContent, 300);
       }
+      
+      // Fallback: show content when page fully loads
+      window.addEventListener('load', function() {
+        setTimeout(showContent, 200);
+      }, { once: true });
+      
+      // Emergency fallback: show content after 5 seconds no matter what
+      setTimeout(function() {
+        if (!contentShown) {
+          console.warn('Emergency fallback: forcing content to show');
+          showContent();
+        }
+      }, 5000);
     })();
     
     // Handle AJAX save PI functionality
@@ -250,7 +291,6 @@
             this.textContent = originalText;
             this.style.opacity = '1';
             alert('Error saving PI. Please try again.');
->>>>>>> 3b602bd8c26eba064138860e2a2ff2d93d180af3
           });
         });
       });
