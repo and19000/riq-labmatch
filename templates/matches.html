@@ -104,9 +104,7 @@
                     <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
             {% else %}
-              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
-                      <button type="submit" class="btn-primary" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
-              </form>
+              <button type="button" class="btn-primary save-pi-btn" data-pi-id="{{ pi.id }}" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
                   {% endif %}
                 </div>
@@ -132,5 +130,74 @@
       <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
     </div>
   {% endif %}
+
+  <script>
+    // Handle AJAX save PI functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const saveButtons = document.querySelectorAll('.save-pi-btn');
+      
+      saveButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const piId = this.getAttribute('data-pi-id');
+          const originalText = this.textContent;
+          
+          // Disable button and show loading state
+          this.disabled = true;
+          this.textContent = 'Saving...';
+          this.style.opacity = '0.7';
+          
+          // Make AJAX request
+          fetch(`/save-pi/${piId}`, {
+            method: 'POST',
+            headers: {
+              'X-Requested-With': 'XMLHttpRequest',
+              'Content-Type': 'application/json',
+            },
+            credentials: 'same-origin'
+          })
+          .then(response => response.json())
+          .then(data => {
+            if (data.success) {
+              // Update button to show saved state
+              this.textContent = '✓ Saved';
+              this.classList.remove('btn-primary');
+              this.classList.add('btn-secondary');
+              this.style.backgroundColor = '#28a745';
+              this.style.borderColor = '#28a745';
+              this.style.color = 'white';
+              
+              // Add saved badge to the row if it exists
+              const row = this.closest('tr');
+              if (row) {
+                const nameCell = row.querySelector('.table-lab-name').parentElement;
+                if (nameCell && !nameCell.querySelector('.saved-badge')) {
+                  const badge = document.createElement('span');
+                  badge.className = 'saved-badge';
+                  badge.style.cssText = 'margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;';
+                  badge.textContent = '✓ Saved';
+                  nameCell.appendChild(badge);
+                }
+              }
+            } else {
+              // Error - restore button
+              this.disabled = false;
+              this.textContent = originalText;
+              this.style.opacity = '1';
+              alert('Error saving PI: ' + (data.error || 'Unknown error'));
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            // Restore button on error
+            this.disabled = false;
+            this.textContent = originalText;
+            this.style.opacity = '1';
+            alert('Error saving PI. Please try again.');
+          });
+        });
+      });
+    });
+  </script>
 {% endblock %}
 

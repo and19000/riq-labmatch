@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
@@ -385,6 +385,8 @@ def matches():
 def save_pi(pi_id):
     user_id = session.get("user_id")
     if not user_id:
+        if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+            return jsonify({"success": False, "error": "Not logged in"}), 401
         return redirect(url_for("login"))
 
     # Avoid duplicates thanks to UniqueConstraint, but also check manually
@@ -393,8 +395,15 @@ def save_pi(pi_id):
         saved = SavedPI(user_id=user_id, pi_id=pi_id)
         db.session.add(saved)
         db.session.commit()
+        saved_status = True
+    else:
+        saved_status = False  # Already saved
 
-    # Redirect back to the page we came from if possible
+    # Return JSON for AJAX requests, otherwise redirect
+    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        return jsonify({"success": True, "already_saved": not saved_status})
+    
+    # Fallback for non-AJAX requests
     return redirect(request.referrer or url_for("saved_pis"))
 
 
