@@ -6,7 +6,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Flask handles our web server and routing
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify
 # SQLAlchemy helps us work with the database
 from flask_sqlalchemy import SQLAlchemy
 # Werkzeug provides password hashing and file security
@@ -87,9 +87,12 @@ class UserProfile(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), unique=True, nullable=False)
     major_field = db.Column(db.String(255))
-    # What kind of opportunity they're seeking (thesis lab, summer RA, rotation, gap year, etc.)
-    looking_for = db.Column(db.String(255))
-    # Their top techniques of interest (stored as comma-separated or JSON)
+    # What year they're in school (first year, sophomore, junior, senior, masters student, graduate student, other)
+    year_in_school = db.Column(db.String(50))
+    # What kind of opportunity they're seeking (thesis lab, summer RA, rotation, gap year, in term research, exploring)
+    # Stored as comma-separated values
+    looking_for = db.Column(db.String(500))
+    # Their top techniques of interest (stored as JSON array or comma-separated)
     top_techniques = db.Column(db.Text)
     onboarding_complete = db.Column(db.Boolean, default=False)
     # Track how complete their profile is (0-100%)
@@ -106,9 +109,49 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 # Make sure the uploads folder exists so we can save files there
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Create all the database tables if they don't exist yet
-with app.app_context():
-    db.create_all()
+# Initialize database - this function creates tables and handles migrations
+def init_db():
+    """Initialize database and run migrations."""
+    with app.app_context():
+        db.create_all()
+        
+        # Run migrations for existing tables
+        try:
+            from sqlalchemy import inspect, text
+            inspector = inspect(db.engine)
+            
+            # Migration: Add username column to User table if it doesn't exist
+            if 'user' in inspector.get_table_names():
+                columns = [col['name'] for col in inspector.get_columns('user')]
+                
+                if 'username' not in columns:
+                    # Add username column using raw SQL
+                    # SQLite supports ADD COLUMN in ALTER TABLE
+                    with db.engine.begin() as conn:
+                        conn.execute(text("ALTER TABLE user ADD COLUMN username VARCHAR(80)"))
+                    print("Migration: Added username column to user table")
+            
+            # Migration: Add year_in_school column to user_profile table if it doesn't exist
+            if 'user_profile' in inspector.get_table_names():
+                columns = [col['name'] for col in inspector.get_columns('user_profile')]
+                
+                if 'year_in_school' not in columns:
+                    with db.engine.begin() as conn:
+                        conn.execute(text("ALTER TABLE user_profile ADD COLUMN year_in_school VARCHAR(50)"))
+                    print("Migration: Added year_in_school column to user_profile table")
+                
+                # Migration: Update looking_for column size if it's still 255
+                # Check the column type - SQLite doesn't enforce VARCHAR lengths, but we update for consistency
+                # Since SQLite stores everything as TEXT, we'll just ensure the column exists with proper size
+                # The model definition will handle the size going forward
+                
+        except Exception as e:
+            # If table doesn't exist yet, create_all will handle it
+            # Or if migration fails, continue anyway
+            print(f"Migration check: {e}")
+
+init_db()
+>>>>>>> 3b602bd8c26eba064138860e2a2ff2d93d180af3
 
 # Set up paths to our data files
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
@@ -143,74 +186,45 @@ def allowed_file(filename: str) -> bool:
 def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
     """Process a batch of faculty members and return match scores using AI."""
     try:
-        # First, create a summary of all the labs in this batch
-        # This makes it easier for the AI to process them all at once
+        # Create concise summaries for this batch (optimized for speed)
+        # We use a more compact format to reduce token count and processing time
         faculty_summaries = []
         for pi in faculty_batch:
-            summary = f"- {pi['name']} ({pi['id']}): {pi['title']}\n"
-            summary += f"  Department: {pi['department']}, {pi['school']}\n"
-            summary += f"  Research Areas: {pi['research_areas']}\n"
+            # More concise format to reduce token count and processing time
+            summary = f"{pi['name']} ({pi['id']}): {pi['research_areas']}"
             if pi.get('lab_techniques'):
-                summary += f"  Lab Techniques: {pi['lab_techniques']}\n"
-            if pi.get('h_index'):
-                summary += f"  H-index: {pi['h_index']}\n"
-            summary += f"  Location: {pi.get('specific_location', pi['location'])}\n"
+                summary += f" | Techniques: {pi['lab_techniques'][:100]}"  # Truncate long technique lists
+            summary += f" | {pi['department']}, {pi['school']}"
             faculty_summaries.append(summary)
         
         faculty_text = "\n".join(faculty_summaries)
         
-        # Build the prompt we'll send to the AI
+        # Build the prompt we'll send to the AI - optimized for faster processing
         # This tells the AI what we want it to do and how to score matches
-        prompt = f"""You are an expert research lab matching algorithm. Your task is to analyze a student's resume and match them with the most compatible research labs.
+        prompt = f"""Match student resume with compatible labs. Return JSON array only.
 
-STUDENT RESUME/CV INFORMATION:
-{resume_info}
+STUDENT: {resume_info[:500]}
 
-AVAILABLE RESEARCH LABS (Batch {batch_num + 1} of {total_batches}):
+LABS (Batch {batch_num + 1}/{total_batches}):
 {faculty_text}
 
-MATCHING CRITERIA (weight these factors):
-1. Research area alignment (40%): How well do the student's skills/interests match the lab's research areas?
-2. Technical skills match (25%): Do the student's technical skills align with lab techniques used?
-3. Academic level fit (15%): Is the student's level (undergrad/grad) appropriate for this lab?
-4. Department alignment (10%): Does the student's background match the department?
-5. Research impact (10%): Consider the PI's H-index and research prominence
+Scoring (40% research match, 25% skills, 15% level, 10% dept, 10% impact):
+- 90-100: Exceptional | 80-89: Excellent | 70-79: Good | 60-69: Moderate | 50-59: Weak | <50: Exclude
 
-SCORING GUIDELINES:
-- 90-100: Exceptional match - strong alignment across all criteria
-- 80-89: Excellent match - very good fit with minor gaps
-- 70-79: Good match - solid fit with some areas of alignment
-- 60-69: Moderate match - some relevant overlap
-- 50-59: Weak match - minimal but potential alignment
-- Below 50: Poor match - exclude from results
-
-For each lab, analyze:
-1. Specific skills/techniques mentioned in resume that match the lab
-2. Research interests alignment
-3. Academic background compatibility
-4. Potential for meaningful contribution
-
-Return ONLY a valid JSON array with this exact format:
-[
-  {{"pi_id": "harvard-cs-1", "score": 92, "reason": "Exceptional match: Student's ML experience in healthcare directly aligns with lab's focus on healthcare AI. Strong Python skills match computational requirements. Undergraduate research experience shows readiness."}},
-  {{"pi_id": "harvard-bio-2", "score": 78, "reason": "Good match: Background in molecular biology aligns with research areas. Some relevant techniques overlap. Would benefit from additional training in specific methods."}}
-]
-
-IMPORTANT:
-- Rank from highest to lowest score
-- Only include labs with score >= 50
-- Provide specific, detailed reasons referencing actual resume content
-- Return valid JSON only, no markdown or extra text"""
+Return JSON array: [{{"pi_id": "id", "score": 85, "reason": "brief reason"}}]
+Only include labs with score >= 50. Rank highest to lowest."""
 
         # Send the prompt to OpenAI and get back match scores
         # We use a low temperature (0.2) to get more consistent, reliable results
+        # The OpenAI client handles timeouts internally, and we limit tokens for faster processing
         completion = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
-                {"role": "system", "content": "You are an expert research lab matching algorithm. You analyze student resumes and match them with compatible labs using weighted criteria. Always return valid JSON arrays with no markdown formatting."},
+                {"role": "system", "content": "You are a lab matching algorithm. Return only valid JSON arrays, no markdown."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.2,
+            max_tokens=2000,  # Limit response length for faster processing
         )
         
         response_text = completion.choices[0].message.content
@@ -379,16 +393,18 @@ def matches():
     # and process multiple batches at the same time using multiple threads
     try:
         # Split faculty into batches for parallel processing
-        # We found that batches of 15-20 work well - not too big, not too small
-        BATCH_SIZE = 15
-        faculty_to_process = all_faculty[:150]  # Process up to 150 labs to keep it fast
+        # Smaller batches = more parallelism, faster overall
+        # We use batches of 10 labs each, processing up to 100 labs total for optimal speed
+        BATCH_SIZE = 10  # Reduced from 15 for more parallel requests
+        faculty_to_process = all_faculty[:100]  # Process top 100 labs (reduced from 150 for speed)
         batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
         total_batches = len(batches)
         
         # Process batches in parallel using ThreadPoolExecutor
         # This is what makes it 10x faster than processing sequentially
+        # We use 20 workers for maximum parallelism
         all_matches_data = []
-        with ThreadPoolExecutor(max_workers=10) as executor:
+        with ThreadPoolExecutor(max_workers=20) as executor:
             # Submit all batch processing tasks to run in parallel
             future_to_batch = {
                 executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
@@ -446,6 +462,8 @@ def save_pi(pi_id):
     """Save a PI to the user's saved list. This is called when they click the 'Save' button."""
     user_id = session.get("user_id")
     if not user_id:
+        if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+            return jsonify({"success": False, "error": "Not logged in"}), 401
         return redirect(url_for("login"))
 
     # Check if they've already saved this PI (avoid duplicates)
@@ -455,8 +473,15 @@ def save_pi(pi_id):
         saved = SavedPI(user_id=user_id, pi_id=pi_id)
         db.session.add(saved)
         db.session.commit()
+        saved_status = True
+    else:
+        saved_status = False  # Already saved
 
-    # Send them back to wherever they came from (browse page, matches page, etc.)
+    # Return JSON for AJAX requests (used by the save button JavaScript), otherwise redirect
+    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        return jsonify({"success": True, "already_saved": not saved_status})
+    
+    # Fallback for non-AJAX requests - send them back to wherever they came from
     return redirect(request.referrer or url_for("saved_pis"))
 
 
@@ -684,9 +709,11 @@ def draft_email():
                         # Only include the first 500 characters to keep the prompt manageable
                         resume_context = f"\nStudent's Resume Summary: {user_resume.resume_text[:500]}"
                     
+<<<<<<< HEAD
                     # Build a detailed prompt for the AI to generate a personalized email
                     # We include all the PI's information and the student's background
-                    prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}.
+                    # The email should sound natural, human, and conversational - not robotic, overly formal, or edgy
+                    prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}. The email should sound natural, human, and conversational - not robotic, overly formal, or edgy.
 
 PI INFORMATION:
 - Name: {pi['name']}
@@ -706,39 +733,57 @@ STUDENT INFORMATION:
 - Specific Research Interest: {research_interest if research_interest else f'Interested in {pi["research_areas"]}'}
 {resume_context}
 
-EMAIL REQUIREMENTS:
-1. Subject line: Clear, specific, and professional (e.g., "Research Opportunity Inquiry - [Your Name]")
-2. Opening: Brief introduction with your name, academic level, and institution
-3. Body paragraph 1: Express specific interest in their research - mention 1-2 specific research areas or papers
-4. Body paragraph 2: Highlight relevant background/skills that align with their lab
-5. Body paragraph 3: Explain what you hope to contribute and learn
-6. Closing: Polite request for a meeting or conversation opportunity
-7. Keep total length under 250 words
-8. Be genuine, enthusiastic, but not overly casual
-9. Show you've researched their work specifically
+EMAIL TONE & STYLE (CRITICAL - base on this example):
+- Start with a warm, natural greeting like "I hope you're doing well" or "I hope this email finds you well"
+- Write conversationally, as if speaking to a mentor, not a corporate executive
+- Be specific about what interests you (mention research areas, papers if known, or specific techniques)
+- Show genuine interest without being overly enthusiastic or gushing
+- Be humble but confident - acknowledge what you don't know while showing willingness to learn
+- Mention specific courses, skills, or experiences that are relevant
+- Be direct about what you're asking for (research opportunity, joining a project, etc.)
+- Keep it professional but warm - avoid corporate jargon or overly formal language
+- End naturally with "Thank you for your time and consideration" or similar
+
+EMAIL STRUCTURE:
+1. Subject line: Clear and specific (e.g., "Research Opportunity Inquiry - [Your Name]" or "Inquiry About Research Opportunities")
+2. Opening: Warm greeting + brief introduction (name, year/level, institution, major/field)
+3. Body paragraph 1: Express specific interest in their research - mention specific research areas, papers, or techniques that interest you. Explain why it's meaningful to you.
+4. Body paragraph 2: Your relevant background - courses, skills, programming languages, research experience. Mention time commitment if relevant (e.g., "10+ hours per week"). Show you're a determined learner.
+5. Closing: Direct but polite request + mention resume if attached + thank you
+
+IMPORTANT GUIDELINES:
+- Sound like a real student writing to a professor, not a business email
+- Be specific and genuine - avoid generic phrases
+- Keep total length around 200-300 words
+- Avoid: "I am writing to inquire", "I would like to take this opportunity", overly formal corporate language
+- Use: Natural transitions, specific details, genuine interest, conversational tone
+- Show you've done your research on their work
+- Be authentic and human - write as you would speak to a respected mentor
 
 Format the response as:
 Subject: [subject line]
 
 Dear Dr. [Last Name],
 
-[email body]
+[email body - natural, conversational, human tone]
 
-Best regards,
+Thank you for your time and consideration,
+
 {student_name}"""
 
                     completion = client.chat.completions.create(
                         model=GPT_MODEL,
                         messages=[
-                            {"role": "system", "content": "You are a helpful assistant that writes professional academic emails."},
+                            {"role": "system", "content": "You are a helpful assistant that writes natural, human-sounding academic emails. Write as a real student would write to a professor - conversational, genuine, and authentic. Avoid corporate jargon, overly formal language, or robotic phrasing."},
                             {"role": "user", "content": prompt}
                         ],
-                        temperature=0.7,
+                        temperature=0.8,  # Slightly higher temperature for more natural variation
                     )
                     draft = completion.choices[0].message.content
                 except Exception as e:
                     error = f"Error generating email draft: {str(e)}"
     
+<<<<<<< HEAD
     # If no PI is selected yet, populate the dropdown with only the user's saved PIs
     # This way they can only draft emails to PIs they've already saved
     all_faculty = None
@@ -750,13 +795,47 @@ Best regards,
         saved_pis_list = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
         saved_pis_list = [p for p in saved_pis_list if p]  # Remove any None values
     
+    # Check if this is an AJAX/JSON request (for dynamic email generation)
+    wants_json = (
+        request.headers.get('X-Requested-With') == 'XMLHttpRequest' or
+        request.headers.get('Accept', '').startswith('application/json') or
+        request.args.get('format') == 'json'
+    )
+    
+    if wants_json and request.method == 'POST':
+        # Return JSON response for AJAX requests
+        if error:
+            return jsonify({'success': False, 'error': error}), 400
+        elif draft:
+            return jsonify({
+                'success': True,
+                'draft': draft,
+                'pi': {
+                    'id': pi['id'],
+                    'name': pi['name'],
+                    'email': pi.get('email', '')
+                } if pi else None
+            })
+        else:
+            return jsonify({'success': False, 'error': 'No draft generated'}), 400
+    
+    # Get saved PIs for dropdown if no PI selected (only show saved PIs, not all faculty)
+    saved_pis_data = None
+    if not pi:
+        all_faculty = load_faculty()
+        pi_by_id = {pi["id"]: pi for pi in all_faculty}
+        saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+        saved_pis_data = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
+        # Filter out None values in case some IDs weren't found
+        saved_pis_data = [pi for pi in saved_pis_data if pi is not None]
+>>>>>>> 3b602bd8c26eba064138860e2a2ff2d93d180af3
+    
     return render_template(
         "draft_email.html",
         error=error,
         draft=draft,
         pi=pi,
-        all_faculty=all_faculty,
-        saved_pis=saved_pis_list,
+        saved_pis=saved_pis_data if 'saved_pis_data' in locals() else saved_pis_list,
         student_name=request.form.get("student_name", ""),
         student_email=request.form.get("student_email", ""),
         student_background=request.form.get("student_background", ""),
@@ -887,13 +966,24 @@ def onboarding():
     if request.method == "POST":
         if step == 1:
             major_field = request.form.get("major_field", "").strip()
+            # Clear field if it's empty or just "none"
+            if not major_field or major_field.lower() == 'none':
+                major_field = None
             profile.major_field = major_field
+            
+            year_in_school = request.form.get("year_in_school", "").strip()
+            profile.year_in_school = year_in_school if year_in_school else None
             profile.profile_completeness = 33
             db.session.commit()
             return redirect(url_for("onboarding", step=2))
         
         elif step == 2:
-            looking_for = request.form.get("looking_for", "").strip()
+            # Handle multiple selections for looking_for
+            looking_for_list = request.form.getlist("looking_for")
+            if not looking_for_list:
+                flash("Please select at least one option.", "error")
+                return redirect(url_for("onboarding", step=2))
+            looking_for = ",".join(looking_for_list)
             profile.looking_for = looking_for
             profile.profile_completeness = 66
             db.session.commit()

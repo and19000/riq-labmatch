@@ -26,8 +26,16 @@
           {% if profile.major_field %}
             <p><strong>Field:</strong> {{ profile.major_field }}</p>
           {% endif %}
+          {% if profile.year_in_school %}
+            <p><strong>Year in School:</strong> {{ profile.year_in_school|title }}</p>
+          {% endif %}
           {% if profile.looking_for %}
-            <p><strong>Looking for:</strong> {{ profile.looking_for|replace('_', ' ')|title }}</p>
+            <p><strong>Looking for:</strong> 
+              {% set looking_for_items = profile.looking_for.split(',') %}
+              {% for item in looking_for_items %}
+                {{ item.strip()|replace('_', ' ')|title }}{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            </p>
           {% endif %}
           {% if profile.top_techniques %}
             <p><strong>Interests:</strong> {{ profile.top_techniques }}</p>

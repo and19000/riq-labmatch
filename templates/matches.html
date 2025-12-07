@@ -1,6 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <!-- Loading overlay - shown immediately, hidden when page loads -->
+  <div id="matches-loading" class="matches-loading-overlay">
+    <div class="thinking-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <p>Thinking...</p>
+  </div>
+  
+  <!-- Content wrapper - hidden initially, shown after page loads -->
+  <div id="matches-content" style="opacity: 0; transition: opacity 0.3s ease-in;">
   <h1>Your Lab Matches</h1>
   <p class="subtitle">AI-powered matches based on your resume</p>
 
@@ -104,9 +116,7 @@
                     <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
             {% else %}
-              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" class="save-pi-form" data-pi-id="{{ pi.id }}" style="display: inline;">
-                      <button type="submit" class="btn-primary save-pi-btn" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
-              </form>
+              <button type="button" class="btn-primary save-pi-btn" data-pi-id="{{ pi.id }}" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
                   {% endif %}
                 </div>
@@ -132,59 +142,115 @@
       <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
     </div>
   {% endif %}
+  </div> <!-- End matches-content wrapper -->
 
   <script>
-    // Handle save button clicks with AJAX to show checkmark
+    // Show thinking bar during page load, then hide when content is ready
+    (function() {
+      let thinkingBar = null;
+      const loadingOverlay = document.getElementById('matches-loading');
+      const contentWrapper = document.getElementById('matches-content');
+      
+      // Hide the old loading overlay immediately (we'll use thinking bar instead)
+      if (loadingOverlay) {
+        loadingOverlay.style.display = 'none';
+      }
+      
+      // Show thinking bar if available
+      if (window.ThinkingBar) {
+        thinkingBar = new window.ThinkingBar('matches');
+        thinkingBar.show();
+      }
+      
+      function showContent() {
+        // Hide thinking bar
+        if (thinkingBar) {
+          thinkingBar.hide();
+          setTimeout(() => {
+            thinkingBar.destroy();
+            thinkingBar = null;
+          }, 300);
+        }
+        
+        if (contentWrapper) {
+          contentWrapper.style.opacity = '1';
+        }
+      }
+      
+      // If page is already loaded
+      if (document.readyState === 'complete') {
+        setTimeout(showContent, 300);
+      } else {
+        // Wait for page to fully load (including all API calls and processing)
+        window.addEventListener('load', function() {
+          setTimeout(showContent, 300);
+        });
+      }
+    })();
+    
+    // Handle AJAX save PI functionality
     document.addEventListener('DOMContentLoaded', function() {
-      const saveForms = document.querySelectorAll('.save-pi-form');
-      saveForms.forEach(form => {
-        form.addEventListener('submit', function(e) {
+      const saveButtons = document.querySelectorAll('.save-pi-btn');
+      
+      saveButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
           e.preventDefault();
-          const form = this;
-          const button = form.querySelector('.save-pi-btn');
-          const piId = form.getAttribute('data-pi-id');
-          const row = form.closest('tr');
-          const actionsCell = form.closest('td');
+          const piId = this.getAttribute('data-pi-id');
+          const originalText = this.textContent;
           
-          // Disable button
-          button.disabled = true;
-          button.textContent = 'Saving...';
+          // Disable button and show loading state
+          this.disabled = true;
+          this.textContent = 'Saving...';
+          this.style.opacity = '0.7';
           
-          // Submit via AJAX
-          fetch(form.action, {
+          // Make AJAX request
+          fetch(`/save-pi/${piId}`, {
             method: 'POST',
             headers: {
-              'Content-Type': 'application/x-www-form-urlencoded',
+              'X-Requested-With': 'XMLHttpRequest',
+              'Content-Type': 'application/json',
             },
-            body: new URLSearchParams()
-          }).then(response => {
-            if (response.ok) {
-              // Update UI to show saved state
-              const draftEmailUrl = `/draft-email?pi_id=${piId}`;
-              form.remove();
-              actionsCell.innerHTML = `
-                <span class="saved-indicator" style="font-size: 0.85rem; text-align: center; display: block; margin-bottom: 0.5rem;">✓ Saved</span>
-                <a href="${draftEmailUrl}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center; display: block;">Draft Email</a>
-              `;
+            credentials: 'same-origin'
+          })
+          .then(response => response.json())
+          .then(data => {
+            if (data.success) {
+              // Update button to show saved state
+              this.textContent = '✓ Saved';
+              this.classList.remove('btn-primary');
+              this.classList.add('btn-secondary');
+              this.style.backgroundColor = '#28a745';
+              this.style.borderColor = '#28a745';
+              this.style.color = 'white';
               
-              // Also add saved badge to the name cell
-              const nameCell = row.querySelector('td:nth-child(2)');
-              if (nameCell && !nameCell.querySelector('.saved-badge')) {
-                const badge = document.createElement('span');
-                badge.className = 'saved-badge';
-                badge.style.cssText = 'margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;';
-                badge.textContent = '✓ Saved';
-                nameCell.appendChild(badge);
+              // Add saved badge to the row if it exists
+              const row = this.closest('tr');
+              if (row) {
+                const nameCell = row.querySelector('.table-lab-name').parentElement;
+                if (nameCell && !nameCell.querySelector('.saved-badge')) {
+                  const badge = document.createElement('span');
+                  badge.className = 'saved-badge';
+                  badge.style.cssText = 'margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;';
+                  badge.textContent = '✓ Saved';
+                  nameCell.appendChild(badge);
+                }
               }
             } else {
-              button.disabled = false;
-              button.textContent = 'Save PI';
-              alert('Failed to save. Please try again.');
+              // Error - restore button
+              this.disabled = false;
+              this.textContent = originalText;
+              this.style.opacity = '1';
+              alert('Error saving PI: ' + (data.error || 'Unknown error'));
             }
-          }).catch(error => {
-            button.disabled = false;
-            button.textContent = 'Save PI';
-            alert('Error saving. Please try again.');
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            // Restore button on error
+            this.disabled = false;
+            this.textContent = originalText;
+            this.style.opacity = '1';
+            alert('Error saving PI. Please try again.');
+>>>>>>> 3b602bd8c26eba064138860e2a2ff2d93d180af3
           });
         });
       });
