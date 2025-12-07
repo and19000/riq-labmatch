@@ -34,6 +34,12 @@ def check_url_exists(url, timeout=10):
         return False, None
     
     try:
+        # Validate URL encoding first
+        from urllib.parse import urlparse
+        parsed = urlparse(url)
+        if not parsed.netloc or len(parsed.netloc) > 253:  # Max domain length
+            return False, "Invalid URL format"
+        
         response = session.head(url, timeout=timeout, allow_redirects=True)
         # Some servers don't support HEAD, try GET if HEAD fails
         if response.status_code == 405:
@@ -41,8 +47,8 @@ def check_url_exists(url, timeout=10):
             response.close()
         
         return response.status_code < 400, response.status_code
-    except requests.exceptions.RequestException as e:
-        return False, str(e)
+    except (requests.exceptions.RequestException, UnicodeError, ValueError) as e:
+        return False, str(e)[:50]  # Truncate long error messages
 
 def extract_name_parts(name):
     """Extract first and last name from faculty name."""
@@ -366,7 +372,14 @@ def validate_and_fix_websites(start_index=0, max_check=None):
             invalid_count += 1
         
         # Try to find correct website
-        new_url = find_faculty_website(faculty)
+        try:
+            new_url = find_faculty_website(faculty)
+        except (UnicodeError, ValueError) as e:
+            print(f"  → Error finding website: {str(e)[:50]}")
+            new_url = None
+            failed_count += 1
+            time.sleep(0.3)
+            continue
         
         if new_url:
             # Verify it matches
