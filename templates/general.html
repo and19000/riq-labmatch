@@ -132,8 +132,8 @@
                         {% if pi.id in saved_pi_ids %}
                           <span class="saved-indicator" style="font-size: 0.85rem;">Saved</span>
                         {% else %}
-                          <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
-                            <button type="submit" class="btn-primary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Save</button>
+                          <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" class="save-pi-form" data-pi-id="{{ pi.id }}" style="display: inline;">
+                            <button type="submit" class="btn-primary save-pi-btn" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Save</button>
                           </form>
                         {% endif %}
                         <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Email</a>
@@ -185,6 +185,53 @@
         if (countEl) {
           countEl.innerHTML = '<strong>' + visibleRows.length + '</strong> lab' + (visibleRows.length !== 1 ? 's' : '');
         }
+      });
+    });
+
+    // Handle save button clicks with AJAX to prevent scroll to top
+    document.addEventListener('DOMContentLoaded', function() {
+      const saveForms = document.querySelectorAll('.save-pi-form');
+      saveForms.forEach(form => {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const form = this;
+          const button = form.querySelector('.save-pi-btn');
+          const piId = form.getAttribute('data-pi-id');
+          const row = form.closest('tr');
+          const actionsCell = form.closest('td');
+          
+          // Disable button
+          button.disabled = true;
+          button.textContent = 'Saving...';
+          
+          // Submit via AJAX
+          fetch(form.action, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: new URLSearchParams()
+          }).then(response => {
+            if (response.ok) {
+              // Update UI to show saved state
+              const actionsDiv = actionsCell.querySelector('div');
+              form.remove();
+              const savedIndicator = document.createElement('span');
+              savedIndicator.className = 'saved-indicator';
+              savedIndicator.style.cssText = 'font-size: 0.85rem; margin-right: 0.5rem;';
+              savedIndicator.textContent = '✓ Saved';
+              actionsDiv.insertBefore(savedIndicator, actionsDiv.firstChild);
+            } else {
+              button.disabled = false;
+              button.textContent = 'Save';
+              alert('Failed to save. Please try again.');
+            }
+          }).catch(error => {
+            button.disabled = false;
+            button.textContent = 'Save';
+            alert('Error saving. Please try again.');
+          });
+        });
       });
     });
   </script>

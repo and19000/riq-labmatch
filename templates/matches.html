@@ -104,8 +104,8 @@
                     <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
             {% else %}
-              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" style="display: inline;">
-                      <button type="submit" class="btn-primary" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
+              <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" class="save-pi-form" data-pi-id="{{ pi.id }}" style="display: inline;">
+                      <button type="submit" class="btn-primary save-pi-btn" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
               </form>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
                   {% endif %}
@@ -132,5 +132,63 @@
       <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
     </div>
   {% endif %}
+
+  <script>
+    // Handle save button clicks with AJAX to show checkmark
+    document.addEventListener('DOMContentLoaded', function() {
+      const saveForms = document.querySelectorAll('.save-pi-form');
+      saveForms.forEach(form => {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const form = this;
+          const button = form.querySelector('.save-pi-btn');
+          const piId = form.getAttribute('data-pi-id');
+          const row = form.closest('tr');
+          const actionsCell = form.closest('td');
+          
+          // Disable button
+          button.disabled = true;
+          button.textContent = 'Saving...';
+          
+          // Submit via AJAX
+          fetch(form.action, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: new URLSearchParams()
+          }).then(response => {
+            if (response.ok) {
+              // Update UI to show saved state
+              const draftEmailUrl = `/draft-email?pi_id=${piId}`;
+              form.remove();
+              actionsCell.innerHTML = `
+                <span class="saved-indicator" style="font-size: 0.85rem; text-align: center; display: block; margin-bottom: 0.5rem;">✓ Saved</span>
+                <a href="${draftEmailUrl}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center; display: block;">Draft Email</a>
+              `;
+              
+              // Also add saved badge to the name cell
+              const nameCell = row.querySelector('td:nth-child(2)');
+              if (nameCell && !nameCell.querySelector('.saved-badge')) {
+                const badge = document.createElement('span');
+                badge.className = 'saved-badge';
+                badge.style.cssText = 'margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;';
+                badge.textContent = '✓ Saved';
+                nameCell.appendChild(badge);
+              }
+            } else {
+              button.disabled = false;
+              button.textContent = 'Save PI';
+              alert('Failed to save. Please try again.');
+            }
+          }).catch(error => {
+            button.disabled = false;
+            button.textContent = 'Save PI';
+            alert('Error saving. Please try again.');
+          });
+        });
+      });
+    });
+  </script>
 {% endblock %}
 

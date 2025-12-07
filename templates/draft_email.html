@@ -21,13 +21,13 @@
       {% else %}
         <select id="pi_id" name="pi_id" required>
           <option value="">-- Select a PI --</option>
-          {% if all_faculty %}
-            {% for faculty in all_faculty %}
+          {% if saved_pis %}
+            {% for faculty in saved_pis %}
               <option value="{{ faculty.id }}">{{ faculty.name }} — {{ faculty.department }}, {{ faculty.school }}</option>
             {% endfor %}
           {% endif %}
         </select>
-        <p><small>Or <a href="{{ url_for('general') }}">browse PIs</a> and click "Draft Email" from there.</small></p>
+        <p><small>Only your saved PIs are shown here. <a href="{{ url_for('general') }}">Browse and save PIs</a> first, or <a href="{{ url_for('saved_pis') }}">view your saved PIs</a>.</small></p>
       {% endif %}
     </div>
 

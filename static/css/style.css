@@ -1,26 +1,49 @@
-/* CSS Variables - Apple-inspired dark theme */
+/* ============================================
+   CSS Variables - Design System
+   ============================================
+   These variables define our color scheme and design tokens.
+   We use a dark theme inspired by Apple's design language.
+   The accent color is a blueish-purple that glows nicely.
+*/
 :root {
-  --bg: #05060a;
-  --bg-elevated: #0f1117;
-  --bg-card: #1a1d26;
-  --accent: #8b7cf8;
-  --accent-soft: rgba(139, 124, 248, 0.2);
-  --accent-hover: #7c6cf0;
+  /* Background colors - dark theme with different elevation levels */
+  --bg: #05060a;                    /* Main background - very dark blue-black */
+  --bg-elevated: #0f1117;           /* Slightly lighter for elevated elements */
+  --bg-card: #1a1d26;               /* Card backgrounds - even lighter */
+  
+  /* Accent colors - blueish-purple gradient theme */
+  --accent: #8b7cf8;                /* Main accent color */
+  --accent-soft: rgba(139, 124, 248, 0.2);  /* Subtle accent for backgrounds */
+  --accent-hover: #7c6cf0;          /* Darker accent on hover */
+  
+  /* Border colors - subtle and strong variants */
   --border-subtle: rgba(148, 163, 184, 0.35);
   --border-strong: rgba(148, 163, 184, 0.5);
-  --text-main: #f9fafb;
-  --text-muted: #9ca3af;
-  --text-dim: #6b7280;
-  --radius-lg: 16px;
-  --radius-md: 12px;
-  --radius-sm: 8px;
+  
+  /* Text colors - different levels of emphasis */
+  --text-main: #f9fafb;              /* Primary text - almost white */
+  --text-muted: #9ca3af;             /* Secondary text - gray */
+  --text-dim: #6b7280;               /* Tertiary text - darker gray */
+  
+  /* Border radius - for rounded corners */
+  --radius-lg: 16px;                 /* Large rounded corners */
+  --radius-md: 12px;                 /* Medium rounded corners */
+  --radius-sm: 8px;                  /* Small rounded corners */
+  
+  /* Shadows - for depth and elevation */
   --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.6);
   --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  
+  /* Transitions - animation timing */
   --transition-fast: 180ms ease-out;
   --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Reset & Base */
+/* ============================================
+   Reset & Base Styles
+   ============================================
+   Reset default browser styles and set up base typography.
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,15 +52,21 @@
 
 body {
     margin: 0;
+  /* Use system fonts for a native feel on all devices */
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-main);
+  /* Subtle gradient background */
   background: linear-gradient(135deg, var(--bg) 0%, #0a0e1a 100%);
   min-height: 100vh;
   overflow-x: hidden;
   }
   
-/* Navigation */
+/* ============================================
+   Navigation Bar
+   ============================================
+   The sticky navigation bar at the top of every page.
+*/
 .top-nav {
   position: sticky;
   top: 0;
@@ -350,77 +379,103 @@ body {
     transparent 70%);
 }
 
-/* Homepage Wrapper for Waves */
+/* ============================================
+   Homepage Layout
+   ============================================
+   Wrapper for the homepage content.
+*/
 .homepage-wrapper {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
 }
 
-/* Ocean Wave Background Animation */
-.ocean-waves {
-  position: absolute;
-  bottom: 0;
+/* ============================================
+   Animated Gradient Background
+   ============================================
+   This creates the animated blue-purple gradient background
+   that appears on all pages except the homepage.
+   The gradient moves in a wave-like motion using CSS animations.
+*/
+.page-with-gradient {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.page-with-gradient::before {
+  content: '';
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: -2;
-  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    #05060a 0%,
+    #0a0e1a 25%,
+    rgba(59, 130, 246, 0.15) 50%,
+    rgba(99, 102, 241, 0.12) 75%,
+    rgba(139, 92, 246, 0.15) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientWave 15s ease-in-out infinite;
   pointer-events: none;
 }
 
-.wave {
-  position: absolute;
-  width: 300%;
-  height: 250px;
-  bottom: -100px;
-  background: linear-gradient(180deg, 
-    transparent 0%,
-    rgba(59, 130, 246, 0.12) 20%,
-    rgba(99, 102, 241, 0.18) 40%,
-    rgba(139, 92, 246, 0.22) 50%,
-    rgba(99, 102, 241, 0.18) 60%,
-    rgba(59, 130, 246, 0.12) 80%,
-    transparent 100%
+.page-with-gradient::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: radial-gradient(
+    ellipse at 30% 50%,
+    rgba(59, 130, 246, 0.08) 0%,
+    transparent 50%
+  ),
+  radial-gradient(
+    ellipse at 70% 50%,
+    rgba(139, 92, 246, 0.08) 0%,
+    transparent 50%
   );
-  border-radius: 100%;
-  animation: waveMove 10s linear infinite;
+  animation: radialWave 20s ease-in-out infinite;
+  pointer-events: none;
 }
 
-.wave1 {
-  left: -100%;
-  height: 220px;
-  opacity: 0.9;
-  animation-delay: 0s;
-}
-
-.wave2 {
-  left: -100%;
-  height: 240px;
-  opacity: 0.7;
-  animation-delay: -3.3s;
-  filter: blur(2px);
-}
-
-.wave3 {
-  left: -100%;
-  height: 200px;
-  opacity: 0.6;
-  animation-delay: -6.6s;
-  filter: blur(3px);
-}
-
-@keyframes waveMove {
+@keyframes gradientWave {
   0% {
-    transform: translateX(0) translateY(0);
-    left: -100%;
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 30%;
   }
   50% {
-    transform: translateX(0) translateY(-15px);
+    background-position: 100% 70%;
+  }
+  75% {
+    background-position: 0% 70%;
   }
   100% {
-    transform: translateX(0) translateY(0);
-    left: 100%;
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes radialWave {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  33% {
+    transform: translate(5%, -5%) scale(1.1);
+    opacity: 0.8;
+  }
+  66% {
+    transform: translate(-5%, 5%) scale(0.9);
+    opacity: 0.9;
   }
 }
 
@@ -2665,6 +2720,67 @@ footer {
 
 .check-text {
   flex: 1;
+}
+
+/* Draft Email Result Styling */
+.draft-result {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.draft-result h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+}
+
+.draft-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.draft-actions .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  min-width: auto;
+}
+
+.draft-content {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-main);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.draft-content pre {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-main);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-x: visible;
 }
 
 /* Feedback Widget */

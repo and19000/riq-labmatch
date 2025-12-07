@@ -1,98 +1,129 @@
+# Import all the libraries we need for the app
 import os
 import json
 import re
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Flask handles our web server and routing
 from flask import Flask, render_template, request, redirect, url_for, session, flash
+# SQLAlchemy helps us work with the database
 from flask_sqlalchemy import SQLAlchemy
+# Werkzeug provides password hashing and file security
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
+# OpenAI API for AI-powered features like email drafting and lab matching
 from openai import OpenAI
+# Load environment variables from .env file (keeps API keys secret)
 from dotenv import load_dotenv
 
-# Load environment variables from .env
+# Load our environment variables (like API keys) from the .env file
 load_dotenv()
+# Set up the OpenAI client so we can use their AI models
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-GPT_MODEL = "gpt-4o-mini"  # cost-effective model
+# We use gpt-4o-mini because it's cost-effective and still very capable
+GPT_MODEL = "gpt-4o-mini"
 
+# Create our Flask application
 app = Flask(__name__)
 
-app.config["SECRET_KEY"] = "dev-secret-change-later"  # needed for sessions
+# This secret key is used to encrypt session data (like keeping users logged in)
+# In production, this should be a long random string stored securely
+app.config["SECRET_KEY"] = "dev-secret-change-later"
 
-# SQLite database file in the project root
+# Set up our database - we're using SQLite which stores everything in a local file
+# The database file will be created in the project root as riq.db
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///riq.db"
+# We don't need SQLAlchemy to track every change, so we disable this for performance
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
+# Create the database connection object
 db = SQLAlchemy(app)
 
+# Database Models - these define the structure of our data tables
+
+# The User model stores information about people who sign up for accounts
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
     email = db.Column(db.String(255), unique=True, nullable=False)
+    # We never store passwords in plain text - only the hashed version
     password_hash = db.Column(db.String(255), nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
+    # When a user sets their password, we hash it before storing
+    # We use pbkdf2:sha256 because it works with Python 3.9 (scrypt needs Python 3.10+)
     def set_password(self, password: str) -> None:
-        # Use pbkdf2:sha256 for Python 3.9 compatibility (scrypt requires Python 3.10+)
         self.password_hash = generate_password_hash(password, method='pbkdf2:sha256', salt_length=16)
 
+    # Check if a provided password matches the stored hash
     def check_password(self, password: str) -> bool:
         return check_password_hash(self.password_hash, password)
 
+# SavedPI tracks which Principal Investigators (PIs) each user has saved
 class SavedPI(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
     pi_id = db.Column(db.String(64), nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
+    # Make sure a user can't save the same PI twice
     __table_args__ = (
         db.UniqueConstraint("user_id", "pi_id", name="uq_user_pi"),
     )
 
+# Resume stores information about uploaded resume files
 class Resume(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
     filename = db.Column(db.String(255), nullable=False)
     file_path = db.Column(db.String(500), nullable=False)
     uploaded_at = db.Column(db.DateTime, default=datetime.utcnow)
-    resume_text = db.Column(db.Text)  # Extracted text from resume for AI matching
+    # We extract text from the resume so the AI can analyze it for matching
+    resume_text = db.Column(db.Text)
 
+# UserProfile stores additional information about users (like their major, what they're looking for, etc.)
 class UserProfile(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), unique=True, nullable=False)
     major_field = db.Column(db.String(255))
-    looking_for = db.Column(db.String(255))  # thesis lab, summer RA, rotation, gap year
-    top_techniques = db.Column(db.Text)  # JSON array or comma-separated
+    # What kind of opportunity they're seeking (thesis lab, summer RA, rotation, gap year, etc.)
+    looking_for = db.Column(db.String(255))
+    # Their top techniques of interest (stored as comma-separated or JSON)
+    top_techniques = db.Column(db.Text)
     onboarding_complete = db.Column(db.Boolean, default=False)
-    profile_completeness = db.Column(db.Integer, default=0)  # 0-100
+    # Track how complete their profile is (0-100%)
+    profile_completeness = db.Column(db.Integer, default=0)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
+# Configuration for file uploads
 UPLOAD_FOLDER = "uploads"
+# Only allow PDF and DOCX files for resumes
 ALLOWED_EXTENSIONS = {"pdf", "docx"}
 
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-# Create uploads directory if it doesn't exist
+# Make sure the uploads folder exists so we can save files there
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Initialize database
+# Create all the database tables if they don't exist yet
 with app.app_context():
     db.create_all()
 
-
+# Set up paths to our data files
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 FACULTY_PATH = os.path.join(DATA_DIR, "faculty.json")
 
+# Helper Functions - these do common tasks we need throughout the app
 
 def load_faculty():
-    """Load all faculty from the JSON file."""
+    """Load all the faculty/PI data from our JSON file."""
     with open(FACULTY_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def get_faculty_by_id(pi_id: str):
-    """Return a single PI dict by id, or None."""
+    """Find and return a specific PI by their ID, or None if not found."""
     all_faculty = load_faculty()
     for pi in all_faculty:
         if pi["id"] == pi_id:
@@ -100,17 +131,20 @@ def get_faculty_by_id(pi_id: str):
     return None
 
 def allowed_file(filename: str) -> bool:
-    """Return True if the file has an allowed extension."""
+    """Check if a filename has an allowed extension (PDF or DOCX)."""
     return (
         "." in filename
         and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
     )
 
 
+# This function processes a batch of faculty members in parallel for faster matching
+# Instead of checking all labs one by one, we split them into batches and process multiple batches at once
 def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
-    """Process a batch of faculty members and return match scores."""
+    """Process a batch of faculty members and return match scores using AI."""
     try:
-        # Create summaries for this batch
+        # First, create a summary of all the labs in this batch
+        # This makes it easier for the AI to process them all at once
         faculty_summaries = []
         for pi in faculty_batch:
             summary = f"- {pi['name']} ({pi['id']}): {pi['title']}\n"
@@ -125,6 +159,8 @@ def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
         
         faculty_text = "\n".join(faculty_summaries)
         
+        # Build the prompt we'll send to the AI
+        # This tells the AI what we want it to do and how to score matches
         prompt = f"""You are an expert research lab matching algorithm. Your task is to analyze a student's resume and match them with the most compatible research labs.
 
 STUDENT RESUME/CV INFORMATION:
@@ -166,6 +202,8 @@ IMPORTANT:
 - Provide specific, detailed reasons referencing actual resume content
 - Return valid JSON only, no markdown or extra text"""
 
+        # Send the prompt to OpenAI and get back match scores
+        # We use a low temperature (0.2) to get more consistent, reliable results
         completion = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
@@ -177,14 +215,15 @@ IMPORTANT:
         
         response_text = completion.choices[0].message.content
         
-        # Try to extract JSON array from response
+        # The AI might return JSON in different formats, so we try to extract it
+        # First, look for a JSON array in the response
         json_match = re.search(r'\[.*\]', response_text, re.DOTALL)
         if json_match:
             try:
                 matches_data = json.loads(json_match.group())
                 return matches_data
             except json.JSONDecodeError:
-                # Try to find matches key if it's a JSON object
+                # Sometimes the AI wraps it in an object, so try that too
                 try:
                     full_json = json.loads(response_text)
                     if 'matches' in full_json:
@@ -199,14 +238,17 @@ IMPORTANT:
             return []
             
     except Exception as e:
-        # Return empty list on error - will be handled by caller
+        # If something goes wrong, just return an empty list
+        # The caller will handle this gracefully
         print(f"Error processing batch {batch_num + 1}: {str(e)}")
         return []
 
 
+# Routes - these define what happens when users visit different pages
+
 @app.route("/test-gpt")
 def test_gpt():
-    """Simple route to verify OpenAI + .env are working."""
+    """Simple test route to make sure OpenAI API is working correctly."""
     try:
         completion = client.chat.completions.create(
             model=GPT_MODEL,
@@ -222,12 +264,14 @@ def test_gpt():
 
 @app.route("/")
 def index():
+    """Show the homepage with the hero section and feature cards."""
     return render_template("index.html")
 
 
 @app.route("/general")
 def general():
-    # Read filters from query string
+    """Show the browse labs page where users can filter and search through all available PIs."""
+    # Get any filter selections from the URL (like ?school=MIT&department=Biology)
     selected_school = request.args.get("school", "").strip()
     selected_department = request.args.get("department", "").strip()
     selected_technique = request.args.get("technique", "").strip()
@@ -235,11 +279,13 @@ def general():
 
     all_faculty = load_faculty()
 
-    # Get unique values for filter dropdowns
+    # Build lists of unique values for the filter dropdowns
+    # This lets users see all available options
     schools = sorted(set(pi["school"] for pi in all_faculty))
     departments = sorted(set(pi["department"] for pi in all_faculty))
     
-    # Extract unique lab techniques and locations
+    # Extract all unique lab techniques and locations from the data
+    # Techniques are stored as comma-separated strings, so we need to split them
     all_techniques = set()
     all_locations = set()
     for pi in all_faculty:
@@ -254,23 +300,30 @@ def general():
     techniques = sorted(all_techniques)
     locations = sorted(all_locations)
 
+    # Filter the faculty list based on what the user selected
     filtered = []
     for pi in all_faculty:
+        # Skip this PI if it doesn't match the selected school
         if selected_school and pi["school"] != selected_school:
             continue
+        # Skip if it doesn't match the selected department
         if selected_department and pi["department"] != selected_department:
             continue
+        # Check if the selected technique is in this PI's techniques list
         if selected_technique:
             pi_techniques = [t.strip().lower() for t in (pi.get("lab_techniques", "") or "").split(",")]
             if selected_technique.lower() not in pi_techniques:
                 continue
+        # Check location match
         if selected_location:
             pi_location = pi.get("specific_location", pi["location"])
             if selected_location not in pi_location:
                 continue
+        # If we made it here, this PI matches all the filters
         filtered.append(pi)
 
-    # Check which PIs are already saved by the user
+    # Check which PIs the current user has already saved
+    # This lets us show a "Saved" indicator instead of a "Save" button
     saved_pi_ids = set()
     user_id = session.get("user_id")
     if user_id:
@@ -293,15 +346,15 @@ def general():
 
 @app.route("/matches")
 def matches():
-    """Show AI-ranked lab matches based on user's resume."""
+    """Show AI-ranked lab matches based on the user's resume. This is the core feature!"""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
     
-    # Check for demo mode
+    # Allow demo mode so people can try it without uploading a resume
     use_demo = request.args.get("demo") == "true"
     
-    # Get user's most recent resume
+    # Get the user's most recent resume upload
     resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
     
     if not resume and not use_demo:
@@ -310,7 +363,8 @@ def matches():
     
     all_faculty = load_faculty()
     
-    # Prepare resume info
+    # Prepare the resume information to send to the AI
+    # If demo mode, use a sample resume; otherwise use the actual uploaded resume text
     if use_demo:
         resume_info = """Computer Science major with strong background in machine learning and neuroscience. 
         Research experience: 2 years in computational neuroscience lab working with neural networks and electrophysiology data.
@@ -321,24 +375,27 @@ def matches():
         resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
     
     # Use parallel batch processing to speed up matching
+    # Instead of checking labs one by one (which would be very slow), we split them into batches
+    # and process multiple batches at the same time using multiple threads
     try:
         # Split faculty into batches for parallel processing
-        # Use batches of 15-20 faculty members for optimal performance
+        # We found that batches of 15-20 work well - not too big, not too small
         BATCH_SIZE = 15
-        faculty_to_process = all_faculty[:150]  # Process up to 150 labs
+        faculty_to_process = all_faculty[:150]  # Process up to 150 labs to keep it fast
         batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
         total_batches = len(batches)
         
         # Process batches in parallel using ThreadPoolExecutor
+        # This is what makes it 10x faster than processing sequentially
         all_matches_data = []
         with ThreadPoolExecutor(max_workers=10) as executor:
-            # Submit all batch processing tasks
+            # Submit all batch processing tasks to run in parallel
             future_to_batch = {
                 executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
                 for idx, batch in enumerate(batches)
             }
             
-            # Collect results as they complete
+            # Collect results as they complete (they might finish in any order)
             for future in as_completed(future_to_batch):
                 batch_idx = future_to_batch[future]
                 try:
@@ -352,11 +409,12 @@ def matches():
         matches_data = all_matches_data
             
     except Exception as e:
-        # Fallback: return all labs without ranking if AI fails
+        # If something goes wrong with the AI, show all labs without ranking
+        # This way the user still gets results even if the AI is having issues
         matches_data = [{"pi_id": pi["id"], "score": 50, "reason": "Unable to generate match score"} for pi in all_faculty]
         flash(f"AI matching temporarily unavailable. Showing all labs. Error: {str(e)}", "warning")
     
-    # Create a dict of pi_id -> match data
+    # Combine the match scores with the full PI data
     pi_by_id = {pi["id"]: pi for pi in all_faculty}
     ranked_matches = []
     
@@ -368,10 +426,10 @@ def matches():
             pi["match_reason"] = match.get("reason", "Match found")
             ranked_matches.append(pi)
     
-    # Sort by score descending
+    # Sort by match score from highest to lowest
     ranked_matches.sort(key=lambda x: x.get("match_score", 0), reverse=True)
     
-    # Check which PIs are already saved
+    # Check which PIs the user has already saved
     saved_pi_ids = set()
     saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
     saved_pi_ids = {row.pi_id for row in saved_rows}
@@ -385,53 +443,58 @@ def matches():
 
 @app.route("/save-pi/<pi_id>", methods=["POST"])
 def save_pi(pi_id):
+    """Save a PI to the user's saved list. This is called when they click the 'Save' button."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
 
-    # Avoid duplicates thanks to UniqueConstraint, but also check manually
+    # Check if they've already saved this PI (avoid duplicates)
+    # The database has a unique constraint too, but we check here to avoid errors
     existing = SavedPI.query.filter_by(user_id=user_id, pi_id=pi_id).first()
     if existing is None:
         saved = SavedPI(user_id=user_id, pi_id=pi_id)
         db.session.add(saved)
         db.session.commit()
 
-    # Redirect back to the page we came from if possible
+    # Send them back to wherever they came from (browse page, matches page, etc.)
     return redirect(request.referrer or url_for("saved_pis"))
 
 
 @app.route("/resume", methods=["GET", "POST"])
 def resume_upload():
+    """Handle resume uploads. Users need to upload a resume to get AI-powered matches."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
     
     if request.method == "POST":
-        # Check that the form actually included a file
+        # Make sure the form actually included a file
         if "resume" not in request.files:
             error = "No file part in the form."
             return render_template("resume_upload.html", error=error)
 
         file = request.files["resume"]
 
-        # If user submitted without choosing a file
+        # Check if they actually selected a file (not just submitted empty form)
         if file.filename == "":
             error = "No file selected."
             return render_template("resume_upload.html", error=error)
 
-        # Validate the extension and save the file
+        # Validate the file type and save it
         if file and allowed_file(file.filename):
+            # Make the filename safe (remove any dangerous characters)
             filename = secure_filename(file.filename)
-            # Add user_id to filename to avoid conflicts
+            # Add user_id to the filename so multiple users can upload files with the same name
             user_filename = f"{user_id}_{filename}"
             save_path = os.path.join(app.config["UPLOAD_FOLDER"], user_filename)
             file.save(save_path)
             
-            # Try to extract text from resume (basic implementation)
-            # For PDF/DOCX, you'd need libraries like PyPDF2 or python-docx
+            # Extract text from the resume for AI analysis
+            # Note: This is a placeholder - in production you'd use libraries like PyPDF2 or python-docx
+            # to actually extract the text from PDFs and Word documents
             resume_text = ""  # Placeholder - would extract actual text here
             
-            # Save resume record to database
+            # Save the resume record to the database
             resume = Resume(
                 user_id=user_id,
                 filename=filename,
@@ -447,21 +510,25 @@ def resume_upload():
             error = "File type not allowed. Please upload a PDF or DOCX."
             return render_template("resume_upload.html", error=error)
 
-    # GET request → show form and any existing resume
+    # GET request - just show the upload form and any existing resume
     existing_resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
     return render_template("resume_upload.html", existing_resume=existing_resume)
 
 
 @app.route("/saved")
 def saved_pis():
+    """Show all the PIs that the user has saved to their list."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
 
+    # Load all faculty data and create a lookup dictionary
     all_faculty = load_faculty()
     pi_by_id = {pi["id"]: pi for pi in all_faculty}
 
+    # Get all the saved PI IDs for this user
     saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+    # Convert the saved IDs back into full PI data
     saved_pis_data = []
     for row in saved_rows:
         pi = pi_by_id.get(row.pi_id)
@@ -473,10 +540,12 @@ def saved_pis():
 
 @app.route("/unsave-pi/<pi_id>", methods=["POST"])
 def unsave_pi(pi_id):
+    """Remove a PI from the user's saved list."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
 
+    # Find and delete the saved PI record
     saved = SavedPI.query.filter_by(user_id=user_id, pi_id=pi_id).first()
     if saved:
         db.session.delete(saved)
@@ -577,12 +646,14 @@ Best regards,
 
 @app.route("/draft-email", methods=["GET", "POST"])
 def draft_email():
+    """Generate a personalized email draft to send to a PI. This uses AI to write professional cold emails."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
     
     error = None
     draft = None
+    # Get the PI ID from either the URL (if they clicked a link) or the form (if they submitted)
     pi_id = request.args.get("pi_id") or (request.form.get("pi_id") if request.method == "POST" else None)
     pi = None
     
@@ -606,13 +677,15 @@ def draft_email():
                 error = "PI not found."
             else:
                 try:
-                    # Get user's resume for context
+                    # Get the user's resume to include context in the email
                     user_resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
                     resume_context = ""
                     if user_resume and user_resume.resume_text:
+                        # Only include the first 500 characters to keep the prompt manageable
                         resume_context = f"\nStudent's Resume Summary: {user_resume.resume_text[:500]}"
                     
-                    # Enhanced email generation with better context
+                    # Build a detailed prompt for the AI to generate a personalized email
+                    # We include all the PI's information and the student's background
                     prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}.
 
 PI INFORMATION:
@@ -666,8 +739,16 @@ Best regards,
                 except Exception as e:
                     error = f"Error generating email draft: {str(e)}"
     
-    # Get all faculty for dropdown if no PI selected
-    all_faculty = load_faculty() if not pi else None
+    # If no PI is selected yet, populate the dropdown with only the user's saved PIs
+    # This way they can only draft emails to PIs they've already saved
+    all_faculty = None
+    saved_pis_list = None
+    if not pi:
+        all_faculty_data = load_faculty()
+        pi_by_id = {fac["id"]: fac for fac in all_faculty_data}
+        saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+        saved_pis_list = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
+        saved_pis_list = [p for p in saved_pis_list if p]  # Remove any None values
     
     return render_template(
         "draft_email.html",
@@ -675,6 +756,7 @@ Best regards,
         draft=draft,
         pi=pi,
         all_faculty=all_faculty,
+        saved_pis=saved_pis_list,
         student_name=request.form.get("student_name", ""),
         student_email=request.form.get("student_email", ""),
         student_background=request.form.get("student_background", ""),
@@ -859,6 +941,7 @@ def account():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    """Handle user login. Users can log in with either their email or username."""
     if request.method == "POST":
         email = request.form.get("email", "").strip().lower()
         username = request.form.get("username", "").strip()
@@ -868,7 +951,7 @@ def login():
             error = "Password is required."
             return render_template("login.html", error=error)
         
-        # Allow login with either email or username
+        # Allow users to log in with either their email or username (whichever they provide)
         if email:
             user = User.query.filter_by(email=email).first()
         elif username:
@@ -877,11 +960,12 @@ def login():
             error = "Please provide either email or username."
             return render_template("login.html", error=error)
 
+        # Check if the user exists and the password is correct
         if user is None or not user.check_password(password):
             error = "Invalid credentials."
             return render_template("login.html", error=error)
 
-        # Credentials are valid → store user in session
+        # Login successful! Store the user info in the session so they stay logged in
         session["user_id"] = user.id
         session["username"] = user.username
 
@@ -896,64 +980,70 @@ def logout():
 
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
+    """Handle new user registration. Validates input and creates the account."""
     if request.method == "POST":
         username = request.form.get("username", "").strip()
         email = request.form.get("email", "").strip().lower()
         password = request.form.get("password", "")
         confirm_password = request.form.get("confirm_password", "")
 
-        # Basic validation
+        # Validate that all required fields are filled in
         if not username or not email or not password or not confirm_password:
             error = "All fields are required."
             return render_template("signup.html", error=error)
         
+        # Make sure username is long enough
         if len(username) < 3:
             error = "Username must be at least 3 characters long."
             return render_template("signup.html", error=error)
 
+        # Check that both password fields match
         if password != confirm_password:
             error = "Passwords do not match."
             return render_template("signup.html", error=error)
         
+        # Enforce minimum password length
         if len(password) < 6:
             error = "Password must be at least 6 characters long."
             return render_template("signup.html", error=error)
 
-        # Check if username already exists
+        # Make sure the username isn't already taken
         existing_username = User.query.filter_by(username=username).first()
         if existing_username:
             error = "Username already taken. Please choose another."
             return render_template("signup.html", error=error)
 
-        # Check if email already exists
+        # Make sure the email isn't already registered
         existing_email = User.query.filter_by(email=email).first()
         if existing_email:
             error = "An account with that email already exists."
             return render_template("signup.html", error=error)
 
-        # Create the user
+        # Everything looks good! Create the new user account
         user = User(username=username, email=email)
-        user.set_password(password)
+        user.set_password(password)  # Hash the password before storing
         db.session.add(user)
         db.session.commit()
 
-        # Log the user in (store in session)
+        # Automatically log them in after signup
         session["user_id"] = user.id
         session["username"] = user.username
 
         flash("Account created successfully!", "success")
-        # Redirect to onboarding for new users
+        # Send new users to onboarding to set up their profile
         return redirect(url_for("onboarding"))
 
     # GET request
     return render_template("signup.html")
 
 
+# This is the main entry point - it runs when you execute the file directly
 if __name__ == "__main__":
-    # Ensure database is initialized
+    # Make sure all database tables exist before starting the server
     with app.app_context():
         db.create_all()
-    # Run on all interfaces (0.0.0.0) to make it accessible
-    # Using port 5001 to avoid conflict with macOS AirPlay on port 5000
-    # Access via http://localhost:5001 or http://127.0.0.1:5001
+    # Start the Flask development server
+    # We run on all interfaces (0.0.0.0) so it's accessible from other devices on the network
+    # Using port 5001 instead of 5000 to avoid conflict with macOS AirPlay service
+    # You can access it at http://localhost:5001 or http://127.0.0.1:5001
     app.run(debug=True, host='0.0.0.0', port=5001)

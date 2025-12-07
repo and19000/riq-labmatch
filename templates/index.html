@@ -1,15 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <!-- Homepage wrapper - contains all the homepage content -->
   <div class="homepage-wrapper">
-    <!-- Ocean Wave Background - flows across entire page -->
-    <div class="ocean-waves">
-      <div class="wave wave1"></div>
-      <div class="wave wave2"></div>
-      <div class="wave wave3"></div>
-    </div>
-  
+  <!-- Hero section - the big eye-catching area at the top -->
   <div class="hero-section">
+    <!-- Animated torus rings - creates a cool 3D-looking animation effect -->
     <div class="torus-container">
       <div class="torus-ring torus-outer">
         <div class="torus-inner-ring"></div>
@@ -21,6 +17,7 @@
         <div class="torus-inner-ring"></div>
       </div>
     </div>
+    <!-- Main hero content - headline, description, and call-to-action buttons -->
     <div class="hero-content">
       <h1>Find your next research lab in seconds.</h1>
       <p class="subtitle">Connect with leading researchers at MIT, Broad Institute, Harvard Medical School, and more. AI-powered matching helps you discover labs that align with your skills and interests.</p>
@@ -31,6 +28,7 @@
     </div>
   </div>
 
+  <!-- Features section - explains what the app can do -->
   <section class="features-deepmind-section">
     <h2 class="section-title">What you can do with RIQ</h2>
     <div class="features-deepmind-grid">
@@ -78,6 +76,7 @@
   </section>
 
 
+  <!-- Stats section - shows impressive numbers to build trust -->
   <div class="stats-section">
     <h2>Why Use RIQ Lab Matcher?</h2>
     <div class="stats-grid">
@@ -96,8 +95,11 @@
     </div>
   </div>
 
+  <!-- Call-to-action section - encourages users to sign up or continue using the app -->
+  <!-- Shows different content based on whether the user is logged in -->
   <div class="cta-section">
     {% if not session.get('user_id') %}
+      <!-- For visitors who aren't logged in -->
       <h2>Ready to Find Your Research Opportunity?</h2>
       <p>Create a free account to start saving labs and drafting emails.</p>
       <div class="cta-buttons">
@@ -105,6 +107,7 @@
         <a href="{{ url_for('login') }}" class="btn-secondary btn-large">Log In</a>
       </div>
     {% else %}
+      <!-- For logged-in users -->
       <h2>Continue Your Research Journey</h2>
       <p>Browse labs, save favorites, and draft professional emails to PIs.</p>
       <div class="cta-buttons">
