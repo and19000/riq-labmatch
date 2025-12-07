@@ -77,8 +77,32 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Initialize database
-with app.app_context():
-    db.create_all()
+def init_db():
+    """Initialize database and run migrations."""
+    with app.app_context():
+        db.create_all()
+        
+        # Migration: Add username column to User table if it doesn't exist
+        try:
+            from sqlalchemy import inspect, text
+            inspector = inspect(db.engine)
+            
+            # Check if user table exists
+            if 'user' in inspector.get_table_names():
+                columns = [col['name'] for col in inspector.get_columns('user')]
+                
+                if 'username' not in columns:
+                    # Add username column using raw SQL
+                    # SQLite supports ADD COLUMN in ALTER TABLE
+                    with db.engine.begin() as conn:
+                        conn.execute(text("ALTER TABLE user ADD COLUMN username VARCHAR(80)"))
+                    print("Migration: Added username column to user table")
+        except Exception as e:
+            # If table doesn't exist yet, create_all will handle it
+            # Or if migration fails, continue anyway
+            print(f"Migration check: {e}")
+
+init_db()
 
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
@@ -110,69 +134,42 @@ def allowed_file(filename: str) -> bool:
 def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
     """Process a batch of faculty members and return match scores."""
     try:
-        # Create summaries for this batch
+        # Create concise summaries for this batch (optimized for speed)
         faculty_summaries = []
         for pi in faculty_batch:
-            summary = f"- {pi['name']} ({pi['id']}): {pi['title']}\n"
-            summary += f"  Department: {pi['department']}, {pi['school']}\n"
-            summary += f"  Research Areas: {pi['research_areas']}\n"
+            # More concise format to reduce token count and processing time
+            summary = f"{pi['name']} ({pi['id']}): {pi['research_areas']}"
             if pi.get('lab_techniques'):
-                summary += f"  Lab Techniques: {pi['lab_techniques']}\n"
-            if pi.get('h_index'):
-                summary += f"  H-index: {pi['h_index']}\n"
-            summary += f"  Location: {pi.get('specific_location', pi['location'])}\n"
+                summary += f" | Techniques: {pi['lab_techniques'][:100]}"  # Truncate long technique lists
+            summary += f" | {pi['department']}, {pi['school']}"
             faculty_summaries.append(summary)
         
         faculty_text = "\n".join(faculty_summaries)
         
-        prompt = f"""You are an expert research lab matching algorithm. Your task is to analyze a student's resume and match them with the most compatible research labs.
+        # Optimized, more concise prompt for faster processing
+        prompt = f"""Match student resume with compatible labs. Return JSON array only.
 
-STUDENT RESUME/CV INFORMATION:
-{resume_info}
+STUDENT: {resume_info[:500]}
 
-AVAILABLE RESEARCH LABS (Batch {batch_num + 1} of {total_batches}):
+LABS (Batch {batch_num + 1}/{total_batches}):
 {faculty_text}
 
-MATCHING CRITERIA (weight these factors):
-1. Research area alignment (40%): How well do the student's skills/interests match the lab's research areas?
-2. Technical skills match (25%): Do the student's technical skills align with lab techniques used?
-3. Academic level fit (15%): Is the student's level (undergrad/grad) appropriate for this lab?
-4. Department alignment (10%): Does the student's background match the department?
-5. Research impact (10%): Consider the PI's H-index and research prominence
+Scoring (40% research match, 25% skills, 15% level, 10% dept, 10% impact):
+- 90-100: Exceptional | 80-89: Excellent | 70-79: Good | 60-69: Moderate | 50-59: Weak | <50: Exclude
 
-SCORING GUIDELINES:
-- 90-100: Exceptional match - strong alignment across all criteria
-- 80-89: Excellent match - very good fit with minor gaps
-- 70-79: Good match - solid fit with some areas of alignment
-- 60-69: Moderate match - some relevant overlap
-- 50-59: Weak match - minimal but potential alignment
-- Below 50: Poor match - exclude from results
+Return JSON array: [{{"pi_id": "id", "score": 85, "reason": "brief reason"}}]
+Only include labs with score >= 50. Rank highest to lowest."""
 
-For each lab, analyze:
-1. Specific skills/techniques mentioned in resume that match the lab
-2. Research interests alignment
-3. Academic background compatibility
-4. Potential for meaningful contribution
-
-Return ONLY a valid JSON array with this exact format:
-[
-  {{"pi_id": "harvard-cs-1", "score": 92, "reason": "Exceptional match: Student's ML experience in healthcare directly aligns with lab's focus on healthcare AI. Strong Python skills match computational requirements. Undergraduate research experience shows readiness."}},
-  {{"pi_id": "harvard-bio-2", "score": 78, "reason": "Good match: Background in molecular biology aligns with research areas. Some relevant techniques overlap. Would benefit from additional training in specific methods."}}
-]
-
-IMPORTANT:
-- Rank from highest to lowest score
-- Only include labs with score >= 50
-- Provide specific, detailed reasons referencing actual resume content
-- Return valid JSON only, no markdown or extra text"""
-
+        # Make API call - OpenAI client handles timeouts internally
+        # Using concise prompt and lower temperature for faster responses
         completion = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
-                {"role": "system", "content": "You are an expert research lab matching algorithm. You analyze student resumes and match them with compatible labs using weighted criteria. Always return valid JSON arrays with no markdown formatting."},
+                {"role": "system", "content": "You are a lab matching algorithm. Return only valid JSON arrays, no markdown."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.2,
+            max_tokens=2000,  # Limit response length for faster processing
         )
         
         response_text = completion.choices[0].message.content
@@ -323,15 +320,16 @@ def matches():
     # Use parallel batch processing to speed up matching
     try:
         # Split faculty into batches for parallel processing
-        # Use batches of 15-20 faculty members for optimal performance
-        BATCH_SIZE = 15
-        faculty_to_process = all_faculty[:150]  # Process up to 150 labs
+        # Smaller batches = more parallelism, faster overall
+        BATCH_SIZE = 10  # Reduced from 15 for more parallel requests
+        faculty_to_process = all_faculty[:100]  # Process top 100 labs (reduced from 150 for speed)
         batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
         total_batches = len(batches)
         
         # Process batches in parallel using ThreadPoolExecutor
+        # Increased workers for more parallelism (20 instead of 10)
         all_matches_data = []
-        with ThreadPoolExecutor(max_workers=10) as executor:
+        with ThreadPoolExecutor(max_workers=20) as executor:
             # Submit all batch processing tasks
             future_to_batch = {
                 executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
