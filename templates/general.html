@@ -72,14 +72,13 @@
 
       {% if faculty_list %}
         <div class="labs-table-container">
-          <table class="labs-table">
+          <table class="labs-table general-labs-table">
             <thead>
               <tr>
-                <th style="width: 60px;">Logo</th>
+                <th style="width: 100px;">Logo</th>
                 <th>Professor</th>
                 <th>Info</th>
                 <th>Email</th>
-                <th style="width: 80px; text-align: center;">Fit</th>
                 <th style="width: 120px;">Actions</th>
               </tr>
             </thead>
@@ -126,17 +125,6 @@
                   </td>
                   <td>
                     <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
-                  </td>
-                  <td style="text-align: center;">
-                    {% if session.get('user_id') and pi.id in saved_pi_ids %}
-                      <div class="table-fit-score" style="background: linear-gradient(135deg, #10b981, #059669); color: white;">
-                        <span style="font-size: 0.8rem;">✓</span>
-                      </div>
-                    {% else %}
-                      <div class="table-fit-score" style="background: var(--bg-elevated); border: 2px solid var(--border-subtle); color: var(--text-muted);">
-                        <span style="font-size: 0.8rem;">—</span>
-                      </div>
-                    {% endif %}
                   </td>
                   <td>
                     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
