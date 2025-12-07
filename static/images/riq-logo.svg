@@ -33,14 +33,6 @@
   <!-- Inner ring for depth -->
   <circle cx="80" cy="80" r="48" fill="none" stroke="url(#ringGradient)" stroke-width="2" opacity="0.6"/>
   
-  <!-- RIQ Letters cut into the bottom of the ring -->
-  <!-- R -->
-  <text x="55" y="125" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#ringGradient)" opacity="0.95">R</text>
-  <!-- I -->
-  <text x="75" y="125" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#ringGradient)" opacity="0.95">I</text>
-  <!-- Q -->
-  <text x="90" y="125" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#ringGradient)" opacity="0.95">Q</text>
-  
   <!-- Orbiting Dots - 4 dots that orbit around the ring -->
   <!-- Dot 1 - Top -->
   <circle cx="80" cy="25" r="6" fill="url(#ringGradient)" opacity="0.9" filter="url(#dotGlow)">
