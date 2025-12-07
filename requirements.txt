@@ -3,3 +3,5 @@ flask
 openai
 python-dotenv
 flask_sqlalchemy
+requests
+urllib3
