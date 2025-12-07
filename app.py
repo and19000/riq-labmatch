@@ -62,7 +62,8 @@ class UserProfile(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), unique=True, nullable=False)
     major_field = db.Column(db.String(255))
-    looking_for = db.Column(db.String(255))  # thesis lab, summer RA, rotation, gap year
+    year_in_school = db.Column(db.String(50))  # first year, sophomore, junior, senior, masters student, graduate student, other
+    looking_for = db.Column(db.String(500))  # comma-separated: thesis lab, summer RA, rotation, gap year, in term research, exploring
     top_techniques = db.Column(db.Text)  # JSON array or comma-separated
     onboarding_complete = db.Column(db.Boolean, default=False)
     profile_completeness = db.Column(db.Integer, default=0)  # 0-100
@@ -860,13 +861,24 @@ def onboarding():
     if request.method == "POST":
         if step == 1:
             major_field = request.form.get("major_field", "").strip()
+            # Clear field if it's empty or just "none"
+            if not major_field or major_field.lower() == 'none':
+                major_field = None
             profile.major_field = major_field
+            
+            year_in_school = request.form.get("year_in_school", "").strip()
+            profile.year_in_school = year_in_school if year_in_school else None
             profile.profile_completeness = 33
             db.session.commit()
             return redirect(url_for("onboarding", step=2))
         
         elif step == 2:
-            looking_for = request.form.get("looking_for", "").strip()
+            # Handle multiple selections for looking_for
+            looking_for_list = request.form.getlist("looking_for")
+            if not looking_for_list:
+                flash("Please select at least one option.", "error")
+                return redirect(url_for("onboarding", step=2))
+            looking_for = ",".join(looking_for_list)
             profile.looking_for = looking_for
             profile.profile_completeness = 66
             db.session.commit()

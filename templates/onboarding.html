@@ -19,9 +19,24 @@
           <label for="major_field">Your Major / Field of Study:</label>
           <input type="text" id="major_field" name="major_field" 
                  placeholder="e.g., Computer Science, Biology, Neuroscience, Psychology..." 
-                 value="{{ profile.major_field if profile else '' }}"
+                 {% if profile and profile.major_field and profile.major_field.strip() and profile.major_field.strip().lower() != 'none' %}value="{{ profile.major_field }}"{% endif %}
                  required autofocus>
           <small>This helps us match you with relevant research labs</small>
+        </div>
+        
+        <div class="form-group">
+          <label for="year_in_school">Current Year in School:</label>
+          <select id="year_in_school" name="year_in_school" required>
+            <option value="">-- Select your year --</option>
+            <option value="first year" {% if profile and profile.year_in_school == 'first year' %}selected{% endif %}>First Year</option>
+            <option value="sophomore" {% if profile and profile.year_in_school == 'sophomore' %}selected{% endif %}>Sophomore</option>
+            <option value="junior" {% if profile and profile.year_in_school == 'junior' %}selected{% endif %}>Junior</option>
+            <option value="senior" {% if profile and profile.year_in_school == 'senior' %}selected{% endif %}>Senior</option>
+            <option value="masters student" {% if profile and profile.year_in_school == 'masters student' %}selected{% endif %}>Masters Student</option>
+            <option value="graduate student" {% if profile and profile.year_in_school == 'graduate student' %}selected{% endif %}>Graduate Student</option>
+            <option value="other" {% if profile and profile.year_in_school == 'other' %}selected{% endif %}>Other</option>
+          </select>
+          <small>This helps us tailor recommendations to your level</small>
         </div>
         
         <div class="onboarding-actions">
@@ -31,38 +46,45 @@
 
     {% elif step == 2 %}
       <h2>What are you looking for?</h2>
-      <p class="onboarding-subtitle">Help us understand your research goals</p>
+      <p class="onboarding-subtitle">Select all that apply - you can choose multiple options</p>
       
       <form method="post" class="onboarding-form">
         <div class="form-group">
           <label>I'm looking for:</label>
-          <div class="radio-group">
-            <label class="radio-option">
-              <input type="radio" name="looking_for" value="thesis lab" 
-                     {% if profile and profile.looking_for == 'thesis lab' %}checked{% endif %} required>
+          {% set looking_for_str = (profile.looking_for if profile and profile.looking_for else '')|lower %}
+          <div class="checkbox-group">
+            <label class="checkbox-option">
+              <input type="checkbox" name="looking_for" value="thesis lab" 
+                     {% if 'thesis lab' in looking_for_str %}checked{% endif %}>
               <span>Thesis lab (graduation requirement)</span>
             </label>
-            <label class="radio-option">
-              <input type="radio" name="looking_for" value="summer RA" 
-                     {% if profile and profile.looking_for == 'summer RA' %}checked{% endif %}>
+            <label class="checkbox-option">
+              <input type="checkbox" name="looking_for" value="summer RA" 
+                     {% if 'summer ra' in looking_for_str %}checked{% endif %}>
               <span>Summer research assistant position</span>
             </label>
-            <label class="radio-option">
-              <input type="radio" name="looking_for" value="rotation" 
-                     {% if profile and profile.looking_for == 'rotation' %}checked{% endif %}>
+            <label class="checkbox-option">
+              <input type="checkbox" name="looking_for" value="in term research" 
+                     {% if 'in term research' in looking_for_str %}checked{% endif %}>
+              <span>In-term research (during the school year)</span>
+            </label>
+            <label class="checkbox-option">
+              <input type="checkbox" name="looking_for" value="rotation" 
+                     {% if 'rotation' in looking_for_str %}checked{% endif %}>
               <span>Lab rotation (for grad students)</span>
             </label>
-            <label class="radio-option">
-              <input type="radio" name="looking_for" value="gap year" 
-                     {% if profile and profile.looking_for == 'gap year' %}checked{% endif %}>
+            <label class="checkbox-option">
+              <input type="checkbox" name="looking_for" value="gap year" 
+                     {% if 'gap year' in looking_for_str %}checked{% endif %}>
               <span>Gap year research opportunity</span>
             </label>
-            <label class="radio-option">
-              <input type="radio" name="looking_for" value="exploring" 
-                     {% if profile and profile.looking_for == 'exploring' %}checked{% endif %}>
+            <label class="checkbox-option">
+              <input type="checkbox" name="looking_for" value="exploring" 
+                     {% if 'exploring' in looking_for_str %}checked{% endif %}>
               <span>Just exploring options</span>
             </label>
           </div>
+          <small>Select all options that apply to you</small>
         </div>
         
         <div class="onboarding-actions">
