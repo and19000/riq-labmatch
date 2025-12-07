@@ -71,3 +71,4 @@ def update_faculty_with_scholar():
 if __name__ == "__main__":
     update_faculty_with_scholar()
 
+
