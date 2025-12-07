@@ -673,15 +673,22 @@ Best regards,
                 except Exception as e:
                     error = f"Error generating email draft: {str(e)}"
     
-    # Get all faculty for dropdown if no PI selected
-    all_faculty = load_faculty() if not pi else None
+    # Get saved PIs for dropdown if no PI selected (only show saved PIs, not all faculty)
+    saved_pis_data = None
+    if not pi:
+        all_faculty = load_faculty()
+        pi_by_id = {pi["id"]: pi for pi in all_faculty}
+        saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+        saved_pis_data = [pi_by_id.get(row.pi_id) for row in saved_rows if row.pi_id in pi_by_id]
+        # Filter out None values in case some IDs weren't found
+        saved_pis_data = [pi for pi in saved_pis_data if pi is not None]
     
     return render_template(
         "draft_email.html",
         error=error,
         draft=draft,
         pi=pi,
-        all_faculty=all_faculty,
+        saved_pis=saved_pis_data,
         student_name=request.form.get("student_name", ""),
         student_email=request.form.get("student_email", ""),
         student_background=request.form.get("student_background", ""),

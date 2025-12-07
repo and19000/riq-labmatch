@@ -19,15 +19,20 @@
           <p><a href="{{ url_for('draft_email') }}">Change PI</a></p>
         </div>
       {% else %}
-        <select id="pi_id" name="pi_id" required>
-          <option value="">-- Select a PI --</option>
-          {% if all_faculty %}
-            {% for faculty in all_faculty %}
-              <option value="{{ faculty.id }}">{{ faculty.name }} — {{ faculty.department }}, {{ faculty.school }}</option>
+        {% if saved_pis and saved_pis|length > 0 %}
+          <select id="pi_id" name="pi_id" required class="pi-select">
+            <option value="">-- Select a saved PI --</option>
+            {% for saved_pi in saved_pis %}
+              <option value="{{ saved_pi.id }}">{{ saved_pi.name }} — {{ saved_pi.department }}, {{ saved_pi.school }}</option>
             {% endfor %}
-          {% endif %}
-        </select>
-        <p><small>Or <a href="{{ url_for('general') }}">browse PIs</a> and click "Draft Email" from there.</small></p>
+          </select>
+          <p><small>Only showing your saved PIs. <a href="{{ url_for('saved_pis') }}">View all saved PIs</a> or <a href="{{ url_for('general') }}">browse all PIs</a>.</small></p>
+        {% else %}
+          <div class="no-saved-pis-message" style="padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <p style="margin-bottom: 0.5rem;">You haven't saved any PIs yet.</p>
+            <p style="margin: 0;"><a href="{{ url_for('general') }}" class="btn-primary" style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.9rem;">Browse PIs to Save</a></p>
+          </div>
+        {% endif %}
       {% endif %}
     </div>
 
