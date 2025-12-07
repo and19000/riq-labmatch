@@ -32,8 +32,8 @@ You should see:
 ```
  * Running on http://127.0.0.1:5001
 ```
-
 Then open your browser to `http://localhost:5001`
+
 
 ## Troubleshooting
 
