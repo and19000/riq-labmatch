@@ -690,6 +690,30 @@ Thank you for your time and consideration,
                 except Exception as e:
                     error = f"Error generating email draft: {str(e)}"
     
+    # Check if this is an AJAX/JSON request
+    wants_json = (
+        request.headers.get('X-Requested-With') == 'XMLHttpRequest' or
+        request.headers.get('Accept', '').startswith('application/json') or
+        request.args.get('format') == 'json'
+    )
+    
+    if wants_json and request.method == 'POST':
+        # Return JSON response for AJAX requests
+        if error:
+            return jsonify({'success': False, 'error': error}), 400
+        elif draft:
+            return jsonify({
+                'success': True,
+                'draft': draft,
+                'pi': {
+                    'id': pi['id'],
+                    'name': pi['name'],
+                    'email': pi.get('email', '')
+                } if pi else None
+            })
+        else:
+            return jsonify({'success': False, 'error': 'No draft generated'}), 400
+    
     # Get saved PIs for dropdown if no PI selected (only show saved PIs, not all faculty)
     saved_pis_data = None
     if not pi:

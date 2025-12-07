@@ -145,15 +145,33 @@
   </div> <!-- End matches-content wrapper -->
 
   <script>
-    // Show content and hide loading overlay when page is fully loaded
+    // Show thinking bar during page load, then hide when content is ready
     (function() {
+      let thinkingBar = null;
       const loadingOverlay = document.getElementById('matches-loading');
       const contentWrapper = document.getElementById('matches-content');
       
+      // Hide the old loading overlay immediately (we'll use thinking bar instead)
+      if (loadingOverlay) {
+        loadingOverlay.style.display = 'none';
+      }
+      
+      // Show thinking bar if available
+      if (window.ThinkingBar) {
+        thinkingBar = new window.ThinkingBar('matches');
+        thinkingBar.show();
+      }
+      
       function showContent() {
-        if (loadingOverlay) {
-          loadingOverlay.style.display = 'none';
+        // Hide thinking bar
+        if (thinkingBar) {
+          thinkingBar.hide();
+          setTimeout(() => {
+            thinkingBar.destroy();
+            thinkingBar = null;
+          }, 300);
         }
+        
         if (contentWrapper) {
           contentWrapper.style.opacity = '1';
         }
@@ -163,7 +181,7 @@
       if (document.readyState === 'complete') {
         setTimeout(showContent, 300);
       } else {
-        // Wait for page to fully load
+        // Wait for page to fully load (including all API calls and processing)
         window.addEventListener('load', function() {
           setTimeout(showContent, 300);
         });
