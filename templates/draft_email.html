@@ -1,14 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Draft Email to PI</h1>
-  <p>Use AI to generate a professional cold email to a Principal Investigator.</p>
+  <div class="draft-email-wrapper">
+    <div class="draft-email-content">
+      <h1>Draft Email to PI</h1>
+      <p>Use AI to generate a professional cold email to a Principal Investigator.</p>
 
-  {% if error %}
-    <div class="error-message">{{ error }}</div>
-  {% endif %}
+      {% if error %}
+        <div class="error-message">{{ error }}</div>
+      {% endif %}
 
-  <form method="post" action="{{ url_for('draft_email') }}" class="email-form">
+      <form method="post" action="{{ url_for('draft_email') }}" class="email-form" id="email-form">
     <div class="form-group">
       <label for="pi_id">Select a PI:</label>
       {% if pi %}
@@ -56,11 +58,36 @@
       <textarea id="research_interest" name="research_interest" rows="2" placeholder="e.g., I'm particularly interested in your work on neural networks and would love to contribute to...">{{ research_interest or '' }}</textarea>
     </div>
 
-    <button type="submit" class="btn-primary">Generate Email Draft</button>
-  </form>
+        <button type="submit" class="btn-primary" id="generate-btn">Generate Email Draft</button>
+        <div id="loading-indicator" class="loading-indicator" style="display: none;">
+          <div class="thinking-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>Thinking...</p>
+        </div>
+      </form>
+    </div>
+    
+    <!-- Right side graphic -->
+    <div class="draft-email-graphic">
+      <div class="torus-container torus-email">
+        <div class="torus-ring torus-outer">
+          <div class="torus-inner-ring"></div>
+        </div>
+        <div class="torus-ring torus-middle">
+          <div class="torus-inner-ring"></div>
+        </div>
+        <div class="torus-ring torus-inner">
+          <div class="torus-inner-ring"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   {% if draft %}
-    <div class="draft-result">
+    <div class="draft-result" style="margin-top: 2rem;">
       <h2>Generated Email Draft</h2>
       
       <!-- Pre-flight Email Checks -->
@@ -87,12 +114,22 @@
         <a href="mailto:{{ pi.email if pi else '' }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
       </div>
       <div class="draft-content" id="draft-content">
-        <pre>{{ draft }}</pre>
+        <div class="draft-text">{{ draft }}</div>
       </div>
     </div>
   {% endif %}
 
   <script>
+    // Show loading indicator when form is submitted
+    document.getElementById('email-form').addEventListener('submit', function() {
+      const btn = document.getElementById('generate-btn');
+      const loading = document.getElementById('loading-indicator');
+      if (btn && loading) {
+        btn.style.display = 'none';
+        loading.style.display = 'flex';
+      }
+    });
+    
     function copyToClipboard() {
       const draftText = document.getElementById('draft-content').innerText;
       navigator.clipboard.writeText(draftText).then(() => {

@@ -1,6 +1,34 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <!-- Loading overlay - shown immediately, hidden when page loads -->
+  <div id="matches-loading" class="matches-loading-overlay">
+    <div class="thinking-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <p>Making matches...</p>
+  </div>
+  
+  <script>
+    // Hide loading overlay when page is fully loaded
+    (function() {
+      const loadingOverlay = document.getElementById('matches-loading');
+      if (loadingOverlay && document.readyState === 'complete') {
+        setTimeout(() => {
+          loadingOverlay.style.display = 'none';
+        }, 300);
+      } else if (loadingOverlay) {
+        window.addEventListener('load', function() {
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+          }, 300);
+        });
+      }
+    })();
+  </script>
+
   <h1>Your Lab Matches</h1>
   <p class="subtitle">AI-powered matches based on your resume</p>
 
