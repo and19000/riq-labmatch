@@ -1121,22 +1121,24 @@ def account():
 def login():
     """Handle user login. Users can log in with either their email or username."""
     if request.method == "POST":
-        email = request.form.get("email", "").strip().lower()
-        username = request.form.get("username", "").strip()
+        # The form field is named "email" but can contain either email or username
+        login_input = request.form.get("email", "").strip()
         password = request.form.get("password", "")
 
+        if not login_input:
+            error = "Please provide either email or username."
+            return render_template("login.html", error=error)
+        
         if not password:
             error = "Password is required."
             return render_template("login.html", error=error)
         
-        # Allow users to log in with either their email or username (whichever they provide)
-        if email:
-            user = User.query.filter_by(email=email).first()
-        elif username:
-            user = User.query.filter_by(username=username).first()
-        else:
-            error = "Please provide either email or username."
-            return render_template("login.html", error=error)
+        # Try to find user by email first (lowercase comparison)
+        user = User.query.filter_by(email=login_input.lower()).first()
+        
+        # If not found by email, try to find by username (case-sensitive)
+        if user is None:
+            user = User.query.filter_by(username=login_input).first()
 
         # Check if the user exists and the password is correct
         if user is None or not user.check_password(password):
