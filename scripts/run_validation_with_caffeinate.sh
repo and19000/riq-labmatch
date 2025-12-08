@@ -32,3 +32,4 @@ echo ""
 echo "Script is running in background. Your computer will stay awake."
 echo "Check progress with: bash scripts/check_progress.sh"
 
+

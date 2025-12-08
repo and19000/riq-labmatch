@@ -18,3 +18,4 @@ python scripts/validate_websites.py 0 1231 > /tmp/website_validation_full.log 2>
 echo ""
 echo "Validation complete! Check /tmp/website_validation_full.log for results."
 
+

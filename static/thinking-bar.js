@@ -162,3 +162,4 @@
   window.ThinkingBar = ThinkingBar;
 
 })();
+
