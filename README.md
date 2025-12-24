@@ -1,5 +1,7 @@
 # Research IQ (RIQ) Lab Matcher - User Manual
 
+# YouTube Video Link: https://youtu.be/H1JFlAH0p4g
+
 ## Overview
 
 RIQ Lab Matcher is a Flask-based web application that helps users discover and connect with research opportunities at Harvard and MIT. The website serves as a bridge between users seeking research positions and Principal Investigators (PIs) who lead research labs. RIQ provides key features to streamline the lab discovery process. Users are able to browse through an organized database of faculty members, save their favorites for later reference, upload their resumes for AI-powered (ChatGPT-4o-mini) matching, and create email drafts to contact PIs. 

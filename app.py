@@ -199,7 +199,7 @@ init_db()
 
 # Set up paths to our data files
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-FACULTY_PATH = os.path.join(DATA_DIR, "faculty.json")
+FACULTY_PATH = os.path.join(DATA_DIR, "faculty_working.json")
 
 # Helper Functions - these do common tasks we need throughout the app
 
