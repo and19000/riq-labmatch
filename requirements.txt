@@ -1,7 +1,9 @@
-
 flask
 openai
 python-dotenv
 flask_sqlalchemy
+flask_migrate
 requests
 urllib3
+gunicorn
+psycopg2-binary

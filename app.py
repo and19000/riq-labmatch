@@ -13,6 +13,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify
 # SQLAlchemy helps us work with the database
 from flask_sqlalchemy import SQLAlchemy
+# Flask-Migrate helps us manage database schema changes (migrations)
+from flask_migrate import Migrate
 # Werkzeug provides password hashing and file security
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
@@ -31,18 +33,40 @@ GPT_MODEL = "gpt-4o-mini"
 # Create our Flask application
 app = Flask(__name__)
 
-# This secret key is used to encrypt session data (like keeping users logged in)
-# In production, this should be a long random string stored securely
-app.config["SECRET_KEY"] = "dev-secret-change-later"
+# Get the environment (development or production)
+env = os.getenv("FLASK_ENV", "development")
 
-# Set up our database - we're using SQLite which stores everything in a local file
-# The database file will be created in the project root as riq.db
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///riq.db"
+# This secret key is used to encrypt session data (like keeping users logged in)
+# In production, this MUST be set via environment variable for security
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", "dev-secret-change-later")
+
+# Set up our database - supports both SQLite (local dev) and Postgres (production)
+database_url = os.getenv("DATABASE_URL")
+if database_url:
+    # Render and other platforms may provide postgres:// but SQLAlchemy needs postgresql://
+    if database_url.startswith("postgres://"):
+        database_url = database_url.replace("postgres://", "postgresql://", 1)
+    app.config["SQLALCHEMY_DATABASE_URI"] = database_url
+else:
+    # Local development: use SQLite in the instance folder (not project root)
+    os.makedirs(app.instance_path, exist_ok=True)
+    sqlite_path = os.path.join(app.instance_path, "riq.db")
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + sqlite_path
+
 # We don't need SQLAlchemy to track every change, so we disable this for performance
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
+# Cookie security settings
+app.config["SESSION_COOKIE_HTTPONLY"] = True
+app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
+# Only use secure cookies in production (requires HTTPS)
+if env == "production":
+    app.config["SESSION_COOKIE_SECURE"] = True
+
 # Create the database connection object
 db = SQLAlchemy(app)
+# Initialize Flask-Migrate for database migrations
+migrate = Migrate(app, db)
 
 # Database Models - these define the structure of our data tables
 
@@ -118,14 +142,16 @@ class PasswordResetToken(db.Model):
         return not self.used and datetime.utcnow() < self.expires_at
 
 # Configuration for file uploads
-UPLOAD_FOLDER = "uploads"
+# Note: On hosted servers (Render/Railway), disk storage may be ephemeral
+# For production, consider using S3 or similar cloud storage for uploaded files
+UPLOAD_FOLDER = os.getenv("UPLOAD_FOLDER", "uploads")
 # Only allow PDF and DOCX files for resumes
 ALLOWED_EXTENSIONS = {"pdf", "docx"}
 
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 # Make sure the uploads folder exists so we can save files there
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
 
 # Initialize database - this function creates tables and handles migrations
 def init_db():
@@ -404,17 +430,32 @@ def general():
     # Techniques are stored as comma-separated strings, so we need to split them
     all_techniques = set()
     all_locations = set()
+    locations_by_school = {}  # Track locations per school for filtering
+    
     for pi in all_faculty:
         if pi.get("lab_techniques"):
             techniques = [t.strip() for t in pi["lab_techniques"].split(",")]
             all_techniques.update(techniques)
-        if pi.get("specific_location"):
-            all_locations.add(pi["specific_location"])
-        else:
-            all_locations.add(pi["location"])
+        
+        # Track locations by school
+        school = pi.get("school", "")
+        location = pi.get("specific_location") or pi.get("location", "")
+        if location:
+            all_locations.add(location)
+            if school not in locations_by_school:
+                locations_by_school[school] = set()
+            locations_by_school[school].add(location)
     
     techniques = sorted(all_techniques)
-    locations = sorted(all_locations)
+    
+    # Filter locations based on selected school
+    if selected_school and selected_school in locations_by_school:
+        locations = sorted(locations_by_school[selected_school])
+        # If a location is selected but not valid for the selected school, clear it
+        if selected_location and selected_location not in locations:
+            selected_location = ""
+    else:
+        locations = sorted(all_locations)
 
     # Filter the faculty list based on what the user selected
     filtered = []
@@ -1324,12 +1365,15 @@ def reset_password(token):
 
 
 # This is the main entry point - it runs when you execute the file directly
+# In production, use Gunicorn instead: gunicorn app:app --bind 0.0.0.0:$PORT
 if __name__ == "__main__":
     # Make sure all database tables exist before starting the server
     with app.app_context():
         db.create_all()
     # Start the Flask development server
     # We run on all interfaces (0.0.0.0) so it's accessible from other devices on the network
-    # Using port 5001 instead of 5000 to avoid conflict with macOS AirPlay service
-    # You can access it at http://localhost:5001 or http://127.0.0.1:5001
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    # Port can be set via PORT environment variable (defaults to 5001 for local dev)
+    port = int(os.getenv("PORT", 5001))
+    # Only enable debug mode in development (not production)
+    debug_mode = env != "production"
+    app.run(debug=debug_mode, host='0.0.0.0', port=port)
