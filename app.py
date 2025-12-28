@@ -201,6 +201,44 @@ init_db()
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 FACULTY_PATH = os.path.join(DATA_DIR, "faculty_working.json")
 
+# Access Control - restrict site to authorized users only
+# Set ALLOWED_USERS environment variable with comma-separated emails (e.g., "user1@example.com,user2@example.com")
+# If not set, site is public (for backward compatibility)
+ALLOWED_USERS = os.getenv("ALLOWED_USERS", "").strip()
+ALLOWED_EMAILS = set(email.strip().lower() for email in ALLOWED_USERS.split(",") if email.strip()) if ALLOWED_USERS else None
+
+def is_user_authorized(user_email: str) -> bool:
+    """Check if a user's email is in the allowed list."""
+    if ALLOWED_EMAILS is None:
+        return True  # No restriction if ALLOWED_USERS not set
+    return user_email.lower() in ALLOWED_EMAILS
+
+def require_authorized_user(f):
+    """Decorator to require user to be logged in AND authorized."""
+    from functools import wraps
+    
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        user_id = session.get("user_id")
+        if not user_id:
+            flash("Please log in to access this page.", "info")
+            return redirect(url_for("login"))
+        
+        user = User.query.get(user_id)
+        if not user:
+            session.pop("user_id", None)
+            flash("User not found. Please log in again.", "error")
+            return redirect(url_for("login"))
+        
+        # Check if user is authorized (if access control is enabled)
+        if ALLOWED_EMAILS is not None and not is_user_authorized(user.email):
+            session.pop("user_id", None)
+            flash("Access denied. This site is restricted to authorized users only.", "error")
+            return redirect(url_for("login"))
+        
+        return f(*args, **kwargs)
+    return decorated_function
+
 # Helper Functions - these do common tasks we need throughout the app
 
 def load_faculty():
@@ -389,6 +427,7 @@ Only include labs with score >= 50. Rank highest to lowest."""
 # Routes - these define what happens when users visit different pages
 
 @app.route("/test-gpt")
+@require_authorized_user
 def test_gpt():
     """Simple test route to make sure OpenAI API is working correctly."""
     try:
@@ -405,12 +444,14 @@ def test_gpt():
 
 
 @app.route("/")
+@require_authorized_user
 def index():
     """Show the homepage with the hero section and feature cards."""
     return render_template("index.html")
 
 
 @app.route("/general")
+@require_authorized_user
 def general():
     """Show the browse labs page where users can filter and search through all available PIs."""
     # Get any filter selections from the URL (like ?school=MIT&department=Biology)
@@ -973,6 +1014,7 @@ Thank you for your time and consideration,
 
 
 @app.route("/try-demo")
+@require_authorized_user
 def try_demo():
     """Demo mode - show sample matches without resume upload."""
     user_id = session.get("user_id")
@@ -1036,6 +1078,7 @@ def multi_email():
     return render_template("multi_email.html", saved_pis=saved_pis_data)
 
 @app.route("/feedback", methods=["POST"])
+@require_authorized_user
 def submit_feedback():
     """Submit user feedback."""
     user_id = session.get("user_id")
@@ -1052,6 +1095,7 @@ def submit_feedback():
     return redirect(request.referrer or url_for("index"))
 
 @app.route("/export-report")
+@require_authorized_user
 def export_report():
     """Export user's top matches as PDF report."""
     user_id = session.get("user_id")
@@ -1074,6 +1118,7 @@ def export_report():
     return render_template("export_report.html", labs=saved_pis_data, user=user, current_date=datetime.now().strftime("%B %d, %Y"))
 
 @app.route("/help")
+@require_authorized_user
 def help_page():
     return render_template("help.html")
 
@@ -1186,6 +1231,11 @@ def login():
             error = "Invalid credentials."
             return render_template("login.html", error=error)
 
+        # Check if user is authorized (if access control is enabled)
+        if ALLOWED_EMAILS is not None and not is_user_authorized(user.email):
+            error = "Access denied. This site is restricted to authorized users only. Please contact the administrator to request access."
+            return render_template("login.html", error=error)
+
         # Login successful! Store the user info in the session so they stay logged in
         session["user_id"] = user.id
         session["username"] = user.username
@@ -1238,6 +1288,11 @@ def signup():
         existing_email = User.query.filter_by(email=email).first()
         if existing_email:
             error = "An account with that email already exists."
+            return render_template("signup.html", error=error)
+
+        # Check if email is authorized (if access control is enabled)
+        if ALLOWED_EMAILS is not None and not is_user_authorized(email):
+            error = "Access denied. This site is restricted to authorized users only. Please contact the administrator to request access."
             return render_template("signup.html", error=error)
 
         # Everything looks good! Create the new user account
