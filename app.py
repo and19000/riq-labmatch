@@ -464,27 +464,66 @@ def test_gpt():
 
 @app.route("/debug-auth")
 def debug_auth():
-    """Debug route to check authorization status (development only)."""
-    if env != "development":
-        return "Not available in production", 403
-    
-    user_id = session.get("user_id")
-    debug_info = {
-        "ALLOWED_USERS_env": os.getenv("ALLOWED_USERS", "NOT SET"),
-        "ALLOWED_USERS_parsed": ALLOWED_USERS,
-        "ALLOWED_EMAILS": list(ALLOWED_EMAILS) if ALLOWED_EMAILS else None,
-        "is_restricted": ALLOWED_EMAILS is not None,
-        "logged_in": user_id is not None,
-    }
-    
-    if user_id:
-        user = User.query.get(user_id)
-        if user:
-            debug_info["user_email"] = user.email
-            debug_info["user_email_lower"] = user.email.lower()
-            debug_info["is_authorized"] = is_user_authorized(user.email)
-    
-    return jsonify(debug_info)
+    """Debug route to check authorization status and user account.
+    Usage: /debug-auth?email=your@email.com
+    """
+    try:
+        user_id = session.get("user_id")
+        debug_info = {
+            "status": "ok",
+            "ALLOWED_USERS_env": os.getenv("ALLOWED_USERS", "NOT SET"),
+            "ALLOWED_USERS_parsed": ALLOWED_USERS,
+            "ALLOWED_EMAILS": list(ALLOWED_EMAILS) if ALLOWED_EMAILS else None,
+            "is_restricted": ALLOWED_EMAILS is not None,
+            "logged_in": user_id is not None,
+            "environment": env,
+        }
+        
+        # Check specific email from query parameter
+        check_email = request.args.get("email", "").strip().lower()
+        if check_email:
+            try:
+                user = User.query.filter_by(email=check_email).first()
+                if user:
+                    debug_info["checked_email"] = check_email
+                    debug_info["user_found"] = True
+                    debug_info["user_email_in_db"] = user.email
+                    debug_info["user_username"] = user.username
+                    debug_info["user_email_normalized"] = user.email.lower().strip()
+                    debug_info["is_authorized"] = is_user_authorized(user.email)
+                    # Check if normalized email is in ALLOWED_EMAILS
+                    if ALLOWED_EMAILS:
+                        debug_info["email_in_allowed_list"] = user.email.lower().strip() in ALLOWED_EMAILS
+                else:
+                    debug_info["checked_email"] = check_email
+                    debug_info["user_found"] = False
+                    debug_info["message"] = f"User with email '{check_email}' not found in database"
+                    # List all users to help debug
+                    all_users = User.query.all()
+                    debug_info["total_users"] = len(all_users)
+                    if len(all_users) <= 10:
+                        debug_info["all_emails"] = [u.email for u in all_users]
+            except Exception as e:
+                debug_info["error"] = f"Error checking email: {str(e)}"
+        
+        # Check current logged-in user
+        if user_id:
+            try:
+                user = User.query.get(user_id)
+                if user:
+                    debug_info["current_user_email"] = user.email
+                    debug_info["current_user_email_lower"] = user.email.lower()
+                    debug_info["current_user_is_authorized"] = is_user_authorized(user.email)
+            except Exception as e:
+                debug_info["current_user_error"] = str(e)
+        
+        return jsonify(debug_info)
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "error": str(e),
+            "message": "An error occurred while checking authorization status"
+        }), 500
 
 
 @app.route("/")
