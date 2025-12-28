@@ -205,13 +205,33 @@ FACULTY_PATH = os.path.join(DATA_DIR, "faculty_working.json")
 # Set ALLOWED_USERS environment variable with comma-separated emails (e.g., "user1@example.com,user2@example.com")
 # If not set, site is public (for backward compatibility)
 ALLOWED_USERS = os.getenv("ALLOWED_USERS", "").strip()
-ALLOWED_EMAILS = set(email.strip().lower() for email in ALLOWED_USERS.split(",") if email.strip()) if ALLOWED_USERS else None
+# Parse allowed emails - handle empty strings and whitespace properly
+# Normalize emails: lowercase, strip whitespace, handle Harvard email formats
+if ALLOWED_USERS:
+    parsed_emails = []
+    for email in ALLOWED_USERS.split(","):
+        email = email.strip()
+        if email:
+            # Normalize: lowercase and remove any extra whitespace
+            email_normalized = email.lower().strip()
+            parsed_emails.append(email_normalized)
+    ALLOWED_EMAILS = set(parsed_emails) if parsed_emails else None
+    # If after parsing we have an empty set, treat as None (no restriction)
+    if ALLOWED_EMAILS and not ALLOWED_EMAILS:
+        ALLOWED_EMAILS = None
+else:
+    ALLOWED_EMAILS = None
 
 def is_user_authorized(user_email: str) -> bool:
-    """Check if a user's email is in the allowed list."""
+    """Check if a user's email is in the allowed list.
+    Handles Harvard email formats like something.college.harvard.edu"""
     if ALLOWED_EMAILS is None:
         return True  # No restriction if ALLOWED_USERS not set
-    return user_email.lower() in ALLOWED_EMAILS
+    if not user_email:
+        return False
+    # Normalize user email: lowercase and strip whitespace
+    user_email_normalized = user_email.lower().strip()
+    return user_email_normalized in ALLOWED_EMAILS
 
 def require_authorized_user(f):
     """Decorator to require user to be logged in AND authorized."""
@@ -441,6 +461,30 @@ def test_gpt():
         return completion.choices[0].message.content
     except Exception as e:
         return f"Error calling OpenAI: {e}"
+
+@app.route("/debug-auth")
+def debug_auth():
+    """Debug route to check authorization status (development only)."""
+    if env != "development":
+        return "Not available in production", 403
+    
+    user_id = session.get("user_id")
+    debug_info = {
+        "ALLOWED_USERS_env": os.getenv("ALLOWED_USERS", "NOT SET"),
+        "ALLOWED_USERS_parsed": ALLOWED_USERS,
+        "ALLOWED_EMAILS": list(ALLOWED_EMAILS) if ALLOWED_EMAILS else None,
+        "is_restricted": ALLOWED_EMAILS is not None,
+        "logged_in": user_id is not None,
+    }
+    
+    if user_id:
+        user = User.query.get(user_id)
+        if user:
+            debug_info["user_email"] = user.email
+            debug_info["user_email_lower"] = user.email.lower()
+            debug_info["is_authorized"] = is_user_authorized(user.email)
+    
+    return jsonify(debug_info)
 
 
 @app.route("/")
@@ -1233,7 +1277,14 @@ def login():
 
         # Check if user is authorized (if access control is enabled)
         if ALLOWED_EMAILS is not None and not is_user_authorized(user.email):
-            error = "Access denied. This site is restricted to authorized users only. Please contact the administrator to request access."
+            # Provide more helpful error message with debugging info
+            user_email_normalized = user.email.lower().strip()
+            # Show detailed info to help debug email matching issues
+            if env == "development":
+                error = f"Access denied. Your email '{user.email}' (normalized: '{user_email_normalized}') is not in the authorized list. Authorized emails: {', '.join(sorted(ALLOWED_EMAILS))}"
+            else:
+                # In production, still show some helpful info
+                error = f"Access denied. Your email ({user.email}) is not authorized. Please contact the administrator. Authorized emails: {', '.join(sorted(ALLOWED_EMAILS))}"
             return render_template("login.html", error=error)
 
         # Login successful! Store the user info in the session so they stay logged in
@@ -1292,7 +1343,11 @@ def signup():
 
         # Check if email is authorized (if access control is enabled)
         if ALLOWED_EMAILS is not None and not is_user_authorized(email):
-            error = "Access denied. This site is restricted to authorized users only. Please contact the administrator to request access."
+            email_normalized = email.lower().strip()
+            if env == "development":
+                error = f"Access denied. Email '{email}' (normalized: '{email_normalized}') is not in the authorized list. Authorized emails: {', '.join(sorted(ALLOWED_EMAILS))}"
+            else:
+                error = f"Access denied. This site is restricted to authorized users only. Your email ({email}) is not authorized. Please contact the administrator."
             return render_template("signup.html", error=error)
 
         # Everything looks good! Create the new user account
