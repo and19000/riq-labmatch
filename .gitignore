@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Output files (large, regeneratable)
+output/*.json
+output/*.csv
+
+# Checkpoints (can be large)
+checkpoints/
+
+# Embeddings cache
+embeddings_cache/
+
+# Logs
+*.log
+*.log.*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+*.tmp
+
+# Test files
+test_*.log
+*_test.log
+
+# Old versions (keep only current)
+# faculty_pipeline_v4_3.py  # Keep for reference but can be removed
