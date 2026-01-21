@@ -1,0 +1,104 @@
+Migration: Added year_in_school column to user_profile table
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.250.43.34:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+127.0.0.1 - - [07/Dec/2025 13:59:19] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+127.0.0.1 - - [07/Dec/2025 13:59:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "GET /static/thinking-bar.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "[36mGET /static/images/ai-matching.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "[36mGET /static/images/email-drafting.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "[36mGET /static/images/browse-labs.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 13:59:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+127.0.0.1 - - [07/Dec/2025 14:00:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/images/email-drafting.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/images/ai-matching.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/images/browse-labs.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:01] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:03] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:00:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:04] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:04] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:04] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:09] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:00:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:10] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:10] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:00:10] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+127.0.0.1 - - [07/Dec/2025 14:07:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "[36mGET /static/images/email-drafting.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "[36mGET /static/images/browse-labs.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "[36mGET /static/images/ai-matching.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:01] "GET /static/images/riq-logo.svg HTTP/1.1" 200 -
+ * Detected change in '/Users/kerrynguyen/Projects/riq-labmatch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 903-224-471
+127.0.0.1 - - [07/Dec/2025 14:07:18] "GET /general HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:07:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:19] "GET /static/images/riq-logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:07:24] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:24] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:07:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:30] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:30] "[36mGET /static/images/ai-matching.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:30] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:30] "[36mGET /static/images/email-drafting.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:30] "[36mGET /static/images/browse-labs.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:30] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:41] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:07:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:41] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:41] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:41] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:48] "GET /forgot-password HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 14:07:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:49] "[36mGET /static/thinking-bar.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:49] "[36mGET /static/images/riq-logo.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Dec/2025 14:07:49] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

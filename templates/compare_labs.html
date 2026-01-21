@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Compare Labs</h1>
+  <p class="subtitle">Side-by-side comparison of selected research labs</p>
+
+  {% if labs %}
+    <div class="compare-container">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            {% for lab in labs %}
+              <th>
+                <div class="compare-lab-header">
+                  <div class="compare-lab-name">{{ lab.name }}</div>
+                  <div class="compare-lab-school">{{ lab.school }}</div>
+                  {% if 'Harvard' in (lab.school or '') or 'harvard' in (lab.school or '').lower() %}
+                    <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: 0.5rem;">
+                      <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                    </svg>
+                  {% elif 'MIT' in (lab.school or '') or lab.school == 'MIT' %}
+                    <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: 0.5rem;">
+                      <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
+                    </svg>
+                  {% endif %}
+                </div>
+              </th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>PI Name</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.name }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Title</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.title }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Institution</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.school }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Department</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.department }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>H-index</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.get('h_index', 'N/A') }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Research Areas</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.research_areas }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Lab Techniques</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.get('lab_techniques', 'N/A') }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Location</strong></td>
+            {% for lab in labs %}
+              <td>{{ lab.get('specific_location', lab.location) }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Website</strong></td>
+            {% for lab in labs %}
+              <td>
+                {% if lab.website %}
+                  <a href="{{ lab.website }}" target="_blank" class="table-link">Visit Website</a>
+                {% else %}
+                  N/A
+                {% endif %}
+              </td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td><strong>Email</strong></td>
+            {% for lab in labs %}
+              <td>
+                <a href="mailto:{{ lab.email }}" class="table-email">{{ lab.email }}</a>
+              </td>
+            {% endfor %}
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="compare-actions">
+        <a href="{{ url_for('saved_pis') }}" class="btn-secondary">← Back to Saved Labs</a>
+        <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for These Labs</a>
+      </div>
+    </div>
+  {% else %}
+    <div class="no-results">
+      <p>No labs selected for comparison.</p>
+      <a href="{{ url_for('saved_pis') }}" class="btn-primary">Go to Saved Labs</a>
+    </div>
+  {% endif %}
+{% endblock %}
+
+

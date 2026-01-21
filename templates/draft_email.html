@@ -1,0 +1,391 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="draft-email-wrapper">
+    <div class="draft-email-content">
+      <h1>Draft Email to PI</h1>
+      <p>Use AI to generate a professional cold email to a Principal Investigator.</p>
+
+      {% if error %}
+        <div class="error-message">{{ error }}</div>
+      {% endif %}
+
+      <form method="post" action="{{ url_for('draft_email') }}" class="email-form" id="email-form">
+    <div class="form-group">
+      <label for="pi_id">Select a PI:</label>
+      {% if pi %}
+        <input type="hidden" name="pi_id" value="{{ pi.id }}">
+        <div class="selected-pi">
+          <strong>{{ pi.name }}</strong> — {{ pi.title }}<br>
+          <small>{{ pi.department }}, {{ pi.school }}</small>
+          <p><a href="{{ url_for('draft_email') }}">Change PI</a></p>
+        </div>
+      {% else %}
+        {% if saved_pis and saved_pis|length > 0 %}
+          <select id="pi_id" name="pi_id" required class="pi-select">
+            <option value="">-- Select a saved PI --</option>
+            {% for saved_pi in saved_pis %}
+              <option value="{{ saved_pi.id }}">{{ saved_pi.name }} — {{ saved_pi.department }}, {{ saved_pi.school }}</option>
+            {% endfor %}
+          </select>
+          <p><small>Only showing your saved PIs. <a href="{{ url_for('saved_pis') }}">View all saved PIs</a> or <a href="{{ url_for('general') }}">browse all PIs</a>.</small></p>
+        {% else %}
+          <div class="no-saved-pis-message" style="padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <p style="margin-bottom: 0.5rem;">You haven't saved any PIs yet.</p>
+            <p style="margin: 0;"><a href="{{ url_for('general') }}" class="btn-primary" style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.9rem;">Browse PIs to Save</a></p>
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="form-group">
+      <label for="student_name">Your Name:</label>
+      <input type="text" id="student_name" name="student_name" value="{{ student_name or '' }}" required>
+    </div>
+
+    <div class="form-group">
+      <label for="student_email">Your Email:</label>
+      <input type="email" id="student_email" name="student_email" value="{{ student_email or '' }}" required>
+    </div>
+
+    <div class="form-group">
+      <label for="student_background">Your Background (optional):</label>
+      <textarea id="student_background" name="student_background" rows="3" placeholder="e.g., Junior at Harvard, majoring in Computer Science, with experience in machine learning...">{{ student_background or '' }}</textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="research_interest">Research Interest (optional):</label>
+      <textarea id="research_interest" name="research_interest" rows="2" placeholder="e.g., I'm particularly interested in your work on neural networks and would love to contribute to...">{{ research_interest or '' }}</textarea>
+    </div>
+
+        <button type="submit" class="btn-primary" id="generate-btn">Generate Email Draft</button>
+      </form>
+    </div>
+    
+    <!-- Right side graphic - Black Hole / Space Theme -->
+    <div class="draft-email-graphic">
+      <div class="blackhole-container">
+        <div class="blackhole-core"></div>
+        <div class="accretion-ring ring-1"></div>
+        <div class="accretion-ring ring-2"></div>
+        <div class="accretion-ring ring-3"></div>
+        <div class="star-field">
+          <div class="star star-1"></div>
+          <div class="star star-2"></div>
+          <div class="star star-3"></div>
+          <div class="star star-4"></div>
+          <div class="star star-5"></div>
+          <div class="star star-6"></div>
+          <div class="star star-7"></div>
+          <div class="star star-8"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if draft %}
+    <div class="draft-result" style="margin-top: 2rem;">
+      <h2>Generated Email Draft</h2>
+      
+      <!-- Pre-flight Email Checks -->
+      <div class="email-checks" id="email-checks">
+        <h3>Email Quality Checks</h3>
+        <div class="check-list">
+          <div class="check-item" id="check-length">
+            <span class="check-icon">⏳</span>
+            <span class="check-text">Checking length...</span>
+          </div>
+          <div class="check-item" id="check-personalization">
+            <span class="check-icon">⏳</span>
+            <span class="check-text">Checking personalization...</span>
+          </div>
+          <div class="check-item" id="check-tone">
+            <span class="check-icon">⏳</span>
+            <span class="check-text">Checking tone...</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="draft-actions">
+        <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
+        <a href="mailto:{{ pi.email if pi else '' }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
+      </div>
+      <div class="draft-content" id="draft-content">
+        <div class="draft-text">{{ draft }}</div>
+      </div>
+    </div>
+  {% endif %}
+
+  <script>
+    // Initialize thinking bar for email draft generation
+    let thinkingBar = null;
+    
+    // Handle form submission with AJAX and thinking bar
+    document.addEventListener('DOMContentLoaded', function() {
+      const emailForm = document.getElementById('email-form');
+      const generateBtn = document.getElementById('generate-btn');
+      const draftResultContainer = document.querySelector('.draft-result');
+      
+      if (emailForm) {
+        emailForm.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          
+          // Validate form
+          const formData = new FormData(emailForm);
+          const piId = formData.get('pi_id');
+          const studentName = formData.get('student_name');
+          const studentEmail = formData.get('student_email');
+          
+          if (!piId || !studentName || !studentEmail) {
+            alert('Please fill in all required fields.');
+            return;
+          }
+          
+          // Hide existing draft result if present
+          if (draftResultContainer) {
+            draftResultContainer.remove();
+          }
+          
+          // Disable button while processing
+          if (generateBtn) {
+            generateBtn.disabled = true;
+            generateBtn.style.opacity = '0.6';
+          }
+          
+          // Show thinking bar
+          if (window.ThinkingBar) {
+            thinkingBar = new window.ThinkingBar('email');
+            thinkingBar.show();
+          }
+          
+          try {
+            // Submit form data via AJAX
+            const response = await fetch('{{ url_for("draft_email") }}', {
+              method: 'POST',
+              headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': 'application/json'
+              },
+              body: formData
+            });
+            
+            const data = await response.json();
+            
+            // Hide thinking bar
+            if (thinkingBar) {
+              thinkingBar.hide();
+              setTimeout(() => thinkingBar.destroy(), 300);
+              thinkingBar = null;
+            }
+            
+            if (data.success && data.draft) {
+              // Display the draft result
+              displayDraftResult(data.draft, data.pi);
+              
+              // Scroll to draft result
+              setTimeout(() => {
+                const draftResult = document.querySelector('.draft-result');
+                if (draftResult) {
+                  draftResult.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }, 100);
+            } else {
+              // Show error
+              showFormError(data.error || 'Failed to generate email draft. Please try again.');
+            }
+          } catch (error) {
+            console.error('Error generating draft:', error);
+            
+            // Hide thinking bar
+            if (thinkingBar) {
+              thinkingBar.hide();
+              setTimeout(() => thinkingBar.destroy(), 300);
+              thinkingBar = null;
+            }
+            
+            showFormError('An error occurred while generating your email draft. Please try again.');
+          } finally {
+            // Re-enable button
+            if (generateBtn) {
+              generateBtn.disabled = false;
+              generateBtn.style.opacity = '1';
+            }
+          }
+        });
+      }
+      
+      // Function to display draft result
+      function displayDraftResult(draft, pi) {
+        // Remove any existing error messages
+        const existingError = document.querySelector('.error-message');
+        if (existingError) {
+          existingError.remove();
+        }
+        
+        // Create draft result container
+        const wrapper = document.querySelector('.draft-email-wrapper');
+        if (!wrapper) return;
+        
+        const draftResultHTML = `
+          <div class="draft-result" style="margin-top: 2rem;">
+            <h2>Generated Email Draft</h2>
+            
+            <!-- Pre-flight Email Checks -->
+            <div class="email-checks" id="email-checks">
+              <h3>Email Quality Checks</h3>
+              <div class="check-list">
+                <div class="check-item" id="check-length">
+                  <span class="check-icon">⏳</span>
+                  <span class="check-text">Checking length...</span>
+                </div>
+                <div class="check-item" id="check-personalization">
+                  <span class="check-icon">⏳</span>
+                  <span class="check-text">Checking personalization...</span>
+                </div>
+                <div class="check-item" id="check-tone">
+                  <span class="check-icon">⏳</span>
+                  <span class="check-text">Checking tone...</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="draft-actions">
+              <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
+              <a href="mailto:${pi ? pi.email : ''}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
+            </div>
+            <div class="draft-content" id="draft-content">
+              <div class="draft-text">${escapeHtml(draft)}</div>
+            </div>
+          </div>
+        `;
+        
+        wrapper.insertAdjacentHTML('afterend', draftResultHTML);
+        
+        // Run email checks
+        runEmailChecks(draft);
+      }
+      
+      // Function to show form error
+      function showFormError(message) {
+        // Remove existing error messages
+        const existingError = document.querySelector('.error-message');
+        if (existingError) {
+          existingError.remove();
+        }
+        
+        // Create and show error message
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'error-message';
+        errorDiv.textContent = message;
+        
+        const form = document.getElementById('email-form');
+        if (form) {
+          form.insertBefore(errorDiv, form.firstChild);
+          errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+      
+      // Helper function to escape HTML and preserve line breaks
+      function escapeHtml(text) {
+        // Split by newlines and escape each line separately
+        const lines = text.split(/\r\n|\r|\n/);
+        const div = document.createElement('div');
+        
+        return lines.map(line => {
+          div.textContent = line;
+          return div.innerHTML;
+        }).join('<br>');
+      }
+      
+      // Run email quality checks
+      function runEmailChecks(draftText) {
+        const wordCount = draftText.split(/\s+/).length;
+        const hasPIname = draftText.match(/Dr\.|Professor/i);
+        const hasLabName = draftText.match(/lab|research group|group/i);
+        const tooApologetic = /sorry|apologize|hope.*not.*bother/i.test(draftText);
+        
+        // Length check
+        const lengthCheck = document.getElementById('check-length');
+        if (lengthCheck) {
+          if (wordCount > 50 && wordCount < 500) {
+            lengthCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Length OK (' + wordCount + ' words)</span>';
+          } else if (wordCount >= 500) {
+            lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is quite long (' + wordCount + ' words). Consider shortening.</span>';
+          } else {
+            lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is very short (' + wordCount + ' words). Consider adding more detail.</span>';
+          }
+        }
+        
+        // Personalization check
+        const personalCheck = document.getElementById('check-personalization');
+        if (personalCheck) {
+          if (hasPIname && hasLabName) {
+            personalCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Well personalized with PI and lab references</span>';
+          } else if (hasPIname || hasLabName) {
+            personalCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Consider mentioning specific research or recent papers</span>';
+          } else {
+            personalCheck.innerHTML = '<span class="check-icon check-fail">✗</span><span class="check-text">Too generic. Add PI name and specific research details.</span>';
+          }
+        }
+        
+        // Tone check
+        const toneCheck = document.getElementById('check-tone');
+        if (toneCheck) {
+          if (tooApologetic) {
+            toneCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Tone may be overly apologetic. Be confident!</span>';
+          } else {
+            toneCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Professional and confident tone</span>';
+          }
+        }
+      }
+    });
+    
+    function copyToClipboard() {
+      const draftText = document.getElementById('draft-content').innerText;
+      navigator.clipboard.writeText(draftText).then(() => {
+        alert('Email draft copied to clipboard!');
+      });
+    }
+    
+    // Pre-flight email checks (for server-rendered drafts)
+    document.addEventListener('DOMContentLoaded', function() {
+      const draftEl = document.getElementById('draft-content');
+      if (!draftEl) return;
+      
+      const draftText = draftEl.innerText;
+      const wordCount = draftText.split(/\s+/).length;
+      const hasPIname = draftText.match(/Dr\.|Professor/i);
+      const hasLabName = draftText.match(/lab|research group|group/i);
+      const tooApologetic = /sorry|apologize|hope.*not.*bother/i.test(draftText);
+      const tooGeneric = wordCount < 50 || (!hasPIname && !hasLabName);
+      
+      // Length check
+      const lengthCheck = document.getElementById('check-length');
+      if (wordCount > 50 && wordCount < 500) {
+        lengthCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Length OK (' + wordCount + ' words)</span>';
+      } else if (wordCount >= 500) {
+        lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is quite long (' + wordCount + ' words). Consider shortening.</span>';
+      } else {
+        lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is very short (' + wordCount + ' words). Consider adding more detail.</span>';
+      }
+      
+      // Personalization check
+      const personalCheck = document.getElementById('check-personalization');
+      if (hasPIname && hasLabName) {
+        personalCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Well personalized with PI and lab references</span>';
+      } else if (hasPIname || hasLabName) {
+        personalCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Consider mentioning specific research or recent papers</span>';
+      } else {
+        personalCheck.innerHTML = '<span class="check-icon check-fail">✗</span><span class="check-text">Too generic. Add PI name and specific research details.</span>';
+      }
+      
+      // Tone check
+      const toneCheck = document.getElementById('check-tone');
+      if (tooApologetic) {
+        toneCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Tone may be overly apologetic. Be confident!</span>';
+      } else {
+        toneCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Professional and confident tone</span>';
+      }
+    });
+  </script>
+{% endblock %}

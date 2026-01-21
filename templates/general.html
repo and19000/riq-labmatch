@@ -1,0 +1,362 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Find Potential PIs</h1>
+  
+  <div class="page-with-sidebar">
+    <!-- Filters Sidebar -->
+    <aside class="filters-sidebar">
+      <h3>Filters</h3>
+      <form method="get" action="{{ url_for('general') }}">
+        <div class="filter-section">
+          <label for="school">Institution:</label>
+          <select id="school" name="school" onchange="this.form.submit()">
+            <option value="">All Institutions</option>
+            {% for school in schools %}
+              <option value="{{ school }}" {% if selected_school == school %}selected{% endif %}>{{ school }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="filter-section">
+          <label for="department">Field:</label>
+          <select id="department" name="department" onchange="this.form.submit()">
+            <option value="">All Fields</option>
+            {% for dept in departments %}
+              <option value="{{ dept }}" {% if selected_department == dept %}selected{% endif %}>{{ dept }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="filter-section">
+          <label for="technique">Techniques:</label>
+          <div class="technique-dropdown-wrapper">
+            <input type="text" 
+                   id="technique-search" 
+                   class="technique-search-input" 
+                   placeholder="Type to search techniques..."
+                   autocomplete="off">
+            <input type="hidden" name="technique" id="technique-input" value="{{ selected_technique if selected_technique else '' }}">
+            <div class="technique-dropdown" id="technique-dropdown" style="display: none;">
+              {% for tech in techniques %}
+                <div class="technique-dropdown-option" data-value="{{ tech }}" data-label="{{ tech }}">
+                  {{ tech }}
+                </div>
+              {% endfor %}
+            </div>
+            {% if selected_technique %}
+              <div class="selected-technique-display">
+                <span>{{ selected_technique }}</span>
+                <button type="button" class="clear-technique" onclick="clearTechnique()">×</button>
+              </div>
+            {% endif %}
+          </div>
+          <button type="submit" class="btn-primary" style="margin-top: 0.5rem; width: 100%; padding: 0.5rem; font-size: 0.9rem;">Apply Filters</button>
+        </div>
+
+        <div class="filter-section">
+          <label for="location">Location:</label>
+          <select id="location" name="location" onchange="this.form.submit()">
+            <option value="">All Locations</option>
+            {% for loc in locations %}
+              <option value="{{ loc }}" {% if selected_location == loc %}selected{% endif %}>{{ loc }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        {% if selected_school or selected_department or selected_technique or selected_location %}
+          <a href="{{ url_for('general') }}" class="btn-secondary" style="width: 100%; text-align: center; margin-top: 1rem; display: inline-block;">Clear Filters</a>
+        {% endif %}
+      </form>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="search-bar-container">
+        <input type="text" class="search-bar" placeholder="Search by name, institution, research interests, or skills (e.g., 'deep learning')..." id="searchInput">
+        <div class="search-count">
+          {% if faculty_list %}
+            <strong>{{ faculty_list|length }}</strong> lab{{ 's' if faculty_list|length != 1 else '' }}
+          {% else %}
+            0 labs
+          {% endif %}
+        </div>
+      </div>
+
+      {% if faculty_list %}
+        <div class="labs-table-container">
+          <table class="labs-table general-labs-table">
+            <thead>
+              <tr>
+                <th style="width: 100px;">Logo</th>
+                <th>Professor</th>
+                <th>Info</th>
+                <th>Email</th>
+                <th style="width: 120px;">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for pi in faculty_list %}
+                <tr class="pi-row" 
+                    data-name="{{ pi.name|lower }}" 
+                    data-institution="{{ pi.school|lower }}" 
+                    data-research="{{ pi.research_areas|lower }}"
+                    data-techniques="{{ (pi.get('lab_techniques', '') or '')|lower }}">
+                  <td>
+                    <div class="logo-container">
+                      {% if 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
+                        <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                          <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                        </svg>
+                      {% elif 'MIT' in (pi.school or '') or pi.school == 'MIT' %}
+                        <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                          <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
+                        </svg>
+                      {% else %}
+                        <div class="table-logo">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
+                      {% endif %}
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-lab-name">{{ pi.name }}</div>
+                    <div class="table-lab-info">{{ pi.school }}, {{ pi.department }}</div>
+                    {% if pi.get('h_index') %}
+                      <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-muted);">
+                        H-index: <strong style="color: var(--accent);">{{ pi.h_index }}</strong>
+                      </div>
+                    {% endif %}
+                    <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-dim);">{{ pi.get('specific_location', pi.location) }}</div>
+                  </td>
+                  <td>
+                    <div class="table-lab-name" style="font-size: 0.9rem;">{{ pi.title }}</div>
+                    {% if pi.website %}
+                      <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem; display: block; margin-top: 0.25rem;">View Website</a>
+                    {% else %}
+                      <span style="font-size: 0.85rem; color: var(--text-dim); display: block; margin-top: 0.25rem;">No website</span>
+                    {% endif %}
+                    {% if pi.get('google_scholar') %}
+                      <a href="{{ pi.google_scholar }}" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">
+                        📚 Google Scholar
+                      </a>
+                    {% endif %}
+                  </td>
+                  <td>
+                    <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+                  </td>
+                  <td>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                      {% if session.get('user_id') %}
+                        {% if pi.id in saved_pi_ids %}
+                          <span class="saved-indicator" style="font-size: 0.85rem;">Saved</span>
+                        {% else %}
+                          <form method="post" action="{{ url_for('save_pi', pi_id=pi.id) }}" class="save-pi-form" data-pi-id="{{ pi.id }}" style="display: inline;">
+                            <button type="submit" class="btn-primary save-pi-btn" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Save</button>
+                          </form>
+                        {% endif %}
+                        <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Email</a>
+                      {% else %}
+                        <a href="{{ url_for('login') }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Login</a>
+                      {% endif %}
+                    </div>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <div class="no-results">
+          <p>No PIs matched your filters. Try adjusting your search criteria.</p>
+          <a href="{{ url_for('general') }}" class="btn-primary">View All Labs</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <script>
+    // Technique dropdown functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const techniqueSearch = document.getElementById('technique-search');
+      const techniqueDropdown = document.getElementById('technique-dropdown');
+      const techniqueInput = document.getElementById('technique-input');
+      const techniqueOptions = techniqueDropdown ? techniqueDropdown.querySelectorAll('.technique-dropdown-option') : [];
+      
+      if (techniqueSearch && techniqueDropdown) {
+        // Show/hide dropdown on focus/blur
+        techniqueSearch.addEventListener('focus', function() {
+          filterTechniqueOptions('');
+          techniqueDropdown.style.display = 'block';
+        });
+        
+        // Filter options as user types
+        techniqueSearch.addEventListener('input', function(e) {
+          const searchTerm = e.target.value.toLowerCase();
+          filterTechniqueOptions(searchTerm);
+        });
+        
+        // Handle option selection
+        techniqueOptions.forEach(option => {
+          option.addEventListener('click', function() {
+            const value = this.getAttribute('data-value');
+            const label = this.getAttribute('data-label');
+            techniqueInput.value = value;
+            techniqueSearch.value = label;
+            techniqueDropdown.style.display = 'none';
+            
+            // Show selected technique display
+            showSelectedTechnique(label);
+          });
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!techniqueSearch.contains(e.target) && !techniqueDropdown.contains(e.target)) {
+            techniqueDropdown.style.display = 'none';
+          }
+        });
+      }
+      
+      function filterTechniqueOptions(searchTerm) {
+        techniqueOptions.forEach(option => {
+          const label = option.getAttribute('data-label').toLowerCase();
+          if (label.includes(searchTerm)) {
+            option.style.display = 'block';
+          } else {
+            option.style.display = 'none';
+          }
+        });
+      }
+      
+      function showSelectedTechnique(label) {
+        const wrapper = document.querySelector('.technique-dropdown-wrapper');
+        let display = wrapper.querySelector('.selected-technique-display');
+        if (!display) {
+          display = document.createElement('div');
+          display.className = 'selected-technique-display';
+          wrapper.appendChild(display);
+        }
+        display.innerHTML = '<span>' + label + '</span><button type="button" class="clear-technique" onclick="clearTechnique()">×</button>';
+        techniqueSearch.style.display = 'none';
+      }
+      
+      // If technique is already selected, show it
+      const selectedValue = techniqueInput ? techniqueInput.value : '';
+      if (selectedValue) {
+        const selectedOption = Array.from(techniqueOptions).find(opt => opt.getAttribute('data-value') === selectedValue);
+        if (selectedOption) {
+          showSelectedTechnique(selectedOption.getAttribute('data-label'));
+        }
+      }
+    });
+    
+    function clearTechnique() {
+      const techniqueInput = document.getElementById('technique-input');
+      const techniqueSearch = document.getElementById('technique-search');
+      const display = document.querySelector('.selected-technique-display');
+      
+      if (techniqueInput) techniqueInput.value = '';
+      if (techniqueSearch) {
+        techniqueSearch.value = '';
+        techniqueSearch.style.display = 'block';
+      }
+      if (display) display.remove();
+    }
+    
+    // Update location dropdown when school changes
+    document.addEventListener('DOMContentLoaded', function() {
+      const schoolSelect = document.getElementById('school');
+      if (schoolSelect) {
+        schoolSelect.addEventListener('change', function() {
+          // The form will auto-submit, which will reload with filtered locations
+          // But we can also clear the location selection since it may not be valid for the new school
+          const locationSelect = document.getElementById('location');
+          if (locationSelect) {
+            locationSelect.value = '';
+          }
+        });
+      }
+    });
+    
+    // Simple search functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('searchInput');
+      if (!searchInput) return;
+      
+      const rows = document.querySelectorAll('.pi-row');
+      
+      searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase();
+        
+        rows.forEach(row => {
+          const name = row.getAttribute('data-name') || '';
+          const institution = row.getAttribute('data-institution') || '';
+          const research = row.getAttribute('data-research') || '';
+          const techniques = row.getAttribute('data-techniques') || '';
+          
+          if (name.includes(searchTerm) || 
+              institution.includes(searchTerm) || 
+              research.includes(searchTerm) ||
+              techniques.includes(searchTerm)) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+        
+        // Update count
+        const visibleRows = Array.from(rows).filter(row => row.style.display !== 'none');
+        const countEl = document.querySelector('.search-count');
+        if (countEl) {
+          countEl.innerHTML = '<strong>' + visibleRows.length + '</strong> lab' + (visibleRows.length !== 1 ? 's' : '');
+        }
+      });
+    });
+
+    // Handle save button clicks with AJAX to prevent scroll to top
+    document.addEventListener('DOMContentLoaded', function() {
+      const saveForms = document.querySelectorAll('.save-pi-form');
+      saveForms.forEach(form => {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const form = this;
+          const button = form.querySelector('.save-pi-btn');
+          const piId = form.getAttribute('data-pi-id');
+          const row = form.closest('tr');
+          const actionsCell = form.closest('td');
+          
+          // Disable button
+          button.disabled = true;
+          button.textContent = 'Saving...';
+          
+          // Submit via AJAX
+          fetch(form.action, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: new URLSearchParams()
+          }).then(response => {
+            if (response.ok) {
+              // Update UI to show saved state
+              const actionsDiv = actionsCell.querySelector('div');
+              form.remove();
+              const savedIndicator = document.createElement('span');
+              savedIndicator.className = 'saved-indicator';
+              savedIndicator.style.cssText = 'font-size: 0.85rem; margin-right: 0.5rem;';
+              savedIndicator.textContent = '✓ Saved';
+              actionsDiv.insertBefore(savedIndicator, actionsDiv.firstChild);
+            } else {
+              button.disabled = false;
+              button.textContent = 'Save';
+              alert('Failed to save. Please try again.');
+            }
+          }).catch(error => {
+            button.disabled = false;
+            button.textContent = 'Save';
+            alert('Error saving. Please try again.');
+          });
+        });
+      });
+    });
+  </script>
+{% endblock %}

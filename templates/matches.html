@@ -1,0 +1,300 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Loading overlay - shown immediately, hidden when page loads -->
+  <div id="matches-loading" class="matches-loading-overlay">
+    <div class="thinking-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <p>Thinking...</p>
+  </div>
+  
+  <!-- Content wrapper - hidden initially, shown after page loads -->
+  <div id="matches-content" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in, visibility 0.3s ease-in;">
+  <h1>Your Lab Matches</h1>
+  <p class="subtitle">AI-powered matches based on your resume</p>
+
+  {% if matches %}
+    <div class="matches-header">
+      <div>
+      <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
+          Select labs to compare or generate emails for multiple labs at once.
+        </p>
+      </div>
+      <div class="matches-header-actions">
+        <a href="{{ url_for('saved_pis') }}?compare=true" class="btn-secondary">Compare Labs</a>
+      <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
+      </div>
+    </div>
+
+    <div class="labs-table-container">
+      <table class="labs-table">
+        <thead>
+          <tr>
+            <th style="width: 60px;">Logo</th>
+            <th>Professor</th>
+            <th>Info</th>
+            <th>Email</th>
+            <th style="width: 100px; text-align: center;">Fit</th>
+            <th style="width: 150px;">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+      {% for pi in matches %}
+            <tr class="pi-row match-row" data-name="{{ pi.name|lower }}" data-institution="{{ pi.school|lower }}">
+              <td>
+                <div class="pi-logo">
+                  {% if pi.get('institution_logo_url') %}
+                    <img src="{{ pi.institution_logo_url }}" alt="{{ pi.school }} logo">
+                  {% elif 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
+                    <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                      <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                    </svg>
+                  {% elif 'MIT' in (pi.school or '') or pi.school == 'MIT' %}
+                    <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                      <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
+                    </svg>
+                  {% else %}
+                    <div class="pi-logo-placeholder">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
+                  {% endif %}
+                </div>
+              </td>
+              <td>
+                <div class="table-lab-name">{{ pi.name }}</div>
+                <div class="table-lab-info">{{ pi.school }}, {{ pi.department }}</div>
+                {% if pi.get('h_index') %}
+                  <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-muted);">
+                    H-index: <strong style="color: var(--accent);">{{ pi.h_index }}</strong>
+                  </div>
+                {% endif %}
+                <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-dim);">{{ pi.get('specific_location', pi.location) }}</div>
+                {% if pi.id in saved_pi_ids %}
+                  <span class="saved-badge" style="margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;">✓ Saved</span>
+                {% endif %}
+              </td>
+              <td>
+                <div class="table-lab-name" style="font-size: 0.9rem;">{{ pi.title }}</div>
+                {% if pi.website %}
+                  <a href="{{ pi.website }}" target="_blank" class="table-link" style="font-size: 0.85rem; display: block; margin-top: 0.25rem;">View Website</a>
+                {% else %}
+                  <span style="font-size: 0.85rem; color: var(--text-dim); display: block; margin-top: 0.25rem;">No website</span>
+                {% endif %}
+                {% if pi.get('google_scholar') %}
+                  <a href="{{ pi.google_scholar }}" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">
+                    📚 Google Scholar
+                  </a>
+                {% endif %}
+              </td>
+              <td>
+                <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+              </td>
+              <td style="text-align: center;">
+                <div class="score-circle table-fit-score" data-score="{{ pi.match_score }}" style="width: 70px; height: 70px; margin: 0 auto; position: relative; cursor: pointer;" 
+                     onclick="toggleFitExplanation('fit-{{ pi.id }}')">
+                <span class="score-number">{{ pi.match_score }}</span>
+                <span class="score-label">Match</span>
+              </div>
+                {% if pi.match_reason %}
+                  <button class="fit-explanation-btn" onclick="toggleFitExplanation('fit-{{ pi.id }}')">
+                    Why this match?
+                  </button>
+                  <div id="fit-{{ pi.id }}" class="fit-explanation-popup" style="display: none;">
+                    <div class="fit-explanation-content">
+                      <button class="close-fit-explanation" onclick="toggleFitExplanation('fit-{{ pi.id }}')">×</button>
+                      <h4>Match Explanation</h4>
+                      <p>{{ pi.match_reason }}</p>
+            </div>
+          </div>
+          {% endif %}
+              </td>
+              <td>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            {% if pi.id in saved_pi_ids %}
+                    <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
+                    <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
+            {% else %}
+              <button type="button" class="btn-primary save-pi-btn" data-pi-id="{{ pi.id }}" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
+                    <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Draft Email</a>
+                  {% endif %}
+                </div>
+              </td>
+            </tr>
+            <!-- Match reason row -->
+            {% if pi.match_reason %}
+              <tr class="match-reason-row" style="background: var(--bg-elevated);">
+                <td colspan="6" style="padding: 1rem; border-top: none; padding-top: 0;">
+                  <div class="match-reason" style="margin: 0;">
+                    <strong>Why this match:</strong> {{ pi.match_reason }}
+                  </div>
+                </td>
+              </tr>
+            {% endif %}
+      {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% else %}
+    <div class="no-results">
+      <p>No matches found. Try uploading or updating your resume.</p>
+      <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
+    </div>
+  {% endif %}
+  </div> <!-- End matches-content wrapper -->
+
+  <script>
+    // Show thinking bar during page load, then hide when content is ready
+    (function() {
+      let thinkingBar = null;
+      let contentShown = false;
+      const loadingOverlay = document.getElementById('matches-loading');
+      const contentWrapper = document.getElementById('matches-content');
+      
+      // Hide the old loading overlay immediately (we'll use thinking bar instead)
+      if (loadingOverlay) {
+        loadingOverlay.style.display = 'none';
+      }
+      
+      // Show thinking bar if available
+      if (window.ThinkingBar) {
+        try {
+          thinkingBar = new window.ThinkingBar('matches');
+          thinkingBar.show();
+        } catch (e) {
+          console.error('Error showing thinking bar:', e);
+        }
+      }
+      
+      function showContent() {
+        // Prevent showing content multiple times
+        if (contentShown) return;
+        contentShown = true;
+        
+        try {
+          // Hide thinking bar
+          if (thinkingBar) {
+            thinkingBar.hide();
+            setTimeout(() => {
+              try {
+                thinkingBar.destroy();
+              } catch (e) {
+                console.error('Error destroying thinking bar:', e);
+              }
+              thinkingBar = null;
+            }, 300);
+          }
+          
+          // Show content
+          if (contentWrapper) {
+            contentWrapper.style.visibility = 'visible';
+            // Use requestAnimationFrame to ensure style changes are applied
+            requestAnimationFrame(() => {
+              contentWrapper.style.opacity = '1';
+            });
+          }
+        } catch (e) {
+          console.error('Error showing content:', e);
+          // Fallback: make content visible even if there's an error
+          if (contentWrapper) {
+            contentWrapper.style.visibility = 'visible';
+            contentWrapper.style.opacity = '1';
+          }
+        }
+      }
+      
+      // Show content when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          // Small delay to ensure content is rendered
+          setTimeout(showContent, 300);
+        });
+      } else {
+        // Document already loaded, show content after a brief delay
+        setTimeout(showContent, 300);
+      }
+      
+      // Fallback: show content when page fully loads
+      window.addEventListener('load', function() {
+        setTimeout(showContent, 200);
+      }, { once: true });
+      
+      // Emergency fallback: show content after 5 seconds no matter what
+      setTimeout(function() {
+        if (!contentShown) {
+          console.warn('Emergency fallback: forcing content to show');
+          showContent();
+        }
+      }, 5000);
+    })();
+    
+    // Handle AJAX save PI functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const saveButtons = document.querySelectorAll('.save-pi-btn');
+      
+      saveButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const piId = this.getAttribute('data-pi-id');
+          const originalText = this.textContent;
+          
+          // Disable button and show loading state
+          this.disabled = true;
+          this.textContent = 'Saving...';
+          this.style.opacity = '0.7';
+          
+          // Make AJAX request
+          fetch(`/save-pi/${piId}`, {
+            method: 'POST',
+            headers: {
+              'X-Requested-With': 'XMLHttpRequest',
+              'Content-Type': 'application/json',
+            },
+            credentials: 'same-origin'
+          })
+          .then(response => response.json())
+          .then(data => {
+            if (data.success) {
+              // Update button to show saved state
+              this.textContent = '✓ Saved';
+              this.classList.remove('btn-primary');
+              this.classList.add('btn-secondary');
+              this.style.backgroundColor = '#28a745';
+              this.style.borderColor = '#28a745';
+              this.style.color = 'white';
+              
+              // Add saved badge to the row if it exists
+              const row = this.closest('tr');
+              if (row) {
+                const nameCell = row.querySelector('.table-lab-name').parentElement;
+                if (nameCell && !nameCell.querySelector('.saved-badge')) {
+                  const badge = document.createElement('span');
+                  badge.className = 'saved-badge';
+                  badge.style.cssText = 'margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;';
+                  badge.textContent = '✓ Saved';
+                  nameCell.appendChild(badge);
+                }
+              }
+            } else {
+              // Error - restore button
+              this.disabled = false;
+              this.textContent = originalText;
+              this.style.opacity = '1';
+              alert('Error saving PI: ' + (data.error || 'Unknown error'));
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            // Restore button on error
+            this.disabled = false;
+            this.textContent = originalText;
+            this.style.opacity = '1';
+            alert('Error saving PI. Please try again.');
+          });
+        });
+      });
+    });
+  </script>
+{% endblock %}
+

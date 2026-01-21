@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic HTML setup - charset and viewport for responsive design -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIQ Lab Matcher</title>
+    <!-- Link to our main stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <!-- Header with navigation bar -->
+    <header>
+      <nav class="top-nav">
+        <!-- Left side: Logo and brand name -->
+        <div class="nav-left">
+          <a href="{{ url_for('index') }}" class="brand">
+            <img src="{{ url_for('static', filename='images/riq-logo.svg') }}" alt="RIQ" class="riq-logo-image">
+            <span class="riq-brand-text">RIQ</span>
+          </a>
+        </div>
+        <!-- Right side: Navigation links -->
+        <div class="nav-right">
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('general') }}">Browse Labs</a>
+            <!-- Only show these links if the user is logged in -->
+            {% if session.get('user_id') %}
+              <a href="{{ url_for('matches') }}">My Matches</a>
+              <a href="{{ url_for('saved_pis') }}">Saved PIs</a>
+            {% endif %}
+            <a href="{{ url_for('help_page') }}">Help</a>
+            <!-- Show different links based on whether user is logged in -->
+            {% if session.get('user_id') %}
+              <a href="{{ url_for('account') }}">{{ session.get('username', 'Account') }}</a>
+              <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+              <a href="{{ url_for('login') }}">Log in</a>
+              <a href="{{ url_for('signup') }}" class="btn-nav-signup">Sign Up</a>
+            {% endif %}
+          </div>          
+      </nav>
+    </header>
+
+    <!-- Main content area - each page extends this and adds its own content -->
+    <!-- The page-with-gradient class adds the animated background to all pages except the homepage -->
+    <main class="page {% if request.endpoint != 'index' %}page-with-gradient{% endif %}">
+      <!-- Flash messages - these show success/error messages to users -->
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flash-messages">
+            {% for category, message in messages %}
+              <div class="flash-message flash-{{ category }}">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+      <!-- This is where each page's unique content goes -->
+      {% block content %}
+      {% endblock %}
+    </main>
+
+    <!-- Footer with copyright and info -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 RIQ Lab Matcher. Connecting students with research opportunities.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+          Currently featuring 1000+ labs from MIT/Harvard. 
+          Data updated regularly from institutional sources.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Feedback Widget - floating button in bottom right corner -->
+    <!-- Users can click this to send feedback, report bugs, or suggest improvements -->
+    <div class="feedback-widget" id="feedback-widget">
+      <button class="feedback-toggle" onclick="toggleFeedback()">?</button>
+      <div class="feedback-panel" id="feedback-panel" style="display: none;">
+        <div class="feedback-header">
+          <h4>Send Feedback</h4>
+          <button class="close-feedback" onclick="toggleFeedback()">×</button>
+        </div>
+        <form action="{{ url_for('submit_feedback') }}" method="post" class="feedback-form">
+          <!-- Track which page the feedback came from -->
+          <input type="hidden" name="page" value="{{ request.endpoint or '' }}">
+          <textarea name="feedback" placeholder="Tell us what you think, report bugs, or suggest improvements..." rows="4" required></textarea>
+          <button type="submit" class="btn-primary btn-small">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript files -->
+    <script src="{{ url_for('static', filename='thinking-bar.js') }}"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+      // Toggle the feedback panel open/closed
+      function toggleFeedback() {
+        const panel = document.getElementById('feedback-panel');
+        panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+      }
+      
+      // Toggle explanation popups (used on matches page)
+      function toggleFitExplanation(id) {
+        const popup = document.getElementById(id);
+        if (popup) {
+          popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+      }
+    </script>
+  </body>
+</html>

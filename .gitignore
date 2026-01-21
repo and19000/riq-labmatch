@@ -45,5 +45,7 @@ Thumbs.db
 test_*.log
 *_test.log
 
-# Old versions (keep only current)
-# faculty_pipeline_v4_3.py  # Keep for reference but can be removed
+# Flask app files (from main repo)
+uploads/
+instance/
+*.db

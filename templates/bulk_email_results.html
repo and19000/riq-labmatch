@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Generated Email Drafts</h1>
+  <p class="subtitle">Review and copy your personalized email drafts</p>
+
+  <div class="draft-actions" style="margin-bottom: 2rem;">
+    <button onclick="copyAllEmails()" class="btn-primary">Copy All Emails</button>
+    <a href="{{ url_for('saved_pis') }}" class="btn-secondary">Back to Saved PIs</a>
+  </div>
+
+  <div class="email-list">
+    {% for email_data in emails %}
+      <div class="draft-result" style="margin-bottom: 3rem;">
+        <h2>Email to {{ email_data.pi.name }}</h2>
+        
+        <!-- Pre-flight Email Checks -->
+        <div class="email-checks" id="email-checks-{{ loop.index0 }}">
+          <h3>Email Quality Checks</h3>
+          <div class="check-list">
+            <div class="check-item" id="check-length-{{ loop.index0 }}">
+              <span class="check-icon">⏳</span>
+              <span class="check-text">Checking length...</span>
+            </div>
+            <div class="check-item" id="check-personalization-{{ loop.index0 }}">
+              <span class="check-icon">⏳</span>
+              <span class="check-text">Checking personalization...</span>
+            </div>
+            <div class="check-item" id="check-tone-{{ loop.index0 }}">
+              <span class="check-icon">⏳</span>
+              <span class="check-text">Checking tone...</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="draft-actions">
+          <button onclick="copyEmail({{ loop.index0 }})" class="btn-secondary">Copy to Clipboard</button>
+          <a href="mailto:{{ email_data.pi_email }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
+        </div>
+        
+        <div class="pi-info" style="margin: 1rem 0; padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <p style="margin: 0.25rem 0;"><strong>{{ email_data.pi.title }}</strong></p>
+          <p style="margin: 0.25rem 0;">{{ email_data.pi.department }}, {{ email_data.pi.school }}</p>
+          <p style="margin: 0.25rem 0;"><strong>Email:</strong> {{ email_data.pi_email }}</p>
+        </div>
+        
+        <div class="draft-content" id="email-{{ loop.index0 }}">
+          <div class="draft-text">{{ email_data.draft }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    // Run email quality checks for each email
+    document.addEventListener('DOMContentLoaded', function() {
+      {% for email_data in emails %}
+        const draftText{{ loop.index0 }} = document.getElementById('email-{{ loop.index0 }}').innerText;
+        runEmailChecks(draftText{{ loop.index0 }}, {{ loop.index0 }});
+      {% endfor %}
+    });
+    
+    function runEmailChecks(draftText, index) {
+      const wordCount = draftText.split(/\s+/).length;
+      const hasPIname = draftText.match(/Dr\.|Professor/i);
+      const hasLabName = draftText.match(/lab|research group|group/i);
+      const tooApologetic = /sorry|apologize|hope.*not.*bother/i.test(draftText);
+      
+      // Length check
+      const lengthCheck = document.getElementById('check-length-' + index);
+      if (lengthCheck) {
+        if (wordCount > 50 && wordCount < 500) {
+          lengthCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Length OK (' + wordCount + ' words)</span>';
+        } else if (wordCount >= 500) {
+          lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is quite long (' + wordCount + ' words). Consider shortening.</span>';
+        } else {
+          lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is very short (' + wordCount + ' words). Consider adding more detail.</span>';
+        }
+      }
+      
+      // Personalization check
+      const personalCheck = document.getElementById('check-personalization-' + index);
+      if (personalCheck) {
+        if (hasPIname && hasLabName) {
+          personalCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Well personalized with PI and lab references</span>';
+        } else if (hasPIname || hasLabName) {
+          personalCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Consider mentioning specific research or recent papers</span>';
+        } else {
+          personalCheck.innerHTML = '<span class="check-icon check-fail">✗</span><span class="check-text">Too generic. Add PI name and specific research details.</span>';
+        }
+      }
+      
+      // Tone check
+      const toneCheck = document.getElementById('check-tone-' + index);
+      if (toneCheck) {
+        if (tooApologetic) {
+          toneCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Tone may be overly apologetic. Be confident!</span>';
+        } else {
+          toneCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Professional and confident tone</span>';
+        }
+      }
+    }
+    
+    function copyEmail(index) {
+      const emailText = document.getElementById('email-' + index).innerText;
+      navigator.clipboard.writeText(emailText).then(() => {
+        alert('Email copied to clipboard!');
+      });
+    }
+
+    function copyAllEmails() {
+      let allEmails = '';
+      {% for email_data in emails %}
+        allEmails += '=== Email to {{ email_data.pi.name }} ===\n';
+        allEmails += document.getElementById('email-{{ loop.index0 }}').innerText + '\n\n';
+      {% endfor %}
+      navigator.clipboard.writeText(allEmails).then(() => {
+        alert('All emails copied to clipboard!');
+      });
+    }
+  </script>
+{% endblock %}
+
+
+

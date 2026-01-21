@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Homepage wrapper - contains all the homepage content -->
+  <div class="homepage-wrapper">
+  <!-- Hero section - the big eye-catching area at the top -->
+  <div class="hero-section">
+    <!-- Animated torus rings - creates a cool 3D-looking animation effect -->
+    <div class="torus-container">
+      <div class="torus-ring torus-outer">
+        <div class="torus-inner-ring"></div>
+      </div>
+      <div class="torus-ring torus-middle">
+        <div class="torus-inner-ring"></div>
+      </div>
+      <div class="torus-ring torus-inner">
+        <div class="torus-inner-ring"></div>
+      </div>
+    </div>
+    <!-- Main hero content - headline, description, and call-to-action buttons -->
+    <div class="hero-content">
+      <h1>Find your next research lab in seconds.</h1>
+      <p class="subtitle">Connect with leading researchers at MIT/Harvard. AI-powered matching helps you discover labs that align with your skills and interests.</p>
+      <div class="hero-buttons">
+        <a href="{{ url_for('general') }}" class="btn-primary btn-large">Explore labs</a>
+        <a href="{{ url_for('resume_upload') }}" class="btn-secondary btn-large">Upload resume</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features section - explains what the app can do -->
+  <section class="features-deepmind-section">
+    <h2 class="section-title">What you can do with RIQ</h2>
+    <div class="features-deepmind-grid">
+      <div class="feature-deepmind-card">
+        <div class="feature-image gradient-ai">
+          <img src="{{ url_for('static', filename='images/ai-matching.svg') }}" alt="AI Matching" class="feature-icon-image">
+        </div>
+        <div class="feature-content">
+          <h3>AI-Powered Matches</h3>
+          <p>Our advanced algorithm analyzes your resume and matches you with compatible research labs based on your skills, experience, and research interests.</p>
+          {% if session.get('user_id') %}
+            <a href="{{ url_for('matches') }}" class="feature-link">Learn more →</a>
+          {% else %}
+            <a href="{{ url_for('signup') }}" class="feature-link">Get started →</a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="feature-deepmind-card">
+        <div class="feature-image gradient-email">
+          <img src="{{ url_for('static', filename='images/email-drafting.svg') }}" alt="Email Drafting" class="feature-icon-image">
+        </div>
+        <div class="feature-content">
+          <h3>Email Drafting</h3>
+          <p>Generate professional, personalized cold emails to Principal Investigators in seconds. Our AI crafts compelling emails that highlight your relevant experience.</p>
+          {% if session.get('user_id') %}
+            <a href="{{ url_for('draft_email') }}" class="feature-link">Learn more →</a>
+          {% else %}
+            <a href="{{ url_for('login') }}" class="feature-link">Learn more →</a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="feature-deepmind-card">
+        <div class="feature-image gradient-browse">
+          <img src="{{ url_for('static', filename='images/browse-labs.svg') }}" alt="Browse Labs" class="feature-icon-image">
+        </div>
+        <div class="feature-content">
+          <h3>Browse & Save Labs</h3>
+          <p>Explore thousands of research labs across MIT/Harvard. Filter by school, department, techniques, and location. Save your favorites for easy access.</p>
+          <a href="{{ url_for('general') }}" class="feature-link">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Stats section - shows impressive numbers to build trust -->
+  <div class="stats-section">
+    <h2>Why Use RIQ Lab Matcher?</h2>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">1000+</div>
+        <div class="stat-label">Researchers & Professors</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">MIT/Harvard</div>
+        <div class="stat-label">Top Institutions</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">AI-Powered</div>
+        <div class="stat-label">Email Drafting</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call-to-action section - encourages users to sign up or continue using the app -->
+  <!-- Shows different content based on whether the user is logged in -->
+  <div class="cta-section">
+    {% if not session.get('user_id') %}
+      <!-- For visitors who aren't logged in -->
+      <h2>Ready to Find Your Research Opportunity?</h2>
+      <p>Create a free account to start saving labs and drafting emails.</p>
+      <div class="cta-buttons">
+        <a href="{{ url_for('signup') }}" class="btn-primary btn-large">Sign Up Free</a>
+        <a href="{{ url_for('login') }}" class="btn-secondary btn-large">Log In</a>
+      </div>
+    {% else %}
+      <!-- For logged-in users -->
+      <h2>Continue Your Research Journey</h2>
+      <p>Browse labs, save favorites, and draft professional emails to PIs.</p>
+      <div class="cta-buttons">
+        <a href="{{ url_for('general') }}" class="btn-primary btn-large">Browse Labs</a>
+        <a href="{{ url_for('saved_pis') }}" class="btn-secondary btn-large">View Saved PIs</a>
+      </div>
+    {% endif %}
+  </div>
+  </div>
+{% endblock %}

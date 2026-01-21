@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Your Account</h1>
+
+  {% if user %}
+    {% if not profile or (profile.profile_completeness is not none and profile.profile_completeness < 100) %}
+      <div class="profile-completeness-banner">
+        <div class="completeness-header">
+          <h3>Complete your profile ({{ profile.profile_completeness if profile and profile.profile_completeness is not none else 0 }}% done)</h3>
+          <a href="{{ url_for('onboarding') }}" class="btn-primary btn-small">Complete Profile</a>
+        </div>
+        <div class="completeness-bar">
+          <div class="completeness-fill" style="width: {{ profile.profile_completeness if profile and profile.profile_completeness is not none else 0 }}%"></div>
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="account-info">
+      <div class="info-card">
+        <h2>Profile Information</h2>
+        <p><strong>Username:</strong> {{ user.username }}</p>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Member since:</strong> {{ user.created_at.strftime("%B %d, %Y") }}</p>
+        {% if profile %}
+          {% if profile.major_field %}
+            <p><strong>Field:</strong> {{ profile.major_field }}</p>
+          {% endif %}
+          {% if profile.year_in_school %}
+            <p><strong>Year in School:</strong> {{ profile.year_in_school|title }}</p>
+          {% endif %}
+          {% if profile.looking_for %}
+            <p><strong>Looking for:</strong> 
+              {% set looking_for_items = profile.looking_for.split(',') %}
+              {% for item in looking_for_items %}
+                {{ item.strip()|replace('_', ' ')|title }}{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+          {% if profile.top_techniques %}
+            <p><strong>Interests:</strong> {{ profile.top_techniques }}</p>
+          {% endif %}
+        {% endif %}
+      </div>
+      
+      <div class="account-actions">
+        <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload/Update Resume</a>
+        <a href="{{ url_for('matches') }}" class="btn-secondary">View My Matches</a>
+        <a href="{{ url_for('saved_pis') }}" class="btn-secondary">View Saved PIs</a>
+        {% if profile %}
+          <a href="{{ url_for('onboarding') }}" class="btn-secondary">Edit Profile</a>
+        {% endif %}
+      </div>
+    </div>
+  {% else %}
+    <p>You are not logged in.</p>
+  {% endif %}
+{% endblock %}

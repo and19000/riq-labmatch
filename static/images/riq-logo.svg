@@ -1,0 +1,79 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Blue to Purple Gradient -->
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow Filter for the ring -->
+    <filter id="ringGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Subtle glow for orbiting dots -->
+    <filter id="dotGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Main Torus Ring - the "Insight Ring" -->
+  <!-- Outer ring -->
+  <circle cx="80" cy="80" r="55" fill="none" stroke="url(#ringGradient)" stroke-width="5" opacity="0.9" filter="url(#ringGlow)"/>
+  
+  <!-- Inner ring for depth -->
+  <circle cx="80" cy="80" r="48" fill="none" stroke="url(#ringGradient)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Orbiting Dots - 4 dots that orbit around the ring -->
+  <!-- Dot 1 - Top -->
+  <circle cx="80" cy="25" r="6" fill="url(#ringGradient)" opacity="0.9" filter="url(#dotGlow)">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0 80 80;360 80 80"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Dot 2 - Right -->
+  <circle cx="135" cy="80" r="5" fill="url(#ringGradient)" opacity="0.85" filter="url(#dotGlow)">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="90 80 80;450 80 80"
+      dur="10s"
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Dot 3 - Bottom -->
+  <circle cx="80" cy="135" r="5.5" fill="url(#ringGradient)" opacity="0.9" filter="url(#dotGlow)">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="180 80 80;540 80 80"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Dot 4 - Left -->
+  <circle cx="25" cy="80" r="5" fill="url(#ringGradient)" opacity="0.85" filter="url(#dotGlow)">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="270 80 80;630 80 80"
+      dur="9s"
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Subtle inner glow at center -->
+  <circle cx="80" cy="80" r="35" fill="none" stroke="url(#ringGradient)" stroke-width="1" opacity="0.2"/>
+</svg>

@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="draft-email-wrapper">
+    <div class="draft-email-content">
+      <h1>Generate Emails for Saved PIs</h1>
+      <p>Select multiple saved PIs and generate personalized emails for all of them at once.</p>
+
+      {% if error %}
+        <div class="error-message">{{ error }}</div>
+      {% endif %}
+
+      {% if saved_pis %}
+        <form method="post" action="{{ url_for('bulk_email') }}" class="email-form" id="bulk-email-form">
+          <div class="form-group">
+            <label>Select PIs to Email:</label>
+            <div class="checkbox-group">
+              {% for pi in saved_pis %}
+                <div class="checkbox-option">
+                  <input type="checkbox" id="pi_{{ pi.id }}" name="pi_ids" value="{{ pi.id }}" checked>
+                  <label for="pi_{{ pi.id }}">
+                    <strong>{{ pi.name }}</strong> — {{ pi.department }}, {{ pi.school }}
+                    <br><small>{{ pi.research_areas }}</small>
+                  </label>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="student_name">Your Name:</label>
+            <input type="text" id="student_name" name="student_name" value="{{ user.username }}" required>
+          </div>
+
+          <div class="form-group">
+            <label for="student_email">Your Email:</label>
+            <input type="email" id="student_email" name="student_email" value="{{ user.email }}" required>
+          </div>
+
+          <div class="form-group">
+            <label for="student_background">Your Background (optional):</label>
+            <textarea id="student_background" name="student_background" rows="3" placeholder="e.g., Junior at Harvard, majoring in Computer Science, with experience in machine learning..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="research_interest">Research Interest (optional):</label>
+            <textarea id="research_interest" name="research_interest" rows="2" placeholder="e.g., I'm particularly interested in AI applications in healthcare..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" id="generate-btn">Generate All Emails</button>
+        </form>
+      {% else %}
+        <div class="no-saved-pis-message" style="padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <p style="margin-bottom: 0.5rem;">You haven't saved any PIs yet.</p>
+          <p style="margin: 0;"><a href="{{ url_for('general') }}" class="btn-primary" style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.9rem;">Browse PIs to Save</a></p>
+        </div>
+      {% endif %}
+    </div>
+    
+    <!-- Right side graphic - Black Hole / Space Theme (same as single draft email) -->
+    <div class="draft-email-graphic">
+      <div class="blackhole-container">
+        <div class="blackhole-core"></div>
+        <div class="accretion-ring ring-1"></div>
+        <div class="accretion-ring ring-2"></div>
+        <div class="accretion-ring ring-3"></div>
+        <div class="star-field">
+          <div class="star star-1"></div>
+          <div class="star star-2"></div>
+          <div class="star star-3"></div>
+          <div class="star star-4"></div>
+          <div class="star star-5"></div>
+          <div class="star star-6"></div>
+          <div class="star star-7"></div>
+          <div class="star star-8"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Initialize thinking bar for bulk email generation
+    let thinkingBar = null;
+    
+    // Handle form submission with AJAX and thinking bar
+    document.addEventListener('DOMContentLoaded', function() {
+      const bulkEmailForm = document.getElementById('bulk-email-form');
+      const generateBtn = document.getElementById('generate-btn');
+      
+      if (bulkEmailForm) {
+        bulkEmailForm.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          
+          // Validate form
+          const formData = new FormData(bulkEmailForm);
+          const piIds = formData.getAll('pi_ids');
+          const studentName = formData.get('student_name');
+          const studentEmail = formData.get('student_email');
+          
+          if (piIds.length === 0) {
+            alert('Please select at least one PI.');
+            return;
+          }
+          
+          if (!studentName || !studentEmail) {
+            alert('Please fill in all required fields.');
+            return;
+          }
+          
+          // Disable button while processing
+          if (generateBtn) {
+            generateBtn.disabled = true;
+            generateBtn.style.opacity = '0.6';
+            generateBtn.textContent = 'Generating Emails...';
+          }
+          
+          // Show thinking bar
+          if (window.ThinkingBar) {
+            thinkingBar = new window.ThinkingBar('email');
+            thinkingBar.show();
+          }
+          
+          // Submit form normally (will redirect to results page)
+          bulkEmailForm.submit();
+        });
+      }
+    });
+  </script>
+{% endblock %}
+
+
+

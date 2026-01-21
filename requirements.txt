@@ -1,4 +1,14 @@
-requests>=2.28.0
+# Flask app dependencies (from main repo)
+flask
+openai
+python-dotenv
+flask_sqlalchemy
+flask_migrate
+requests
+urllib3
+gunicorn
+psycopg2-binary
+
+# Faculty pipeline dependencies
 beautifulsoup4>=4.11.0
 numpy>=1.21.0
-openai>=1.0.0
