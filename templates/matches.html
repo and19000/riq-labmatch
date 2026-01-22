@@ -89,7 +89,11 @@
                 {% endif %}
               </td>
               <td>
-                <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+                {% if pi.email and pi.email.strip() %}
+                  <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+                {% else %}
+                  <span style="color: var(--text-dim); font-size: 0.85rem;">[placeholder]</span>
+                {% endif %}
               </td>
               <td style="text-align: center;">
                 <div class="score-circle table-fit-score" data-score="{{ pi.match_score }}" style="width: 70px; height: 70px; margin: 0 auto; position: relative; cursor: pointer;" 

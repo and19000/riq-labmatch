@@ -121,7 +121,7 @@ To find websites for the remaining 61 faculty:
 cd /Users/kerrynguyen/Projects/riq-labmatch/faculty_pipeline
 
 # Add Brave API credits first (~$3-5)
-export BRAVE_API_KEY="BSAcKzgthbeCluu_MuOibiYz0VQRqLO"
+# Load from .env file (see .env.example for template)
 
 python3 faculty_pipeline_v4_5_1_restore.py \
     --input output/harvard_university_20260120_162804.json \

@@ -30,6 +30,19 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # We use gpt-4o-mini because it's cost-effective and still very capable
 GPT_MODEL = "gpt-4o-mini"
 
+# Import V3 matching algorithm
+try:
+    import sys
+    matching_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "services", "matching")
+    if os.path.exists(matching_path):
+        sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+        from services.matching.api import MatchingAPI
+        HAS_V3_MATCHING = True
+    else:
+        HAS_V3_MATCHING = False
+except ImportError:
+    HAS_V3_MATCHING = False
+
 # Create our Flask application
 app = Flask(__name__)
 
@@ -200,6 +213,8 @@ init_db()
 # Set up paths to our data files
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 FACULTY_PATH = os.path.join(DATA_DIR, "faculty_working.json")
+# Path to original pipeline data for V3 matching (has nested structure)
+PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260121_113956.json")
 
 # Access Control - restrict site to authorized users only
 # Set ALLOWED_USERS environment variable with comma-separated emails (e.g., "user1@example.com,user2@example.com")
@@ -655,62 +670,125 @@ def matches():
     else:
         resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
     
-    # Use parallel batch processing to speed up matching
-    # Instead of checking labs one by one (which would be very slow), we split them into batches
-    # and process multiple batches at the same time using multiple threads
-    try:
-        # Split faculty into batches for parallel processing
-        # Smaller batches = more parallelism, faster overall
-        # We use batches of 10 labs each, processing up to 100 labs total for optimal speed
-        BATCH_SIZE = 10  # Reduced from 15 for more parallel requests
-        faculty_to_process = all_faculty[:100]  # Process top 100 labs (reduced from 150 for speed)
-        batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
-        total_batches = len(batches)
-        
-        # Process batches in parallel using ThreadPoolExecutor
-        # This is what makes it 10x faster than processing sequentially
-        # We use 20 workers for maximum parallelism
-        all_matches_data = []
-        with ThreadPoolExecutor(max_workers=20) as executor:
-            # Submit all batch processing tasks to run in parallel
-            future_to_batch = {
-                executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
-                for idx, batch in enumerate(batches)
-            }
+    # Try to use V3 matching algorithm if available, otherwise fall back to V1
+    use_v3 = HAS_V3_MATCHING and os.path.exists(PIPELINE_FACULTY_PATH)
+    
+    if use_v3:
+        try:
+            # Use V3 sophisticated matching algorithm
+            matching_api = MatchingAPI(
+                faculty_data_path=PIPELINE_FACULTY_PATH,
+                openai_api_key=os.getenv("OPENAI_API_KEY")
+            )
             
-            # Collect results as they complete (they might finish in any order)
-            for future in as_completed(future_to_batch):
-                batch_idx = future_to_batch[future]
-                try:
-                    batch_results = future.result()
-                    if batch_results:
-                        all_matches_data.extend(batch_results)
-                except Exception as e:
-                    print(f"Error in batch {batch_idx + 1}: {str(e)}")
-                    # Continue processing other batches even if one fails
-        
-        matches_data = all_matches_data
+            # Get user preferences if available (can be extended later)
+            user_interests = []
+            user_techniques = []
+            user_preferences = {}
             
-    except Exception as e:
-        # If something goes wrong with the AI, show all labs without ranking
-        # This way the user still gets results even if the AI is having issues
-        matches_data = [{"pi_id": pi["id"], "score": 50, "reason": "Unable to generate match score"} for pi in all_faculty]
-        flash(f"AI matching temporarily unavailable. Showing all labs. Error: {str(e)}", "warning")
+            # Run matching
+            match_results = matching_api.match(
+                resume_text=resume_info,
+                user_interests=user_interests,
+                user_techniques=user_techniques,
+                user_preferences=user_preferences,
+                top_k=50,
+                min_score=35.0,
+                include_explanations=True
+            )
+            
+            # Convert V3 results to format expected by template
+            pi_by_id = {pi["id"]: pi for pi in all_faculty}
+            ranked_matches = []
+            
+            # Create a mapping from openalex_id to website format id
+            # The V3 matcher uses openalex_id, but website format uses custom ids
+            openalex_to_id = {}
+            for pi in all_faculty:
+                # Try to match by name as fallback
+                openalex_to_id[pi["name"].lower()] = pi["id"]
+            
+            for match_result in match_results.get("top_matches", []):
+                # Try to find matching PI by name
+                pi_name = match_result.get("name", "")
+                pi_id = openalex_to_id.get(pi_name.lower())
+                
+                if pi_id and pi_id in pi_by_id:
+                    pi = pi_by_id[pi_id].copy()
+                    pi["match_score"] = int(match_result.get("total_score", 50))
+                    pi["match_reason"] = match_result.get("personalized_reason", "Match found")
+                    ranked_matches.append(pi)
+                else:
+                    # If not found, create a basic entry from match result
+                    pi = {
+                        "id": match_result.get("pi_id", ""),
+                        "name": match_result.get("name", ""),
+                        "institution": match_result.get("institution", ""),
+                        "email": match_result.get("email", ""),
+                        "website": match_result.get("website", ""),
+                        "h_index": str(match_result.get("h_index", 0)),
+                        "department": "Various",
+                        "school": match_result.get("institution", ""),
+                        "research_areas": ", ".join(match_result.get("matched_topics", [])[:5]),
+                        "match_score": int(match_result.get("total_score", 50)),
+                        "match_reason": match_result.get("personalized_reason", "Match found"),
+                    }
+                    ranked_matches.append(pi)
+            
+            # Sort by match score
+            ranked_matches.sort(key=lambda x: x.get("match_score", 0), reverse=True)
+            
+        except Exception as e:
+            print(f"V3 matching error: {str(e)}")
+            # Fall back to V1 matching
+            use_v3 = False
     
-    # Combine the match scores with the full PI data
-    pi_by_id = {pi["id"]: pi for pi in all_faculty}
-    ranked_matches = []
-    
-    for match in matches_data:
-        pi_id = match.get("pi_id")
-        if pi_id in pi_by_id:
-            pi = pi_by_id[pi_id].copy()
-            pi["match_score"] = match.get("score", 50)
-            pi["match_reason"] = match.get("reason", "Match found")
-            ranked_matches.append(pi)
-    
-    # Sort by match score from highest to lowest
-    ranked_matches.sort(key=lambda x: x.get("match_score", 0), reverse=True)
+    if not use_v3:
+        # Use V1 parallel batch processing (original algorithm)
+        try:
+            # Split faculty into batches for parallel processing
+            BATCH_SIZE = 10
+            faculty_to_process = all_faculty[:100]
+            batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
+            total_batches = len(batches)
+            
+            # Process batches in parallel using ThreadPoolExecutor
+            all_matches_data = []
+            with ThreadPoolExecutor(max_workers=20) as executor:
+                future_to_batch = {
+                    executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
+                    for idx, batch in enumerate(batches)
+                }
+                
+                for future in as_completed(future_to_batch):
+                    batch_idx = future_to_batch[future]
+                    try:
+                        batch_results = future.result()
+                        if batch_results:
+                            all_matches_data.extend(batch_results)
+                    except Exception as e:
+                        print(f"Error in batch {batch_idx + 1}: {str(e)}")
+            
+            matches_data = all_matches_data
+                
+        except Exception as e:
+            matches_data = [{"pi_id": pi["id"], "score": 50, "reason": "Unable to generate match score"} for pi in all_faculty]
+            flash(f"AI matching temporarily unavailable. Showing all labs. Error: {str(e)}", "warning")
+        
+        # Combine the match scores with the full PI data
+        pi_by_id = {pi["id"]: pi for pi in all_faculty}
+        ranked_matches = []
+        
+        for match in matches_data:
+            pi_id = match.get("pi_id")
+            if pi_id in pi_by_id:
+                pi = pi_by_id[pi_id].copy()
+                pi["match_score"] = match.get("score", 50)
+                pi["match_reason"] = match.get("reason", "Match found")
+                ranked_matches.append(pi)
+        
+        # Sort by match score from highest to lowest
+        ranked_matches.sort(key=lambda x: x.get("match_score", 0), reverse=True)
     
     # Check which PIs the user has already saved
     saved_pi_ids = set()

@@ -108,7 +108,11 @@
       
       <div class="draft-actions">
         <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
-        <a href="mailto:{{ pi.email if pi else '' }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
+        {% if pi and pi.email and pi.email.strip() %}
+          <a href="mailto:{{ pi.email }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
+        {% else %}
+          <span class="btn-secondary" style="opacity: 0.5; cursor: not-allowed;">[placeholder]</span>
+        {% endif %}
       </div>
       <div class="draft-content" id="draft-content">
         <div class="draft-text">{{ draft }}</div>
@@ -251,7 +255,7 @@
             
             <div class="draft-actions">
               <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
-              <a href="mailto:${pi ? pi.email : ''}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
+              ${pi && pi.email && pi.email.trim() ? `<a href="mailto:${pi.email}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>` : '<span class="btn-secondary" style="opacity: 0.5; cursor: not-allowed;">[placeholder]</span>'}
             </div>
             <div class="draft-content" id="draft-content">
               <div class="draft-text">${escapeHtml(draft)}</div>

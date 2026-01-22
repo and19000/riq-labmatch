@@ -195,7 +195,7 @@ The Brave Search API quota was exhausted, likely from previous test runs. When t
    ```bash
    cd /Users/kerrynguyen/Projects/riq-labmatch/faculty_pipeline
    export OPENALEX_CONTACT_EMAIL="riqlabmatch@gmail.com"
-   export BRAVE_API_KEY="BSAcKzgthbeCluu_MuOibiYz0VQRqLO"
+   # Load from .env file (never hardcode API keys!)
    caffeinate -i python3 faculty_pipeline_v4_3.py \
        --institution harvard \
        --max-faculty 600 \

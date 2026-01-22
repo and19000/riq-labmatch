@@ -168,7 +168,7 @@ cd /Users/kerrynguyen/Projects/riq-labmatch/faculty_pipeline
 
 # Set environment variables
 export OPENALEX_CONTACT_EMAIL="riqlabmatch@gmail.com"
-export BRAVE_API_KEY="BSAcKzgthbeCluu_MuOibiYz0VQRqLO"
+# Load from .env file (see .env.example for template)
 
 # Resume and only run website discovery + email extraction
 caffeinate -i python3 faculty_pipeline_v4_5.py \

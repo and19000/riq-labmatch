@@ -141,7 +141,11 @@
                     {% endif %}
                   </td>
                   <td>
-                    <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+                    {% if pi.email and pi.email.strip() %}
+                      <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
+                    {% else %}
+                      <span style="color: var(--text-dim); font-size: 0.85rem;">[placeholder]</span>
+                    {% endif %}
                   </td>
                   <td>
                     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">

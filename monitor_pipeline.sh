@@ -26,8 +26,14 @@ restart_pipeline() {
     echo "Attempting restart #$RESTART_COUNT at $(date)"
     
     cd /Users/kerrynguyen/Projects/riq-labmatch/faculty_pipeline
-    export OPENALEX_CONTACT_EMAIL="riqlabmatch@gmail.com"
-    export BRAVE_API_KEY="BSAcKzgthbeCluu_MuOibiYz0VQRqLO"
+    
+    # Load environment variables from .env file
+    if [ -f .env ]; then
+        export $(grep -v '^#' .env | xargs)
+    else
+        echo "ERROR: .env file not found!"
+        exit 1
+    fi
     
     nohup caffeinate -i python3 faculty_pipeline_v4_3.py \
         --institution harvard \

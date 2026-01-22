@@ -50,7 +50,7 @@ caffeinate -i python3 faculty_pipeline_v4_5.py \
 
 **Environment Variables Set:**
 - `OPENALEX_CONTACT_EMAIL=riqlabmatch@gmail.com`
-- `BRAVE_API_KEY=BSAcKzgthbeCluu_MuOibiYz0VQRqLO`
+- `BRAVE_API_KEY=your-key` (set in .env file)
 
 **Process Status:** ✅ Running in background with caffeinate (prevents sleep)
 
