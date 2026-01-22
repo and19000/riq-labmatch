@@ -214,7 +214,7 @@ init_db()
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 FACULTY_PATH = os.path.join(DATA_DIR, "faculty_working.json")
 # Path to original pipeline data for V3 matching (has nested structure)
-PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260121_113956.json")
+PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260120_162804.json")
 
 # Access Control - restrict site to authorized users only
 # Set ALLOWED_USERS environment variable with comma-separated emails (e.g., "user1@example.com,user2@example.com")
