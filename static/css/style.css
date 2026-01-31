@@ -3540,4 +3540,9 @@ footer {
   }
 }
 
-  
+/* Research topics under professor names (MVP) */
+.research-topics {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin: 4px 0 8px 0;
+}

@@ -17,6 +17,9 @@
         <input type="hidden" name="pi_id" value="{{ pi.id }}">
         <div class="selected-pi">
           <strong>{{ pi.name }}</strong> — {{ pi.title }}<br>
+          {% if pi.research_topics %}
+          <p class="research-topics">{{ (pi.research_topics or [])[:3] | join(' · ') }}</p>
+          {% endif %}
           <small>{{ pi.department }}, {{ pi.school }}</small>
           <p><a href="{{ url_for('draft_email') }}">Change PI</a></p>
         </div>

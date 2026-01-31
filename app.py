@@ -30,18 +30,64 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # We use gpt-4o-mini because it's cost-effective and still very capable
 GPT_MODEL = "gpt-4o-mini"
 
-# Import V3 matching algorithm
+# Import Simple Matching Service
 try:
     import sys
     matching_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "services", "matching")
     if os.path.exists(matching_path):
         sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-        from services.matching.api import MatchingAPI
-        HAS_V3_MATCHING = True
+        from services.matching.simple_matching import MatchingService
+        HAS_MATCHING = True
     else:
-        HAS_V3_MATCHING = False
-except ImportError:
-    HAS_V3_MATCHING = False
+        HAS_MATCHING = False
+except ImportError as e:
+    HAS_MATCHING = False
+    print(f"Warning: Could not import matching service: {e}")
+
+# Global matching service (initialized lazily)
+_matching_service = None
+
+def get_matching_service():
+    """Get or initialize the matching service. Prefer MVP file (1,500 faculty) if present."""
+    global _matching_service
+    if _matching_service is None and HAS_MATCHING:
+        output_dir = os.path.join(os.path.dirname(__file__), "output")
+        if os.path.exists(output_dir):
+            # Prefer MVP file for ship (1,500 faculty with email or website)
+            mvp_file = os.path.join(output_dir, "harvard_mvp_1500.json")
+            if os.path.exists(mvp_file):
+                try:
+                    _matching_service = MatchingService(mvp_file)
+                    app.logger.info(f"Loaded matching service from {mvp_file}")
+                    return _matching_service
+                except Exception as e:
+                    app.logger.error(f"Failed to load MVP file: {e}")
+            # Fallback: latest v533 file
+            latest_file = None
+            latest_time = 0
+            for f in os.listdir(output_dir):
+                if f.startswith("harvard_university") and f.endswith("_v533.json"):
+                    file_path = os.path.join(output_dir, f)
+                    mtime = os.path.getmtime(file_path)
+                    if mtime > latest_time:
+                        latest_time = mtime
+                        latest_file = file_path
+            if latest_file:
+                try:
+                    _matching_service = MatchingService(latest_file)
+                    app.logger.info(f"Loaded matching service from {latest_file}")
+                except Exception as e:
+                    app.logger.error(f"Failed to load matching service: {e}")
+            else:
+                for f in sorted(os.listdir(output_dir), reverse=True):
+                    if f.startswith("harvard_university") and f.endswith(".json"):
+                        try:
+                            _matching_service = MatchingService(os.path.join(output_dir, f))
+                            app.logger.info(f"Loaded matching service from {f}")
+                            break
+                        except:
+                            continue
+    return _matching_service
 
 # Create our Flask application
 app = Flask(__name__)
@@ -127,16 +173,18 @@ class Resume(db.Model):
 class UserProfile(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), unique=True, nullable=False)
+    # MVP: 5-question profile (fast matching, no resume)
+    research_field = db.Column(db.String(200))       # Q1: Main field (e.g., biology, computer science)
+    research_topics = db.Column(db.Text)             # Q2: Specific topics (comma-separated)
+    academic_level = db.Column(db.String(50))         # Q3: undergrad/masters/phd/postdoc
+    work_style = db.Column(db.String(50))             # Q4: experimental/computational/both
+    needs_funding = db.Column(db.Boolean, default=False)  # Q5: Funded position needed
+    # Legacy fields (kept for compatibility; also set from 5 questions)
     major_field = db.Column(db.String(255))
-    # What year they're in school (first year, sophomore, junior, senior, masters student, graduate student, other)
     year_in_school = db.Column(db.String(50))
-    # What kind of opportunity they're seeking (thesis lab, summer RA, rotation, gap year, in term research, exploring)
-    # Stored as comma-separated values
     looking_for = db.Column(db.String(500))
-    # Their top techniques of interest (stored as JSON array or comma-separated)
     top_techniques = db.Column(db.Text)
     onboarding_complete = db.Column(db.Boolean, default=False)
-    # Track how complete their profile is (0-100%)
     profile_completeness = db.Column(db.Integer, default=0)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -197,10 +245,19 @@ def init_db():
                         conn.execute(text("ALTER TABLE user_profile ADD COLUMN year_in_school VARCHAR(50)"))
                     print("Migration: Added year_in_school column to user_profile table")
                 
-                # Migration: Update looking_for column size if it's still 255
-                # Check the column type - SQLite doesn't enforce VARCHAR lengths, but we update for consistency
-                # Since SQLite stores everything as TEXT, we'll just ensure the column exists with proper size
-                # The model definition will handle the size going forward
+                # MVP: Add 5-question profile columns if they don't exist
+                mvp_columns = [
+                    ("research_field", "VARCHAR(200)"),
+                    ("research_topics", "TEXT"),
+                    ("academic_level", "VARCHAR(50)"),
+                    ("work_style", "VARCHAR(50)"),
+                    ("needs_funding", "BOOLEAN"),
+                ]
+                for col_name, col_type in mvp_columns:
+                    if col_name not in columns:
+                        with db.engine.begin() as conn:
+                            conn.execute(text(f"ALTER TABLE user_profile ADD COLUMN {col_name} {col_type}"))
+                        print(f"Migration: Added {col_name} column to user_profile table")
                 
         except Exception as e:
             # If table doesn't exist yet, create_all will handle it
@@ -212,7 +269,9 @@ init_db()
 
 # Set up paths to our data files
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-FACULTY_PATH = os.path.join(DATA_DIR, "faculty_working.json")
+# MVP: 1,500 faculty with email or website (harvard_mvp_1500.json)
+MVP_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_mvp_1500.json")
+FACULTY_PATH = MVP_FACULTY_PATH if os.path.exists(MVP_FACULTY_PATH) else os.path.join(DATA_DIR, "faculty_working.json")
 # Path to original pipeline data for V3 matching (has nested structure)
 PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260120_162804.json")
 
@@ -277,9 +336,19 @@ def require_authorized_user(f):
 # Helper Functions - these do common tasks we need throughout the app
 
 def load_faculty():
-    """Load all the faculty/PI data from our JSON file."""
+    """Load all the faculty/PI data from our JSON file. Supports MVP format (metadata + faculty list)."""
     with open(FACULTY_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+    # MVP / pipeline format: {"metadata": ..., "faculty": [...]}
+    if isinstance(data, dict) and "faculty" in data:
+        faculty = data["faculty"]
+        for pi in faculty:
+            if "id" not in pi:
+                pi["id"] = pi.get("name", "")
+            if "research_areas" not in pi and pi.get("research_topics"):
+                pi["research_areas"] = ", ".join((pi["research_topics"] or [])[:5])
+        return faculty
+    return data if isinstance(data, list) else []
 
 
 def get_faculty_by_id(pi_id: str):
@@ -339,7 +408,7 @@ def send_password_reset_email(user_email: str, reset_token: str, base_url: str =
             print(f"To: {user_email}")
             print(f"Reset Link: {reset_link}")
             print(f"{'='*60}\n")
-            return True  # Return True so the user flow continues
+            return False  # Return False so the route can show the link on the page
         
         # Create the email message
         msg = MIMEMultipart()
@@ -641,165 +710,63 @@ def general():
     )
 
 @app.route("/matches")
+@require_authorized_user
 def matches():
-    """Show AI-ranked lab matches based on the user's resume. This is the core feature!"""
+    """Show faculty matches using 5-question profile (fast MVP matching, no resume)."""
     user_id = session.get("user_id")
-    if not user_id:
-        return redirect(url_for("login"))
-    
-    # Allow demo mode so people can try it without uploading a resume
-    use_demo = request.args.get("demo") == "true"
-    
-    # Get the user's most recent resume upload
-    resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
-    
-    if not resume and not use_demo:
-        flash("Please upload a resume first to see your matches.", "info")
-        return redirect(url_for("resume_upload"))
-    
-    all_faculty = load_faculty()
-    
-    # Prepare the resume information to send to the AI
-    # If demo mode, use a sample resume; otherwise use the actual uploaded resume text
-    if use_demo:
-        resume_info = """Computer Science major with strong background in machine learning and neuroscience. 
-        Research experience: 2 years in computational neuroscience lab working with neural networks and electrophysiology data.
-        Skills: Python, PyTorch, MATLAB, data analysis, statistical modeling.
-        Interests: Computational neuroscience, brain-computer interfaces, AI applications in healthcare.
-        Publications: 1 first-author paper in preparation on neural decoding algorithms."""
-    else:
-        resume_info = resume.resume_text if resume.resume_text else 'Resume uploaded but text extraction pending. Analyze based on filename and typical student profile.'
-    
-    # Try to use V3 matching algorithm if available, otherwise fall back to V1
-    use_v3 = HAS_V3_MATCHING and os.path.exists(PIPELINE_FACULTY_PATH)
-    
-    if use_v3:
-        try:
-            # Use V3 sophisticated matching algorithm
-            matching_api = MatchingAPI(
-                faculty_data_path=PIPELINE_FACULTY_PATH,
-                openai_api_key=os.getenv("OPENAI_API_KEY")
-            )
-            
-            # Get user preferences if available (can be extended later)
-            user_interests = []
-            user_techniques = []
-            user_preferences = {}
-            
-            # Run matching
-            match_results = matching_api.match(
-                resume_text=resume_info,
-                user_interests=user_interests,
-                user_techniques=user_techniques,
-                user_preferences=user_preferences,
-                top_k=50,
-                min_score=35.0,
-                include_explanations=True
-            )
-            
-            # Convert V3 results to format expected by template
-            pi_by_id = {pi["id"]: pi for pi in all_faculty}
-            ranked_matches = []
-            
-            # Create a mapping from openalex_id to website format id
-            # The V3 matcher uses openalex_id, but website format uses custom ids
-            openalex_to_id = {}
-            for pi in all_faculty:
-                # Try to match by name as fallback
-                openalex_to_id[pi["name"].lower()] = pi["id"]
-            
-            for match_result in match_results.get("top_matches", []):
-                # Try to find matching PI by name
-                pi_name = match_result.get("name", "")
-                pi_id = openalex_to_id.get(pi_name.lower())
-                
-                if pi_id and pi_id in pi_by_id:
-                    pi = pi_by_id[pi_id].copy()
-                    pi["match_score"] = int(match_result.get("total_score", 50))
-                    pi["match_reason"] = match_result.get("personalized_reason", "Match found")
-                    ranked_matches.append(pi)
-                else:
-                    # If not found, create a basic entry from match result
-                    pi = {
-                        "id": match_result.get("pi_id", ""),
-                        "name": match_result.get("name", ""),
-                        "institution": match_result.get("institution", ""),
-                        "email": match_result.get("email", ""),
-                        "website": match_result.get("website", ""),
-                        "h_index": str(match_result.get("h_index", 0)),
-                        "department": "Various",
-                        "school": match_result.get("institution", ""),
-                        "research_areas": ", ".join(match_result.get("matched_topics", [])[:5]),
-                        "match_score": int(match_result.get("total_score", 50)),
-                        "match_reason": match_result.get("personalized_reason", "Match found"),
-                    }
-                    ranked_matches.append(pi)
-            
-            # Sort by match score
-            ranked_matches.sort(key=lambda x: x.get("match_score", 0), reverse=True)
-            
-        except Exception as e:
-            print(f"V3 matching error: {str(e)}")
-            # Fall back to V1 matching
-            use_v3 = False
-    
-    if not use_v3:
-        # Use V1 parallel batch processing (original algorithm)
-        try:
-            # Split faculty into batches for parallel processing
-            BATCH_SIZE = 10
-            faculty_to_process = all_faculty[:100]
-            batches = [faculty_to_process[i:i + BATCH_SIZE] for i in range(0, len(faculty_to_process), BATCH_SIZE)]
-            total_batches = len(batches)
-            
-            # Process batches in parallel using ThreadPoolExecutor
-            all_matches_data = []
-            with ThreadPoolExecutor(max_workers=20) as executor:
-                future_to_batch = {
-                    executor.submit(process_faculty_batch, batch, resume_info, idx, total_batches): idx 
-                    for idx, batch in enumerate(batches)
-                }
-                
-                for future in as_completed(future_to_batch):
-                    batch_idx = future_to_batch[future]
-                    try:
-                        batch_results = future.result()
-                        if batch_results:
-                            all_matches_data.extend(batch_results)
-                    except Exception as e:
-                        print(f"Error in batch {batch_idx + 1}: {str(e)}")
-            
-            matches_data = all_matches_data
-                
-        except Exception as e:
-            matches_data = [{"pi_id": pi["id"], "score": 50, "reason": "Unable to generate match score"} for pi in all_faculty]
-            flash(f"AI matching temporarily unavailable. Showing all labs. Error: {str(e)}", "warning")
-        
-        # Combine the match scores with the full PI data
-        pi_by_id = {pi["id"]: pi for pi in all_faculty}
-        ranked_matches = []
-        
-        for match in matches_data:
-            pi_id = match.get("pi_id")
-            if pi_id in pi_by_id:
-                pi = pi_by_id[pi_id].copy()
-                pi["match_score"] = match.get("score", 50)
-                pi["match_reason"] = match.get("reason", "Match found")
-                ranked_matches.append(pi)
-        
-        # Sort by match score from highest to lowest
-        ranked_matches.sort(key=lambda x: x.get("match_score", 0), reverse=True)
-    
-    # Check which PIs the user has already saved
-    saved_pi_ids = set()
-    saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
-    saved_pi_ids = {row.pi_id for row in saved_rows}
-    
+    profile = UserProfile.query.filter_by(user_id=user_id).first()
+
+    if not profile or not profile.onboarding_complete:
+        flash("Please complete your profile first.", "warning")
+        return redirect(url_for("onboarding"))
+
+    matcher = get_matching_service()
+    if not matcher:
+        flash("Matching service unavailable. Please try again later.", "error")
+        return redirect(url_for("dashboard"))
+
+    try:
+        results = matcher.match_student(
+            research_field=profile.research_field or "",
+            research_topics=profile.research_topics or "",
+            academic_level=profile.academic_level or "undergrad",
+            work_style=profile.work_style or "both",
+            needs_funding=bool(profile.needs_funding),
+            top_k=20,
+        )
+    except Exception as e:
+        app.logger.error(f"Matching error: {e}")
+        flash("Error generating matches. Please try again.", "error")
+        return redirect(url_for("dashboard"))
+
+    saved_pi_ids = set(sp.pi_id for sp in SavedPI.query.filter_by(user_id=user_id).all())
+
+    ranked_matches = []
+    for r in results:
+        research_topics = r.get("research_topics", []) or []
+        match_dict = {
+            "id": r.get("name", ""),
+            "name": r.get("name", ""),
+            "email": r.get("email", ""),
+            "email_quality": r.get("email_quality", "uncertain"),
+            "website": r.get("website", ""),
+            "department": r.get("department", ""),
+            "school": r.get("school", ""),
+            "h_index": r.get("h_index", 0),
+            "match_score": int(r.get("total_score", 0)),
+            "match_reason": r.get("explanation", ""),
+            "research_areas": ", ".join(research_topics[:5]),
+            "research_topics": research_topics[:5],
+        }
+        match_dict["is_saved"] = match_dict["id"] in saved_pi_ids or match_dict["name"] in saved_pi_ids
+        ranked_matches.append(match_dict)
+
     return render_template(
         "matches.html",
         matches=ranked_matches,
         saved_pi_ids=saved_pi_ids,
-        has_resume=True
+        has_resume=False,
+        total_faculty=matcher.get_faculty_count(),
     )
 
 @app.route("/save-pi/<pi_id>", methods=["POST"])
@@ -830,59 +797,43 @@ def save_pi(pi_id):
     return redirect(request.referrer or url_for("saved_pis"))
 
 
+# =============================================================================
+# RESUME MATCHING - DISABLED FOR MVP (5-question matching only)
+# Uncomment after funding to re-enable full resume upload and LLM-based matching.
+# =============================================================================
+
 @app.route("/resume", methods=["GET", "POST"])
 def resume_upload():
-    """Handle resume uploads. Users need to upload a resume to get AI-powered matches."""
+    """MVP: Redirect to matches. Resume upload disabled; use 5-question profile instead."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
-    
-    if request.method == "POST":
-        # Make sure the form actually included a file
-        if "resume" not in request.files:
-            error = "No file part in the form."
-            return render_template("resume_upload.html", error=error)
+    flash("MVP uses 5-question matching. Resume upload will return after funding.", "info")
+    return redirect(url_for("matches"))
 
-        file = request.files["resume"]
-
-        # Check if they actually selected a file (not just submitted empty form)
-        if file.filename == "":
-            error = "No file selected."
-            return render_template("resume_upload.html", error=error)
-
-        # Validate the file type and save it
-        if file and allowed_file(file.filename):
-            # Make the filename safe (remove any dangerous characters)
-            filename = secure_filename(file.filename)
-            # Add user_id to the filename so multiple users can upload files with the same name
-            user_filename = f"{user_id}_{filename}"
-            save_path = os.path.join(app.config["UPLOAD_FOLDER"], user_filename)
-            file.save(save_path)
-            
-            # Extract text from the resume for AI analysis
-            # Note: This is a placeholder - in production you'd use libraries like PyPDF2 or python-docx
-            # to actually extract the text from PDFs and Word documents
-            resume_text = ""  # Placeholder - would extract actual text here
-            
-            # Save the resume record to the database
-            resume = Resume(
-                user_id=user_id,
-                filename=filename,
-                file_path=save_path,
-                resume_text=resume_text
-            )
-            db.session.add(resume)
-            db.session.commit()
-            
-            flash("Resume uploaded successfully! You can now view your matches.", "success")
-            return redirect(url_for("matches"))
-        else:
-            error = "File type not allowed. Please upload a PDF or DOCX."
-            return render_template("resume_upload.html", error=error)
-
-    # GET request - just show the upload form and any existing resume
-    existing_resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
-    return render_template("resume_upload.html", existing_resume=existing_resume)
+# --- COMMENTED OUT: Full resume upload (re-enable after funding) ---
+# @app.route("/resume", methods=["GET", "POST"])
+# def resume_upload():
+#     user_id = session.get("user_id")
+#     if not user_id: return redirect(url_for("login"))
+#     if request.method == "POST":
+#         if "resume" not in request.files:
+#             return render_template("resume_upload.html", error="No file part in the form.")
+#         file = request.files["resume"]
+#         if file.filename == "": return render_template("resume_upload.html", error="No file selected.")
+#         if file and allowed_file(file.filename):
+#             filename = secure_filename(file.filename)
+#             user_filename = f"{user_id}_{filename}"
+#             save_path = os.path.join(app.config["UPLOAD_FOLDER"], user_filename)
+#             file.save(save_path)
+#             resume_text = ""
+#             resume = Resume(user_id=user_id, filename=filename, file_path=save_path, resume_text=resume_text)
+#             db.session.add(resume); db.session.commit()
+#             flash("Resume uploaded successfully! You can now view your matches.", "success")
+#             return redirect(url_for("matches"))
+#         return render_template("resume_upload.html", error="File type not allowed. Please upload a PDF or DOCX.")
+#     existing_resume = Resume.query.filter_by(user_id=user_id).order_by(Resume.uploaded_at.desc()).first()
+#     return render_template("resume_upload.html", existing_resume=existing_resume)
 
 
 @app.route("/saved")
@@ -1289,60 +1240,33 @@ def onboarding():
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
-    
+
     profile = UserProfile.query.filter_by(user_id=user_id).first()
     if not profile:
         profile = UserProfile(user_id=user_id)
         db.session.add(profile)
         db.session.commit()
-    
-    step = int(request.args.get("step", 1))
-    
+
     if request.method == "POST":
-        if step == 1:
-            major_field = request.form.get("major_field", "").strip()
-            # Clear field if it's empty or just "none"
-            if not major_field or major_field.lower() == 'none':
-                major_field = None
-            profile.major_field = major_field
-            
-            year_in_school = request.form.get("year_in_school", "").strip()
-            profile.year_in_school = year_in_school if year_in_school else None
-            profile.profile_completeness = 33
-            db.session.commit()
-            return redirect(url_for("onboarding", step=2))
-        
-        elif step == 2:
-            # Handle multiple selections for looking_for
-            looking_for_list = request.form.getlist("looking_for")
-            if not looking_for_list:
-                flash("Please select at least one option.", "error")
-                return redirect(url_for("onboarding", step=2))
-            looking_for = ",".join(looking_for_list)
-            profile.looking_for = looking_for
-            profile.profile_completeness = 66
-            db.session.commit()
-            return redirect(url_for("onboarding", step=3))
-        
-        elif step == 3:
-            top_techniques = request.form.getlist("top_techniques")
-            profile.top_techniques = ",".join(top_techniques)
-            profile.onboarding_complete = True
-            profile.profile_completeness = 100
-            db.session.commit()
-            flash("Profile setup complete! Start exploring labs.", "success")
-            return redirect(url_for("account"))
-    
-    # Load all techniques for step 3
-    all_faculty = load_faculty()
-    all_techniques = set()
-    for pi in all_faculty:
-        if pi.get("lab_techniques"):
-            techniques = [t.strip() for t in pi["lab_techniques"].split(",")]
-            all_techniques.update(techniques)
-    techniques_list = sorted(all_techniques)
-    
-    return render_template("onboarding.html", step=step, profile=profile, techniques=techniques_list)
+        # MVP: 5-question profile (fast matching, no resume)
+        profile.research_field = request.form.get("research_field", "").strip()
+        profile.research_topics = request.form.get("research_topics", "").strip()
+        profile.academic_level = request.form.get("academic_level", "").strip()
+        profile.work_style = request.form.get("work_style", "").strip()
+        profile.needs_funding = request.form.get("needs_funding") == "yes"
+
+        profile.onboarding_complete = True
+        profile.profile_completeness = 100
+
+        # Legacy fields for compatibility
+        profile.major_field = profile.research_field
+        profile.year_in_school = profile.academic_level
+
+        db.session.commit()
+        flash("Profile complete! Here are your matches.", "success")
+        return redirect(url_for("matches"))
+
+    return render_template("onboarding.html", profile=profile)
 
 @app.route("/account")
 def account():
@@ -1467,11 +1391,26 @@ def signup():
                 error = f"Access denied. This site is restricted to authorized users only. Your email ({email}) is not authorized. Please contact the administrator."
             return render_template("signup.html", error=error)
 
+        # Double-check email doesn't exist (race condition protection)
+        existing_email = User.query.filter_by(email=email).first()
+        if existing_email:
+            error = "An account with that email already exists. Please log in instead."
+            return render_template("signup.html", error=error)
+        
         # Everything looks good! Create the new user account
-        user = User(username=username, email=email)
-        user.set_password(password)  # Hash the password before storing
-        db.session.add(user)
-        db.session.commit()
+        try:
+            user = User(username=username, email=email)
+            user.set_password(password)  # Hash the password before storing
+            db.session.add(user)
+            db.session.commit()
+        except Exception as e:
+            db.session.rollback()
+            # Check if it's a unique constraint error
+            if "UNIQUE constraint failed" in str(e) or "already exists" in str(e).lower():
+                error = "An account with that email already exists. Please log in instead."
+                return render_template("signup.html", error=error)
+            # Re-raise other errors
+            raise
 
         # Automatically log them in after signup
         session["user_id"] = user.id
@@ -1527,7 +1466,19 @@ def forgot_password():
             # Send password reset email
             # Get the base URL for the reset link
             base_url = request.url_root
-            send_password_reset_email(user.email, token, base_url)
+            email_sent = send_password_reset_email(user.email, token, base_url)
+            
+            # If email wasn't sent (SMTP not configured), show the link on the page
+            if not email_sent or not os.getenv("SMTP_USERNAME"):
+                reset_link = f"{base_url}reset-password/{token}"
+                flash(f"Password reset link (email not configured - use this link): {reset_link}", "info")
+                # Store token in session temporarily so user can access it
+                session["password_reset_token"] = token
+                session["password_reset_email"] = user.email
+                return render_template("forgot_password.html", 
+                                      reset_link=reset_link, 
+                                      email=user.email,
+                                      show_link=True)
         
         # Show success message regardless of whether user exists (security best practice)
         flash("If an account with that email exists, we've sent a password reset link. Please check your email.", "info")

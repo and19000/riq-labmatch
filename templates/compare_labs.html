@@ -15,15 +15,9 @@
                 <div class="compare-lab-header">
                   <div class="compare-lab-name">{{ lab.name }}</div>
                   <div class="compare-lab-school">{{ lab.school }}</div>
-                  {% if 'Harvard' in (lab.school or '') or 'harvard' in (lab.school or '').lower() %}
-                    <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: 0.5rem;">
-                      <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
-                    </svg>
-                  {% elif 'MIT' in (lab.school or '') or lab.school == 'MIT' %}
-                    <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: 0.5rem;">
-                      <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
-                    </svg>
-                  {% endif %}
+                  <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: 0.5rem;">
+                    <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                  </svg>
                 </div>
               </th>
             {% endfor %}

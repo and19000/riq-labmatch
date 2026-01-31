@@ -1,136 +1,80 @@
 {% extends "base.html" %}
+{% block title %}Complete Your Profile{% endblock %}
 
 {% block content %}
 <div class="onboarding-container">
   <div class="onboarding-card">
-    <div class="onboarding-progress">
-      <div class="progress-bar">
-        <div class="progress-fill" style="width: {{ (step / 3 * 100)|int }}%"></div>
+    <h1>Find Your Perfect Lab Match</h1>
+    <p class="onboarding-subtitle">Answer 5 quick questions to get matched with Harvard faculty.</p>
+
+    <form method="POST" action="{{ url_for('onboarding') }}" class="onboarding-form">
+
+      <!-- Q1: Research Field -->
+      <div class="form-group">
+        <label for="research_field">1. What research field interests you most?</label>
+        <select name="research_field" id="research_field" required class="form-control">
+          <option value="">Select a field...</option>
+          <option value="biology" {% if profile and profile.research_field == 'biology' %}selected{% endif %}>Biology &amp; Life Sciences</option>
+          <option value="chemistry" {% if profile and profile.research_field == 'chemistry' %}selected{% endif %}>Chemistry</option>
+          <option value="physics" {% if profile and profile.research_field == 'physics' %}selected{% endif %}>Physics</option>
+          <option value="computer science" {% if profile and profile.research_field == 'computer science' %}selected{% endif %}>Computer Science &amp; AI</option>
+          <option value="engineering" {% if profile and profile.research_field == 'engineering' %}selected{% endif %}>Engineering</option>
+          <option value="medicine" {% if profile and profile.research_field == 'medicine' %}selected{% endif %}>Medicine &amp; Public Health</option>
+          <option value="neuroscience" {% if profile and profile.research_field == 'neuroscience' %}selected{% endif %}>Neuroscience &amp; Psychology</option>
+          <option value="economics" {% if profile and profile.research_field == 'economics' %}selected{% endif %}>Economics &amp; Social Sciences</option>
+          <option value="mathematics" {% if profile and profile.research_field == 'mathematics' %}selected{% endif %}>Mathematics &amp; Statistics</option>
+          <option value="environmental" {% if profile and profile.research_field == 'environmental' %}selected{% endif %}>Environmental Science</option>
+          <option value="other" {% if profile and profile.research_field == 'other' %}selected{% endif %}>Other</option>
+        </select>
       </div>
-      <p class="progress-text">Step {{ step }} of 3</p>
-    </div>
 
-    {% if step == 1 %}
-      <h2>What are you studying?</h2>
-      <p class="onboarding-subtitle">Tell us about your academic background to personalize your experience</p>
-      
-      <form method="post" class="onboarding-form">
-        <div class="form-group">
-          <label for="major_field">Your Major / Field of Study:</label>
-          <input type="text" id="major_field" name="major_field" 
-                 placeholder="e.g., Computer Science, Biology, Neuroscience, Psychology..." 
-                 {% if profile and profile.major_field and profile.major_field.strip() and profile.major_field.strip().lower() != 'none' %}value="{{ profile.major_field }}"{% endif %}
-                 required autofocus>
-          <small>This helps us match you with relevant research labs</small>
-        </div>
-        
-        <div class="form-group">
-          <label for="year_in_school">Current Year in School:</label>
-          <select id="year_in_school" name="year_in_school" required>
-            <option value="">-- Select your year --</option>
-            <option value="first year" {% if profile and profile.year_in_school == 'first year' %}selected{% endif %}>First Year</option>
-            <option value="sophomore" {% if profile and profile.year_in_school == 'sophomore' %}selected{% endif %}>Sophomore</option>
-            <option value="junior" {% if profile and profile.year_in_school == 'junior' %}selected{% endif %}>Junior</option>
-            <option value="senior" {% if profile and profile.year_in_school == 'senior' %}selected{% endif %}>Senior</option>
-            <option value="masters student" {% if profile and profile.year_in_school == 'masters student' %}selected{% endif %}>Masters Student</option>
-            <option value="graduate student" {% if profile and profile.year_in_school == 'graduate student' %}selected{% endif %}>Graduate Student</option>
-            <option value="other" {% if profile and profile.year_in_school == 'other' %}selected{% endif %}>Other</option>
-          </select>
-          <small>This helps us tailor recommendations to your level</small>
-        </div>
-        
-        <div class="onboarding-actions">
-          <button type="submit" class="btn-primary btn-large">Continue →</button>
-        </div>
-      </form>
+      <!-- Q2: Specific Topics -->
+      <div class="form-group">
+        <label for="research_topics">2. What specific topics interest you? (comma-separated)</label>
+        <input type="text" name="research_topics" id="research_topics"
+               placeholder="e.g., machine learning, cancer research, climate modeling"
+               class="form-control" required
+               {% if profile and profile.research_topics %}value="{{ profile.research_topics }}"{% endif %}>
+        <small class="form-text">Enter 2–5 keywords that describe your interests</small>
+      </div>
 
-    {% elif step == 2 %}
-      <h2>What are you looking for?</h2>
-      <p class="onboarding-subtitle">Select all that apply - you can choose multiple options</p>
-      
-      <form method="post" class="onboarding-form">
-        <div class="form-group">
-          <label>I'm looking for:</label>
-          {% set looking_for_str = (profile.looking_for if profile and profile.looking_for else '')|lower %}
-          <div class="checkbox-group">
-            <label class="checkbox-option">
-              <input type="checkbox" name="looking_for" value="thesis lab" 
-                     {% if 'thesis lab' in looking_for_str %}checked{% endif %}>
-              <span>Thesis lab (graduation requirement)</span>
-            </label>
-            <label class="checkbox-option">
-              <input type="checkbox" name="looking_for" value="summer RA" 
-                     {% if 'summer ra' in looking_for_str %}checked{% endif %}>
-              <span>Summer research assistant position</span>
-            </label>
-            <label class="checkbox-option">
-              <input type="checkbox" name="looking_for" value="in term research" 
-                     {% if 'in term research' in looking_for_str %}checked{% endif %}>
-              <span>In-term research (during the school year)</span>
-            </label>
-            <label class="checkbox-option">
-              <input type="checkbox" name="looking_for" value="rotation" 
-                     {% if 'rotation' in looking_for_str %}checked{% endif %}>
-              <span>Lab rotation (for grad students)</span>
-            </label>
-            <label class="checkbox-option">
-              <input type="checkbox" name="looking_for" value="gap year" 
-                     {% if 'gap year' in looking_for_str %}checked{% endif %}>
-              <span>Gap year research opportunity</span>
-            </label>
-            <label class="checkbox-option">
-              <input type="checkbox" name="looking_for" value="exploring" 
-                     {% if 'exploring' in looking_for_str %}checked{% endif %}>
-              <span>Just exploring options</span>
-            </label>
-          </div>
-          <small>Select all options that apply to you</small>
-        </div>
-        
-        <div class="onboarding-actions">
-          <a href="{{ url_for('onboarding', step=1) }}" class="btn-secondary">← Back</a>
-          <button type="submit" class="btn-primary btn-large">Continue →</button>
-        </div>
-      </form>
+      <!-- Q3: Academic Level -->
+      <div class="form-group">
+        <label for="academic_level">3. What's your current academic level?</label>
+        <select name="academic_level" id="academic_level" required class="form-control">
+          <option value="">Select level...</option>
+          <option value="undergrad" {% if profile and profile.academic_level == 'undergrad' %}selected{% endif %}>Undergraduate</option>
+          <option value="masters" {% if profile and profile.academic_level == 'masters' %}selected{% endif %}>Master's Student</option>
+          <option value="phd" {% if profile and profile.academic_level == 'phd' %}selected{% endif %}>PhD Student</option>
+          <option value="postdoc" {% if profile and profile.academic_level == 'postdoc' %}selected{% endif %}>Postdoc / Early Career</option>
+        </select>
+      </div>
 
-    {% elif step == 3 %}
-      <h2>Top techniques & topics</h2>
-      <p class="onboarding-subtitle">Select up to 5 techniques or research topics that interest you most</p>
-      
-      <form method="post" class="onboarding-form">
-        <div class="form-group">
-          <label>Select your top interests (hold Ctrl/Cmd to select multiple):</label>
-          <div class="technique-select-grid">
-            {% for tech in techniques[:30] %}
-              <label class="technique-checkbox">
-                <input type="checkbox" name="top_techniques" value="{{ tech }}"
-                       {% if profile and profile.top_techniques and tech in profile.top_techniques.split(',') %}checked{% endif %}>
-                <span>{{ tech }}</span>
-              </label>
-            {% endfor %}
-          </div>
-          <small>We'll use this to pre-filter labs and personalize email templates</small>
-        </div>
-        
-        <div class="onboarding-actions">
-          <a href="{{ url_for('onboarding', step=2) }}" class="btn-secondary">← Back</a>
-          <button type="submit" class="btn-primary btn-large">Complete Setup ✓</button>
-        </div>
-      </form>
-    {% endif %}
+      <!-- Q4: Work Style -->
+      <div class="form-group">
+        <label for="work_style">4. What type of research do you prefer?</label>
+        <select name="work_style" id="work_style" required class="form-control">
+          <option value="">Select preference...</option>
+          <option value="experimental" {% if profile and profile.work_style == 'experimental' %}selected{% endif %}>Experimental / Wet Lab</option>
+          <option value="computational" {% if profile and profile.work_style == 'computational' %}selected{% endif %}>Computational / Dry Lab</option>
+          <option value="both" {% if profile and profile.work_style == 'both' %}selected{% endif %}>Both / No Preference</option>
+        </select>
+      </div>
+
+      <!-- Q5: Funding -->
+      <div class="form-group">
+        <label for="needs_funding">5. Do you need a funded position?</label>
+        <select name="needs_funding" id="needs_funding" required class="form-control">
+          <option value="">Select...</option>
+          <option value="yes" {% if profile and profile.needs_funding %}selected{% endif %}>Yes, funding is important</option>
+          <option value="no" {% if profile and not profile.needs_funding %}selected{% endif %}>No, I have my own funding or it's flexible</option>
+        </select>
+      </div>
+
+      <div class="onboarding-actions">
+        <button type="submit" class="btn-primary btn-large">Find My Matches</button>
+      </div>
+    </form>
   </div>
 </div>
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-

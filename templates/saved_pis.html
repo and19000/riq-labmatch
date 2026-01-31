@@ -32,25 +32,18 @@
           </div>
           <div class="pi-card-layout">
             <div class="pi-logo">
-              {% if pi.get('institution_logo_url') %}
-                <img src="{{ pi.institution_logo_url }}" alt="{{ pi.school }} logo">
-              {% elif 'Harvard' in (pi.school or '') or 'harvard' in (pi.school or '').lower() %}
-                <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
-                </svg>
-              {% elif 'MIT' in (pi.school or '') or pi.school == 'MIT' %}
-                <svg class="mit-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <text x="100" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="#A31F34" text-anchor="middle">MIT</text>
-                </svg>
-              {% else %}
-                <div class="pi-logo-placeholder">{{ pi.school[0] if pi.school else pi.name[0] if pi.name else 'L' }}</div>
-              {% endif %}
+              <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+              </svg>
             </div>
             <div class="pi-card-content">
               <div class="pi-header">
                 <h2>{{ pi.name }}</h2>
                 <span class="saved-badge">✓ Saved</span>
               </div>
+              {% if pi.research_topics %}
+              <p class="research-topics">{{ (pi.research_topics or [])[:3] | join(' · ') }}</p>
+              {% endif %}
               <p class="pi-title">{{ pi.title }}</p>
               <p class="pi-location">{{ pi.department }}, {{ pi.school }} — {{ pi.get('specific_location', pi.location) }}</p>
               {% if pi.get('h_index') %}
