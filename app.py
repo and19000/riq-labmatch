@@ -30,12 +30,14 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # We use gpt-4o-mini because it's cost-effective and still very capable
 GPT_MODEL = "gpt-4o-mini"
 
-# Import Simple Matching Service
+# Import Simple Matching Service (same repo: faculty_pipeline/services/matching)
 try:
     import sys
-    matching_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "services", "matching")
+    _app_dir = os.path.dirname(os.path.abspath(__file__))
+    matching_path = os.path.join(_app_dir, "services", "matching")
     if os.path.exists(matching_path):
-        sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+        if _app_dir not in sys.path:
+            sys.path.insert(0, _app_dir)
         from services.matching.simple_matching import MatchingService
         HAS_MATCHING = True
     else:
@@ -87,6 +89,16 @@ def get_matching_service():
                             break
                         except:
                             continue
+        # Fallback for deploy: use bundled data so app works out of the box
+        if _matching_service is None and HAS_MATCHING:
+            _app_dir = os.path.dirname(os.path.abspath(__file__))
+            fallback_path = os.path.join(_app_dir, "data", "faculty_working.json")
+            if os.path.exists(fallback_path):
+                try:
+                    _matching_service = MatchingService(fallback_path)
+                    app.logger.info(f"Loaded matching service from fallback {fallback_path}")
+                except Exception as e:
+                    app.logger.error(f"Failed to load matching fallback: {e}")
     return _matching_service
 
 # Create our Flask application
