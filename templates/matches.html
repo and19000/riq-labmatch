@@ -14,19 +14,18 @@
   <!-- Content wrapper - hidden initially, shown after page loads -->
   <div id="matches-content" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in, visibility 0.3s ease-in;">
   <h1>Your Lab Matches</h1>
-  <p class="subtitle">AI-powered matches based on your resume</p>
+  <p class="subtitle">Matches based on your 5-question profile</p>
 
   {% if matches %}
     <div class="matches-header">
       <div>
-      <p>Found <strong>{{ matches|length }}</strong> compatible lab{{ 's' if matches|length != 1 else '' }} for you</p>
+        <p>Showing <strong>{{ matches|length }}</strong> of <strong>{{ total_results }}</strong> matches (Page {{ page }} of {{ total_pages }})</p>
         <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
-          Select labs to compare or generate emails for multiple labs at once.
+          Save PIs to compare labs or draft emails.
         </p>
       </div>
       <div class="matches-header-actions">
         <a href="{{ url_for('saved_pis') }}?compare=true" class="btn-secondary">Compare Labs</a>
-      <a href="{{ url_for('resume_upload') }}" class="btn-secondary">Update Resume</a>
       </div>
     </div>
 
@@ -133,6 +132,19 @@
         </tbody>
       </table>
     </div>
+
+    <!-- Pagination -->
+    {% if total_pages > 1 %}
+    <nav class="pagination" aria-label="Matches pagination">
+      {% if page > 1 %}
+      <a href="{{ url_for('matches', page=page-1) }}" class="page-link">← Previous</a>
+      {% endif %}
+      <span class="page-info">Page {{ page }} of {{ total_pages }}</span>
+      {% if page < total_pages %}
+      <a href="{{ url_for('matches', page=page+1) }}" class="page-link">Next →</a>
+      {% endif %}
+    </nav>
+    {% endif %}
   {% else %}
     <div class="no-results">
       <p>No matches found. Try uploading or updating your resume.</p>

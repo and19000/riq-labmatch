@@ -63,7 +63,7 @@ class StudentProfile:
 
 @dataclass
 class FacultyProfile:
-    """Faculty profile loaded from pipeline JSON."""
+    """Faculty profile - works with pipeline JSON and NSF data."""
     name: str
     email: str = ""
     email_quality: str = "uncertain"
@@ -76,6 +76,7 @@ class FacultyProfile:
     cited_by_count: int = 0
     research_topics: List[str] = field(default_factory=list)
     research_keywords: List[str] = field(default_factory=list)
+    research_field: str = ""  # NSF directorate / field
     nsf_awards: int = 0
     nih_awards: int = 0
     total_funding: int = 0
@@ -91,6 +92,7 @@ class FacultyProfile:
         if not rtopics and isinstance(data.get("research_areas"), str):
             rtopics = [x.strip() for x in (data.get("research_areas") or "").split(";") if x.strip()]
         rkeywords = data.get("research_keywords", [])
+        rfield = data.get("research_field", "")
         return cls(
             name=data.get("name", ""),
             email=(data.get("primary_email") or data.get("email") or ""),
@@ -104,6 +106,7 @@ class FacultyProfile:
             cited_by_count=data.get("cited_by_count", 0),
             research_topics=rtopics,
             research_keywords=rkeywords,
+            research_field=rfield,
             nsf_awards=nsf_awards,
             nih_awards=nih_awards,
             total_funding=data.get("total_funding", 0),

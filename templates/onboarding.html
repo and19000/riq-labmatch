@@ -28,14 +28,31 @@
         </select>
       </div>
 
-      <!-- Q2: Specific Topics -->
+      <!-- Q2: Specific Topics (dropdown to avoid typos) -->
       <div class="form-group">
-        <label for="research_topics">2. What specific topics interest you? (comma-separated)</label>
-        <input type="text" name="research_topics" id="research_topics"
-               placeholder="e.g., machine learning, cancer research, climate modeling"
-               class="form-control" required
-               {% if profile and profile.research_topics %}value="{{ profile.research_topics }}"{% endif %}>
-        <small class="form-text">Enter 2–5 keywords that describe your interests</small>
+        <label>2. What specific topics interest you? (select all that apply)</label>
+        <div class="research-topics-select-wrapper">
+          <select name="research_topics" id="research_topics" multiple class="form-control" size="6">
+            {% for topic in common_research_topics %}
+              <option value="{{ topic }}" {% if profile_research_topics_set and topic in profile_research_topics_set %}selected{% endif %}>{{ topic|replace('_', ' ')|title }}</option>
+            {% endfor %}
+          </select>
+          <small class="form-text">Hold Ctrl/Cmd to select multiple. Or type "Other" below.</small>
+          <input type="text" name="research_topics_other" id="research_topics_other" class="form-control" style="margin-top: 0.5rem;"
+                 placeholder="Other topics (comma-separated, e.g. your lab technique)"
+                 value="{{ profile_research_topics_other or '' }}">
+        </div>
+      </div>
+
+      <!-- Q2b: Your institution (optional) -->
+      <div class="form-group">
+        <label for="institution">Your institution (optional)</label>
+        <select name="institution" id="institution" class="form-control">
+          <option value="">— Select your school —</option>
+          {% for school in schools %}
+            <option value="{{ school }}" {% if profile and profile.institution == school %}selected{% endif %}>{{ school }}</option>
+          {% endfor %}
+        </select>
       </div>
 
       <!-- Q3: Academic Level -->

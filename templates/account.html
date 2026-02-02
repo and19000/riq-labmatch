@@ -23,6 +23,9 @@
         <p><strong>Email:</strong> {{ user.email }}</p>
         <p><strong>Member since:</strong> {{ user.created_at.strftime("%B %d, %Y") }}</p>
         {% if profile %}
+          {% if profile.institution %}
+            <p><strong>Institution:</strong> {{ profile.institution }}</p>
+          {% endif %}
           {% if profile.major_field %}
             <p><strong>Field:</strong> {{ profile.major_field }}</p>
           {% endif %}

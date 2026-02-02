@@ -55,7 +55,15 @@ def get_matching_service():
     if _matching_service is None and HAS_MATCHING:
         output_dir = os.path.join(os.path.dirname(__file__), "output")
         if os.path.exists(output_dir):
-            # Prefer MVP file for ship (1,500 faculty with email or website)
+            # Prefer NSF-all-PIs (free, 2024-2025) then MVP file
+            nsf_all = os.path.join(output_dir, "nsf_all_faculty.json")
+            if os.path.exists(nsf_all):
+                try:
+                    _matching_service = MatchingService(nsf_all)
+                    app.logger.info(f"Loaded matching service from {nsf_all}")
+                    return _matching_service
+                except Exception as e:
+                    app.logger.error(f"Failed to load NSF faculty file: {e}")
             mvp_file = os.path.join(output_dir, "harvard_mvp_1500.json")
             if os.path.exists(mvp_file):
                 try:
@@ -107,9 +115,8 @@ app = Flask(__name__)
 # Get the environment (development or production)
 env = os.getenv("FLASK_ENV", "development")
 
-# This secret key is used to encrypt session data (like keeping users logged in)
-# In production, this MUST be set via environment variable for security
-app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", "dev-secret-change-later")
+# SECURITY: Strong secret key. In production MUST set SECRET_KEY in env (32+ chars).
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY") or (secrets.token_hex(32) if env != "production" else None) or "dev-secret-change-later"
 
 # Set up our database - supports both SQLite (local dev) and Postgres (production)
 database_url = os.getenv("DATABASE_URL")
@@ -164,9 +171,9 @@ class SavedPI(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
     pi_id = db.Column(db.String(64), nullable=False)
+    pi_email = db.Column(db.String(255))  # optional, for display
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
-    # Make sure a user can't save the same PI twice
     __table_args__ = (
         db.UniqueConstraint("user_id", "pi_id", name="uq_user_pi"),
     )
@@ -191,6 +198,8 @@ class UserProfile(db.Model):
     academic_level = db.Column(db.String(50))         # Q3: undergrad/masters/phd/postdoc
     work_style = db.Column(db.String(50))             # Q4: experimental/computational/both
     needs_funding = db.Column(db.Boolean, default=False)  # Q5: Funded position needed
+    # Optional: user's institution (dropdown from faculty data)
+    institution = db.Column(db.String(255))
     # Legacy fields (kept for compatibility; also set from 5 questions)
     major_field = db.Column(db.String(255))
     year_in_school = db.Column(db.String(50))
@@ -264,12 +273,21 @@ def init_db():
                     ("academic_level", "VARCHAR(50)"),
                     ("work_style", "VARCHAR(50)"),
                     ("needs_funding", "BOOLEAN"),
+                    ("institution", "VARCHAR(255)"),
                 ]
                 for col_name, col_type in mvp_columns:
                     if col_name not in columns:
                         with db.engine.begin() as conn:
                             conn.execute(text(f"ALTER TABLE user_profile ADD COLUMN {col_name} {col_type}"))
                         print(f"Migration: Added {col_name} column to user_profile table")
+
+            # Migration: Add pi_email to saved_pi if it doesn't exist
+            if "saved_pi" in inspector.get_table_names():
+                sp_columns = [col["name"] for col in inspector.get_columns("saved_pi")]
+                if "pi_email" not in sp_columns:
+                    with db.engine.begin() as conn:
+                        conn.execute(text("ALTER TABLE saved_pi ADD COLUMN pi_email VARCHAR(255)"))
+                    print("Migration: Added pi_email column to saved_pi table")
                 
         except Exception as e:
             # If table doesn't exist yet, create_all will handle it
@@ -279,11 +297,12 @@ def init_db():
 # Initialize the database when the app starts
 init_db()
 
-# Set up paths to our data files
+# Set up paths to our data files (priority: NSF all-PIs, then MVP, then bundled)
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-# MVP: 1,500 faculty with email or website (harvard_mvp_1500.json)
-MVP_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_mvp_1500.json")
-FACULTY_PATH = MVP_FACULTY_PATH if os.path.exists(MVP_FACULTY_PATH) else os.path.join(DATA_DIR, "faculty_working.json")
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+NSF_ALL_PATH = os.path.join(OUTPUT_DIR, "nsf_all_faculty.json")
+MVP_FACULTY_PATH = os.path.join(OUTPUT_DIR, "harvard_mvp_1500.json")
+FACULTY_PATH = NSF_ALL_PATH if os.path.exists(NSF_ALL_PATH) else (MVP_FACULTY_PATH if os.path.exists(MVP_FACULTY_PATH) else os.path.join(DATA_DIR, "faculty_working.json"))
 # Path to original pipeline data for V3 matching (has nested structure)
 PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260120_162804.json")
 
@@ -347,29 +366,157 @@ def require_authorized_user(f):
 
 # Helper Functions - these do common tasks we need throughout the app
 
+import time as _time
+_faculty_cache = {"data": None, "loaded_at": None, "by_name": {}}
+CACHE_TTL = 3600  # 1 hour
+
+# Common research topics/techniques for onboarding dropdown (avoids typos like "machine laerning")
+COMMON_RESEARCH_TOPICS = [
+    "machine learning", "deep learning", "cancer research", "neuroscience", "computational biology",
+    "climate modeling", "synthetic biology", "genomics", "proteomics", "structural biology",
+    "immunology", "biochemistry", "organic chemistry", "materials science", "quantum computing",
+    "natural language processing", "computer vision", "robotics", "bioinformatics", "ecology",
+    "evolutionary biology", "developmental biology", "stem cells", "biophysics", "optics",
+    "nanotechnology", "renewable energy", "environmental science", "data science", "statistics",
+    "other",
+]
+
 def load_faculty():
-    """Load all the faculty/PI data from our JSON file. Supports MVP format (metadata + faculty list)."""
-    with open(FACULTY_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    # MVP / pipeline format: {"metadata": ..., "faculty": [...]}
+    """Load faculty from JSON with caching. Supports MVP/NSF format (metadata + faculty list)."""
+    global _faculty_cache
+    now = _time.time()
+    if _faculty_cache["data"] is not None and _faculty_cache["loaded_at"] and (now - _faculty_cache["loaded_at"]) < CACHE_TTL:
+        return _faculty_cache["data"]
+    try:
+        with open(FACULTY_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        return []
     if isinstance(data, dict) and "faculty" in data:
         faculty = data["faculty"]
-        for pi in faculty:
-            if "id" not in pi:
-                pi["id"] = pi.get("name", "")
-            if "research_areas" not in pi and pi.get("research_topics"):
-                pi["research_areas"] = ", ".join((pi["research_topics"] or [])[:5])
-        return faculty
-    return data if isinstance(data, list) else []
+    else:
+        faculty = data if isinstance(data, list) else []
+    for pi in faculty:
+        if not isinstance(pi, dict):
+            continue
+        if "id" not in pi:
+            pi["id"] = pi.get("name", "")
+        # NSF data uses "institution"; normalize so "school" always exists
+        if "school" not in pi and pi.get("institution"):
+            pi["school"] = pi.get("institution", "")
+        pi.setdefault("school", "")
+        pi.setdefault("department", "")
+        pi.setdefault("location", "")
+        pi.setdefault("lab_techniques", "")
+        pi.setdefault("title", "")
+        if "research_areas" not in pi and pi.get("research_topics"):
+            pi["research_areas"] = ", ".join((pi["research_topics"] or [])[:5])
+    _faculty_cache["data"] = faculty
+    _faculty_cache["loaded_at"] = now
+    _faculty_cache["by_name"] = {pi.get("name", "").lower(): pi for pi in faculty if pi.get("name")}
+    _faculty_cache["filter_choices"] = None  # invalidate so next get_filter_choices() recomputes
+    return faculty
+
+
+def _pi_display_priority(pi):
+    """Higher = show first. Prioritize PIs with email + website (rich data), NSF-only last."""
+    priority = 0
+    if (pi.get("email") or "").strip():
+        priority += 2
+    if (pi.get("website") or "").strip():
+        priority += 1
+    if pi.get("h_index") is not None:
+        priority += 0.5
+    return priority
+
+
+def get_filter_choices():
+    """Return schools, departments, techniques, locations, locations_by_school from cached faculty (one pass)."""
+    global _faculty_cache
+    if _faculty_cache.get("filter_choices") is not None:
+        return _faculty_cache["filter_choices"]
+    all_faculty = _faculty_cache.get("data") or load_faculty()
+    schools = sorted(set(pi.get("school") or pi.get("institution") or "" for pi in all_faculty) - {""})
+    departments = sorted(set(pi.get("department") or "" for pi in all_faculty) - {""})
+    all_techniques = set()
+    all_locations = set()
+    locations_by_school = {}
+    for pi in all_faculty:
+        lt = pi.get("lab_techniques") or ""
+        if lt:
+            for t in lt.split(","):
+                t = t.strip()
+                if t:
+                    all_techniques.add(t)
+        school = pi.get("school", "")
+        loc = pi.get("specific_location") or pi.get("location", "")
+        if loc:
+            all_locations.add(loc)
+            if school not in locations_by_school:
+                locations_by_school[school] = set()
+            locations_by_school[school].add(loc)
+    choices = {
+        "schools": schools,
+        "departments": departments,
+        "techniques": sorted(all_techniques),
+        "locations": sorted(all_locations),
+        "locations_by_school": locations_by_school,
+    }
+    _faculty_cache["filter_choices"] = choices
+    return choices
 
 
 def get_faculty_by_id(pi_id: str):
-    """Find and return a specific PI by their ID, or None if not found."""
-    all_faculty = load_faculty()
+    """Find and return a specific PI by their ID or name, or None if not found."""
+    load_faculty()  # ensure cache
+    by_name = _faculty_cache.get("by_name", {})
+    if pi_id and by_name:
+        low = pi_id.lower()
+        if low in by_name:
+            return by_name[low]
+    all_faculty = _faculty_cache.get("data") or []
     for pi in all_faculty:
-        if pi["id"] == pi_id:
+        if pi.get("id") == pi_id or pi.get("name") == pi_id:
             return pi
     return None
+
+
+def filter_faculty(faculty_list: list, filters: dict) -> list:
+    """
+    Filter faculty by criteria. Used for future filter support.
+    Filters: min_h_index, max_h_index, has_email, has_website, has_funding, department, research_field.
+    """
+    result = []
+    for fac in faculty_list:
+        if not isinstance(fac, dict):
+            continue
+        if filters.get("min_h_index") is not None:
+            if (fac.get("h_index") or 0) < filters["min_h_index"]:
+                continue
+        if filters.get("max_h_index") is not None:
+            if (fac.get("h_index") or 0) > filters["max_h_index"]:
+                continue
+        if filters.get("has_email") and not (fac.get("primary_email") or fac.get("email")):
+            continue
+        if filters.get("has_website") and not fac.get("website"):
+            continue
+        if filters.get("has_funding"):
+            nsf = fac.get("nsf_awards") or 0
+            nih = fac.get("nih_awards") or 0
+            if not (nsf > 0 or nih > 0):
+                continue
+        if filters.get("department"):
+            if (filters["department"] or "").lower() not in (fac.get("department") or "").lower():
+                continue
+        if filters.get("research_field"):
+            field = (filters["research_field"] or "").lower()
+            topics = " ".join(fac.get("research_topics") or []).lower()
+            areas = (fac.get("research_areas") or "").lower()
+            if field not in topics and field not in areas:
+                continue
+        result.append(fac)
+    return result
+
 
 def allowed_file(filename: str) -> bool:
     """Check if a filename has an allowed extension (PDF or DOCX)."""
@@ -473,10 +620,10 @@ def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
         faculty_summaries = []
         for pi in faculty_batch:
             # More concise format to reduce token count and processing time
-            summary = f"{pi['name']} ({pi['id']}): {pi['research_areas']}"
+            summary = f"{pi.get('name', '')} ({pi.get('id', '')}): {pi.get('research_areas', '')}"
             if pi.get('lab_techniques'):
-                summary += f" | Techniques: {pi['lab_techniques'][:100]}"  # Truncate long technique lists
-            summary += f" | {pi['department']}, {pi['school']}"
+                summary += f" | Techniques: {(pi.get('lab_techniques') or '')[:100]}"  # Truncate long technique lists
+            summary += f" | {pi.get('department', '')}, {pi.get('school', '')}"
             faculty_summaries.append(summary)
         
         faculty_text = "\n".join(faculty_summaries)
@@ -638,78 +785,74 @@ def general():
     selected_department = request.args.get("department", "").strip()
     selected_technique = request.args.get("technique", "").strip()
     selected_location = request.args.get("location", "").strip()
+    page = request.args.get("page", 1, type=int)
+    if page < 1:
+        page = 1
 
-    all_faculty = load_faculty()
-
-    # Build lists of unique values for the filter dropdowns
-    # This lets users see all available options
-    schools = sorted(set(pi["school"] for pi in all_faculty))
-    departments = sorted(set(pi["department"] for pi in all_faculty))
-    
-    # Extract all unique lab techniques and locations from the data
-    # Techniques are stored as comma-separated strings, so we need to split them
-    all_techniques = set()
-    all_locations = set()
-    locations_by_school = {}  # Track locations per school for filtering
-    
-    for pi in all_faculty:
-        if pi.get("lab_techniques"):
-            techniques = [t.strip() for t in pi["lab_techniques"].split(",")]
-            all_techniques.update(techniques)
-        
-        # Track locations by school
-        school = pi.get("school", "")
-        location = pi.get("specific_location") or pi.get("location", "")
-        if location:
-            all_locations.add(location)
-            if school not in locations_by_school:
-                locations_by_school[school] = set()
-            locations_by_school[school].add(location)
-    
-    techniques = sorted(all_techniques)
-    
-    # Filter locations based on selected school
+    choices = get_filter_choices()
+    schools = choices["schools"]
+    departments = choices["departments"]
+    techniques = choices["techniques"]
+    locations_by_school = choices["locations_by_school"]
     if selected_school and selected_school in locations_by_school:
         locations = sorted(locations_by_school[selected_school])
-        # If a location is selected but not valid for the selected school, clear it
         if selected_location and selected_location not in locations:
             selected_location = ""
     else:
-        locations = sorted(all_locations)
+        locations = sorted(choices["locations"])
 
-    # Filter the faculty list based on what the user selected
+    all_faculty = load_faculty()
     filtered = []
     for pi in all_faculty:
-        # Skip this PI if it doesn't match the selected school
-        if selected_school and pi["school"] != selected_school:
+        pi_school = pi.get("school") or pi.get("institution") or ""
+        pi_dept = pi.get("department") or ""
+        if selected_school and pi_school != selected_school:
             continue
-        # Skip if it doesn't match the selected department
-        if selected_department and pi["department"] != selected_department:
+        if selected_department and pi_dept != selected_department:
             continue
-        # Check if the selected technique is in this PI's techniques list
         if selected_technique:
-            pi_techniques = [t.strip().lower() for t in (pi.get("lab_techniques", "") or "").split(",")]
+            pi_techniques = [t.strip().lower() for t in (pi.get("lab_techniques") or "").split(",")]
             if selected_technique.lower() not in pi_techniques:
                 continue
-        # Check location match
         if selected_location:
-            pi_location = pi.get("specific_location", pi["location"])
+            pi_location = pi.get("specific_location") or pi.get("location") or ""
             if selected_location not in pi_location:
                 continue
-        # If we made it here, this PI matches all the filters
         filtered.append(pi)
 
-    # Check which PIs the current user has already saved
-    # This lets us show a "Saved" indicator instead of a "Save" button
+    # Prioritize PIs with email + website (rich data) first; NSF-only later
+    filtered.sort(key=_pi_display_priority, reverse=True)
+
+    per_page = 20
+    total_count = len(filtered)
+    total_pages = max(1, (total_count + per_page - 1) // per_page)
+    page = min(page, total_pages)
+    start = (page - 1) * per_page
+    faculty_list = filtered[start : start + per_page]
+
     saved_pi_ids = set()
     user_id = session.get("user_id")
     if user_id:
         saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
         saved_pi_ids = {row.pi_id for row in saved_rows}
 
+    def pagination_query(p):
+        q = {}
+        if selected_school:
+            q["school"] = selected_school
+        if selected_department:
+            q["department"] = selected_department
+        if selected_technique:
+            q["technique"] = selected_technique
+        if selected_location:
+            q["location"] = selected_location
+        if p and p != 1:
+            q["page"] = p
+        return q
+
     return render_template(
         "general.html",
-        faculty_list=filtered,
+        faculty_list=faculty_list,
         selected_school=selected_school,
         selected_department=selected_department,
         selected_technique=selected_technique,
@@ -719,6 +862,11 @@ def general():
         techniques=techniques,
         locations=locations,
         saved_pi_ids=saved_pi_ids,
+        page=page,
+        per_page=per_page,
+        total_count=total_count,
+        total_pages=total_pages,
+        pagination_query=pagination_query,
     )
 
 @app.route("/matches")
@@ -737,24 +885,37 @@ def matches():
         flash("Matching service unavailable. Please try again later.", "error")
         return redirect(url_for("dashboard"))
 
+    # Pagination: 15 PIs per page
+    page = request.args.get("page", 1, type=int)
+    per_page = 15
+    if page < 1:
+        page = 1
+
     try:
-        results = matcher.match_student(
+        all_results = matcher.match_student(
             research_field=profile.research_field or "",
             research_topics=profile.research_topics or "",
             academic_level=profile.academic_level or "undergrad",
             work_style=profile.work_style or "both",
             needs_funding=bool(profile.needs_funding),
-            top_k=20,
+            top_k=500,
         )
     except Exception as e:
         app.logger.error(f"Matching error: {e}")
         flash("Error generating matches. Please try again.", "error")
         return redirect(url_for("dashboard"))
 
+    total_results = len(all_results)
+    total_pages = max(1, (total_results + per_page - 1) // per_page)
+    page = min(page, total_pages)
+    start_idx = (page - 1) * per_page
+    end_idx = start_idx + per_page
+    page_results = all_results[start_idx:end_idx]
+
     saved_pi_ids = set(sp.pi_id for sp in SavedPI.query.filter_by(user_id=user_id).all())
 
     ranked_matches = []
-    for r in results:
+    for r in page_results:
         research_topics = r.get("research_topics", []) or []
         match_dict = {
             "id": r.get("name", ""),
@@ -779,34 +940,45 @@ def matches():
         saved_pi_ids=saved_pi_ids,
         has_resume=False,
         total_faculty=matcher.get_faculty_count(),
+        page=page,
+        per_page=per_page,
+        total_results=total_results,
+        total_pages=total_pages,
     )
 
+@app.route("/save-pi", methods=["POST"])
 @app.route("/save-pi/<pi_id>", methods=["POST"])
-def save_pi(pi_id):
-    """Save a PI to the user's saved list. This is called when they click the 'Save' button."""
+def save_pi(pi_id=None):
+    """Save a PI to the user's saved list. Accepts form (pi_name, pi_email) or URL path (pi_id)."""
     user_id = session.get("user_id")
     if not user_id:
-        if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        if request.headers.get("X-Requested-With") == "XMLHttpRequest":
             return jsonify({"success": False, "error": "Not logged in"}), 401
         return redirect(url_for("login"))
 
-    # Check if they've already saved this PI (avoid duplicates)
-    # The database has a unique constraint too, but we check here to avoid errors
+    # Support form POST (pi_name, pi_email) or URL path (pi_id)
+    if pi_id is None:
+        pi_id = (request.form.get("pi_name") or "").strip()
+    pi_email = (request.form.get("pi_email") or "").strip()
+
+    if not pi_id:
+        flash("Invalid PI data.", "error")
+        return redirect(request.referrer or url_for("matches"))
+
     existing = SavedPI.query.filter_by(user_id=user_id, pi_id=pi_id).first()
     if existing is None:
-        saved = SavedPI(user_id=user_id, pi_id=pi_id)
+        saved = SavedPI(user_id=user_id, pi_id=pi_id, pi_email=pi_email or None)
         db.session.add(saved)
         db.session.commit()
+        flash(f"Saved {pi_id}!", "success")
         saved_status = True
     else:
-        saved_status = False  # Already saved
+        flash(f"{pi_id} is already saved.", "info")
+        saved_status = False
 
-    # Return JSON for AJAX requests (used by the save button JavaScript), otherwise redirect
-    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+    if request.headers.get("X-Requested-With") == "XMLHttpRequest":
         return jsonify({"success": True, "already_saved": not saved_status})
-    
-    # Fallback for non-AJAX requests - send them back to wherever they came from
-    return redirect(request.referrer or url_for("saved_pis"))
+    return redirect(request.referrer or url_for("matches"))
 
 
 # =============================================================================
@@ -926,14 +1098,14 @@ def bulk_email():
                 if user_resume and user_resume.resume_text:
                     resume_context = f"\nStudent's Resume Summary: {user_resume.resume_text[:500]}"
                 
-                prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}.
+                prompt = f"""Write a professional, personalized cold email to {pi.get('name', '')}, {pi.get('title', '')} at {pi.get('department', '')}, {pi.get('school', '')}.
 
 PI INFORMATION:
-- Name: {pi['name']}
-- Title: {pi['title']}
-- Department: {pi['department']}, {pi['school']}
-- Research Areas: {pi['research_areas']}
-- Location: {pi.get('specific_location', pi['location'])}
+- Name: {pi.get('name', '')}
+- Title: {pi.get('title', '')}
+- Department: {pi.get('department', '')}, {pi.get('school', '')}
+- Research Areas: {pi.get('research_areas', '')}
+- Location: {pi.get('specific_location', pi.get('location', ''))}
 - H-index: {pi.get('h_index', 'Not available')}
 - Lab Techniques: {pi.get('lab_techniques', 'Not specified')}
 
@@ -941,7 +1113,7 @@ STUDENT INFORMATION:
 - Name: {student_name}
 - Email: {student_email}
 - Background: {student_background if student_background else 'Undergraduate/Graduate student'}
-- Specific Research Interest: {research_interest if research_interest else f'Interested in {pi["research_areas"]}'}
+- Specific Research Interest: {research_interest if research_interest else f'Interested in {pi.get("research_areas", "")}'}
 {resume_context}
 
 Write a professional email (under 250 words) with subject line. Format as:
@@ -970,7 +1142,7 @@ Best regards,
                     "pi_email": pi.get("email", "")
                 })
             except Exception as e:
-                flash(f"Error generating email for {pi['name']}: {str(e)}", "error")
+                flash(f"Error generating email for {pi.get('name', 'PI')}: {str(e)}", "error")
         
         return render_template("bulk_email_results.html", emails=generated_emails)
     
@@ -1020,14 +1192,14 @@ def draft_email():
                     # Build a detailed prompt for the AI to generate a personalized email
                     # We include all the PI's information and the student's background
                     # The email should sound natural, human, and conversational - not robotic, overly formal, or edgy
-                    prompt = f"""Write a professional, personalized cold email to {pi['name']}, {pi['title']} at {pi['department']}, {pi['school']}. The email should sound natural, human, and conversational - not robotic, overly formal, or edgy.
+                    prompt = f"""Write a professional, personalized cold email to {pi.get('name', '')}, {pi.get('title', '')} at {pi.get('department', '')}, {pi.get('school', '')}. The email should sound natural, human, and conversational - not robotic, overly formal, or edgy.
 
 PI INFORMATION:
-- Name: {pi['name']}
-- Title: {pi['title']}
-- Department: {pi['department']}, {pi['school']}
-- Research Areas: {pi['research_areas']}
-- Location: {pi.get('specific_location', pi['location'])}
+- Name: {pi.get('name', '')}
+- Title: {pi.get('title', '')}
+- Department: {pi.get('department', '')}, {pi.get('school', '')}
+- Research Areas: {pi.get('research_areas', '')}
+- Location: {pi.get('specific_location', pi.get('location', ''))}
 - H-index: {pi.get('h_index', 'Not available')}
 - Lab Techniques: {pi.get('lab_techniques', 'Not specified')}
 - Website: {pi.get('website', 'N/A')}
@@ -1259,13 +1431,36 @@ def onboarding():
         db.session.add(profile)
         db.session.commit()
 
+    # Build schools list from faculty data (same as institution filter on general page)
+    try:
+        all_faculty = load_faculty()
+        schools = sorted(set(pi.get("school") or pi.get("institution") or "" for pi in all_faculty) - {""})
+    except Exception:
+        schools = []
+
     if request.method == "POST":
         # MVP: 5-question profile (fast matching, no resume)
         profile.research_field = request.form.get("research_field", "").strip()
-        profile.research_topics = request.form.get("research_topics", "").strip()
+        # Research topics: from multi-select and/or "other" text (comma-separated)
+        selected_topics = [t.strip() for t in request.form.getlist("research_topics") if t.strip()]
+        other_topics = request.form.get("research_topics_other", "").strip()
+        if other_topics:
+            selected_topics = selected_topics + [t.strip() for t in other_topics.split(",") if t.strip()]
+        if not selected_topics:
+            flash("Please select at least one research topic or enter other interests.", "error")
+            return render_template(
+                "onboarding.html",
+                profile=profile,
+                schools=schools,
+                common_research_topics=COMMON_RESEARCH_TOPICS,
+                profile_research_topics_set=set(),
+                profile_research_topics_other=other_topics,
+            )
+        profile.research_topics = ", ".join(selected_topics)
         profile.academic_level = request.form.get("academic_level", "").strip()
         profile.work_style = request.form.get("work_style", "").strip()
         profile.needs_funding = request.form.get("needs_funding") == "yes"
+        profile.institution = request.form.get("institution", "").strip() or None
 
         profile.onboarding_complete = True
         profile.profile_completeness = 100
@@ -1278,7 +1473,21 @@ def onboarding():
         flash("Profile complete! Here are your matches.", "success")
         return redirect(url_for("matches"))
 
-    return render_template("onboarding.html", profile=profile)
+    # Pre-fill: which common topics are selected; which "other" topics (not in common list)
+    profile_topics_str = (profile.research_topics or "").strip()
+    profile_topics_list = [t.strip() for t in profile_topics_str.split(",") if t.strip()]
+    profile_topics_set = set(t.lower() for t in profile_topics_list)
+    common_set = set(COMMON_RESEARCH_TOPICS)
+    profile_research_topics_other = ", ".join(t for t in profile_topics_list if t.lower() not in common_set and t.lower() != "other")
+
+    return render_template(
+        "onboarding.html",
+        profile=profile,
+        schools=schools,
+        common_research_topics=COMMON_RESEARCH_TOPICS,
+        profile_research_topics_set=profile_topics_set,
+        profile_research_topics_other=profile_research_topics_other,
+    )
 
 @app.route("/account")
 def account():
@@ -1300,10 +1509,26 @@ def account():
     
     return render_template("account.html", user=user, profile=profile)
 
+# Simple rate limit for login (prevent brute force): 10 attempts per minute per IP
+_login_attempts = {}  # ip -> list of timestamps
+LOGIN_RATE_LIMIT = 10
+LOGIN_RATE_WINDOW = 60  # seconds
+
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     """Handle user login. Users can log in with either their email or username."""
     if request.method == "POST":
+        # Rate limit: 10 attempts per minute per IP
+        ip = request.remote_addr or "unknown"
+        now = _time.time()
+        if ip not in _login_attempts:
+            _login_attempts[ip] = []
+        _login_attempts[ip] = [t for t in _login_attempts[ip] if now - t < LOGIN_RATE_WINDOW]
+        if len(_login_attempts[ip]) >= LOGIN_RATE_LIMIT:
+            return render_template("login.html", error="Too many login attempts. Try again in a minute.")
+        _login_attempts[ip].append(now)
+
         # The form field is named "email" but can contain either email or username
         login_input = request.form.get("email", "").strip()
         password = request.form.get("password", "")
@@ -1533,8 +1758,8 @@ def reset_password(token):
             error = "Passwords do not match."
             return render_template("reset_password.html", token=token, error=error)
         
-        if len(new_password) < 6:
-            error = "Password must be at least 6 characters long."
+        if len(new_password) < 8:
+            error = "Password must be at least 8 characters long."
             return render_template("reset_password.html", token=token, error=error)
         
         # Update the user's password
