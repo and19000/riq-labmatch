@@ -883,7 +883,7 @@ def matches():
     matcher = get_matching_service()
     if not matcher:
         flash("Matching service unavailable. Please try again later.", "error")
-        return redirect(url_for("dashboard"))
+        return redirect(url_for("general"))
 
     # Pagination: 15 PIs per page
     page = request.args.get("page", 1, type=int)
@@ -903,7 +903,7 @@ def matches():
     except Exception as e:
         app.logger.error(f"Matching error: {e}")
         flash("Error generating matches. Please try again.", "error")
-        return redirect(url_for("dashboard"))
+        return redirect(url_for("general"))
 
     total_results = len(all_results)
     total_pages = max(1, (total_results + per_page - 1) // per_page)

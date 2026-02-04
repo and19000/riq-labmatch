@@ -272,9 +272,14 @@ class MatchingService:
     def __init__(self, faculty_json_path: str):
         with open(faculty_json_path, 'r') as f:
             data = json.load(f)
-        faculty_list = data.get("faculty", data)
+        # Support both formats: plain list [...] or wrapped {"metadata": ..., "faculty": [...]}
+        if isinstance(data, list):
+            faculty_list = data
+            self.metadata = {}
+        else:
+            faculty_list = data.get("faculty", data)
+            self.metadata = data.get("metadata", {})
         self.matcher = SimpleMatcher(faculty_list)
-        self.metadata = data.get("metadata", {})
 
     def match_student(self,
                       research_field: str = "",
