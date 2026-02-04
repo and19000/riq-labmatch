@@ -850,9 +850,14 @@ def general():
             q["page"] = p
         return q
 
+    show_start = (page - 1) * per_page + 1 if total_count > 0 else 0
+    show_end = min((page - 1) * per_page + len(faculty_list), total_count)
+
     return render_template(
         "general.html",
         faculty_list=faculty_list,
+        show_start=show_start,
+        show_end=show_end,
         selected_school=selected_school,
         selected_department=selected_department,
         selected_technique=selected_technique,
