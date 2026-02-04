@@ -2,57 +2,176 @@
 {% block title %}Complete Your Profile{% endblock %}
 
 {% block content %}
+<style>
+/* Autocomplete container */
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.autocomplete-input:focus {
+  outline: none;
+  border-color: #4a90d9;
+  box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.1);
+}
+
+.autocomplete-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff !important;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: none;
+}
+
+.autocomplete-dropdown.show {
+  display: block;
+}
+
+.autocomplete-option {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  color: #333 !important;
+  background: #ffffff !important;
+  font-size: 1rem;
+}
+
+.autocomplete-option:hover,
+.autocomplete-option.highlighted {
+  background: #e8f4fc !important;
+  color: #1a5fa3 !important;
+}
+
+.autocomplete-option.selected {
+  background: #d4e9f7 !important;
+  font-weight: 500;
+  color: #1a5fa3 !important;
+}
+
+/* Multi-select tags */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-height: 36px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  background: #e3f0ff;
+  color: #1a5fa3;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tag-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background: rgba(26, 95, 163, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+.tag-remove:hover {
+  background: rgba(26, 95, 163, 0.4);
+}
+
+/* Topics instruction */
+.topics-instruction {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* No results message */
+.no-results {
+  padding: 0.75rem 1rem;
+  color: #666 !important;
+  background: #ffffff !important;
+  font-style: italic;
+}
+</style>
+
 <div class="onboarding-container">
   <div class="onboarding-card">
     <h1>Find Your Perfect Lab Match</h1>
-    <p class="onboarding-subtitle">Answer 5 quick questions to get matched with Harvard faculty.</p>
+    <p class="onboarding-subtitle">Answer 5 quick questions to get matched with faculty.</p>
 
-    <form method="POST" action="{{ url_for('onboarding') }}" class="onboarding-form">
+    <form method="POST" action="{{ url_for('onboarding') }}" class="onboarding-form" id="onboarding-form">
 
-      <!-- Q1: Research Field -->
+      <!-- Q1: Research Field (Autocomplete) -->
       <div class="form-group">
-        <label for="research_field">1. What research field interests you most?</label>
-        <select name="research_field" id="research_field" required class="form-control">
-          <option value="">Select a field...</option>
-          <option value="biology" {% if profile and profile.research_field == 'biology' %}selected{% endif %}>Biology &amp; Life Sciences</option>
-          <option value="chemistry" {% if profile and profile.research_field == 'chemistry' %}selected{% endif %}>Chemistry</option>
-          <option value="physics" {% if profile and profile.research_field == 'physics' %}selected{% endif %}>Physics</option>
-          <option value="computer science" {% if profile and profile.research_field == 'computer science' %}selected{% endif %}>Computer Science &amp; AI</option>
-          <option value="engineering" {% if profile and profile.research_field == 'engineering' %}selected{% endif %}>Engineering</option>
-          <option value="medicine" {% if profile and profile.research_field == 'medicine' %}selected{% endif %}>Medicine &amp; Public Health</option>
-          <option value="neuroscience" {% if profile and profile.research_field == 'neuroscience' %}selected{% endif %}>Neuroscience &amp; Psychology</option>
-          <option value="economics" {% if profile and profile.research_field == 'economics' %}selected{% endif %}>Economics &amp; Social Sciences</option>
-          <option value="mathematics" {% if profile and profile.research_field == 'mathematics' %}selected{% endif %}>Mathematics &amp; Statistics</option>
-          <option value="environmental" {% if profile and profile.research_field == 'environmental' %}selected{% endif %}>Environmental Science</option>
-          <option value="other" {% if profile and profile.research_field == 'other' %}selected{% endif %}>Other</option>
-        </select>
-      </div>
-
-      <!-- Q2: Specific Topics (dropdown to avoid typos) -->
-      <div class="form-group">
-        <label>2. What specific topics interest you? (select all that apply)</label>
-        <div class="research-topics-select-wrapper">
-          <select name="research_topics" id="research_topics" multiple class="form-control" size="6">
-            {% for topic in common_research_topics %}
-              <option value="{{ topic }}" {% if profile_research_topics_set and topic in profile_research_topics_set %}selected{% endif %}>{{ topic|replace('_', ' ')|title }}</option>
-            {% endfor %}
-          </select>
-          <small class="form-text">Hold Ctrl/Cmd to select multiple. Or type "Other" below.</small>
-          <input type="text" name="research_topics_other" id="research_topics_other" class="form-control" style="margin-top: 0.5rem;"
-                 placeholder="Other topics (comma-separated, e.g. your lab technique)"
-                 value="{{ profile_research_topics_other or '' }}">
+        <label for="research_field_input">1. What research field interests you most?</label>
+        <div class="autocomplete-container">
+          <input type="text" 
+                 id="research_field_input" 
+                 class="autocomplete-input form-control"
+                 placeholder="Start typing to search fields..."
+                 autocomplete="off"
+                 value="{{ profile.research_field if profile and profile.research_field else '' }}">
+          <input type="hidden" name="research_field" id="research_field" value="{{ profile.research_field if profile and profile.research_field else '' }}">
+          <div class="autocomplete-dropdown" id="research_field_dropdown"></div>
         </div>
       </div>
 
-      <!-- Q2b: Your institution (optional) -->
+      <!-- Q2: Specific Topics (Multi-select Autocomplete) -->
       <div class="form-group">
-        <label for="institution">Your institution (optional)</label>
-        <select name="institution" id="institution" class="form-control">
-          <option value="">— Select your school —</option>
-          {% for school in schools %}
-            <option value="{{ school }}" {% if profile and profile.institution == school %}selected{% endif %}>{{ school }}</option>
-          {% endfor %}
-        </select>
+        <label>2. What specific topics interest you? (select all that apply)</label>
+        <div class="tags-container" id="topics_tags"></div>
+        <div class="autocomplete-container">
+          <input type="text" 
+                 id="research_topics_input" 
+                 class="autocomplete-input form-control"
+                 placeholder="Start typing to add topics..."
+                 autocomplete="off">
+          <input type="hidden" name="research_topics" id="research_topics" value="">
+          <div class="autocomplete-dropdown" id="research_topics_dropdown"></div>
+        </div>
+        <p class="topics-instruction">Click suggestions or press Enter to add. Click the X to remove.</p>
+      </div>
+
+      <!-- Q2b: Your institution (Autocomplete) -->
+      <div class="form-group">
+        <label for="institution_input">Your institution (optional)</label>
+        <div class="autocomplete-container">
+          <input type="text" 
+                 id="institution_input" 
+                 class="autocomplete-input form-control"
+                 placeholder="Start typing your school name..."
+                 autocomplete="off"
+                 value="{{ profile.institution if profile and profile.institution else '' }}">
+          <input type="hidden" name="institution" id="institution" value="{{ profile.institution if profile and profile.institution else '' }}">
+          <div class="autocomplete-dropdown" id="institution_dropdown"></div>
+        </div>
       </div>
 
       <!-- Q3: Academic Level -->
@@ -94,4 +213,275 @@
     </form>
   </div>
 </div>
+
+<script>
+// Data from server
+const RESEARCH_FIELDS = {{ research_fields | tojson }};
+const COMMON_TOPICS = {{ common_research_topics | tojson }};
+const SCHOOLS = {{ schools | tojson }};
+const INITIAL_TOPICS = {{ profile_research_topics_list | tojson }};
+
+// Generic autocomplete class
+class Autocomplete {
+  constructor(inputId, dropdownId, hiddenId, options, multiSelect = false, tagsContainerId = null, allowCustom = false) {
+    this.input = document.getElementById(inputId);
+    this.dropdown = document.getElementById(dropdownId);
+    this.hidden = document.getElementById(hiddenId);
+    this.options = options.map(o => o.toLowerCase ? { value: o, label: o } : o);
+    this.multiSelect = multiSelect;
+    this.allowCustom = allowCustom;  // Allow custom values for single-select
+    this.tagsContainer = tagsContainerId ? document.getElementById(tagsContainerId) : null;
+    this.selectedValues = [];
+    this.highlightedIndex = -1;
+    this.filteredOptions = [];
+    
+    this.init();
+  }
+  
+  init() {
+    // Input events
+    this.input.addEventListener('input', () => this.onInput());
+    this.input.addEventListener('focus', () => this.showDropdown());
+    this.input.addEventListener('keydown', (e) => this.onKeydown(e));
+    
+    // Click outside to close - for allowCustom, save the custom value
+    document.addEventListener('click', (e) => {
+      if (!this.input.contains(e.target) && !this.dropdown.contains(e.target)) {
+        // If allowCustom and there's a value typed, save it
+        if (this.allowCustom && !this.multiSelect && this.input.value.trim()) {
+          this.hidden.value = this.input.value.trim();
+        }
+        this.hideDropdown();
+      }
+    });
+    
+    // For single select, sync initial value
+    if (!this.multiSelect && this.hidden.value) {
+      this.input.value = this.hidden.value;
+    }
+  }
+  
+  onInput() {
+    const query = this.input.value.toLowerCase().trim();
+    this.filterOptions(query);
+    this.renderDropdown();
+    this.showDropdown();
+  }
+  
+  filterOptions(query) {
+    if (!query) {
+      this.filteredOptions = this.options.filter(o => 
+        !this.selectedValues.includes(o.value || o)
+      ).slice(0, 15);
+    } else {
+      this.filteredOptions = this.options.filter(o => {
+        const val = (o.value || o).toLowerCase();
+        const label = (o.label || o).toLowerCase();
+        const isSelected = this.selectedValues.includes(o.value || o);
+        return !isSelected && (val.includes(query) || label.includes(query));
+      }).slice(0, 15);
+    }
+    this.highlightedIndex = this.filteredOptions.length > 0 ? 0 : -1;
+  }
+  
+  renderDropdown() {
+    if (this.filteredOptions.length === 0) {
+      const query = this.input.value.trim();
+      if (query && this.multiSelect) {
+        // Allow adding custom value for multi-select
+        this.dropdown.innerHTML = `<div class="autocomplete-option" data-custom="true">Add "${query}"</div>`;
+        this.highlightedIndex = 0;
+      } else if (query && this.allowCustom) {
+        // Allow using custom value for single-select with allowCustom
+        this.dropdown.innerHTML = `<div class="autocomplete-option" data-custom="true">"${query}"</div>`;
+        this.highlightedIndex = 0;
+      } else if (query) {
+        this.dropdown.innerHTML = '<div class="no-results">No matches found</div>';
+      } else {
+        this.dropdown.innerHTML = '';
+      }
+      return;
+    }
+    
+    this.dropdown.innerHTML = this.filteredOptions.map((opt, i) => {
+      const value = opt.value || opt;
+      const label = opt.label || opt;
+      const highlighted = i === this.highlightedIndex ? 'highlighted' : '';
+      return `<div class="autocomplete-option ${highlighted}" data-value="${value}">${label}</div>`;
+    }).join('');
+    
+    // Add click handlers
+    this.dropdown.querySelectorAll('.autocomplete-option').forEach((el, i) => {
+      el.addEventListener('click', () => {
+        if (el.dataset.custom) {
+          this.selectValue(this.input.value.trim());
+        } else {
+          this.selectValue(el.dataset.value);
+        }
+      });
+      el.addEventListener('mouseenter', () => {
+        this.highlightedIndex = i;
+        this.updateHighlight();
+      });
+    });
+  }
+  
+  updateHighlight() {
+    this.dropdown.querySelectorAll('.autocomplete-option').forEach((el, i) => {
+      el.classList.toggle('highlighted', i === this.highlightedIndex);
+    });
+  }
+  
+  onKeydown(e) {
+    const optionEls = this.dropdown.querySelectorAll('.autocomplete-option');
+    
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (this.highlightedIndex < optionEls.length - 1) {
+        this.highlightedIndex++;
+        this.updateHighlight();
+        this.scrollToHighlighted();
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (this.highlightedIndex > 0) {
+        this.highlightedIndex--;
+        this.updateHighlight();
+        this.scrollToHighlighted();
+      }
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (this.highlightedIndex >= 0 && optionEls[this.highlightedIndex]) {
+        const el = optionEls[this.highlightedIndex];
+        if (el.dataset.custom) {
+          this.selectValue(this.input.value.trim());
+        } else {
+          this.selectValue(el.dataset.value);
+        }
+      } else if (this.multiSelect && this.input.value.trim()) {
+        // Allow adding custom value on Enter for multi-select
+        this.selectValue(this.input.value.trim());
+      } else if (this.allowCustom && !this.multiSelect && this.input.value.trim()) {
+        // Allow using custom value on Enter for single-select with allowCustom
+        this.selectValue(this.input.value.trim());
+      }
+    } else if (e.key === 'Escape') {
+      this.hideDropdown();
+    }
+  }
+  
+  scrollToHighlighted() {
+    const highlighted = this.dropdown.querySelector('.highlighted');
+    if (highlighted) {
+      highlighted.scrollIntoView({ block: 'nearest' });
+    }
+  }
+  
+  selectValue(value) {
+    if (!value) return;
+    
+    if (this.multiSelect) {
+      if (!this.selectedValues.includes(value)) {
+        this.selectedValues.push(value);
+        this.updateTags();
+        this.updateHidden();
+      }
+      this.input.value = '';
+      this.filterOptions('');
+      this.renderDropdown();
+    } else {
+      this.input.value = value;
+      this.hidden.value = value;
+      this.hideDropdown();
+    }
+  }
+  
+  removeValue(value) {
+    this.selectedValues = this.selectedValues.filter(v => v !== value);
+    this.updateTags();
+    this.updateHidden();
+  }
+  
+  updateTags() {
+    if (!this.tagsContainer) return;
+    
+    this.tagsContainer.innerHTML = this.selectedValues.map(v => `
+      <span class="tag">
+        ${v}
+        <span class="tag-remove" data-value="${v}">&times;</span>
+      </span>
+    `).join('');
+    
+    // Add remove handlers
+    this.tagsContainer.querySelectorAll('.tag-remove').forEach(el => {
+      el.addEventListener('click', () => this.removeValue(el.dataset.value));
+    });
+  }
+  
+  updateHidden() {
+    this.hidden.value = this.selectedValues.join(', ');
+  }
+  
+  showDropdown() {
+    if (this.filteredOptions.length > 0 || this.dropdown.innerHTML) {
+      this.dropdown.classList.add('show');
+    }
+  }
+  
+  hideDropdown() {
+    this.dropdown.classList.remove('show');
+  }
+  
+  // Set initial selected values (for multi-select)
+  setInitialValues(values) {
+    this.selectedValues = values.filter(v => v);
+    this.updateTags();
+    this.updateHidden();
+  }
+}
+
+// Initialize autocompletes
+document.addEventListener('DOMContentLoaded', function() {
+  // Research field (single select)
+  const fieldAutocomplete = new Autocomplete(
+    'research_field_input',
+    'research_field_dropdown',
+    'research_field',
+    RESEARCH_FIELDS,
+    false
+  );
+  
+  // Research topics (multi-select)
+  const topicsAutocomplete = new Autocomplete(
+    'research_topics_input',
+    'research_topics_dropdown',
+    'research_topics',
+    COMMON_TOPICS,
+    true,
+    'topics_tags'
+  );
+  topicsAutocomplete.setInitialValues(INITIAL_TOPICS);
+  
+  // Institution (single select, allows custom values for schools not in list)
+  const institutionAutocomplete = new Autocomplete(
+    'institution_input',
+    'institution_dropdown',
+    'institution',
+    SCHOOLS,
+    false,  // multiSelect
+    null,   // tagsContainerId
+    true    // allowCustom - let users type any school name
+  );
+  
+  // Form validation
+  document.getElementById('onboarding-form').addEventListener('submit', function(e) {
+    const topics = document.getElementById('research_topics').value.trim();
+    if (!topics) {
+      e.preventDefault();
+      alert('Please select at least one research topic.');
+      document.getElementById('research_topics_input').focus();
+    }
+  });
+});
+</script>
 {% endblock %}

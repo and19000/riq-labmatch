@@ -30,7 +30,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # We use gpt-4o-mini because it's cost-effective and still very capable
 GPT_MODEL = "gpt-4o-mini"
 
-# Import Simple Matching Service (same repo: faculty_pipeline/services/matching)
+# Import Matching Service (v2 by default: 7-parameter semantic-lite with MMR reranking)
 try:
     import sys
     _app_dir = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +38,10 @@ try:
     if os.path.exists(matching_path):
         if _app_dir not in sys.path:
             sys.path.insert(0, _app_dir)
-        from services.matching.simple_matching import MatchingService
+        # v2 matching: 7-parameter semantic-lite with MMR reranking
+        from services.matching.matching_v2 import MatchingServiceV2
+        # Keep v1 import for fallback (set USE_MATCHING_V2=false to revert)
+        from services.matching.simple_matching import MatchingService as MatchingServiceV1
         HAS_MATCHING = True
     else:
         HAS_MATCHING = False
@@ -46,67 +49,54 @@ except ImportError as e:
     HAS_MATCHING = False
     print(f"Warning: Could not import matching service: {e}")
 
+# Feature flag: set USE_MATCHING_V2=false in .env to revert to v1
+USE_MATCHING_V2 = os.environ.get("USE_MATCHING_V2", "true").lower() != "false"
+
 # Global matching service (initialized lazily)
 _matching_service = None
 
 def get_matching_service():
-    """Get or initialize the matching service. Prefer MVP file (1,500 faculty) if present."""
+    """Get or initialize the matching service. Uses v2 by default (set USE_MATCHING_V2=false to revert)."""
     global _matching_service
     if _matching_service is None and HAS_MATCHING:
-        output_dir = os.path.join(os.path.dirname(__file__), "output")
+        # Select service class based on feature flag
+        MatchingService = MatchingServiceV2 if USE_MATCHING_V2 else MatchingServiceV1
+        version_str = "v2" if USE_MATCHING_V2 else "v1"
+        
+        _app_dir = os.path.dirname(os.path.abspath(__file__))
+        misc_dir = os.path.join(_app_dir, "Data", "Misc jsons")
+        
+        # Priority 1: NSF Active Awards 2026 (2,853 researchers with active grants)
+        nsf_active_path = os.path.join(misc_dir, "nsf_active.json")
+        if os.path.exists(nsf_active_path):
+            try:
+                _matching_service = MatchingService(nsf_active_path)
+                app.logger.info(f"Loaded matching service ({version_str}) from NSF Active Awards 2026: {nsf_active_path}")
+                return _matching_service
+            except Exception as e:
+                app.logger.error(f"Failed to load NSF Active Awards: {e}")
+        
+        # Priority 2: Harvard faculty working file
+        fallback_path = os.path.join(misc_dir, "faculty_working.json")
+        if os.path.exists(fallback_path):
+            try:
+                _matching_service = MatchingService(fallback_path)
+                app.logger.info(f"Loaded matching service ({version_str}) from fallback {fallback_path}")
+                return _matching_service
+            except Exception as e:
+                app.logger.error(f"Failed to load matching fallback: {e}")
+        
+        # Priority 3: Legacy output directory files
+        output_dir = os.path.join(_app_dir, "output")
         if os.path.exists(output_dir):
-            # Prefer NSF-all-PIs (free, 2024-2025) then MVP file
-            nsf_all = os.path.join(output_dir, "nsf_all_faculty.json")
-            if os.path.exists(nsf_all):
-                try:
-                    _matching_service = MatchingService(nsf_all)
-                    app.logger.info(f"Loaded matching service from {nsf_all}")
-                    return _matching_service
-                except Exception as e:
-                    app.logger.error(f"Failed to load NSF faculty file: {e}")
-            mvp_file = os.path.join(output_dir, "harvard_mvp_1500.json")
-            if os.path.exists(mvp_file):
-                try:
-                    _matching_service = MatchingService(mvp_file)
-                    app.logger.info(f"Loaded matching service from {mvp_file}")
-                    return _matching_service
-                except Exception as e:
-                    app.logger.error(f"Failed to load MVP file: {e}")
-            # Fallback: latest v533 file
-            latest_file = None
-            latest_time = 0
-            for f in os.listdir(output_dir):
-                if f.startswith("harvard_university") and f.endswith("_v533.json"):
-                    file_path = os.path.join(output_dir, f)
-                    mtime = os.path.getmtime(file_path)
-                    if mtime > latest_time:
-                        latest_time = mtime
-                        latest_file = file_path
-            if latest_file:
-                try:
-                    _matching_service = MatchingService(latest_file)
-                    app.logger.info(f"Loaded matching service from {latest_file}")
-                except Exception as e:
-                    app.logger.error(f"Failed to load matching service: {e}")
-            else:
-                for f in sorted(os.listdir(output_dir), reverse=True):
-                    if f.startswith("harvard_university") and f.endswith(".json"):
-                        try:
-                            _matching_service = MatchingService(os.path.join(output_dir, f))
-                            app.logger.info(f"Loaded matching service from {f}")
-                            break
-                        except:
-                            continue
-        # Fallback for deploy: use bundled data so app works out of the box
-        if _matching_service is None and HAS_MATCHING:
-            _app_dir = os.path.dirname(os.path.abspath(__file__))
-            fallback_path = os.path.join(_app_dir, "data", "faculty_working.json")
-            if os.path.exists(fallback_path):
-                try:
-                    _matching_service = MatchingService(fallback_path)
-                    app.logger.info(f"Loaded matching service from fallback {fallback_path}")
-                except Exception as e:
-                    app.logger.error(f"Failed to load matching fallback: {e}")
+            for f in sorted(os.listdir(output_dir), reverse=True):
+                if f.endswith(".json"):
+                    try:
+                        _matching_service = MatchingService(os.path.join(output_dir, f))
+                        app.logger.info(f"Loaded matching service ({version_str}) from {f}")
+                        return _matching_service
+                    except:
+                        continue
     return _matching_service
 
 # Create our Flask application
@@ -297,13 +287,21 @@ def init_db():
 # Initialize the database when the app starts
 init_db()
 
-# Set up paths to our data files (priority: NSF all-PIs, then MVP, then bundled)
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+# Set up paths to our data files
+DATA_DIR = os.path.join(os.path.dirname(__file__), "Data")
+MISC_DIR = os.path.join(DATA_DIR, "Misc jsons")
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+
+# Primary faculty data (Harvard departments)
+FACULTY_PATH = os.path.join(MISC_DIR, "faculty_working.json")
+
+# NSF Active Awards 2026 data - all schools with active NSF grants
+NSF_AWARDS_DIR = os.path.join(DATA_DIR, "NSF Active Awards 2026")
+NSF_ACTIVE_PATH = os.path.join(MISC_DIR, "nsf_active.json")
+
+# Legacy paths (kept for compatibility)
 NSF_ALL_PATH = os.path.join(OUTPUT_DIR, "nsf_all_faculty.json")
 MVP_FACULTY_PATH = os.path.join(OUTPUT_DIR, "harvard_mvp_1500.json")
-FACULTY_PATH = NSF_ALL_PATH if os.path.exists(NSF_ALL_PATH) else (MVP_FACULTY_PATH if os.path.exists(MVP_FACULTY_PATH) else os.path.join(DATA_DIR, "faculty_working.json"))
-# Path to original pipeline data for V3 matching (has nested structure)
 PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260120_162804.json")
 
 # Access Control - restrict site to authorized users only
@@ -370,7 +368,32 @@ import time as _time
 _faculty_cache = {"data": None, "loaded_at": None, "by_name": {}}
 CACHE_TTL = 3600  # 1 hour
 
-# Common research topics/techniques for onboarding dropdown (avoids typos like "machine laerning")
+# Research fields for onboarding autocomplete
+RESEARCH_FIELDS = [
+    "Biology & Life Sciences",
+    "Chemistry",
+    "Physics",
+    "Computer Science & AI",
+    "Engineering",
+    "Medicine & Public Health",
+    "Neuroscience & Psychology",
+    "Economics & Social Sciences",
+    "Mathematics & Statistics",
+    "Environmental Science",
+    "Materials Science",
+    "Biomedical Engineering",
+    "Chemical Engineering",
+    "Electrical Engineering",
+    "Mechanical Engineering",
+    "Astronomy & Astrophysics",
+    "Earth Sciences & Geology",
+    "Linguistics",
+    "Political Science",
+    "Anthropology",
+    "Sociology",
+]
+
+# Common research topics/techniques for onboarding autocomplete
 COMMON_RESEARCH_TOPICS = [
     "machine learning", "deep learning", "cancer research", "neuroscience", "computational biology",
     "climate modeling", "synthetic biology", "genomics", "proteomics", "structural biology",
@@ -378,39 +401,272 @@ COMMON_RESEARCH_TOPICS = [
     "natural language processing", "computer vision", "robotics", "bioinformatics", "ecology",
     "evolutionary biology", "developmental biology", "stem cells", "biophysics", "optics",
     "nanotechnology", "renewable energy", "environmental science", "data science", "statistics",
-    "other",
+    "single cell sequencing", "CRISPR", "gene editing", "drug discovery", "protein engineering",
+    "systems biology", "metabolomics", "epigenetics", "microbiome", "virology", "infectious disease",
+    "cardiology", "oncology", "immunotherapy", "neural networks", "reinforcement learning",
+    "graph neural networks", "transformers", "large language models", "computer graphics",
+    "human-computer interaction", "cybersecurity", "distributed systems", "databases",
+    "quantum information", "condensed matter", "particle physics", "astrophysics", "cosmology",
+    "fluid dynamics", "thermodynamics", "signal processing", "control systems", "optimization",
+    "game theory", "behavioral economics", "public policy", "health economics", "epidemiology",
 ]
 
+# All schools from NSF Active Awards 2026 (567 institutions)
+ALL_SCHOOLS = [
+    "Adelphi University", "Adler Planetarium", "Alabama A&M University", "Alabama State University",
+    "Albany State University", "Albion College", "Alcorn State University", "American Indian Higher Education Consortium",
+    "American Institutes for Research in the Behavioral Sciences", "American Mathematical Society",
+    "American Museum Natural History", "American Physical Society", "American Society For Engineering Education",
+    "Amherst College", "Appalachian State University", "Arizona State University", "Arkansas State University Main Campus",
+    "Arkansas Tech University", "Association of Public and Land-Grant Universities", "Athens State University",
+    "Auburn University", "Auburn University at Montgomery", "Augsburg University", "Austin Community College",
+    "Austin Peay State University", "Ball State University", "Bates College", "Baylor College of Medicine",
+    "Baylor University", "Bemidji State University", "Benedict College", "Benedictine University", "Bethel University",
+    "Bethune-Cookman University", "Bigelow Laboratory for Ocean Sciences", "Black Hills State University",
+    "Board of Trustees of Illinois State University", "Boise State University", "Boston College", "Bowie State University",
+    "Bowling Green State University", "Bradley University", "Bridgewater State University", "Brigham Young University",
+    "Broome Community College", "Brown University", "Bryant University", "Bryn Mawr College", "Bucknell University",
+    "Cal Poly Humboldt", "California Institute of Technology", "California Lutheran University",
+    "California Polytechnic State University", "California State University Dominguez Hills",
+    "California State University Fresno", "California State University Fullerton", "California State University Long Beach",
+    "California State University Los Angeles", "California State University San Marcos", "California State University Stanislaus",
+    "Calvin University", "Campbellsville University", "Cankdeska Cikana Community College", "Carleton College",
+    "Carnegie Institution of Washington", "Carnegie Mellon University", "Carthage College", "Case Western Reserve University",
+    "Catholic University of America", "Central Michigan University", "Central State University", "Central Washington University",
+    "Chapman University", "Chatham College", "Chattanooga State Community College", "Chicago State University",
+    "Chico State Enterprises", "Claflin University", "Claremont McKenna College", "Clark Atlanta University",
+    "Clark University", "Clarkson University", "Clemson University", "Cleveland State University", "Coastal Carolina University",
+    "Colby College", "College of Charleston", "College of Mount Saint Vincent", "College of the Menominee Nation",
+    "Colorado College", "Colorado School of Mines", "Colorado State University", "Colorado State University Pueblo",
+    "Columbia University", "Columbus State Community College", "Computing Research Association", "Concord University",
+    "Coppin State University", "Cornell University", "Council of Graduate Schools", "Creighton University",
+    "CUNY Brooklyn College", "CUNY City College", "CUNY College of Staten Island", "CUNY Graduate School University Center",
+    "CUNY Hostos Community College", "CUNY Hunter College", "CUNY New York City College of Technology", "CUNY Queens College",
+    "Daemen College", "Dakota State University", "Dalton State College", "Dartmouth College", "Delaware State University",
+    "DePauw University", "Des Moines University", "Dillard University", "Doane University", "Dominican University",
+    "Drake University", "Drew University", "Drexel University", "Duke University", "East Carolina University",
+    "East Tennessee State University", "Eastern Mennonite University", "Eastern Michigan University", "Eastern Washington University",
+    "Elizabeth City State University", "Elizabethtown College", "Embry-Riddle Aeronautical University", "Emory University",
+    "Fairleigh Dickinson University", "Fayetteville State University", "Fisk University", "Florida Agricultural and Mechanical University",
+    "Florida Atlantic University", "Florida International University", "Florida State University", "Fordham University",
+    "Fort Hays State University", "Fort Lewis College", "Frostburg State University", "Furman University", "Gallaudet University",
+    "George Mason University", "George Washington University", "Georgetown University", "Georgia College",
+    "Georgia Tech Research Corporation", "Gordon Research Conferences", "Grambling State University", "Grand Valley State University",
+    "Hampton University", "Harvard University", "Hawaii Pacific University", "Hofstra University", "Holy Family College",
+    "Hope College", "Howard University", "Hudson Valley Community College", "Idaho State University",
+    "Illinois Institute of Technology", "Indiana University", "Indiana University of Pennsylvania", "Indiana Wesleyan University",
+    "Institute For Advanced Study", "Inter American University of Puerto Rico San Juan", "Iowa State University",
+    "Jackson State University", "James Madison University", "Johns Hopkins University", "Johnson & Wales University",
+    "Johnson C. Smith University", "Kansas State University", "Kennesaw State University", "Kent State University",
+    "Kentucky Community & Technical College System", "Kentucky State University", "Kettering University",
+    "Lac Courte Oreilles Ojibwa Community College", "Lake Pontchartrain Basin Foundation", "Lawrence Technological University",
+    "Lawson State Community College", "Lehigh University", "Lincoln University", "Long Island University", "Longwood University",
+    "Louisiana Board of Regents", "Louisiana State University", "Louisiana State University Agricultural Center",
+    "Louisiana State University Health Sciences Center", "Louisiana Tech University", "Loyola Marymount University",
+    "Loyola University of Chicago", "LSU Health Sciences Center Shreveport", "Madison Area Technical College",
+    "Maricopa County Community College District", "Marist College", "Marquette University", "Marshall University",
+    "Marymount University", "Massachusetts Institute of Technology", "Mayville State University", "Meharry Medical College",
+    "Metropolitan Community College", "MGH Institute of Health Professions", "Miami University", "Michigan State University",
+    "Michigan Technological University", "Middle Tennessee State University", "Middlebury College", "Miles College",
+    "Millersville University", "Minot State University", "Mississippi State University", "Missouri Botanical Garden",
+    "Missouri University of Science and Technology", "Mitre Corporation", "Molloy University", "Monmouth University",
+    "Monroe Community College", "Montana State University", "Montana Technological University", "Montclair State University",
+    "Monterey Institute For Research in Astronomy", "Moravian University", "Morehouse College", "Morgan State University",
+    "Morningside University", "Mount San Antonio College", "Muhlenberg College", "National Collegiate Inventors and Innovators Alliance",
+    "National Girls Collaborative", "Nazareth College of Rochester", "Nevada State University", "New Jersey City University",
+    "New Jersey Institute of Technology", "New Mexico State University", "New York Botanical Garden", "New York Institute of Technology",
+    "New York University", "Norfolk State University", "North Carolina Agricultural & Technical State University",
+    "North Carolina Central University", "North Carolina State University", "North Dakota State University",
+    "NorthWest Arkansas Community College", "Northeastern Illinois University", "Northeastern University", "Northern Arizona University",
+    "Northern Illinois University", "Northern Kentucky University", "Northern Virginia Community College", "Northwestern University",
+    "Norwich University", "Nueta Hidatsa Sahnish College", "Oakland University", "Occidental College", "Ohio University",
+    "Oklahoma State University", "Old Dominion University", "Oregon Health & Science University", "Oregon State University",
+    "Pacific University", "Pennsylvania State University", "Pomona College", "Portland State University",
+    "Prairie View A & M University", "Princeton University", "Providence College", "Purdue University", "Quinnipiac University",
+    "Rand Corporation", "Randolph-Macon College", "Regents of the University of Michigan", "Rensselaer Polytechnic Institute",
+    "Research Foundation for Mental Hygiene Inc", "Rhode Island School of Design", "Rhodes College", "Roanoke College",
+    "Rochester Institute of Technology", "Rockhurst University", "Roger Williams University", "Roosevelt University",
+    "Rowan University", "Rutgers University New Brunswick", "Rutgers University Newark", "Saint Augustine's College",
+    "Saint John's University", "Saint Louis University", "Salisbury University", "Salve Regina University",
+    "Sam Houston State University", "San Diego State University", "San Francisco State University", "San Jose State University",
+    "Santa Clara University", "Scripps College", "SETI Institute", "Sitting Bull College", "Smith College",
+    "Society For Industrial and Applied Math", "South Dakota School of Mines and Technology", "South Dakota State University",
+    "Southern Connecticut State University", "Southern Illinois University at Carbondale", "Southern Illinois University at Edwardsville",
+    "Southern Methodist University", "Southern University", "Southern University New Orleans", "Southwestern University",
+    "Space Science Institute", "SRI International", "St Jude Children's Research Hospital", "St Mary's College",
+    "St Mary's University San Antonio", "St. John Fisher College", "Stanford University", "Stephen F. Austin State University",
+    "Stetson University", "Stevens Institute of Technology", "Stevenson University", "SUNY at Albany", "SUNY at Binghamton",
+    "SUNY at Buffalo", "SUNY at Stony Brook", "SUNY College at Brockport", "SUNY College at New Paltz", "SUNY College at Old Westbury",
+    "SUNY College at Oswego", "SUNY College of Environmental Science and Forestry", "SUNY Polytechnic Institute",
+    "Syracuse University", "Temple University", "Tennessee State University", "Tennessee Technological University",
+    "Tennessee Wesleyan College", "Texas A&M AgriLife Research", "Texas A&M Engineering Experiment Station",
+    "Texas A&M University", "Texas A&M University Central Texas", "Texas A&M University Corpus Christi",
+    "Texas A&M University San Antonio", "Texas Christian University", "Texas Southern University",
+    "Texas State University San Marcos", "Texas Tech University", "The College of New Jersey",
+    "The University of Central Florida", "The University of Texas Rio Grande Valley", "Thurgood Marshall College Fund",
+    "Towson University", "Troy University", "Trustees of Boston University", "Tufts University", "Tulane University",
+    "Turtle Mountain Community College", "Tuskegee University", "United Tribes Technical College",
+    "University Corporation For Atmospheric Research", "University Corporation at Monterey Bay", "University of Akron",
+    "University of Alabama at Birmingham", "University of Alabama in Huntsville", "University of Alabama Tuscaloosa",
+    "University of Alaska Anchorage", "University of Alaska Fairbanks", "University of Arizona", "University of Arkansas",
+    "University of Arkansas at Pine Bluff", "University of California Berkeley", "University of California Davis",
+    "University of California Irvine", "University of California Los Angeles", "University of California Merced",
+    "University of California Riverside", "University of California San Diego", "University of California San Francisco",
+    "University of California Santa Barbara", "University of California Santa Cruz", "University of Central Oklahoma",
+    "University of Chicago", "University of Cincinnati", "University of Colorado at Boulder", "University of Colorado at Colorado Springs",
+    "University of Colorado at Denver", "University of Connecticut", "University of Dallas", "University of Delaware",
+    "University of Denver", "University of Evansville", "University of Florida", "University of Georgia", "University of Guam",
+    "University of Hawaii", "University of Hawaii at Hilo", "University of Houston", "University of Houston Clear Lake",
+    "University of Houston Downtown", "University of Illinois at Chicago", "University of Illinois at Springfield",
+    "University of Illinois at Urbana-Champaign", "University of Indianapolis", "University of Iowa",
+    "University of Kansas", "University of Kentucky", "University of Louisiana at Lafayette", "University of Louisville",
+    "University of Maine", "University of Maryland Baltimore County", "University of Maryland Center for Environmental Sciences",
+    "University of Maryland Eastern Shore", "University of Massachusetts Amherst", "University of Massachusetts Boston",
+    "University of Massachusetts Lowell", "University of Memphis", "University of Miami", "University of Michigan",
+    "University of Minnesota Duluth", "University of Minnesota Twin Cities", "University of Mississippi",
+    "University of Missouri Columbia", "University of Missouri Kansas City", "University of Missouri Saint Louis",
+    "University of Montana", "University of Nebraska at Omaha", "University of Nebraska Lincoln", "University of Nevada Las Vegas",
+    "University of New Hampshire", "University of New Haven", "University of New Mexico", "University of New Orleans",
+    "University of North Alabama", "University of North Carolina at Asheville", "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Charlotte", "University of North Carolina Greensboro", "University of North Dakota",
+    "University of North Florida", "University of North Georgia", "University of North Texas", "University of Northern Colorado",
+    "University of Northern Iowa", "University of Notre Dame", "University of Oklahoma", "University of Oregon",
+    "University of Pennsylvania", "University of Pittsburgh", "University of Puerto Rico at Bayamon", "University of Puerto Rico at Carolina",
+    "University of Puerto Rico Cayey", "University of Puerto Rico Mayaguez", "University of Puerto Rico Rio Piedras",
+    "University of Rhode Island", "University of Richmond", "University of Rochester", "University of Saint Mary",
+    "University of San Diego", "University of San Francisco", "University of South Alabama", "University of South Carolina",
+    "University of South Dakota", "University of South Florida", "University of Southern California", "University of Southern Maine",
+    "University of Southern Mississippi", "University of St. Thomas", "University of Tennessee Chattanooga",
+    "University of Tennessee Knoxville", "University of Texas at Arlington", "University of Texas at Austin",
+    "University of Texas at Dallas", "University of Texas at El Paso", "University of Texas at San Antonio",
+    "University of Texas at Tyler", "University of Texas of the Permian Basin", "University of The Virgin Islands",
+    "University of Toledo", "University of Tulsa", "University of Utah", "University of Vermont", "University of Virginia",
+    "University of Washington", "University of West Florida", "University of Wisconsin Eau Claire", "University of Wisconsin Madison",
+    "University of Wisconsin Milwaukee", "University of Wisconsin Oshkosh", "University of Wisconsin Parkside",
+    "University of Wisconsin Platteville", "University of Wisconsin Stout", "University of Wisconsin Whitewater",
+    "University of Wyoming", "University of the District of Columbia", "University of the Pacific", "University of the Southwest",
+    "Utah State University", "Utah Tech University", "Utah Valley University", "Valley City State University",
+    "Vanderbilt University", "Villanova University", "Virginia Commonwealth University",
+    "Virginia Polytechnic Institute and State University", "Virginia State University", "Virginia Wesleyan University",
+    "Wake Forest University", "Walla Walla University", "Washington and Lee University", "Washington State University",
+    "Washington University", "Wayne State University", "Webster University", "Wentworth Institute of Technology",
+    "Wesleyan University", "West Chester University of Pennsylvania", "West Texas A&M University",
+    "West Virginia University", "West Virginia University at Parkersburg", "WestEd", "Western Carolina University",
+    "Western Kentucky University", "Western Michigan University", "Western New England University", "Western Washington University",
+    "Whitworth University", "Wichita State University", "Wilkes University", "William Marsh Rice University",
+    "Winston-Salem State University", "Winthrop University", "Wisconsin Lutheran College", "Woods Hole Oceanographic Institution",
+    "Worcester Polytechnic Institute", "Wright State University", "Xavier University of Louisiana", "Yale University",
+    "Youngstown State University",
+]
+
+def normalize_faculty_entry(pi):
+    """Normalize a faculty entry to consistent format (handles both old and NSF formats)."""
+    if not isinstance(pi, dict):
+        return None
+    
+    if "id" not in pi:
+        pi["id"] = pi.get("name", "")
+    
+    # NSF data uses "institution"; normalize so "school" always exists
+    if "school" not in pi and pi.get("institution"):
+        pi["school"] = pi.get("institution", "")
+    
+    # Handle email as list (NSF format) or string (old format)
+    email = pi.get("email", "")
+    if isinstance(email, list):
+        pi["email"] = email[0] if email else ""
+    
+    # Handle research_areas as list (NSF format) or string (old format)
+    research_areas = pi.get("research_areas", "")
+    if isinstance(research_areas, list):
+        pi["research_areas"] = ", ".join(str(r) for r in research_areas[:5])
+    
+    # Handle lab_techniques as list (NSF format) or string (old format)
+    lab_techniques = pi.get("lab_techniques", "")
+    if isinstance(lab_techniques, list):
+        pi["lab_techniques"] = ", ".join(str(t) for t in lab_techniques)
+    
+    # Set defaults for missing fields
+    pi.setdefault("school", "")
+    pi.setdefault("department", "")
+    pi.setdefault("location", "")
+    pi.setdefault("lab_techniques", "")
+    pi.setdefault("title", "")
+    pi.setdefault("research_areas", "")
+    
+    if not pi.get("research_areas") and pi.get("research_topics"):
+        topics = pi["research_topics"]
+        if isinstance(topics, list):
+            pi["research_areas"] = ", ".join(str(t) for t in topics[:5])
+    
+    return pi
+
+
 def load_faculty():
-    """Load faculty from JSON with caching. Supports MVP/NSF format (metadata + faculty list)."""
+    """Load faculty from JSON with caching. Includes both Harvard data and NSF Active Awards 2026."""
     global _faculty_cache
     now = _time.time()
     if _faculty_cache["data"] is not None and _faculty_cache["loaded_at"] and (now - _faculty_cache["loaded_at"]) < CACHE_TTL:
         return _faculty_cache["data"]
+    
+    faculty = []
+    seen_names = set()  # Track names to avoid duplicates
+    
+    # ==========================================================================
+    # INSTITUTION FILTER - Set to None to show all schools, or specify schools
+    # When ready to expand, set ENABLED_SCHOOLS = None to show all institutions
+    # ==========================================================================
+    ENABLED_SCHOOLS = {"harvard", "harvard university"}  # Only Harvard for now
+    # ENABLED_SCHOOLS = None  # Uncomment this line to enable ALL schools
+    # ==========================================================================
+    
+    # Load primary faculty data (Harvard/existing)
     try:
         with open(FACULTY_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
+        if isinstance(data, dict) and "faculty" in data:
+            primary_faculty = data["faculty"]
+        else:
+            primary_faculty = data if isinstance(data, list) else []
+        
+        for pi in primary_faculty:
+            normalized = normalize_faculty_entry(pi)
+            if normalized:
+                # Apply school filter
+                school = normalized.get("school", "").lower()
+                if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
+                    continue
+                
+                name_lower = normalized.get("name", "").lower()
+                if name_lower and name_lower not in seen_names:
+                    faculty.append(normalized)
+                    seen_names.add(name_lower)
     except FileNotFoundError:
-        return []
-    if isinstance(data, dict) and "faculty" in data:
-        faculty = data["faculty"]
-    else:
-        faculty = data if isinstance(data, list) else []
-    for pi in faculty:
-        if not isinstance(pi, dict):
-            continue
-        if "id" not in pi:
-            pi["id"] = pi.get("name", "")
-        # NSF data uses "institution"; normalize so "school" always exists
-        if "school" not in pi and pi.get("institution"):
-            pi["school"] = pi.get("institution", "")
-        pi.setdefault("school", "")
-        pi.setdefault("department", "")
-        pi.setdefault("location", "")
-        pi.setdefault("lab_techniques", "")
-        pi.setdefault("title", "")
-        if "research_areas" not in pi and pi.get("research_topics"):
-            pi["research_areas"] = ", ".join((pi["research_topics"] or [])[:5])
+        pass
+    
+    # Load NSF Active Awards 2026 data (ready to enable when needed)
+    # Currently filtered to Harvard only; set ENABLED_SCHOOLS = None above to enable all
+    try:
+        if os.path.exists(NSF_ACTIVE_PATH):
+            with open(NSF_ACTIVE_PATH, "r", encoding="utf-8") as f:
+                nsf_data = json.load(f)
+            if isinstance(nsf_data, list):
+                for pi in nsf_data:
+                    normalized = normalize_faculty_entry(pi)
+                    if normalized:
+                        # Apply school filter
+                        school = normalized.get("school", "").lower()
+                        if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
+                            continue
+                        
+                        name_lower = normalized.get("name", "").lower()
+                        # Only add if not already in the list (avoid duplicates)
+                        if name_lower and name_lower not in seen_names:
+                            faculty.append(normalized)
+                            seen_names.add(name_lower)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        app.logger.warning(f"Could not load NSF data: {e}")
+    
     _faculty_cache["data"] = faculty
     _faculty_cache["loaded_at"] = now
     _faculty_cache["by_name"] = {pi.get("name", "").lower(): pi for pi in faculty if pi.get("name")}
@@ -823,7 +1079,7 @@ def general():
     # Prioritize PIs with email + website (rich data) first; NSF-only later
     filtered.sort(key=_pi_display_priority, reverse=True)
 
-    per_page = 20
+    per_page = 15
     total_count = len(filtered)
     total_pages = max(1, (total_count + per_page - 1) // per_page)
     page = min(page, total_pages)
@@ -1027,18 +1283,25 @@ def saved_pis():
     if not user_id:
         return redirect(url_for("login"))
 
-    # Load all faculty data and create a lookup dictionary
+    # Load all faculty data and create lookup dictionaries (by id and by name)
     all_faculty = load_faculty()
     pi_by_id = {pi["id"]: pi for pi in all_faculty}
+    pi_by_name = {pi.get("name", "").lower(): pi for pi in all_faculty if pi.get("name")}
 
     # Get all the saved PI IDs for this user
     saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
     # Convert the saved IDs back into full PI data
+    # Try lookup by id first, then by name (since matches page uses name as id)
     saved_pis_data = []
+    seen_names = set()  # Avoid duplicates
     for row in saved_rows:
         pi = pi_by_id.get(row.pi_id)
-        if pi:
+        if not pi:
+            # Try looking up by name (case-insensitive)
+            pi = pi_by_name.get(row.pi_id.lower())
+        if pi and pi.get("name") not in seen_names:
             saved_pis_data.append(pi)
+            seen_names.add(pi.get("name"))
 
     return render_template("saved_pis.html", saved_pis=saved_pis_data)
 
@@ -1322,7 +1585,7 @@ def try_demo():
 
 @app.route("/compare-labs")
 def compare_labs():
-    """Compare selected labs side-by-side."""
+    """Compare selected labs side-by-side with pagination (5 labs per page)."""
     user_id = session.get("user_id")
     if not user_id:
         return redirect(url_for("login"))
@@ -1338,16 +1601,44 @@ def compare_labs():
     
     all_faculty = load_faculty()
     pi_by_id = {pi["id"]: pi for pi in all_faculty}
-    labs_to_compare = [pi_by_id.get(pi_id) for pi_id in pi_ids if pi_id in pi_by_id]
+    pi_by_name = {pi.get("name", "").lower(): pi for pi in all_faculty if pi.get("name")}
     
-    # Filter out None values in case some IDs weren't found
-    labs_to_compare = [lab for lab in labs_to_compare if lab is not None]
+    # Look up labs by id first, then by name (for matches page compatibility)
+    all_labs_to_compare = []
+    for pi_id in pi_ids:
+        lab = pi_by_id.get(pi_id)
+        if not lab:
+            lab = pi_by_name.get(pi_id.lower())
+        if lab:
+            all_labs_to_compare.append(lab)
     
-    if len(labs_to_compare) < 2:
+    if len(all_labs_to_compare) < 2:
         flash("Could not find the selected labs. Please try again.", "error")
         return redirect(url_for("saved_pis"))
     
-    return render_template("compare_labs.html", labs=labs_to_compare)
+    # Pagination: 5 labs per page
+    page = request.args.get("page", 1, type=int)
+    per_page = 5
+    if page < 1:
+        page = 1
+    
+    total_labs = len(all_labs_to_compare)
+    total_pages = max(1, (total_labs + per_page - 1) // per_page)
+    page = min(page, total_pages)
+    
+    start_idx = (page - 1) * per_page
+    end_idx = start_idx + per_page
+    labs_to_compare = all_labs_to_compare[start_idx:end_idx]
+    
+    return render_template(
+        "compare_labs.html",
+        labs=labs_to_compare,
+        all_pi_ids=pi_ids,
+        page=page,
+        per_page=per_page,
+        total_labs=total_labs,
+        total_pages=total_pages,
+    )
 
 @app.route("/multi-email", methods=["GET", "POST"])
 def multi_email():
@@ -1431,30 +1722,24 @@ def onboarding():
         db.session.add(profile)
         db.session.commit()
 
-    # Build schools list from faculty data (same as institution filter on general page)
-    try:
-        all_faculty = load_faculty()
-        schools = sorted(set(pi.get("school") or pi.get("institution") or "" for pi in all_faculty) - {""})
-    except Exception:
-        schools = []
+    # Use the complete list of 567 schools from NSF Active Awards 2026
+    schools = ALL_SCHOOLS
 
     if request.method == "POST":
         # MVP: 5-question profile (fast matching, no resume)
         profile.research_field = request.form.get("research_field", "").strip()
-        # Research topics: from multi-select and/or "other" text (comma-separated)
-        selected_topics = [t.strip() for t in request.form.getlist("research_topics") if t.strip()]
-        other_topics = request.form.get("research_topics_other", "").strip()
-        if other_topics:
-            selected_topics = selected_topics + [t.strip() for t in other_topics.split(",") if t.strip()]
+        # Research topics: from comma-separated hidden field (new autocomplete UI)
+        topics_str = request.form.get("research_topics", "").strip()
+        selected_topics = [t.strip() for t in topics_str.split(",") if t.strip()]
         if not selected_topics:
-            flash("Please select at least one research topic or enter other interests.", "error")
+            flash("Please select at least one research topic.", "error")
             return render_template(
                 "onboarding.html",
                 profile=profile,
                 schools=schools,
+                research_fields=RESEARCH_FIELDS,
                 common_research_topics=COMMON_RESEARCH_TOPICS,
-                profile_research_topics_set=set(),
-                profile_research_topics_other=other_topics,
+                profile_research_topics_list=[],
             )
         profile.research_topics = ", ".join(selected_topics)
         profile.academic_level = request.form.get("academic_level", "").strip()
@@ -1473,20 +1758,17 @@ def onboarding():
         flash("Profile complete! Here are your matches.", "success")
         return redirect(url_for("matches"))
 
-    # Pre-fill: which common topics are selected; which "other" topics (not in common list)
+    # Pre-fill: selected topics as a list
     profile_topics_str = (profile.research_topics or "").strip()
     profile_topics_list = [t.strip() for t in profile_topics_str.split(",") if t.strip()]
-    profile_topics_set = set(t.lower() for t in profile_topics_list)
-    common_set = set(COMMON_RESEARCH_TOPICS)
-    profile_research_topics_other = ", ".join(t for t in profile_topics_list if t.lower() not in common_set and t.lower() != "other")
 
     return render_template(
         "onboarding.html",
         profile=profile,
         schools=schools,
+        research_fields=RESEARCH_FIELDS,
         common_research_topics=COMMON_RESEARCH_TOPICS,
-        profile_research_topics_set=profile_topics_set,
-        profile_research_topics_other=profile_research_topics_other,
+        profile_research_topics_list=profile_topics_list,
     )
 
 @app.route("/account")
