@@ -5,6 +5,12 @@
   <p class="subtitle">Side-by-side comparison of selected research labs</p>
 
   {% if labs %}
+    {% if total_pages is defined and total_pages > 1 %}
+      <p style="color: var(--text-muted); margin-bottom: 1rem;">
+        Showing labs {{ (page - 1) * per_page + 1 }}-{{ [(page - 1) * per_page + labs|length, total_labs]|min }} of {{ total_labs }} selected labs
+      </p>
+    {% endif %}
+
     <div class="compare-container">
       <table class="compare-table">
         <thead>
@@ -15,9 +21,13 @@
                 <div class="compare-lab-header">
                   <div class="compare-lab-name">{{ lab.name }}</div>
                   <div class="compare-lab-school">{{ lab.school }}</div>
-                  <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: 0.5rem;">
-                    <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                  {% if lab.school in SCHOOL_LOGOS %}
+                  <img src="{{ url_for('static', filename='images/' + SCHOOL_LOGOS[lab.school]) }}" alt="{{ lab.school }}" class="institution-logo" style="width: 40px; height: 40px; object-fit: contain; margin-top: 0.5rem;">
+                  {% else %}
+                  <svg class="institution-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; margin-top: 0.5rem;">
+                    <text x="100" y="120" font-family="serif" font-size="80" font-weight="bold" class="institution-logo-default" text-anchor="middle">{{ lab.school[0]|upper }}</text>
                   </svg>
+                  {% endif %}
                 </div>
               </th>
             {% endfor %}
@@ -95,9 +105,20 @@
         </tbody>
       </table>
 
+      {% if total_pages is defined and total_pages > 1 %}
+        <nav class="pagination" aria-label="Compare labs pagination">
+          {% if page > 1 %}
+            <a href="{{ url_for('compare_labs', pi_ids=all_pi_ids, page=page-1) }}" class="page-link">← Previous</a>
+          {% endif %}
+          <span class="page-info">Page {{ page }} of {{ total_pages }}</span>
+          {% if page < total_pages %}
+            <a href="{{ url_for('compare_labs', pi_ids=all_pi_ids, page=page+1) }}" class="page-link">Next →</a>
+          {% endif %}
+        </nav>
+      {% endif %}
+
       <div class="compare-actions">
         <a href="{{ url_for('saved_pis') }}" class="btn-secondary">← Back to Saved Labs</a>
-        <a href="{{ url_for('bulk_email') }}" class="btn-primary">Generate Emails for These Labs</a>
       </div>
     </div>
   {% else %}

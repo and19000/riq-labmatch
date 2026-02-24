@@ -73,7 +73,7 @@
     <!-- Main Content -->
     <div class="main-content">
       <div class="search-bar-container">
-        <input type="text" class="search-bar" placeholder="Search by name, institution, research interests, or skills (e.g., 'deep learning')..." id="searchInput">
+        <input type="text" class="search-bar" placeholder="Search by field (e.g. 'Physics'), professor name, institution, or research area..." id="searchInput">
         <div class="search-count">
           {% if total_count is defined and total_count > 0 %}
             Showing <strong>{{ show_start }}-{{ show_end }}</strong> of <strong>{{ total_count }}</strong> lab{{ 's' if total_count != 1 else '' }}
@@ -99,16 +99,21 @@
             </thead>
             <tbody>
               {% for pi in faculty_list %}
-                <tr class="pi-row" 
-                    data-name="{{ pi.name|lower }}" 
-                    data-institution="{{ pi.school|lower }}" 
+                <tr class="pi-row"
+                    data-name="{{ pi.name|lower }}"
+                    data-institution="{{ pi.school|lower }}"
                     data-research="{{ pi.research_areas|lower }}"
-                    data-techniques="{{ (pi.get('lab_techniques', '') or '')|lower }}">
+                    data-techniques="{{ (pi.get('lab_techniques', '') or '')|lower }}"
+                    data-department="{{ pi.department|lower }}">
                   <td>
                     <div class="logo-container">
-                      <svg class="harvard-logo-small" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <text x="100" y="70" font-family="serif" font-size="60" font-weight="bold" fill="#A51C30" text-anchor="middle">H</text>
+                      {% if pi.school in SCHOOL_LOGOS %}
+                      <img src="{{ url_for('static', filename='images/' + SCHOOL_LOGOS[pi.school]) }}" alt="{{ pi.school }}" class="institution-logo">
+                      {% else %}
+                      <svg class="institution-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <text x="100" y="120" font-family="serif" font-size="80" font-weight="bold" class="institution-logo-default" text-anchor="middle">{{ pi.school[0]|upper }}</text>
                       </svg>
+                      {% endif %}
                     </div>
                   </td>
                   <td>
@@ -116,7 +121,10 @@
                     {% if pi.research_topics %}
                     <p class="research-topics">{{ (pi.research_topics or [])[:3] | join(' · ') }}</p>
                     {% endif %}
-                    <div class="table-lab-info">{{ pi.school }}, {{ pi.department }}</div>
+                    <div class="table-lab-info">{{ pi.school }}</div>
+                    {% if pi.department %}
+                    <span class="department-badge" data-field="{{ dept_field_key(pi.department) }}">{{ pi.department }}</span>
+                    {% endif %}
                     {% if pi.get('h_index') %}
                       <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-muted);">
                         H-index: <strong style="color: var(--accent);">{{ pi.h_index }}</strong>
@@ -174,39 +182,13 @@
 
       {% if faculty_list and total_pages is defined and total_pages > 1 %}
         <nav class="pagination" aria-label="Pagination">
-          <div class="pagination-inner">
-            {% if page > 1 %}
-              <a href="{{ url_for('general', **pagination_query(page - 1)) }}" class="pagination-link pagination-prev" rel="prev">‹ Previous</a>
-            {% else %}
-              <span class="pagination-link pagination-prev disabled">‹ Previous</span>
-            {% endif %}
-            <span class="pagination-pages">
-              {% if page > 3 %}
-                <a href="{{ url_for('general', **pagination_query(1)) }}" class="pagination-link">1</a>
-                {% if page > 4 %}
-                  <span class="pagination-ellipsis">…</span>
-                {% endif %}
-              {% endif %}
-              {% for p in range([1, page - 2]|max, [total_pages, page + 2]|min + 1) %}
-                {% if p == page %}
-                  <span class="pagination-link pagination-current" aria-current="page">{{ p }}</span>
-                {% else %}
-                  <a href="{{ url_for('general', **pagination_query(p)) }}" class="pagination-link">{{ p }}</a>
-                {% endif %}
-              {% endfor %}
-              {% if page < total_pages - 2 %}
-                {% if page < total_pages - 3 %}
-                  <span class="pagination-ellipsis">…</span>
-                {% endif %}
-                <a href="{{ url_for('general', **pagination_query(total_pages)) }}" class="pagination-link">{{ total_pages }}</a>
-              {% endif %}
-            </span>
-            {% if page < total_pages %}
-              <a href="{{ url_for('general', **pagination_query(page + 1)) }}" class="pagination-link pagination-next" rel="next">Next ›</a>
-            {% else %}
-              <span class="pagination-link pagination-next disabled">Next ›</span>
-            {% endif %}
-          </div>
+          {% if page > 1 %}
+            <a href="{{ url_for('general', **pagination_query(page - 1)) }}" class="page-link">← Previous</a>
+          {% endif %}
+          <span class="page-info">Page {{ page }} of {{ total_pages }}</span>
+          {% if page < total_pages %}
+            <a href="{{ url_for('general', **pagination_query(page + 1)) }}" class="page-link">Next →</a>
+          {% endif %}
         </nav>
       {% endif %}
     </div>
@@ -316,39 +298,86 @@
       }
     });
     
-    // Simple search functionality
+    // Ranked search functionality — scores and sorts results by relevance
     document.addEventListener('DOMContentLoaded', function() {
       const searchInput = document.getElementById('searchInput');
       if (!searchInput) return;
-      
-      const rows = document.querySelectorAll('.pi-row');
-      
+
+      const tbody = document.querySelector('.labs-table tbody');
+      const rows = Array.from(document.querySelectorAll('.pi-row'));
+      // Save original order for restoring when search is cleared
+      const originalOrder = rows.map(row => row);
+
+      let debounceTimer = null;
       searchInput.addEventListener('input', function(e) {
-        const searchTerm = e.target.value.toLowerCase();
-        
-        rows.forEach(row => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => performSearch(e.target.value), 150);
+      });
+
+      function performSearch(rawTerm) {
+        const searchTerm = rawTerm.trim().toLowerCase();
+
+        if (!searchTerm) {
+          // Restore original order and show all
+          originalOrder.forEach(row => {
+            row.style.display = '';
+            tbody.appendChild(row);
+          });
+          updateCount(rows.length);
+          return;
+        }
+
+        // Split into words for multi-word matching
+        const terms = searchTerm.split(/\s+/).filter(t => t.length > 0);
+
+        const scored = rows.map(row => {
           const name = row.getAttribute('data-name') || '';
           const institution = row.getAttribute('data-institution') || '';
+          const department = row.getAttribute('data-department') || '';
           const research = row.getAttribute('data-research') || '';
           const techniques = row.getAttribute('data-techniques') || '';
-          
-          if (name.includes(searchTerm) || 
-              institution.includes(searchTerm) || 
-              research.includes(searchTerm) ||
-              techniques.includes(searchTerm)) {
+
+          let score = 0;
+
+          for (const term of terms) {
+            // Department/field: highest priority (+4)
+            if (department.includes(term)) score += 4;
+            // Professor name: high priority (+3)
+            if (name.includes(term)) score += 3;
+            // Institution: medium priority (+2)
+            if (institution.includes(term)) score += 2;
+            // Research areas: medium priority (+2)
+            if (research.includes(term)) score += 2;
+            // Techniques: lower priority (+1)
+            if (techniques.includes(term)) score += 1;
+          }
+
+          return { row, score };
+        });
+
+        // Sort by score descending, hide zero-score rows
+        scored.sort((a, b) => b.score - a.score);
+
+        let visibleCount = 0;
+        scored.forEach(({ row, score }) => {
+          if (score > 0) {
             row.style.display = '';
+            visibleCount++;
           } else {
             row.style.display = 'none';
           }
+          tbody.appendChild(row);
         });
-        
-        // Update count
-        const visibleRows = Array.from(rows).filter(row => row.style.display !== 'none');
+
+        updateCount(visibleCount);
+      }
+
+      function updateCount(count) {
         const countEl = document.querySelector('.search-count');
         if (countEl) {
-          countEl.innerHTML = '<strong>' + visibleRows.length + '</strong> lab' + (visibleRows.length !== 1 ? 's' : '');
+          countEl.innerHTML = '<strong>' + count + '</strong> lab' + (count !== 1 ? 's' : '');
         }
-      });
+      }
     });
 
     // Handle save button clicks with AJAX to prevent scroll to top

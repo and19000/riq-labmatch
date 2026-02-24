@@ -1,0 +1,195 @@
+{
+  "institution": "Massachusetts Institute of Technology",
+  "short_name": "MIT",
+  "location": "Cambridge, MA",
+  "openalex_id": "I63966007",
+  "last_updated": "2026-02-23",
+  "schools": [
+    {
+      "name": "School of Engineering",
+      "departments": [
+        {
+          "name": "Electrical Engineering and Computer Science",
+          "abbreviation": "EECS",
+          "faculty_url": "https://www.eecs.mit.edu/people/faculty/",
+          "department_url": "https://www.eecs.mit.edu/"
+        },
+        {
+          "name": "Mechanical Engineering",
+          "abbreviation": "MechE",
+          "faculty_url": "https://meche.mit.edu/people?type=faculty",
+          "department_url": "https://meche.mit.edu/"
+        },
+        {
+          "name": "Chemical Engineering",
+          "abbreviation": "ChemE",
+          "faculty_url": "https://cheme.mit.edu/people/faculty/",
+          "department_url": "https://cheme.mit.edu/"
+        },
+        {
+          "name": "Civil and Environmental Engineering",
+          "abbreviation": "CEE",
+          "faculty_url": "https://cee.mit.edu/people/faculty/",
+          "department_url": "https://cee.mit.edu/"
+        },
+        {
+          "name": "Materials Science and Engineering",
+          "abbreviation": "DMSE",
+          "faculty_url": "https://dmse.mit.edu/people/faculty",
+          "department_url": "https://dmse.mit.edu/"
+        },
+        {
+          "name": "Biological Engineering",
+          "abbreviation": "BE",
+          "faculty_url": "https://be.mit.edu/directory/faculty",
+          "department_url": "https://be.mit.edu/"
+        },
+        {
+          "name": "Nuclear Science and Engineering",
+          "abbreviation": "NSE",
+          "faculty_url": "https://web.mit.edu/nse/people/faculty/",
+          "department_url": "https://web.mit.edu/nse/"
+        },
+        {
+          "name": "Aeronautics and Astronautics",
+          "abbreviation": "AeroAstro",
+          "faculty_url": "https://aeroastro.mit.edu/people/faculty/",
+          "department_url": "https://aeroastro.mit.edu/"
+        },
+        {
+          "name": "Institute for Data, Systems, and Society",
+          "abbreviation": "IDSS",
+          "faculty_url": "https://idss.mit.edu/people/",
+          "department_url": "https://idss.mit.edu/"
+        }
+      ]
+    },
+    {
+      "name": "School of Science",
+      "departments": [
+        {
+          "name": "Mathematics",
+          "abbreviation": "Math",
+          "faculty_url": "https://math.mit.edu/directory/faculty.html",
+          "department_url": "https://math.mit.edu/"
+        },
+        {
+          "name": "Physics",
+          "abbreviation": "Physics",
+          "faculty_url": "https://physics.mit.edu/faculty/",
+          "department_url": "https://physics.mit.edu/"
+        },
+        {
+          "name": "Chemistry",
+          "abbreviation": "Chemistry",
+          "faculty_url": "https://chemistry.mit.edu/people/faculty/",
+          "department_url": "https://chemistry.mit.edu/"
+        },
+        {
+          "name": "Biology",
+          "abbreviation": "Biology",
+          "faculty_url": "https://biology.mit.edu/people/faculty/",
+          "department_url": "https://biology.mit.edu/"
+        },
+        {
+          "name": "Brain and Cognitive Sciences",
+          "abbreviation": "BCS",
+          "faculty_url": "https://bcs.mit.edu/directory?type=faculty",
+          "department_url": "https://bcs.mit.edu/"
+        },
+        {
+          "name": "Earth, Atmospheric and Planetary Sciences",
+          "abbreviation": "EAPS",
+          "faculty_url": "https://eapsweb.mit.edu/people/faculty",
+          "department_url": "https://eapsweb.mit.edu/"
+        }
+      ]
+    },
+    {
+      "name": "MIT Sloan School of Management",
+      "departments": [
+        {
+          "name": "Management",
+          "abbreviation": "Sloan",
+          "faculty_url": "https://mitsloan.mit.edu/faculty/directory",
+          "department_url": "https://mitsloan.mit.edu/"
+        }
+      ]
+    },
+    {
+      "name": "School of Architecture and Planning",
+      "departments": [
+        {
+          "name": "Architecture",
+          "abbreviation": "Arch",
+          "faculty_url": "https://architecture.mit.edu/faculty",
+          "department_url": "https://architecture.mit.edu/"
+        },
+        {
+          "name": "Urban Studies and Planning",
+          "abbreviation": "DUSP",
+          "faculty_url": "https://dusp.mit.edu/people/faculty",
+          "department_url": "https://dusp.mit.edu/"
+        },
+        {
+          "name": "Media Arts and Sciences",
+          "abbreviation": "Media Lab",
+          "faculty_url": "https://www.media.mit.edu/people/?filter=faculty",
+          "department_url": "https://www.media.mit.edu/"
+        }
+      ]
+    },
+    {
+      "name": "School of Humanities, Arts, and Social Sciences",
+      "departments": [
+        {
+          "name": "Economics",
+          "abbreviation": "Econ",
+          "faculty_url": "https://economics.mit.edu/people/faculty",
+          "department_url": "https://economics.mit.edu/"
+        },
+        {
+          "name": "Linguistics and Philosophy",
+          "abbreviation": "LingPhil",
+          "faculty_url": "https://linguistics.mit.edu/people/",
+          "department_url": "https://linguistics.mit.edu/"
+        },
+        {
+          "name": "Political Science",
+          "abbreviation": "PolSci",
+          "faculty_url": "https://polisci.mit.edu/people/faculty",
+          "department_url": "https://polisci.mit.edu/"
+        },
+        {
+          "name": "History",
+          "abbreviation": "History",
+          "faculty_url": "https://history.mit.edu/people/faculty/",
+          "department_url": "https://history.mit.edu/"
+        },
+        {
+          "name": "Literature",
+          "abbreviation": "Lit",
+          "faculty_url": "https://lit.mit.edu/people/",
+          "department_url": "https://lit.mit.edu/"
+        },
+        {
+          "name": "Music and Theater Arts",
+          "abbreviation": "MTA",
+          "faculty_url": "https://mta.mit.edu/people",
+          "department_url": "https://mta.mit.edu/"
+        }
+      ]
+    },
+    {
+      "name": "Schwarzman College of Computing",
+      "departments": [
+        {
+          "name": "Computer Science and Artificial Intelligence Laboratory",
+          "abbreviation": "CSAIL",
+          "faculty_url": "https://www.csail.mit.edu/people?person_type=All&research_area=All",
+          "department_url": "https://www.csail.mit.edu/"
+        }
+      ]
+    }
+  ]
+}

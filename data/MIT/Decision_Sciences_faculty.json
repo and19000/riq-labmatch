@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mit-A5025940525",
+    "name": "Dimitris Bertsimas",
+    "title": "Professor at Massachusetts Institute of Technology",
+    "department": "Decision Sciences",
+    "school": "MIT",
+    "location": "Cambridge, MA",
+    "specific_location": "Cambridge, MA",
+    "research_areas": "Risk and Portfolio Optimization; Advanced Queuing Theory Analysis; Advanced Optimization Algorithms Research; Vehicle Routing Optimization Methods; Statistical Methods and Inference",
+    "website": "",
+    "email": "",
+    "h_index": "93",
+    "lab_techniques": "Management Science and Operations Research, Management Information Systems, Numerical Analysis, Industrial and Manufacturing Engineering, Statistics and Probability, Mathematics, Computer science, Mathematical optimization, Artificial intelligence, Statistics",
+    "google_scholar": ""
+  },
+  {
+    "id": "mit-A5034822411",
+    "name": "Constantinos Daskalakis",
+    "title": "Professor at Massachusetts Institute of Technology",
+    "department": "Decision Sciences",
+    "school": "MIT",
+    "location": "Cambridge, MA",
+    "specific_location": "Cambridge, MA",
+    "research_areas": "Auction Theory and Applications; Game Theory and Applications; Machine Learning and Algorithms; Consumer Market Behavior and Pricing; Advanced Bandit Algorithms Research",
+    "website": "",
+    "email": "",
+    "h_index": "44",
+    "lab_techniques": "Management Science and Operations Research, Artificial Intelligence, Marketing, Mathematics, Computer science, Combinatorics, Statistics, Mathematical analysis, Auction Theory and Applications, Game Theory and Applications",
+    "google_scholar": ""
+  },
+  {
+    "id": "mit-A5032530685",
+    "name": "Pierre Azoulay",
+    "title": "Professor at Massachusetts Institute of Technology",
+    "department": "Decision Sciences",
+    "school": "MIT",
+    "location": "Cambridge, MA",
+    "specific_location": "Cambridge, MA",
+    "research_areas": "scientometrics and bibliometrics research; Health and Medical Research Impacts; Entrepreneurship Studies and Influences; Scientific Computing and Data Management; Innovation Policy and R&D",
+    "website": "",
+    "email": "",
+    "h_index": "34",
+    "lab_techniques": "Statistics, Probability and Uncertainty, Public Health, Environmental and Occupational Health, Management of Technology and Innovation, Information Systems and Management, Economics and Econometrics, Computer science, Business, Political science, Economics, Mathematics",
+    "google_scholar": ""
+  },
+  {
+    "id": "mit-A5070571735",
+    "name": "Gabriele Farina",
+    "title": "Professor at Massachusetts Institute of Technology",
+    "department": "Decision Sciences",
+    "school": "MIT",
+    "location": "Cambridge, MA",
+    "specific_location": "Cambridge, MA",
+    "research_areas": "Advanced Bandit Algorithms Research; Game Theory and Applications; Reinforcement Learning in Robotics; Artificial Intelligence in Games; Machine Learning and Algorithms",
+    "website": "",
+    "email": "",
+    "h_index": "11",
+    "lab_techniques": "Management Science and Operations Research, Artificial Intelligence, Regret, Computer science, Mathematics, Mathematical economics, Mathematical optimization, Advanced Bandit Algorithms Research, Game Theory and Applications, Reinforcement Learning in Robotics",
+    "google_scholar": ""
+  }
+]
