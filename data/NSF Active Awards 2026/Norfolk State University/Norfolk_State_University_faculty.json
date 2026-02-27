@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2602145",
+    "name": "Sunil K Karna",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Norfolk State University",
+    "location": "NORFOLK, VA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Excellence in Research: Investigation of novel spin textures in non-centrosymmetric magnetic materia..."
+    ],
+    "website": "",
+    "email": [
+      "skkarna@pvamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORFOLK, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2602145",
+        "title": "Excellence in Research: Investigation of novel spin textures in non-centrosymmetric magnetic materials",
+        "amount": "$519,949.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424872",
+    "name": "Claude F Turner",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Norfolk State University",
+    "location": "NORFOLK, VA",
+    "research_areas": [
+      "CSE",
+      "CAP: AI-SECURE: Expanding the Responsible AI and Cybersecurity Nexus at Norfolk State University thr..."
+    ],
+    "website": "",
+    "email": [
+      "cturner@nsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORFOLK, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2424872",
+        "title": "CAP: AI-SECURE: Expanding the Responsible AI and Cybersecurity Nexus at Norfolk State University through Research, Curriculum Development, and Training",
+        "amount": "$399,999.00",
+        "program": "ExpandAI, Alliances-Minority Participat.",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Carlene Turner cmturner@nsu.edu",
+      "Isaac O Osunmakinde ioosunmakinde@nsu.edu"
+    ]
+  }
+]

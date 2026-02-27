@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2424506",
+    "name": "Laura Edsberg",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Daemen College",
+    "location": "BUFFALO, NY",
+    "research_areas": [
+      "STEM Education",
+      "Daemen Science Scholars Program"
+    ],
+    "website": "",
+    "email": [
+      "ledsberg@daemen.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BUFFALO, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2424506",
+        "title": "Daemen Science Scholars Program",
+        "amount": "$999,824.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "03/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Diane M Ramos dramos@daemen.edu",
+      "Matthew S Ward mward@daemen.edu",
+      "Caitlyn Montross cmontros@daemen.edu"
+    ]
+  }
+]

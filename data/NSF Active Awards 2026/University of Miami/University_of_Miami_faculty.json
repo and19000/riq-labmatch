@@ -1,0 +1,171 @@
+[
+  {
+    "id": "nsf-2420871",
+    "name": "Don Cucchiara",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Miami",
+    "location": "CORAL GABLES, FL",
+    "research_areas": [
+      "Geosciences",
+      "Oceanographic Technicial Services 2024-2028",
+      "RV Walton Smith Ship Operations 2024 - 2028"
+    ],
+    "website": "",
+    "email": [
+      "dcucchiara@rsmas.miami.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CORAL GABLES, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2420871",
+        "title": "Oceanographic Technicial Services 2024-2028",
+        "amount": "$125,498.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2417997",
+        "title": "RV Walton Smith Ship Operations 2024 - 2028",
+        "amount": "$675,555.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2509533",
+    "name": "Ali Ghahremaninezhad",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Miami",
+    "location": "CORAL GABLES, FL",
+    "research_areas": [
+      "STEM Education",
+      "NRT: Convergent Graduate Training Program on Coastal Resilience"
+    ],
+    "website": "",
+    "email": [
+      "a.ghahremani@miami.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CORAL GABLES, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2509533",
+        "title": "NRT: Convergent Graduate Training Program on Coastal Resilience",
+        "amount": "$3,000,000.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rajeev Prabhakar rpr@miami.edu",
+      "Ravi Vadapalli rxv441@med.miami.edu",
+      "Prannoy Suraneni suranenip@miami.edu",
+      "Amanda M Oehlert aoehlert@rsmas.miami.edu"
+    ]
+  },
+  {
+    "id": "nsf-2446715",
+    "name": "Hilary G Close",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Miami",
+    "location": "CORAL GABLES, FL",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Hydrogen isotope analysis of amino acids as a novel tracer of microbial proc..."
+    ],
+    "website": "",
+    "email": [
+      "hclose@rsmas.miami.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CORAL GABLES, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2446715",
+        "title": "Collaborative Research: Hydrogen isotope analysis of amino acids as a novel tracer of microbial processes in marine particles",
+        "amount": "$452,631.00",
+        "program": "BIOLOGICAL OCEANOGRAPHY, Chemical Oceanography",
+        "end_date": "02/29/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447193",
+    "name": "Yang Wang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Miami",
+    "location": "CORAL GABLES, FL",
+    "research_areas": [
+      "Engineering",
+      "Conference: Center for Aerosol Science and Technology (CAST) Workshop on Wildland Fire Emissions and..."
+    ],
+    "website": "",
+    "email": [
+      "yangwang@miami.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CORAL GABLES, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2447193",
+        "title": "Conference: Center for Aerosol Science and Technology (CAST) Workshop on Wildland Fire Emissions and Indoor Air Quality",
+        "amount": "$10,000.00",
+        "program": "EnvE-Environmental Engineering",
+        "end_date": "06/30/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Chang-Yu Wu cxw964@miami.edu",
+      "Jiayu Li jiayuli@miami.edu"
+    ]
+  },
+  {
+    "id": "nsf-2503349",
+    "name": "Ali A Rownaghi",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Miami",
+    "location": "CORAL GABLES, FL",
+    "research_areas": [
+      "Engineering",
+      "Morphology-Controlled Carbon Molecular Sieve Membranes for Gas Separation"
+    ],
+    "website": "",
+    "email": [
+      "rownaghi@miami.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CORAL GABLES, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2503349",
+        "title": "Morphology-Controlled Carbon Molecular Sieve Membranes for Gas Separation",
+        "amount": "$414,710.00",
+        "program": "Interfacial Engineering Progra",
+        "end_date": "09/30/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

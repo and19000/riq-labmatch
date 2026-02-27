@@ -1,0 +1,109 @@
+[
+  {
+    "id": "nsf-2505323",
+    "name": "Richard Mu",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Tennessee State University",
+    "location": "NASHVILLE, TN",
+    "research_areas": [
+      "Engineering",
+      "Excellence in Research: Enhancing Thermal Transport in Polymers via Phonon Polaritons"
+    ],
+    "website": "",
+    "email": [
+      "rmu@tnstate.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NASHVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2505323",
+        "title": "Excellence in Research: Enhancing Thermal Transport in Polymers via Phonon Polaritons",
+        "amount": "$956,696.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "06/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Greg Walker greg.walker@vanderbilt.edu",
+      "Deyu Li deyu.li@vanderbilt.edu",
+      "Ranganathan Parthasarathy rparthas@tnstate.edu",
+      "Aung Myat amyat@tnstate.edu"
+    ]
+  },
+  {
+    "id": "nsf-2409093",
+    "name": "Ali S Sekmen",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Tennessee State University",
+    "location": "NASHVILLE, TN",
+    "research_areas": [
+      "STEM Education",
+      "CREST HBCU-RISE: Advancing Theoretical Artificial Intelligence Infrastructure for Modern Data Scienc..."
+    ],
+    "website": "",
+    "email": [
+      "alisekmen@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NASHVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2409093",
+        "title": "CREST HBCU-RISE: Advancing Theoretical Artificial Intelligence Infrastructure for Modern Data Science Challenges",
+        "amount": "$813,382.00",
+        "program": "Centers for Rsch Excell in S&T",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kamal Al Nasr kalnasr@tnstate.edu",
+      "Erdem Erdemir eerdemir@tnstate.edu",
+      "Kamrul Hasan mhasan1@tnstate.edu",
+      "Noel Bourne nbourne@tnstate.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430323",
+    "name": "Lin Li",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Tennessee State University",
+    "location": "NASHVILLE, TN",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: Ideas Lab: The HBCU Ujima Collective: Building Research Capacity at HBCUs th..."
+    ],
+    "website": "",
+    "email": [
+      "lli1@tnstate.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NASHVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2430323",
+        "title": "Collaborative Research: Ideas Lab: The HBCU Ujima Collective: Building Research Capacity at HBCUs through a Grow Your Own Research Corps Model",
+        "amount": "$580,001.00",
+        "program": "HBCU-EiR - HBCU-Excellence in, Hist Black Colleges and Univ",
+        "end_date": "08/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Artenzia C Young-Seigler ayoung@tnstate.edu",
+      "Charles D McCurry cmccurry@tnstate.edu",
+      "Lin Li (Former) lli1@tnstate.edu"
+    ]
+  }
+]

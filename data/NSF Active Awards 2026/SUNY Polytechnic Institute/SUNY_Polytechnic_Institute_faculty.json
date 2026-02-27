@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nsf-2433856",
+    "name": "Robert E Geer",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "SUNY Polytechnic Institute",
+    "location": "ALBANY, NY",
+    "research_areas": [
+      "STEM Education",
+      "The Educational Alliance for Semiconductor Experiential Learning"
+    ],
+    "website": "",
+    "email": [
+      "rgeer@albany.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALBANY, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2433856",
+        "title": "The Educational Alliance for Semiconductor Experiential Learning",
+        "amount": "$4,697,075.00",
+        "program": "Advanced Tech Education Prog",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yves Ngabonziza yngabonziza@lagcc.cuny.edu",
+      "Michell A Ward mward51@cscc.edu",
+      "Gino Duca g.duca@sunyocc.edu",
+      "Grant R Emmel gemmel@madisoncollege.edu"
+    ]
+  }
+]

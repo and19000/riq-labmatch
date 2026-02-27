@@ -1,0 +1,125 @@
+[
+  {
+    "id": "nsf-2529800",
+    "name": "Joshua Kritzer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tufts University",
+    "location": "MEDFORD, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Mapping the Collagenome with Stapled Collagen-Mimetic Peptides"
+    ],
+    "website": "",
+    "email": [
+      "joshua.kritzer@tufts.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEDFORD, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2529800",
+        "title": "Mapping the Collagenome with Stapled Collagen-Mimetic Peptides",
+        "amount": "$800,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2534637",
+    "name": "Rebecca H Jackson",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Tufts University",
+    "location": "MEDFORD, MA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: GreenFjord-FIBER, Observing the Ice-Ocean Interface with Exceptional Resolut..."
+    ],
+    "website": "",
+    "email": [
+      "rebecca.jackson@tufts.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEDFORD, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2534637",
+        "title": "Collaborative Research: GreenFjord-FIBER, Observing the Ice-Ocean Interface with Exceptional Resolution",
+        "amount": "$160,021.00",
+        "program": "ANS-Arctic Natural Sciences",
+        "end_date": "03/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2420040",
+    "name": "Samuel W Thomas",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tufts University",
+    "location": "MEDFORD, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Controlling Solid-State Packing and Properties of Conjugated Materials with Discrete Aromatic Intera..."
+    ],
+    "website": "",
+    "email": [
+      "sam.thomas@tufts.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEDFORD, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2420040",
+        "title": "Controlling Solid-State Packing and Properties of Conjugated Materials with Discrete Aromatic Interactions of Side Chains",
+        "amount": "$533,892.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS",
+        "end_date": "12/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mu-Ping Nieh mu-ping.nieh@uconn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2412818",
+    "name": "Ken Olum",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tufts University",
+    "location": "MEDFORD, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Observational Signatures of Cosmic Strings"
+    ],
+    "website": "",
+    "email": [
+      "kdo@cosmos.phy.tufts.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEDFORD, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2412818",
+        "title": "Observational Signatures of Cosmic Strings",
+        "amount": "$60,000.00",
+        "program": "Particle Astrophysics & Cosmol",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

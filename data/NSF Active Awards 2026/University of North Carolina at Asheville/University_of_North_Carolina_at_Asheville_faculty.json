@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2424507",
+    "name": "Rebecca Sanft",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of North Carolina at Asheville",
+    "location": "ASHEVILLE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Data Analytics Training and Scientific Computing Initiative"
+    ],
+    "website": "",
+    "email": [
+      "bsanft@unca.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ASHEVILLE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2424507",
+        "title": "Data Analytics Training and Scientific Computing Initiative",
+        "amount": "$1,999,399.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "05/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Britt F Lundgren blundgre@unca.edu",
+      "David Wake dwake@unca.edu",
+      "Kevin R Sanft ksanft@unca.edu"
+    ]
+  }
+]

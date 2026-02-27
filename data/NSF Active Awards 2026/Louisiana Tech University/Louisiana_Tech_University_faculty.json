@@ -1,0 +1,169 @@
+[
+  {
+    "id": "nsf-2533349",
+    "name": "Nathan E Green",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Louisiana Tech University",
+    "location": "RUSTON, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Meeting in the Middle: Conference on characteristic 0 and characteristic p multiple zeta..."
+    ],
+    "website": "",
+    "email": [
+      "ngreen@latech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "RUSTON, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2533349",
+        "title": "Conference: Meeting in the Middle: Conference on characteristic 0 and characteristic p multiple zeta values",
+        "amount": "$16,080.00",
+        "program": "ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "02/28/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2511649",
+    "name": "Scott Poh",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Louisiana Tech University",
+    "location": "RUSTON, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MRI: Track 1 Acquisition of a MALDI-TOF Mass Spectrometry to Enhanced Research Capabilities"
+    ],
+    "website": "",
+    "email": [
+      "spoh@latech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "RUSTON, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2511649",
+        "title": "MRI: Track 1 Acquisition of a MALDI-TOF Mass Spectrometry to Enhanced Research Capabilities",
+        "amount": "$194,513.00",
+        "program": "Chemical Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shengnian Wang swang@latech.edu",
+      "Gergana G Nestorova ggnestor@latech.edu",
+      "Shaurav Z Alam shaurav@latech.edu",
+      "Elisa Castagnola elisa@latech.edu"
+    ]
+  },
+  {
+    "id": "nsf-2514339",
+    "name": "Hughie L Sawyer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Louisiana Tech University",
+    "location": "RUSTON, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Searches and Measurements in Multi-Jet Production at the LHC and HL-LHC"
+    ],
+    "website": "",
+    "email": [
+      "sawyer@phys.latech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "RUSTON, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2514339",
+        "title": "Searches and Measurements in Multi-Jet Production at the LHC and HL-LHC",
+        "amount": "$395,362.00",
+        "program": "HEP-High Energy Physics",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Markus Wobisch wobisch@latech.edu"
+    ]
+  },
+  {
+    "id": "nsf-2449850",
+    "name": "Collin D Wick",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Louisiana Tech University",
+    "location": "RUSTON, LA",
+    "research_areas": [
+      "Engineering",
+      "IUSE/PFE:RED Planning: Multi-Department Culture Change through Common Sophomore Series"
+    ],
+    "website": "",
+    "email": [
+      "cwick@latech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "RUSTON, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2449850",
+        "title": "IUSE/PFE:RED Planning: Multi-Department Culture Change through Common Sophomore Series",
+        "amount": "$149,132.00",
+        "program": "IUSE, PFE\\RED - Professional Formati",
+        "end_date": "06/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Krystal S Cruse kcorbett@latech.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418390",
+    "name": "Shengnian Wang",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Louisiana Tech University",
+    "location": "RUSTON, LA",
+    "research_areas": [
+      "Office of the Director",
+      "RII FEC: Empowering Community Resilience with Sustainable Energy and Water Reuse Systems"
+    ],
+    "website": "",
+    "email": [
+      "swang@latech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "RUSTON, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2418390",
+        "title": "RII FEC: Empowering Community Resilience with Sustainable Energy and Water Reuse Systems",
+        "amount": "$2,972,788.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Qilin Dai qilin.dai@jsums.edu",
+      "David J Hanigan dhanigan@unr.edu",
+      "Christobel Asiedu casiedu@latech.edu"
+    ]
+  }
+]

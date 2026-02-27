@@ -1,0 +1,105 @@
+[
+  {
+    "id": "nsf-2418443",
+    "name": "Richard D Ricketts",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Minnesota Duluth",
+    "location": "DULUTH, MN",
+    "research_areas": [
+      "Geosciences",
+      "University of Minnesota Duluth / RV Blue Heron Oceanographic Technical Services - Year 1 of 5",
+      "University of Minnesota Duluth / RV Blue Heron Ship Operations - CY2024 - 2028"
+    ],
+    "website": "",
+    "email": [
+      "ricketts@d.umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DULUTH, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2418443",
+        "title": "University of Minnesota Duluth / RV Blue Heron Oceanographic Technical Services - Year 1 of 5",
+        "amount": "$206,089.00",
+        "program": "OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "12/31/2029",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2418441",
+        "title": "University of Minnesota Duluth / RV Blue Heron Ship Operations - CY2024 - 2028",
+        "amount": "$410,000.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2453431",
+    "name": "Prashanth K Poddutoori",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota Duluth",
+    "location": "DULUTH, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Charge Transfer Triplet States in Hypervalent Phosphorus(V) and Antimony(V) Porphyrins"
+    ],
+    "website": "",
+    "email": [
+      "ppk@d.umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DULUTH, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2453431",
+        "title": "RUI: Charge Transfer Triplet States in Hypervalent Phosphorus(V) and Antimony(V) Porphyrins",
+        "amount": "$346,854.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510240",
+    "name": "Byron A Steinman",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Minnesota Duluth",
+    "location": "DULUTH, MN",
+    "research_areas": [
+      "Geosciences",
+      "MRI: Track 1 Acquisition of an Isotope Ratio Mass Spectrometer for Ecology, Paleolimnology, and Biog..."
+    ],
+    "website": "",
+    "email": [
+      "bsteinma@d.umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DULUTH, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2510240",
+        "title": "MRI: Track 1 Acquisition of an Isotope Ratio Mass Spectrometer for Ecology, Paleolimnology, and Biogeochemical Research at the Large Lakes Observatory",
+        "amount": "$656,775.00",
+        "program": "Instrumentation & Facilities",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tedy Ozersky tozersky@d.umn.edu",
+      "Kathryn M Schreiner kschrein@d.umn.edu"
+    ]
+  }
+]

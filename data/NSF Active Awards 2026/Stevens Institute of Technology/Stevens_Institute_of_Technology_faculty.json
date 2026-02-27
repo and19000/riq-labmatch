@@ -1,0 +1,169 @@
+[
+  {
+    "id": "nsf-2603551",
+    "name": "Tao Ye",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Stevens Institute of Technology",
+    "location": "HOBOKEN, NJ",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Transformation of Phenols to Aliphatic Disinfection Byproducts: Identifying ...",
+      "Collaborative Research: Advanced Oxidation Processes for the Control of Iodinated Disinfection Bypro..."
+    ],
+    "website": "",
+    "email": [
+      "tye8@stevens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOBOKEN, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2603551",
+        "title": "Collaborative Research: Transformation of Phenols to Aliphatic Disinfection Byproducts: Identifying Critical Factors and Strategies that Minimize Intermediate Halophenols",
+        "amount": "$245,018.00",
+        "program": "EnvE-Environmental Engineering",
+        "end_date": "01/31/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2602795",
+        "title": "Collaborative Research: Advanced Oxidation Processes for the Control of Iodinated Disinfection Byproducts in Drinking Water",
+        "amount": "$147,737.00",
+        "program": "EnvE-Environmental Engineering",
+        "end_date": "09/30/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2504339",
+    "name": "Zhuo Feng",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Stevens Institute of Technology",
+    "location": "HOBOKEN, NJ",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: SHF: Medium: OASIS: An Open-Source AI-Driven EDA Tool for Real-Time Synthesi..."
+    ],
+    "website": "",
+    "email": [
+      "zfeng12@stevens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOBOKEN, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2504339",
+        "title": "Collaborative Research: SHF: Medium: OASIS: An Open-Source AI-Driven EDA Tool for Real-Time Synthesis of Short-Distance Wireless Interconnects on Silicon",
+        "amount": "$600,000.00",
+        "program": "Software & Hardware Foundation",
+        "end_date": "09/30/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yanghyo R Kim yanghyokim@umass.edu"
+    ]
+  },
+  {
+    "id": "nsf-2526604",
+    "name": "Pinar Akcora",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Stevens Institute of Technology",
+    "location": "HOBOKEN, NJ",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: REVEALING STRUCTURE-IONIC TRANSPORT RELATIONSHIP IN POLYMER-IONIC LIQUID ION..."
+    ],
+    "website": "",
+    "email": [
+      "Pinar.Akcora@stevens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOBOKEN, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2526604",
+        "title": "Collaborative Research: REVEALING STRUCTURE-IONIC TRANSPORT RELATIONSHIP IN POLYMER-IONIC LIQUID IONOGELS",
+        "amount": "$380,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2523997",
+    "name": "Hao Wang",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Stevens Institute of Technology",
+    "location": "HOBOKEN, NJ",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE MSI: RDP: CNS: Towards the Resilient NextG Network Design for Federated..."
+    ],
+    "website": "",
+    "email": [
+      "hwang9@stevens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOBOKEN, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2523997",
+        "title": "Collaborative Research: CISE MSI: RDP: CNS: Towards the Resilient NextG Network Design for Federated Learning over Mobile Devices",
+        "amount": "$149,990.00",
+        "program": "CISE MSI Research Expansion",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2413138",
+    "name": "Muhammad Hajj",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Stevens Institute of Technology",
+    "location": "HOBOKEN, NJ",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Phase I Stevens Institute of Technology: Center for Growing Ocean Energy Technologies and the ..."
+    ],
+    "website": "",
+    "email": [
+      "mhajj@stevens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOBOKEN, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2413138",
+        "title": "IUCRC Phase I Stevens Institute of Technology: Center for Growing Ocean Energy Technologies and the Blue Economy (GO Blue)",
+        "amount": "$238,855.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "10/31/2029",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Raju V Datla rdatla@stevens.edu",
+      "Lei Wu lwu11@stevens.edu",
+      "Gizem Acar gacar@stevens.edu"
+    ]
+  }
+]

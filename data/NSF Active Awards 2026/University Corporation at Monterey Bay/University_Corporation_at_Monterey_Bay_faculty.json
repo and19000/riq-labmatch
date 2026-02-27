@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2501238",
+    "name": "Cindy L Juntunen",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University Corporation at Monterey Bay",
+    "location": "SEASIDE, CA",
+    "research_areas": [
+      "Office of the Director",
+      "Planning: Developing a framework to meet research enterprise needs at California State University Mo..."
+    ],
+    "website": "",
+    "email": [
+      "cjuntunen@csumb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEASIDE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2501238",
+        "title": "Planning: Developing a framework to meet research enterprise needs at California State University Monterrey Bay: A scalable case study",
+        "amount": "$99,911.00",
+        "program": "GRANTED",
+        "end_date": "03/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alana J Unfried aunfried@csumb.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424692",
+    "name": "Krista P Kamer",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University Corporation at Monterey Bay",
+    "location": "SEASIDE, CA",
+    "research_areas": [
+      "STEM Education",
+      "Increasing Graduate Student Success in Marine Science"
+    ],
+    "website": "",
+    "email": [
+      "kkamer@csumb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEASIDE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2424692",
+        "title": "Increasing Graduate Student Success in Marine Science",
+        "amount": "$98,467.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

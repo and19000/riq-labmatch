@@ -1,0 +1,910 @@
+[
+  {
+    "id": "nsf-2513446",
+    "name": "Robert P Guralnick",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: Building the Twenty-first Century Citizen Science Framework to E...",
+      "Biological Sciences",
+      "Collaborative Research: Research Infrastructure: Moth Monitoring 2.0: Developing an integrated monit..."
+    ],
+    "website": "",
+    "email": [
+      "robgur@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2513446",
+        "title": "Collaborative Research: Frameworks: Building the Twenty-first Century Citizen Science Framework to Enable Scientific Discovery Across Disciplines",
+        "amount": "$128,523.00",
+        "program": "Software Institutes",
+        "end_date": "09/30/2029",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2512789",
+        "title": "Collaborative Research: Research Infrastructure: Moth Monitoring 2.0: Developing an integrated monitoring framework across life stages to understand insect declines",
+        "amount": "$429,998.00",
+        "program": "Innovation: Research Methods",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2440594",
+    "name": "Joshua D Moon",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Engineering high performance gas separation membranes through versatile control of polymer s...",
+      "Rational Design of Polymer Ionic Liquid Membranes through Uncovering Fundamental Gas Transport Mecha..."
+    ],
+    "website": "",
+    "email": [
+      "joshua.moon@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2440594",
+        "title": "CAREER: Engineering high performance gas separation membranes through versatile control of polymer structure and dynamics",
+        "amount": "$599,999.00",
+        "program": "Interfacial Engineering Progra",
+        "end_date": "05/31/2030",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2427603",
+        "title": "Rational Design of Polymer Ionic Liquid Membranes through Uncovering Fundamental Gas Transport Mechanisms",
+        "amount": "$601,752.00",
+        "program": "Special Initiatives",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2536330",
+    "name": "Satarupa Bhattacharjee",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Workshop on Frontiers in Learning under Data Heterogeneity"
+    ],
+    "website": "",
+    "email": [
+      "bhattacharjee.sa@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2536330",
+        "title": "Conference: Workshop on Frontiers in Learning under Data Heterogeneity",
+        "amount": "$11,000.00",
+        "program": "STATISTICS",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael J Daniels mdaniels@stat.ufl.edu",
+      "Sohom Bhattacharya bhattacharya.s@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2529139",
+    "name": "Keith R Willmott",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Biological Sciences",
+      "Participatory research program on the butterflies of Ecuador's protected areas: Taxonomic, phylogene..."
+    ],
+    "website": "",
+    "email": [
+      "kwillmott@flmnh.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2529139",
+        "title": "Participatory research program on the butterflies of Ecuador's protected areas: Taxonomic, phylogenetic and functional diversity across space and time",
+        "amount": "$1,168,975.00",
+        "program": "Systematics & Biodiversity Sci",
+        "end_date": "12/31/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Robert P Guralnick robgur@gmail.com",
+      "Megan E Ennes mennes@floridamuseum.ufl.edu",
+      "Maria F Checa mfcheca@puce.edu.ec"
+    ]
+  },
+  {
+    "id": "nsf-2607530",
+    "name": "Piran R Kidambi",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Deconstructing Proton Transport through Atomically Thin Membranes"
+    ],
+    "website": "",
+    "email": [
+      "piran.kidambi@vanderbilt.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2607530",
+        "title": "CAREER: Deconstructing Proton Transport through Atomically Thin Membranes",
+        "amount": "$175,231.00",
+        "program": "Interfacial Engineering Progra, GOALI-Grnt Opp Acad Lia wIndus",
+        "end_date": "06/30/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2450419",
+    "name": "Mingyue Ji",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CIRC: Dev: UnionLabs: Facilitating Shared Access to Heterogeneous Wireless T..."
+    ],
+    "website": "",
+    "email": [
+      "mingyueji@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2450419",
+        "title": "Collaborative Research: CIRC: Dev: UnionLabs: Facilitating Shared Access to Heterogeneous Wireless Testbeds Through Grassroots-Driven Federation",
+        "amount": "$281,225.00",
+        "program": "CCRI-CISE Cmnty Rsrch Infrstrc",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2512169",
+    "name": "Ivan Ruchkin",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Engineering",
+      "EPCN: VISUALS: Verifiable Information-Theoretic Safety Under Augmented Latent Shifts"
+    ],
+    "website": "",
+    "email": [
+      "iruchkin@ece.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2512169",
+        "title": "EPCN: VISUALS: Verifiable Information-Theoretic Safety Under Augmented Latent Shifts",
+        "amount": "$550,199.00",
+        "program": "EPCN-Energy-Power-Ctrl-Netwrks",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jose C Principe principe@cnel.ufl.edu",
+      "Yuheng Bu buyuheng@ucsb.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510520",
+    "name": "Joanna R Long",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Biological Sciences",
+      "Equipment: MRI:Track 3 Helium Recovery System for the National High Magnetic Field Laboratory / Univ..."
+    ],
+    "website": "",
+    "email": [
+      "jrlong@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2510520",
+        "title": "Equipment: MRI:Track 3 Helium Recovery System for the National High Magnetic Field Laboratory / University of Florida AMRIS Facility",
+        "amount": "$415,580.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mark W Meisel meisel@phys.ufl.edu",
+      "Matthew E Merritt matthewmerritt@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512988",
+    "name": "Youngmin Park",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Phase-Amplitude-Based Reduced Order Modeling and Analysis of Strongly Couple..."
+    ],
+    "website": "",
+    "email": [
+      "park.y@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2512988",
+        "title": "Collaborative Research: Phase-Amplitude-Based Reduced Order Modeling and Analysis of Strongly Coupled Neural Oscillators",
+        "amount": "$200,000.00",
+        "program": "MATHEMATICAL BIOLOGY",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Andrew P Maurer drewmaurer@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2533207",
+    "name": "Vladimir A Rakov",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Geosciences",
+      "High-Speed Lightning Imaging Across the Electromagnetic Spectrum"
+    ],
+    "website": "",
+    "email": [
+      "rakov@ece.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2533207",
+        "title": "High-Speed Lightning Imaging Across the Electromagnetic Spectrum",
+        "amount": "$950,000.00",
+        "program": "Physical & Dynamic Meteorology",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ziqin Ding ziqinding94@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2506059",
+    "name": "Kshitij Khare",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: CDS&E: Array-Variate Models for Longitudinal Data: Scalable Mixed and Autore..."
+    ],
+    "website": "",
+    "email": [
+      "kdkhare@stat.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2506059",
+        "title": "Collaborative Research: CDS&E: Array-Variate Models for Longitudinal Data: Scalable Mixed and Autoregressive Approaches",
+        "amount": "$90,000.00",
+        "program": "STATISTICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447504",
+    "name": "John M Shea",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Assured Autonomy and Networking"
+    ],
+    "website": "",
+    "email": [
+      "jshea@ece.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2447504",
+        "title": "REU Site: Assured Autonomy and Networking",
+        "amount": "$427,629.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Norman G Fitz-Coy nfc@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2421088",
+    "name": "Leonardo Ibarra-Castro",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Biological Sciences",
+      "Research Infrastructure: Environmental controlled recirculating seawater system for advanced marine ..."
+    ],
+    "website": "",
+    "email": [
+      "l.ibarracastro@whitney.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2421088",
+        "title": "Research Infrastructure: Environmental controlled recirculating seawater system for advanced marine science experimentation",
+        "amount": "$774,759.00",
+        "program": "Capacity: Field Stations",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mark Q Martindale mqmartin@whitney.ufl.edu",
+      "James C Liao jliao@whitney.ufl.edu",
+      "Todd Z Osborne osbornet@ufl.edu",
+      "David J Duffy duffy@whitney.ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2522412",
+    "name": "James H Hoover",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Collaborative Research: A Process-Driven Approach to Artificial Intelligence Chatbot Interviews"
+    ],
+    "website": "",
+    "email": [
+      "hooverjh@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2522412",
+        "title": "Collaborative Research: A Process-Driven Approach to Artificial Intelligence Chatbot Interviews",
+        "amount": "$219,152.00",
+        "program": "SoO-Science Of Organizations",
+        "end_date": "08/31/2027",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jingchuan Pu jingchuan@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2518016",
+    "name": "Dominique Laroche",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Novel phenomena in Coulomb coupled Luttinger liquids"
+    ],
+    "website": "",
+    "email": [
+      "dlaroc10@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2518016",
+        "title": "Novel phenomena in Coulomb coupled Luttinger liquids",
+        "amount": "$459,734.00",
+        "program": "CONDENSED MATTER PHYSICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2504177",
+    "name": "Sindia M Rivera-Jimenez",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Engineering",
+      "Track 2: An Exploration of Challenges and Self-Adjustment Experiences of Community College Transfer ..."
+    ],
+    "website": "",
+    "email": [
+      "rivera.jimenez@eng.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2504177",
+        "title": "Track 2: An Exploration of Challenges and Self-Adjustment Experiences of Community College Transfer Students in Engineering",
+        "amount": "$535,992.00",
+        "program": "EPE-Expanding Part. in Engring",
+        "end_date": "07/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Justin C Ortagus jortagus@coe.ufl.edu",
+      "Kakali Bhattacharya kbhattacharya@coe.ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2514935",
+    "name": "Joel B Harley",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "CSE",
+      "IUCRC Planning Grant: University of Florida (Partner Site): Center for Accessible Healthcare through..."
+    ],
+    "website": "",
+    "email": [
+      "joel.harley@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2514935",
+        "title": "IUCRC Planning Grant: University of Florida (Partner Site): Center for Accessible Healthcare through AI-Augmented Decisions (AHeAD)",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "06/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505491",
+    "name": "Chenjie Zeng",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Precision Synthesis of II-VI Semiconductor Nanoclusters via Cation Exchange"
+    ],
+    "website": "",
+    "email": [
+      "zeng@chem.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2505491",
+        "title": "Precision Synthesis of II-VI Semiconductor Nanoclusters via Cation Exchange",
+        "amount": "$482,663.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440984",
+    "name": "Ge Ou",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Progressive Collapse Analysis and Stochastic Wind Pattern Modeling for Transmission Tower-Li..."
+    ],
+    "website": "",
+    "email": [
+      "gou@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2440984",
+        "title": "CAREER: Progressive Collapse Analysis and Stochastic Wind Pattern Modeling for Transmission Tower-Line System Design",
+        "amount": "$599,290.00",
+        "program": "ECI-Engineering for Civil Infr",
+        "end_date": "05/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440573",
+    "name": "Jeffrey D Rudolf",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Bacterial Cytochrome P450 Enzymes and their Redox Partners"
+    ],
+    "website": "",
+    "email": [
+      "jrudolf@chem.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2440573",
+        "title": "CAREER: Bacterial Cytochrome P450 Enzymes and their Redox Partners",
+        "amount": "$700,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "04/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2439867",
+    "name": "Ramon A Miranda Quintana",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Flexible Electronic Structure Methods for Strongly Correlated Systems"
+    ],
+    "website": "",
+    "email": [
+      "quintana@chem.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2439867",
+        "title": "CAREER: Flexible Electronic Structure Methods for Strongly Correlated Systems",
+        "amount": "$699,999.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "03/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2508168",
+    "name": "Steeve Boulant",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Biological Sciences",
+      "NSF/Bio-DFG \"Molecular and spatio-temporal regulation of the clathrin/AP-1/ARF-1 sorting machinery d..."
+    ],
+    "website": "",
+    "email": [
+      "s.boulant@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2508168",
+        "title": "NSF/Bio-DFG \"Molecular and spatio-temporal regulation of the clathrin/AP-1/ARF-1 sorting machinery during polarized sorting of cargo in epithelial cells\"",
+        "amount": "$869,437.00",
+        "program": "Cellular Dynamics and Function",
+        "end_date": "01/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2441402",
+    "name": "Megan M Butala",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Key Chemical Principles Impacting Structure and Function in Compositionally-Complex Rocksalt..."
+    ],
+    "website": "",
+    "email": [
+      "mbutala@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2441402",
+        "title": "CAREER: Key Chemical Principles Impacting Structure and Function in Compositionally-Complex Rocksalt Oxides",
+        "amount": "$503,933.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS",
+        "end_date": "01/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430408",
+    "name": "Alberto Perez",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Advances in Coupled Cluster Theory"
+    ],
+    "website": "",
+    "email": [
+      "perez@chem.ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2430408",
+        "title": "Advances in Coupled Cluster Theory",
+        "amount": "$551,908.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "11/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2418548",
+    "name": "Rui Guo",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Remote Access to Digital Immersive Artificial Intelligence of Things Educati..."
+    ],
+    "website": "",
+    "email": [
+      "rui.guo@miami.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2418548",
+        "title": "Collaborative Research: Remote Access to Digital Immersive Artificial Intelligence of Things Education",
+        "amount": "$719,922.00",
+        "program": "Cyberlearn & Future Learn Tech",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Swarup K Bhunia swarup@ece.ufl.edu",
+      "Sandip Ray sandip@ece.ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2341628",
+    "name": "Eleonora Rossi",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Measuring the dynamic impact of personal social networks on language learning outcomes"
+    ],
+    "website": "",
+    "email": [
+      "eleonora.rossi@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2341628",
+        "title": "Measuring the dynamic impact of personal social networks on language learning outcomes",
+        "amount": "$598,444.00",
+        "program": "Sci of Lrng & Augmented Intel",
+        "end_date": "08/31/2027",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Christopher McCarty ufchris@ufl.edu",
+      "Stefanie Wulff swulff@ufl.edu",
+      "Diego Pascual y Cabo dpascual@ufl.edu",
+      "Zoey Liu liu.ying@ufl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2411597",
+    "name": "Tarek Saab",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: The SuperCDMS at SNOLAB Science Program"
+    ],
+    "website": "",
+    "email": [
+      "tsaab@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2411597",
+        "title": "Collaborative Research: The SuperCDMS at SNOLAB Science Program",
+        "amount": "$487,500.00",
+        "program": "Particle Astrophysics/Undergro, Particle Astrophysics/Cosmic P",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2406874",
+    "name": "Jaehan Bae",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Florida",
+    "location": "GAINESVILLE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Multi-wavelength Imaging of Planet-Forming Disks: The inner AU of Herbig and..."
+    ],
+    "website": "",
+    "email": [
+      "jbae@ufl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GAINESVILLE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2406874",
+        "title": "Collaborative Research: Multi-wavelength Imaging of Planet-Forming Disks: The inner AU of Herbig and T Tauri Stars",
+        "amount": "$37,136.00",
+        "program": "PLANETARY ASTRONOMY",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

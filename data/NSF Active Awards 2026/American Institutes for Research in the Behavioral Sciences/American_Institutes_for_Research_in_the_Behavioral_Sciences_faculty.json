@@ -1,0 +1,101 @@
+[
+  {
+    "id": "nsf-2526876",
+    "name": "Gurjeet Dhillon",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "American Institutes for Research in the Behavioral Sciences",
+    "location": "ARLINGTON, VA",
+    "research_areas": [
+      "STEM Education",
+      "Discovery Research PreK–12 Resource Center for Transformative Education Research and Translation (DR..."
+    ],
+    "website": "",
+    "email": [
+      "gdhillon@air.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2526876",
+        "title": "Discovery Research PreK–12 Resource Center for Transformative Education Research and Translation (DRK–12 RC)",
+        "amount": "$2,624,512.00",
+        "program": "AISL, ITEST-Inov Tech Exp Stu & Teac, Discovery Research K-12",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jessaca Spybrook spybrook@mailbox.sc.edu",
+      "Amanda Merritt amanda.merritt@sreb.org",
+      "Treshonda Rutledge trutledge@air.org"
+    ]
+  },
+  {
+    "id": "nsf-2524594",
+    "name": "Kathryn M Rich",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "American Institutes for Research in the Behavioral Sciences",
+    "location": "ARLINGTON, VA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Supporting High-Quality High School Computer Science Courses in Milwaukee by..."
+    ],
+    "website": "",
+    "email": [
+      "krich@air.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2524594",
+        "title": "Collaborative Research: Supporting High-Quality High School Computer Science Courses in Milwaukee by Strengthening Teacher Content Knowledge",
+        "amount": "$492,074.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "07/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434579",
+    "name": "Joseph P Wilson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "American Institutes for Research in the Behavioral Sciences",
+    "location": "ARLINGTON, VA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: AI by 8: A research investigation led by a research-practice partnership on ..."
+    ],
+    "website": "",
+    "email": [
+      "jwilson@air.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2434579",
+        "title": "Collaborative Research: AI by 8: A research investigation led by a research-practice partnership on unplugged AI language arts instruction for young children",
+        "amount": "$509,999.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xuning Zhang xzhang@air.org",
+      "Joseph P Wilson (Former) jwilson@air.org"
+    ]
+  }
+]

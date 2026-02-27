@@ -1,0 +1,125 @@
+[
+  {
+    "id": "nsf-2518849",
+    "name": "Yuxin Wen",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Chapman University",
+    "location": "ORANGE, CA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: From Awareness to Action: Integrating responsible Artificial Intelligence Pr..."
+    ],
+    "website": "",
+    "email": [
+      "yuwen@chapman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ORANGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2518849",
+        "title": "Collaborative Research: From Awareness to Action: Integrating responsible Artificial Intelligence Practice into Undergraduate Engineering Education",
+        "amount": "$149,951.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Franceli L Cibrian cibrian@chapman.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429258",
+    "name": "Zhen Cong",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Chapman University",
+    "location": "ORANGE, CA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Home Mitigation for Hurricane Induced Multi-Hazards: A Multilevel Interdisci..."
+    ],
+    "website": "",
+    "email": [
+      "zcong@chapman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ORANGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2429258",
+        "title": "Collaborative Research: Home Mitigation for Hurricane Induced Multi-Hazards: A Multilevel Interdisciplinary Vulnerability and Resiliency Approach",
+        "amount": "$133,453.00",
+        "program": "HDBE-Humans, Disasters, and th",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447702",
+    "name": "Christopher S Kim",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Chapman University",
+    "location": "ORANGE, CA",
+    "research_areas": [
+      "Geosciences",
+      "REU-Site:  Summer Undergraduate Research Fellowships in Earth and Environmental Sciences (SURFEES)"
+    ],
+    "website": "",
+    "email": [
+      "cskim@chapman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ORANGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2447702",
+        "title": "REU-Site:  Summer Undergraduate Research Fellowships in Earth and Environmental Sciences (SURFEES)",
+        "amount": "$523,639.00",
+        "program": "EDUCATION AND HUMAN RESOURCES",
+        "end_date": "06/30/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2420064",
+    "name": "Jerry LaRue",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Chapman University",
+    "location": "ORANGE, CA",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Stockholm Research Experience in Heterogeneous Catalysis"
+    ],
+    "website": "",
+    "email": [
+      "larue@chapman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ORANGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2420064",
+        "title": "IRES: Stockholm Research Experience in Heterogeneous Catalysis",
+        "amount": "$299,832.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

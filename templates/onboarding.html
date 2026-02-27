@@ -177,7 +177,7 @@
       <!-- Q3: Academic Level -->
       <div class="form-group">
         <label for="academic_level">3. What's your current academic level?</label>
-        <select name="academic_level" id="academic_level" required class="form-control">
+        <select name="academic_level" id="academic_level" required class="form-control custom-select">
           <option value="">Select level...</option>
           <option value="undergrad" {% if profile and profile.academic_level == 'undergrad' %}selected{% endif %}>Undergraduate</option>
           <option value="masters" {% if profile and profile.academic_level == 'masters' %}selected{% endif %}>Master's Student</option>
@@ -189,7 +189,7 @@
       <!-- Q4: Work Style -->
       <div class="form-group">
         <label for="work_style">4. What type of research do you prefer?</label>
-        <select name="work_style" id="work_style" required class="form-control">
+        <select name="work_style" id="work_style" required class="form-control custom-select">
           <option value="">Select preference...</option>
           <option value="experimental" {% if profile and profile.work_style == 'experimental' %}selected{% endif %}>Experimental / Wet Lab</option>
           <option value="computational" {% if profile and profile.work_style == 'computational' %}selected{% endif %}>Computational / Dry Lab</option>
@@ -200,7 +200,7 @@
       <!-- Q5: Funding -->
       <div class="form-group">
         <label for="needs_funding">5. Do you need a funded position?</label>
-        <select name="needs_funding" id="needs_funding" required class="form-control">
+        <select name="needs_funding" id="needs_funding" required class="form-control custom-select">
           <option value="">Select...</option>
           <option value="yes" {% if profile and profile.needs_funding %}selected{% endif %}>Yes, funding is important</option>
           <option value="no" {% if profile and not profile.needs_funding %}selected{% endif %}>No, I have my own funding or it's flexible</option>

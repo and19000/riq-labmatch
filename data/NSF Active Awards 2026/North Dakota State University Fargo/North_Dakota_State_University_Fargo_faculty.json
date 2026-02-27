@@ -1,0 +1,135 @@
+[
+  {
+    "id": "nsf-2510020",
+    "name": "Khang Hoang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "North Dakota State University Fargo",
+    "location": "FARGO, ND",
+    "research_areas": [
+      "Engineering",
+      "MRI: Track 2 Acquisition of a GPU-Accelerated Computing Cluster for Computationally Intensive and AI..."
+    ],
+    "website": "",
+    "email": [
+      "khang.hoang@ndsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FARGO, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2510020",
+        "title": "MRI: Track 2 Acquisition of a GPU-Accelerated Computing Cluster for Computationally Intensive and AI Research in North Dakota",
+        "amount": "$3,848,048.00",
+        "program": "Special Projects - CNS, Special Initiatives",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Juan Li j.li@ndsu.edu",
+      "Daniel Pemstein daniel.pemstein@ndsu.edu",
+      "Trung B Le trung.le@ndsu.edu",
+      "Armstrong Aboah armstrong.aboah@ndsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505405",
+    "name": "Shuvashis Dey",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "North Dakota State University Fargo",
+    "location": "FARGO, ND",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: International Research Experience on RFID Sensing System with Application of Machine Learning ..."
+    ],
+    "website": "",
+    "email": [
+      "shuvashis.dey@ndsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FARGO, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2505405",
+        "title": "IRES: International Research Experience on RFID Sensing System with Application of Machine Learning for Accurate Sensing",
+        "amount": "$450,000.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "07/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Umamaheswara R Tida umamaheswara.tida@ndsu.edu",
+      "Kushal K Ponugoti kushalkumar.ponugoti@ndsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2438102",
+    "name": "Sheridan McNeil",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "North Dakota State University Fargo",
+    "location": "FARGO, ND",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: E-CORE RII: Sustainable Programs Advancing Research and Knowledge across Nor..."
+    ],
+    "website": "",
+    "email": [
+      "sheridan.mcneil@ndsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FARGO, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2438102",
+        "title": "Collaborative Research: E-CORE RII: Sustainable Programs Advancing Research and Knowledge across North Dakota",
+        "amount": "$1,717,351.00",
+        "program": "EPSCoR RII: E-CORE",
+        "end_date": "07/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426450",
+    "name": "Angela Hodgson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "North Dakota State University Fargo",
+    "location": "FARGO, ND",
+    "research_areas": [
+      "STEM Education",
+      "Rural Low Income Student Investigations Network Groups: Researching Belonging in STEM, Community, an..."
+    ],
+    "website": "",
+    "email": [
+      "angela.hodgson@ndsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FARGO, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2426450",
+        "title": "Rural Low Income Student Investigations Network Groups: Researching Belonging in STEM, Community, and Higher Education",
+        "amount": "$188,901.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tara Slominski tara.slominski@ndsu.edu"
+    ]
+  }
+]

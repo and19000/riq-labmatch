@@ -1,0 +1,45 @@
+[
+  {
+    "id": "nsf-2515654",
+    "name": "Michael W Lomas",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Bigelow Laboratory for Ocean Sciences",
+    "location": "EAST BOOTHBAY, ME",
+    "research_areas": [
+      "Biological Sciences",
+      "ICBR: Capacity: Biological Collections: Provasoli-Guillard National Center for Marine Algae and Micr...",
+      "Office of the Director",
+      "E-RISE RII: Maine Algal Research Infrastructure and Accelerator"
+    ],
+    "website": "",
+    "email": [
+      "mlomas@bigelow.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAST BOOTHBAY, ME",
+    "nsf_awards": [
+      {
+        "award_number": "2515654",
+        "title": "ICBR: Capacity: Biological Collections: Provasoli-Guillard National Center for Marine Algae and Microbiota (NCMA)",
+        "amount": "$686,095.00",
+        "program": "Capacity: Bio Collections",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      },
+      {
+        "award_number": "2436200",
+        "title": "E-RISE RII: Maine Algal Research Infrastructure and Accelerator",
+        "amount": "$4,221,501.00",
+        "program": "EPSCoR RII: E-RISE",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Peter Countway pcountway@bigelow.org"
+    ]
+  }
+]

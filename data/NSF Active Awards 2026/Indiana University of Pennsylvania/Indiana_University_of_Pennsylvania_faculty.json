@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nsf-2527623",
+    "name": "John C Chrispell",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Indiana University of Pennsylvania",
+    "location": "INDIANA, PA",
+    "research_areas": [
+      "STEM Education",
+      "EXperiential PAthways and Networks for Data Science (EXPANDS) Opportunities"
+    ],
+    "website": "",
+    "email": [
+      "john.chrispell@iup.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "INDIANA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2527623",
+        "title": "EXperiential PAthways and Networks for Data Science (EXPANDS) Opportunities",
+        "amount": "$1,999,979.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2032",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Frederick A Adkins fadkins@iup.edu",
+      "Yu-Ju Kuo yjkuo@iup.edu",
+      "Samuel M Grieggs Sgrieggs@iup.edu",
+      "Valerie N Long vlong@iup.edu"
+    ]
+  }
+]

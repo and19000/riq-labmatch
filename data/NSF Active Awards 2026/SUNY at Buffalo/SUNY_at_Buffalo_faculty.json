@@ -1,0 +1,451 @@
+[
+  {
+    "id": "nsf-2450418",
+    "name": "Zhangyu Guan",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CIRC: Dev: UnionLabs: Facilitating Shared Access to Heterogeneous Wireless T..."
+    ],
+    "website": "",
+    "email": [
+      "zguan@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2450418",
+        "title": "Collaborative Research: CIRC: Dev: UnionLabs: Facilitating Shared Access to Heterogeneous Wireless Testbeds Through Grassroots-Driven Federation",
+        "amount": "$393,750.00",
+        "program": "CCRI-CISE Cmnty Rsrch Infrstrc",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2549413",
+        "title": "Collaborative Research: CIRC: Dev: UnionLabs: Facilitating Shared Access to Heterogeneous Wireless Testbeds Through Grassroots-Driven Federation",
+        "amount": "$393,750.00",
+        "program": "CCRI-CISE Cmnty Rsrch Infrstrc",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2448199",
+    "name": "Jochen Autschbach",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Understanding Spin-Forbidden Reactions Mediated by Relativistic Nuclear-Elec...",
+      "Exploring Response Properties of Molecules and Extended Systems Using Theoretical Methods"
+    ],
+    "website": "",
+    "email": [
+      "jochena@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2448199",
+        "title": "Collaborative Research: Understanding Spin-Forbidden Reactions Mediated by Relativistic Nuclear-Electronic Hyperfine Coupling",
+        "amount": "$231,794.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2503332",
+        "title": "Exploring Response Properties of Molecules and Extended Systems Using Theoretical Methods",
+        "amount": "$537,800.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2518893",
+    "name": "Chi Zhou",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Data Science and Digital Twin for Active Learning in Advanced Manufacturing"
+    ],
+    "website": "",
+    "email": [
+      "chizhou@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2518893",
+        "title": "Collaborative Research: Data Science and Digital Twin for Active Learning in Advanced Manufacturing",
+        "amount": "$214,000.00",
+        "program": "Robert Noyce Scholarship Pgm, IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Wenyao Xu wenyaoxu@buffalo.edu"
+    ]
+  },
+  {
+    "id": "nsf-2441363",
+    "name": "Virginia J Flood",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "STEM Education",
+      "CAREER: Embodied Responsive Teaching in Undergraduate Physics"
+    ],
+    "website": "",
+    "email": [
+      "vflood@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2441363",
+        "title": "CAREER: Embodied Responsive Teaching in Undergraduate Physics",
+        "amount": "$666,146.00",
+        "program": "ECR-EDU Core Research",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2512151",
+    "name": "Andrew K Hirsch",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "CSE",
+      "SHF: Small: Open Choreographies via Session Types"
+    ],
+    "website": "",
+    "email": [
+      "akhirsch@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2512151",
+        "title": "SHF: Small: Open Choreographies via Session Types",
+        "amount": "$598,636.00",
+        "program": "Software & Hardware Foundation",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lukasz Ziarek lziarek@buffalo.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453582",
+    "name": "Steven T Diver",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Bimacrocyclic Ligands for Selective Catalytic Reactions"
+    ],
+    "website": "",
+    "email": [
+      "diver@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2453582",
+        "title": "Bimacrocyclic Ligands for Selective Catalytic Reactions",
+        "amount": "$249,982.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2519325",
+    "name": "Alexey V Akimov",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "CSE",
+      "CyberTraining: Implementation: Small: Modeling Quantum Dynamics of Excited States in Materials in th..."
+    ],
+    "website": "",
+    "email": [
+      "alexeyak@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2519325",
+        "title": "CyberTraining: Implementation: Small: Modeling Quantum Dynamics of Excited States in Materials in the Era of Machine Learning",
+        "amount": "$500,000.00",
+        "program": "CyberTraining - Training-based",
+        "end_date": "08/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2442923",
+    "name": "Matthew J Paul",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: A new perspective for understanding the varied actions of vasopressin on soc..."
+    ],
+    "website": "",
+    "email": [
+      "mjpaul@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2442923",
+        "title": "Collaborative Research: A new perspective for understanding the varied actions of vasopressin on social development",
+        "amount": "$580,000.00",
+        "program": "Modulation",
+        "end_date": "07/31/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2441100",
+    "name": "Kristin Poinar",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Dimensionality reduction of glacier and ice-sheet processes using deep learning: Development..."
+    ],
+    "website": "",
+    "email": [
+      "kpoinar@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2441100",
+        "title": "CAREER: Dimensionality reduction of glacier and ice-sheet processes using deep learning: Development, and evaluation",
+        "amount": "$782,557.00",
+        "program": "ANS-Arctic Natural Sciences",
+        "end_date": "07/31/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453772",
+    "name": "Bing Gong",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Hollow Helices as Enzyme-Like Catalysts"
+    ],
+    "website": "",
+    "email": [
+      "bgong@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2453772",
+        "title": "Hollow Helices as Enzyme-Like Catalysts",
+        "amount": "$600,000.00",
+        "program": "Chemical Catalysis, CMFP-Chem Mech Funct, and Prop",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2413876",
+    "name": "Chunming Qiao",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: SaTC: CORE: Small: NSF-DST: Towards Secure and Resilient Collaborative Auton..."
+    ],
+    "website": "",
+    "email": [
+      "qiao@computer.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2413876",
+        "title": "Collaborative Research: SaTC: CORE: Small: NSF-DST: Towards Secure and Resilient Collaborative Autonomous Driving (CoAD)",
+        "amount": "$300,726.00",
+        "program": "Secure &Trustworthy Cyberspace",
+        "end_date": "11/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2408408",
+    "name": "Thomas J Covey",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: NSF-UEFISCDI: RUI: Effects of the Interplay Between Connectivity Architectur..."
+    ],
+    "website": "",
+    "email": [
+      "tjcovey@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2408408",
+        "title": "Collaborative Research: NSF-UEFISCDI: RUI: Effects of the Interplay Between Connectivity Architecture and Distributed Delays in Brain Network Dynamics",
+        "amount": "$32,736.00",
+        "program": "APPLIED MATHEMATICS",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2427094",
+    "name": "Wei Chen",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: EAGER: SSMCDAT2023: Data-driven Predictive Understanding of Oxidation Resist..."
+    ],
+    "website": "",
+    "email": [
+      "wchen226@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2427094",
+        "title": "Collaborative Research: EAGER: SSMCDAT2023: Data-driven Predictive Understanding of Oxidation Resistance in High-Entropy Alloy Nanoparticles",
+        "amount": "$108,007.00",
+        "program": "DMR SHORT TERM SUPPORT, CONDENSED MATTER & MAT THEORY, METAL & METALLIC NANOSTRUCTURE",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2425609",
+    "name": "Jonathan P Bird",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Buffalo",
+    "location": "AMHERST, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "FuSe2 Topic 3: Energy-Efficient Nanoelectronics Based on CMOS-Compatible Magnetoelectric Transistors"
+    ],
+    "website": "",
+    "email": [
+      "jbird@buffalo.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AMHERST, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2425609",
+        "title": "FuSe2 Topic 3: Energy-Efficient Nanoelectronics Based on CMOS-Compatible Magnetoelectric Transistors",
+        "amount": "$653,898.00",
+        "program": "NSF-Ericsson Partnership, FuSe-Future of Semiconductors, NSF-Micron Partnership",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Peter A Dowben pdowben@unl.edu",
+      "Robert E Geer rgeer@albany.edu",
+      "Nathaniel C Cady ncady@albany.edu",
+      "Bibhudatta Sahoo bibhu@buffalo.edu"
+    ]
+  }
+]

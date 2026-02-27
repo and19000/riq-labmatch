@@ -42,11 +42,6 @@
               <p><strong>Website:</strong> <a href="{{ lab.website }}">{{ lab.website }}</a></p>
             {% endif %}
             <p><strong>Email:</strong> {{ lab.email }}</p>
-            {% if lab.get('match_reason') %}
-              <div class="report-match-reason">
-                <strong>Why this match:</strong> {{ lab.match_reason }}
-              </div>
-            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -76,5 +71,4 @@
     }
   </script>
 {% endblock %}
-
 

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nsf-2431961",
+    "name": "Curtis M Watson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Mitre Corporation Virginia",
+    "location": "MC LEAN, VA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "SII-NRDZ: MITRE NRDZ-as-a-Service Field Deployment"
+    ],
+    "website": "",
+    "email": [
+      "cmwatson@mitre.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MC LEAN, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2431961",
+        "title": "SII-NRDZ: MITRE NRDZ-as-a-Service Field Deployment",
+        "amount": "$10,499,999.00",
+        "program": "SII-Spectrum Innovation Initia",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Venkatesh Ramaswamy vramaswamy@mitre.org",
+      "Jacobus VAN DER MERWE (Former) kobus@cs.utah.edu",
+      "Abhimanyu Gosain (Former) agosain@coe.neu.edu",
+      "Kevin K Gifford (Former) kevin.gifford@colorado.edu"
+    ]
+  }
+]

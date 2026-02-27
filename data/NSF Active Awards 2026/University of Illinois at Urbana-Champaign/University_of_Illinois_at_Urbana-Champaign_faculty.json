@@ -1,0 +1,873 @@
+[
+  {
+    "id": "nsf-2529212",
+    "name": "Paul F Fischer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: MATH-DT: Digital Twin for Laboratory Science (DTLS) - Application to Liquid ..."
+    ],
+    "website": "",
+    "email": [
+      "fischer@mcs.anl.gov"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2529212",
+        "title": "Collaborative Research: MATH-DT: Digital Twin for Laboratory Science (DTLS) - Application to Liquid Sodium Experiments in Geosciences",
+        "amount": "$432,001.00",
+        "program": "COMPUTATIONAL MATHEMATICS, MSPA-INTERDISCIPLINARY",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2516676",
+    "name": "Nancy Makri",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Small matrix path integral methods for quantum dynamics"
+    ],
+    "website": "",
+    "email": [
+      "nmakri@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2516676",
+        "title": "Small matrix path integral methods for quantum dynamics",
+        "amount": "$600,000.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2522792",
+    "name": "Ying Diao",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "DMREF: Autonomous Closed-Loop Discovery of Molecular Design Rules for Chiral Electronics"
+    ],
+    "website": "",
+    "email": [
+      "yingdiao@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2522792",
+        "title": "DMREF: Autonomous Closed-Loop Discovery of Molecular Design Rules for Chiral Electronics",
+        "amount": "$2,000,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, DMREF",
+        "end_date": "08/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jeffrey S Moore jsmoore@illinois.edu",
+      "Xiaosong Li xsli@uw.edu",
+      "Joaquin Rodriguez Lopez joaquinr@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505933",
+    "name": "Mary L Kraft",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CDS&E: Computational Tools for Visualizing SIMS Depth Profiling Data in Three Dimensions"
+    ],
+    "website": "",
+    "email": [
+      "mlkraft@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2505933",
+        "title": "CDS&E: Computational Tools for Visualizing SIMS Depth Profiling Data in Three Dimensions",
+        "amount": "$450,000.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2537827",
+    "name": "Jiawei Han",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "CSE",
+      "EAGER: Multi-Hop Reasoning with LLMs: A Structure-Guided Reasoning Approach"
+    ],
+    "website": "",
+    "email": [
+      "hanj@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2537827",
+        "title": "EAGER: Multi-Hop Reasoning with LLMs: A Structure-Guided Reasoning Approach",
+        "amount": "$300,000.00",
+        "program": "Info Integration & Informatics",
+        "end_date": "08/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505649",
+    "name": "Xiaojia S Zhang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: A Hierarchical Strategy to Understand and Optimize Fracture Properties of Me..."
+    ],
+    "website": "",
+    "email": [
+      "zhangxs@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2505649",
+        "title": "Collaborative Research: A Hierarchical Strategy to Understand and Optimize Fracture Properties of Mechanical Metamaterials",
+        "amount": "$317,248.00",
+        "program": "Mechanics of Materials and Str",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505928",
+    "name": "Andrew M Smith",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Nanocrystal Syntheses for Uniform Dispersion in Polar Media"
+    ],
+    "website": "",
+    "email": [
+      "sales@ivatureinc.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2505928",
+        "title": "Nanocrystal Syntheses for Uniform Dispersion in Polar Media",
+        "amount": "$540,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Andre Schleife schleife@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512423",
+    "name": "Nicolas Yunes",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Probing Gravity and Matter with Gravitational Waves"
+    ],
+    "website": "",
+    "email": [
+      "nyunes@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2512423",
+        "title": "Probing Gravity and Matter with Gravitational Waves",
+        "amount": "$280,000.00",
+        "program": "Gravity Theory",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2536040",
+    "name": "Rakesh Kumar",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Engineering",
+      "Travel Grant: The Compute/Energy Nexus Workshop"
+    ],
+    "website": "",
+    "email": [
+      "rakeshk@uiuc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2536040",
+        "title": "Travel Grant: The Compute/Energy Nexus Workshop",
+        "amount": "$45,000.00",
+        "program": "EPCN-Energy-Power-Ctrl-Netwrks",
+        "end_date": "07/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515283",
+    "name": "Michael Oelze",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Planning Grant University of Illinois Urbana-Champaign: Center for Manufacturing Ultrasound Sy..."
+    ],
+    "website": "",
+    "email": [
+      "oelze@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2515283",
+        "title": "IUCRC Planning Grant University of Illinois Urbana-Champaign: Center for Manufacturing Ultrasound Systems for Intelligent Care (cMUSIC)",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "07/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453341",
+    "name": "Liviu M Mirica",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Controlling Single Electron Processes at Palladium Centers"
+    ],
+    "website": "",
+    "email": [
+      "mirica@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2453341",
+        "title": "Controlling Single Electron Processes at Palladium Centers",
+        "amount": "$600,000.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "07/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2444006",
+    "name": "Britt Carlson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "STEM Education",
+      "Conference: Illinois Two-Year College STEM Consortium"
+    ],
+    "website": "",
+    "email": [
+      "cbcarls2@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2444006",
+        "title": "Conference: Illinois Two-Year College STEM Consortium",
+        "amount": "$49,995.00",
+        "program": "Innov TwoYear College STEM Ed",
+        "end_date": "06/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hannah E Henson hannahhenson@jalc.edu",
+      "Isaac J Stewart stewarti@bhc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2437204",
+    "name": "Klara Nahrstedt",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS: Small: Revolutionizing Immersive Video Streaming with Neural Content R..."
+    ],
+    "website": "",
+    "email": [
+      "klara@cs.uiuc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2437204",
+        "title": "Collaborative Research: NeTS: Small: Revolutionizing Immersive Video Streaming with Neural Content Representation",
+        "amount": "$275,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "06/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453279",
+    "name": "Scott E Denmark",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Leveraging Main-Group Redox Catalysis for the Stereoselective Synthesis of Pharmaceutically-Relevant..."
+    ],
+    "website": "",
+    "email": [
+      "sdenmark@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2453279",
+        "title": "Leveraging Main-Group Redox Catalysis for the Stereoselective Synthesis of Pharmaceutically-Relevant Saturated Heterocycles",
+        "amount": "$800,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "04/30/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2435360",
+    "name": "Tracy Lawson",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Office of the Director",
+      "Global Centers: Alliance for Socially-acceptable & Actionable Plants"
+    ],
+    "website": "",
+    "email": [
+      "tlawson3@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2435360",
+        "title": "Global Centers: Alliance for Socially-acceptable & Actionable Plants",
+        "amount": "$5,000,000.00",
+        "program": "Global Centers: Track I (IMPL), Cross-BIO Activities",
+        "end_date": "04/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Matthew E Hudson mhudson@uiuc.edu",
+      "Andrew D Leakey leakey@life.uiuc.edu",
+      "John Shanklin shanklin@bnl.gov",
+      "Diwakar Shukla diwakar@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2441430",
+    "name": "Mikael P Backlund",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Quantum Information Limits of Single-molecule Microscopy"
+    ],
+    "website": "",
+    "email": [
+      "mikaelb@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2441430",
+        "title": "CAREER: Quantum Information Limits of Single-molecule Microscopy",
+        "amount": "$611,042.00",
+        "program": "Chemical Measurement & Imaging, QIS - Quantum Information Scie",
+        "end_date": "02/28/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447843",
+    "name": "Volodymyr V Kindratenko",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "CSE",
+      "REU Site: The future of discovery: training students to build and apply open-source machine learning..."
+    ],
+    "website": "",
+    "email": [
+      "kindrtnk@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2447843",
+        "title": "REU Site: The future of discovery: training students to build and apply open-source machine learning models and tools",
+        "amount": "$465,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "01/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Daniel S Katz dskatz@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2441580",
+    "name": "Bhaskar Ray Chaudhury",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "CSE",
+      "CAREER: New Frontiers of Fairness in Allocation and Exchange Problems"
+    ],
+    "website": "",
+    "email": [
+      "braycha@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2441580",
+        "title": "CAREER: New Frontiers of Fairness in Allocation and Exchange Problems",
+        "amount": "$371,697.00",
+        "program": "Algorithmic Foundations",
+        "end_date": "12/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434322",
+    "name": "Jule Schatz",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CUE-T: Expanding the undergraduate AI talent pipeline by democratizing acces..."
+    ],
+    "website": "",
+    "email": [
+      "drschatz@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2434322",
+        "title": "Collaborative Research: CUE-T: Expanding the undergraduate AI talent pipeline by democratizing access to instructional capabilities across institutions of higher education (IHEs)",
+        "amount": "$337,962.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434363",
+    "name": "Jeff G Erickson",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CUE-T: Theory-ABCs: Transforming Online Theory Instruction while building Ab..."
+    ],
+    "website": "",
+    "email": [
+      "jeffe@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2434363",
+        "title": "Collaborative Research: CUE-T: Theory-ABCs: Transforming Online Theory Instruction while building Ability, Belonging, and Confidence",
+        "amount": "$500,000.00",
+        "program": "IUSE: Computing Undergrad Educ",
+        "end_date": "12/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Geoffrey L Herman glherman@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2408384",
+    "name": "Jeffrey Filippini",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MRI: Track 3 Development of Helium Recovery Systems and Instrumentation at the University of Illinoi..."
+    ],
+    "website": "",
+    "email": [
+      "jpf@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2408384",
+        "title": "MRI: Track 3 Development of Helium Recovery Systems and Instrumentation at the University of Illinois Urbana-Champaign",
+        "amount": "$399,999.00",
+        "program": "Chemical Instrumentation, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "11/30/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Liviu M Mirica mirica@illinois.edu",
+      "Dean L Olson dolson@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426524",
+    "name": "Jonathan J Makela",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: An Observational Network to Enable Investigations of Gravity-Wave and Storm-..."
+    ],
+    "website": "",
+    "email": [
+      "jmakela@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2426524",
+        "title": "Collaborative Research: An Observational Network to Enable Investigations of Gravity-Wave and Storm-Time Impacts on the Mid-Latitude Thermosphere-Ionosphere",
+        "amount": "$194,361.00",
+        "program": "AERONOMY",
+        "end_date": "11/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2400099",
+    "name": "Gregory S Girolami",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Exploratory Synthesis and Reactivity of Transition Metal Complexes as Chemical Vapor Deposition Prec..."
+    ],
+    "website": "",
+    "email": [
+      "ggirolam@uiuc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2400099",
+        "title": "Exploratory Synthesis and Reactivity of Transition Metal Complexes as Chemical Vapor Deposition Precursors",
+        "amount": "$380,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "10/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2341287",
+    "name": "Xiao Su",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Engineering",
+      "NSF-GACR: Engineering nanostructured electrodes for the selective recovery of homogeneous catalysts"
+    ],
+    "website": "",
+    "email": [
+      "x2su@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2341287",
+        "title": "NSF-GACR: Engineering nanostructured electrodes for the selective recovery of homogeneous catalysts",
+        "amount": "$400,000.00",
+        "program": "Interfacial Engineering Progra",
+        "end_date": "10/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Johannes Elbert JElbert@illinois.edu"
+    ]
+  },
+  {
+    "id": "nsf-2438061",
+    "name": "Prashant K Jain",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-DFG MISSION: Unraveling Structures and Dynamics of Plasmonic Catalysts by In Situ X-ray and Elec..."
+    ],
+    "website": "",
+    "email": [
+      "jain@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2438061",
+        "title": "NSF-DFG MISSION: Unraveling Structures and Dynamics of Plasmonic Catalysts by In Situ X-ray and Electron-Based Probing (CAPTURE)",
+        "amount": "$333,850.00",
+        "program": "Chemical Catalysis",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2422569",
+    "name": "Joaquin Rodriguez Lopez",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Improving Sustainable Dual-Ion Battery Performance Through Stabilization of ..."
+    ],
+    "website": "",
+    "email": [
+      "joaquinr@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2422569",
+        "title": "Collaborative Research: Improving Sustainable Dual-Ion Battery Performance Through Stabilization of the Cathode-Electrolyte Interphase Using Ultrathin Graphitic Electrodes",
+        "amount": "$424,999.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426154",
+    "name": "Eric A Chitambar",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-SNSF: Entanglement Theory in Quantum Networks"
+    ],
+    "website": "",
+    "email": [
+      "echitamb@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2426154",
+        "title": "NSF-SNSF: Entanglement Theory in Quantum Networks",
+        "amount": "$258,776.00",
+        "program": "GVF - Global Venture Fund, QIS - Quantum Information Scie",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430762",
+    "name": "Thanh H Nguyen",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Illinois at Urbana-Champaign",
+    "location": "URBANA, IL",
+    "research_areas": [
+      "Geosciences",
+      "C2H2 RCN: OneEarth OneHealth: An Ecosystem for Human-Centered Climate Solutions"
+    ],
+    "website": "",
+    "email": [
+      "thn@illinois.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "URBANA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2430762",
+        "title": "C2H2 RCN: OneEarth OneHealth: An Ecosystem for Human-Centered Climate Solutions",
+        "amount": "$500,000.00",
+        "program": "XC-Crosscutting Activities Pro, Climate Impact on Human Health",
+        "end_date": "08/31/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

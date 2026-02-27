@@ -1,0 +1,300 @@
+[
+  {
+    "id": "nsf-2515250",
+    "name": "Aron Culotta",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "CSE",
+      "IUCRC Planning Grant: Tulane University (Partner Site): Center for Accessible Healthcare through AI-...",
+      "Collaborative Research: HCC: Small: Socio-linguistic modeling to understand the long-term dynamics o..."
+    ],
+    "website": "",
+    "email": [
+      "aculotta@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2515250",
+        "title": "IUCRC Planning Grant: Tulane University (Partner Site): Center for Accessible Healthcare through AI-Augmented Decisions (AHeAD)",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "06/30/2026",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2333537",
+        "title": "Collaborative Research: HCC: Small: Socio-linguistic modeling to understand the long-term dynamics of news engagement in online media",
+        "amount": "$277,178.00",
+        "program": "HCC-Human-Centered Computing, Secure &Trustworthy Cyberspace",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Zizhan Zheng zzheng3@tulane.edu",
+      "Zhengming Ding zding1@tulane.edu",
+      "Sylvia H Ley sley@tulane.edu",
+      "Saad Hassan saadhassan@tulane.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447758",
+    "name": "Noshir Pesika",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Use-Inspired Research and Entrepreneurship For Health, Energy, and the Environment"
+    ],
+    "website": "",
+    "email": [
+      "npesika@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2447758",
+        "title": "REU Site: Use-Inspired Research and Entrepreneurship For Health, Energy, and the Environment",
+        "amount": "$364,263.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Claiborne M Christian cchrist6@tulane.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424007",
+    "name": "Jordan Karubian",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Biological Sciences",
+      "Science in the Choco: Developing infrastructure for research and education at the FCAT Research Stat..."
+    ],
+    "website": "",
+    "email": [
+      "jk@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2424007",
+        "title": "Science in the Choco: Developing infrastructure for research and education at the FCAT Research Station",
+        "amount": "$417,797.00",
+        "program": "Cross-BIO Activities",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alexander Gunderson agunderson@tulane.edu"
+    ]
+  },
+  {
+    "id": "nsf-2533416",
+    "name": "Adrienn Ruzsinszky",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Exploring the Top Three Rungs of a Ladder of Density Functional Approximations"
+    ],
+    "website": "",
+    "email": [
+      "aruzsin@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2533416",
+        "title": "Exploring the Top Three Rungs of a Ladder of Density Functional Approximations",
+        "amount": "$750,000.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John P Perdew perdew@tulane.edu",
+      "Jianwei Sun jsun@tulane.edu"
+    ]
+  },
+  {
+    "id": "nsf-2443280",
+    "name": "Mark Mondrinos",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Engineering sex-based human cell culture methods and microphysiological systems"
+    ],
+    "website": "",
+    "email": [
+      "mmondrinos@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2443280",
+        "title": "CAREER: Engineering sex-based human cell culture methods and microphysiological systems",
+        "amount": "$600,281.00",
+        "program": "Engineering of Biomed Systems, EPSCoR Co-Funding",
+        "end_date": "06/30/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440782",
+    "name": "Alex McSkimming",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Terminal Hydride Complexes of High-spin Fe and Mn"
+    ],
+    "website": "",
+    "email": [
+      "amcskimming@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2440782",
+        "title": "CAREER: Terminal Hydride Complexes of High-spin Fe and Mn",
+        "amount": "$284,240.00",
+        "program": "Chemical Synthesis",
+        "end_date": "05/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2438364",
+    "name": "Matthew M Montemore",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Elucidation of descriptors that control heterogeneous olefin metathesis site..."
+    ],
+    "website": "",
+    "email": [
+      "mmontemore@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2438364",
+        "title": "Collaborative Research: Elucidation of descriptors that control heterogeneous olefin metathesis site creation through reduction",
+        "amount": "$251,294.00",
+        "program": "Catalysis",
+        "end_date": "04/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2449871",
+    "name": "Kalina Mincheva",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Macaulay2 Workshop at Tulane University"
+    ],
+    "website": "",
+    "email": [
+      "kmincheva@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2449871",
+        "title": "Conference: Macaulay2 Workshop at Tulane University",
+        "amount": "$39,776.00",
+        "program": "ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "02/28/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Daniel I Bernstein bernstein.daniel@gmail.com"
+    ]
+  },
+  {
+    "id": "nsf-2512857",
+    "name": "Hridesh Rajan",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Tulane University",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "CSE",
+      "SHF:Small: More Modular Deep Learning"
+    ],
+    "website": "",
+    "email": [
+      "hrajan@tulane.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2512857",
+        "title": "SHF:Small: More Modular Deep Learning",
+        "amount": "$180,803.00",
+        "program": "Software & Hardware Foundation",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

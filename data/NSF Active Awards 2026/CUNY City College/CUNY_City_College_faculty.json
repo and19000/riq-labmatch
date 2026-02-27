@@ -1,0 +1,131 @@
+[
+  {
+    "id": "nsf-2538439",
+    "name": "Ardavan Yazdanbakhsh",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "CUNY City College",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Collaborative Research at the Intersection of Statistics and Engineering: High-Dimension..."
+    ],
+    "website": "",
+    "email": [
+      "ayazdanbakhsh@ccny.cuny.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2538439",
+        "title": "Conference: Collaborative Research at the Intersection of Statistics and Engineering: High-Dimensional Data Analysis",
+        "amount": "$20,000.00",
+        "program": "STATISTICS",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Giles Hooker ghooker@wharton.upenn.edu",
+      "Rui Tuo ruituo@tamu.edu",
+      "Zhimei Ren zren@wharton.upenn.edu",
+      "Yiqiao Li yli4@ccny.cuny.edu"
+    ]
+  },
+  {
+    "id": "nsf-2609297",
+    "name": "Ian T McCrum",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "CUNY City College",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Predictive design and control of the electrode/electrolyte interface for improved electrocat..."
+    ],
+    "website": "",
+    "email": [
+      "imccrum@ccny.cuny.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2609297",
+        "title": "CAREER: Predictive design and control of the electrode/electrolyte interface for improved electrocatalysis",
+        "amount": "$509,627.00",
+        "program": "Catalysis, EchemS-Electrochemical Systems",
+        "end_date": "05/31/2029",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506082",
+    "name": "Carlos A Meriles",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "CUNY City College",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "GOALI: Exploring New Routes to Electric, Magnetic, and Electromagnetic Nanoscale Sensing via Virtual..."
+    ],
+    "website": "",
+    "email": [
+      "cmeriles@ccny.cuny.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2506082",
+        "title": "GOALI: Exploring New Routes to Electric, Magnetic, and Electromagnetic Nanoscale Sensing via Virtual Atoms in Solids",
+        "amount": "$499,386.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Olga Shenderova oshenderova@adamasnano.com"
+    ]
+  },
+  {
+    "id": "nsf-2327147",
+    "name": "Ioana R Voiculescu",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "CUNY City College",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Stem Cell Maturity Evaluation and Promotion with An Intelligent Lab-on-Chip ..."
+    ],
+    "website": "",
+    "email": [
+      "voicules@ccny.cuny.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2327147",
+        "title": "Collaborative Research: Stem Cell Maturity Evaluation and Promotion with An Intelligent Lab-on-Chip Framework",
+        "amount": "$467,202.00",
+        "program": "Engineering of Biomed Systems",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

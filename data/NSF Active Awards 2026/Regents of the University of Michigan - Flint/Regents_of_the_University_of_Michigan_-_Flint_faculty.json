@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2532071",
+    "name": "Emily Camelio",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Regents of the University of Michigan - Flint",
+    "location": "FLINT, MI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Innovative Platform to Access Hexocannabitriol and Analogs for Biological & Antioxidant E..."
+    ],
+    "website": "",
+    "email": [
+      "dzurkaem@umich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FLINT, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2532071",
+        "title": "LEAPS-MPS: Innovative Platform to Access Hexocannabitriol and Analogs for Biological & Antioxidant Evaluation",
+        "amount": "$250,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2431978",
+    "name": "Kenneth M Sylvester",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Regents of the University of Michigan - Flint",
+    "location": "FLINT, MI",
+    "research_areas": [
+      "Office of the Director",
+      "Strategic Use-Inspired Research Growth and Engagement (SURGE): a model for Regional Public Universit..."
+    ],
+    "website": "",
+    "email": [
+      "kenms@umich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FLINT, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2431978",
+        "title": "Strategic Use-Inspired Research Growth and Engagement (SURGE): a model for Regional Public Universities",
+        "amount": "$3,372,553.00",
+        "program": "GRANTED",
+        "end_date": "12/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mohamed Wiem Mkaouer mmkaouer@umich.edu"
+    ]
+  }
+]

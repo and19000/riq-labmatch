@@ -1,0 +1,128 @@
+[
+  {
+    "id": "nsf-2445516",
+    "name": "Yogesh K Vohra",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Alabama at Birmingham",
+    "location": "BIRMINGHAM, AL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU-Site: Regional Initiative to Promote Undergraduate Participation in Experimental and Computation..."
+    ],
+    "website": "",
+    "email": [
+      "ykvohra@uab.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BIRMINGHAM, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2445516",
+        "title": "REU-Site: Regional Initiative to Promote Undergraduate Participation in Experimental and Computational Materials Research",
+        "amount": "$387,231.00",
+        "program": "XC-Crosscutting Activities Pro",
+        "end_date": "03/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shane A Catledge catledge@uab.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447687",
+    "name": "Milena O Stanislavova",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Alabama at Birmingham",
+    "location": "BIRMINGHAM, AL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Third Joint Alabama--Florida Conference on DifferentialEquations, Dynamical Systems and ..."
+    ],
+    "website": "",
+    "email": [
+      "mstanisl@uab.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BIRMINGHAM, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2447687",
+        "title": "Conference: Third Joint Alabama--Florida Conference on DifferentialEquations, Dynamical Systems and Applications (JAF DEDS)",
+        "amount": "$41,908.00",
+        "program": "APPLIED MATHEMATICS",
+        "end_date": "02/28/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2428751",
+    "name": "Yubo Qi",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Alabama at Birmingham",
+    "location": "BIRMINGHAM, AL",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Developing a Deep Learning-based Multifunctional  Method for Simulatin..."
+    ],
+    "website": "",
+    "email": [
+      "yqi2@uab.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BIRMINGHAM, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2428751",
+        "title": "EPSCoR Research Fellows: NSF: Developing a Deep Learning-based Multifunctional  Method for Simulating Quantum Effects",
+        "amount": "$256,892.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "01/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2419223",
+    "name": "Andrei V Stanishevsky",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Alabama at Birmingham",
+    "location": "BIRMINGHAM, AL",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Inspiring NanoFibers INnovations, Industry, Technology, and Education (IRES-INFINITE)"
+    ],
+    "website": "",
+    "email": [
+      "astan@uab.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BIRMINGHAM, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2419223",
+        "title": "IRES: Inspiring NanoFibers INnovations, Industry, Technology, and Education (IRES-INFINITE)",
+        "amount": "$749,980.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Amanda Kennell akennell@troy.edu"
+    ]
+  }
+]

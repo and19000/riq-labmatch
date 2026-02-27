@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nsf-2510489",
+    "name": "Asad Azemi",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Maryland Eastern Shore",
+    "location": "PRINCESS ANNE, MD",
+    "research_areas": [
+      "STEM Education",
+      "Implementation Project: Enhancing Student Engagement and Retention in STEM Programs Through Immersiv..."
+    ],
+    "website": "",
+    "email": [
+      "aazemi@umes.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRINCESS ANNE, MD",
+    "nsf_awards": [
+      {
+        "award_number": "2510489",
+        "title": "Implementation Project: Enhancing Student Engagement and Retention in STEM Programs Through Immersive Virtual Reality Learning",
+        "amount": "$1,249,992.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "08/31/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Behnam Khatabi bkhatabi@umes.edu",
+      "Isaac Marcelin imarcelin@umes.edu",
+      "Mozhgan Sepehri msepehri@umes.edu",
+      "Lizhou Cao lcao@umes.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424850",
+    "name": "Yuanwei Jin",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Maryland Eastern Shore",
+    "location": "PRINCESS ANNE, MD",
+    "research_areas": [
+      "STEM Education",
+      "Mastering Science To Enter Research in STEM"
+    ],
+    "website": "",
+    "email": [
+      "yjin@umes.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRINCESS ANNE, MD",
+    "nsf_awards": [
+      {
+        "award_number": "2424850",
+        "title": "Mastering Science To Enter Research in STEM",
+        "amount": "$21,946.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "02/28/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Victoria V Volkis vvolkis@umes.edu",
+      "Tracy Bell tdbell@umes.edu"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2439538",
+    "name": "Jerrid W Kruse",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Drake University",
+    "location": "DES MOINES, IA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Comparing Preservice STEM Teacher Preparation Using Virtual Reality Artifici..."
+    ],
+    "website": "",
+    "email": [
+      "jerrid.kruse@drake.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DES MOINES, IA",
+    "nsf_awards": [
+      {
+        "award_number": "2439538",
+        "title": "Collaborative Research: Comparing Preservice STEM Teacher Preparation Using Virtual Reality Artificial Intelligence Simulations Versus Peer Teaching",
+        "amount": "$240,108.00",
+        "program": "IUSE",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2501985",
+    "name": "Ryan Sturms",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Drake University",
+    "location": "DES MOINES, IA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Determining Non-Symbiotic Hemoglobin Function in Plants"
+    ],
+    "website": "",
+    "email": [
+      "ryan.sturms@drake.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DES MOINES, IA",
+    "nsf_awards": [
+      {
+        "award_number": "2501985",
+        "title": "RUI: Determining Non-Symbiotic Hemoglobin Function in Plants",
+        "amount": "$166,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jeanne Serb serb@iastate.edu"
+    ]
+  }
+]

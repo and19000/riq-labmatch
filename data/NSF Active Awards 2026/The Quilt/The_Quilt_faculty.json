@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2536888",
+    "name": "Jennifer Leasure",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "The Quilt",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "Conference: 2026 NSF Campus Cyberinfrastructure PI Workshop"
+    ],
+    "website": "",
+    "email": [
+      "jen@thequilt.net"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2536888",
+        "title": "Conference: 2026 NSF Campus Cyberinfrastructure PI Workshop",
+        "amount": "$120,481.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "07/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jennifer Griffin griffin@thequilt.net"
+    ]
+  }
+]

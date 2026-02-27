@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nsf-2515201",
+    "name": "Traian Marius Truta",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Northern Kentucky University",
+    "location": "NEWPORT, KY",
+    "research_areas": [
+      "CSE",
+      "Conference: NAIRR Pilot Expansion: FA2: Capacity and Community for Research-Emerging Institutions wi..."
+    ],
+    "website": "",
+    "email": [
+      "trutat1@nku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWPORT, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2515201",
+        "title": "Conference: NAIRR Pilot Expansion: FA2: Capacity and Community for Research-Emerging Institutions with Large Computing Programs",
+        "amount": "$300,000.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tracy K Camp camp@cra.org",
+      "Hongchi Shi hs15@txstate.edu",
+      "Shaoen Wu swu10@kennesaw.edu",
+      "Junxiu Zhou zhouj2@nku.edu"
+    ]
+  }
+]

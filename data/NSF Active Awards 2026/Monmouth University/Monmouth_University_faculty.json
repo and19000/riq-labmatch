@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nsf-2451348",
+    "name": "Weihao Qu",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Monmouth University",
+    "location": "WEST LONG BRANCH, NJ",
+    "research_areas": [
+      "CSE",
+      "CRII:SHF: Precise Formal Verification of General Relational Quantitative Properties with Mutable Arr..."
+    ],
+    "website": "",
+    "email": [
+      "wqu@monmouth.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WEST LONG BRANCH, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2451348",
+        "title": "CRII:SHF: Precise Formal Verification of General Relational Quantitative Properties with Mutable Arrays",
+        "amount": "$174,999.00",
+        "program": "Software & Hardware Foundation",
+        "end_date": "01/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

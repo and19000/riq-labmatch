@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2524330",
+    "name": "Karen A Peterson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "National Girls Collaborative",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "STEM Education",
+      "Building Knowledge in Computing through Early Literacy Strategies"
+    ],
+    "website": "",
+    "email": [
+      "kpeterson@ngcproject.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2524330",
+        "title": "Building Knowledge in Computing through Early Literacy Strategies",
+        "amount": "$269,916.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Monica M McGill monica@csedresearch.org",
+      "Julie M Smith julie@csedresearch.org",
+      "Rebekah Degener rebekah.degener@mnsu.edu"
+    ]
+  }
+]

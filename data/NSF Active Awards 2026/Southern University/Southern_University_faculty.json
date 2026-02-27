@@ -1,0 +1,73 @@
+[
+  {
+    "id": "nsf-2513558",
+    "name": "Luria Young",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Southern University",
+    "location": "BATON ROUGE, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: LIGO-SEC Partnership Ripple Effects - Engaging Communities for Lifelong Lear..."
+    ],
+    "website": "",
+    "email": [
+      "luria_young@subr.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BATON ROUGE, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2513558",
+        "title": "Collaborative Research: LIGO-SEC Partnership Ripple Effects - Engaging Communities for Lifelong Learning Impacts",
+        "amount": "$1,528,696.00",
+        "program": "Integrative Activities in Phys",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael Stubblefield michael_stubblefield@subr.edu",
+      "Albertha Lawson Albertha_Lawson@subr.edu",
+      "Emily A Jackson emily.osagie@sus.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418415",
+    "name": "Cheng Yan",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Southern University",
+    "location": "BATON ROUGE, LA",
+    "research_areas": [
+      "Office of the Director",
+      "RII FEC: Advancing Climate Neutrality in Farming Communities through Upcycling Natural Fiber Reinfor..."
+    ],
+    "website": "",
+    "email": [
+      "cheng.yan@sus.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BATON ROUGE, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2418415",
+        "title": "RII FEC: Advancing Climate Neutrality in Farming Communities through Upcycling Natural Fiber Reinforced Fireproof Vitrimer Composites",
+        "amount": "$3,000,000.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "09/30/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Guoqiang Li lguoqi1@lsu.edu",
+      "Dirk Heider heider@udel.edu",
+      "Gang Li gli@clemson.edu",
+      "Maryam Jahan maryam_jahan@subr.edu"
+    ]
+  }
+]

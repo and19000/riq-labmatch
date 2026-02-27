@@ -33,7 +33,7 @@
       <table class="labs-table">
         <thead>
           <tr>
-            <th style="width: 60px;">Logo</th>
+            <th style="width: 100px;">Logo</th>
             <th>Professor</th>
             <th>Info</th>
             <th>Email</th>
@@ -45,7 +45,7 @@
       {% for pi in matches %}
             <tr class="pi-row match-row" data-name="{{ pi.name|lower }}" data-institution="{{ pi.school|lower }}" data-department="{{ pi.department|lower }}">
               <td>
-                <div class="pi-logo">
+                <div class="logo-container">
                   {% if pi.school in SCHOOL_LOGOS %}
                   <img src="{{ url_for('static', filename='images/' + SCHOOL_LOGOS[pi.school]) }}" alt="{{ pi.school }}" class="institution-logo">
                   {% else %}
@@ -91,7 +91,7 @@
                 {% if pi.email and pi.email.strip() %}
                   <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
                 {% else %}
-                  <span style="color: var(--text-dim); font-size: 0.85rem;">[placeholder]</span>
+                  <span class="text-dim-sm">Not available</span>
                 {% endif %}
               </td>
               <td style="text-align: center;">
@@ -131,8 +131,9 @@
     {% endif %}
   {% else %}
     <div class="no-results">
-      <p>No matches found. Try uploading or updating your resume.</p>
-      <a href="{{ url_for('resume_upload') }}" class="btn-primary">Upload Resume</a>
+      <p>No matches found. Try updating your profile or browsing all labs.</p>
+      <a href="{{ url_for('onboarding') }}" class="btn-primary">Update Profile</a>
+      <a href="{{ url_for('general') }}" class="btn-secondary" style="margin-left: 0.5rem;">Browse Labs</a>
     </div>
   {% endif %}
   </div> <!-- End matches-content wrapper -->

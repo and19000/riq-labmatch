@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2435147",
+    "name": "Diane R Murphy",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Marymount University",
+    "location": "ARLINGTON, VA",
+    "research_areas": [
+      "CSE",
+      "CAP: Accelerating AI Workforce Development: Preparing Faculty for Teaching AI Across Domains and Pat..."
+    ],
+    "website": "",
+    "email": [
+      "diane.murphy@marymount.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2435147",
+        "title": "CAP: Accelerating AI Workforce Development: Preparing Faculty for Teaching AI Across Domains and Pathways",
+        "amount": "$392,942.00",
+        "program": "ExpandAI",
+        "end_date": "08/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Susan Conrad sconrad@marymount.edu"
+    ]
+  }
+]

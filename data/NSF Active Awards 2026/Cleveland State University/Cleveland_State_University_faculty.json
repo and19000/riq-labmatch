@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nsf-2530209",
+    "name": "John T Van Stan",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Cleveland State University",
+    "location": "CLEVELAND, OH",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Macroscale Study of Forest Litter Effects on Precipitation Interception and ..."
+    ],
+    "website": "",
+    "email": [
+      "j.vanstan@csuohio.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CLEVELAND, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2530209",
+        "title": "Collaborative Research: Macroscale Study of Forest Litter Effects on Precipitation Interception and Soil Water Budgets",
+        "amount": "$241,891.00",
+        "program": "WaLCZ-Water, Land, & Crit Zone",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2443475",
+    "name": "Navid Goudarzi",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Cleveland State University",
+    "location": "CLEVELAND, OH",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Synergistic Urban Environmental Modeling: From Microclimate Dynamics to Community Resilience"
+    ],
+    "website": "",
+    "email": [
+      "n.goudarzi@csuohio.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CLEVELAND, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2443475",
+        "title": "CAREER: Synergistic Urban Environmental Modeling: From Microclimate Dynamics to Community Resilience",
+        "amount": "$549,999.00",
+        "program": "EnvS-Environmtl Sustainability",
+        "end_date": "07/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

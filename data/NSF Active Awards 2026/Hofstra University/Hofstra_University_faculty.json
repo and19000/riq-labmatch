@@ -1,0 +1,126 @@
+[
+  {
+    "id": "nsf-2501783",
+    "name": "David E Williamstyer",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Hofstra University",
+    "location": "HEMPSTEAD, NY",
+    "research_areas": [
+      "Engineering",
+      "ERI: Optimizing Switch-Based Metamaterials Using Machine Learning to Enhance Phased Array Performanc..."
+    ],
+    "website": "",
+    "email": [
+      "d.e.williamstyer@hofstra.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HEMPSTEAD, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2501783",
+        "title": "ERI: Optimizing Switch-Based Metamaterials Using Machine Learning to Enhance Phased Array Performance",
+        "amount": "$199,109.00",
+        "program": "ERI-Eng. Research Initiation",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2532734",
+    "name": "Yubo Yang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Hofstra University",
+    "location": "HEMPSTEAD, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Correlated Methods for Correlated Phases"
+    ],
+    "website": "",
+    "email": [
+      "paul.yang@hofstra.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HEMPSTEAD, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2532734",
+        "title": "LEAPS-MPS: Correlated Methods for Correlated Phases",
+        "amount": "$247,996.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434887",
+    "name": "Anthony T Gordon",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Hofstra University",
+    "location": "HEMPSTEAD, NY",
+    "research_areas": [
+      "CSE",
+      "Microelectronics In Connecting Real-world Opportunities for Computer Science (MicroCS)"
+    ],
+    "website": "",
+    "email": [
+      "agordon@lwta.net"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HEMPSTEAD, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2434887",
+        "title": "Microelectronics In Connecting Real-world Opportunities for Computer Science (MicroCS)",
+        "amount": "$299,929.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "08/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael Hacker Michael.Hacker@Hofstra.Edu",
+      "Tiffany M Barnes tiffany.barnes@gmail.com"
+    ]
+  },
+  {
+    "id": "nsf-2434323",
+    "name": "Krishnan Pillaipakkamnatt",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Hofstra University",
+    "location": "HEMPSTEAD, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CUE-T: Expanding the undergraduate AI talent pipeline by democratizing acces..."
+    ],
+    "website": "",
+    "email": [
+      "csckzp@hofstra.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HEMPSTEAD, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2434323",
+        "title": "Collaborative Research: CUE-T: Expanding the undergraduate AI talent pipeline by democratizing access to instructional capabilities across institutions of higher education (IHEs)",
+        "amount": "$273,071.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "nsf-2528426",
+    "name": "Truc T Ngo",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of San Diego",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "Office of the Director",
+      "Building Research Data Infrastructure for Emerging Research Institutions Using an Open-Source Model ..."
+    ],
+    "website": "",
+    "email": [
+      "tngo@sandiego.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2528426",
+        "title": "Building Research Data Infrastructure for Emerging Research Institutions Using an Open-Source Model Design",
+        "amount": "$720,641.00",
+        "program": "GRANTED",
+        "end_date": "09/30/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eric E Hall ehall@elon.edu",
+      "Jae D Kim jaedkim@sandiego.edu",
+      "Katy Carr katy.carr@pepperdine.edu"
+    ]
+  },
+  {
+    "id": "nsf-2525859",
+    "name": "Raquel A Martinez",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of San Diego",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MPS-Ascend Faculty Catalyst: A Planet is Born: Leveraging Current and Next Generation Facilities to ..."
+    ],
+    "website": "",
+    "email": [
+      "raquelmartinez@sandiego.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2525859",
+        "title": "MPS-Ascend Faculty Catalyst: A Planet is Born: Leveraging Current and Next Generation Facilities to Catch Planet Formation in the Act",
+        "amount": "$277,936.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2427154",
+    "name": "Maren E Mossman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of San Diego",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Quantum analog simulation with Bose-Einstein condensates in flexible light fiel..."
+    ],
+    "website": "",
+    "email": [
+      "mmossman@sandiego.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2427154",
+        "title": "ExpandQISE: Track 1: Quantum analog simulation with Bose-Einstein condensates in flexible light fields",
+        "amount": "$799,840.00",
+        "program": "AISL, ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Peter Engels engels@wsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2407018",
+    "name": "Lauren Benz",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of San Diego",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Equipment: MRI: Track 1 Acquisition of an X-ray Photoelectron Spectrometer for Materials Chemistry R..."
+    ],
+    "website": "",
+    "email": [
+      "laurenbenz@sandiego.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2407018",
+        "title": "Equipment: MRI: Track 1 Acquisition of an X-ray Photoelectron Spectrometer for Materials Chemistry Research and Undergraduate and Graduate Student Training",
+        "amount": "$642,440.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eleanor Gillette egillette@sandiego.edu"
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nsf-2527499",
+    "name": "Shannon E Pittman",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Athens State University",
+    "location": "ATHENS, AL",
+    "research_areas": [
+      "STEM Education",
+      "Supporting Transfer Students in Biology, Chemistry, Computer Science, and Mathematics"
+    ],
+    "website": "",
+    "email": [
+      "shannon.pittman@athens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2527499",
+        "title": "Supporting Transfer Students in Biology, Chemistry, Computer Science, and Mathematics",
+        "amount": "$2,000,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "12/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Leigh C Hester leigh.hester@athens.edu",
+      "Derek Newland derek.newland@athens.edu",
+      "Jing Chen jing.chen@athens.edu",
+      "Jason D Watkins jason.watkins@athens.edu"
+    ]
+  },
+  {
+    "id": "nsf-2432650",
+    "name": "Katherine K Holm",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Athens State University",
+    "location": "ATHENS, AL",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Fostering Unity and Teamwork for Rural Excellence (FUTURE)"
+    ],
+    "website": "",
+    "email": [
+      "katherine.kandalec@athens.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2432650",
+        "title": "Collaborative Research: EPIIC: Fostering Unity and Teamwork for Rural Excellence (FUTURE)",
+        "amount": "$400,000.00",
+        "program": "NSF Engines - Type 2",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rachel O'Sullivan rachel.osullivan@athens.edu",
+      "Mark Gale mark.gale@athens.edu"
+    ]
+  }
+]

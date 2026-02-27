@@ -1,0 +1,125 @@
+[
+  {
+    "id": "nsf-2538906",
+    "name": "Timothy D Ramsey",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Texas A&M AgriLife Research",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Office of the Director",
+      "Testing an approach to expanding research enterprise capacity through enhancement of data infrastruc..."
+    ],
+    "website": "",
+    "email": [
+      "tim.ramsey@ag.tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2538906",
+        "title": "Testing an approach to expanding research enterprise capacity through enhancement of data infrastructure",
+        "amount": "$1,394,260.00",
+        "program": "GRANTED",
+        "end_date": "09/30/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447897",
+    "name": "Margaret E Glasner",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Texas A&M AgriLife Research",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site - Summer Undergraduate Research Program in Biochemistry"
+    ],
+    "website": "",
+    "email": [
+      "margy.glasner@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2447897",
+        "title": "REU Site - Summer Undergraduate Research Program in Biochemistry",
+        "amount": "$511,217.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mary E Bryk bryk@tamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2547410",
+    "name": "Wei Xu",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Texas A&M AgriLife Research",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Biological Sciences",
+      "CAREER: Alterations in Marine Bivalve Shell Formation by Environmental Stress"
+    ],
+    "website": "",
+    "email": [
+      "wxu1@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2547410",
+        "title": "CAREER: Alterations in Marine Bivalve Shell Formation by Environmental Stress",
+        "amount": "$294,430.00",
+        "program": "Integrtv Ecological Physiology",
+        "end_date": "07/31/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2330217",
+    "name": "Shuyang Zhen",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Texas A&M AgriLife Research",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CPS: Medium: Multi-Scale Sensing and Control for Optimizing Crop Production ..."
+    ],
+    "website": "",
+    "email": [
+      "shuyang.zhen@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2330217",
+        "title": "Collaborative Research: CPS: Medium: Multi-Scale Sensing and Control for Optimizing Crop Production and Energy Efficiency in Controlled-Environment Agriculture",
+        "amount": "$248,844.00",
+        "program": "CPS-Cyber-Physical Systems",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

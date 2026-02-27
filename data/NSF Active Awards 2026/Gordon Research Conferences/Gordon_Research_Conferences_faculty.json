@@ -1,0 +1,127 @@
+[
+  {
+    "id": "nsf-2530050",
+    "name": "Phoebe J Lam",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Gordon Research Conferences",
+    "location": "EAST GREENWICH, RI",
+    "research_areas": [
+      "Geosciences",
+      "Conference: 2025 Chemical Oceanography Gordon Research Conference and Gordon Research Seminar"
+    ],
+    "website": "",
+    "email": [
+      "pjlam@ucsc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAST GREENWICH, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2530050",
+        "title": "Conference: 2025 Chemical Oceanography Gordon Research Conference and Gordon Research Seminar",
+        "amount": "$49,950.00",
+        "program": "Chemical Oceanography",
+        "end_date": "04/30/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2522143",
+    "name": "Nicole M Gerardo",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Gordon Research Conferences",
+    "location": "EAST GREENWICH, RI",
+    "research_areas": [
+      "Biological Sciences",
+      "Conference: 2025 Animal-Microbe Symbioses GRC - University of Southern Maine in June 2025"
+    ],
+    "website": "",
+    "email": [
+      "nicole.gerardo@emory.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAST GREENWICH, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2522143",
+        "title": "Conference: 2025 Animal-Microbe Symbioses GRC - University of Southern Maine in June 2025",
+        "amount": "$18,850.00",
+        "program": "Symbiosis Infection & Immunity",
+        "end_date": "03/31/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2513456",
+    "name": "William Collins",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Gordon Research Conferences",
+    "location": "EAST GREENWICH, RI",
+    "research_areas": [
+      "Geosciences",
+      "Gordon Research Conference on 2025 Machine Learning for Actionable Climate Science; Smithfield, Rhod..."
+    ],
+    "website": "",
+    "email": [
+      "WDCollins@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAST GREENWICH, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2513456",
+        "title": "Gordon Research Conference on 2025 Machine Learning for Actionable Climate Science; Smithfield, Rhode Island; June 2025",
+        "amount": "$25,000.00",
+        "program": "Climate & Large-Scale Dynamics",
+        "end_date": "02/28/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515943",
+    "name": "Scarlet S Shell",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Gordon Research Conferences",
+    "location": "EAST GREENWICH, RI",
+    "research_areas": [
+      "Biological Sciences",
+      "Conference: 2025 Mechanisms of Microbial Transcription GRC/GRS"
+    ],
+    "website": "",
+    "email": [
+      "sshell@wpi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAST GREENWICH, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2515943",
+        "title": "Conference: 2025 Mechanisms of Microbial Transcription GRC/GRS",
+        "amount": "$18,000.00",
+        "program": "Genetic Mechanisms, Cross-BIO Activities",
+        "end_date": "02/28/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sean Crosson crosson4@msu.edu",
+      "Daniel Plaza Plazasdo@gmail.com",
+      "Nicholas D Pokorzynski nick.pokorzynski@yale.edu"
+    ]
+  }
+]

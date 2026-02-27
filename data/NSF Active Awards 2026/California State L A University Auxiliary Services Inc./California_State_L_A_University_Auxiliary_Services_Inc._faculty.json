@@ -1,0 +1,103 @@
+[
+  {
+    "id": "nsf-2525508",
+    "name": "Jie Zhong",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State L A University Auxiliary Services Inc.",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "STEM Education",
+      "Transforming Mathematics Education for the Next-Generation Workforce: Building Pathways to Data Scie..."
+    ],
+    "website": "",
+    "email": [
+      "jie.zhong@calstatela.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2525508",
+        "title": "Transforming Mathematics Education for the Next-Generation Workforce: Building Pathways to Data Science and AI through Accessible Innovations",
+        "amount": "$499,867.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "12/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xiaodan Leng xdleng@pasadena.edu",
+      "Dong Zhou dzhou11@calstatela.edu"
+    ]
+  },
+  {
+    "id": "nsf-2519447",
+    "name": "Salvador Rojas",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "California State L A University Auxiliary Services Inc.",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CyberTraining: Implementation: Medium: Cybertraining for Expanding the Use o..."
+    ],
+    "website": "",
+    "email": [
+      "srojas31@calstatela.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2519447",
+        "title": "Collaborative Research: CyberTraining: Implementation: Medium: Cybertraining for Expanding the Use of Digital Twin Technologies in Robotics",
+        "amount": "$158,400.00",
+        "program": "CyberTraining - Training-based",
+        "end_date": "10/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Arturo Pacheco-Vega apacheco@calstatela.edu",
+      "Mario Medina mmedin114@calstatela.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417546",
+    "name": "Jessica Morales-Chicas",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State L A University Auxiliary Services Inc.",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "STEM Education",
+      "Improving Attributions in Undergraduate Pre-Calculus for STEM Success"
+    ],
+    "website": "",
+    "email": [
+      "jmora163@calstatela.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2417546",
+        "title": "Improving Attributions in Undergraduate Pre-Calculus for STEM Success",
+        "amount": "$399,481.00",
+        "program": "IUSE",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Daniel O da Silva ddasilv4@calstatela.edu"
+    ]
+  }
+]

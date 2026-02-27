@@ -1,0 +1,73 @@
+[
+  {
+    "id": "nsf-2518520",
+    "name": "Melanie Williamson",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Kentucky Community & Technical College System",
+    "location": "VERSAILLES, KY",
+    "research_areas": [
+      "CSE",
+      "Conference: NAIRR Pilot Expansion: FA2: Capacity and Community for Community Colleges"
+    ],
+    "website": "",
+    "email": [
+      "melanie.williamson@kctcs.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VERSAILLES, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2518520",
+        "title": "Conference: NAIRR Pilot Expansion: FA2: Capacity and Community for Community Colleges",
+        "amount": "$293,668.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tracy K Camp camp@cra.org",
+      "Elizabeth K Hawthorne e.hawthorne@northeastern.edu",
+      "Christian Servin cservin1@epcc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2412363",
+    "name": "April Kilgore",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Kentucky Community & Technical College System",
+    "location": "VERSAILLES, KY",
+    "research_areas": [
+      "STEM Education",
+      "Enhancing STEM Education with Leadership Academies in a Rural Two-Year College Context"
+    ],
+    "website": "",
+    "email": [
+      "april.kilgore@kctcs.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VERSAILLES, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2412363",
+        "title": "Enhancing STEM Education with Leadership Academies in a Rural Two-Year College Context",
+        "amount": "$500,000.00",
+        "program": "Innov TwoYear College STEM Ed",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Debra J House debra.house@kctcs.edu",
+      "Kathy S Lewis kathys.lewis@kctcs.edu",
+      "Kelly R Johnson kelly.johnson@kctcs.edu",
+      "Cecilia A Ramilo cecilia.ramilo@kctcs.edu"
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2519445",
+    "name": "Alejandra Hormaza Mejia",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Cal Poly Pomona Foundation, Inc.",
+    "location": "POMONA, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CyberTraining: Implementation: Medium: Cybertraining for Expanding the Use o..."
+    ],
+    "website": "",
+    "email": [
+      "hormazamejia@cpp.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POMONA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2519445",
+        "title": "Collaborative Research: CyberTraining: Implementation: Medium: Cybertraining for Expanding the Use of Digital Twin Technologies in Robotics",
+        "amount": "$61,200.00",
+        "program": "CyberTraining - Training-based",
+        "end_date": "10/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514616",
+    "name": "Shokoufeh Mirzaei",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Cal Poly Pomona Foundation, Inc.",
+    "location": "POMONA, CA",
+    "research_areas": [
+      "STEM Education",
+      "CREST Phase I: Center for Smart Manufacturing"
+    ],
+    "website": "",
+    "email": [
+      "Smirzaei@cpp.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POMONA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2514616",
+        "title": "CREST Phase I: Center for Smart Manufacturing",
+        "amount": "$7,000,000.00",
+        "program": "Centers for Rsch Excell in S&T",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Zahra Sotoudeh zsotoudeh@cpp.edu",
+      "Ellips Masehian masehian@cpp.edu",
+      "Mingyan Xiao mxiao@cpp.edu",
+      "Fatemeh Jamshidi fjamshidi@cpp.edu"
+    ]
+  }
+]

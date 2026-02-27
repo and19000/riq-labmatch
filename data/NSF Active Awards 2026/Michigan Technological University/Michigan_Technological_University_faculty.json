@@ -1,0 +1,194 @@
+[
+  {
+    "id": "nsf-2541825",
+    "name": "Bo Xiao",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Michigan Technological University",
+    "location": "HOUGHTON, MI",
+    "research_areas": [
+      "CSE",
+      "Conference: CI PAOS: Challenges and Opportunities of Research Data Management in Construction Engine..."
+    ],
+    "website": "",
+    "email": [
+      "boxiao@mtu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUGHTON, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2541825",
+        "title": "Conference: CI PAOS: Challenges and Opportunities of Research Data Management in Construction Engineering",
+        "amount": "$49,999.00",
+        "program": "Special Initiatives, NSF Public Access Initiative",
+        "end_date": "08/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ronghua Xu ronghuax@mtu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2537398",
+    "name": "Michelle E Jarvie-Eggart",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Michigan Technological University",
+    "location": "HOUGHTON, MI",
+    "research_areas": [
+      "Office of the Director",
+      "Conference: Workshop to Identify Research on Research Security (RORS) Needs in Higher Education"
+    ],
+    "website": "",
+    "email": [
+      "mejarvie@mtu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUGHTON, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2537398",
+        "title": "Conference: Workshop to Identify Research on Research Security (RORS) Needs in Higher Education",
+        "amount": "$99,745.00",
+        "program": "Research on Research Security",
+        "end_date": "08/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gregory M Odegard gmodegar@mtu.edu",
+      "Wayne W Weaver wwweaver@mtu.edu",
+      "Leo C Ureel ureel@mtu.edu",
+      "Matthew R Hellman mrhellma@mtu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2503684",
+    "name": "Simon A Carn",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Michigan Technological University",
+    "location": "HOUGHTON, MI",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Impacts of Hydrogen Sulfide Emitted from Volcanic Passive Degassing on Atmos..."
+    ],
+    "website": "",
+    "email": [
+      "scarn@mtu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUGHTON, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2503684",
+        "title": "Collaborative Research: Impacts of Hydrogen Sulfide Emitted from Volcanic Passive Degassing on Atmospheric Chemistry",
+        "amount": "$48,860.00",
+        "program": "Atmospheric Chemistry",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426322",
+    "name": "Gregory M Odegard",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Michigan Technological University",
+    "location": "HOUGHTON, MI",
+    "research_areas": [
+      "Engineering",
+      "NSF-DFG/Collaborative Research: Integrated Computational Materials Engineering of Thermoplastic Comp..."
+    ],
+    "website": "",
+    "email": [
+      "gmodegar@mtu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUGHTON, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2426322",
+        "title": "NSF-DFG/Collaborative Research: Integrated Computational Materials Engineering of Thermoplastic Composites",
+        "amount": "$267,524.00",
+        "program": "AM-Advanced Manufacturing",
+        "end_date": "06/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452305",
+    "name": "Shiyue Fang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Michigan Technological University",
+    "location": "HOUGHTON, MI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Chemical Synthesis of Long Oligonucleotides"
+    ],
+    "website": "",
+    "email": [
+      "shifang@mtu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUGHTON, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2452305",
+        "title": "Chemical Synthesis of Long Oligonucleotides",
+        "amount": "$583,025.00",
+        "program": "Chemical Synthesis",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yinan Yuan yinyuan@mtu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2335149",
+    "name": "Jin W Choi",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Michigan Technological University",
+    "location": "HOUGHTON, MI",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Novel Robust Continuous Time-Efficient Biometric Profiling and Authenticatio..."
+    ],
+    "website": "",
+    "email": [
+      "choijw@mtu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUGHTON, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2335149",
+        "title": "Collaborative Research: Novel Robust Continuous Time-Efficient Biometric Profiling and Authentication Using Multispectral Photoplethysmography",
+        "amount": "$254,369.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "04/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "nsf-2510408",
+    "name": "Michael M Shara",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "American Museum Natural History",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: The Condor Array Telescope Survey of the Sky",
+      "Collaborative Research: The Condor Array Telescope Survey of the Northern Sky"
+    ],
+    "website": "",
+    "email": [
+      "mshara@amnh.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2510408",
+        "title": "Collaborative Research: The Condor Array Telescope Survey of the Sky",
+        "amount": "$387,470.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2407764",
+        "title": "Collaborative Research: The Condor Array Telescope Survey of the Northern Sky",
+        "amount": "$118,374.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2348998",
+    "name": "Denton S Ebel",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "American Museum Natural History",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: REU Site: Earth and Planetary Science and Astrophysics REU at the American M...",
+      "Equipment: MRI Track 1 Acquisition of an X-ray Microdiffraction System to Identify Crystalline Mater..."
+    ],
+    "website": "",
+    "email": [
+      "debel@amnh.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2348998",
+        "title": "Collaborative Research: REU Site: Earth and Planetary Science and Astrophysics REU at the American Museum of Natural History in Collaboration with the City University of New York",
+        "amount": "$425,132.00",
+        "program": "SPECIAL PROGRAMS IN ASTRONOMY, EDUCATION AND HUMAN RESOURCES",
+        "end_date": "02/29/2028",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2407745",
+        "title": "Equipment: MRI Track 1 Acquisition of an X-ray Microdiffraction System to Identify Crystalline Materials for Education, Research, and Museum Conservation",
+        "amount": "$346,257.00",
+        "program": "Instrumentation & Facilities",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Nathalie F Goodkin ngoodkin@amnh.org"
+    ]
+  }
+]

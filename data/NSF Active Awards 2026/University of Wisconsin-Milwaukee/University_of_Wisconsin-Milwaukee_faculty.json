@@ -1,0 +1,98 @@
+[
+  {
+    "id": "nsf-2513124",
+    "name": "Jolien D Creighton",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Wisconsin-Milwaukee",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Exploring the Universe with Gravitational Wave Observations from LIGO, Virgo, and KAGRA"
+    ],
+    "website": "",
+    "email": [
+      "jolien@uwm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2513124",
+        "title": "Exploring the Universe with Gravitational Wave Observations from LIGO, Virgo, and KAGRA",
+        "amount": "$1,000,000.00",
+        "program": "Gravity Exp. & Data Analysis",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Patrick R Brady prbrady@uwm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447752",
+    "name": "Suzanne Boyd",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Wisconsin-Milwaukee",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: Access to Inquiry in Mathematics Undergraduate Program"
+    ],
+    "website": "",
+    "email": [
+      "sboyd@uwm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2447752",
+        "title": "REU Site: Access to Inquiry in Mathematics Undergraduate Program",
+        "amount": "$449,626.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Pamela E Harris peharris@uwm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2420195",
+    "name": "Emily K Latch",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Wisconsin-Milwaukee",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Collaborative Research: Grenada SURF-TURF: Summer Undergraduate Research Fellows - Teaming Up ..."
+    ],
+    "website": "",
+    "email": [
+      "latch@uwm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2420195",
+        "title": "IRES: Collaborative Research: Grenada SURF-TURF: Summer Undergraduate Research Fellows - Teaming Up on Reefs and in Forests",
+        "amount": "$213,969.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "10/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

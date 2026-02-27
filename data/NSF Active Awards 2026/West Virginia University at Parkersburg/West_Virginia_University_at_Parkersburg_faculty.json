@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2500555",
+    "name": "Michele E Wilson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "West Virginia University at Parkersburg",
+    "location": "PARKERSBURG, WV",
+    "research_areas": [
+      "STEM Education",
+      "Building a Pathway to Cloud Computing Careers in West Virginia"
+    ],
+    "website": "",
+    "email": [
+      "michele.wilson@wvup.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PARKERSBURG, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2500555",
+        "title": "Building a Pathway to Cloud Computing Careers in West Virginia",
+        "amount": "$815,824.00",
+        "program": "Advanced Tech Education Prog",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kurt Knopp KURT.KNOPP@WVUP.EDU",
+      "Charles W Almond calmond1@wvup.edu",
+      "Olivia Reeder oreeder@wvup.edu"
+    ]
+  }
+]

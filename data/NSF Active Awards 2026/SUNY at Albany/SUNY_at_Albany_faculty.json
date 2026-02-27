@@ -1,0 +1,166 @@
+[
+  {
+    "id": "nsf-2603236",
+    "name": "Balakrishnan Prabhakaran",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "SUNY at Albany",
+    "location": "ALBANY, NY",
+    "research_areas": [
+      "CSE",
+      "CIRC: Dev: SMILE: Scan to Multi-sensorial Interactive Learning Environment"
+    ],
+    "website": "",
+    "email": [
+      "bprabhakaran@albany.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALBANY, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2603236",
+        "title": "CIRC: Dev: SMILE: Scan to Multi-sensorial Interactive Learning Environment",
+        "amount": "$514,915.00",
+        "program": "CCRI-CISE Cmnty Rsrch Infrstrc",
+        "end_date": "10/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2524231",
+    "name": "Lijun Ni",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "SUNY at Albany",
+    "location": "ALBANY, NY",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Building Capacity for Teacher and Student AI Fluency in Middle Schools in Te..."
+    ],
+    "website": "",
+    "email": [
+      "lni@albany.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALBANY, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2524231",
+        "title": "Collaborative Research: Building Capacity for Teacher and Student AI Fluency in Middle Schools in Texas and New York",
+        "amount": "$114,371.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2516772",
+    "name": "Jia Sheng",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY at Albany",
+    "location": "ALBANY, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Development of Photoswitchable Nucleotides to Control RNA Biochemistry"
+    ],
+    "website": "",
+    "email": [
+      "jsheng@albany.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALBANY, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2516772",
+        "title": "Development of Photoswitchable Nucleotides to Control RNA Biochemistry",
+        "amount": "$510,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ting Wang Twang3@albany.edu"
+    ]
+  },
+  {
+    "id": "nsf-2515181",
+    "name": "Unal Tatar",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "SUNY at Albany",
+    "location": "ALBANY, NY",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "IUCRC Planning Grant: University at Albany: Cyber and Terrorism Insurance Studies (CATIS) Center"
+    ],
+    "website": "",
+    "email": [
+      "utatar@albany.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALBANY, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2515181",
+        "title": "IUCRC Planning Grant: University at Albany: Cyber and Terrorism Insurance Studies (CATIS) Center",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "05/31/2026",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Brian Nussbaum bnussbaum@albany.edu",
+      "Cesar Pinto cpinto2@albany.edu",
+      "Gary A Ackerman gackerman@albany.edu"
+    ]
+  },
+  {
+    "id": "nsf-2428289",
+    "name": "Susan T Sharfstein",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "SUNY at Albany",
+    "location": "ALBANY, NY",
+    "research_areas": [
+      "Engineering",
+      "FMRG: Bio: Manufacturing Multi-dimensional Culture Systems with Integrated Measurement and Manipulat..."
+    ],
+    "website": "",
+    "email": [
+      "ssharfstein@albany.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALBANY, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2428289",
+        "title": "FMRG: Bio: Manufacturing Multi-dimensional Culture Systems with Integrated Measurement and Manipulation Technologies",
+        "amount": "$2,999,999.00",
+        "program": "FM-Future Manufacturing",
+        "end_date": "03/31/2029",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nathaniel C Cady ncady@albany.edu",
+      "Yubing Xie YXie@albany.edu",
+      "Alandeon Oliveira aoliveira@albany.edu",
+      "Thomas R Kiehl tomkiehl@neuralsci.org"
+    ]
+  }
+]

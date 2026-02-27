@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2532363",
+    "name": "Juan Martinez Sykora",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "SETI Institute",
+    "location": "MOUNTAIN VIEW, CA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: ANSWERS: Ion-Neutral Coupling in Geospace and its Impact on Space Weather"
+    ],
+    "website": "",
+    "email": [
+      "jumasy1980@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOUNTAIN VIEW, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2532363",
+        "title": "Collaborative Research: ANSWERS: Ion-Neutral Coupling in Geospace and its Impact on Space Weather",
+        "amount": "$123,080.00",
+        "program": "Space Weather Research",
+        "end_date": "04/30/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2407637",
+    "name": "Kimberly M Bott",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SETI Institute",
+    "location": "MOUNTAIN VIEW, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Polarimetric Asteroseismology of Massive Hot Stars"
+    ],
+    "website": "",
+    "email": [
+      "kim.m.bott@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOUNTAIN VIEW, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2407637",
+        "title": "Collaborative Research: Polarimetric Asteroseismology of Massive Hot Stars",
+        "amount": "$95,879.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "William B Sparks wsparks@seti.org"
+    ]
+  }
+]

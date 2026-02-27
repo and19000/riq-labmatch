@@ -109,13 +109,13 @@ def jaccard(set_a: Set, set_b: Set) -> float:
 @dataclass
 class MatchWeights:
     """Configurable weights for each scoring component."""
-    topic_fit: int = 30
-    evidence: int = 20
-    skill: int = 15
+    topic_fit: int = 40
+    evidence: int = 15
+    skill: int = 5
     actionability: int = 10
     constraints: int = 10
     intent: int = 10
-    contact: int = 5
+    contact: int = 10
 
 
 WEIGHTS = MatchWeights()
@@ -974,18 +974,21 @@ class MatchingServiceV2:
     Drop-in replacement for MatchingService with v2 algorithm.
     """
     
-    def __init__(self, faculty_json_path: str):
-        """Initialize with faculty JSON file."""
-        with open(faculty_json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        # Support both formats
-        if isinstance(data, list):
-            self.faculty_list = data
+    def __init__(self, faculty_json_path_or_list):
+        """Initialize with faculty JSON file path or pre-loaded list of dicts."""
+        if isinstance(faculty_json_path_or_list, list):
+            self.faculty_list = faculty_json_path_or_list
             self.metadata = {}
         else:
-            self.faculty_list = data.get("faculty", data)
-            self.metadata = data.get("metadata", {})
+            with open(faculty_json_path_or_list, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            # Support both formats
+            if isinstance(data, list):
+                self.faculty_list = data
+                self.metadata = {}
+            else:
+                self.faculty_list = data.get("faculty", data)
+                self.metadata = data.get("metadata", {})
         
         # Load ontology
         self.ontology = get_ontology()
@@ -1173,12 +1176,18 @@ class MatchingServiceV2:
                     explanation_str += f" ({missing_count} categories not scored due to missing data)"
             
             results.append({
+                "id": fac.get("id") or fac.get("name", ""),
                 "name": fac.get("name", ""),
                 "email": email,
                 "email_quality": fac.get("primary_email_quality") or fac.get("email_quality", "uncertain"),
                 "website": fac.get("website", ""),
                 "department": fac.get("department", ""),
                 "school": fac.get("school", "") or fac.get("institution", ""),
+                "title": fac.get("title", ""),
+                "location": fac.get("location", ""),
+                "specific_location": fac.get("specific_location", ""),
+                "google_scholar": fac.get("google_scholar", ""),
+                "lab_techniques": fac.get("lab_techniques", ""),
                 "h_index": int(fac.get("h_index") or 0),
                 "total_score": round(r["score"], 1),  # Scaled score (primary)
                 "breakdown": {k: round(v, 1) if isinstance(v, (int, float)) else v for k, v in bd.items()},

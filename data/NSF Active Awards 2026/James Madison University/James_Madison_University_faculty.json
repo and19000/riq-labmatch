@@ -1,0 +1,101 @@
+[
+  {
+    "id": "nsf-2525472",
+    "name": "YING JIN",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "James Madison University",
+    "location": "HARRISONBURG, VA",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Pivots: EDU RURAL: Uncovering Potential - Paving Career Pathways to Artificial Intelligence through ..."
+    ],
+    "website": "",
+    "email": [
+      "JIN4YX@JMU.EDU"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HARRISONBURG, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2525472",
+        "title": "Pivots: EDU RURAL: Uncovering Potential - Paving Career Pathways to Artificial Intelligence through Experiential Learning in Rural Areas",
+        "amount": "$996,879.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Elham Torabi torabiex@jmu.edu",
+      "Maryam Sadat Sharifian sharifms@jmu.edu",
+      "Katherine L Walters L5pgrs@jmu.edu",
+      "Rhonda A Syler (Former) sylerra@jmu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447503",
+    "name": "Isaiah C Sumner",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "James Madison University",
+    "location": "HARRISONBURG, VA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: A Summer Research Program that Integrates Deaf, Hearing and Sign Language Interpreting Stu..."
+    ],
+    "website": "",
+    "email": [
+      "sumneric@jmu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HARRISONBURG, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2447503",
+        "title": "REU Site: A Summer Research Program that Integrates Deaf, Hearing and Sign Language Interpreting Students to Advance Chemistry Research and to Enhance Community Outreach",
+        "amount": "$601,385.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, UNDERGRADUATE PROGRAMS IN CHEM",
+        "end_date": "03/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nathan T Wright wrightnt@jmu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2525954",
+    "name": "David H Hembry",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "James Madison University",
+    "location": "HARRISONBURG, VA",
+    "research_areas": [
+      "Biological Sciences",
+      "BRC-BIO: Evolution and ecology across the mutualism-parasitism transition in leafflower plants (Phyl..."
+    ],
+    "website": "",
+    "email": [
+      "hembry_d@utpb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HARRISONBURG, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2525954",
+        "title": "BRC-BIO: Evolution and ecology across the mutualism-parasitism transition in leafflower plants (Phyllanthaceae) and leafflower moths (Lepidoptera: Gracillariidae: Epicephala)",
+        "amount": "$371,045.00",
+        "program": "NFE-New Faculty Enhancement",
+        "end_date": "03/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

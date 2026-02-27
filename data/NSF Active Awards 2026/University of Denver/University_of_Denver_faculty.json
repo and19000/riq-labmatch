@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2441115",
+    "name": "Allegra T Aron",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Denver",
+    "location": "DENVER, CO",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Elucidating the Chemistry of Biological Lanthanide Chelators for Rare Earth Element Separati..."
+    ],
+    "website": "",
+    "email": [
+      "allegra.aron@du.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DENVER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2441115",
+        "title": "CAREER: Elucidating the Chemistry of Biological Lanthanide Chelators for Rare Earth Element Separation",
+        "amount": "$850,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "06/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424972",
+    "name": "Michelle B Sabick",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Denver",
+    "location": "DENVER, CO",
+    "research_areas": [
+      "STEM Education",
+      "Fostering Relationships to Elevate Low-Income Learners in Computer Science"
+    ],
+    "website": "",
+    "email": [
+      "michelle.sabick@du.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DENVER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2424972",
+        "title": "Fostering Relationships to Elevate Low-Income Learners in Computer Science",
+        "amount": "$996,598.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "03/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Scott T Leutenegger leut@cs.du.edu"
+    ]
+  }
+]

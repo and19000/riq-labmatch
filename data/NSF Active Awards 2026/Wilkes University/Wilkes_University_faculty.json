@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nsf-2526169",
+    "name": "Abas Sabouni",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Wilkes University",
+    "location": "WILKES BARRE, PA",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Explorations: Experiential Learning for Autonomous Systems and AI-Driven Robotics in Northeast Penns..."
+    ],
+    "website": "",
+    "email": [
+      "abas.sabouni@wilkes.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WILKES BARRE, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2526169",
+        "title": "Explorations: Experiential Learning for Autonomous Systems and AI-Driven Robotics in Northeast Pennsylvania",
+        "amount": "$806,408.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yong Zhu yong.zhu@wilkes.edu",
+      "Edward T Bednarz edward.bednarz@wilkes.edu",
+      "Asif Abdullah Khan asifabdullah.khan@wilkes.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510907",
+    "name": "Holly T Frederick",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Wilkes University",
+    "location": "WILKES BARRE, PA",
+    "research_areas": [
+      "Geosciences",
+      "Equipment: MRI Track 1: Acquisition of an Ion Chromatograph for Environmental Research, Student Trai..."
+    ],
+    "website": "",
+    "email": [
+      "Holly.Frederick@wilkes.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WILKES BARRE, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2510907",
+        "title": "Equipment: MRI Track 1: Acquisition of an Ion Chromatograph for Environmental Research, Student Training, and Community Engagement",
+        "amount": "$115,508.00",
+        "program": "Instrumentation & Facilities",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Saritha Karnae saritha.karnae@wilkes.edu",
+      "Yuzo R Yanagitsuru yuzo.yanagitsuru@wilkes.edu",
+      "Nelson M Anaya nelson.anaya@wilkes.edu"
+    ]
+  }
+]

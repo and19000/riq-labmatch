@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2427896",
+    "name": "Dharmakeerthi Nawarathna",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Old Dominion University Research Foundation",
+    "location": "NORFOLK, VA",
+    "research_areas": [
+      "Engineering",
+      "FMSG: Bio: Disposable Microfluidics Device with Integrated RF Electric Fields and Machine Learning f..."
+    ],
+    "website": "",
+    "email": [
+      "dnawarat@odu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORFOLK, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2427896",
+        "title": "FMSG: Bio: Disposable Microfluidics Device with Integrated RF Electric Fields and Machine Learning for Biomanufacturing of mRNA-based CAR T-cells",
+        "amount": "$500,000.00",
+        "program": "FM-Future Manufacturing",
+        "end_date": "04/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Umamaheswara R Tida umamaheswara.tida@ndsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2446575",
+    "name": "Gregory A Cutter",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Old Dominion University Research Foundation",
+    "location": "NORFOLK, VA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: An examination of dissolved organic sulfur biogeochemistry"
+    ],
+    "website": "",
+    "email": [
+      "gcutter@odu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORFOLK, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2446575",
+        "title": "Collaborative Research: An examination of dissolved organic sulfur biogeochemistry",
+        "amount": "$645,614.00",
+        "program": "Chemical Oceanography",
+        "end_date": "02/29/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

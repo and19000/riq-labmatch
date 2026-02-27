@@ -1,0 +1,356 @@
+[
+  {
+    "id": "nsf-2429771",
+    "name": "Ana Colaco Morais",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Understanding the effects of tunable media on mass transport during ca...",
+      "Engineering",
+      "Collaborative Research: Understanding the roles of Co2-tunable media on the hydrothermal deconstruct..."
+    ],
+    "website": "",
+    "email": [
+      "ana.morais@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2429771",
+        "title": "EPSCoR Research Fellows: NSF: Understanding the effects of tunable media on mass transport during catalytic conversion of polyolefins",
+        "amount": "$204,819.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2419180",
+        "title": "Collaborative Research: Understanding the roles of Co2-tunable media on the hydrothermal deconstruction of poly(ethylene) terephtalate",
+        "amount": "$300,000.00",
+        "program": "Proc Sys, Reac Eng & Mol Therm, Special Initiatives",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2530765",
+    "name": "Elaina J Sutley",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Engineering",
+      "RAPID: Fundamental Behavior of Manufactured Homes under Windstorms through Full-scale Experimentatio..."
+    ],
+    "website": "",
+    "email": [
+      "enjsutley@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2530765",
+        "title": "RAPID: Fundamental Behavior of Manufactured Homes under Windstorms through Full-scale Experimentation and Numerical Modeling",
+        "amount": "$200,000.00",
+        "program": "ECI-Engineering for Civil Infr",
+        "end_date": "09/30/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Arindam Gan Chowdhury chowdhur@fiu.edu",
+      "Thang N Dao tndao@eng.ua.edu",
+      "Ioannis G Zisis izisis@fiu.edu",
+      "William N Collins william.collins@ku.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453604",
+    "name": "Christopher G Elles",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Developing Two-photon-absorbing Chromophores for NIR Light-driven Photocatal..."
+    ],
+    "website": "",
+    "email": [
+      "elles@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2453604",
+        "title": "Collaborative Research: Developing Two-photon-absorbing Chromophores for NIR Light-driven Photocatalysis",
+        "amount": "$199,125.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453075",
+    "name": "Timothy A Jackson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Geometric and Electronic Structure Contributions to Reactivity of Mn- and Fe-hydroxo Complexes"
+    ],
+    "website": "",
+    "email": [
+      "taj@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2453075",
+        "title": "Geometric and Electronic Structure Contributions to Reactivity of Mn- and Fe-hydroxo Complexes",
+        "amount": "$479,856.00",
+        "program": "CMFP-Chem Mech Funct, and Prop, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2521414",
+    "name": "Rachael G Farber",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: FEC: Harnessing Artificial Magnetic Semiconductors in the Flatland"
+    ],
+    "website": "",
+    "email": [
+      "rfarber@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2521414",
+        "title": "Collaborative Research: FEC: Harnessing Artificial Magnetic Semiconductors in the Flatland",
+        "amount": "$2,192,722.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "07/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hui Zhao huizhao@ku.edu",
+      "Wai-Lun Chan wlchan@ku.edu",
+      "Qunfei Zhou qunfei.zhou@ku.edu"
+    ]
+  },
+  {
+    "id": "nsf-2448927",
+    "name": "Zarko Boskovic",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Exploiting Mechanistic Knowledge to Develop Selective and Robust Synthetic n,pi-star Photochemistry"
+    ],
+    "website": "",
+    "email": [
+      "zarko@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2448927",
+        "title": "Exploiting Mechanistic Knowledge to Develop Selective and Robust Synthetic n,pi-star Photochemistry",
+        "amount": "$575,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, Chemical Synthesis",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2442101",
+    "name": "Aaron J Teator",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Exploiting the Brook Rearrangement for Anionic Migration Polymerization (AMP)"
+    ],
+    "website": "",
+    "email": [
+      "teator@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2442101",
+        "title": "CAREER: Exploiting the Brook Rearrangement for Anionic Migration Polymerization (AMP)",
+        "amount": "$406,078.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, Macromolec/Supramolec/Nano",
+        "end_date": "06/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447584",
+    "name": "Lisa D Timmons",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site:  The Stressed Life of Cells"
+    ],
+    "website": "",
+    "email": [
+      "timmons@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2447584",
+        "title": "REU Site:  The Stressed Life of Cells",
+        "amount": "$464,355.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447841",
+    "name": "Hartwin Peelaers",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU SITE: University of Kansas Physics and Astronomy Research Experiences for Undergraduates"
+    ],
+    "website": "",
+    "email": [
+      "peelaers@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2447841",
+        "title": "REU SITE: University of Kansas Physics and Astronomy Research Experiences for Undergraduates",
+        "amount": "$460,000.00",
+        "program": "Integrative Activities in Phys, SPECIAL PROGRAMS IN ASTRONOMY",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2349629",
+    "name": "Tamzidul Hoque",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: REU Site: TRUST: Training Research for Undergraduate Students in Secure and ..."
+    ],
+    "website": "",
+    "email": [
+      "hoque@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2349629",
+        "title": "Collaborative Research: REU Site: TRUST: Training Research for Undergraduate Students in Secure and Trusted Systems",
+        "amount": "$30,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2421913",
+    "name": "Dionyssios Mantzavinos",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kansas Center for Research Inc",
+    "location": "LAWRENCE, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: Prairie Analysis Seminar 2024-2025"
+    ],
+    "website": "",
+    "email": [
+      "mantzavinos@ku.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LAWRENCE, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2421913",
+        "title": "Collaborative Research: Conference: Prairie Analysis Seminar 2024-2025",
+        "amount": "$25,376.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shuanglin Shao slshao@ku.edu"
+    ]
+  }
+]

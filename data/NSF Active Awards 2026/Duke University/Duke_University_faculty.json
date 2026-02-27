@@ -1,0 +1,338 @@
+[
+  {
+    "id": "nsf-2447829",
+    "name": "David Mitzi",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: REU SITE: Nanoscale Detectives -- Elucidating the Structure and Dynamics of ..."
+    ],
+    "website": "",
+    "email": [
+      "david.mitzi@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2447829",
+        "title": "Collaborative Research: REU SITE: Nanoscale Detectives -- Elucidating the Structure and Dynamics of Hybrid Perovskite Systems",
+        "amount": "$185,425.00",
+        "program": "EWFD-Eng Workforce Development, Partnership Funding from SRC",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2528383",
+    "name": "Michael J Therien",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: De Novo Protein Constructs for Photosynthetic Energy Transduction"
+    ],
+    "website": "",
+    "email": [
+      "michael.therien@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2528383",
+        "title": "Collaborative Research: De Novo Protein Constructs for Photosynthetic Energy Transduction",
+        "amount": "$924,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, Chemistry of Life Processes",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David N Beratan david.beratan@duke.edu"
+    ]
+  },
+  {
+    "id": "nsf-2517578",
+    "name": "Mark Borsuk",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "IUCRC Phase I Duke University: Center for Innovation in Risk, Catastrophes, and Decisions (CIRCAD)"
+    ],
+    "website": "",
+    "email": [
+      "mark.borsuk@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2517578",
+        "title": "IUCRC Phase I Duke University: Center for Innovation in Risk, Catastrophes, and Decisions (CIRCAD)",
+        "amount": "$1,000,000.00",
+        "program": "Human-Envi & Geographical Scis, IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "08/31/2030",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lydia P Olander lydia.olander@duke.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505898",
+    "name": "Warren S Warren",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Novel Hyperpolarization Approaches for Magnetic Resonance Applications"
+    ],
+    "website": "",
+    "email": [
+      "warren.warren@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2505898",
+        "title": "Novel Hyperpolarization Approaches for Magnetic Resonance Applications",
+        "amount": "$935,000.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525895",
+    "name": "Natalia M Litchinitser",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: ECCS-EPSRC: Ultrafast control of quantum light-matter interactions at the na..."
+    ],
+    "website": "",
+    "email": [
+      "natalia.litchinitser@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2525895",
+        "title": "Collaborative Research: ECCS-EPSRC: Ultrafast control of quantum light-matter interactions at the nanoscale with structured light and matter",
+        "amount": "$300,000.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2504041",
+    "name": "Lenhard L Ng",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Enhanced invariants of Legendrian links"
+    ],
+    "website": "",
+    "email": [
+      "ng@math.duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2504041",
+        "title": "Enhanced invariants of Legendrian links",
+        "amount": "$299,647.00",
+        "program": "TOPOLOGY",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453333",
+    "name": "Qiu Wang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "New Methods for Stereoselective 1,3-Difunctionalization of Cyclopropanes"
+    ],
+    "website": "",
+    "email": [
+      "qiu.wang@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2453333",
+        "title": "New Methods for Stereoselective 1,3-Difunctionalization of Cyclopropanes",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2530395",
+    "name": "Mark R Wiesner",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Engineering",
+      "Conference: Conference: 2025 Biannual research and education conference of the Association of Enviro..."
+    ],
+    "website": "",
+    "email": [
+      "wiesner@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2530395",
+        "title": "Conference: Conference: 2025 Biannual research and education conference of the Association of Environmental Engineering and Science Professors (AEESP) at Duke University",
+        "amount": "$95,490.00",
+        "program": "EnvE-Environmental Engineering",
+        "end_date": "03/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2441703",
+    "name": "Ivan A Moreno-Hernandez",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Harnessing Chemistry and Disorder to Activate Oxygen Electrocatalysis"
+    ],
+    "website": "",
+    "email": [
+      "ivan.moreno-hernandez@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2441703",
+        "title": "CAREER: Harnessing Chemistry and Disorder to Activate Oxygen Electrocatalysis",
+        "amount": "$750,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "12/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2401367",
+    "name": "Aaron D Franklin",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Engineering",
+      "NSF-SNSF: Uncovering the Thermal Implications of Contact Scaling and Structure in 2D Semiconductors"
+    ],
+    "website": "",
+    "email": [
+      "aaron.franklin@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2401367",
+        "title": "NSF-SNSF: Uncovering the Thermal Implications of Contact Scaling and Structure in 2D Semiconductors",
+        "amount": "$400,000.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2409077",
+    "name": "Stephen L Craig",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Duke University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-BSF: Emergent Rheology of Blends Containing Supramolecular Polymers"
+    ],
+    "website": "",
+    "email": [
+      "stephen.craig@duke.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2409077",
+        "title": "NSF-BSF: Emergent Rheology of Blends Containing Supramolecular Polymers",
+        "amount": "$360,000.00",
+        "program": "POLYMERS",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

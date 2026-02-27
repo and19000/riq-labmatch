@@ -1,0 +1,136 @@
+[
+  {
+    "id": "nsf-2518320",
+    "name": "Peter D Nencka",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Miami University",
+    "location": "OXFORD, OH",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Introductory Course Material to Increase Participation in College Majors: A ..."
+    ],
+    "website": "",
+    "email": [
+      "nenckap@miamioh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "OXFORD, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2518320",
+        "title": "Collaborative Research: Introductory Course Material to Increase Participation in College Majors: A Randomized Curriculum Intervention in Economics",
+        "amount": "$267,811.00",
+        "program": "IUSE",
+        "end_date": "12/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Riley K Acton actonr@miamioh.edu",
+      "Carla Nietfeld nietfecj@miamioh.edu"
+    ]
+  },
+  {
+    "id": "nsf-2533662",
+    "name": "Daniela Inclezan",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Miami University",
+    "location": "OXFORD, OH",
+    "research_areas": [
+      "CSE",
+      "Travel: Student Travel Grant for 41st International Conference on Logic Programming and Doctoral Con..."
+    ],
+    "website": "",
+    "email": [
+      "inclezd@miamioh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "OXFORD, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2533662",
+        "title": "Travel: Student Travel Grant for 41st International Conference on Logic Programming and Doctoral Consortium",
+        "amount": "$14,800.00",
+        "program": "Robust Intelligence",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Martin Gebser martin.gebser@aau.at"
+    ]
+  },
+  {
+    "id": "nsf-2447410",
+    "name": "David J Berg",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Miami University",
+    "location": "OXFORD, OH",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site: Ecology in Human-Dominated Landscapes"
+    ],
+    "website": "",
+    "email": [
+      "bergdj@miamioh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "OXFORD, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2447410",
+        "title": "REU Site: Ecology in Human-Dominated Landscapes",
+        "amount": "$465,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michelle D Boone boonemd@miamioh.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426915",
+    "name": "Samir Bali",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Miami University",
+    "location": "OXFORD, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Bright, Highly Polarization-Squeezed Light Beam for Quantum Metrology"
+    ],
+    "website": "",
+    "email": [
+      "balis@miamioh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "OXFORD, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2426915",
+        "title": "ExpandQISE: Track 1: Bright, Highly Polarization-Squeezed Light Beam for Quantum Metrology",
+        "amount": "$796,516.00",
+        "program": "ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Thad G Walker tgwalker@wisc.edu",
+      "Imran M Mirza mirzaim@miamioh.edu"
+    ]
+  }
+]

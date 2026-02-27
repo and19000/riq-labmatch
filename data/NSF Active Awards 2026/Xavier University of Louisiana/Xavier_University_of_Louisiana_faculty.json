@@ -1,0 +1,125 @@
+[
+  {
+    "id": "nsf-2532664",
+    "name": "Prerona Dutta",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Xavier University of Louisiana",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Geometric and quantitative analysis of nonlinear PDEs"
+    ],
+    "website": "",
+    "email": [
+      "pdutta@xula.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2532664",
+        "title": "LEAPS-MPS: Geometric and quantitative analysis of nonlinear PDEs",
+        "amount": "$245,851.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "12/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2502119",
+    "name": "Hector Biliran",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Xavier University of Louisiana",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Biological Sciences",
+      "Excellence in Research: Molecular characterization of the TLE1-mediated transcriptional and epigenet..."
+    ],
+    "website": "",
+    "email": [
+      "hbiliran@xula.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2502119",
+        "title": "Excellence in Research: Molecular characterization of the TLE1-mediated transcriptional and epigenetic program as a modulator of epithelial cell survival and a target of integrins",
+        "amount": "$824,010.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "06/30/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424854",
+    "name": "Timmy Ma",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Xavier University of Louisiana",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "eMB: Collaborative Research: Using mathematics to bridge between evolutionary dynamics in the hemato..."
+    ],
+    "website": "",
+    "email": [
+      "tma@xula.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2424854",
+        "title": "eMB: Collaborative Research: Using mathematics to bridge between evolutionary dynamics in the hematopoietic systems of mice and humans: from in vivo to epidemiological scales",
+        "amount": "$36,644.00",
+        "program": "MATHEMATICAL BIOLOGY",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2425025",
+    "name": "Asem I Abdulahad",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Xavier University of Louisiana",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: XULA-UChicago Partnership for Research and Education in Innovative Composite..."
+    ],
+    "website": "",
+    "email": [
+      "aabdulah@xula.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2425025",
+        "title": "Collaborative Research: XULA-UChicago Partnership for Research and Education in Innovative Composite Materials",
+        "amount": "$2,239,256.00",
+        "program": "PREM, Hist Black Colleges and Univ, EPSCoR Co-Funding, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Stuart J Rowan stuartrowan@uchicago.edu"
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "nsf-2428761",
+    "name": "Xiangfang Li",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Prairie View A & M University",
+    "location": "PRAIRIE VIEW, TX",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: Advancing Generative AI Research and Education: Acquisition of High-Performance Computing..."
+    ],
+    "website": "",
+    "email": [
+      "xili@pvamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRAIRIE VIEW, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2428761",
+        "title": "Equipment: Advancing Generative AI Research and Education: Acquisition of High-Performance Computing Equipment at the Electrical and Computer Engineering Department of PVAMU",
+        "amount": "$493,736.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lijun Qian liqian@pvamu.edu",
+      "Pamela H Obiomon phobiomon@pvamu.edu",
+      "Annamalai Annamalai aaannamalai@pvamu.edu",
+      "Xishuang Dong xidong@pvamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418550",
+    "name": "Annamalai Annamalai",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Prairie View A & M University",
+    "location": "PRAIRIE VIEW, TX",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Remote Access to Digital Immersive Artificial Intelligence of Things Educati..."
+    ],
+    "website": "",
+    "email": [
+      "aaannamalai@pvamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRAIRIE VIEW, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2418550",
+        "title": "Collaborative Research: Remote Access to Digital Immersive Artificial Intelligence of Things Education",
+        "amount": "$90,000.00",
+        "program": "Cyberlearn & Future Learn Tech",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mohamed F Chouikha mfchouikha@pvamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424675",
+    "name": "Keisha C Antoine",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Prairie View A & M University",
+    "location": "PRAIRIE VIEW, TX",
+    "research_areas": [
+      "STEM Education",
+      "Building a Chemical Engineering Inter-Institutional Consortium to Support Talented, Low-income Stude..."
+    ],
+    "website": "",
+    "email": [
+      "keantoine@pvamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRAIRIE VIEW, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2424675",
+        "title": "Building a Chemical Engineering Inter-Institutional Consortium to Support Talented, Low-income Students",
+        "amount": "$22,346.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2405599",
+    "name": "ANNE LIPPERT",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Prairie View A & M University",
+    "location": "PRAIRIE VIEW, TX",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Research on Broadening Participation in STEM Project: Algeverse: Learning Co..."
+    ],
+    "website": "",
+    "email": [
+      "amlippert@pvamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRAIRIE VIEW, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2405599",
+        "title": "Collaborative Research: Research on Broadening Participation in STEM Project: Algeverse: Learning College Algebra with Virtual Reality",
+        "amount": "$259,855.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "James R Valles jrvalles@pvamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2401860",
+    "name": "Xishuang Dong",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Prairie View A & M University",
+    "location": "PRAIRIE VIEW, TX",
+    "research_areas": [
+      "CSE",
+      "Excellence in Research: Implementing Urban Digital Twins with Responsible Foundation AI for Communit..."
+    ],
+    "website": "",
+    "email": [
+      "xidong@pvamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRAIRIE VIEW, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2401860",
+        "title": "Excellence in Research: Implementing Urban Digital Twins with Responsible Foundation AI for Community Resilience",
+        "amount": "$1,000,000.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lijun Qian liqian@pvamu.edu",
+      "Pamela H Obiomon phobiomon@pvamu.edu",
+      "Xinyue Ye xye10@ua.edu",
+      "Wei Zhai wei.zhai@uta.edu"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2447324",
+    "name": "Duy Nguyen",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Marist College",
+    "location": "POUGHKEEPSIE, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: Statistical Mathematics and Research Training (SMART)"
+    ],
+    "website": "",
+    "email": [
+      "duy.nguyen2@marist.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POUGHKEEPSIE, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2447324",
+        "title": "REU Site: Statistical Mathematics and Research Training (SMART)",
+        "amount": "$375,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "03/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gissella M Bejarano gissella.bejarano@outlook.com"
+    ]
+  }
+]

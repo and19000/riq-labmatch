@@ -1,0 +1,102 @@
+[
+  {
+    "id": "nsf-2433330",
+    "name": "Theodore B Callier",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Grambling State University",
+    "location": "GRAMBLING, LA",
+    "research_areas": [
+      "Office of the Director",
+      "Research Infrastructure: GRANTED:  Creating Sustainable Research Infrastructure"
+    ],
+    "website": "",
+    "email": [
+      "Calliert@gram.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAMBLING, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2433330",
+        "title": "Research Infrastructure: GRANTED:  Creating Sustainable Research Infrastructure",
+        "amount": "$3,088,374.00",
+        "program": "HBCU-EiR Co-Funding, GRANTED",
+        "end_date": "11/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ebony Turner echeturner@gmail.com"
+    ]
+  },
+  {
+    "id": "nsf-2419307",
+    "name": "Carolyn M Jackson",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "Grambling State University",
+    "location": "GRAMBLING, LA",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Fostering a Culture of Research Ethics and Integrity: An Institutional Transformation Project"
+    ],
+    "website": "",
+    "email": [
+      "Jacksoncr@gram.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAMBLING, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2419307",
+        "title": "Fostering a Culture of Research Ethics and Integrity: An Institutional Transformation Project",
+        "amount": "$699,025.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, ER2-Ethical & Responsible Res, NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2029",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Connie R Walton waltoncr@gram.edu"
+    ]
+  },
+  {
+    "id": "nsf-2408804",
+    "name": "Haeyeon Yang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Grambling State University",
+    "location": "GRAMBLING, LA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MRI: Track 1 Acquisition of-multiscale imaging capability and education"
+    ],
+    "website": "",
+    "email": [
+      "yangh@gram.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAMBLING, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2408804",
+        "title": "MRI: Track 1 Acquisition of-multiscale imaging capability and education",
+        "amount": "$253,000.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Naidu V Seetala naidusv@gram.edu",
+      "Paul Kim kimp@gram.edu"
+    ]
+  }
+]

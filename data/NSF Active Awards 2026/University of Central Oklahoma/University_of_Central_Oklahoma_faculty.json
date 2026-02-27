@@ -1,0 +1,101 @@
+[
+  {
+    "id": "nsf-2425204",
+    "name": "Chad B King",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Central Oklahoma",
+    "location": "EDMOND, OK",
+    "research_areas": [
+      "Biological Sciences",
+      "The development of a five-year strategic plan for the Selman Living Laboratory"
+    ],
+    "website": "",
+    "email": [
+      "cking24@uco.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EDMOND, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2425204",
+        "title": "The development of a five-year strategic plan for the Selman Living Laboratory",
+        "amount": "$115,528.00",
+        "program": "Capacity: Field Stations",
+        "end_date": "02/28/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gloria M Caddell gcaddell@uco.edu",
+      "Elizabeth A Allan eallan@uco.edu",
+      "Victoria L Jackson vjackson4@uco.edu",
+      "Michelle L Haynie mhaynie@uco.edu"
+    ]
+  },
+  {
+    "id": "nsf-2432203",
+    "name": "Keegan Melstrom",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Central Oklahoma",
+    "location": "EDMOND, OK",
+    "research_areas": [
+      "Geosciences",
+      "EMBRACE-EAR-Seed: Establishment of terrestrial herbivory during the Permian of central Pangea"
+    ],
+    "website": "",
+    "email": [
+      "kmelstrom@uco.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EDMOND, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2432203",
+        "title": "EMBRACE-EAR-Seed: Establishment of terrestrial herbivory during the Permian of central Pangea",
+        "amount": "$196,485.00",
+        "program": "LET-Life & Enviro Through Time, XC-Crosscutting Activities Pro",
+        "end_date": "07/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434674",
+    "name": "Joselina Cheng",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Central Oklahoma",
+    "location": "EDMOND, OK",
+    "research_areas": [
+      "CSE",
+      "CS4OK: RPP-infused Workforce Development with Disruptive Innovations for the Intersectional Underser..."
+    ],
+    "website": "",
+    "email": [
+      "jcheng@uco.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EDMOND, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2434674",
+        "title": "CS4OK: RPP-infused Workforce Development with Disruptive Innovations for the Intersectional Underserved",
+        "amount": "$299,776.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gang Qian gqian@uco.edu"
+    ]
+  }
+]

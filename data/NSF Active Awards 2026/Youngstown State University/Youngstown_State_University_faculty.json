@@ -1,0 +1,132 @@
+[
+  {
+    "id": "nsf-2439459",
+    "name": "Stephen C Brozina",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Youngstown State University",
+    "location": "YOUNGSTOWN, OH",
+    "research_areas": [
+      "STEM Education",
+      "Developing Artificial Intelligence Literacy Among Undergraduate Engineering and Technology Students ..."
+    ],
+    "website": "",
+    "email": [
+      "scbrozina@ysu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "YOUNGSTOWN, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2439459",
+        "title": "Developing Artificial Intelligence Literacy Among Undergraduate Engineering and Technology Students Through Case-Based Instruction",
+        "amount": "$319,964.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434768",
+    "name": "Carrie R Jackson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Youngstown State University",
+    "location": "YOUNGSTOWN, OH",
+    "research_areas": [
+      "STEM Education",
+      "Design, Development, Implementation, and Evaluation of Sequential Accessible Computational Thinking ..."
+    ],
+    "website": "",
+    "email": [
+      "crjackson01@ysu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "YOUNGSTOWN, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2434768",
+        "title": "Design, Development, Implementation, and Evaluation of Sequential Accessible Computational Thinking Curricula for Middle School Students with Autism Spectrum Disorder",
+        "amount": "$587,690.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "12/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Abdu Arslanyilmaz aarslanyilmaz@ysu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2432941",
+    "name": "Jackie Ruller",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Youngstown State University",
+    "location": "YOUNGSTOWN, OH",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Collaborations with High-Tech Industry Partners (CHIP)"
+    ],
+    "website": "",
+    "email": [
+      "jaruller@ysu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "YOUNGSTOWN, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2432941",
+        "title": "Collaborative Research: EPIIC: Collaborations with High-Tech Industry Partners (CHIP)",
+        "amount": "$400,000.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lindsey Ekstrand lfekstrand@ysu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2408599",
+    "name": "Alexander H Pesch",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Youngstown State University",
+    "location": "YOUNGSTOWN, OH",
+    "research_areas": [
+      "Engineering",
+      "MRI Track 1: Acquisition of a Combination Dynamic Stiffness and Material Fatigue Testing Machine for..."
+    ],
+    "website": "",
+    "email": [
+      "ahpesch@ysu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "YOUNGSTOWN, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2408599",
+        "title": "MRI Track 1: Acquisition of a Combination Dynamic Stiffness and Material Fatigue Testing Machine for Research and Education",
+        "amount": "$445,515.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Matthew P Caputo mpc215@psu.edu",
+      "Mike D Costarell mdcostarell@ysu.edu"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2502817",
+    "name": "Garrett Johnson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "North Carolina Central University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Excellence in Research: Quantum nilpotent algebras and essential sets"
+    ],
+    "website": "",
+    "email": [
+      "gjohns62@nccu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2502817",
+        "title": "Excellence in Research: Quantum nilpotent algebras and essential sets",
+        "amount": "$417,333.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hayk Melikyan gmelikian@nccu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430314",
+    "name": "Caesar R Jackson",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "North Carolina Central University",
+    "location": "DURHAM, NC",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: Ideas Lab: HBCU Research and Collaboration Exchange"
+    ],
+    "website": "",
+    "email": [
+      "crjackson@nccu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURHAM, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2430314",
+        "title": "Collaborative Research: Ideas Lab: HBCU Research and Collaboration Exchange",
+        "amount": "$118,437.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

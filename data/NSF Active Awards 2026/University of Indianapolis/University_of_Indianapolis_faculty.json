@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2527587",
+    "name": "Joan Y Martinez",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Indianapolis",
+    "location": "INDIANAPOLIS, IN",
+    "research_areas": [
+      "STEM Education",
+      "Academic, Mentoring, and Professional Development Support to Foster Career Success for Math and Engi..."
+    ],
+    "website": "",
+    "email": [
+      "martinezjy@uindy.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "INDIANAPOLIS, IN",
+    "nsf_awards": [
+      {
+        "award_number": "2527587",
+        "title": "Academic, Mentoring, and Professional Development Support to Foster Career Success for Math and Engineering Students",
+        "amount": "$1,992,680.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kenneth J Reid reidk@uindy.edu",
+      "Livia M Hummel hummell@uindy.edu"
+    ]
+  },
+  {
+    "id": "nsf-2439469",
+    "name": "Stephen J Spicklemire",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Indianapolis",
+    "location": "INDIANAPOLIS, IN",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Creating Rubrics and Related Tools to Assess College Students' Learning of C..."
+    ],
+    "website": "",
+    "email": [
+      "spicklemire@uindy.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "INDIANAPOLIS, IN",
+    "nsf_awards": [
+      {
+        "award_number": "2439469",
+        "title": "Collaborative Research: Creating Rubrics and Related Tools to Assess College Students' Learning of Computational Physics",
+        "amount": "$39,415.00",
+        "program": "IUSE",
+        "end_date": "06/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

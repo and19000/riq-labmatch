@@ -1,0 +1,73 @@
+[
+  {
+    "id": "nsf-2527613",
+    "name": "Michael Gangone",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Norwich University",
+    "location": "NORTHFIELD, VT",
+    "research_areas": [
+      "STEM Education",
+      "From Enrollment to Graduation: Strengthening Critical Pipelines in Engineering and Construction Mana..."
+    ],
+    "website": "",
+    "email": [
+      "mgangone@norwich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORTHFIELD, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2527613",
+        "title": "From Enrollment to Graduation: Strengthening Critical Pipelines in Engineering and Construction Management",
+        "amount": "$2,000,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "12/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Darlene Olsen dolsen1@norwich.edu",
+      "Karen E Supan ksupan@norwich.edu",
+      "Tara Kulkarni tkulkarn@norwich.edu",
+      "Michael Cross mcross2@norwich.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424586",
+    "name": "Darlene Olsen",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Norwich University",
+    "location": "NORTHFIELD, VT",
+    "research_areas": [
+      "STEM Education",
+      "Supporting a Seamless Transition from High School through College to Boost Participation in the STEM..."
+    ],
+    "website": "",
+    "email": [
+      "dolsen1@norwich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORTHFIELD, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2424586",
+        "title": "Supporting a Seamless Transition from High School through College to Boost Participation in the STEM Workforce",
+        "amount": "$215,849.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2032",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tara Kulkarni tkulkarn@norwich.edu",
+      "Allison T Neal aneal1@norwich.edu",
+      "Sarah K Gallant sgallant@norwich.edu"
+    ]
+  }
+]

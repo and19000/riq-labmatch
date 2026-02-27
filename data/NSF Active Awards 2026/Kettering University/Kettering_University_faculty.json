@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2349213",
+    "name": "Diane L Peters",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Kettering University",
+    "location": "Flint, MI",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Control and Sensing in Autonomous Vehicles"
+    ],
+    "website": "",
+    "email": [
+      "dpeters@kettering.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "Flint, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2349213",
+        "title": "REU Site: Control and Sensing in Autonomous Vehicles",
+        "amount": "$464,937.00",
+        "program": "SSA-Special Studies & Analysis",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rui Zhu rzhu@kettering.edu"
+    ]
+  }
+]

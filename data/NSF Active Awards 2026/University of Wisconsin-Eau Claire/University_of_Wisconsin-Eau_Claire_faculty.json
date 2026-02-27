@@ -1,0 +1,128 @@
+[
+  {
+    "id": "nsf-2531843",
+    "name": "Derek Gingerich",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Wisconsin-Eau Claire",
+    "location": "EAU CLAIRE, WI",
+    "research_areas": [
+      "Biological Sciences",
+      "RCN: A Pilot Program for Establishing Local Interaction Networks to Enhance Plant-Related Research I..."
+    ],
+    "website": "",
+    "email": [
+      "gingerdj@uwec.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAU CLAIRE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2531843",
+        "title": "RCN: A Pilot Program for Establishing Local Interaction Networks to Enhance Plant-Related Research Involving Undergraduates",
+        "amount": "$452,071.00",
+        "program": "Plant Genome Research Project",
+        "end_date": "08/31/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Galyna Kufryk Galyna.Kufryk@gcu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453458",
+    "name": "Heather A Johnson Schmitz",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Wisconsin-Eau Claire",
+    "location": "EAU CLAIRE, WI",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: Building Research Infrastructure and Development to Grow Emerging Research I..."
+    ],
+    "website": "",
+    "email": [
+      "schmitzh@uwec.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAU CLAIRE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2453458",
+        "title": "Collaborative Research: Building Research Infrastructure and Development to Grow Emerging Research Institutions (BRIDGE)",
+        "amount": "$1,087,032.00",
+        "program": "GRANTED",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447779",
+    "name": "Rahul Gomes",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Wisconsin-Eau Claire",
+    "location": "EAU CLAIRE, WI",
+    "research_areas": [
+      "CSE",
+      "REU Site: Advancing high-performance computing opportunities in undergraduate research at UW-Eau Cla..."
+    ],
+    "website": "",
+    "email": [
+      "gomesr@uwec.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAU CLAIRE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2447779",
+        "title": "REU Site: Advancing high-performance computing opportunities in undergraduate research at UW-Eau Claire to meet challenges of multidisciplinary computational science",
+        "amount": "$459,810.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "02/29/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ying Ma yingma@uwec.edu"
+    ]
+  },
+  {
+    "id": "nsf-2432794",
+    "name": "Patricia A Cleary",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Wisconsin-Eau Claire",
+    "location": "EAU CLAIRE, WI",
+    "research_areas": [
+      "Geosciences",
+      "EMBRACE-AGS-Growth: Development and Integration of an Uncrewed Aerial Systems (UAS) Vertical Profile..."
+    ],
+    "website": "",
+    "email": [
+      "clearypa@uwec.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "EAU CLAIRE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2432794",
+        "title": "EMBRACE-AGS-Growth: Development and Integration of an Uncrewed Aerial Systems (UAS) Vertical Profiler to Probe Air Pollution at the Lake Michigan Shoreline",
+        "amount": "$399,519.00",
+        "program": "Physical & Dynamic Meteorology, Atmospheric Chemistry, EMBRACE-EMpwrBRdrAcdmcCpcty&Ed",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

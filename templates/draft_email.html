@@ -3,34 +3,43 @@
 {% block content %}
   <div class="draft-email-wrapper">
     <div class="draft-email-content">
-      <h1>Draft Email to PI</h1>
-      <p>Use AI to generate a professional cold email to a Principal Investigator.</p>
+      <h1>Send Email to PI</h1>
+      <p>Compose and send a professional email to a Principal Investigator.</p>
 
       {% if error %}
         <div class="error-message">{{ error }}</div>
       {% endif %}
 
-      <form method="post" action="{{ url_for('draft_email') }}" class="email-form" id="email-form">
+      <form class="email-form" id="email-form">
     <div class="form-group">
       <label for="pi_id">Select a PI:</label>
       {% if pi %}
         <input type="hidden" name="pi_id" value="{{ pi.id }}">
+        <input type="hidden" id="pi_email" value="{{ pi.email or '' }}">
+        <input type="hidden" id="pi_name" value="{{ pi.name or '' }}">
         <div class="selected-pi">
           <strong>{{ pi.name }}</strong> — {{ pi.title }}<br>
           {% if pi.research_topics %}
           <p class="research-topics">{{ (pi.research_topics or [])[:3] | join(' · ') }}</p>
           {% endif %}
           <small>{{ pi.department }}, {{ pi.school }}</small>
+          {% if pi.email and pi.email.strip() %}
+            <p style="margin-top: 0.5rem; color: var(--text-muted);"><strong>Email:</strong> {{ pi.email }}</p>
+          {% else %}
+            <p style="margin-top: 0.5rem; color: var(--text-dim);"><strong>Email:</strong> Not available</p>
+          {% endif %}
           <p><a href="{{ url_for('draft_email') }}">Change PI</a></p>
         </div>
       {% else %}
         {% if saved_pis and saved_pis|length > 0 %}
-          <select id="pi_id" name="pi_id" required class="pi-select">
-            <option value="">-- Select a saved PI --</option>
+          <select id="pi_id" name="pi_id" required class="pi-select custom-select" onchange="updatePIEmail()">
+            <option value="" data-email="" data-name="">-- Select a saved PI --</option>
             {% for saved_pi in saved_pis %}
-              <option value="{{ saved_pi.id }}">{{ saved_pi.name }} — {{ saved_pi.department }}, {{ saved_pi.school }}</option>
+              <option value="{{ saved_pi.id }}" data-email="{{ saved_pi.email or '' }}" data-name="{{ saved_pi.name }}">{{ saved_pi.name }} — {{ saved_pi.department }}, {{ saved_pi.school }}</option>
             {% endfor %}
           </select>
+          <input type="hidden" id="pi_email" value="">
+          <input type="hidden" id="pi_name" value="">
           <p><small>Only showing your saved PIs. <a href="{{ url_for('saved_pis') }}">View all saved PIs</a> or <a href="{{ url_for('general') }}">browse all PIs</a>.</small></p>
         {% else %}
           <div class="no-saved-pis-message" style="padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
@@ -61,7 +70,7 @@
       <textarea id="research_interest" name="research_interest" rows="2" placeholder="e.g., I'm particularly interested in your work on neural networks and would love to contribute to...">{{ research_interest or '' }}</textarea>
     </div>
 
-        <button type="submit" class="btn-primary" id="generate-btn">Generate Email Draft</button>
+        <button type="submit" class="btn-primary" id="send-btn">Send Email</button>
       </form>
     </div>
     
@@ -86,312 +95,94 @@
     </div>
   </div>
 
-  {% if draft %}
-    <div class="draft-result" style="margin-top: 2rem;">
-      <h2>Generated Email Draft</h2>
-      
-      <!-- Pre-flight Email Checks -->
-      <div class="email-checks" id="email-checks">
-        <h3>Email Quality Checks</h3>
-        <div class="check-list">
-          <div class="check-item" id="check-length">
-            <span class="check-icon">⏳</span>
-            <span class="check-text">Checking length...</span>
-          </div>
-          <div class="check-item" id="check-personalization">
-            <span class="check-icon">⏳</span>
-            <span class="check-text">Checking personalization...</span>
-          </div>
-          <div class="check-item" id="check-tone">
-            <span class="check-icon">⏳</span>
-            <span class="check-text">Checking tone...</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="draft-actions">
-        <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
-        {% if pi and pi.email and pi.email.strip() %}
-          <a href="mailto:{{ pi.email }}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>
-        {% else %}
-          <span class="btn-secondary" style="opacity: 0.5; cursor: not-allowed;">[placeholder]</span>
-        {% endif %}
-      </div>
-      <div class="draft-content" id="draft-content">
-        <div class="draft-text">{{ draft }}</div>
-      </div>
-    </div>
-  {% endif %}
-
   <script>
-    // Initialize thinking bar for email draft generation
-    let thinkingBar = null;
+    // Update PI email when dropdown selection changes
+    function updatePIEmail() {
+      const select = document.getElementById('pi_id');
+      const piEmailInput = document.getElementById('pi_email');
+      const piNameInput = document.getElementById('pi_name');
+      
+      if (select && piEmailInput && piNameInput) {
+        const selectedOption = select.options[select.selectedIndex];
+        piEmailInput.value = selectedOption.getAttribute('data-email') || '';
+        piNameInput.value = selectedOption.getAttribute('data-name') || '';
+      }
+    }
     
-    // Handle form submission with AJAX and thinking bar
+    // Handle form submission
     document.addEventListener('DOMContentLoaded', function() {
       const emailForm = document.getElementById('email-form');
-      const generateBtn = document.getElementById('generate-btn');
-      const draftResultContainer = document.querySelector('.draft-result');
       
       if (emailForm) {
-        emailForm.addEventListener('submit', async function(e) {
+        emailForm.addEventListener('submit', function(e) {
           e.preventDefault();
           
-          // Validate form
-          const formData = new FormData(emailForm);
-          const piId = formData.get('pi_id');
-          const studentName = formData.get('student_name');
-          const studentEmail = formData.get('student_email');
+          // Get form values
+          const studentName = document.getElementById('student_name').value.trim();
+          const studentEmail = document.getElementById('student_email').value.trim();
+          const studentBackground = document.getElementById('student_background').value.trim();
+          const researchInterest = document.getElementById('research_interest').value.trim();
+          const piEmail = document.getElementById('pi_email').value.trim();
+          const piName = document.getElementById('pi_name').value.trim();
           
-          if (!piId || !studentName || !studentEmail) {
-            alert('Please fill in all required fields.');
+          // Check if PI is selected
+          const piSelect = document.getElementById('pi_id');
+          if (piSelect && !piSelect.value) {
+            alert('Please select a PI to email.');
             return;
           }
           
-          // Hide existing draft result if present
-          if (draftResultContainer) {
-            draftResultContainer.remove();
+          // Validate required fields
+          if (!studentName) {
+            alert('Please enter your name.');
+            document.getElementById('student_name').focus();
+            return;
           }
           
-          // Disable button while processing
-          if (generateBtn) {
-            generateBtn.disabled = true;
-            generateBtn.style.opacity = '0.6';
+          if (!studentEmail) {
+            alert('Please enter your email address.');
+            document.getElementById('student_email').focus();
+            return;
           }
           
-          // Show thinking bar
-          if (window.ThinkingBar) {
-            thinkingBar = new window.ThinkingBar('email');
-            thinkingBar.show();
+          // Check if PI has an email
+          if (!piEmail) {
+            alert('Sorry, this PI does not have an email address available. Please select a different PI or find their contact information on their website.');
+            return;
           }
           
-          try {
-            // Submit form data via AJAX
-            const response = await fetch('{{ url_for("draft_email") }}', {
-              method: 'POST',
-              headers: {
-                'X-Requested-With': 'XMLHttpRequest',
-                'Accept': 'application/json'
-              },
-              body: formData
-            });
-            
-            const data = await response.json();
-            
-            // Hide thinking bar
-            if (thinkingBar) {
-              thinkingBar.hide();
-              setTimeout(() => thinkingBar.destroy(), 300);
-              thinkingBar = null;
-            }
-            
-            if (data.success && data.draft) {
-              // Display the draft result
-              displayDraftResult(data.draft, data.pi);
-              
-              // Scroll to draft result
-              setTimeout(() => {
-                const draftResult = document.querySelector('.draft-result');
-                if (draftResult) {
-                  draftResult.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-              }, 100);
-            } else {
-              // Show error
-              showFormError(data.error || 'Failed to generate email draft. Please try again.');
-            }
-          } catch (error) {
-            console.error('Error generating draft:', error);
-            
-            // Hide thinking bar
-            if (thinkingBar) {
-              thinkingBar.hide();
-              setTimeout(() => thinkingBar.destroy(), 300);
-              thinkingBar = null;
-            }
-            
-            showFormError('An error occurred while generating your email draft. Please try again.');
-          } finally {
-            // Re-enable button
-            if (generateBtn) {
-              generateBtn.disabled = false;
-              generateBtn.style.opacity = '1';
-            }
+          // Extract last name for greeting (assumes format "First Last" or "First Middle Last")
+          const nameParts = piName.split(' ');
+          const lastName = nameParts.length > 1 ? nameParts[nameParts.length - 1] : piName;
+          
+          // Compose the email body
+          let emailBody = `Dear Dr. ${lastName},\n\n`;
+          
+          emailBody += `I hope this email finds you well. My name is ${studentName}`;
+          
+          if (studentBackground) {
+            emailBody += `, and ${studentBackground}`;
           }
+          emailBody += '.\n\n';
+          
+          if (researchInterest) {
+            emailBody += `${researchInterest}\n\n`;
+          } else {
+            emailBody += `I am writing to express my interest in your research and to inquire about potential opportunities in your lab.\n\n`;
+          }
+          
+          emailBody += `I would greatly appreciate the opportunity to discuss how I might contribute to your research. Please let me know if you would be available for a brief conversation.\n\n`;
+          emailBody += `Thank you for your time and consideration.\n\n`;
+          emailBody += `Best regards,\n${studentName}\n${studentEmail}`;
+          
+          // Create mailto link
+          const subject = encodeURIComponent('Research Opportunity Inquiry');
+          const body = encodeURIComponent(emailBody);
+          const mailtoLink = `mailto:${piEmail}?subject=${subject}&body=${body}`;
+          
+          // Open email client
+          window.location.href = mailtoLink;
         });
-      }
-      
-      // Function to display draft result
-      function displayDraftResult(draft, pi) {
-        // Remove any existing error messages
-        const existingError = document.querySelector('.error-message');
-        if (existingError) {
-          existingError.remove();
-        }
-        
-        // Create draft result container
-        const wrapper = document.querySelector('.draft-email-wrapper');
-        if (!wrapper) return;
-        
-        const draftResultHTML = `
-          <div class="draft-result" style="margin-top: 2rem;">
-            <h2>Generated Email Draft</h2>
-            
-            <!-- Pre-flight Email Checks -->
-            <div class="email-checks" id="email-checks">
-              <h3>Email Quality Checks</h3>
-              <div class="check-list">
-                <div class="check-item" id="check-length">
-                  <span class="check-icon">⏳</span>
-                  <span class="check-text">Checking length...</span>
-                </div>
-                <div class="check-item" id="check-personalization">
-                  <span class="check-icon">⏳</span>
-                  <span class="check-text">Checking personalization...</span>
-                </div>
-                <div class="check-item" id="check-tone">
-                  <span class="check-icon">⏳</span>
-                  <span class="check-text">Checking tone...</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="draft-actions">
-              <button onclick="copyToClipboard()" class="btn-secondary">Copy to Clipboard</button>
-              ${pi && pi.email && pi.email.trim() ? `<a href="mailto:${pi.email}?subject=Research%20Opportunity%20Inquiry" class="btn-secondary">Open in Email Client</a>` : '<span class="btn-secondary" style="opacity: 0.5; cursor: not-allowed;">[placeholder]</span>'}
-            </div>
-            <div class="draft-content" id="draft-content">
-              <div class="draft-text">${escapeHtml(draft)}</div>
-            </div>
-          </div>
-        `;
-        
-        wrapper.insertAdjacentHTML('afterend', draftResultHTML);
-        
-        // Run email checks
-        runEmailChecks(draft);
-      }
-      
-      // Function to show form error
-      function showFormError(message) {
-        // Remove existing error messages
-        const existingError = document.querySelector('.error-message');
-        if (existingError) {
-          existingError.remove();
-        }
-        
-        // Create and show error message
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'error-message';
-        errorDiv.textContent = message;
-        
-        const form = document.getElementById('email-form');
-        if (form) {
-          form.insertBefore(errorDiv, form.firstChild);
-          errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      }
-      
-      // Helper function to escape HTML and preserve line breaks
-      function escapeHtml(text) {
-        // Split by newlines and escape each line separately
-        const lines = text.split(/\r\n|\r|\n/);
-        const div = document.createElement('div');
-        
-        return lines.map(line => {
-          div.textContent = line;
-          return div.innerHTML;
-        }).join('<br>');
-      }
-      
-      // Run email quality checks
-      function runEmailChecks(draftText) {
-        const wordCount = draftText.split(/\s+/).length;
-        const hasPIname = draftText.match(/Dr\.|Professor/i);
-        const hasLabName = draftText.match(/lab|research group|group/i);
-        const tooApologetic = /sorry|apologize|hope.*not.*bother/i.test(draftText);
-        
-        // Length check
-        const lengthCheck = document.getElementById('check-length');
-        if (lengthCheck) {
-          if (wordCount > 50 && wordCount < 500) {
-            lengthCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Length OK (' + wordCount + ' words)</span>';
-          } else if (wordCount >= 500) {
-            lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is quite long (' + wordCount + ' words). Consider shortening.</span>';
-          } else {
-            lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is very short (' + wordCount + ' words). Consider adding more detail.</span>';
-          }
-        }
-        
-        // Personalization check
-        const personalCheck = document.getElementById('check-personalization');
-        if (personalCheck) {
-          if (hasPIname && hasLabName) {
-            personalCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Well personalized with PI and lab references</span>';
-          } else if (hasPIname || hasLabName) {
-            personalCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Consider mentioning specific research or recent papers</span>';
-          } else {
-            personalCheck.innerHTML = '<span class="check-icon check-fail">✗</span><span class="check-text">Too generic. Add PI name and specific research details.</span>';
-          }
-        }
-        
-        // Tone check
-        const toneCheck = document.getElementById('check-tone');
-        if (toneCheck) {
-          if (tooApologetic) {
-            toneCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Tone may be overly apologetic. Be confident!</span>';
-          } else {
-            toneCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Professional and confident tone</span>';
-          }
-        }
-      }
-    });
-    
-    function copyToClipboard() {
-      const draftText = document.getElementById('draft-content').innerText;
-      navigator.clipboard.writeText(draftText).then(() => {
-        alert('Email draft copied to clipboard!');
-      });
-    }
-    
-    // Pre-flight email checks (for server-rendered drafts)
-    document.addEventListener('DOMContentLoaded', function() {
-      const draftEl = document.getElementById('draft-content');
-      if (!draftEl) return;
-      
-      const draftText = draftEl.innerText;
-      const wordCount = draftText.split(/\s+/).length;
-      const hasPIname = draftText.match(/Dr\.|Professor/i);
-      const hasLabName = draftText.match(/lab|research group|group/i);
-      const tooApologetic = /sorry|apologize|hope.*not.*bother/i.test(draftText);
-      const tooGeneric = wordCount < 50 || (!hasPIname && !hasLabName);
-      
-      // Length check
-      const lengthCheck = document.getElementById('check-length');
-      if (wordCount > 50 && wordCount < 500) {
-        lengthCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Length OK (' + wordCount + ' words)</span>';
-      } else if (wordCount >= 500) {
-        lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is quite long (' + wordCount + ' words). Consider shortening.</span>';
-      } else {
-        lengthCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Email is very short (' + wordCount + ' words). Consider adding more detail.</span>';
-      }
-      
-      // Personalization check
-      const personalCheck = document.getElementById('check-personalization');
-      if (hasPIname && hasLabName) {
-        personalCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Well personalized with PI and lab references</span>';
-      } else if (hasPIname || hasLabName) {
-        personalCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Consider mentioning specific research or recent papers</span>';
-      } else {
-        personalCheck.innerHTML = '<span class="check-icon check-fail">✗</span><span class="check-text">Too generic. Add PI name and specific research details.</span>';
-      }
-      
-      // Tone check
-      const toneCheck = document.getElementById('check-tone');
-      if (tooApologetic) {
-        toneCheck.innerHTML = '<span class="check-icon check-warn">⚠</span><span class="check-text">Tone may be overly apologetic. Be confident!</span>';
-      } else {
-        toneCheck.innerHTML = '<span class="check-icon check-pass">✓</span><span class="check-text">Professional and confident tone</span>';
       }
     });
   </script>

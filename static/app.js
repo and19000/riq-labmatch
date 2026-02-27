@@ -63,6 +63,20 @@
     });
   }
 
+  // ===== Safari bfcache Fix =====
+  // Safari's back-forward cache restores the page in the page-exit state (opacity: 0).
+  // Detect bfcache restoration via the pageshow event and remove the exit class.
+  window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+      var main = document.querySelector('main.page');
+      if (main) {
+        main.classList.remove('page-exit');
+        main.style.opacity = '1';
+        main.style.transform = '';
+      }
+    }
+  });
+
   // ===== Card Animations (IntersectionObserver) =====
   function initCardAnimations() {
     const cards = document.querySelectorAll('.pi-list .pi-card, .help-section, .match-row');
@@ -365,6 +379,120 @@
     });
   }
 
+  // ===== Custom Select Dropdowns =====
+  function initCustomSelects() {
+    document.querySelectorAll('select.custom-select').forEach(select => {
+      if (select.dataset.customized) return;
+      select.dataset.customized = 'true';
+
+      // Hide the native select
+      select.style.display = 'none';
+
+      // Create wrapper
+      const wrapper = document.createElement('div');
+      wrapper.className = 'cs-wrapper';
+      select.parentNode.insertBefore(wrapper, select);
+      wrapper.appendChild(select);
+
+      // Create display button
+      const display = document.createElement('div');
+      display.className = 'cs-display';
+      display.tabIndex = 0;
+      const selectedOpt = select.options[select.selectedIndex];
+      display.innerHTML = '<span class="cs-value">' + (selectedOpt ? selectedOpt.textContent : '') + '</span><span class="cs-arrow">▾</span>';
+      wrapper.appendChild(display);
+
+      // Create dropdown
+      const dropdown = document.createElement('div');
+      dropdown.className = 'cs-dropdown';
+      dropdown.style.display = 'none';
+
+      // Search input (only for selects with > 5 options)
+      let searchInput = null;
+      if (select.options.length > 5) {
+        searchInput = document.createElement('input');
+        searchInput.type = 'text';
+        searchInput.className = 'cs-search';
+        searchInput.placeholder = 'Type to filter...';
+        searchInput.autocomplete = 'off';
+        dropdown.appendChild(searchInput);
+      }
+
+      // Options list
+      const optionsList = document.createElement('div');
+      optionsList.className = 'cs-options';
+      Array.from(select.options).forEach((opt, i) => {
+        const item = document.createElement('div');
+        item.className = 'cs-option' + (i === select.selectedIndex ? ' cs-selected' : '');
+        item.dataset.value = opt.value;
+        item.textContent = opt.textContent;
+        item.addEventListener('click', () => {
+          select.value = opt.value;
+          display.querySelector('.cs-value').textContent = opt.textContent;
+          dropdown.style.display = 'none';
+          wrapper.classList.remove('cs-open');
+          // Mark selected
+          optionsList.querySelectorAll('.cs-option').forEach(o => o.classList.remove('cs-selected'));
+          item.classList.add('cs-selected');
+          // Trigger change event
+          select.dispatchEvent(new Event('change', { bubbles: true }));
+        });
+        optionsList.appendChild(item);
+      });
+      dropdown.appendChild(optionsList);
+      wrapper.appendChild(dropdown);
+
+      // Toggle dropdown on display click
+      display.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = dropdown.style.display !== 'none';
+        // Close all other custom selects
+        document.querySelectorAll('.cs-dropdown').forEach(d => {
+          d.style.display = 'none';
+          d.closest('.cs-wrapper')?.classList.remove('cs-open');
+        });
+        if (!isOpen) {
+          dropdown.style.display = 'block';
+          wrapper.classList.add('cs-open');
+          if (searchInput) {
+            searchInput.value = '';
+            searchInput.focus();
+            optionsList.querySelectorAll('.cs-option').forEach(o => o.style.display = '');
+          }
+        }
+      });
+
+      // Filter on search input
+      if (searchInput) {
+        searchInput.addEventListener('input', () => {
+          const term = searchInput.value.toLowerCase();
+          optionsList.querySelectorAll('.cs-option').forEach(o => {
+            o.style.display = o.textContent.toLowerCase().includes(term) ? '' : 'none';
+          });
+        });
+        searchInput.addEventListener('click', e => e.stopPropagation());
+      }
+
+      // Close on outside click
+      document.addEventListener('click', () => {
+        dropdown.style.display = 'none';
+        wrapper.classList.remove('cs-open');
+      });
+
+      // Keyboard navigation
+      display.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          display.click();
+        }
+        if (e.key === 'Escape') {
+          dropdown.style.display = 'none';
+          wrapper.classList.remove('cs-open');
+        }
+      });
+    });
+  }
+
   // ===== Initialize Everything =====
   function init() {
     // Wait for DOM to be ready
@@ -381,6 +509,7 @@
     initConstellationParallax();
     initLabDetailPanel();
     initTechniqueMultiSelect();
+    initCustomSelects();
   }
 
   // Start initialization

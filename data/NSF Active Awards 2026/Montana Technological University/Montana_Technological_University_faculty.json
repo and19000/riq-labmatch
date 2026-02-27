@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2531622",
+    "name": "Yohanna Mejia Cruz",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Montana Technological University",
+    "location": "BUTTE, MT",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Advancing Multi-Sensor Smart Environments Without Human-Machine Intera..."
+    ],
+    "website": "",
+    "email": [
+      "lmejiacruz@mtech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BUTTE, MT",
+    "nsf_awards": [
+      {
+        "award_number": "2531622",
+        "title": "EPSCoR Research Fellows: NSF: Advancing Multi-Sensor Smart Environments Without Human-Machine Interaction for Individuals with Functional Limitations",
+        "amount": "$224,110.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "10/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514731",
+    "name": "Richard LaDouceur",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Montana Technological University",
+    "location": "BUTTE, MT",
+    "research_areas": [
+      "STEM Education",
+      "EPSCoR CREST Phase I: Center for Energy Technologies"
+    ],
+    "website": "",
+    "email": [
+      "rladouceur@mtech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BUTTE, MT",
+    "nsf_awards": [
+      {
+        "award_number": "2514731",
+        "title": "EPSCoR CREST Phase I: Center for Energy Technologies",
+        "amount": "$7,500,000.00",
+        "program": "Centers for Rsch Excell in S&T",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jack L Skinner jskinner@mtech.edu",
+      "Jessica M Andriolo jandriolo@mtech.edu",
+      "John Kirtley jkirtley@mtech.edu",
+      "Blaine M Berrington BBerrington@mtech.edu"
+    ]
+  }
+]

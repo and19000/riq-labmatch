@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2526988",
+    "name": "Joel Atallah",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of New Orleans",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "STEM Education",
+      "Transitioning Low-Income Urban Students into the STEM Economy Through Scholarship Support"
+    ],
+    "website": "",
+    "email": [
+      "jatallah@uno.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2526988",
+        "title": "Transitioning Low-Income Urban Students into the STEM Economy Through Scholarship Support",
+        "amount": "$1,998,718.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Wendy M Schluchter wschluch@uno.edu",
+      "Vassil Roussev vassil@cs.uno.edu",
+      "Christopher M Summa csumma@uno.edu"
+    ]
+  }
+]

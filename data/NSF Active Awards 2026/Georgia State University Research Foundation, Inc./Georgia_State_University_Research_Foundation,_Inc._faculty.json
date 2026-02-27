@@ -1,0 +1,167 @@
+[
+  {
+    "id": "nsf-2510383",
+    "name": "Todd J Henry",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Georgia State University Research Foundation, Inc.",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Speckle Surveys of Nearby Stars"
+    ],
+    "website": "",
+    "email": [
+      "thenry@astro.gsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2510383",
+        "title": "Collaborative Research: Speckle Surveys of Nearby Stars",
+        "amount": "$399,130.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452526",
+    "name": "Florian Enescu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Georgia State University Research Foundation, Inc.",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Commutative Algebra in the South 2025"
+    ],
+    "website": "",
+    "email": [
+      "fenescu@gsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2452526",
+        "title": "Conference: Commutative Algebra in the South 2025",
+        "amount": "$24,900.00",
+        "program": "ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "03/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael K Brown mkb0096@auburn.edu",
+      "Thomas Polstra tmpolstra@ua.edu",
+      "Lance Miller lem016@uark.edu"
+    ]
+  },
+  {
+    "id": "nsf-2423066",
+    "name": "Sarah H Ledford",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Georgia State University Research Foundation, Inc.",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Geosciences",
+      "ORE-CZ: Anthropogenic alteration of the urban Critical Zone and the effects upon solute chemistry in..."
+    ],
+    "website": "",
+    "email": [
+      "sledford@gsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2423066",
+        "title": "ORE-CZ: Anthropogenic alteration of the urban Critical Zone and the effects upon solute chemistry in urban streams",
+        "amount": "$249,993.00",
+        "program": "CZO-Critical Zone Obsrvatories",
+        "end_date": "12/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sarah H Ledford (Former) sledford@gsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430193",
+    "name": "Neranjan Edirisinghe Pathirannehe",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Georgia State University Research Foundation, Inc.",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "CSE",
+      "Research Infrastructure: CC* Compute-Campus: Pioneering Research-Oriented Flexible Cyberinfrastructu..."
+    ],
+    "website": "",
+    "email": [
+      "neranjan@gsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2430193",
+        "title": "Research Infrastructure: CC* Compute-Campus: Pioneering Research-Oriented Flexible Cyberinfrastructure (PROFLEX-CI)",
+        "amount": "$622,422.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "10/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Dustin Kempton dkempton1@gsu.edu",
+      "Peter Molnar pmolnar@gsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2348995",
+    "name": "Flavia Dias de Souza Moraes",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Georgia State University Research Foundation, Inc.",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Geosciences",
+      "REU Site: Community-Soil-Air-Water: A Geoscience Learning Ecosystem for Urban Environments"
+    ],
+    "website": "",
+    "email": [
+      "fmoraes@gsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2348995",
+        "title": "REU Site: Community-Soil-Air-Water: A Geoscience Learning Ecosystem for Urban Environments",
+        "amount": "$393,759.00",
+        "program": "EDUCATION AND HUMAN RESOURCES",
+        "end_date": "10/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sarah H Ledford sledford@gsu.edu"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2446577",
+    "name": "Kaijun Lu",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Coastal Carolina University",
+    "location": "CONWAY, SC",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Using stable isotope labeling to trace the fate of amino acids and formation..."
+    ],
+    "website": "",
+    "email": [
+      "lukaijunpku@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CONWAY, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2446577",
+        "title": "Collaborative Research: Using stable isotope labeling to trace the fate of amino acids and formation of refractory dissolved organic nitrogen (DON) in the ocean",
+        "amount": "$283,615.00",
+        "program": "Chemical Oceanography",
+        "end_date": "03/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434174",
+    "name": "Marvin Evans",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Coastal Carolina University",
+    "location": "CONWAY, SC",
+    "research_areas": [
+      "CSE",
+      "EDU EPSCoR DCL: Strengthening the Frontlines of Computer Science Education: Empowering Teachers to L..."
+    ],
+    "website": "",
+    "email": [
+      "mevans4@coastal.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CONWAY, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2434174",
+        "title": "EDU EPSCoR DCL: Strengthening the Frontlines of Computer Science Education: Empowering Teachers to Lead Rigorous CS Programs in South Carolina",
+        "amount": "$293,330.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Crystal Cox crystal@coastal.edu"
+    ]
+  }
+]

@@ -1,0 +1,517 @@
+[
+  {
+    "id": "nsf-2524115",
+    "name": "Sean M Higgins",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Geosciences",
+      "Equipment: Columbia University/ R/V Marcus G. Langseth Oceanographic Instrumentation",
+      "Columbia University/ R/V Marcus G. Langseth Oceanographic Technical Services - Year 1 of 5",
+      "Columbia University/ R/V Marcus G. Langseth Ship Operations - CY2024-2029"
+    ],
+    "website": "",
+    "email": [
+      "sean@ldeo.columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2524115",
+        "title": "Equipment: Columbia University/ R/V Marcus G. Langseth Oceanographic Instrumentation",
+        "amount": "$206,258.00",
+        "program": "OCEANOGRAPHIC INSTRUMENTATION",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2422238",
+        "title": "Columbia University/ R/V Marcus G. Langseth Oceanographic Technical Services - Year 1 of 5",
+        "amount": "$2,590,739.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2419260",
+        "title": "Columbia University/ R/V Marcus G. Langseth Ship Operations - CY2024-2029",
+        "amount": "$14,700,000.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 3,
+    "co_investigators": [
+      "Jesus Gaytan jgaytan@ldeo.columbia.edu"
+    ]
+  },
+  {
+    "id": "nsf-2529062",
+    "name": "Dimitri N Basov",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Engineering",
+      "NSF-AFRL-REFLEQTS: Floquet effects at ultra-low driving fields for steady state quantum devices",
+      "Mathematical and Physical Sciences",
+      "MRI: Track 1 Development of a quantum scanning near field optical microscope (q-SNOM) for research i..."
+    ],
+    "website": "",
+    "email": [
+      "db3056@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2529062",
+        "title": "NSF-AFRL-REFLEQTS: Floquet effects at ultra-low driving fields for steady state quantum devices",
+        "amount": "$3,000,000.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2408432",
+        "title": "MRI: Track 1 Development of a quantum scanning near field optical microscope (q-SNOM) for research in quantum materials",
+        "amount": "$999,999.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Abhay N Pasupathy apn2108@columbia.edu",
+      "Hui Deng dengh@umich.edu",
+      "Peter J Schuck p.j.schuck@columbia.edu",
+      "Ana Asenjo-Garcia ana.asenjo@columbia.edu"
+    ]
+  },
+  {
+    "id": "nsf-2515799",
+    "name": "Chaolin Zhang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MFB: Programmable RNA Targeting and Engineering using Pentatricopeptide Repeat Proteins"
+    ],
+    "website": "",
+    "email": [
+      "cz2294@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2515799",
+        "title": "MFB: Programmable RNA Targeting and Engineering using Pentatricopeptide Repeat Proteins",
+        "amount": "$1,200,000.00",
+        "program": "CHEMISTRY PROJECTS, OFFICE OF MULTIDISCIPLINARY AC, Cross-BIO Activities, Genetic Mechanisms",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Harris H Wang hw2429@columbia.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512171",
+    "name": "Elizabeth Paul",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Wave-Particle Interactions in 3D Magnetic Fields"
+    ],
+    "website": "",
+    "email": [
+      "ejp2170@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2512171",
+        "title": "Collaborative Research: Wave-Particle Interactions in 3D Magnetic Fields",
+        "amount": "$449,995.00",
+        "program": "PLASMA PHYSICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506108",
+    "name": "Jonathan Owen",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Colloidal Crystallization of GaP, and III-V Heterostructures Using Low Valent Metal Precursors"
+    ],
+    "website": "",
+    "email": [
+      "jso2115@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2506108",
+        "title": "Colloidal Crystallization of GaP, and III-V Heterostructures Using Low Valent Metal Precursors",
+        "amount": "$550,000.00",
+        "program": "QISET-Quan Info Sci Eng & Tech, Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2523533",
+    "name": "Lauren E Marbella",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Impact of Graphite Crystallinity and Surface Chemistry on Potassium-ion Intercalation Dynamics"
+    ],
+    "website": "",
+    "email": [
+      "lem2221@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2523533",
+        "title": "Impact of Graphite Crystallinity and Surface Chemistry on Potassium-ion Intercalation Dynamics",
+        "amount": "$529,011.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS, EchemS-Electrochemical Systems",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453574",
+    "name": "Tomislav Rovis",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "GOALI: Developing Novel Photocatalytic Methods to Address Synthetic Limitations in the Pharmaceutica..."
+    ],
+    "website": "",
+    "email": [
+      "tr2504@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2453574",
+        "title": "GOALI: Developing Novel Photocatalytic Methods to Address Synthetic Limitations in the Pharmaceutical Industry",
+        "amount": "$591,217.00",
+        "program": "Chemical Catalysis",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eric R Welin eric.welin@bms.com",
+      "Candice Joe Candice.Joe@bms.com",
+      "Trevor C Sherwood Trevor.Sherwood@bms.com"
+    ]
+  },
+  {
+    "id": "nsf-2505011",
+    "name": "Ethan Katz-Bassett",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS: Medium: Intent-based Internet Ingress Routing"
+    ],
+    "website": "",
+    "email": [
+      "ethan@ee.columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2505011",
+        "title": "Collaborative Research: NeTS: Medium: Intent-based Internet Ingress Routing",
+        "amount": "$575,515.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "07/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2441001",
+    "name": "Neel H Shah",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Understanding and Exploiting Sequence Recognition by Cell Signaling Proteins"
+    ],
+    "website": "",
+    "email": [
+      "neel.shah@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2441001",
+        "title": "CAREER: Understanding and Exploiting Sequence Recognition by Cell Signaling Proteins",
+        "amount": "$801,590.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "03/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447137",
+    "name": "Carlos A Paz-Soldan",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: Plasma Physics, Plasma Astrophysics, and Fusion at Columbia"
+    ],
+    "website": "",
+    "email": [
+      "carlos.pazsoldan@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2447137",
+        "title": "REU Site: Plasma Physics, Plasma Astrophysics, and Fusion at Columbia",
+        "amount": "$299,847.00",
+        "program": "Integrative Activities in Phys",
+        "end_date": "03/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440391",
+    "name": "Terry A Plank",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Geosciences",
+      "EA: Acquisition of a Laser Ablation-Quadrupole Inductively Coupled Plasma Mass Spectrometer system a..."
+    ],
+    "website": "",
+    "email": [
+      "tplank@ldeo.columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2440391",
+        "title": "EA: Acquisition of a Laser Ablation-Quadrupole Inductively Coupled Plasma Mass Spectrometer system at the Lamont Doherty Earth Observatory for Geoscience Research",
+        "amount": "$457,027.00",
+        "program": "Instrumentation & Facilities",
+        "end_date": "02/28/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Louise Bolge bolge@ldeo.columbia.edu",
+      "Celine Martin cmartin@amnh.org"
+    ]
+  },
+  {
+    "id": "nsf-2434844",
+    "name": "Susan E McGregor",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "CSE",
+      "CSforAll: Small: RPP: High School Strand: Supporting Persistence and Science Teacher Identity in Pre..."
+    ],
+    "website": "",
+    "email": [
+      "sem2196@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2434844",
+        "title": "CSforAll: Small: RPP: High School Strand: Supporting Persistence and Science Teacher Identity in Pre- and In-Service CS Educators from Backgrounds Underrepresented in STEM",
+        "amount": "$298,528.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Wesley B Pitts wesley.pitts@lehman.cuny.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429672",
+    "name": "Gil Eyal",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "ReDDDoT Phase 2: Leveraging Urban AI as a Communal Tool for Connection and Exchange in Harlem"
+    ],
+    "website": "",
+    "email": [
+      "ge2027@columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2429672",
+        "title": "ReDDDoT Phase 2: Leveraging Urban AI as a Communal Tool for Connection and Exchange in Harlem",
+        "amount": "$1,447,662.00",
+        "program": "ReDDDoT-Resp Des Dev & Dp Tech",
+        "end_date": "09/30/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rachel Cummings rac2239@columbia.edu",
+      "Carl M Vondrick cv2428@columbia.edu",
+      "Jorge J Ortiz jorge.ortiz@rutgers.edu",
+      "Brian A Smith brian@cs.columbia.edu"
+    ]
+  },
+  {
+    "id": "nsf-2402659",
+    "name": "Andrew R Juhl",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Temperature Variability and Extremes at Multiple Temporal Scales in North As..."
+    ],
+    "website": "",
+    "email": [
+      "andyjuhl@ldeo.columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2402659",
+        "title": "Collaborative Research: Temperature Variability and Extremes at Multiple Temporal Scales in North Asia from Millennial-Length Wood Anatomical Records",
+        "amount": "$76,068.00",
+        "program": "P4CLIMATE",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Laia Andreu-Hayles lah@ldeo.columbia.edu",
+      "Andrew R Juhl (Former) andyjuhl@ldeo.columbia.edu"
+    ]
+  },
+  {
+    "id": "nsf-2416598",
+    "name": "Nicolas E Young",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Columbia University",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Using the Ice Sheet and Sea-level System Model and geological constraints to..."
+    ],
+    "website": "",
+    "email": [
+      "nicolasy@ldeo.columbia.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2416598",
+        "title": "Collaborative Research: Using the Ice Sheet and Sea-level System Model and geological constraints to investigate the disappearance of the Laurentide Ice Sheet",
+        "amount": "$452,989.00",
+        "program": "ANS-Arctic Natural Sciences",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Joerg M Schaefer schaefer@ldeo.columbia.edu"
+    ]
+  }
+]

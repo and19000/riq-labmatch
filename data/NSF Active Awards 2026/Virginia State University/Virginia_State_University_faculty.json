@@ -1,0 +1,115 @@
+[
+  {
+    "id": "nsf-2434660",
+    "name": "Milton O Faison",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Virginia State University",
+    "location": "PETERSBURG, VA",
+    "research_areas": [
+      "Office of the Director",
+      "Planning: Nurturing Strategic Planning for Innovative, Research and Empowerment Development (NSPIRE)",
+      "Collaborative Research: Ideas Lab: HBCU Research and Collaboration Exchange"
+    ],
+    "website": "",
+    "email": [
+      "mfaison@vsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PETERSBURG, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2434660",
+        "title": "Planning: Nurturing Strategic Planning for Innovative, Research and Empowerment Development (NSPIRE)",
+        "amount": "$99,845.00",
+        "program": "GRANTED",
+        "end_date": "08/31/2026",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2430313",
+        "title": "Collaborative Research: Ideas Lab: HBCU Research and Collaboration Exchange",
+        "amount": "$693,664.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Derrick C Scott dscott@vsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510430",
+    "name": "Vincent de Paul Nzuwah Nziko",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Virginia State University",
+    "location": "PETERSBURG, VA",
+    "research_areas": [
+      "STEM Education",
+      "Targeted Infusion Project: Infusing Computational Chemistry across the Chemistry Curriculum at Virgi..."
+    ],
+    "website": "",
+    "email": [
+      "vnziko@vsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PETERSBURG, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2510430",
+        "title": "Targeted Infusion Project: Infusing Computational Chemistry across the Chemistry Curriculum at Virginia State University",
+        "amount": "$397,073.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "07/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Thomas H Redpath tredpath@vsu.edu",
+      "Robert D White rdwhite@vsu.edu",
+      "Sean J Kern skern@vsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2406111",
+    "name": "Ali A Ansari",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Virginia State University",
+    "location": "PETERSBURG, VA",
+    "research_areas": [
+      "STEM Education",
+      "Implementation Project: Trojan Center for Emerging Engineering Research"
+    ],
+    "website": "",
+    "email": [
+      "aansari@vsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PETERSBURG, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2406111",
+        "title": "Implementation Project: Trojan Center for Emerging Engineering Research",
+        "amount": "$2,999,998.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "10/31/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jahangir Ansari jansari@vsu.edu",
+      "Nasser Ghariban nghariba@vsu.edu",
+      "Tracy M Walker twalker@vsu.edu",
+      "Zhenhua Wu zwu@vsu.edu"
+    ]
+  }
+]

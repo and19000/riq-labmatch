@@ -2,7 +2,7 @@
 
 {% block content %}
   <h1>Multi-Lab Outreach Planner</h1>
-  <p class="subtitle">Generate and manage emails for multiple labs at once</p>
+  <p class="subtitle">Create and manage emails for multiple labs at once</p>
 
   {% if saved_pis %}
     <form method="post" action="{{ url_for('multi_email') }}" class="multi-email-form">
@@ -22,11 +22,11 @@
       </div>
 
       <div class="form-group">
-        <button type="submit" class="btn-primary btn-large">Generate All Emails</button>
+        <button type="submit" class="btn-primary btn-large">Draft All Emails</button>
       </div>
     </form>
 
-    <p><small>After generating emails, you'll see each draft with personalization suggestions and can track your outreach status.</small></p>
+    <p><small>After drafting emails, you'll see each draft with personalization suggestions and can track your outreach status.</small></p>
   {% else %}
     <div class="no-results">
       <p>You haven't saved any PIs yet.</p>

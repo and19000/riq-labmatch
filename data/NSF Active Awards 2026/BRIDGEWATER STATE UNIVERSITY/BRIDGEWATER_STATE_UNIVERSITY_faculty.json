@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2504650",
+    "name": "Jennifer Aizenman",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "BRIDGEWATER STATE UNIVERSITY",
+    "location": "BRIDGEWATER, MA",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: HERITOR Project: Research Partnership to Preserve Marine Ecosystems"
+    ],
+    "website": "",
+    "email": [
+      "jennifer.aizenman@bridgew.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BRIDGEWATER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2504650",
+        "title": "IRES: HERITOR Project: Research Partnership to Preserve Marine Ecosystems",
+        "amount": "$450,000.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Christopher P Bloch cbloch@bridgew.edu",
+      "Thilina D Surasinghe tsurasinghe@bridgew.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510384",
+    "name": "Jennifer G Winters",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "BRIDGEWATER STATE UNIVERSITY",
+    "location": "BRIDGEWATER, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: RUI: Speckle Surveys of Nearby Stars"
+    ],
+    "website": "",
+    "email": [
+      "j3winters@bridgew.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BRIDGEWATER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2510384",
+        "title": "Collaborative Research: RUI: Speckle Surveys of Nearby Stars",
+        "amount": "$150,249.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

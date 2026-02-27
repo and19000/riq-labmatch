@@ -1,0 +1,167 @@
+[
+  {
+    "id": "nsf-2451781",
+    "name": "Ethel Tshukudu",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "San Jose State University Foundation",
+    "location": "SAN JOSE, CA",
+    "research_areas": [
+      "CSE",
+      "CRII: Understanding Conceptual Transfer from Imperative Rule-Based Programming to AI/ML Data-Driven ..."
+    ],
+    "website": "",
+    "email": [
+      "ethel.tshukudu@sjsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN JOSE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2451781",
+        "title": "CRII: Understanding Conceptual Transfer from Imperative Rule-Based Programming to AI/ML Data-Driven Computation Approaches",
+        "amount": "$174,979.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "07/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2532818",
+    "name": "Edgar A Bering",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "San Jose State University Foundation",
+    "location": "SAN JOSE, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Commensurations and Automorphisms of Free Groups via Topological Models"
+    ],
+    "website": "",
+    "email": [
+      "edgar.bering@sjsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN JOSE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2532818",
+        "title": "LEAPS-MPS: Commensurations and Automorphisms of Free Groups via Topological Models",
+        "amount": "$249,988.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424986",
+    "name": "Carlie Pietsch",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "San Jose State University Foundation",
+    "location": "SAN JOSE, CA",
+    "research_areas": [
+      "STEM Education",
+      "Geoscience for Society: Preparing Students for Careers in Climate, Clean Energy, and Resource Manage..."
+    ],
+    "website": "",
+    "email": [
+      "carlie.pietsch@sjsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN JOSE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2424986",
+        "title": "Geoscience for Society: Preparing Students for Careers in Climate, Clean Energy, and Resource Management",
+        "amount": "$1,798,726.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ellen P Metzger ellen.metzger@sjsu.edu",
+      "LeAnne Teruya leanne.teruya@sjsu.edu",
+      "Nathaniel A Bogie nathaniel.bogie@sjsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430291",
+    "name": "Bob Lim",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "San Jose State University Foundation",
+    "location": "SAN JOSE, CA",
+    "research_areas": [
+      "CSE",
+      "Research Infrastructure: CC* Compute-Campus: A campus-wide computing resource for research and teach..."
+    ],
+    "website": "",
+    "email": [
+      "bob.lim@sjsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN JOSE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2430291",
+        "title": "Research Infrastructure: CC* Compute-Campus: A campus-wide computing resource for research and teaching at San Jose State University",
+        "amount": "$628,773.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "10/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ehsan Khatami ehsan.khatami@sjsu.edu",
+      "Feruza Amirkulova feruza.amirkulova@sjsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434680",
+    "name": "Peter Beyersdorf",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "San Jose State University Foundation",
+    "location": "SAN JOSE, CA",
+    "research_areas": [
+      "STEM Education",
+      "Modernizing Introductory Physics Laboratories for Tomorrow's Technology Workforce"
+    ],
+    "website": "",
+    "email": [
+      "peter.beyersdorf@sjsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN JOSE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2434680",
+        "title": "Modernizing Introductory Physics Laboratories for Tomorrow's Technology Workforce",
+        "amount": "$161,977.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "08/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ramendra D Bahuguna rdbahuguna@aim.com",
+      "Ranko Heindl ranko.heindl@sjsu.edu",
+      "Christopher L Smallwood christopher.smallwood@sjsu.edu",
+      "Neil A Switz neil.switz@sjsu.edu"
+    ]
+  }
+]

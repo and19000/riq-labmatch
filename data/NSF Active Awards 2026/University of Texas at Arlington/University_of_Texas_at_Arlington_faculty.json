@@ -1,0 +1,251 @@
+[
+  {
+    "id": "nsf-2613518",
+    "name": "Wei Zhai",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "Engineering",
+      "CIVIC-PG Track A: Create an Ethical Urban Digital Twin to Co-design Heat Mitigations for Integrated ..."
+    ],
+    "website": "",
+    "email": [
+      "wei.zhai@uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2613518",
+        "title": "CIVIC-PG Track A: Create an Ethical Urban Digital Twin to Co-design Heat Mitigations for Integrated Indoor and Outdoor Environments",
+        "amount": "$19,993.00",
+        "program": "S&CC: Smart & Connected Commun",
+        "end_date": "05/31/2026",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2430700",
+        "title": "CIVIC-PG Track A: Create an Ethical Urban Digital Twin to Co-design Heat Mitigations for Integrated Indoor and Outdoor Environments",
+        "amount": "$75,000.00",
+        "program": "S&CC: Smart & Connected Commun",
+        "end_date": "02/28/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2526807",
+    "name": "Tuncay Aktosun",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "STEM Education",
+      "S-STEM: Scholarship to Educate and Mentor Mathematics Students"
+    ],
+    "website": "",
+    "email": [
+      "aktosun@uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2526807",
+        "title": "S-STEM: Scholarship to Educate and Mentor Mathematics Students",
+        "amount": "$1,999,709.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "02/29/2032",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jianzhong Su su@uta.edu",
+      "Ruth Gornet rgornet@uta.edu",
+      "Barbara A Shipman bshipman@uta.edu",
+      "Hristo V Kojouharov hristo@uta.edu"
+    ]
+  },
+  {
+    "id": "nsf-2519021",
+    "name": "Md Nazmus Sakib",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "STEM Education",
+      "Transforming Compliance Training for Drone Operators through an Extended Reality and Generative Arti..."
+    ],
+    "website": "",
+    "email": [
+      "mdnazmus.sakib@uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2519021",
+        "title": "Transforming Compliance Training for Drone Operators through an Extended Reality and Generative Artificial Intelligence-Driven System",
+        "amount": "$399,871.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Md Mahmudur Rahman mrahman@uta.edu",
+      "Somin Park somin.park@uta.edu",
+      "Zhe Yin zhe.yin@uta.edu"
+    ]
+  },
+  {
+    "id": "nsf-2526359",
+    "name": "Shiyao Lin",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Beginnings: Preparing and Advancing College Engineering Students for the Aerospace Workforce with Ex..."
+    ],
+    "website": "",
+    "email": [
+      "shiyao.lin@uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2526359",
+        "title": "Beginnings: Preparing and Advancing College Engineering Students for the Aerospace Workforce with Experiential Learning and Research",
+        "amount": "$999,029.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Md Rassel Raihan mdrassel.raihan@uta.edu",
+      "Md Mahmudur Rahman mrahman@uta.edu",
+      "Stuart E Riley stuart.riley@tccd.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429257",
+    "name": "Nur Yazdani",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Home Mitigation for Hurricane Induced Multi-Hazards: A Multilevel Interdisci..."
+    ],
+    "website": "",
+    "email": [
+      "yazdani@uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2429257",
+        "title": "Collaborative Research: Home Mitigation for Hurricane Induced Multi-Hazards: A Multilevel Interdisciplinary Vulnerability and Resiliency Approach",
+        "amount": "$473,305.00",
+        "program": "HDBE-Humans, Disasters, and th",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Chengkai Li cli@uta.edu",
+      "Michelle A Hummel michelle.hummel@uta.edu",
+      "Chi-Young Choi cychoi@uta.edu"
+    ]
+  },
+  {
+    "id": "nsf-2437995",
+    "name": "Darsh Gandhi",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "STEM Education",
+      "Mathposium: Student Research Symposium and Peer Mentoring Network"
+    ],
+    "website": "",
+    "email": [
+      "dxg5343@mavs.uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2437995",
+        "title": "Mathposium: Student Research Symposium and Peer Mentoring Network",
+        "amount": "$29,375.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Theresa A Jorgensen jorgensen@uta.edu",
+      "Talon Johnson taloneverrettjohnson@gmail.com"
+    ]
+  },
+  {
+    "id": "nsf-2425164",
+    "name": "Efstathios I Meletis",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Arlington",
+    "location": "ARLINGTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Partnership for Research and Education in Functional Materials"
+    ],
+    "website": "",
+    "email": [
+      "meletis@uta.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARLINGTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2425164",
+        "title": "Partnership for Research and Education in Functional Materials",
+        "amount": "$2,100,000.00",
+        "program": "PREM",
+        "end_date": "08/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Krishnan Rajeshwar rajeshwar@uta.edu",
+      "Mark C Hersam m-hersam@northwestern.edu",
+      "Seong Jin Koh skoh@uta.edu",
+      "Kayunta Johnson-Winters kayunta@uta.edu"
+    ]
+  }
+]

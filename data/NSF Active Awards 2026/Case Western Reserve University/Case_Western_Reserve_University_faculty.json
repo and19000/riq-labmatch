@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nsf-2505714",
+    "name": "Genevieve Sauve",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Case Western Reserve University",
+    "location": "CLEVELAND, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Combining conjugated polymer end group chemistry and metal-ligand bonds to achieve desirable mechani..."
+    ],
+    "website": "",
+    "email": [
+      "genevieve.sauve@case.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CLEVELAND, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2505714",
+        "title": "Combining conjugated polymer end group chemistry and metal-ligand bonds to achieve desirable mechanical and electrical properties",
+        "amount": "$554,921.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2439298",
+    "name": "Divita Mathur",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Case Western Reserve University",
+    "location": "CLEVELAND, OH",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Structural Implications of Nucleic Acid Nanoparticles on their Transcription, Translation, a..."
+    ],
+    "website": "",
+    "email": [
+      "dxm700@case.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CLEVELAND, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2439298",
+        "title": "CAREER: Structural Implications of Nucleic Acid Nanoparticles on their Transcription, Translation, and Transport",
+        "amount": "$695,000.00",
+        "program": "Nanoscale Interactions Program",
+        "end_date": "06/30/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

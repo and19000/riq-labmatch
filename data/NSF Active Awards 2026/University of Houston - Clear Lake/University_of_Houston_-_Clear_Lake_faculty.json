@@ -1,0 +1,100 @@
+[
+  {
+    "id": "nsf-2532948",
+    "name": "Tej B Limbu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Houston - Clear Lake",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Multimodal-Enhanced Raman Scattering (MERS) for Ultrasensitive Molecular Detection"
+    ],
+    "website": "",
+    "email": [
+      "limbu@uhcl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2532948",
+        "title": "LEAPS-MPS: Multimodal-Enhanced Raman Scattering (MERS) for Ultrasensitive Molecular Detection",
+        "amount": "$249,995.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434162",
+    "name": "Ariful I Bhuiyan",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Houston - Clear Lake",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: Course-Based Undergraduate Research Experiences: Engaging Historically Underrepresented S..."
+    ],
+    "website": "",
+    "email": [
+      "bhuiyan@uhcl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2434162",
+        "title": "Equipment: Course-Based Undergraduate Research Experiences: Engaging Historically Underrepresented Students Using Stress Block Image Correlation Simulation",
+        "amount": "$185,515.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "12/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jana M Willis willis@uhcl.edu",
+      "Magdy Akladios akladios@uhcl.edu",
+      "Serkan Caliskan caliskan@uhcl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434693",
+    "name": "Kazi Md Masum Billah",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Houston - Clear Lake",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: Acquisition of Metal Additive Manufacturing System for Improving Undergraduate Engineerin..."
+    ],
+    "website": "",
+    "email": [
+      "billah@uhcl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2434693",
+        "title": "Equipment: Acquisition of Metal Additive Manufacturing System for Improving Undergraduate Engineering Education",
+        "amount": "$197,874.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Youssef K Hamidi hamidi@uhcl.edu"
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "nsf-2505763",
+    "name": "Yi Rao",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Utah State University",
+    "location": "LOGAN, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Development of Single Droplet Interface-Specific Sum Frequency Scattering Spectroscopy"
+    ],
+    "website": "",
+    "email": [
+      "yi.rao@usu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOGAN, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2505763",
+        "title": "Development of Single Droplet Interface-Specific Sum Frequency Scattering Spectroscopy",
+        "amount": "$475,000.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2516406",
+    "name": "Mimi M Recker",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Utah State University",
+    "location": "LOGAN, UT",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Scaling and Expanding the STEM Career Connections Model to Prepare Rural You..."
+    ],
+    "website": "",
+    "email": [
+      "mimi.recker@usu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOGAN, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2516406",
+        "title": "Collaborative Research: Scaling and Expanding the STEM Career Connections Model to Prepare Rural Youth for the Technological Workforce",
+        "amount": "$506,181.00",
+        "program": "ITEST-Inov Tech Exp Stu & Teac",
+        "end_date": "07/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2448374",
+    "name": "Wilhelmina van Dijk",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Utah State University",
+    "location": "LOGAN, UT",
+    "research_areas": [
+      "STEM Education",
+      "Building Capacity to Examine Collaboration and Support Systems for Secondary Mathematics Teachers in..."
+    ],
+    "website": "",
+    "email": [
+      "willa.vandijk@usu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOGAN, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2448374",
+        "title": "Building Capacity to Examine Collaboration and Support Systems for Secondary Mathematics Teachers in General and Special Education",
+        "amount": "$99,981.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "06/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kaitlin Bundock kaitlin.bundock@usu.edu",
+      "Carrie O Bala carrie.bala@usu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434364",
+    "name": "Seth Poulsen",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Utah State University",
+    "location": "LOGAN, UT",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CUE-T: Theory-ABCs: Transforming Online Theory Instruction while building Ab..."
+    ],
+    "website": "",
+    "email": [
+      "seth.poulsen@usu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOGAN, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2434364",
+        "title": "Collaborative Research: CUE-T: Theory-ABCs: Transforming Online Theory Instruction while building Ability, Belonging, and Confidence",
+        "amount": "$330,852.00",
+        "program": "IUSE: Computing Undergrad Educ",
+        "end_date": "12/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430462",
+    "name": "David F Feldon",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Utah State University",
+    "location": "LOGAN, UT",
+    "research_areas": [
+      "STEM Education",
+      "Access and Accessibility in STEM: An Organizational Route to Tenure Line Faculty Positions"
+    ],
+    "website": "",
+    "email": [
+      "david.feldon@usu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOGAN, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2430462",
+        "title": "Access and Accessibility in STEM: An Organizational Route to Tenure Line Faculty Positions",
+        "amount": "$1,249,664.00",
+        "program": "IUSE, Postdoctoral Fellowships",
+        "end_date": "10/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shawn D Whiteman shawn.whiteman@usu.edu"
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "nsf-2439534",
+    "name": "John Pecore",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of West Florida",
+    "location": "PENSACOLA, FL",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Comparing Preservice STEM Teacher Preparation Using Virtual Reality Artifici..."
+    ],
+    "website": "",
+    "email": [
+      "jpecore@uwf.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PENSACOLA, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2439534",
+        "title": "Collaborative Research: Comparing Preservice STEM Teacher Preparation Using Virtual Reality Artificial Intelligence Simulations Versus Peer Teaching",
+        "amount": "$575,142.00",
+        "program": "IUSE",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shim Lew slew@uwf.edu"
+    ]
+  },
+  {
+    "id": "nsf-2519847",
+    "name": "Matthew C Schwartz",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "University of West Florida",
+    "location": "PENSACOLA, FL",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Advancing Regional Innovation Through Sustainable Engagement (ARISE)"
+    ],
+    "website": "",
+    "email": [
+      "mschwartz@uwf.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PENSACOLA, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2519847",
+        "title": "Collaborative Research: EPIIC: Advancing Regional Innovation Through Sustainable Engagement (ARISE)",
+        "amount": "$400,000.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mohamed A Khabou mkhabou@uwf.edu",
+      "Nicole Gislason nicole@uwf.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452705",
+    "name": "Jacob S Tracy",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of West Florida",
+    "location": "PENSACOLA, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: A Physical Organic Chemistry Approach to the Development and Understanding o..."
+    ],
+    "website": "",
+    "email": [
+      "jtracy@uwf.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PENSACOLA, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2452705",
+        "title": "Collaborative Research: A Physical Organic Chemistry Approach to the Development and Understanding of Redox Flow Batteries and Metal-Air Battery Redox Mediators",
+        "amount": "$69,600.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2521419",
+    "name": "Sikha S Bagui",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of West Florida",
+    "location": "PENSACOLA, FL",
+    "research_areas": [
+      "CSE",
+      "Preparing In-Service Teachers in AP Computer Science Principles"
+    ],
+    "website": "",
+    "email": [
+      "bagui@uwf.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PENSACOLA, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2521419",
+        "title": "Preparing In-Service Teachers in AP Computer Science Principles",
+        "amount": "$300,000.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "07/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Giang-Nguyen Nguyen gnguyen@uwf.edu",
+      "Melanie DiLoreto mdiloreto@uwf.edu",
+      "Evorell L Fridge efridge@uwf.edu"
+    ]
+  }
+]

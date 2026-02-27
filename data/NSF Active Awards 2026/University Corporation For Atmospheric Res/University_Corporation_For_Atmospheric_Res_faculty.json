@@ -1,0 +1,110 @@
+[
+  {
+    "id": "nsf-2521216",
+    "name": "Hanne Mauriello",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University Corporation For Atmospheric Res",
+    "location": "BOULDER, CO",
+    "research_areas": [
+      "Geosciences",
+      "Conference: CEDAR Workshop",
+      "Workshop on Emerging Observational Needs in Atmospheric Chemistry; Boulder, Colorado; June 16-18, 20..."
+    ],
+    "website": "",
+    "email": [
+      "hanne@ucar.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOULDER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2521216",
+        "title": "Conference: CEDAR Workshop",
+        "amount": "$598,605.00",
+        "program": "AERONOMY",
+        "end_date": "08/31/2030",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2519989",
+        "title": "Workshop on Emerging Observational Needs in Atmospheric Chemistry; Boulder, Colorado; June 16-18, 2025",
+        "amount": "$99,800.00",
+        "program": "Atmospheric Chemistry",
+        "end_date": "03/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Liying Qian lqian@ucar.edu"
+    ]
+  },
+  {
+    "id": "nsf-2530608",
+    "name": "Jiang Zhu",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University Corporation For Atmospheric Res",
+    "location": "BOULDER, CO",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: CAIG: Emulating Water Isotopes in Fully-coupled Global Climate Models using ..."
+    ],
+    "website": "",
+    "email": [
+      "jiangzhu@ucar.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOULDER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2530608",
+        "title": "Collaborative Research: CAIG: Emulating Water Isotopes in Fully-coupled Global Climate Models using Knowledge-guided Machine Learning",
+        "amount": "$252,059.00",
+        "program": "GEO CI - GEO Cyberinfrastrctre",
+        "end_date": "10/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Daniel E Amrhein damrhein@ucar.edu"
+    ]
+  },
+  {
+    "id": "nsf-2516405",
+    "name": "Julie Malmberg",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University Corporation For Atmospheric Res",
+    "location": "BOULDER, CO",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Scaling and Expanding the STEM Career Connections Model to Prepare Rural You..."
+    ],
+    "website": "",
+    "email": [
+      "malmberg@ucar.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOULDER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2516405",
+        "title": "Collaborative Research: Scaling and Expanding the STEM Career Connections Model to Prepare Rural Youth for the Technological Workforce",
+        "amount": "$1,005,076.00",
+        "program": "ITEST-Inov Tech Exp Stu & Teac",
+        "end_date": "07/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Melissa S Rummel mrummel@ucar.edu"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2448453",
+    "name": "David R Turner",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "St Mary's University San Antonio",
+    "location": "SAN ANTONIO, TX",
+    "research_areas": [
+      "STEM Education",
+      "Robert Noyce Teacher Scholarship Program Track 1 Project: Building A Stronger STEM Teacher Pipeline ..."
+    ],
+    "website": "",
+    "email": [
+      "dturner2@stmarytx.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN ANTONIO, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2448453",
+        "title": "Robert Noyce Teacher Scholarship Program Track 1 Project: Building A Stronger STEM Teacher Pipeline in Texas",
+        "amount": "$749,984.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Christine E Gray cgray@stmarytx.edu",
+      "Angeli M Willson awillson@stmarytx.edu"
+    ]
+  },
+  {
+    "id": "nsf-2522994",
+    "name": "Kaitlin Hill",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "St Mary's University San Antonio",
+    "location": "SAN ANTONIO, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: Texas Undergraduate Mathematics Conference 2025-2026"
+    ],
+    "website": "",
+    "email": [
+      "khill5@stmarytx.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN ANTONIO, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2522994",
+        "title": "Collaborative Research: Conference: Texas Undergraduate Mathematics Conference 2025-2026",
+        "amount": "$16,036.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nsf-2501975",
+    "name": "Ioannis Zografopoulos",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Massachusetts Boston",
+    "location": "DORCHESTER, MA",
+    "research_areas": [
+      "Engineering",
+      "ERI: Real-Time Analysis of Communication-Based Attacks on Energy Systems"
+    ],
+    "website": "",
+    "email": [
+      "i.zografopoulos@umb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DORCHESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2501975",
+        "title": "ERI: Real-Time Analysis of Communication-Based Attacks on Energy Systems",
+        "amount": "$199,992.00",
+        "program": "ERI-Eng. Research Initiation",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440964",
+    "name": "Ozgun Babur",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Massachusetts Boston",
+    "location": "DORCHESTER, MA",
+    "research_areas": [
+      "Biological Sciences",
+      "CAREER: Computational infrastructure for building causal models of molecular biology"
+    ],
+    "website": "",
+    "email": [
+      "ozgun.babur@umb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DORCHESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2440964",
+        "title": "CAREER: Computational infrastructure for building causal models of molecular biology",
+        "amount": "$243,764.00",
+        "program": "Innovation: Bioinformatics",
+        "end_date": "08/31/2030",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452479",
+    "name": "Jonathan Rochford",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Massachusetts Boston",
+    "location": "DORCHESTER, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Selective Carbon Dioxide to Formate Conversion by Electrolyte Engineering and Tailored Electrocataly..."
+    ],
+    "website": "",
+    "email": [
+      "jonathan.rochford@umb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DORCHESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2452479",
+        "title": "Selective Carbon Dioxide to Formate Conversion by Electrolyte Engineering and Tailored Electrocatalytic PCET Strategies",
+        "amount": "$560,068.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2347702",
+    "name": "Rafael V Rodrigues",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Massachusetts Boston",
+    "location": "DORCHESTER, MA",
+    "research_areas": [
+      "Engineering",
+      "ERI: Integration of Offshore Wind Energy and Marine Energy for Efficient Use of the Marine Space"
+    ],
+    "website": "",
+    "email": [
+      "R.ValottaRodrigues@umb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DORCHESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2347702",
+        "title": "ERI: Integration of Offshore Wind Energy and Marine Energy for Efficient Use of the Marine Space",
+        "amount": "$199,355.00",
+        "program": "",
+        "end_date": "08/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

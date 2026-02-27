@@ -55,6 +55,47 @@ USE_MATCHING_V2 = os.environ.get("USE_MATCHING_V2", "true").lower() != "false"
 # Global matching service (initialized lazily)
 _matching_service = None
 
+def _flatten_v2_for_matching(pi):
+    """Flatten a v2-schema PI dict to top-level keys for the matching service."""
+    if pi.get("schema_version") != "2.0":
+        return pi  # Already flat
+
+    aff = pi.get("affiliation", {})
+    contact = pi.get("contact", {})
+    metrics = pi.get("metrics", {})
+    research = pi.get("research", {})
+    pubs = pi.get("publications", {})
+    funding = pi.get("funding", {})
+    dq = pi.get("data_quality", {})
+
+    # Map email_confidence to quality format the matcher expects
+    email_conf = contact.get("email_confidence", "")
+    email_quality = "verified" if email_conf == "HIGH" else "uncertain"
+
+    flat = {
+        "id": pi.get("id", ""),
+        "name": pi.get("name", ""),
+        "school": aff.get("school", ""),
+        "institution": aff.get("school", ""),
+        "department": aff.get("department", ""),
+        "title": aff.get("title", ""),
+        "location": aff.get("location", ""),
+        "specific_location": aff.get("specific_location", ""),
+        "email": contact.get("email", ""),
+        "primary_email": contact.get("email", ""),
+        "primary_email_quality": email_quality,
+        "website": contact.get("website", ""),
+        "google_scholar": contact.get("google_scholar_url", ""),
+        "h_index": metrics.get("h_index", 0),
+        "research_areas": research.get("areas", ""),
+        "research_topics": research.get("topics", []),
+        "lab_techniques": research.get("techniques", []),
+        "pub_titles_recent": pubs.get("recent_papers", []),
+        "nsf_awards": funding.get("nsf_grants_count", 0),
+    }
+    return flat
+
+
 def get_matching_service():
     """Get or initialize the matching service. Uses v2 by default (set USE_MATCHING_V2=false to revert)."""
     global _matching_service
@@ -62,21 +103,35 @@ def get_matching_service():
         # Select service class based on feature flag
         MatchingService = MatchingServiceV2 if USE_MATCHING_V2 else MatchingServiceV1
         version_str = "v2" if USE_MATCHING_V2 else "v1"
-        
+
         _app_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Priority 1: v2 combined faculty data (same data as Browse Labs)
+        v2_path = os.path.join(_app_dir, "Data", "v2", "all_faculty.json")
+        if os.path.exists(v2_path) and USE_MATCHING_V2:
+            try:
+                import json as _json
+                with open(v2_path, "r", encoding="utf-8") as f:
+                    v2_data = _json.load(f)
+                flat_list = [_flatten_v2_for_matching(pi) for pi in v2_data]
+                _matching_service = MatchingService(flat_list)
+                app.logger.info(f"Loaded matching service ({version_str}) from v2 data: {len(flat_list)} PIs")
+                return _matching_service
+            except Exception as e:
+                app.logger.error(f"Failed to load v2 faculty data for matching: {e}")
+
+        # Priority 2: NSF Active Awards (legacy)
         misc_dir = os.path.join(_app_dir, "Data", "Misc jsons")
-        
-        # Priority 1: NSF Active Awards 2026 (2,853 researchers with active grants)
         nsf_active_path = os.path.join(misc_dir, "nsf_active.json")
         if os.path.exists(nsf_active_path):
             try:
                 _matching_service = MatchingService(nsf_active_path)
-                app.logger.info(f"Loaded matching service ({version_str}) from NSF Active Awards 2026: {nsf_active_path}")
+                app.logger.info(f"Loaded matching service ({version_str}) from NSF Active Awards: {nsf_active_path}")
                 return _matching_service
             except Exception as e:
                 app.logger.error(f"Failed to load NSF Active Awards: {e}")
-        
-        # Priority 2: Harvard faculty working file
+
+        # Priority 3: Harvard faculty working file
         fallback_path = os.path.join(misc_dir, "faculty_working.json")
         if os.path.exists(fallback_path):
             try:
@@ -85,8 +140,8 @@ def get_matching_service():
                 return _matching_service
             except Exception as e:
                 app.logger.error(f"Failed to load matching fallback: {e}")
-        
-        # Priority 3: Legacy output directory files
+
+        # Priority 4: Legacy output directory files
         output_dir = os.path.join(_app_dir, "output")
         if os.path.exists(output_dir):
             for f in sorted(os.listdir(output_dir), reverse=True):
@@ -145,6 +200,27 @@ def dept_field_key(department):
 
 # Register as Jinja2 template global so templates can call {{ dept_field_key(pi.department) }}
 app.jinja_env.globals["dept_field_key"] = dept_field_key
+
+# Human-readable names for department categories (keys from dept_field_key)
+DEPT_CATEGORY_DISPLAY = {
+    "cs": "Computer Science",
+    "engineering": "Engineering",
+    "biology": "Biology & Life Sciences",
+    "chemistry": "Chemistry",
+    "physics": "Physics & Astronomy",
+    "math": "Mathematics & Statistics",
+    "medicine": "Medicine & Health",
+    "neuro": "Neuroscience",
+    "social": "Social Sciences",
+    "economics": "Economics & Finance",
+    "materials": "Materials Science",
+    "earth": "Earth & Planetary Sciences",
+    "business": "Business & Management",
+    "arts": "Arts & Humanities",
+    "env": "Environmental Science",
+    "energy": "Energy",
+}
+app.jinja_env.globals["DEPT_CATEGORY_DISPLAY"] = DEPT_CATEGORY_DISPLAY
 
 # Get the environment (development or production)
 env = os.getenv("FLASK_ENV", "development")
@@ -378,6 +454,9 @@ app.jinja_env.globals["SCHOOL_LOGOS"] = SCHOOL_LOGOS
 
 # Harvard per-department files (real department data, replaces "Various")
 HARVARD_DEPT_DIR = os.path.join(DATA_DIR, "Harvard")
+
+# v2 combined faculty data (preferred, generated by scripts/migrate_to_v2_schema.py)
+V2_FACULTY_PATH = os.path.join(DATA_DIR, "v2", "all_faculty.json")
 
 # NSF Active Awards 2026 data - all schools with active NSF grants
 NSF_AWARDS_DIR = os.path.join(DATA_DIR, "NSF Active Awards 2026")
@@ -643,11 +722,86 @@ ALL_SCHOOLS = [
     "Youngstown State University",
 ]
 
+import re as _re
+
+# US state abbreviations for location normalization
+_US_STATES = {
+    "al","ak","az","ar","ca","co","ct","de","fl","ga","hi","id","il","in","ia",
+    "ks","ky","la","me","md","ma","mi","mn","ms","mo","mt","ne","nv","nh","nj",
+    "nm","ny","nc","nd","oh","ok","or","pa","ri","sc","sd","tn","tx","ut","vt",
+    "va","wa","wv","wi","wy","dc","pr","vi",
+}
+
+def _normalize_location(loc):
+    """Normalize a location string to canonical 'City Name, ST' format."""
+    if not loc or not loc.strip():
+        return loc
+    loc = loc.strip()
+    # Split on comma
+    parts = [p.strip() for p in loc.split(",")]
+    if len(parts) == 2:
+        city, state = parts
+        state_clean = state.strip().upper()
+        # If state portion is a valid 2-letter abbreviation, normalize to Title Case city + uppercase state
+        if state_clean.lower() in _US_STATES or len(state_clean) == 2:
+            return city.strip().title() + ", " + state_clean
+        else:
+            return city.strip().title() + ", " + state.strip().title()
+    elif len(parts) > 2:
+        # Multi-part address — just title-case everything, keep last part uppercase if state
+        last = parts[-1].strip()
+        if last.lower() in _US_STATES or len(last) <= 2:
+            return ", ".join(p.strip().title() for p in parts[:-1]) + ", " + last.upper()
+        return ", ".join(p.strip().title() for p in parts)
+    else:
+        # Single part — just title-case it
+        if loc == loc.upper() and len(loc) > 2:
+            return loc.title()
+        return loc
+
+
 def normalize_faculty_entry(pi):
-    """Normalize a faculty entry to consistent format (handles both old and NSF formats)."""
+    """Normalize a faculty entry to consistent format (handles v2, old, and NSF formats)."""
     if not isinstance(pi, dict):
         return None
 
+    # ── v2 schema: flatten nested structure for template compatibility ──
+    if pi.get("schema_version") == "2.0":
+        aff = pi.get("affiliation", {})
+        con = pi.get("contact", {})
+        met = pi.get("metrics", {})
+        res = pi.get("research", {})
+        fund = pi.get("funding", {})
+
+        techniques = res.get("techniques", [])
+        topics = res.get("topics", [])
+
+        flat = {
+            "id": pi.get("id", ""),
+            "name": pi.get("name", ""),
+            "school": aff.get("school", ""),
+            "department": aff.get("department", ""),
+            "title": aff.get("title", ""),
+            "location": aff.get("location", ""),
+            "specific_location": aff.get("specific_location", "") or aff.get("location", ""),
+            "email": con.get("email", ""),
+            "website": con.get("website", ""),
+            "google_scholar": con.get("google_scholar_url", ""),
+            "h_index": met.get("h_index"),
+            "research_areas": res.get("areas", ""),
+            "research_topics": topics[:5] if topics else [],
+            "lab_techniques": ", ".join(techniques) if techniques else "",
+            "nsf_awards": fund.get("nsf_awards", []),
+            "_v2_data": pi,
+        }
+        # Normalize locations
+        for loc_field in ("location", "specific_location"):
+            loc_val = flat.get(loc_field, "")
+            if loc_val:
+                flat[loc_field] = _normalize_location(loc_val)
+        return flat
+
+    # ── Legacy / NSF format handling ──
     if "id" not in pi:
         pi["id"] = pi.get("name", "")
 
@@ -656,7 +810,7 @@ def normalize_faculty_entry(pi):
         pi["school"] = pi.get("institution", "")
 
     # Normalize school names to canonical forms (used for display + logo lookup)
-    SCHOOL_NAME_MAP = {
+    _SCHOOL_NAME_MAP = {
         "massachusetts institute of technology": "MIT",
         "harvard university": "Harvard University",
         "harvard": "Harvard University",
@@ -677,25 +831,25 @@ def normalize_faculty_entry(pi):
         "princeton": "Princeton University",
     }
     school_raw = (pi.get("school") or "").strip()
-    canonical = SCHOOL_NAME_MAP.get(school_raw.lower())
+    canonical = _SCHOOL_NAME_MAP.get(school_raw.lower())
     if canonical:
         pi["school"] = canonical
-    
+
     # Handle email as list (NSF format) or string (old format)
     email = pi.get("email", "")
     if isinstance(email, list):
         pi["email"] = email[0] if email else ""
-    
+
     # Handle research_areas as list (NSF format) or string (old format)
     research_areas = pi.get("research_areas", "")
     if isinstance(research_areas, list):
         pi["research_areas"] = ", ".join(str(r) for r in research_areas[:5])
-    
+
     # Handle lab_techniques as list (NSF format) or string (old format)
     lab_techniques = pi.get("lab_techniques", "")
     if isinstance(lab_techniques, list):
         pi["lab_techniques"] = ", ".join(str(t) for t in lab_techniques)
-    
+
     # Set defaults for missing fields
     pi.setdefault("school", "")
     pi.setdefault("department", "")
@@ -704,46 +858,78 @@ def normalize_faculty_entry(pi):
     pi.setdefault("title", "")
     pi.setdefault("research_areas", "")
 
-    # Normalize UPPERCASE locations (NSF data uses "CAMBRIDGE, MA" format)
+    # Normalize locations to canonical "City Name, ST" format
     for loc_field in ("location", "specific_location"):
         loc_val = pi.get(loc_field, "")
-        if loc_val and loc_val == loc_val.upper() and len(loc_val) > 2:
-            parts = loc_val.split(", ")
-            if len(parts) == 2:
-                pi[loc_field] = parts[0].title() + ", " + parts[1].upper()
-            else:
-                pi[loc_field] = loc_val.title()
+        if loc_val:
+            pi[loc_field] = _normalize_location(loc_val)
+
+    # Normalize department name (strip whitespace, consistent casing)
+    dept = pi.get("department", "")
+    if dept:
+        pi["department"] = dept.strip()
+
+    # Normalize technique names (strip whitespace per technique)
+    techs = pi.get("lab_techniques", "")
+    if techs and isinstance(techs, str):
+        cleaned = ", ".join(t.strip() for t in techs.split(",") if t.strip())
+        pi["lab_techniques"] = cleaned
 
     if not pi.get("research_areas") and pi.get("research_topics"):
         topics = pi["research_topics"]
         if isinstance(topics, list):
             pi["research_areas"] = ", ".join(str(t) for t in topics[:5])
-    
+
     return pi
 
 
 def load_faculty():
-    """Load faculty from JSON with caching. Includes both Harvard data and NSF Active Awards 2026."""
+    """Load faculty from JSON with caching. Prefers v2 combined file, falls back to legacy multi-file loading."""
     global _faculty_cache
     now = _time.time()
     if _faculty_cache["data"] is not None and _faculty_cache["loaded_at"] and (now - _faculty_cache["loaded_at"]) < CACHE_TTL:
         return _faculty_cache["data"]
-    
+
     faculty = []
-    seen_names = set()  # Track names to avoid duplicates
-    
-    # ==========================================================================
-    # INSTITUTION FILTER - Set to None to show all schools, or specify schools
-    # When ready to expand, set ENABLED_SCHOOLS = None to show all institutions
-    # ==========================================================================
+    seen_names = set()
+
     ENABLED_SCHOOLS = {
         "harvard university", "mit",
         "boston university", "northeastern university", "tufts university",
         "stanford university", "yale university", "princeton university",
     }
-    # ENABLED_SCHOOLS = None  # Uncomment this line to enable ALL schools
-    # ==========================================================================
-    
+
+    # ── Try v2 combined data first (preferred) ──
+    if os.path.exists(V2_FACULTY_PATH):
+        try:
+            with open(V2_FACULTY_PATH, "r", encoding="utf-8") as f:
+                v2_data = json.load(f)
+            if isinstance(v2_data, list):
+                for pi in v2_data:
+                    normalized = normalize_faculty_entry(pi)
+                    if normalized:
+                        school = normalized.get("school", "").lower()
+                        if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
+                            continue
+                        if normalized.get("department", "") == "Various":
+                            continue
+                        name_lower = normalized.get("name", "").lower()
+                        if name_lower and name_lower not in seen_names:
+                            faculty.append(normalized)
+                            seen_names.add(name_lower)
+                app.logger.info(f"Loaded {len(faculty)} faculty from v2 combined file")
+                _faculty_cache["data"] = faculty
+                _faculty_cache["loaded_at"] = now
+                # Build by-name lookup
+                by_name = {}
+                for pi in faculty:
+                    by_name[pi.get("name", "").lower()] = pi
+                _faculty_cache["by_name"] = by_name
+                return faculty
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            app.logger.warning(f"Could not load v2 data, falling back to legacy: {e}")
+
+    # ── Legacy multi-file loading (fallback) ──
     # Load primary faculty data (Harvard/existing)
     try:
         with open(FACULTY_PATH, "r", encoding="utf-8") as f:
@@ -752,18 +938,15 @@ def load_faculty():
             primary_faculty = data["faculty"]
         else:
             primary_faculty = data if isinstance(data, list) else []
-        
+
         for pi in primary_faculty:
             normalized = normalize_faculty_entry(pi)
             if normalized:
-                # Skip "Various" department entries (replaced by per-dept files)
                 if normalized.get("department", "") == "Various":
                     continue
-                # Apply school filter
                 school = normalized.get("school", "").lower()
                 if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
                     continue
-                
                 name_lower = normalized.get("name", "").lower()
                 if name_lower and name_lower not in seen_names:
                     faculty.append(normalized)
@@ -771,7 +954,6 @@ def load_faculty():
     except FileNotFoundError:
         pass
 
-    # Load additional school faculty data (MIT + 6 new schools)
     for school_name, school_path in SCHOOL_DATA_FILES.items():
         try:
             if os.path.exists(school_path):
@@ -795,7 +977,6 @@ def load_faculty():
         except (FileNotFoundError, json.JSONDecodeError) as e:
             app.logger.warning(f"Could not load {school_name} data: {e}")
 
-    # Load Harvard per-department files (real department data, replaces "Various")
     try:
         if os.path.isdir(HARVARD_DEPT_DIR):
             harvard_dept_count = 0
@@ -825,8 +1006,6 @@ def load_faculty():
     except Exception as e:
         app.logger.warning(f"Could not load Harvard department data: {e}")
 
-    # Load NSF Active Awards 2026 data (ready to enable when needed)
-    # Currently filtered to Harvard only; set ENABLED_SCHOOLS = None above to enable all
     try:
         if os.path.exists(NSF_ACTIVE_PATH):
             with open(NSF_ACTIVE_PATH, "r", encoding="utf-8") as f:
@@ -835,19 +1014,16 @@ def load_faculty():
                 for pi in nsf_data:
                     normalized = normalize_faculty_entry(pi)
                     if normalized:
-                        # Apply school filter
                         school = normalized.get("school", "").lower()
                         if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
                             continue
-                        
                         name_lower = normalized.get("name", "").lower()
-                        # Only add if not already in the list (avoid duplicates)
                         if name_lower and name_lower not in seen_names:
                             faculty.append(normalized)
                             seen_names.add(name_lower)
     except (FileNotFoundError, json.JSONDecodeError) as e:
         app.logger.warning(f"Could not load NSF data: {e}")
-    
+
     _faculty_cache["data"] = faculty
     _faculty_cache["loaded_at"] = now
     _faculty_cache["by_name"] = {pi.get("name", "").lower(): pi for pi in faculty if pi.get("name")}
@@ -866,13 +1042,13 @@ def _pi_display_priority(pi):
     return priority
 
 
-def get_filter_choices(selected_school="", selected_department="",
-                       selected_technique="", selected_location=""):
-    """Return context-aware filter choices.
+def get_filter_choices(selected_school="", selected_dept_category="",
+                       selected_subfield="", selected_location=""):
+    """Return context-aware filter choices with two-tier department system.
 
     Each dropdown only shows values that yield ≥1 PI given the other active
     filters.  For example, when school='MIT' the department dropdown only
-    lists departments that exist among MIT faculty.
+    lists categories that exist among MIT faculty.
     """
     all_faculty = _faculty_cache.get("data") or load_faculty()
 
@@ -881,12 +1057,12 @@ def get_filter_choices(selected_school="", selected_department="",
         if skip != "school" and selected_school:
             if (pi.get("school") or pi.get("institution") or "") != selected_school:
                 return False
-        if skip != "department" and selected_department:
-            if (pi.get("department") or "") != selected_department:
+        if skip != "dept_category" and selected_dept_category:
+            pi_cat = dept_field_key(pi.get("department") or "")
+            if pi_cat != selected_dept_category:
                 return False
-        if skip != "technique" and selected_technique:
-            pi_techs = [t.strip().lower() for t in (pi.get("lab_techniques") or "").split(",")]
-            if selected_technique.lower() not in pi_techs:
+        if skip != "subfield" and selected_subfield:
+            if (pi.get("department") or "") != selected_subfield:
                 return False
         if skip != "location" and selected_location:
             pi_loc = pi.get("specific_location") or pi.get("location") or ""
@@ -895,8 +1071,8 @@ def get_filter_choices(selected_school="", selected_department="",
         return True
 
     schools = set()
-    departments = set()
-    techniques = set()
+    dept_categories = set()
+    subfields = set()
     locations = set()
 
     for pi in all_faculty:
@@ -905,18 +1081,20 @@ def get_filter_choices(selected_school="", selected_department="",
             if s:
                 schools.add(s)
 
-        if _matches(pi, skip="department"):
+        if _matches(pi, skip="dept_category"):
             d = pi.get("department") or ""
             if d and d != "Various":
-                departments.add(d)
+                cat = dept_field_key(d)
+                if cat != "default":
+                    dept_categories.add(cat)
 
-        if _matches(pi, skip="technique"):
-            lt = pi.get("lab_techniques") or ""
-            if lt:
-                for t in lt.split(","):
-                    t = t.strip()
-                    if t:
-                        techniques.add(t)
+        # Subfields: only collect when a dept_category is selected
+        if selected_dept_category and _matches(pi, skip="subfield"):
+            d = pi.get("department") or ""
+            if d and d != "Various":
+                cat = dept_field_key(d)
+                if cat == selected_dept_category:
+                    subfields.add(d)
 
         if _matches(pi, skip="location"):
             loc = pi.get("specific_location") or pi.get("location") or ""
@@ -925,8 +1103,8 @@ def get_filter_choices(selected_school="", selected_department="",
 
     return {
         "schools": sorted(schools),
-        "departments": sorted(departments),
-        "techniques": sorted(techniques),
+        "dept_categories": sorted(dept_categories, key=lambda c: DEPT_CATEGORY_DISPLAY.get(c, c)),
+        "subfields": sorted(subfields),
         "locations": sorted(locations),
     }
 
@@ -1241,33 +1419,129 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/api/search-pis")
+@require_authorized_user
+def api_search_pis():
+    """Server-side PI search across ALL faculty. Returns top 20 matches as JSON."""
+    query = request.args.get("q", "").strip().lower()
+    if not query or len(query) < 2:
+        return jsonify([])
+
+    all_faculty = _faculty_cache.get("data") or load_faculty()
+    terms = query.split()
+
+    scored = []
+    for pi in all_faculty:
+        name = (pi.get("name") or "").lower()
+        institution = (pi.get("school") or "").lower()
+        department = (pi.get("department") or "").lower()
+        research = (pi.get("research_areas") or "").lower()
+        techniques = (pi.get("lab_techniques") or "").lower()
+
+        score = 0
+        for term in terms:
+            if term in name:
+                score += 5
+            if term in department:
+                score += 4
+            if term in research:
+                score += 3
+            if term in institution:
+                score += 2
+            if term in techniques:
+                score += 1
+
+        if score > 0:
+            scored.append((score, pi))
+
+    scored.sort(key=lambda x: -x[0])
+    top = scored[:20]
+
+    # Determine saved PIs for current user
+    user_id = session.get("user_id")
+    saved_ids = set()
+    if user_id:
+        saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+        saved_ids = {row.pi_id for row in saved_rows}
+
+    results = []
+    for _score, pi in top:
+        pi_id = pi.get("id", "")
+        results.append({
+            "id": pi_id,
+            "name": pi.get("name", ""),
+            "school": pi.get("school", ""),
+            "department": pi.get("department", ""),
+            "dept_field": dept_field_key(pi.get("department", "")),
+            "email": pi.get("email", ""),
+            "h_index": pi.get("h_index", ""),
+            "location": pi.get("specific_location") or pi.get("location", ""),
+            "research_areas": (pi.get("research_areas") or "")[:120],
+            "title": pi.get("title", ""),
+            "website": pi.get("website", ""),
+            "google_scholar": pi.get("google_scholar", ""),
+            "research_topics": (pi.get("research_topics") or [])[:3],
+            "lab_techniques": pi.get("lab_techniques", ""),
+            "is_saved": pi_id in saved_ids,
+        })
+
+    return jsonify(results)
+
+
 @app.route("/general")
 @require_authorized_user
 def general():
     """Show the browse labs page where users can filter and search through all available PIs."""
-    # Get any filter selections from the URL (like ?school=MIT&department=Biology)
+    # Get any filter selections from the URL
+    search_pi = request.args.get("search_pi", "").strip()
+
     selected_school = request.args.get("school", "").strip()
-    selected_department = request.args.get("department", "").strip()
-    selected_technique = request.args.get("technique", "").strip()
+    selected_dept_category = request.args.get("dept_category", "").strip()
+    selected_subfield = request.args.get("subfield", "").strip()
     selected_location = request.args.get("location", "").strip()
     page = request.args.get("page", 1, type=int)
     if page < 1:
         page = 1
 
+    # Backward compat: old ?department=X URLs map to subfield
+    old_department = request.args.get("department", "").strip()
+    if old_department and not selected_subfield:
+        selected_subfield = old_department
+        if not selected_dept_category:
+            selected_dept_category = dept_field_key(old_department)
+            if selected_dept_category == "default":
+                selected_dept_category = ""
+
+    # If searching for a specific PI, set filters to show that PI's context
+    if search_pi:
+        all_fac = _faculty_cache.get("data") or load_faculty()
+        for pi in all_fac:
+            if pi.get("id") == search_pi:
+                selected_school = pi.get("school", "")
+                dept = pi.get("department", "")
+                selected_dept_category = dept_field_key(dept)
+                if selected_dept_category == "default":
+                    selected_dept_category = ""
+                selected_subfield = dept
+                break
+
     choices = get_filter_choices(
         selected_school=selected_school,
-        selected_department=selected_department,
-        selected_technique=selected_technique,
+        selected_dept_category=selected_dept_category,
+        selected_subfield=selected_subfield,
         selected_location=selected_location,
     )
     schools = choices["schools"]
-    departments = choices["departments"]
-    techniques = choices["techniques"]
+    dept_categories = choices["dept_categories"]
+    subfields = choices["subfields"]
     locations = choices["locations"]
 
     # Clear stale selections that no longer match any PI given other filters
-    if selected_department and selected_department not in departments:
-        selected_department = ""
+    if selected_dept_category and selected_dept_category not in dept_categories:
+        selected_dept_category = ""
+        selected_subfield = ""
+    if selected_subfield and selected_subfield not in subfields:
+        selected_subfield = ""
     if selected_location and selected_location not in locations:
         selected_location = ""
 
@@ -1278,12 +1552,12 @@ def general():
         pi_dept = pi.get("department") or ""
         if selected_school and pi_school != selected_school:
             continue
-        if selected_department and pi_dept != selected_department:
-            continue
-        if selected_technique:
-            pi_techniques = [t.strip().lower() for t in (pi.get("lab_techniques") or "").split(",")]
-            if selected_technique.lower() not in pi_techniques:
+        if selected_dept_category:
+            pi_cat = dept_field_key(pi_dept)
+            if pi_cat != selected_dept_category:
                 continue
+        if selected_subfield and pi_dept != selected_subfield:
+            continue
         if selected_location:
             pi_location = pi.get("specific_location") or pi.get("location") or ""
             if selected_location not in pi_location:
@@ -1310,10 +1584,10 @@ def general():
         q = {}
         if selected_school:
             q["school"] = selected_school
-        if selected_department:
-            q["department"] = selected_department
-        if selected_technique:
-            q["technique"] = selected_technique
+        if selected_dept_category:
+            q["dept_category"] = selected_dept_category
+        if selected_subfield:
+            q["subfield"] = selected_subfield
         if selected_location:
             q["location"] = selected_location
         if p and p != 1:
@@ -1329,12 +1603,12 @@ def general():
         show_start=show_start,
         show_end=show_end,
         selected_school=selected_school,
-        selected_department=selected_department,
-        selected_technique=selected_technique,
+        selected_dept_category=selected_dept_category,
+        selected_subfield=selected_subfield,
         selected_location=selected_location,
         schools=schools,
-        departments=departments,
-        techniques=techniques,
+        dept_categories=dept_categories,
+        subfields=subfields,
         locations=locations,
         saved_pi_ids=saved_pi_ids,
         page=page,
@@ -1393,13 +1667,18 @@ def matches():
     for r in page_results:
         research_topics = r.get("research_topics", []) or []
         match_dict = {
-            "id": r.get("name", ""),
+            "id": r.get("id") or r.get("name", ""),
             "name": r.get("name", ""),
             "email": r.get("email", ""),
             "email_quality": r.get("email_quality", "uncertain"),
             "website": r.get("website", ""),
             "department": r.get("department", ""),
             "school": r.get("school", ""),
+            "title": r.get("title", ""),
+            "location": r.get("location", ""),
+            "specific_location": r.get("specific_location", ""),
+            "google_scholar": r.get("google_scholar", ""),
+            "lab_techniques": r.get("lab_techniques", ""),
             "h_index": r.get("h_index", 0),
             "match_score": int(r.get("total_score", 0)),
             "match_reason": r.get("explanation", ""),

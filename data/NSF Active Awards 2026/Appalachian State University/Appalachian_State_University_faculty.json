@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2510502",
+    "name": "Anton Kananovich",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Appalachian State University",
+    "location": "BOONE, NC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: ECLIPSE-CHIPS: Avoiding Contamination by Controlling Charging and Transport ..."
+    ],
+    "website": "",
+    "email": [
+      "kananovicha@appstate.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOONE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2510502",
+        "title": "Collaborative Research: ECLIPSE-CHIPS: Avoiding Contamination by Controlling Charging and Transport of Particles in Plasmas under Modulation and Afterglow Conditions",
+        "amount": "$239,922.00",
+        "program": "PLASMA PHYSICS, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424353",
+    "name": "Rahman Tashakkori",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Appalachian State University",
+    "location": "BOONE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Supporting High Achieving STEM Scholars in Appalachia"
+    ],
+    "website": "",
+    "email": [
+      "tashakkorir@appstate.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOONE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2424353",
+        "title": "Supporting High Achieving STEM Scholars in Appalachia",
+        "amount": "$1,999,917.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Cindy Norris norrisca@appstate.edu",
+      "Carol M Babyak babyakcm@appstate.edu",
+      "Roshani Silwal silwalr@appstate.edu",
+      "Jacob J Blazejewski blazejewskijj@appstate.edu"
+    ]
+  }
+]

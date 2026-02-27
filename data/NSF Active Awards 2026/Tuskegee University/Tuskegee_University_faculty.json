@@ -1,0 +1,143 @@
+[
+  {
+    "id": "nsf-2446128",
+    "name": "Mohammed A Qazi",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tuskegee University",
+    "location": "TUSKEGEE INSTITUTE, AL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: RTG: Building a robust mathematical foundation for AI and integrated data sc...",
+      "STEM Education",
+      "Advancing STEM Workforce Readiness of Interdisciplinary Scholars for Excellence Using a Mentored Com..."
+    ],
+    "website": "",
+    "email": [
+      "mqazi@tuskegee.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TUSKEGEE INSTITUTE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2446128",
+        "title": "Collaborative Research: RTG: Building a robust mathematical foundation for AI and integrated data science at Auburn and Tuskegee University",
+        "amount": "$479,660.00",
+        "program": "WORKFORCE IN THE MATHEMAT SCI, OFFICE OF MULTIDISCIPLINARY AC, COMPUTATIONAL MATHEMATICS",
+        "end_date": "08/31/2030",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2424934",
+        "title": "Advancing STEM Workforce Readiness of Interdisciplinary Scholars for Excellence Using a Mentored Community Approach to Promote Belonging and Professional Identity",
+        "amount": "$2,179,940.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Fan Wu fwu@tuskegee.edu",
+      "Mandoye Ndoye mndoye@tuskegee.edu",
+      "Osman Yardimci oyardimci@tuskegee.edu"
+    ]
+  },
+  {
+    "id": "nsf-2527786",
+    "name": "Chadia Affane Aji",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Tuskegee University",
+    "location": "TUSKEGEE INSTITUTE, AL",
+    "research_areas": [
+      "STEM Education",
+      "Investing in Brilliance: Supporting Talented Undergraduates in Aerospace Engineering and Mathematics..."
+    ],
+    "website": "",
+    "email": [
+      "caji@tuskegee.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TUSKEGEE INSTITUTE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2527786",
+        "title": "Investing in Brilliance: Supporting Talented Undergraduates in Aerospace Engineering and Mathematics with Financial Need",
+        "amount": "$1,994,164.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mohammad J Khan mjkhan@tuskegee.edu"
+    ]
+  },
+  {
+    "id": "nsf-2446741",
+    "name": "Shaik Zainuddin",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tuskegee University",
+    "location": "TUSKEGEE INSTITUTE, AL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: Tuskegee University Research Experience for Undergraduates in Nano-Bio Materials Science a..."
+    ],
+    "website": "",
+    "email": [
+      "szainuddin@tuskegee.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TUSKEGEE INSTITUTE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2446741",
+        "title": "REU Site: Tuskegee University Research Experience for Undergraduates in Nano-Bio Materials Science and Engineering",
+        "amount": "$504,818.00",
+        "program": "XC-Crosscutting Activities Pro",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Vijaya K Rangari vrangari@tuskegee.edu"
+    ]
+  },
+  {
+    "id": "nsf-2444453",
+    "name": "Chinyere Knight",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Tuskegee University",
+    "location": "TUSKEGEE INSTITUTE, AL",
+    "research_areas": [
+      "Biological Sciences",
+      "EAGER: Transforming Approaches to Study Myxomycete Diversity and Collection Preservation"
+    ],
+    "website": "",
+    "email": [
+      "cknight@tuskegee.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TUSKEGEE INSTITUTE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2444453",
+        "title": "EAGER: Transforming Approaches to Study Myxomycete Diversity and Collection Preservation",
+        "amount": "$300,000.00",
+        "program": "Systematics & Biodiversity Sci",
+        "end_date": "12/31/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

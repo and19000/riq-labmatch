@@ -1,0 +1,422 @@
+[
+  {
+    "id": "nsf-2534902",
+    "name": "Md Ariful Azad",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: PPoSS: LARGE: General-Purpose Scalable Technologies for Fundamental Graph Pr...",
+      "CAREER: Scalable Software Infrastructure for Analyzing Complex Networks"
+    ],
+    "website": "",
+    "email": [
+      "ariful@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2534902",
+        "title": "Collaborative Research: PPoSS: LARGE: General-Purpose Scalable Technologies for Fundamental Graph Problems",
+        "amount": "$423,215.00",
+        "program": "PPoSS-PP of Scalable Systems",
+        "end_date": "07/31/2028",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2528805",
+        "title": "CAREER: Scalable Software Infrastructure for Analyzing Complex Networks",
+        "amount": "$250,199.00",
+        "program": "CAREER: FACULTY EARLY CAR DEV",
+        "end_date": "12/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2530486",
+    "name": "Adam B Birchfield",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "Travel: Texas Power and Energy Conference (TPEC) 2026 Travel Proposal"
+    ],
+    "website": "",
+    "email": [
+      "abirchfield@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2530486",
+        "title": "Travel: Texas Power and Energy Conference (TPEC) 2026 Travel Proposal",
+        "amount": "$15,000.00",
+        "program": "EPCN-Energy-Power-Ctrl-Netwrks",
+        "end_date": "12/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447880",
+    "name": "Mathew A Kuttolamadom",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Interdisciplinary Research Experiences in Metrology & Inspection"
+    ],
+    "website": "",
+    "email": [
+      "mathew@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2447880",
+        "title": "REU Site: Interdisciplinary Research Experiences in Metrology & Inspection",
+        "amount": "$457,172.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "11/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jyhwen Wang jwang@tamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505427",
+    "name": "Jyhwen Wang",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Development of a Globally Engaged U.S. Workforce in Semiconductor Manufacturing"
+    ],
+    "website": "",
+    "email": [
+      "jwang@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2505427",
+        "title": "IRES: Development of a Globally Engaged U.S. Workforce in Semiconductor Manufacturing",
+        "amount": "$449,490.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Zhijian Pei zjpei@tamu.edu",
+      "Li-Jung Tai btai@tamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2449175",
+    "name": "Stephanie G Paal",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "Understanding Low-rise Building Aerodynamics by Leveraging Machine Learning"
+    ],
+    "website": "",
+    "email": [
+      "spaal@civil.tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2449175",
+        "title": "Understanding Low-rise Building Aerodynamics by Leveraging Machine Learning",
+        "amount": "$599,219.00",
+        "program": "ECI-Engineering for Civil Infr",
+        "end_date": "07/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Arindam Gan Chowdhury chowdhur@fiu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2442456",
+    "name": "Hrayer Aprahamian",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "CAREER:  Novel Data Analytics and Optimization Approaches for Improving Efficiency of Mental Health ..."
+    ],
+    "website": "",
+    "email": [
+      "hrayer@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2442456",
+        "title": "CAREER:  Novel Data Analytics and Optimization Approaches for Improving Efficiency of Mental Health Resources",
+        "amount": "$562,194.00",
+        "program": "OE Operations Engineering",
+        "end_date": "07/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2433631",
+    "name": "Krishna R Narayanan",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "ECCS-EPSRC: Neural Joint Source-Channel Coding: The Interplay Between Theory and Practice"
+    ],
+    "website": "",
+    "email": [
+      "krn@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2433631",
+        "title": "ECCS-EPSRC: Neural Joint Source-Channel Coding: The Interplay Between Theory and Practice",
+        "amount": "$450,000.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "04/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Chao Tian chao.tian@tamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447848",
+    "name": "Dimitris C Lagoudas",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "REU Site: 3D Printing of NextGen Multifunctional Batteries"
+    ],
+    "website": "",
+    "email": [
+      "lagoudas@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2447848",
+        "title": "REU Site: 3D Printing of NextGen Multifunctional Batteries",
+        "amount": "$372,000.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "03/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alexis Maurel amaurel@utep.edu"
+    ]
+  },
+  {
+    "id": "nsf-2435409",
+    "name": "Manoranjan Majji",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Planning Grant Texas A&M University: Center for Research in Emerging Sustainable Space Technol..."
+    ],
+    "website": "",
+    "email": [
+      "mmajji@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2435409",
+        "title": "IUCRC Planning Grant Texas A&M University: Center for Research in Emerging Sustainable Space Technologies (CRES2T)",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "02/28/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2345143",
+    "name": "Garth V Crosby",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "STEM Education",
+      "Preparing Prospective STEM Teachers to be Effective in Teaching Engineering Concepts & Design in Mid..."
+    ],
+    "website": "",
+    "email": [
+      "gvcrosby@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2345143",
+        "title": "Preparing Prospective STEM Teachers to be Effective in Teaching Engineering Concepts & Design in Middle and High Schools",
+        "amount": "$478,034.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael A De Miranda demiranda@tamu.edu",
+      "Bugrahan Yalvac yalvac@tamu.edu",
+      "Michael D Johnson mdjohnson@tamu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426512",
+    "name": "ChaBum Lee",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "Via Critical Dimension Metrology by Grayfield Imaging Interferometry"
+    ],
+    "website": "",
+    "email": [
+      "cblee@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2426512",
+        "title": "Via Critical Dimension Metrology by Grayfield Imaging Interferometry",
+        "amount": "$379,054.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2445027",
+    "name": "Ashok Mishra",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Engineering",
+      "CAS-Climate: GOALI: Quantifying the Risk of Temporal and Spatial Compounding Extreme Climate Events ..."
+    ],
+    "website": "",
+    "email": [
+      "ashok_mishra@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2445027",
+        "title": "CAS-Climate: GOALI: Quantifying the Risk of Temporal and Spatial Compounding Extreme Climate Events on Global Breadbasket Regions",
+        "amount": "$500,000.00",
+        "program": "EnvS-Environmtl Sustainability, Special Initiatives",
+        "end_date": "07/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2405600",
+    "name": "Donggil Song",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Texas A&M Engineering Experiment Station",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Research on Broadening Participation in STEM Project: Algeverse: Learning Co..."
+    ],
+    "website": "",
+    "email": [
+      "creative@tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2405600",
+        "title": "Collaborative Research: Research on Broadening Participation in STEM Project: Algeverse: Learning College Algebra with Virtual Reality",
+        "amount": "$67,645.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "nsf-2435423",
+    "name": "Christopher Niezrecki",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Massachusetts Lowell",
+    "location": "LOWELL, MA",
+    "research_areas": [
+      "Engineering",
+      "Center: IUCRC Phase III University of Massachusetts Lowell: Center for Wind Energy Science, Technolo..."
+    ],
+    "website": "",
+    "email": [
+      "Christopher_Niezrecki@uml.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOWELL, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2435423",
+        "title": "Center: IUCRC Phase III University of Massachusetts Lowell: Center for Wind Energy Science, Technology, and Research (WindSTAR)",
+        "amount": "$250,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "11/30/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Margaret SobkowiczKline Margaret_sobkowiczkline@uml.edu",
+      "Murat Inalpolat Murat_Inalpolat@uml.edu",
+      "Scott E Stapleton Scott_Stapleton@uml.edu",
+      "Alessandro Sabato Alessandro_Sabato@uml.edu"
+    ]
+  },
+  {
+    "id": "nsf-2550361",
+    "name": "Lara A Thompson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Massachusetts Lowell",
+    "location": "LOWELL, MA",
+    "research_areas": [
+      "STEM Education",
+      "2022 Waterman Award"
+    ],
+    "website": "",
+    "email": [
+      "lara.thompson@udc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOWELL, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2550361",
+        "title": "2022 Waterman Award",
+        "amount": "$414,789.00",
+        "program": "IUSE, ATW-Alan T Waterman Award, Hist Black Colleges and Univ",
+        "end_date": "07/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525896",
+    "name": "Viktor A Podolskiy",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Massachusetts Lowell",
+    "location": "LOWELL, MA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: ECCS-EPSRC: Ultrafast control of quantum light-matter interactions at the na..."
+    ],
+    "website": "",
+    "email": [
+      "viktor_podolskiy@uml.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOWELL, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2525896",
+        "title": "Collaborative Research: ECCS-EPSRC: Ultrafast control of quantum light-matter interactions at the nanoscale with structured light and matter",
+        "amount": "$199,906.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2518781",
+    "name": "Sashank Narain",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Massachusetts Lowell",
+    "location": "LOWELL, MA",
+    "research_areas": [
+      "STEM Education",
+      "Enhancing Undergraduate STEM Education with Large Language Models: Personalization, Collaboration, a..."
+    ],
+    "website": "",
+    "email": [
+      "sashank_narain@uml.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOWELL, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2518781",
+        "title": "Enhancing Undergraduate STEM Education with Large Language Models: Personalization, Collaboration, and Active Learning",
+        "amount": "$399,724.00",
+        "program": "IUSE",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Seung Eun Lee claire_lee@uml.edu",
+      "Samantha Reig sam_reig@uml.edu"
+    ]
+  },
+  {
+    "id": "nsf-2347930",
+    "name": "James Sherwood",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Massachusetts Lowell",
+    "location": "LOWELL, MA",
+    "research_areas": [
+      "Geosciences",
+      "FDSS Track 2: Ionospheric Space Weather Faculty Line at the University of Massachusetts Lowell"
+    ],
+    "website": "",
+    "email": [
+      "James_Sherwood@uml.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOWELL, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2347930",
+        "title": "FDSS Track 2: Ionospheric Space Weather Faculty Line at the University of Massachusetts Lowell",
+        "amount": "$571,500.00",
+        "program": "Space Weather Research",
+        "end_date": "08/31/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jay A Weitzen Jay_Weitzen@uml.edu",
+      "Anne M Maglia Anne_Maglia@uml.edu",
+      "Supriya Chakrabarti Supriya_Chakrabarti@uml.edu"
+    ]
+  }
+]

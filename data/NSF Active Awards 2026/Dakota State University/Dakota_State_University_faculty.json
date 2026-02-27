@@ -1,0 +1,95 @@
+[
+  {
+    "id": "nsf-2531653",
+    "name": "Peng Guo",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Dakota State University",
+    "location": "MADISON, SD",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Toward Simulating Few-Nucleon Interactions on Quantum Computers"
+    ],
+    "website": "",
+    "email": [
+      "peng.guo@dsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MADISON, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2531653",
+        "title": "EPSCoR Research Fellows: NSF: Toward Simulating Few-Nucleon Interactions on Quantum Computers",
+        "amount": "$299,956.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "01/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2438580",
+    "name": "Michael Ham",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Dakota State University",
+    "location": "MADISON, SD",
+    "research_areas": [
+      "STEM Education",
+      "SFS AI + Cybersecurity: Preparing the Next Generation of Public Professionals in Artificial Intellig..."
+    ],
+    "website": "",
+    "email": [
+      "Michael.Ham@dsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MADISON, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2438580",
+        "title": "SFS AI + Cybersecurity: Preparing the Next Generation of Public Professionals in Artificial Intelligence and Cybersecurity",
+        "amount": "$3,596,628.00",
+        "program": "CYBERCORPS: SCHLAR FOR SER, ITEST-Inov Tech Exp Stu & Teac, EPSCoR Co-Funding",
+        "end_date": "07/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kyle Cronin kyle.cronin@dsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2437418",
+    "name": "Varghese M Vaidyan",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Dakota State University",
+    "location": "MADISON, SD",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: E-RISE RII: Germanium-based Science and Technology Advancement Research"
+    ],
+    "website": "",
+    "email": [
+      "Varghese.Vaidyan@dsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MADISON, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2437418",
+        "title": "Collaborative Research: E-RISE RII: Germanium-based Science and Technology Advancement Research",
+        "amount": "$145,770.00",
+        "program": "EPSCoR RII: E-RISE, EPSCoR RII: E-RISE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

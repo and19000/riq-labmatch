@@ -1,0 +1,42 @@
+[
+  {
+    "id": "nsf-2437417",
+    "name": "Brianna Mount",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Black Hills State University",
+    "location": "SPEARFISH, SD",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: E-RISE RII: Germanium-based Science and Technology Advancement Research",
+      "Mathematical and Physical Sciences",
+      "REU Site: Multidisciplinary Underground Science at the Sanford Underground Research Facility"
+    ],
+    "website": "",
+    "email": [
+      "Brianna.Mount@bhsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SPEARFISH, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2437417",
+        "title": "Collaborative Research: E-RISE RII: Germanium-based Science and Technology Advancement Research",
+        "amount": "$337,678.00",
+        "program": "EPSCoR RII: E-RISE, EPSCoR RII: E-RISE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2447788",
+        "title": "REU Site: Multidisciplinary Underground Science at the Sanford Underground Research Facility",
+        "amount": "$252,269.00",
+        "program": "Integrative Activities in Phys",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  }
+]

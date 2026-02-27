@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2435093",
+    "name": "OLCAY KURSUN",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Auburn University at Montgomery",
+    "location": "MONTGOMERY, AL",
+    "research_areas": [
+      "CSE",
+      "CAP: Developing a Machine Learning Lab for AI-Powered Training and Research"
+    ],
+    "website": "",
+    "email": [
+      "okursun@aum.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MONTGOMERY, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2435093",
+        "title": "CAP: Developing a Machine Learning Lab for AI-Powered Training and Research",
+        "amount": "$400,000.00",
+        "program": "CISE MSI Research Expansion, Alliances-Minority Participat., ExpandAI",
+        "end_date": "10/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Benedict C Okeke bokeke@aum.edu",
+      "Randy Russell rrussell@aum.edu",
+      "Sutanu Bhattacharya sbhatta4@aum.edu"
+    ]
+  }
+]

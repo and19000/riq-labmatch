@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2500695",
+    "name": "Richard P Vaughn",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Maricopa County Community College District",
+    "location": "TEMPE, AZ",
+    "research_areas": [
+      "STEM Education",
+      "ETSTE DCL: Semiconductor Pathways in Arizona's Technical Education"
+    ],
+    "website": "",
+    "email": [
+      "rick.vaughn@riosalado.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TEMPE, AZ",
+    "nsf_awards": [
+      {
+        "award_number": "2500695",
+        "title": "ETSTE DCL: Semiconductor Pathways in Arizona's Technical Education",
+        "amount": "$944,769.00",
+        "program": "Advanced Tech Education Prog, NSF-Intel Semiconductr Partnrs",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Liesl Folks liesl@arizona.edu"
+    ]
+  }
+]

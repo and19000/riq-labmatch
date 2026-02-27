@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2435219",
+    "name": "Sara E Miller",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Missouri-Saint Louis",
+    "location": "SAINT LOUIS, MO",
+    "research_areas": [
+      "Biological Sciences",
+      "BRC-BIO Assessment of character displacement in cooperatively nesting wasps"
+    ],
+    "website": "",
+    "email": [
+      "semiller@umsl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT LOUIS, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2435219",
+        "title": "BRC-BIO Assessment of character displacement in cooperatively nesting wasps",
+        "amount": "$486,982.00",
+        "program": "NFE-New Faculty Enhancement",
+        "end_date": "07/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2427149",
+    "name": "Jinjia Xu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Missouri-Saint Louis",
+    "location": "SAINT LOUIS, MO",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Integrating Single Molecules to Two-Dimensional Materials toward Quantum Device..."
+    ],
+    "website": "",
+    "email": [
+      "jxu@umsl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT LOUIS, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2427149",
+        "title": "ExpandQISE: Track 1: Integrating Single Molecules to Two-Dimensional Materials toward Quantum Devices",
+        "amount": "$799,915.00",
+        "program": "ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xi Wang wxi@wustl.edu"
+    ]
+  }
+]

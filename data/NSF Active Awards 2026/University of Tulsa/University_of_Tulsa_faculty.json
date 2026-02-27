@@ -1,0 +1,98 @@
+[
+  {
+    "id": "nsf-2447543",
+    "name": "Laura P Ford",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Tulsa",
+    "location": "TULSA, OK",
+    "research_areas": [
+      "Engineering",
+      "REU Site:  Materials for Energy Transition"
+    ],
+    "website": "",
+    "email": [
+      "Laura-ford@utulsa.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TULSA, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2447543",
+        "title": "REU Site:  Materials for Energy Transition",
+        "amount": "$464,725.00",
+        "program": "Partnership Funding from SRC, EWFD-Eng Workforce Development",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hema Ramsurn hema-ramsurn@utulsa.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452746",
+    "name": "Angus A Lamar",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tulsa",
+    "location": "TULSA, OK",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Intermediary Arene Dearomatization as an Approach for meta-Selective Functionalization of Arenols an..."
+    ],
+    "website": "",
+    "email": [
+      "angus-lamar@utulsa.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TULSA, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2452746",
+        "title": "Intermediary Arene Dearomatization as an Approach for meta-Selective Functionalization of Arenols and Heteroarenols",
+        "amount": "$500,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gordon H Purser gordon-purser@utulsa.edu"
+    ]
+  },
+  {
+    "id": "nsf-2422520",
+    "name": "Gabriel LeBlanc",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Tulsa",
+    "location": "TULSA, OK",
+    "research_areas": [
+      "STEM Education",
+      "Developing Skills in Qualitative Analysis for a New STEM Education Researcher through the Evaluation..."
+    ],
+    "website": "",
+    "email": [
+      "gabriel-leblanc@utulsa.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TULSA, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2422520",
+        "title": "Developing Skills in Qualitative Analysis for a New STEM Education Researcher through the Evaluation of Science Identity in Student-Workers",
+        "amount": "$349,974.00",
+        "program": "ECR:BCSER Capcity STEM Ed Rscr",
+        "end_date": "12/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "id": "nsf-2533639",
+    "name": "Fei Dai",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: NLI: Forming Ethical Engineers: Integrating Embodied Carbon Education to Fos...",
+      "Collaborative Research: REU Site: Research Experience in Digital Twins of Road Infrastructure"
+    ],
+    "website": "",
+    "email": [
+      "fei.dai@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2533639",
+        "title": "Collaborative Research: NLI: Forming Ethical Engineers: Integrating Embodied Carbon Education to Foster Ethical Responsibility in Environmental and Social Sustainability",
+        "amount": "$168,209.00",
+        "program": "EngEd-Engineering Education",
+        "end_date": "10/31/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2447518",
+        "title": "Collaborative Research: REU Site: Research Experience in Digital Twins of Road Infrastructure",
+        "amount": "$281,409.00",
+        "program": "Special Initiatives, EWFD-Eng Workforce Development",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2510773",
+    "name": "Kevin Bandura",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Mapping the universe in neutral hydrogen with CHIME",
+      "Collaborative Research: Advanced Digital Calibrators for 21cm Cosmology"
+    ],
+    "website": "",
+    "email": [
+      "kevin.bandura@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2510773",
+        "title": "Collaborative Research: Mapping the universe in neutral hydrogen with CHIME",
+        "amount": "$281,080.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2511256",
+        "title": "Collaborative Research: Advanced Digital Calibrators for 21cm Cosmology",
+        "amount": "$321,340.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, ADVANCED TECHNOLOGIES & INSTRM",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2505917",
+    "name": "Lisa Holland",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Click and Release Separations"
+    ],
+    "website": "",
+    "email": [
+      "Lisa.Holland@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2505917",
+        "title": "Click and Release Separations",
+        "amount": "$419,817.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hacer Karatas Bristow hacer.karatasbristow@mail.wvu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447659",
+    "name": "Soumya K Srivastava",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Rural Appalachia REsearch in bioSensing Technology (RAREST)"
+    ],
+    "website": "",
+    "email": [
+      "soumya.srivastava@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2447659",
+        "title": "REU Site: Rural Appalachia REsearch in bioSensing Technology (RAREST)",
+        "amount": "$418,634.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "07/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Srinivas Palanki srinivas.palanki@mail.wvu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453022",
+    "name": "Fabien Goulay",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "The Role of Vinoxy Radicals in Gas-Phase Oxidation Mechanisms"
+    ],
+    "website": "",
+    "email": [
+      "Fabien.Goulay@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2453022",
+        "title": "The Role of Vinoxy Radicals in Gas-Phase Oxidation Mechanisms",
+        "amount": "$550,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, CMFP-Chem Mech Funct, and Prop",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2500163",
+    "name": "Edward R Brzostek",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "STEM Education",
+      "EPSCoR Graduate Fellowship Program (EGFP): Training the next generation of scientific and workforce ..."
+    ],
+    "website": "",
+    "email": [
+      "erbrzostek@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2500163",
+        "title": "EPSCoR Graduate Fellowship Program (EGFP): Training the next generation of scientific and workforce leaders to enhance interdisciplinary research",
+        "amount": "$2,067,000.00",
+        "program": "EPSCoR Graduate Fellowship (EG",
+        "end_date": "06/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Brenden E McNeil Brenden.McNeil@mail.wvu.edu",
+      "Alan D Bristow Alan.Bristow@mail.wvu.edu",
+      "Aaron R Robart aaron.robart@hsc.wvu.edu",
+      "Srinivas Palanki srinivas.palanki@mail.wvu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2509303",
+    "name": "EARL E SCIME",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Investigation of Particle-Energization in Plasmas Through Wave-Particle Correlation Measurements"
+    ],
+    "website": "",
+    "email": [
+      "escime@wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2509303",
+        "title": "Investigation of Particle-Energization in Plasmas Through Wave-Particle Correlation Measurements",
+        "amount": "$749,989.00",
+        "program": "PLASMA PHYSICS",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2439275",
+    "name": "Susan Ganter",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "STEM Education",
+      "A Model for Institutional Transformation through Interdisciplinary STEM Partnerships to Support Stud..."
+    ],
+    "website": "",
+    "email": [
+      "susan.ganter@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2439275",
+        "title": "A Model for Institutional Transformation through Interdisciplinary STEM Partnerships to Support Student Transfer of Mathematical Knowledge",
+        "amount": "$971,826.00",
+        "program": "IUSE",
+        "end_date": "03/31/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gay B Stewart gbstewart@mail.wvu.edu",
+      "Victor I Piercey piercev1@ferris.edu",
+      "Debra T Bourdeau dgtbourdeau@gmail.com",
+      "Susan Ganter (Former) susan.ganter@mail.wvu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429709",
+    "name": "JuHyeong Ryu",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellow: NSF: Enhancing Workforce Development through Advanced Integration of Mixed R..."
+    ],
+    "website": "",
+    "email": [
+      "juhyeong.ryu@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2429709",
+        "title": "EPSCoR Research Fellow: NSF: Enhancing Workforce Development through Advanced Integration of Mixed Reality and Digital Twins",
+        "amount": "$259,969.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "01/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2417349",
+    "name": "Mikel Holcomb",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "STEM Education",
+      "Course-Based Undergraduate Research: The Magnetic Analysis and Measurement Project"
+    ],
+    "website": "",
+    "email": [
+      "mikel.holcomb@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2417349",
+        "title": "Course-Based Undergraduate Research: The Magnetic Analysis and Measurement Project",
+        "amount": "$400,000.00",
+        "program": "IUSE",
+        "end_date": "12/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John C Stewart jcstewart1@mail.wvu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2425047",
+    "name": "Maura A McLaughlin",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NANOGrav Student Teams of Astrophysics Researchers Undergraduate Pathways (STARS-UP): Infrastructure..."
+    ],
+    "website": "",
+    "email": [
+      "Maura.McLaughlin@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2425047",
+        "title": "NANOGrav Student Teams of Astrophysics Researchers Undergraduate Pathways (STARS-UP): Infrastructure for the Two to Four-Year College Transition",
+        "amount": "$594,458.00",
+        "program": "PAARE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ann M Schmiedekamp ams@psu.edu",
+      "David L Kaplan kaplan@uwm.edu",
+      "Joey Key joeykey@uw.edu",
+      "Timothy Dolch tdolch@setiap.org"
+    ]
+  },
+  {
+    "id": "nsf-2406570",
+    "name": "Duncan R Lorimer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "West Virginia University Research Corporation",
+    "location": "MORGANTOWN, WV",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Expanding the reach of GREENBURST --- searching for the brightest pulses in the Universe and the slo..."
+    ],
+    "website": "",
+    "email": [
+      "Duncan.Lorimer@mail.wvu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MORGANTOWN, WV",
+    "nsf_awards": [
+      {
+        "award_number": "2406570",
+        "title": "Expanding the reach of GREENBURST --- searching for the brightest pulses in the Universe and the slowest rotating neutron stars in the Galaxy",
+        "amount": "$580,810.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Maura A McLaughlin Maura.McLaughlin@mail.wvu.edu"
+    ]
+  }
+]

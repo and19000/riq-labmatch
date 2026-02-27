@@ -1,0 +1,104 @@
+[
+  {
+    "id": "nsf-2509936",
+    "name": "Ernesto J Guades",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Guam",
+    "location": "MANGILAO, GU",
+    "research_areas": [
+      "Engineering",
+      "MRI: Track 1 Acquisition of 250kN-capacity Universal Testing Machine (UTM) to Enhance Research and E..."
+    ],
+    "website": "",
+    "email": [
+      "guadese@triton.uog.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MANGILAO, GU",
+    "nsf_awards": [
+      {
+        "award_number": "2509936",
+        "title": "MRI: Track 1 Acquisition of 250kN-capacity Universal Testing Machine (UTM) to Enhance Research and Education at the University of Guam",
+        "amount": "$275,081.00",
+        "program": "Special Initiatives",
+        "end_date": "07/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2438132",
+    "name": "Terry J Donaldson",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Guam",
+    "location": "MANGILAO, GU",
+    "research_areas": [
+      "Office of the Director",
+      "E-CORE RII: Optimizing Research Infrastructure in Guam"
+    ],
+    "website": "",
+    "email": [
+      "terryjdonaldson@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MANGILAO, GU",
+    "nsf_awards": [
+      {
+        "award_number": "2438132",
+        "title": "E-CORE RII: Optimizing Research Infrastructure in Guam",
+        "amount": "$3,948,921.00",
+        "program": "EPSCoR RII: E-CORE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bastian Bentlage bastian.bentlage@gmail.com",
+      "Cheryl R Sangueza csangueza@triton.uog.edu",
+      "Rachael T Leon Guerrero rachaeltlg@triton.uog.edu",
+      "Michael Chan michael.chan@guamcc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2445825",
+    "name": "Bastian Bentlage",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Guam",
+    "location": "MANGILAO, GU",
+    "research_areas": [
+      "Office of the Director",
+      "E-RISE RII: Advancing Sustainable Development Opportunities for the Guam Research Ecosystem"
+    ],
+    "website": "",
+    "email": [
+      "bastian.bentlage@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MANGILAO, GU",
+    "nsf_awards": [
+      {
+        "award_number": "2445825",
+        "title": "E-RISE RII: Advancing Sustainable Development Opportunities for the Guam Research Ecosystem",
+        "amount": "$3,782,544.00",
+        "program": "EPSCoR RII: E-RISE",
+        "end_date": "05/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Austin J Shelton shelton@triton.uog.edu",
+      "Robert M Lasley rlasleyjr@gmail.com",
+      "Hyunju Oh ohh@triton.uog.edu",
+      "Michael Chan michael.chan@guamcc.edu"
+    ]
+  }
+]

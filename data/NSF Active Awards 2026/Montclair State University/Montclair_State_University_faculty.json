@@ -1,0 +1,95 @@
+[
+  {
+    "id": "nsf-2505377",
+    "name": "Carlos A Molina",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Montclair State University",
+    "location": "MONTCLAIR, NJ",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Neurobiology of Tetrachromatic Vision and Behavioral Responses in Zebrafish and Medaka"
+    ],
+    "website": "",
+    "email": [
+      "molinac@mail.montclair.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MONTCLAIR, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2505377",
+        "title": "IRES: Neurobiology of Tetrachromatic Vision and Behavioral Responses in Zebrafish and Medaka",
+        "amount": "$444,843.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mika Munakata munakatam@mail.montclair.edu"
+    ]
+  },
+  {
+    "id": "nsf-2513321",
+    "name": "Shaon Ghosh",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Montclair State University",
+    "location": "MONTCLAIR, NJ",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: NSF-BSF: A modern alert system for the International Gravitational-wave Netw..."
+    ],
+    "website": "",
+    "email": [
+      "ghoshs@montclair.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MONTCLAIR, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2513321",
+        "title": "Collaborative Research: NSF-BSF: A modern alert system for the International Gravitational-wave Network",
+        "amount": "$150,000.00",
+        "program": "Gravity Exp. & Data Analysis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506040",
+    "name": "Yang Deng",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Montclair State University",
+    "location": "MONTCLAIR, NJ",
+    "research_areas": [
+      "Engineering",
+      "RAPID: Evaluating the Resilience of Small Community Water Systems (CWS) to Hurricanes Helene and Mil..."
+    ],
+    "website": "",
+    "email": [
+      "dengy@mail.montclair.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MONTCLAIR, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2506040",
+        "title": "RAPID: Evaluating the Resilience of Small Community Water Systems (CWS) to Hurricanes Helene and Milton on Continental Coasts and Barrier Islands in Southwest Florida",
+        "amount": "$200,000.00",
+        "program": "EnvS-Environmtl Sustainability",
+        "end_date": "11/30/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

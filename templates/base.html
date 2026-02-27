@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIQ Lab Matcher</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Link to our main stylesheet -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
@@ -64,7 +68,7 @@
       <div class="footer-content">
         <p>&copy; 2025 RIQ Lab Matcher. Connecting students with research opportunities.</p>
         <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
-          Currently featuring 1000+ labs from MIT/Harvard. 
+          Currently featuring labs from 8 top institutions across the US.
           Data updated regularly from institutional sources.
         </p>
       </div>
@@ -98,13 +102,6 @@
         panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
       }
       
-      // Toggle explanation popups (used on matches page)
-      function toggleFitExplanation(id) {
-        const popup = document.getElementById(id);
-        if (popup) {
-          popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
-        }
-      }
     </script>
   </body>
 </html>

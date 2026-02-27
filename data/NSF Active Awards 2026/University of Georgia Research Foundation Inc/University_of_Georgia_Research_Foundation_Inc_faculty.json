@@ -1,0 +1,457 @@
+[
+  {
+    "id": "nsf-2511673",
+    "name": "Cassandra Hall",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Ab Aurigae as a testbed for the earliest stages of planet formation",
+      "DECIPHER: Deep Computer Vision in the Astrophysics of Planet Formation."
+    ],
+    "website": "",
+    "email": [
+      "cassandra.hall@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2511673",
+        "title": "Collaborative Research: Ab Aurigae as a testbed for the earliest stages of planet formation",
+        "amount": "$85,964.00",
+        "program": "PLANETARY ASTRONOMY",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2407679",
+        "title": "DECIPHER: Deep Computer Vision in the Astrophysics of Planet Formation.",
+        "amount": "$306,464.00",
+        "program": "PLANETARY ASTRONOMY, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2518892",
+    "name": "Hongyue Sun",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Data Science and Digital Twin for Active Learning in Advanced Manufacturing"
+    ],
+    "website": "",
+    "email": [
+      "HongyueSun@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2518892",
+        "title": "Collaborative Research: Data Science and Digital Twin for Active Learning in Advanced Manufacturing",
+        "amount": "$211,000.00",
+        "program": "IUSE, Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Racheida S Lewis rslewis@uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2500739",
+    "name": "Julie A Luft",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "STEM Education",
+      "National STEM Teacher Corps Pilot Program: Strengthening Georgia Science Teachers Through a Teaching..."
+    ],
+    "website": "",
+    "email": [
+      "jaluft@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2500739",
+        "title": "National STEM Teacher Corps Pilot Program: Strengthening Georgia Science Teachers Through a Teaching Corps, Mentoring, and Leadership Development",
+        "amount": "$4,996,572.00",
+        "program": "National STEM Teacher Corps",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Paula P Lemons plemons@uga.edu",
+      "Amanda B Buice abuice6@kennesaw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2451821",
+    "name": "Vladimir V Popik",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "X-ray and NIR Induced Photochemistry in UV-Vis Opaque Media"
+    ],
+    "website": "",
+    "email": [
+      "vpopik@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2451821",
+        "title": "X-ray and NIR Induced Photochemistry in UV-Vis Opaque Media",
+        "amount": "$380,000.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2540018",
+    "name": "Srimanti Duttagupta",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Geosciences",
+      "RAPID: Relocation and installation of Agilent 6560 IM-QTOF to advance multidimensional analysis at t..."
+    ],
+    "website": "",
+    "email": [
+      "sduttagupta@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2540018",
+        "title": "RAPID: Relocation and installation of Agilent 6560 IM-QTOF to advance multidimensional analysis at the University of Georgia",
+        "amount": "$44,364.00",
+        "program": "Instrumentation & Facilities, XC-Crosscutting Activities Pro",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Avishek Dutta avishek.dutta@uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2431238",
+    "name": "Paul A Schroeder",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Geosciences",
+      "EA: Upgrade to X-ray Diffraction Multiuser Facility for Earth and Environmental Science and Student ..."
+    ],
+    "website": "",
+    "email": [
+      "schroe@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2431238",
+        "title": "EA: Upgrade to X-ray Diffraction Multiuser Facility for Earth and Environmental Science and Student Training",
+        "amount": "$37,863.00",
+        "program": "Instrumentation & Facilities",
+        "end_date": "06/30/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525283",
+    "name": "David T Gay",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Conference and School on Trisections and Related Topics"
+    ],
+    "website": "",
+    "email": [
+      "dgay@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2525283",
+        "title": "Conference: Conference and School on Trisections and Related Topics",
+        "amount": "$47,500.00",
+        "program": "TOPOLOGY",
+        "end_date": "06/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2425396",
+    "name": "Merryl L Alber",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Geosciences",
+      "LTER: Georgia Coastal Ecosystems V"
+    ],
+    "website": "",
+    "email": [
+      "malber@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2425396",
+        "title": "LTER: Georgia Coastal Ecosystems V",
+        "amount": "$2,514,000.00",
+        "program": "BIOLOGICAL OCEANOGRAPHY, LONG TERM ECOLOGICAL RESEARCH, Cross-BIO Activities",
+        "end_date": "06/30/2031",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Steven C Pennings spennings@uh.edu",
+      "Amanda C Spivak aspivak@uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453794",
+    "name": "Akram Alishahi",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 2025 Georgia International Topology Conference"
+    ],
+    "website": "",
+    "email": [
+      "akram.alishahi@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2453794",
+        "title": "Conference: 2025 Georgia International Topology Conference",
+        "amount": "$99,934.00",
+        "program": "TOPOLOGY",
+        "end_date": "04/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gordana Matic gordana@math.uga.edu",
+      "Michael Usher usher@uga.edu",
+      "Peter Lambert-Cole plc@uga.edu",
+      "Eduardo Fernández eduardofernandez@uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2502118",
+    "name": "Bruce Landman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Integers Conference 2025"
+    ],
+    "website": "",
+    "email": [
+      "bruce.landman@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2502118",
+        "title": "Conference: Integers Conference 2025",
+        "amount": "$27,999.00",
+        "program": "ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "04/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514583",
+    "name": "Li Yang",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Biological Sciences",
+      "Conference: Plant Genetics and Developmental Biology Symposium (August 22, 2025; Philadelphia, PA)"
+    ],
+    "website": "",
+    "email": [
+      "ly52533@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2514583",
+        "title": "Conference: Plant Genetics and Developmental Biology Symposium (August 22, 2025; Philadelphia, PA)",
+        "amount": "$10,000.00",
+        "program": "PLANT FUNGAL & MICROB DEV MECH",
+        "end_date": "02/28/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2421414",
+    "name": "John Bichy",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Geosciences",
+      "UGA- Skidaway Institute of Oceanography - RV Savannah - Oceanographic Technical Services CY2024-2029"
+    ],
+    "website": "",
+    "email": [
+      "john.bichy@skio.uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2421414",
+        "title": "UGA- Skidaway Institute of Oceanography - RV Savannah - Oceanographic Technical Services CY2024-2029",
+        "amount": "$243,873.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "01/31/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Clark R Alexander clark.alexander@skio.uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2416850",
+    "name": "Clark R Alexander",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Geosciences",
+      "UGA-SKIO R/V Savannah SHIP OPERATIONS - CY2024-2029"
+    ],
+    "website": "",
+    "email": [
+      "clark.alexander@skio.uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2416850",
+        "title": "UGA-SKIO R/V Savannah SHIP OPERATIONS - CY2024-2029",
+        "amount": "$1,170,000.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John Bichy john.bichy@skio.uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2410879",
+    "name": "Henry F Schaefer III",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Georgia Research Foundation Inc",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: Software Infrastructure for Next-Generation Quantum Chemistry"
+    ],
+    "website": "",
+    "email": [
+      "ccq@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2410879",
+        "title": "Collaborative Research: Frameworks: Software Infrastructure for Next-Generation Quantum Chemistry",
+        "amount": "$600,000.00",
+        "program": "Software Institutes",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "nsf-2501916",
+    "name": "Masudul H Imtiaz",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Clarkson University",
+    "location": "POTSDAM, NY",
+    "research_areas": [
+      "Engineering",
+      "ERI: Advancing Biometric Identification for Younger Children through Age-Adaptive Technology Innovat...",
+      "REU Site: Undergraduate Research in Sensor Development (Design, Manufacture, Analysis) and Implement..."
+    ],
+    "website": "",
+    "email": [
+      "mimtiaz@clarkson.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POTSDAM, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2501916",
+        "title": "ERI: Advancing Biometric Identification for Younger Children through Age-Adaptive Technology Innovations",
+        "amount": "$200,000.00",
+        "program": "ERI-Eng. Research Initiation",
+        "end_date": "06/30/2027",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2349238",
+        "title": "REU Site: Undergraduate Research in Sensor Development (Design, Manufacture, Analysis) and Implementation Pipeline",
+        "amount": "$464,923.00",
+        "program": "SSA-Special Studies & Analysis, Partnership Funding from SRC",
+        "end_date": "10/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2536051",
+    "name": "Susan E Powers",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Clarkson University",
+    "location": "POTSDAM, NY",
+    "research_areas": [
+      "Geosciences",
+      "Conference: FIRE-NET: Adirondack Fire Futures: a Convergent Wildland Fire Science Symposium"
+    ],
+    "website": "",
+    "email": [
+      "sep@clarkson.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POTSDAM, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2536051",
+        "title": "Conference: FIRE-NET: Adirondack Fire Futures: a Convergent Wildland Fire Science Symposium",
+        "amount": "$49,967.00",
+        "program": "Fire Science Innovations",
+        "end_date": "06/30/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Stephen T Casper scasper@clarkson.edu",
+      "Yazhou L Jiang yjiang@clarkson.edu",
+      "Nicholas R Tepylo ntepylo@clarkson.edu"
+    ]
+  },
+  {
+    "id": "nsf-2515249",
+    "name": "Andrea Ferro",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Clarkson University",
+    "location": "POTSDAM, NY",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: The mechanics of respiratory particle production in the larynx during phonat..."
+    ],
+    "website": "",
+    "email": [
+      "aferro@clarkson.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POTSDAM, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2515249",
+        "title": "Collaborative Research: The mechanics of respiratory particle production in the larynx during phonation",
+        "amount": "$355,114.00",
+        "program": "FD-Fluid Dynamics",
+        "end_date": "04/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sumona Mondal smondal@clarkson.edu",
+      "Shantanu Sur ssur@clarkson.edu"
+    ]
+  }
+]

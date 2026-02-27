@@ -1,0 +1,423 @@
+[
+  {
+    "id": "nsf-2533619",
+    "name": "Anthony S Hall",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Room Temperature Electrochemical Synthesis of Ordered Intermetallic Nanomaterials",
+      "Engineering",
+      "Modulating H2O Activity Promotes CO2 Reduction to Multi-Carbon Products"
+    ],
+    "website": "",
+    "email": [
+      "shoji@seas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2533619",
+        "title": "CAREER: Room Temperature Electrochemical Synthesis of Ordered Intermetallic Nanomaterials",
+        "amount": "$164,302.00",
+        "program": "METAL & METALLIC NANOSTRUCTURE",
+        "end_date": "06/30/2026",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2529564",
+        "title": "Modulating H2O Activity Promotes CO2 Reduction to Multi-Carbon Products",
+        "amount": "$439,600.00",
+        "program": "Catalysis, EchemS-Electrochemical Systems",
+        "end_date": "12/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2531822",
+    "name": "Aman Y Husbands",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: Out of one, many: paralog-specific regulons from a single network architectu..."
+    ],
+    "website": "",
+    "email": [
+      "ayh@sas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2531822",
+        "title": "Collaborative Research: Out of one, many: paralog-specific regulons from a single network architecture",
+        "amount": "$900,000.00",
+        "program": "Genetic Mechanisms",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Justin W Walley jwalley@iastate.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453472",
+    "name": "Neil C Tomson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Catalytic C-C Sigma-Bond Functionalization via Metal-Metal Cooperativity"
+    ],
+    "website": "",
+    "email": [
+      "tomson@upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2453472",
+        "title": "Catalytic C-C Sigma-Bond Functionalization via Metal-Metal Cooperativity",
+        "amount": "$600,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510182",
+    "name": "Robyn E Sanderson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Constraining Dark Matter with Globular Clusters and Stellar Streams"
+    ],
+    "website": "",
+    "email": [
+      "robynes@sas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2510182",
+        "title": "Collaborative Research: Constraining Dark Matter with Globular Clusters and Stellar Streams",
+        "amount": "$285,207.00",
+        "program": "EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2533677",
+    "name": "Dustyn Roberts",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Engineering",
+      "NLI: Design and Development: A Framework for the Professional Formation of Sustainability-Minded Eng..."
+    ],
+    "website": "",
+    "email": [
+      "dustyn@seas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2533677",
+        "title": "NLI: Design and Development: A Framework for the Professional Formation of Sustainability-Minded Engineers",
+        "amount": "$348,995.00",
+        "program": "EngEd-Engineering Education",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Russell J Composto composto@lrsm.upenn.edu",
+      "Lorena Grundy lgrundy@seas.upenn.edu",
+      "Taylor Caputo taycap@wharton.upenn.edu",
+      "Vanessa Chan vanessaz@seas.upenn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453436",
+    "name": "Daniel J Mindiola",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Preparing Early Transition Metals with Metal-Ligand Multiple Bonds: Atom- and Group-Transfer, Anchor..."
+    ],
+    "website": "",
+    "email": [
+      "mindiola@sas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2453436",
+        "title": "Preparing Early Transition Metals with Metal-Ligand Multiple Bonds: Atom- and Group-Transfer, Anchors to Support Heterobimetallics, and Carbon-Hydrogen Activation",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440180",
+    "name": "Ye Zhang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Statistical Inference in the Presence of Group Actions: Theory, Method, and Application"
+    ],
+    "website": "",
+    "email": [
+      "ayz@wharton.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2440180",
+        "title": "CAREER: Statistical Inference in the Presence of Group Actions: Theory, Method, and Application",
+        "amount": "$90,000.00",
+        "program": "STATISTICS",
+        "end_date": "06/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424371",
+    "name": "Ron Donagi",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: AGNES: Algebraic Geometry NorthEastern Series"
+    ],
+    "website": "",
+    "email": [
+      "donagi@math.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2424371",
+        "title": "Collaborative Research: Conference: AGNES: Algebraic Geometry NorthEastern Series",
+        "amount": "$100.00",
+        "program": "ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Angela C Gibney angela.gibney@gmail.com",
+      "Daniel Krashen dkrashen@sas.upenn.edu",
+      "Julia Hartmann hartmann@math.upenn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512510",
+    "name": "Herman R Gluck",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: GeomFest2025"
+    ],
+    "website": "",
+    "email": [
+      "gluck@math.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2512510",
+        "title": "Conference: GeomFest2025",
+        "amount": "$33,000.00",
+        "program": "GEOMETRIC ANALYSIS",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Wolfgang Ziller wziller@math.upenn.edu",
+      "Scott Wolpert saw@math.umd.edu"
+    ]
+  },
+  {
+    "id": "nsf-2451953",
+    "name": "Abraham Nitzan",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Manifestations of Chirality in Molecular Transport Phenomena"
+    ],
+    "website": "",
+    "email": [
+      "anitzan@sas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2451953",
+        "title": "Manifestations of Chirality in Molecular Transport Phenomena",
+        "amount": "$579,422.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447303",
+    "name": "Eric A Stach",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "UPENN-LRSM Research Experience for Undergraduates (REU) - Site"
+    ],
+    "website": "",
+    "email": [
+      "stach@seas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2447303",
+        "title": "UPENN-LRSM Research Experience for Undergraduates (REU) - Site",
+        "amount": "$465,000.00",
+        "program": "XC-Crosscutting Activities Pro",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mark Licurse mlicurse@lrsm.upenn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2431019",
+    "name": "Xue Gao",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: ENG-BIOTECH: Mechanism-Guided Engineering of Thermophilic CRISPR-Cas13 for U..."
+    ],
+    "website": "",
+    "email": [
+      "xuegao@seas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2431019",
+        "title": "Collaborative Research: ENG-BIOTECH: Mechanism-Guided Engineering of Thermophilic CRISPR-Cas13 for Ultrasensitive and Robust RNA Detection",
+        "amount": "$199,999.00",
+        "program": "Special Initiatives",
+        "end_date": "10/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2444713",
+    "name": "Alejandro R Ribeiro",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Pennsylvania",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Engineering",
+      "NSF-SNSF: Generative Graph Models at Scale: Discrete Diffusion, Transferability and Requirements"
+    ],
+    "website": "",
+    "email": [
+      "aribeiro@seas.upenn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2444713",
+        "title": "NSF-SNSF: Generative Graph Models at Scale: Discrete Diffusion, Transferability and Requirements",
+        "amount": "$450,000.00",
+        "program": "EPCN-Energy-Power-Ctrl-Netwrks",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

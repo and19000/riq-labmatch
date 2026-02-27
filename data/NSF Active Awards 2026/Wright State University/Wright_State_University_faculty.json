@@ -1,0 +1,99 @@
+[
+  {
+    "id": "nsf-2537485",
+    "name": "Cogan M Shimizu",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Wright State University",
+    "location": "DAYTON, OH",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Prototyping a new Knowledge Resource for modern AI (Proto-KAI)"
+    ],
+    "website": "",
+    "email": [
+      "cogan.shimizu@wright.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAYTON, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2537485",
+        "title": "Prototyping a new Knowledge Resource for modern AI (Proto-KAI)",
+        "amount": "$500,000.00",
+        "program": "OKN-Open Knowledge Networks",
+        "end_date": "09/30/2026",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Vinay K Chaudhri vinayc@knowledgesystemsresearch.com",
+      "Alessandro Oltramari alessandro.oltramari@us.bosch.com"
+    ]
+  },
+  {
+    "id": "nsf-2450098",
+    "name": "Xiangqian J Zhou",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Wright State University",
+    "location": "DAYTON, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: The Sixty-Fourth Mighty Conference on Graph Theory"
+    ],
+    "website": "",
+    "email": [
+      "xiangqian.zhou@wright.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAYTON, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2450098",
+        "title": "Conference: The Sixty-Fourth Mighty Conference on Graph Theory",
+        "amount": "$14,250.00",
+        "program": "Combinatorics",
+        "end_date": "06/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xiaoyu Liu xiaoyu.liu@wright.edu"
+    ]
+  },
+  {
+    "id": "nsf-2349628",
+    "name": "Fathi Amsaad",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Wright State University",
+    "location": "DAYTON, OH",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: REU Site: TRUST: Training Research for Undergraduate Students in Secure and ..."
+    ],
+    "website": "",
+    "email": [
+      "fathi.amsaad@wright.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAYTON, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2349628",
+        "title": "Collaborative Research: REU Site: TRUST: Training Research for Undergraduate Students in Secure and Trusted Systems",
+        "amount": "$165,991.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

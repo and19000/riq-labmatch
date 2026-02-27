@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nsf-2431531",
+    "name": "Deepti Gupta",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Texas A&M University - Central Texas",
+    "location": "KILLEEN, TX",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE-MSI: RDP: SaTC: A Database Architecture for Enhanced Privacy in Machine..."
+    ],
+    "website": "",
+    "email": [
+      "d.gupta@tamuct.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KILLEEN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2431531",
+        "title": "Collaborative Research: CISE-MSI: RDP: SaTC: A Database Architecture for Enhanced Privacy in Machine-Learning Applications",
+        "amount": "$349,009.00",
+        "program": "CISE MSI Research Expansion",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

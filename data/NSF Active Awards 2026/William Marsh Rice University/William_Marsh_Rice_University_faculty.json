@@ -1,0 +1,460 @@
+[
+  {
+    "id": "nsf-2610649",
+    "name": "Tong Geng",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: SHF: Small: Reimagining Communication Bottlenecks in GNN Acceleration throug..."
+    ],
+    "website": "",
+    "email": [
+      "tg62@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2610649",
+        "title": "Collaborative Research: SHF: Small: Reimagining Communication Bottlenecks in GNN Acceleration through Collaborative Locality Enhancement and Compression Co-Design",
+        "amount": "$264,299.00",
+        "program": "Software & Hardware Foundation",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2529133",
+    "name": "Amanda B Marciel",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Effect of Polymer Chemistry on Penetrant Transport in Weak Polyelectrolyte B..."
+    ],
+    "website": "",
+    "email": [
+      "am152@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2529133",
+        "title": "Collaborative Research: Effect of Polymer Chemistry on Penetrant Transport in Weak Polyelectrolyte Brushes",
+        "amount": "$290,251.00",
+        "program": "Proc Sys, Reac Eng & Mol Therm",
+        "end_date": "11/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2526361",
+    "name": "Carolyn A Nichol",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Explorations: Advancing Texas Workforce through Experiential Learning in Digital Health Technologies"
+    ],
+    "website": "",
+    "email": [
+      "cnichol@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2526361",
+        "title": "Explorations: Advancing Texas Workforce through Experiential Learning in Digital Health Technologies",
+        "amount": "$999,991.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ashutosh Sabharwal ashu@rice.edu",
+      "Matthew Cushing mpc3@rice.edu"
+    ]
+  },
+  {
+    "id": "nsf-2544842",
+    "name": "Pengcheng Dai",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Workshop on Hidden Order and Quantum Entanglement"
+    ],
+    "website": "",
+    "email": [
+      "pdai@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2544842",
+        "title": "Conference: Workshop on Hidden Order and Quantum Entanglement",
+        "amount": "$5,000.00",
+        "program": "CONDENSED MATTER PHYSICS",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510631",
+    "name": "Matthew G Baring",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Pulsed X-ray Spectral and Polarization Signals  from Magnetar Atmospheres"
+    ],
+    "website": "",
+    "email": [
+      "baring@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2510631",
+        "title": "Collaborative Research: Pulsed X-ray Spectral and Polarization Signals  from Magnetar Atmospheres",
+        "amount": "$439,460.00",
+        "program": "QISET-Quan Info Sci Eng & Tech, STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453521",
+    "name": "Laszlo Kurti",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Forging Molecular Complexity via N-O Bond Cleavage: Synthesis of Structurally Diverse Nitrogen Heter..."
+    ],
+    "website": "",
+    "email": [
+      "kurti.laszlo@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2453521",
+        "title": "Forging Molecular Complexity via N-O Bond Cleavage: Synthesis of Structurally Diverse Nitrogen Heterocycles",
+        "amount": "$400,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2420499",
+    "name": "Luay Nakhleh",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Biological Sciences",
+      "Research Infrastructure: PhyNetPy: An Open-source Library for Developing Phylogenetic Network Infere..."
+    ],
+    "website": "",
+    "email": [
+      "nakhleh@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2420499",
+        "title": "Research Infrastructure: PhyNetPy: An Open-source Library for Developing Phylogenetic Network Inference and Analysis Capabilities",
+        "amount": "$1,905,153.00",
+        "program": "Capacity: Cyberinfrastructure",
+        "end_date": "08/31/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2446451",
+    "name": "Pedro J Alvarez",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Biological Sciences",
+      "Tools4Cells: Development of self-amplifying RNA systems for bacterial protein synthesis"
+    ],
+    "website": "",
+    "email": [
+      "alvarez@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2446451",
+        "title": "Tools4Cells: Development of self-amplifying RNA systems for bacterial protein synthesis",
+        "amount": "$986,944.00",
+        "program": "Innovation: Research Methods",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2522411",
+    "name": "Tianjun Sun",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Collaborative Research: A Process-Driven Approach to Artificial Intelligence Chatbot Interviews"
+    ],
+    "website": "",
+    "email": [
+      "tianjunsun@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2522411",
+        "title": "Collaborative Research: A Process-Driven Approach to Artificial Intelligence Chatbot Interviews",
+        "amount": "$180,678.00",
+        "program": "SoO-Science Of Organizations",
+        "end_date": "08/31/2027",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505948",
+    "name": "Jeffrey D Hartgerink",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Self-Assembly of Collagen Triple Helices into Higher Order Structures"
+    ],
+    "website": "",
+    "email": [
+      "jdh@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2505948",
+        "title": "Self-Assembly of Collagen Triple Helices into Higher Order Structures",
+        "amount": "$600,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453489",
+    "name": "Hans Renata",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Chemoenzymatic Total Synthesis of Complex Terpenoid Natural Products"
+    ],
+    "website": "",
+    "email": [
+      "hr28@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2453489",
+        "title": "Chemoenzymatic Total Synthesis of Complex Terpenoid Natural Products",
+        "amount": "$550,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2428484",
+    "name": "Joseph R Cavallaro",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Engineering",
+      "ECCS-EPSRC: SecureID: Towards Secure Device Identification Using Radio Frequency Fingerprints"
+    ],
+    "website": "",
+    "email": [
+      "cavallar@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2428484",
+        "title": "ECCS-EPSRC: SecureID: Towards Secure Device Identification Using Radio Frequency Fingerprints",
+        "amount": "$400,000.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "05/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2521617",
+    "name": "Caroline M Ajo-Franklin",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Engineering",
+      "Conference: Consolidating Community in Living Materials: Towards an International Conference Series"
+    ],
+    "website": "",
+    "email": [
+      "cajo-franklin@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2521617",
+        "title": "Conference: Consolidating Community in Living Materials: Towards an International Conference Series",
+        "amount": "$41,644.00",
+        "program": "EFRI Research Projects",
+        "end_date": "05/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jiaozhi Lu george.lu@rice.edu",
+      "Marimikel Charrier mc181@rice.edu"
+    ]
+  },
+  {
+    "id": "nsf-2431018",
+    "name": "Yang Gao",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: ENG-BIOTECH: Mechanism-Guided Engineering of Thermophilic CRISPR-Cas13 for U..."
+    ],
+    "website": "",
+    "email": [
+      "yg60@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2431018",
+        "title": "Collaborative Research: ENG-BIOTECH: Mechanism-Guided Engineering of Thermophilic CRISPR-Cas13 for Ultrasensitive and Robust RNA Detection",
+        "amount": "$199,997.00",
+        "program": "Special Initiatives",
+        "end_date": "10/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2412797",
+    "name": "Andrew J Long",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "William Marsh Rice University",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Cosmological and Astrophysical Signatures of New Physics"
+    ],
+    "website": "",
+    "email": [
+      "andrewjlong@rice.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2412797",
+        "title": "Cosmological and Astrophysical Signatures of New Physics",
+        "amount": "$235,000.00",
+        "program": "Particle Astrophysics & Cosmol",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

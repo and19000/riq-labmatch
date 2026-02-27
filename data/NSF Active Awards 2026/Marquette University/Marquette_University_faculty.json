@@ -1,0 +1,132 @@
+[
+  {
+    "id": "nsf-2424952",
+    "name": "Md Tahmidul Islam Molla",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Marquette University",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "STEM Education",
+      "Enhancements for a Career-Change Pathway for Non-computing Majors"
+    ],
+    "website": "",
+    "email": [
+      "tahmidul.islam@marquette.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2424952",
+        "title": "Enhancements for a Career-Change Pathway for Non-computing Majors",
+        "amount": "$1,999,894.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Dennis Brylow brylow@cs.mu.edu",
+      "Niharika Jain niharika.jain@marquette.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512425",
+    "name": "Timothy Tharp",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Marquette University",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Novel Plasma Physics of Trapped Antimatter"
+    ],
+    "website": "",
+    "email": [
+      "timothy.tharp@marquette.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2512425",
+        "title": "Collaborative Research: Novel Plasma Physics of Trapped Antimatter",
+        "amount": "$240,000.00",
+        "program": "PLASMA PHYSICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2524595",
+    "name": "Dennis Brylow",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Marquette University",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Supporting High-Quality High School Computer Science Courses in Milwaukee by..."
+    ],
+    "website": "",
+    "email": [
+      "brylow@cs.mu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2524595",
+        "title": "Collaborative Research: Supporting High-Quality High School Computer Science Courses in Milwaukee by Strengthening Teacher Content Knowledge",
+        "amount": "$502,240.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "07/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426787",
+    "name": "Katherine Durben",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Marquette University",
+    "location": "MILWAUKEE, WI",
+    "research_areas": [
+      "Office of the Director",
+      "MU Postaward Optimization for Strategic Transformation (MU POST)"
+    ],
+    "website": "",
+    "email": [
+      "katherine.durben@marquette.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MILWAUKEE, WI",
+    "nsf_awards": [
+      {
+        "award_number": "2426787",
+        "title": "MU Postaward Optimization for Strategic Transformation (MU POST)",
+        "amount": "$1,167,919.00",
+        "program": "GRANTED",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jeanne M Hossenlopp Jeanne.Hossenlopp@marquette.edu",
+      "Barbara Ploszay barb.ploszay@marquette.edu",
+      "Anita L Manogaran anita.manogaran@marquette.edu",
+      "Julia L Knox julia.knox@marquette.edu"
+    ]
+  }
+]

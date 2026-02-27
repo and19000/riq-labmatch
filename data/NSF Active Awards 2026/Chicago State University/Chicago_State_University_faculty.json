@@ -1,0 +1,78 @@
+[
+  {
+    "id": "nsf-2429675",
+    "name": "Mousa S Ayyash",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Chicago State University",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "CSE",
+      "Research Infrastructure: CC* Strategy-Campus: Planning for a Cyberinfrastructure for Research at Chi...",
+      "CAP: Expanding AI Teaching and Research Capacity at a Predominantly Black Institution (AI@PBI)"
+    ],
+    "website": "",
+    "email": [
+      "mayyash@csu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2429675",
+        "title": "Research Infrastructure: CC* Strategy-Campus: Planning for a Cyberinfrastructure for Research at Chicago State University (CyReCSU)",
+        "amount": "$99,775.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "05/31/2026",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2433846",
+        "title": "CAP: Expanding AI Teaching and Research Capacity at a Predominantly Black Institution (AI@PBI)",
+        "amount": "$379,518.00",
+        "program": "ExpandAI",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Edmundo Garcia-Solis edmundo.garcia@csu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2439765",
+    "name": "Elaina Khasawneh",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Chicago State University",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Developing STEM Education Reform Leaders through a Multidisciplinary and Cro..."
+    ],
+    "website": "",
+    "email": [
+      "Ekhasawn@csu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2439765",
+        "title": "Collaborative Research: Developing STEM Education Reform Leaders through a Multidisciplinary and Cross-Institutional Community of Transformation",
+        "amount": "$261,436.00",
+        "program": "IUSE",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kapila R Attele kattele@csu.edu",
+      "Hope Essien hessien@ccc.edu"
+    ]
+  }
+]

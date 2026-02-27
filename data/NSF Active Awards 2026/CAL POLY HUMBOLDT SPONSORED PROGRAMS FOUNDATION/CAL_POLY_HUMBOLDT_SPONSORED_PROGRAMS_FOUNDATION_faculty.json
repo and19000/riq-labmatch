@@ -1,0 +1,106 @@
+[
+  {
+    "id": "nsf-2534994",
+    "name": "Regina Jorgenson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "CAL POLY HUMBOLDT SPONSORED PROGRAMS FOUNDATION",
+    "location": "ARCATA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: A Panchromatic View of Normal Galaxies in the Early Universe",
+      "Collaborative Research: The Definitive Follow-up Campaign for Fast Radio Bursts"
+    ],
+    "website": "",
+    "email": [
+      "rj135@humboldt.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARCATA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2534994",
+        "title": "Collaborative Research: A Panchromatic View of Normal Galaxies in the Early Universe",
+        "amount": "$99,024.00",
+        "program": "EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2534995",
+        "title": "Collaborative Research: The Definitive Follow-up Campaign for Fast Radio Bursts",
+        "amount": "$129,033.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2446206",
+    "name": "Laura Levy",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "CAL POLY HUMBOLDT SPONSORED PROGRAMS FOUNDATION",
+    "location": "ARCATA, CA",
+    "research_areas": [
+      "Geosciences",
+      "EA: Acquiring Particle Size Analyzer and a Benchtop Centrifuge"
+    ],
+    "website": "",
+    "email": [
+      "laura.levy@humboldt.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARCATA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2446206",
+        "title": "EA: Acquiring Particle Size Analyzer and a Benchtop Centrifuge",
+        "amount": "$67,258.00",
+        "program": "Instrumentation & Facilities",
+        "end_date": "06/30/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Melanie Michalak mjm367@humboldt.edu",
+      "Brandon L Browne blb519@humboldt.edu",
+      "Jaclyn Baughman jaclyn.baughman@humboldt.edu"
+    ]
+  },
+  {
+    "id": "nsf-2402409",
+    "name": "Allison Bronson",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "CAL POLY HUMBOLDT SPONSORED PROGRAMS FOUNDATION",
+    "location": "ARCATA, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: RUI: Testing the link between skeletal labyrinth morphology and habitat in s..."
+    ],
+    "website": "",
+    "email": [
+      "awb18@humboldt.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ARCATA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2402409",
+        "title": "Collaborative Research: RUI: Testing the link between skeletal labyrinth morphology and habitat in sharks",
+        "amount": "$409,878.00",
+        "program": "Physiol Mechs & Biomechanics",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

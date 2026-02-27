@@ -1,0 +1,106 @@
+[
+  {
+    "id": "nsf-2523851",
+    "name": "Izzat Alsmadi",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Texas A&M University-San Antonio",
+    "location": "SAN ANTONIO, TX",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE Planning Proposal: OAC: CC*: Enhancing Cyberinfrastructure-infused Rese...",
+      "CC* Strategy-Campus: Accelerating Research Computing at Texas A&M San Antonio (ARCATS)"
+    ],
+    "website": "",
+    "email": [
+      "ialsmadi@tamusa.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN ANTONIO, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2523851",
+        "title": "Collaborative Research: CISE Planning Proposal: OAC: CC*: Enhancing Cyberinfrastructure-infused Research at Texas A&M University-San Antonio (ECR-TAMUSA)",
+        "amount": "$139,425.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2430335",
+        "title": "CC* Strategy-Campus: Accelerating Research Computing at Texas A&M San Antonio (ARCATS)",
+        "amount": "$120,000.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "11/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Elizabeth Leyva eleyva@tamusa.edu",
+      "Donna M Lehman dlehman@tamusa.edu",
+      "Vijay Golla vijay.golla@tamusa.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447305",
+    "name": "Davida S Smyth",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Texas A&M University-San Antonio",
+    "location": "SAN ANTONIO, TX",
+    "research_areas": [
+      "Biological Sciences",
+      "NSF REU: INSPIRE: Increasing Student Participation in Research Experiences"
+    ],
+    "website": "",
+    "email": [
+      "davida.smyth@tamusa.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN ANTONIO, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2447305",
+        "title": "NSF REU: INSPIRE: Increasing Student Participation in Research Experiences",
+        "amount": "$372,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2446826",
+    "name": "Burak Aksoylu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Texas A&M University-San Antonio",
+    "location": "SAN ANTONIO, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "PRIMES: ML-Enhanced Coupling and PDDO-Enhanced ML Approaches for Complex Problems"
+    ],
+    "website": "",
+    "email": [
+      "baksoylu@tamusa.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN ANTONIO, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2446826",
+        "title": "PRIMES: ML-Enhanced Coupling and PDDO-Enhanced ML Approaches for Complex Problems",
+        "amount": "$329,432.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "03/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

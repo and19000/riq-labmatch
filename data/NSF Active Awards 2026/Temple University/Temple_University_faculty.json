@@ -1,0 +1,101 @@
+[
+  {
+    "id": "nsf-2505985",
+    "name": "Sudhir Kumar",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Temple University",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Biological Sciences",
+      "Transforming MEGA for Big Data Molecular Phylogenetics"
+    ],
+    "website": "",
+    "email": [
+      "s.kumar@temple.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2505985",
+        "title": "Transforming MEGA for Big Data Molecular Phylogenetics",
+        "amount": "$1,495,612.00",
+        "program": "Capacity: Cyberinfrastructure",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Caryn Babaian caryn.babaian@temple.edu"
+    ]
+  },
+  {
+    "id": "nsf-2511067",
+    "name": "Michael J Zdilla",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Temple University",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Engineering",
+      "MRI: Track 2 Acquisition of Multiscale 3D Imaging and Analytics Platform for Energy and Infrastructu..."
+    ],
+    "website": "",
+    "email": [
+      "mzdilla@temple.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2511067",
+        "title": "MRI: Track 2 Acquisition of Multiscale 3D Imaging and Analytics Platform for Energy and Infrastructure Materials, Environmental Sustainability, and Bioengineering",
+        "amount": "$3,372,236.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Dmitriy A Dikin ddikin@temple.edu",
+      "Elham Sahraei elham.sahraei@temple.edu",
+      "Santiago Orrego sorrego@temple.edu",
+      "Mehdi Khanzadeh Moradllo mehdi.khanzadeh@temple.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453236",
+    "name": "Matthew T Stover",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Temple University",
+    "location": "PHILADELPHIA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: Topological and Geometric Structures in Low Dimensions"
+    ],
+    "website": "",
+    "email": [
+      "mstover@temple.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PHILADELPHIA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2453236",
+        "title": "Collaborative Research: Conference: Topological and Geometric Structures in Low Dimensions",
+        "amount": "$20,000.00",
+        "program": "TOPOLOGY",
+        "end_date": "03/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

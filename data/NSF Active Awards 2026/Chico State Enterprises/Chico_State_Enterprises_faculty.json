@@ -1,0 +1,76 @@
+[
+  {
+    "id": "nsf-2524618",
+    "name": "Mohammed T Albahttiti",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Chico State Enterprises",
+    "location": "CHICO, CA",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: Enhancing Undergraduate STEM Education with a Universal Testing Machine",
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Cross-Continental Collaboration Coalition (C4)"
+    ],
+    "website": "",
+    "email": [
+      "malbahttiti@CSUChico.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2524618",
+        "title": "Equipment: Enhancing Undergraduate STEM Education with a Universal Testing Machine",
+        "amount": "$163,874.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      },
+      {
+        "award_number": "2433215",
+        "title": "Collaborative Research: EPIIC: Cross-Continental Collaboration Coalition (C4)",
+        "amount": "$399,998.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Marie Patterson Feldstein mepatterson@csuchico.edu",
+      "Charles J Pooler cjpooler@csuchico.edu"
+    ]
+  },
+  {
+    "id": "nsf-2439663",
+    "name": "Carolina Alvarado",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Chico State Enterprises",
+    "location": "CHICO, CA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Fostering Teamwork in the Context of Learning Physics through Socio-Metacogn..."
+    ],
+    "website": "",
+    "email": [
+      "calvaradoleyva@csuchico.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2439663",
+        "title": "Collaborative Research: Fostering Teamwork in the Context of Learning Physics through Socio-Metacognition and Engaged Student Learning",
+        "amount": "$129,990.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

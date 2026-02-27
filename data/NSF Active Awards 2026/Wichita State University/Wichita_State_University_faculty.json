@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2510361",
+    "name": "Rajprasad Loganathan",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Wichita State University",
+    "location": "WICHITA, KS",
+    "research_areas": [
+      "Biological Sciences",
+      "Equipment: MRI: Track 1 Acquisition of a Superresolution Laser Scanning Confocal Microscope for Enha..."
+    ],
+    "website": "",
+    "email": [
+      "raj.logan@wichita.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WICHITA, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2510361",
+        "title": "Equipment: MRI: Track 1 Acquisition of a Superresolution Laser Scanning Confocal Microscope for Enhancing Life Sciences Research in Southern Kansas",
+        "amount": "$650,432.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Moriah R Beck moriah.beck@wichita.edu",
+      "Li Yao Li.Yao@wichita.edu",
+      "David S Long david.long@wichita.edu",
+      "William J Hendry william.hendry@wichita.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505398",
+    "name": "Alexandre A Shvartsburg",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Wichita State University",
+    "location": "WICHITA, KS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Directional Ion Mobility Spectrometry of Dipole-Aligned Macromolecules: a New Toolbox for Structural..."
+    ],
+    "website": "",
+    "email": [
+      "alexandre.shvartsburg@wichita.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WICHITA, KS",
+    "nsf_awards": [
+      {
+        "award_number": "2505398",
+        "title": "Directional Ion Mobility Spectrometry of Dipole-Aligned Macromolecules: a New Toolbox for Structural Biology and Top-Down Proteomics",
+        "amount": "$531,256.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

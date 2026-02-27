@@ -1,0 +1,165 @@
+[
+  {
+    "id": "nsf-2528533",
+    "name": "Huirong Fu",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Oakland University",
+    "location": "ROCHESTER, MI",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: EAGER: NAIRR Pilot Expansion: FA1: Advancing AI Research with NAIRR Workshop..."
+    ],
+    "website": "",
+    "email": [
+      "fu@oakland.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ROCHESTER, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2528533",
+        "title": "Collaborative Research: EAGER: NAIRR Pilot Expansion: FA1: Advancing AI Research with NAIRR Workshop Series on Cybersecurity, Edge AI, and Autonomous Driving",
+        "amount": "$150,000.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "07/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Darrin M Hanna dmhanna@oakland.edu",
+      "Lanyu Xu lxu@oakland.edu",
+      "Mohammad Wardat wardat@oakland.edu",
+      "Yao Qiang qiang@oakland.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418551",
+    "name": "Ankun Yang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Oakland University",
+    "location": "ROCHESTER, MI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Probing Solid Electrolyte Interphase of Sodium Metal Anodes Using Plasmonic Effects"
+    ],
+    "website": "",
+    "email": [
+      "ankunyang@oakland.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ROCHESTER, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2418551",
+        "title": "LEAPS-MPS: Probing Solid Electrolyte Interphase of Sodium Metal Anodes Using Plasmonic Effects",
+        "amount": "$250,000.00",
+        "program": "LEAPS-MPS",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2413206",
+    "name": "Sergey Golovashchenko",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Oakland University",
+    "location": "ROCHESTER, MI",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Phase I Oakland University: Center for Industrial Metal Forming (CIMF)"
+    ],
+    "website": "",
+    "email": [
+      "golovash@oakland.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ROCHESTER, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2413206",
+        "title": "IUCRC Phase I Oakland University: Center for Industrial Metal Forming (CIMF)",
+        "amount": "$487,500.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "10/31/2029",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2348880",
+    "name": "Brian Dean",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Oakland University",
+    "location": "ROCHESTER, MI",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Applied Research Experience in Electrical and Computer Engineering (ApREECE)"
+    ],
+    "website": "",
+    "email": [
+      "bkdean@oakland.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ROCHESTER, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2348880",
+        "title": "REU Site: Applied Research Experience in Electrical and Computer Engineering (ApREECE)",
+        "amount": "$442,853.00",
+        "program": "SSA-Special Studies & Analysis, Partnership Funding from SRC",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shadi Alawneh shadialawneh@oakland.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424935",
+    "name": "Martha Escobar",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Oakland University",
+    "location": "ROCHESTER, MI",
+    "research_areas": [
+      "STEM Education",
+      "Advancing STEM Workforce Readiness of Interdisciplinary Scholars for Excellence Using a Mentored Com..."
+    ],
+    "website": "",
+    "email": [
+      "marthaescobar@oakland.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ROCHESTER, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2424935",
+        "title": "Advancing STEM Workforce Readiness of Interdisciplinary Scholars for Excellence Using a Mentored Community Approach to Promote Belonging and Professional Identity",
+        "amount": "$1,087,979.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Richard Olawoyin olawoyin@oakland.edu",
+      "Brandy A Randall brandall@oakland.edu"
+    ]
+  }
+]

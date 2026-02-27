@@ -1,0 +1,170 @@
+[
+  {
+    "id": "nsf-2527077",
+    "name": "Shannon Timmons",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Lawrence Technological University",
+    "location": "SOUTHFIELD, MI",
+    "research_areas": [
+      "STEM Education",
+      "Fostering Confidence, Academic Achievement, and Networking to Strengthen the STEM Workforce"
+    ],
+    "website": "",
+    "email": [
+      "stimmons@ltu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SOUTHFIELD, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2527077",
+        "title": "Fostering Confidence, Academic Achievement, and Networking to Strengthen the STEM Workforce",
+        "amount": "$1,998,226.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bhubanjyoti Bhattacharya bbhattach@ltu.edu",
+      "Oriehi Anyaiwe oanyaiwe@ltu.edu",
+      "Matthew D Johnston mjohnsto1@ltu.edu",
+      "Aleksandra Kuzmanov akuzmanov@ltu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2520127",
+    "name": "pedro guillen",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Lawrence Technological University",
+    "location": "SOUTHFIELD, MI",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: LInking Vital Ecosystems (LIVE) in Research and Economic Development"
+    ],
+    "website": "",
+    "email": [
+      "pguillen@ltu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SOUTHFIELD, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2520127",
+        "title": "Collaborative Research: EPIIC: LInking Vital Ecosystems (LIVE) in Research and Economic Development",
+        "amount": "$400,000.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kathryn Wrench kwrench@ltu.edu",
+      "Sara Codarin scodarin@ltu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2553553",
+    "name": "Devesh Misra",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Lawrence Technological University",
+    "location": "SOUTHFIELD, MI",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: The interaction of surfaces structured at the nanometer scale with the cells..."
+    ],
+    "website": "",
+    "email": [
+      "dmisra@ltu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SOUTHFIELD, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2553553",
+        "title": "Collaborative Research: The interaction of surfaces structured at the nanometer scale with the cells in the physiological environment",
+        "amount": "$422,247.00",
+        "program": "Nanoscale Interactions Program",
+        "end_date": "12/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2433159",
+    "name": "Mark Brucki",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Lawrence Technological University",
+    "location": "SOUTHFIELD, MI",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Building Institutional Capacity for External Partnerships"
+    ],
+    "website": "",
+    "email": [
+      "mbrucki@ltu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SOUTHFIELD, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2433159",
+        "title": "Collaborative Research: EPIIC: Building Institutional Capacity for External Partnerships",
+        "amount": "$399,999.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Liping Liu lliu1@ltu.edu",
+      "Matthew D Johnston mjohnsto1@ltu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2408244",
+    "name": "Corey J Bohil",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "Lawrence Technological University",
+    "location": "SOUTHFIELD, MI",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Research Infrastructure: MRI: Track 1 Acquisition of a functional near-infrared spectroscopy (fNIRS)..."
+    ],
+    "website": "",
+    "email": [
+      "cbohil@ltu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SOUTHFIELD, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2408244",
+        "title": "Research Infrastructure: MRI: Track 1 Acquisition of a functional near-infrared spectroscopy (fNIRS) system for interdisciplinary cognitive neuroscience",
+        "amount": "$175,476.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Franco Delogu fdelogu@ltu.edu",
+      "Hamad Al-Azary halazary@ltu.edu"
+    ]
+  }
+]

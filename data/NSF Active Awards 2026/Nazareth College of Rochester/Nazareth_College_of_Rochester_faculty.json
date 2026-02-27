@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2345116",
+    "name": "Kelly Hutchinson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Nazareth College of Rochester",
+    "location": "ROCHESTER, NY",
+    "research_areas": [
+      "STEM Education",
+      "Catalyzing STEM Education Part II: Preparing STEM Educators for High-Need School Districts"
+    ],
+    "website": "",
+    "email": [
+      "khutchi8@naz.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ROCHESTER, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2345116",
+        "title": "Catalyzing STEM Education Part II: Preparing STEM Educators for High-Need School Districts",
+        "amount": "$997,472.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "08/31/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Joshua Newby jnewby1@naz.edu"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "nsf-2533749",
+    "name": "Salvador Almagro-Moreno",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "St Jude Children's Research Hospital",
+    "location": "MEMPHIS, TN",
+    "research_areas": [
+      "Biological Sciences",
+      "CAREER: Convergent molecular mechanisms regulating dormancy in Vibrios",
+      "Collaborative Research: Engineering host-associated synthetic consortia based on ecological modules."
+    ],
+    "website": "",
+    "email": [
+      "Salvador.AlmagroMoreno@stjude.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEMPHIS, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2533749",
+        "title": "CAREER: Convergent molecular mechanisms regulating dormancy in Vibrios",
+        "amount": "$273,619.00",
+        "program": "Integrtv Ecological Physiology",
+        "end_date": "04/30/2027",
+        "directorate": "BIO"
+      },
+      {
+        "award_number": "2521619",
+        "title": "Collaborative Research: Engineering host-associated synthetic consortia based on ecological modules.",
+        "amount": "$340,796.00",
+        "program": "Systems and Synthetic Biology",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 2
+  }
+]

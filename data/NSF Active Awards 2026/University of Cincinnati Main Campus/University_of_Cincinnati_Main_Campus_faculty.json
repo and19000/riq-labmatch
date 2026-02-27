@@ -1,0 +1,332 @@
+[
+  {
+    "id": "nsf-2453603",
+    "name": "Yujie Sun",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Developing Two-photon-absorbing Chromophores for NIR Light-driven Photocatal...",
+      "Engineering",
+      "Unconventional Electrocatalytic Deuteration of Organic Molecules"
+    ],
+    "website": "",
+    "email": [
+      "yujie.sun@uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2453603",
+        "title": "Collaborative Research: Developing Two-photon-absorbing Chromophores for NIR Light-driven Photocatalysis",
+        "amount": "$475,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2411506",
+        "title": "Unconventional Electrocatalytic Deuteration of Organic Molecules",
+        "amount": "$409,969.00",
+        "program": "EchemS-Electrochemical Systems, Catalysis, Proc Sys, Reac Eng & Mol Therm",
+        "end_date": "01/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2603026",
+    "name": "Matthew R Bahnson",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "Engineering",
+      "PERSISTENCE PATHWAYS: CHANGING RESEARCH LABS TO PERSIST IN ENGINEERING GRADUATE EDUCATION"
+    ],
+    "website": "",
+    "email": [
+      "bahnsomw@ucmail.uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2603026",
+        "title": "PERSISTENCE PATHWAYS: CHANGING RESEARCH LABS TO PERSIST IN ENGINEERING GRADUATE EDUCATION",
+        "amount": "$261,753.00",
+        "program": "EngEd-Engineering Education",
+        "end_date": "11/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2500693",
+    "name": "Cedrick A Kwuimy",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "STEM Education",
+      "Exploring Engineering Students' Journey of Transformative Learning through Their First Cooperative E..."
+    ],
+    "website": "",
+    "email": [
+      "cedrick.kwuimy@uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2500693",
+        "title": "Exploring Engineering Students' Journey of Transformative Learning through Their First Cooperative Education Industry Experiences",
+        "amount": "$503,894.00",
+        "program": "ECR-EDU Core Research",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "So Yoon Yoon yoons5@ucmail.uc.edu",
+      "James G Tappel jim.tappel@uc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2518025",
+    "name": "David Reeping",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "STEM Education",
+      "Principles for Innovative Design and Educational Theory in Generative Artificial Intelligence Tool C..."
+    ],
+    "website": "",
+    "email": [
+      "reepindp@ucmail.uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2518025",
+        "title": "Principles for Innovative Design and Educational Theory in Generative Artificial Intelligence Tool Creation",
+        "amount": "$286,917.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Siqing Wei swei@ysu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447390",
+    "name": "Daniel M Sturmer",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: REU Site: DEsigning Sedimentation and Tectonics Research Experiences for Stu..."
+    ],
+    "website": "",
+    "email": [
+      "sturmedm@ucmail.uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2447390",
+        "title": "Collaborative Research: REU Site: DEsigning Sedimentation and Tectonics Research Experiences for Student Success (DE-STRESS)",
+        "amount": "$130,499.00",
+        "program": "EDUCATION AND HUMAN RESOURCES",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2521992",
+    "name": "Joel A Mejia",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Teaching Engineering Design with a Contextual Perspective"
+    ],
+    "website": "",
+    "email": [
+      "mejiaja@ucmail.uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2521992",
+        "title": "Collaborative Research: Teaching Engineering Design with a Contextual Perspective",
+        "amount": "$50,048.00",
+        "program": "IUSE",
+        "end_date": "06/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2444520",
+    "name": "Gareth Speight",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: Ohio River Analysis Meetings 2025-2027"
+    ],
+    "website": "",
+    "email": [
+      "gareth.speight@uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2444520",
+        "title": "Collaborative Research: Conference: Ohio River Analysis Meetings 2025-2027",
+        "amount": "$32,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael Goldberg goldbeml@ucmail.uc.edu",
+      "Leonid Slavin leonid.slavin@uc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417682",
+    "name": "Jure Zupan",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CyberTraining: Pilot: Monte Carlo General Education Network (MCGEN)"
+    ],
+    "website": "",
+    "email": [
+      "zupanje@ucmail.uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2417682",
+        "title": "Collaborative Research: CyberTraining: Pilot: Monte Carlo General Education Network (MCGEN)",
+        "amount": "$139,998.00",
+        "program": "PHYSICS AT THE INFO FRONTIER, CyberTraining - Training-based",
+        "end_date": "08/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Philip Ilten philten@cern.ch",
+      "Stephen Mrenna mrenna@fnal.gov"
+    ]
+  },
+  {
+    "id": "nsf-2408083",
+    "name": "Rashmi Jha",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "Engineering",
+      "Equipment: MRI Track 1: Acquisition of Direct Write Laser Lithography to Advance Research on Next Ge..."
+    ],
+    "website": "",
+    "email": [
+      "jhari@ucmail.uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2408083",
+        "title": "Equipment: MRI Track 1: Acquisition of Direct Write Laser Lithography to Advance Research on Next Generation of Semiconductors and Devices",
+        "amount": "$762,500.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Marc M Cahay marc.cahay@uc.edu",
+      "Yeongin Kim kim4yg@ucmail.uc.edu",
+      "Evgeny Mikheev mikheev@ucmail.uc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2349483",
+    "name": "Hairong Guan",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Cincinnati Main Campus",
+    "location": "CINCINNATI, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAS: Catalysis with Cobalt Hydrides"
+    ],
+    "website": "",
+    "email": [
+      "hairong.guan@uc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CINCINNATI, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2349483",
+        "title": "CAS: Catalysis with Cobalt Hydrides",
+        "amount": "$595,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

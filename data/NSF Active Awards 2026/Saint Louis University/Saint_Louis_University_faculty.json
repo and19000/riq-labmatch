@@ -1,0 +1,138 @@
+[
+  {
+    "id": "nsf-2515296",
+    "name": "Vasit G Sagan",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Saint Louis University",
+    "location": "SAINT LOUIS, MO",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Phase I, Saint Louis University: Center for Accurate Georeferencing of the Environment (CAGE)"
+    ],
+    "website": "",
+    "email": [
+      "vasit.sagan@slu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT LOUIS, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2515296",
+        "title": "IUCRC Phase I, Saint Louis University: Center for Accurate Georeferencing of the Environment (CAGE)",
+        "amount": "$500,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "12/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430236",
+    "name": "Tae Hyuk Ahn",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Saint Louis University",
+    "location": "SAINT LOUIS, MO",
+    "research_areas": [
+      "CSE",
+      "CC* Compute-Campus: Modernizing Campus Cyberinfrastructure for AI-Enhanced Research and Education (M..."
+    ],
+    "website": "",
+    "email": [
+      "taehyuk.ahn@slu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT LOUIS, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2430236",
+        "title": "CC* Compute-Campus: Modernizing Campus Cyberinfrastructure for AI-Enhanced Research and Education (ModernCARE)",
+        "amount": "$630,000.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "10/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Flavio Esposito flavio.esposito@slu.edu",
+      "Reza Tourani reza.tourani@slu.edu",
+      "Jie Hou jie.hou@slu.edu",
+      "Maureen J Donlin maureen.donlin@health.slu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2427093",
+    "name": "David S Wisbey",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Saint Louis University",
+    "location": "SAINT LOUIS, MO",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Microwave resonator probes of quantum materials for advancing qubit platforms"
+    ],
+    "website": "",
+    "email": [
+      "david.wisbey@slu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT LOUIS, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2427093",
+        "title": "ExpandQISE: Track 1: Microwave resonator probes of quantum materials for advancing qubit platforms",
+        "amount": "$799,967.00",
+        "program": "ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Irma Kuljanishvili ikuljani@slu.edu",
+      "Kater Murch murch@physics.wustl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2407251",
+    "name": "Sergey Korolev",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Saint Louis University",
+    "location": "SAINT LOUIS, MO",
+    "research_areas": [
+      "Biological Sciences",
+      "Equipment: MRI: Track 1. Acquisition of XtaLAB Synergy-R single crystal diffractometer."
+    ],
+    "website": "",
+    "email": [
+      "sergey.korolev@health.slu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT LOUIS, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2407251",
+        "title": "Equipment: MRI: Track 1. Acquisition of XtaLAB Synergy-R single crystal diffractometer.",
+        "amount": "$743,852.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Brian P Downes bdownes1@slu.edu",
+      "Jamie M Neely jamie.neely@slu.edu",
+      "Nicola Pozzi nicola.pozzi@health.slu.edu",
+      "Enrico Di Cera enrico@slu.edu"
+    ]
+  }
+]

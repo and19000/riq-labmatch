@@ -1,0 +1,103 @@
+[
+  {
+    "id": "nsf-2524159",
+    "name": "Giuseppe Martone",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Sam Houston State University",
+    "location": "HUNTSVILLE, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "PRIMES: Geometry, Topology, and Dynamics of Higher Rank Character Varieties."
+    ],
+    "website": "",
+    "email": [
+      "gxm120@shsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HUNTSVILLE, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2524159",
+        "title": "PRIMES: Geometry, Topology, and Dynamics of Higher Rank Character Varieties.",
+        "amount": "$376,177.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "12/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2527247",
+    "name": "Adrian Villalta Cerdas",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Sam Houston State University",
+    "location": "HUNTSVILLE, TX",
+    "research_areas": [
+      "STEM Education",
+      "Scholarships, Mentoring, and Research Training: A Chemistry Program at Sam Houston State University"
+    ],
+    "website": "",
+    "email": [
+      "axv067@shsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HUNTSVILLE, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2527247",
+        "title": "Scholarships, Mentoring, and Research Training: A Chemistry Program at Sam Houston State University",
+        "amount": "$1,999,986.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Donovan C Haines haines@shsu.edu",
+      "Dustin Gross deg013@shsu.edu",
+      "Lydia C Fox lcruzfox@shsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2529993",
+    "name": "David E Thompson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Sam Houston State University",
+    "location": "HUNTSVILLE, TX",
+    "research_areas": [
+      "STEM Education",
+      "IGE Track 2: Improving STEM Graduate Student Success and Workforce Readiness at a Regional R2 Public..."
+    ],
+    "website": "",
+    "email": [
+      "david.thompson@shsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HUNTSVILLE, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2529993",
+        "title": "IGE Track 2: Improving STEM Graduate Student Success and Workforce Readiness at a Regional R2 Public University",
+        "amount": "$999,989.00",
+        "program": "Innovations in Grad Education",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "PRAPHUL JOSHI PXJ015@SHSU.EDU",
+      "Tracey S Hodges traceyhodges@shsu.edu",
+      "Falguni Mukherjee fsm002@shsu.edu",
+      "David E Thompson (Former) david.thompson@shsu.edu"
+    ]
+  }
+]

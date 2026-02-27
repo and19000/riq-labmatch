@@ -1,0 +1,1139 @@
+[
+  {
+    "id": "nsf-2523539",
+    "name": "Robert A Kamphaus",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Geosciences",
+      "Equipment: UW NSF Shipboard Scientific Support Equipment 2025",
+      "Equipment: UW NSF Ocean Instrumentation 2025",
+      "Collaborative Research: Research Infrastructure: Shared Unified Research Fleet IT Support for the AR...",
+      "R/V Rachel Carson Ship Operations NSF 2023-2028",
+      "R/V Thomas G, Thompson Ship Operations NSF 2023-2028"
+    ],
+    "website": "",
+    "email": [
+      "kamphaus@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2523539",
+        "title": "Equipment: UW NSF Shipboard Scientific Support Equipment 2025",
+        "amount": "$504,039.00",
+        "program": "SHIPBOARD SCIENTIFIC SUPP EQUI",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2523546",
+        "title": "Equipment: UW NSF Ocean Instrumentation 2025",
+        "amount": "$98,709.00",
+        "program": "OCEANOGRAPHIC INSTRUMENTATION",
+        "end_date": "07/31/2027",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2528715",
+        "title": "Collaborative Research: Research Infrastructure: Shared Unified Research Fleet IT Support for the ARF, Pilot Project (SURF-IT)",
+        "amount": "$53,648.00",
+        "program": "Oceanographic CybrinfraCybrsec",
+        "end_date": "06/30/2026",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2419039",
+        "title": "R/V Rachel Carson Ship Operations NSF 2023-2028",
+        "amount": "$440,000.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2419044",
+        "title": "R/V Thomas G, Thompson Ship Operations NSF 2023-2028",
+        "amount": "$6,950,760.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 5
+  },
+  {
+    "id": "nsf-2505659",
+    "name": "David J Masiello",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Strong and Weak Vibrational Coupling and Energy Dissipation for Metal Nanost...",
+      "Reciprocal-space Models of Plasmonic Lattices: Eigenstructure and Coupling to Chiral/achiral Light a..."
+    ],
+    "website": "",
+    "email": [
+      "MASIELLO@UW.EDU"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2505659",
+        "title": "Collaborative Research: Strong and Weak Vibrational Coupling and Energy Dissipation for Metal Nanostructures",
+        "amount": "$248,508.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2516408",
+        "title": "Reciprocal-space Models of Plasmonic Lattices: Eigenstructure and Coupling to Chiral/achiral Light and Molecular Excitations",
+        "amount": "$434,688.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2527017",
+    "name": "Erica Cline",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "STEM Education",
+      "Promoting Early Retention in STEM: Achieving Change in Communities for Success in STEM Phase 3"
+    ],
+    "website": "",
+    "email": [
+      "ecline@u.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2527017",
+        "title": "Promoting Early Retention in STEM: Achieving Change in Communities for Success in STEM Phase 3",
+        "amount": "$2,000,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "12/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Heather E Dillon hedillon@uw.edu",
+      "Raghavi Sakpal rsakpal@uw.edu",
+      "Amanda K Sesko aksesko@uw.edu",
+      "Jutta Heller jheller3@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2523406",
+    "name": "Martine De Cock",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE Crosscutting Small: SaTC: Privacy-Preserving Synthetic Data Generation"
+    ],
+    "website": "",
+    "email": [
+      "mdecock@u.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2523406",
+        "title": "Collaborative Research: CISE Crosscutting Small: SaTC: Privacy-Preserving Synthetic Data Generation",
+        "amount": "$274,847.00",
+        "program": "Secure &Trustworthy Cyberspace",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514565",
+    "name": "Leilani Battle",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "HCC: Small: D3 and Me: Making Visualization Toolkits Easier to Learn Through Personalized Knowledge ..."
+    ],
+    "website": "",
+    "email": [
+      "leibatt@cs.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2514565",
+        "title": "HCC: Small: D3 and Me: Making Visualization Toolkits Easier to Learn Through Personalized Knowledge Graphs",
+        "amount": "$500,000.00",
+        "program": "HCC-Human-Centered Computing, Info Integration & Informatics",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2529361",
+    "name": "Krithika Manohar",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: MATH-DT Dynamical Models and Statistical Guarantees for Sparse Sensing in Nu..."
+    ],
+    "website": "",
+    "email": [
+      "kmanohar@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2529361",
+        "title": "Collaborative Research: MATH-DT Dynamical Models and Statistical Guarantees for Sparse Sensing in Nuclear Digital Twins",
+        "amount": "$370,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, MSPA-INTERDISCIPLINARY, COMPUTATIONAL MATHEMATICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514233",
+    "name": "Fang Han",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Theory of Causal Learning"
+    ],
+    "website": "",
+    "email": [
+      "fanghan@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2514233",
+        "title": "Collaborative Research: Theory of Causal Learning",
+        "amount": "$125,000.00",
+        "program": "STATISTICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2501414",
+    "name": "Jian J Zhang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Seattle Noncommutative Algebra Conference"
+    ],
+    "website": "",
+    "email": [
+      "zhang@math.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2501414",
+        "title": "Conference: Seattle Noncommutative Algebra Conference",
+        "amount": "$40,000.00",
+        "program": "ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Be'eri Greenfeld beeri.greenfeld@hunter.cuny.edu"
+    ]
+  },
+  {
+    "id": "nsf-2440854",
+    "name": "Mohammad H Malakooti",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Selective Microstructure and Surface Engineering of Functional Polymer Composites through La..."
+    ],
+    "website": "",
+    "email": [
+      "malakoot@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2440854",
+        "title": "CAREER: Selective Microstructure and Surface Engineering of Functional Polymer Composites through Laser-Induced Foaming",
+        "amount": "$730,240.00",
+        "program": "AM-Advanced Manufacturing",
+        "end_date": "08/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515209",
+    "name": "Xiaosong Li",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Ab Initio Methods for Simulating Time-Resolved Magnetic Circular Dichroism"
+    ],
+    "website": "",
+    "email": [
+      "xsli@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2515209",
+        "title": "Ab Initio Methods for Simulating Time-Resolved Magnetic Circular Dichroism",
+        "amount": "$600,000.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2524615",
+    "name": "Virginia Armbrust",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Geosciences",
+      "DeepCyte: An autonomous underwater flow cytometer"
+    ],
+    "website": "",
+    "email": [
+      "armbrust@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2524615",
+        "title": "DeepCyte: An autonomous underwater flow cytometer",
+        "amount": "$968,427.00",
+        "program": "OCEAN TECH & INTERDISC COORDIN",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2503683",
+    "name": "Becky Alexander",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Impacts of Hydrogen Sulfide Emitted from Volcanic Passive Degassing on Atmos..."
+    ],
+    "website": "",
+    "email": [
+      "beckya@u.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2503683",
+        "title": "Collaborative Research: Impacts of Hydrogen Sulfide Emitted from Volcanic Passive Degassing on Atmospheric Chemistry",
+        "amount": "$615,903.00",
+        "program": "Atmospheric Chemistry",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2513482",
+    "name": "Gordon T Watts",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-BSF: Standard Model Physics and Beyond"
+    ],
+    "website": "",
+    "email": [
+      "gwatts@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2513482",
+        "title": "NSF-BSF: Standard Model Physics and Beyond",
+        "amount": "$460,000.00",
+        "program": "HEP-High Energy Physics",
+        "end_date": "07/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Henry J Lubatti lubatti@u.washington.edu",
+      "Anna Goussiou goussiou@uw.edu",
+      "Shih-Chieh Hsu schsu@uw.edu",
+      "Quentin Buat qbuat@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2533903",
+    "name": "Christina M Mastrangelo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: The 2025 Quality and Productivity Research Conference on Statistics in Quality, Industry..."
+    ],
+    "website": "",
+    "email": [
+      "mastr@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2533903",
+        "title": "Conference: The 2025 Quality and Productivity Research Conference on Statistics in Quality, Industry, and Technology (QPRC 2025)- Industrial Innovation in the Era of AI",
+        "amount": "$10,000.00",
+        "program": "STATISTICS",
+        "end_date": "07/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2517458",
+    "name": "Anne B McCoy",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Exploring Spectral Signatures of Molecular Vibrations"
+    ],
+    "website": "",
+    "email": [
+      "abmccoy@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2517458",
+        "title": "Exploring Spectral Signatures of Molecular Vibrations",
+        "amount": "$580,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2504469",
+    "name": "Arvind Krishnamurthy",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS:Medium:Rack-Scale Disaggregation and Consolidation of Network Functiona..."
+    ],
+    "website": "",
+    "email": [
+      "arvind@cs.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2504469",
+        "title": "Collaborative Research: NeTS:Medium:Rack-Scale Disaggregation and Consolidation of Network Functionalities",
+        "amount": "$540,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "07/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2504569",
+    "name": "Thomas E Anderson",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS: Medium: Learning Network Dynamics from Data"
+    ],
+    "website": "",
+    "email": [
+      "tom@cs.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2504569",
+        "title": "Collaborative Research: NeTS: Medium: Learning Network Dynamics from Data",
+        "amount": "$360,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "07/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453184",
+    "name": "Alexandra Velian",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Expanding the Catalytic Scope of Atomically Precise Transition Metal Chalcogenide Clusters with Edge..."
+    ],
+    "website": "",
+    "email": [
+      "avelian@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2453184",
+        "title": "Expanding the Catalytic Scope of Atomically Precise Transition Metal Chalcogenide Clusters with Edge Sites",
+        "amount": "$517,033.00",
+        "program": "Chemical Synthesis",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2443977",
+    "name": "Maureen H Walczak",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Back to the Beginning - Refining marine radiocarbon as a tracer of ocean circulation and tim..."
+    ],
+    "website": "",
+    "email": [
+      "mwalczak@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2443977",
+        "title": "CAREER: Back to the Beginning - Refining marine radiocarbon as a tracer of ocean circulation and time in the North Pacific",
+        "amount": "$599,974.00",
+        "program": "Marine Geology and Geophysics",
+        "end_date": "07/31/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424180",
+    "name": "Cinnamon Hillyard",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "STEM Education",
+      "S-STEM: Bothell Engineering and Technology Scholars"
+    ],
+    "website": "",
+    "email": [
+      "ch7@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2424180",
+        "title": "S-STEM: Bothell Engineering and Technology Scholars",
+        "amount": "$1,999,995.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "07/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tadesse Ghirmai tadg@uw.edu",
+      "Jennifer McLoud-Mann JMcLoud@uw.edu",
+      "Yusuf Pisan pisan@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505701",
+    "name": "Forrest Michael",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAS: Rubber Functionalization, Upcycling, and Circularity Enabled by Allylic C-H Amination"
+    ],
+    "website": "",
+    "email": [
+      "fmichael@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2505701",
+        "title": "CAS: Rubber Functionalization, Upcycling, and Circularity Enabled by Allylic C-H Amination",
+        "amount": "$660,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Matthew R Golder goldermr@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452697",
+    "name": "Gojko Lalic",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Cross-nucleophile Coupling and Homologation Reactions of Organoboron Compounds"
+    ],
+    "website": "",
+    "email": [
+      "lalic@chem.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2452697",
+        "title": "Cross-nucleophile Coupling and Homologation Reactions of Organoboron Compounds",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505637",
+    "name": "Brandi Cossairt",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Magic-Sized Clusters as Universal Intermediates for Nanomaterials Discovery"
+    ],
+    "website": "",
+    "email": [
+      "cossairt@chem.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2505637",
+        "title": "Magic-Sized Clusters as Universal Intermediates for Nanomaterials Discovery",
+        "amount": "$780,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "06/30/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515471",
+    "name": "Panpan Zhang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 2025 Conferences for New Researchers in Statistics, Probability, and Data Science"
+    ],
+    "website": "",
+    "email": [
+      "panpan.zhang@vumc.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2515471",
+        "title": "Conference: 2025 Conferences for New Researchers in Statistics, Probability, and Data Science",
+        "amount": "$39,987.00",
+        "program": "PROBABILITY, STATISTICS",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eardi Lila elila@uw.edu",
+      "Panpan Zhang (Former) panpan.zhang@vumc.org"
+    ]
+  },
+  {
+    "id": "nsf-2517714",
+    "name": "Christopher E Hoffman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: West Coast Discrete Probability and Combinatorics conference 2025"
+    ],
+    "website": "",
+    "email": [
+      "hoffman@math.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2517714",
+        "title": "Conference: West Coast Discrete Probability and Combinatorics conference 2025",
+        "amount": "$37,400.00",
+        "program": "PROBABILITY",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Erik Slivken slivkene@uncw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2446018",
+    "name": "Christine Queitsch",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site:  Novel Genome-Scale Technologies and Big Data Science"
+    ],
+    "website": "",
+    "email": [
+      "queitsch@u.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2446018",
+        "title": "REU Site:  Novel Genome-Scale Technologies and Big Data Science",
+        "amount": "$415,780.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525020",
+    "name": "Eric M Stuve",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Conference: Workshop on Rigor and Reproducibility in Electrocatalysis"
+    ],
+    "website": "",
+    "email": [
+      "stuve@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2525020",
+        "title": "Collaborative Research: Conference: Workshop on Rigor and Reproducibility in Electrocatalysis",
+        "amount": "$75,599.00",
+        "program": "Catalysis",
+        "end_date": "04/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426905",
+    "name": "Stefano Tessaro",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "SaTC: CORE: Small: New Advances in Blind Signatures and Anonymous Credentials"
+    ],
+    "website": "",
+    "email": [
+      "tessaro@cs.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2426905",
+        "title": "SaTC: CORE: Small: New Advances in Blind Signatures and Anonymous Credentials",
+        "amount": "$600,000.00",
+        "program": "Secure &Trustworthy Cyberspace",
+        "end_date": "02/29/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2420756",
+    "name": "Brandi Murphy",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Geosciences",
+      "NSF Oceanographic Technical Services - Year 1 of 5"
+    ],
+    "website": "",
+    "email": [
+      "branmu@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2420756",
+        "title": "NSF Oceanographic Technical Services - Year 1 of 5",
+        "amount": "$541,948.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Robert A Kamphaus kamphaus@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2446908",
+    "name": "Andrea Wei Coladangelo",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "CSE",
+      "REU Site: Quantum Information Science and Engineering"
+    ],
+    "website": "",
+    "email": [
+      "coladan@cs.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2446908",
+        "title": "REU Site: Quantum Information Science and Engineering",
+        "amount": "$457,963.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "01/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kai-Mei Fu kaimeifu@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2421235",
+    "name": "Aniruddh Vashisth",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Damage Reversal in Composites — Elucidating the balance between Healability ..."
+    ],
+    "website": "",
+    "email": [
+      "vashisth@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2421235",
+        "title": "Collaborative Research: Damage Reversal in Composites — Elucidating the balance between Healability and Glass Transition Temperature",
+        "amount": "$305,939.00",
+        "program": "Mechanics of Materials and Str",
+        "end_date": "12/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Matthew R Golder goldermr@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2451609",
+    "name": "Kit Yu Karen Chan",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: IOS:RUI: Hydrodynamic consequences of spines on zooplankton: Functional morp..."
+    ],
+    "website": "",
+    "email": [
+      "kychan@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2451609",
+        "title": "Collaborative Research: IOS:RUI: Hydrodynamic consequences of spines on zooplankton: Functional morphology of horns and tails on barnacle nauplii",
+        "amount": "$231,912.00",
+        "program": "Physiol Mechs & Biomechanics",
+        "end_date": "04/30/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2403771",
+    "name": "Beth Kolko",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Office of the Director",
+      "Center: SECURE - Collaborative Research Security & Integrity National Environment"
+    ],
+    "website": "",
+    "email": [
+      "bkolko@u.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2403771",
+        "title": "Center: SECURE - Collaborative Research Security & Integrity National Environment",
+        "amount": "$22,294,444.00",
+        "program": "Research Sec & Integrity ISAO",
+        "end_date": "08/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sonia Savelli ssavelli@uw.edu"
+    ]
+  },
+  {
+    "id": "nsf-2409004",
+    "name": "Peter A Selkin",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Geosciences",
+      "EMBRACE-EAR-Seed: Meltwater and Suspended Sediment in a Glaciated Volcanic Watershed"
+    ],
+    "website": "",
+    "email": [
+      "paselkin@u.washington.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2409004",
+        "title": "EMBRACE-EAR-Seed: Meltwater and Suspended Sediment in a Glaciated Volcanic Watershed",
+        "amount": "$148,707.00",
+        "program": "XC-Crosscutting Activities Pro, Geomorphology & Land-use Dynam",
+        "end_date": "08/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2413014",
+    "name": "Alvaro E Chavarria",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Washington",
+    "location": "SEATTLE, WA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: The Search for Light Dark Matter with DAMIC"
+    ],
+    "website": "",
+    "email": [
+      "chavarri@uw.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SEATTLE, WA",
+    "nsf_awards": [
+      {
+        "award_number": "2413014",
+        "title": "Collaborative Research: The Search for Light Dark Matter with DAMIC",
+        "amount": "$484,839.00",
+        "program": "Particle Astrophysics/Undergro, Particle Astrophysics/Cosmic P",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

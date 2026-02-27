@@ -1,0 +1,151 @@
+[
+  {
+    "id": "nsf-2503630",
+    "name": "Tian Li",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Tennessee Chattanooga",
+    "location": "CHATTANOOGA, TN",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Sub-Shot-Noise Limited Distributed Quantum Sensing on a Commercial Metro-Sca...",
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Demonstration of distributed quantum sensing with Heisenberg scaling by creatin..."
+    ],
+    "website": "",
+    "email": [
+      "tian-li@utc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHATTANOOGA, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2503630",
+        "title": "Collaborative Research: Sub-Shot-Noise Limited Distributed Quantum Sensing on a Commercial Metro-Scale Quantum Network via Deep-Learning-Aided Noise Suppression",
+        "amount": "$447,621.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "05/31/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2426699",
+        "title": "ExpandQISE: Track 1: Demonstration of distributed quantum sensing with Heisenberg scaling by creating multipartite entanglement among eight nodes on a commercial quantum network",
+        "amount": "$792,705.00",
+        "program": "ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Donald Reising Donald-Reising@utc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2534232",
+    "name": "Mina Sartipi",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "University of Tennessee Chattanooga",
+    "location": "CHATTANOOGA, TN",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Planning Grant: Advanced Cybersecurity for Power Distribution Infrastructure"
+    ],
+    "website": "",
+    "email": [
+      "Mina-Sartipi@utc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHATTANOOGA, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2534232",
+        "title": "Planning Grant: Advanced Cybersecurity for Power Distribution Infrastructure",
+        "amount": "$1,326,261.00",
+        "program": "Special Projects",
+        "end_date": "09/30/2026",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tian Li tian-li@utc.edu",
+      "Charlie Brock charlie@chattanoogaquantum.com",
+      "Rick Mukherjee rick-mukherjee@utc.edu",
+      "Patrick T Swingle swinglep@epb.net"
+    ]
+  },
+  {
+    "id": "nsf-2450224",
+    "name": "Raga Ahmed",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Tennessee Chattanooga",
+    "location": "CHATTANOOGA, TN",
+    "research_areas": [
+      "STEM Education",
+      "Robert Noyce Teacher Scholarship Program RESS Project: Collaborative Research: RESS in Microelectron..."
+    ],
+    "website": "",
+    "email": [
+      "raga-ahmed@utc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHATTANOOGA, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2450224",
+        "title": "Robert Noyce Teacher Scholarship Program RESS Project: Collaborative Research: RESS in Microelectronics And Artificial Intelligence to Empower STEM Teachers",
+        "amount": "$599,000.00",
+        "program": "NSF-Micron Partnership-Noyce, Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mbakisya A Onyango Mbakisya-Onyango@utc.edu",
+      "Stephanie B Philipp stephanie-philipp@utc.edu",
+      "Sharief F Babikir sharief-babikir@utc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417480",
+    "name": "Deborah A McAllister",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Tennessee Chattanooga",
+    "location": "CHATTANOOGA, TN",
+    "research_areas": [
+      "STEM Education",
+      "Measuring Faculty Use of Evidence-Based Classroom Practices and Identifying Perceived Obstacles to A..."
+    ],
+    "website": "",
+    "email": [
+      "Deborah-McAllister@utc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHATTANOOGA, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2417480",
+        "title": "Measuring Faculty Use of Evidence-Based Classroom Practices and Identifying Perceived Obstacles to Adoption",
+        "amount": "$97,899.00",
+        "program": "IUSE",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lauren Ingraham lauren-ingraham@utc.edu",
+      "Cindy Williamson cynthia-williamson@utc.edu",
+      "Deborah A McAllister (Former) Deborah-McAllister@utc.edu"
+    ]
+  }
+]

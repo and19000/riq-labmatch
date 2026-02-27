@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2526391",
+    "name": "Jeremy W Bakelar",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "UTAH TECH UNIVERSITY",
+    "location": "SAINT GEORGE, UT",
+    "research_areas": [
+      "STEM Education",
+      "Explorations: Advancing Biotechnology Careers by Integrating Experiential Learning and Entrepreneurs..."
+    ],
+    "website": "",
+    "email": [
+      "jeremy.bakelar@utahtech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT GEORGE, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2526391",
+        "title": "Explorations: Advancing Biotechnology Careers by Integrating Experiential Learning and Entrepreneurship Thinking for Rural Students",
+        "amount": "$999,882.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "12/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Erin O'Brien erin.obrien@utahtech.edu",
+      "Aaron Davis Aaron.Davis@dixie.edu",
+      "Kevin Johnston kevin.johnston@utahtech.edu",
+      "Samuel L Clarke samuel.clarke@utahtech.edu"
+    ]
+  },
+  {
+    "id": "nsf-2420820",
+    "name": "Alexander R Tye",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "UTAH TECH UNIVERSITY",
+    "location": "SAINT GEORGE, UT",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: RUI: Resolving the effects of lithospheric foundering on orogenesis: An exam..."
+    ],
+    "website": "",
+    "email": [
+      "alex.tye@utahtech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAINT GEORGE, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2420820",
+        "title": "Collaborative Research: RUI: Resolving the effects of lithospheric foundering on orogenesis: An example from the southern Puna plateau, Argentina",
+        "amount": "$371,002.00",
+        "program": "Tectonics",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

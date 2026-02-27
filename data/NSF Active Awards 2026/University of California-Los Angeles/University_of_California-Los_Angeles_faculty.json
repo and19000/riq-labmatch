@@ -1,0 +1,507 @@
+[
+  {
+    "id": "nsf-2452867",
+    "name": "Kendall N Houk",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Experimental and Theoretical Investigations of Organic Reaction Rates and Mechanisms",
+      "How Nature Repurposes Protein Folds to Catalyze Pericyclic Reactions, and New Computational Methods ..."
+    ],
+    "website": "",
+    "email": [
+      "houk@chem.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2452867",
+        "title": "Experimental and Theoretical Investigations of Organic Reaction Rates and Mechanisms",
+        "amount": "$600,001.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "01/31/2029",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2409941",
+        "title": "How Nature Repurposes Protein Folds to Catalyze Pericyclic Reactions, and New Computational Methods to Understand Pericyclase Mechanisms",
+        "amount": "$900,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2506132",
+    "name": "Ellen M Sletten",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Engineering Cyanine Aggregation and Self-assembly to Access Exceptionally Red-shifted Organic Chromo..."
+    ],
+    "website": "",
+    "email": [
+      "sletten@chem.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506132",
+        "title": "Engineering Cyanine Aggregation and Self-assembly to Access Exceptionally Red-shifted Organic Chromophores",
+        "amount": "$848,097.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "01/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Justin R Caram jcaram@chem.ucla.edu"
+    ]
+  },
+  {
+    "id": "nsf-2506151",
+    "name": "Louis Bouchard",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NMR Imaging of Non-Markovian Diffusion Transport"
+    ],
+    "website": "",
+    "email": [
+      "bouchard@chem.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506151",
+        "title": "NMR Imaging of Non-Markovian Diffusion Transport",
+        "amount": "$499,955.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "01/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2502719",
+    "name": "Steven G Clarke",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "PPM - How Is Protein Arginine Methylation Coordinated with Other Modifications to Effect Biological ..."
+    ],
+    "website": "",
+    "email": [
+      "clarke@mbi.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2502719",
+        "title": "PPM - How Is Protein Arginine Methylation Coordinated with Other Modifications to Effect Biological Function",
+        "amount": "$830,581.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "01/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525614",
+    "name": "Mani B Srivastava",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Generalizable and Adaptive RF Signal Generative Models for Next-Generation W..."
+    ],
+    "website": "",
+    "email": [
+      "mbs@ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2525614",
+        "title": "Collaborative Research: Generalizable and Adaptive RF Signal Generative Models for Next-Generation Wireless Communication and Sensing",
+        "amount": "$210,000.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "12/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510939",
+    "name": "Steven R Furlanetto",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Unlocking the Early History of Galaxy Formation"
+    ],
+    "website": "",
+    "email": [
+      "sfurlane@astro.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2510939",
+        "title": "Unlocking the Early History of Galaxy Formation",
+        "amount": "$422,493.00",
+        "program": "EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "12/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2511879",
+    "name": "Walter Gekelman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ECLIPSE-CHIPS: GOALI: Diagnostics and Physics of Plasmas in Modern Industrial CCP Etch Tools"
+    ],
+    "website": "",
+    "email": [
+      "gekelman@physics.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2511879",
+        "title": "ECLIPSE-CHIPS: GOALI: Diagnostics and Physics of Plasmas in Modern Industrial CCP Etch Tools",
+        "amount": "$600,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Patrick Pribyl pribyl@ucla.edu",
+      "Alex M Paterson alex.paterson@lamresearch.com"
+    ]
+  },
+  {
+    "id": "nsf-2528854",
+    "name": "Steffen Lindert",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Computational Studies to Improve Understanding and Outcomes of Covalent Labeling Mass Spectrometry M..."
+    ],
+    "website": "",
+    "email": [
+      "lindert@ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2528854",
+        "title": "Computational Studies to Improve Understanding and Outcomes of Covalent Labeling Mass Spectrometry Measurements",
+        "amount": "$348,398.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "07/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505702",
+    "name": "Victoria P Barber",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Exploring Uncharted Atmospheric Chemical Space with Direct Peroxy Radical Generation"
+    ],
+    "website": "",
+    "email": [
+      "vbarber@chem.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2505702",
+        "title": "Exploring Uncharted Atmospheric Chemical Space with Direct Peroxy Radical Generation",
+        "amount": "$500,000.00",
+        "program": "Environmental Chemical Science",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2528517",
+    "name": "Osvaldo Gutierrez",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAS: Computational and Experimental Mechanistic Approach to Understand and Develop Asymmetric Fe-Cat..."
+    ],
+    "website": "",
+    "email": [
+      "o.gutierrez@ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2528517",
+        "title": "CAS: Computational and Experimental Mechanistic Approach to Understand and Develop Asymmetric Fe-Catalyzed Cross-Couplings with C(sp3) Fragments",
+        "amount": "$331,854.00",
+        "program": "CMFP-Chem Mech Funct, and Prop, Chemical Catalysis",
+        "end_date": "04/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2524950",
+    "name": "Ertugrul Taciroglu",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Engineering",
+      "RAPID: Infrastructure Resilience and Impact Study for Wildfire-affected Infrastructure in Los Angele..."
+    ],
+    "website": "",
+    "email": [
+      "etacir@ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2524950",
+        "title": "RAPID: Infrastructure Resilience and Impact Study for Wildfire-affected Infrastructure in Los Angeles (2025) (IRIS-Wildfire)",
+        "amount": "$199,445.00",
+        "program": "ECI-Engineering for Civil Infr, SSA-Special Studies & Analysis",
+        "end_date": "02/28/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Negar Elhami-Khorasani negarkho@buffalo.edu",
+      "Erica Fischer erica.fischer@oregonstate.edu",
+      "Sriram Narasimhan snarasim@ucla.edu",
+      "Serdar Selamet sselamet@exponent.com"
+    ]
+  },
+  {
+    "id": "nsf-2426363",
+    "name": "Elaheh Ahmadi",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Engineering",
+      "CAREER: A novel Gallium Oxide based transistor for low-waste power conversion applications"
+    ],
+    "website": "",
+    "email": [
+      "elaheh@ucsb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2426363",
+        "title": "CAREER: A novel Gallium Oxide based transistor for low-waste power conversion applications",
+        "amount": "$206,457.00",
+        "program": "EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "01/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2436343",
+    "name": "Andrea L Bertozzi",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: MATH-DT: Mathematical Foundations of AI-assisted Digital Twins for High Powe..."
+    ],
+    "website": "",
+    "email": [
+      "andrea.bertozzi@cgu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2436343",
+        "title": "Collaborative Research: MATH-DT: Mathematical Foundations of AI-assisted Digital Twins for High Power Laser Science and Engineering",
+        "amount": "$569,051.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, COMPUTATIONAL MATHEMATICS",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sergio Carbajo scarbajo@ucla.edu"
+    ]
+  },
+  {
+    "id": "nsf-2516857",
+    "name": "Bijan Najafi",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "IUCRC Phase I Baylor College of Medicine: Center to Stream Healthcare In Place (C2SHIP)"
+    ],
+    "website": "",
+    "email": [
+      "bnajafi@mednet.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2516857",
+        "title": "IUCRC Phase I Baylor College of Medicine: Center to Stream Healthcare In Place (C2SHIP)",
+        "amount": "$144,670.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "05/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2407277",
+    "name": "Tommaso L Treu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: A Precise and Accurate Determination of the Hubble Constant Through Stellar ..."
+    ],
+    "website": "",
+    "email": [
+      "tt@astro.ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2407277",
+        "title": "Collaborative Research: A Precise and Accurate Determination of the Hubble Constant Through Stellar Kinematics of Lens Galaxies",
+        "amount": "$496,041.00",
+        "program": "EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2416599",
+    "name": "Joshua Cuzzone",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-Los Angeles",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Using the Ice Sheet and Sea-level System Model and geological constraints to..."
+    ],
+    "website": "",
+    "email": [
+      "jcuzzone@ucla.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2416599",
+        "title": "Collaborative Research: Using the Ice Sheet and Sea-level System Model and geological constraints to investigate the disappearance of the Laurentide Ice Sheet",
+        "amount": "$304,007.00",
+        "program": "ANS-Arctic Natural Sciences",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2524492",
+    "name": "Mukesh Kumar",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Houston - Downtown",
+    "location": "HOUSTON, TX",
+    "research_areas": [
+      "STEM Education",
+      "Empowering STEM Students Through Structured Computational Data Science Research"
+    ],
+    "website": "",
+    "email": [
+      "kumarm@uhd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HOUSTON, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2524492",
+        "title": "Empowering STEM Students Through Structured Computational Data Science Research",
+        "amount": "$493,617.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ali N Duman dumana@uhd.edu"
+    ]
+  }
+]

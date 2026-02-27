@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nsf-2524621",
+    "name": "Horace T Crogman",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State University-Dominguez Hills Foundation",
+    "location": "CARSON, CA",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: Empowering STEM Education through Advanced Laboratory Equipment at CSUDH"
+    ],
+    "website": "",
+    "email": [
+      "hcrogman@csudh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CARSON, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2524621",
+        "title": "Equipment: Empowering STEM Education through Advanced Laboratory Equipment at CSUDH",
+        "amount": "$199,914.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2423213",
+    "name": "Terrence McGlynn",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "California State University-Dominguez Hills Foundation",
+    "location": "CARSON, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "MCA Pilot PUI: Macroecological rules for the distribution of reflectivity of near-infrared radiation..."
+    ],
+    "website": "",
+    "email": [
+      "tmcglynn@csudh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CARSON, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2423213",
+        "title": "MCA Pilot PUI: Macroecological rules for the distribution of reflectivity of near-infrared radiation in birds and insects",
+        "amount": "$382,681.00",
+        "program": "Integrtv Ecological Physiology",
+        "end_date": "09/30/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

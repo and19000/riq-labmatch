@@ -1,0 +1,165 @@
+[
+  {
+    "id": "nsf-2511932",
+    "name": "Scott D Bergeson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Brigham Young University",
+    "location": "PROVO, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Ion Transport in Strongly Coupled Plasmas"
+    ],
+    "website": "",
+    "email": [
+      "scott.bergeson@byu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PROVO, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2511932",
+        "title": "Ion Transport in Strongly Coupled Plasmas",
+        "amount": "$249,999.00",
+        "program": "PLASMA PHYSICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452595",
+    "name": "Daniel Ess",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Brigham Young University",
+    "location": "PROVO, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "GOALI: Computational, Data Science, and Synthetic Approach to the Design of Retro-Hydroformylation C..."
+    ],
+    "website": "",
+    "email": [
+      "dhe@chem.byu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PROVO, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2452595",
+        "title": "GOALI: Computational, Data Science, and Synthetic Approach to the Design of Retro-Hydroformylation Catalysts",
+        "amount": "$487,125.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David J Michaelis dmichaelis@chem.byu.edu",
+      "Michael S Webster-Gardiner webstm@cpchem.com"
+    ]
+  },
+  {
+    "id": "nsf-2448892",
+    "name": "Leigh A Johnson",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Brigham Young University",
+    "location": "PROVO, UT",
+    "research_areas": [
+      "Biological Sciences",
+      "Enhancing storage capacity, organization, and online data availability for the BYU herbarium"
+    ],
+    "website": "",
+    "email": [
+      "leigh_johnson@byu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PROVO, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2448892",
+        "title": "Enhancing storage capacity, organization, and online data availability for the BYU herbarium",
+        "amount": "$397,600.00",
+        "program": "Capacity: Bio Collections",
+        "end_date": "07/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2407868",
+    "name": "Stacey J Smith",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Brigham Young University",
+    "location": "PROVO, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Equipment: MRI: Track 1 Acquisition of a multipurpose X-ray diffractometer for materials research"
+    ],
+    "website": "",
+    "email": [
+      "ssmith@chem.byu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PROVO, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2407868",
+        "title": "Equipment: MRI: Track 1 Acquisition of a multipurpose X-ray diffractometer for materials research",
+        "amount": "$378,596.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "12/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David T Fullwood dfullwood@byu.edu",
+      "Jeremy A Johnson jjohnson@chem.byu.edu",
+      "Kara J Stowers kstowers@chem.byu.edu",
+      "Benjamin A Frandsen benfrandsen@byu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2343286",
+    "name": "Jared P Whitehead",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Brigham Young University",
+    "location": "PROVO, UT",
+    "research_areas": [
+      "CSE",
+      "XTRIPODS: Advances and novel applications of closed-loop data assimilation, and educational improvem..."
+    ],
+    "website": "",
+    "email": [
+      "whitehead@mathematics.byu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PROVO, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2343286",
+        "title": "XTRIPODS: Advances and novel applications of closed-loop data assimilation, and educational improvements to data science courses",
+        "amount": "$199,878.00",
+        "program": "TRIPODS Transdisciplinary Rese",
+        "end_date": "08/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Blake H Barker bhbarker@gmail.com"
+    ]
+  }
+]

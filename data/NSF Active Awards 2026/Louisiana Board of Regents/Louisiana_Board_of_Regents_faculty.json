@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nsf-2437963",
+    "name": "Michael M Khonsari",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Louisiana Board of Regents",
+    "location": "BATON ROUGE, LA",
+    "research_areas": [
+      "Office of the Director",
+      "E-CORE RII: Louisiana Networks of Excellence for Tomorrow"
+    ],
+    "website": "",
+    "email": [
+      "khonsari@lsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BATON ROUGE, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2437963",
+        "title": "E-CORE RII: Louisiana Networks of Excellence for Tomorrow",
+        "amount": "$3,826,161.00",
+        "program": "EPSCoR RII: E-CORE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bala R Ramachandran ramu@latech.edu",
+      "Matthew A Tarr mtarr@uno.edu",
+      "Fred Lacy fred_lacy@subr.edu",
+      "Gregory B Upton gupton3@lsu.edu"
+    ]
+  }
+]

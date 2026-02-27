@@ -1,0 +1,263 @@
+[
+  {
+    "id": "nsf-2431438",
+    "name": "Bayaner Arigong",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE MSI: RDP: NeTS: Enabling Spectrum-Efficient Wireless Coexistence for He...",
+      "STEM Education",
+      "Equipment: CHIPS: Heterogeneous Integration and Packaging of DC-100GHz Electronics Chip and Circuits",
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 2: Developing Quantum Information Science and Engineering Research and Education P..."
+    ],
+    "website": "",
+    "email": [
+      "barigong@eng.famu.fsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2431438",
+        "title": "Collaborative Research: CISE MSI: RDP: NeTS: Enabling Spectrum-Efficient Wireless Coexistence for Heterogeneous IoT over 2.4GHz: A Hardware Software Framework Co-Design",
+        "amount": "$200,000.00",
+        "program": "CISE MSI Research Expansion",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2428790",
+        "title": "Equipment: CHIPS: Heterogeneous Integration and Packaging of DC-100GHz Electronics Chip and Circuits",
+        "amount": "$1,591,823.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      },
+      {
+        "award_number": "2426975",
+        "title": "ExpandQISE: Track 2: Developing Quantum Information Science and Engineering Research and Education Program at FAMU",
+        "amount": "$5,000,000.00",
+        "program": "ExpandQISE, Hist Black Colleges and Univ",
+        "end_date": "09/30/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 3
+  },
+  {
+    "id": "nsf-2514451",
+    "name": "Subramanian Ramakrishnan",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "STEM Education",
+      "CREST Phase II Center for Complex Materials Design",
+      "Equipment: CHIPS:  Additive Manufacturing in 3D:  precision digital manufacturing"
+    ],
+    "website": "",
+    "email": [
+      "subramanian.ramakrishnan@famu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2514451",
+        "title": "CREST Phase II Center for Complex Materials Design",
+        "amount": "$7,500,000.00",
+        "program": "ERC-Eng Research Centers, Centers for Rsch Excell in S&T",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      },
+      {
+        "award_number": "2429243",
+        "title": "Equipment: CHIPS:  Additive Manufacturing in 3D:  precision digital manufacturing",
+        "amount": "$689,074.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "04/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Jamel Ali jali@eng.famu.fsu.edu",
+      "Daniel T Hallinan dhallinan@eng.famu.fsu.edu",
+      "Tarik J Dickens tarik.dickens@famu.edu",
+      "Jillian L Pope jillian.pope@famu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2523716",
+    "name": "Hongmei Chi",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE Crosscutting Small: SCH: Using Explainable AI and Quantum-inspired Comp..."
+    ],
+    "website": "",
+    "email": [
+      "hongmei.w.chi@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2523716",
+        "title": "Collaborative Research: CISE Crosscutting Small: SCH: Using Explainable AI and Quantum-inspired Computing to Uncover Genetic Insights",
+        "amount": "$309,736.00",
+        "program": "Smart and Connected Health",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2502930",
+    "name": "Jizhe Cai",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "Engineering",
+      "Excellence in Research: Mechanics of Interpenetrating Strut-Foam Smart Composites for Aerospace Engi..."
+    ],
+    "website": "",
+    "email": [
+      "jcai@eng.famu.fsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2502930",
+        "title": "Excellence in Research: Mechanics of Interpenetrating Strut-Foam Smart Composites for Aerospace Engineering and Beyond",
+        "amount": "$785,386.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510201",
+    "name": "Lichun Li",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "STEM Education",
+      "Targeted Infusion Project: Creating Pathways to the QISE Workforce: The FAMU Undergraduate Initiativ..."
+    ],
+    "website": "",
+    "email": [
+      "lichunli@eng.famu.fsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2510201",
+        "title": "Targeted Infusion Project: Creating Pathways to the QISE Workforce: The FAMU Undergraduate Initiative",
+        "amount": "$399,978.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "07/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shouping Hu shu@fsu.edu",
+      "Wei Guo wguo@magnet.fsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417643",
+    "name": "Clement G Yedjou",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "Biological Sciences",
+      "RCN-UBE: HBCU Faculty Collaborative Network for the Integration of Artificial Intelligence and Machi..."
+    ],
+    "website": "",
+    "email": [
+      "clement.yedjou@famu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2417643",
+        "title": "RCN-UBE: HBCU Faculty Collaborative Network for the Integration of Artificial Intelligence and Machine Learning into Teaching General Biology",
+        "amount": "$500,000.00",
+        "program": "UBE - Undergraduate Biology Ed, IUSE",
+        "end_date": "09/30/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Waneene C Dorsey dorseywc@gram.edu",
+      "Jinwei Liu jinwei.liu@famu.edu",
+      "Felicite Noubissi FELICITE.NOUBISSI_KAMDEM@JSUMS.EDU",
+      "JAMEKA N GRIGSBY Jngrigsby@alcorn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426768",
+    "name": "Wei Guo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Florida Agricultural and Mechanical University",
+    "location": "TALLAHASSEE, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 2: Quantum Fluids and Solids as Platforms for Quantum Science and Engineering"
+    ],
+    "website": "",
+    "email": [
+      "wguo@magnet.fsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "TALLAHASSEE, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2426768",
+        "title": "ExpandQISE: Track 2: Quantum Fluids and Solids as Platforms for Quantum Science and Engineering",
+        "amount": "$5,000,000.00",
+        "program": "ExpandQISE, SSA-Special Studies & Analysis, AISL",
+        "end_date": "09/30/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jack Harris jack.harris@yale.edu",
+      "Zhibin Yu zyu@eng.famu.fsu.edu",
+      "Dafei Jin dfjin@nd.edu",
+      "Mario Encinosa mario.encinosa@famu.edu"
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "nsf-2535930",
+    "name": "Carla E Brodley",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "EAGER: Addressing the Community College Credit Loss Problem within Four-Year Computer Science Progra...",
+      "CSE",
+      "CUE-T: A Study of the Creation of Interdisciplinary Computing Majors - Their Implementation and Impa..."
+    ],
+    "website": "",
+    "email": [
+      "c.brodley@neu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2535930",
+        "title": "EAGER: Addressing the Community College Credit Loss Problem within Four-Year Computer Science Programs",
+        "amount": "$296,283.00",
+        "program": "Special Projects",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      },
+      {
+        "award_number": "2434248",
+        "title": "CUE-T: A Study of the Creation of Interdisciplinary Computing Majors - Their Implementation and Impact on Broadening Participation in Computing at 10 Public Universities",
+        "amount": "$1,954,865.00",
+        "program": "IUSE: Computing Undergrad Educ",
+        "end_date": "11/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2505012",
+    "name": "David R Choffnes",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS: Medium: Intent-based Internet Ingress Routing",
+      "Collaborative Research: NeTS: Medium: Measurement, Modeling and Analysis to Assess Network Connectiv..."
+    ],
+    "website": "",
+    "email": [
+      "choffnes@ccs.neu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2505012",
+        "title": "Collaborative Research: NeTS: Medium: Intent-based Internet Ingress Routing",
+        "amount": "$387,837.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "07/31/2029",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2402961",
+        "title": "Collaborative Research: NeTS: Medium: Measurement, Modeling and Analysis to Assess Network Connectivity and Performance at Anchor Institutions",
+        "amount": "$360,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2503754",
+    "name": "Cristian Cassella",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "Boosting Radios' ReSilience to Interference by Harnessing Magnon-Phonon Coupling In the First Electr...",
+      "CSE",
+      "FET: Small: Low-Power Computing based on Programmable Multidimensional Circuits"
+    ],
+    "website": "",
+    "email": [
+      "c.cassella@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2503754",
+        "title": "Boosting Radios' ReSilience to Interference by Harnessing Magnon-Phonon Coupling In the First ElectromechanicaL SpinPhonic Devices (SHIELD)",
+        "amount": "$500,000.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "03/31/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2435418",
+        "title": "FET: Small: Low-Power Computing based on Programmable Multidimensional Circuits",
+        "amount": "$600,000.00",
+        "program": "FET-Fndtns of Emerging Tech",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Xufeng Zhang xu.zhang@northeastern.edu"
+    ]
+  },
+  {
+    "id": "nsf-2530896",
+    "name": "Francesco Restuccia",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "CSE",
+      "CICI: IPAAI: REPAIRT: Securing xApps in Open RANs with Reliable and Principled AI Red-Teaming"
+    ],
+    "website": "",
+    "email": [
+      "frestuc@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2530896",
+        "title": "CICI: IPAAI: REPAIRT: Securing xApps in Open RANs with Reliable and Principled AI Red-Teaming",
+        "amount": "$900,000.00",
+        "program": "Cybersecurity Innovation",
+        "end_date": "12/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Flavio Esposito flavio.esposito@slu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2515168",
+    "name": "John J Basl",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "CSE",
+      "IUCRC: Phase I: Northeastern University: Center on Responsible AI and Governance (CRAIG)"
+    ],
+    "website": "",
+    "email": [
+      "j.basl@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2515168",
+        "title": "IUCRC: Phase I: Northeastern University: Center on Responsible AI and Governance (CRAIG)",
+        "amount": "$174,040.00",
+        "program": "ER2-Ethical & Responsible Res, IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "09/30/2030",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Cansu Canca c.canca@northeastern.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434016",
+    "name": "Guevara Noubir",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "S3Era4: Securing Spectrum Sharing in Era 4"
+    ],
+    "website": "",
+    "email": [
+      "noubir@ccs.neu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2434016",
+        "title": "S3Era4: Securing Spectrum Sharing in Era 4",
+        "amount": "$380,000.00",
+        "program": "SII-Spectrum Innovation Initia",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2526200",
+    "name": "Yang Ye",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: Beginnings: Engaging and Preparing the Offshore Wind Workforce through Hybri..."
+    ],
+    "website": "",
+    "email": [
+      "y.ye@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2526200",
+        "title": "Collaborative Research: Beginnings: Engaging and Preparing the Offshore Wind Workforce through Hybrid Experiential Learning",
+        "amount": "$882,522.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yingzi Lin yi.lin@neu.edu",
+      "Andrew T Myers atm@neu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453553",
+    "name": "Steven A Lopez",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Theory and Synthesis of Strained Cyclic Photoswitches Towards Controlling Is..."
+    ],
+    "website": "",
+    "email": [
+      "s.lopez@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2453553",
+        "title": "Collaborative Research: Theory and Synthesis of Strained Cyclic Photoswitches Towards Controlling Isomerization and Cycloadditions",
+        "amount": "$260,096.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2523696",
+    "name": "Alina Lungeanu",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Collaborative Research: Collaboration Front and Center: Evaluating Interdisciplinary Networks in Res..."
+    ],
+    "website": "",
+    "email": [
+      "a.lungeanu@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2523696",
+        "title": "Collaborative Research: Collaboration Front and Center: Evaluating Interdisciplinary Networks in Research Institutes",
+        "amount": "$199,845.00",
+        "program": "National Nanotechnology Coordi, Science of Science, EngEd-Engineering Education",
+        "end_date": "08/31/2027",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Dakota S Murray d.murray@northeastern.edu",
+      "Alina Lungeanu (Former) a.lungeanu@northeastern.edu"
+    ]
+  },
+  {
+    "id": "nsf-2534124",
+    "name": "Nikolai Slavov",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Biological Sciences",
+      "Making Single-Cell Proteomics data FAIR"
+    ],
+    "website": "",
+    "email": [
+      "nslavov@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2534124",
+        "title": "Making Single-Cell Proteomics data FAIR",
+        "amount": "$498,240.00",
+        "program": "Capacity: Cyberinfrastructure",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430575",
+    "name": "Ruobing Bai",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Mechanics of End-Linked Polymer Networks with Strain-Induced Crystallization..."
+    ],
+    "website": "",
+    "email": [
+      "ru.bai@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2430575",
+        "title": "Collaborative Research: Mechanics of End-Linked Polymer Networks with Strain-Induced Crystallization Regulated by Topological Defects",
+        "amount": "$336,240.00",
+        "program": "Mechanics of Materials and Str",
+        "end_date": "01/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2418664",
+    "name": "Malihe Alikhani",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Building Real-time Intelligent Grounding in Deaf Education"
+    ],
+    "website": "",
+    "email": [
+      "m.alikhani@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2418664",
+        "title": "Collaborative Research: Building Real-time Intelligent Grounding in Deaf Education",
+        "amount": "$267,649.00",
+        "program": "Cyberlearn & Future Learn Tech",
+        "end_date": "08/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2348189",
+    "name": "Hari Prasath Palani",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: An Intelligent Natural Language Interface to Improve the Accessibility of Co..."
+    ],
+    "website": "",
+    "email": [
+      "ha.palani@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2348189",
+        "title": "Collaborative Research: An Intelligent Natural Language Interface to Improve the Accessibility of Complex Data Tasks for Blind or Visually Impaired STEM Employees",
+        "amount": "$833,269.00",
+        "program": "Disabilities Research in STEM, ECR-EDU Core Research",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nicholas Giudice nicholas.giudice@maine.edu",
+      "Melanie Tory m.tory@northeastern.edu"
+    ]
+  },
+  {
+    "id": "nsf-2329943",
+    "name": "Andrew L Gillen",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "BPE-Track 1: Collaborative Research: Planning: Developing Accessible Pathways to Civil Engineering I..."
+    ],
+    "website": "",
+    "email": [
+      "a.gillen@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2329943",
+        "title": "BPE-Track 1: Collaborative Research: Planning: Developing Accessible Pathways to Civil Engineering Industry for Students with Disabilities: Initiating Partnerships with Industry",
+        "amount": "$32,889.00",
+        "program": "EDA-Eng Diversity Activities",
+        "end_date": "08/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2433994",
+    "name": "Kenneth Duffy",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Northeastern University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Interferers in our midst"
+    ],
+    "website": "",
+    "email": [
+      "k.duffy@northeastern.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2433994",
+        "title": "Collaborative Research: Interferers in our midst",
+        "amount": "$260,000.00",
+        "program": "SWIFT-Spectrum Innov Futr Tech",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2519355",
+    "name": "Yusui Chen",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "New York Institute of Technology",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CyberTraining: Pilot: Collaborative Quantum Computing and Cybersecurity Trai..."
+    ],
+    "website": "",
+    "email": [
+      "yusui.chen@nyit.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2519355",
+        "title": "Collaborative Research: CyberTraining: Pilot: Collaborative Quantum Computing and Cybersecurity Training Through Cyberinfrastructures",
+        "amount": "$149,999.00",
+        "program": "CyberTraining - Training-based",
+        "end_date": "07/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2327146",
+    "name": "Xueqing Huang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "New York Institute of Technology",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Stem Cell Maturity Evaluation and Promotion with An Intelligent Lab-on-Chip ..."
+    ],
+    "website": "",
+    "email": [
+      "xhuang25@nyit.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2327146",
+        "title": "Collaborative Research: Stem Cell Maturity Evaluation and Promotion with An Intelligent Lab-on-Chip Framework",
+        "amount": "$192,150.00",
+        "program": "Engineering of Biomed Systems",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Fang Li fli08@nyit.edu"
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "nsf-2430310",
+    "name": "Zhiping Luo",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Fayetteville State University",
+    "location": "FAYETTEVILLE, NC",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: Ideas Lab: HBCU Climate Action Network",
+      "Collaborative Research: Ideas Lab: Partnership for Advancing Research Capacity in Semiconductors at ..."
+    ],
+    "website": "",
+    "email": [
+      "zluo@uncfsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FAYETTEVILLE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2430310",
+        "title": "Collaborative Research: Ideas Lab: HBCU Climate Action Network",
+        "amount": "$39,000.00",
+        "program": "HBCU-EiR - HBCU-Excellence in, XC-Crosscutting Activities Pro",
+        "end_date": "08/31/2026",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2430295",
+        "title": "Collaborative Research: Ideas Lab: Partnership for Advancing Research Capacity in Semiconductors at Historically Black Colleges and Universities",
+        "amount": "$537,468.00",
+        "program": "EDUCATION AND WORKFORCE, HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Bhoj R Gautam bgautam@uncfsu.edu",
+      "Trung V Tran ttran1@uncfsu.edu",
+      "Sangeetha Balabhadra Sbalabhadra@uncfsu.edu",
+      "Juan Ma jma@uncfsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424813",
+    "name": "Justin W Graham",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Fayetteville State University",
+    "location": "FAYETTEVILLE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Supporting Undergraduate Success in Biology, Forensic Science, Mathematics, Computer Science, and Cy..."
+    ],
+    "website": "",
+    "email": [
+      "jwgraham01@uncfsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FAYETTEVILLE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2424813",
+        "title": "Supporting Undergraduate Success in Biology, Forensic Science, Mathematics, Computer Science, and Cybersecurity through Scholarships and Mentoring",
+        "amount": "$1,999,980.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "08/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Erin N White ewhite@uncfsu.edu",
+      "Perry Gillespie pgillespie@uncfsu.edu",
+      "Danielle Graham degraham@uncfsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2509972",
+    "name": "Tomilowo Abijo",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Fayetteville State University",
+    "location": "FAYETTEVILLE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Targeted Infusion Project: Developing Course-Based Undergraduate Research Experiences to Enhance Stu..."
+    ],
+    "website": "",
+    "email": [
+      "tabijo@uncfsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FAYETTEVILLE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2509972",
+        "title": "Targeted Infusion Project: Developing Course-Based Undergraduate Research Experiences to Enhance Students Capacity Through Genetic Engineering and Computational Biology (GECoB)",
+        "amount": "$393,641.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "07/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jiazheng Yuan jyuan@uncfsu.edu",
+      "Willietta Gibson wgibson@uncfsu.edu"
+    ]
+  }
+]

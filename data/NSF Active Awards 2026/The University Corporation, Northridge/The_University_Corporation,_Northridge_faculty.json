@@ -1,0 +1,130 @@
+[
+  {
+    "id": "nsf-2519446",
+    "name": "John Valdovinos",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "The University Corporation, Northridge",
+    "location": "NORTHRIDGE, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CyberTraining: Implementation: Medium: Cybertraining for Expanding the Use o..."
+    ],
+    "website": "",
+    "email": [
+      "john.valdovinos@csun.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORTHRIDGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2519446",
+        "title": "Collaborative Research: CyberTraining: Implementation: Medium: Cybertraining for Expanding the Use of Digital Twin Technologies in Robotics",
+        "amount": "$60,877.00",
+        "program": "CyberTraining - Training-based",
+        "end_date": "10/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506192",
+    "name": "Thomas Minehan",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "The University Corporation, Northridge",
+    "location": "NORTHRIDGE, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Exploring the Utility of Antiparallel Triplex-forming CNA Dimers as Sequence-specific DNA Major..."
+    ],
+    "website": "",
+    "email": [
+      "thomas.minehan@csun.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORTHRIDGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506192",
+        "title": "RUI: Exploring the Utility of Antiparallel Triplex-forming CNA Dimers as Sequence-specific DNA Major Groove Binding Agents",
+        "amount": "$345,248.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2436865",
+    "name": "Crist S Khachikian",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "The University Corporation, Northridge",
+    "location": "NORTHRIDGE, CA",
+    "research_areas": [
+      "Engineering",
+      "Research: Enhancing Engineering Identity through Faculty Communication: A Focus on Latinx Students"
+    ],
+    "website": "",
+    "email": [
+      "crist.khachikian@csun.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORTHRIDGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2436865",
+        "title": "Research: Enhancing Engineering Identity through Faculty Communication: A Focus on Latinx Students",
+        "amount": "$366,778.00",
+        "program": "EngEd-Engineering Education",
+        "end_date": "01/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Daisy R Lemus daisy.lemus@csun.edu",
+      "Melissa F Tindage melissa.tindage@csun.edu"
+    ]
+  },
+  {
+    "id": "nsf-2406524",
+    "name": "Donna Sheng",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "The University Corporation, Northridge",
+    "location": "NORTHRIDGE, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Equipment: MRI: Track 1 Acquisition of an Advanced Beowulf Cluster for Quantum Information and Mater..."
+    ],
+    "website": "",
+    "email": [
+      "donna.sheng@csun.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORTHRIDGE, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2406524",
+        "title": "Equipment: MRI: Track 1 Acquisition of an Advanced Beowulf Cluster for Quantum Information and Materials Research and Education",
+        "amount": "$524,172.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nicholas G Kioussis nick.kioussis@csun.edu",
+      "Yang Peng yang.peng@csun.edu"
+    ]
+  }
+]

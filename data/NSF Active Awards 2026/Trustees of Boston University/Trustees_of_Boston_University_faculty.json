@@ -1,0 +1,131 @@
+[
+  {
+    "id": "nsf-2453680",
+    "name": "Eric S Cueny",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Trustees of Boston University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Single Molecule Conductance Spectroscopy to Probe Aurophilicity and Catalysis of Dinuclear Gold Comp..."
+    ],
+    "website": "",
+    "email": [
+      "ecueny@bu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2453680",
+        "title": "Single Molecule Conductance Spectroscopy to Probe Aurophilicity and Catalysis of Dinuclear Gold Complexes",
+        "amount": "$625,000.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Maria Kamenetska mkamenet@bu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447191",
+    "name": "Darren Roblyer",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Trustees of Boston University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Translational Biophotonics"
+    ],
+    "website": "",
+    "email": [
+      "roblyer@bu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2447191",
+        "title": "REU Site: Translational Biophotonics",
+        "amount": "$462,600.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "03/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Irving J Bigio bigio@bu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2435918",
+    "name": "Sahar Sharifzadeh",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Trustees of Boston University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Understanding Exciton Transport Within Ordered Organic Assemblies from First-Principles Modeling"
+    ],
+    "website": "",
+    "email": [
+      "ssharifz@bu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2435918",
+        "title": "Understanding Exciton Transport Within Ordered Organic Assemblies from First-Principles Modeling",
+        "amount": "$267,000.00",
+        "program": "CONDENSED MATTER & MAT THEORY",
+        "end_date": "01/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2349173",
+    "name": "Xin Zhang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Trustees of Boston University",
+    "location": "BOSTON, MA",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Integrated Nanomanufacturing"
+    ],
+    "website": "",
+    "email": [
+      "xinz@bu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOSTON, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2349173",
+        "title": "REU Site: Integrated Nanomanufacturing",
+        "amount": "$464,871.00",
+        "program": "SSA-Special Studies & Analysis",
+        "end_date": "12/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Thomas G Bifano tgb@bu.edu"
+    ]
+  }
+]

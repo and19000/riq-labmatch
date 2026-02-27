@@ -2,15 +2,15 @@
 
 {% block content %}
   <h1>Find Potential PIs</h1>
-  
+
   <div class="page-with-sidebar">
     <!-- Filters Sidebar -->
     <aside class="filters-sidebar">
       <h3>Filters</h3>
-      <form method="get" action="{{ url_for('general') }}">
+      <form method="get" action="{{ url_for('general') }}" id="filter-form">
         <div class="filter-section">
           <label for="school">Institution:</label>
-          <select id="school" name="school" onchange="this.form.submit()">
+          <select id="school" name="school" class="custom-select" onchange="this.form.submit()">
             <option value="">All Institutions</option>
             {% for school in schools %}
               <option value="{{ school }}" {% if selected_school == school %}selected{% endif %}>{{ school }}</option>
@@ -19,52 +19,66 @@
         </div>
 
         <div class="filter-section">
-          <label for="department">Field:</label>
-          <select id="department" name="department" onchange="this.form.submit()">
-            <option value="">All Fields</option>
-            {% for dept in departments %}
-              <option value="{{ dept }}" {% if selected_department == dept %}selected{% endif %}>{{ dept }}</option>
+          <label for="dept_category">Department:</label>
+          <select id="dept_category" name="dept_category" class="custom-select" onchange="clearSubfieldAndSubmit()">
+            <option value="">All Departments</option>
+            {% for cat in dept_categories %}
+              <option value="{{ cat }}" {% if selected_dept_category == cat %}selected{% endif %}>{{ DEPT_CATEGORY_DISPLAY.get(cat, cat) }}</option>
             {% endfor %}
           </select>
         </div>
 
+        {% if selected_dept_category and subfields|length > 0 %}
         <div class="filter-section">
-          <label for="technique">Techniques:</label>
-          <div class="technique-dropdown-wrapper">
-            <input type="text" 
-                   id="technique-search" 
-                   class="technique-search-input" 
-                   placeholder="Type to search techniques..."
+          <label for="subfield-search">Subfield <span style="font-weight: normal; color: var(--text-dim);">(optional)</span>:</label>
+          <div class="autocomplete-dropdown-wrapper">
+            <input type="text"
+                   id="subfield-search"
+                   class="autocomplete-search-input"
+                   placeholder="Type to search subfields..."
                    autocomplete="off">
-            <input type="hidden" name="technique" id="technique-input" value="{{ selected_technique if selected_technique else '' }}">
-            <div class="technique-dropdown" id="technique-dropdown" style="display: none;">
-              {% for tech in techniques %}
-                <div class="technique-dropdown-option" data-value="{{ tech }}" data-label="{{ tech }}">
-                  {{ tech }}
-                </div>
+            <input type="hidden" name="subfield" id="subfield-input" value="{{ selected_subfield or '' }}">
+            <div class="autocomplete-dropdown" id="subfield-dropdown" style="display: none;">
+              {% for sf in subfields %}
+                <div class="autocomplete-dropdown-option" data-value="{{ sf }}" data-label="{{ sf }}">{{ sf }}</div>
               {% endfor %}
             </div>
-            {% if selected_technique %}
-              <div class="selected-technique-display">
-                <span>{{ selected_technique }}</span>
-                <button type="button" class="clear-technique" onclick="clearTechnique()">×</button>
+            {% if selected_subfield %}
+              <div class="selected-filter-display">
+                <span>{{ selected_subfield }}</span>
+                <button type="button" class="clear-filter-btn" onclick="clearSubfield()">×</button>
               </div>
             {% endif %}
           </div>
-          <button type="submit" class="btn-primary" style="margin-top: 0.5rem; width: 100%; padding: 0.5rem; font-size: 0.9rem;">Apply Filters</button>
+          <button type="submit" class="btn-primary" style="margin-top: 0.5rem; width: 100%; padding: 0.5rem; font-size: 0.9rem;">Apply</button>
         </div>
+        {% endif %}
 
         <div class="filter-section">
-          <label for="location">Location:</label>
-          <select id="location" name="location" onchange="this.form.submit()">
-            <option value="">All Locations</option>
-            {% for loc in locations %}
-              <option value="{{ loc }}" {% if selected_location == loc %}selected{% endif %}>{{ loc }}</option>
-            {% endfor %}
-          </select>
+          <label for="location-search">Location:</label>
+          <div class="autocomplete-dropdown-wrapper">
+            <input type="text"
+                   id="location-search"
+                   class="autocomplete-search-input"
+                   placeholder="Type to search locations..."
+                   autocomplete="off">
+            <input type="hidden" name="location" id="location-input" value="{{ selected_location or '' }}">
+            <div class="autocomplete-dropdown" id="location-dropdown" style="display: none;">
+              {% for loc in locations %}
+                <div class="autocomplete-dropdown-option" data-value="{{ loc }}" data-label="{{ loc }}">{{ loc }}</div>
+              {% endfor %}
+            </div>
+            {% if selected_location %}
+              <div class="selected-filter-display">
+                <span>{{ selected_location }}</span>
+                <button type="button" class="clear-filter-btn" onclick="clearLocation()">×</button>
+              </div>
+            {% endif %}
+          </div>
+          <button type="submit" class="btn-primary" style="margin-top: 0.5rem; width: 100%; padding: 0.5rem; font-size: 0.9rem;">Apply</button>
         </div>
 
-        {% if selected_school or selected_department or selected_technique or selected_location %}
+        {% if selected_school or selected_dept_category or selected_subfield or selected_location %}
           <a href="{{ url_for('general') }}" class="btn-secondary" style="width: 100%; text-align: center; margin-top: 1rem; display: inline-block;">Clear Filters</a>
         {% endif %}
       </form>
@@ -72,8 +86,26 @@
 
     <!-- Main Content -->
     <div class="main-content">
-      <div class="search-bar-container">
-        <input type="text" class="search-bar" placeholder="Search by field (e.g. 'Physics'), professor name, institution, or research area..." id="searchInput">
+      <!-- Decorative planet graphic (background) -->
+      <div class="browse-planet-graphic" aria-hidden="true">
+        <div class="browse-planet-container">
+          <div class="browse-planet-core"></div>
+          <div class="browse-planet-ring ring-a"></div>
+          <div class="browse-planet-ring ring-b"></div>
+          <div class="browse-star-field">
+            <div class="browse-star bs-1"></div>
+            <div class="browse-star bs-2"></div>
+            <div class="browse-star bs-3"></div>
+            <div class="browse-star bs-4"></div>
+            <div class="browse-star bs-5"></div>
+            <div class="browse-star bs-6"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-bar-container" style="position: relative;">
+        <input type="text" class="search-bar" placeholder="Search by name, field, research area, or institution..." id="searchInput" autocomplete="off">
+        <div class="search-hint" style="font-size: 0.75rem; color: var(--text-dim); margin-top: 0.25rem;">Searches across all PIs, not just the current page</div>
         <div class="search-count">
           {% if total_count is defined and total_count > 0 %}
             Showing <strong>{{ show_start }}-{{ show_end }}</strong> of <strong>{{ total_count }}</strong> lab{{ 's' if total_count != 1 else '' }}
@@ -85,6 +117,29 @@
         </div>
       </div>
 
+      <!-- Inline search results (replaces the table when searching) -->
+      <div id="inlineSearchResults" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <div class="search-count" id="inlineSearchCount"></div>
+          <button class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;" onclick="clearSearch()">Clear Search</button>
+        </div>
+        <div class="labs-table-container">
+          <table class="labs-table general-labs-table">
+            <thead>
+              <tr>
+                <th style="width: 100px;">Logo</th>
+                <th>Professor</th>
+                <th>Info</th>
+                <th>Email</th>
+                <th style="width: 120px;">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="inlineSearchBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="originalContent">
       {% if faculty_list %}
         <div class="labs-table-container">
           <table class="labs-table general-labs-table">
@@ -141,7 +196,7 @@
                     {% endif %}
                     {% if pi.get('google_scholar') %}
                       <a href="{{ pi.google_scholar }}" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">
-                        📚 Google Scholar
+                        Google Scholar
                       </a>
                     {% endif %}
                   </td>
@@ -149,7 +204,7 @@
                     {% if pi.email and pi.email.strip() %}
                       <a href="mailto:{{ pi.email }}" class="table-email">{{ pi.email }}</a>
                     {% else %}
-                      <span style="color: var(--text-dim); font-size: 0.85rem;">[placeholder]</span>
+                      <span class="text-dim-sm">Not available</span>
                     {% endif %}
                   </td>
                   <td>
@@ -183,204 +238,294 @@
       {% if faculty_list and total_pages is defined and total_pages > 1 %}
         <nav class="pagination" aria-label="Pagination">
           {% if page > 1 %}
-            <a href="{{ url_for('general', **pagination_query(page - 1)) }}" class="page-link">← Previous</a>
+            <a href="{{ url_for('general', **pagination_query(page - 1)) }}" class="page-link">&larr; Previous</a>
           {% endif %}
           <span class="page-info">Page {{ page }} of {{ total_pages }}</span>
           {% if page < total_pages %}
-            <a href="{{ url_for('general', **pagination_query(page + 1)) }}" class="page-link">Next →</a>
+            <a href="{{ url_for('general', **pagination_query(page + 1)) }}" class="page-link">Next &rarr;</a>
           {% endif %}
         </nav>
       {% endif %}
+      </div><!-- end #originalContent -->
     </div>
   </div>
 
   <script>
-    // Technique dropdown functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      const techniqueSearch = document.getElementById('technique-search');
-      const techniqueDropdown = document.getElementById('technique-dropdown');
-      const techniqueInput = document.getElementById('technique-input');
-      const techniqueOptions = techniqueDropdown ? techniqueDropdown.querySelectorAll('.technique-dropdown-option') : [];
-      
-      if (techniqueSearch && techniqueDropdown) {
-        // Show/hide dropdown on focus/blur
-        techniqueSearch.addEventListener('focus', function() {
-          filterTechniqueOptions('');
-          techniqueDropdown.style.display = 'block';
-        });
-        
-        // Filter options as user types
-        techniqueSearch.addEventListener('input', function(e) {
-          const searchTerm = e.target.value.toLowerCase();
-          filterTechniqueOptions(searchTerm);
-        });
-        
-        // Handle option selection
-        techniqueOptions.forEach(option => {
-          option.addEventListener('click', function() {
-            const value = this.getAttribute('data-value');
-            const label = this.getAttribute('data-label');
-            techniqueInput.value = value;
-            techniqueSearch.value = label;
-            techniqueDropdown.style.display = 'none';
-            
-            // Show selected technique display
-            showSelectedTechnique(label);
-          });
-        });
-        
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(e) {
-          if (!techniqueSearch.contains(e.target) && !techniqueDropdown.contains(e.target)) {
-            techniqueDropdown.style.display = 'none';
-          }
-        });
-      }
-      
-      function filterTechniqueOptions(searchTerm) {
-        techniqueOptions.forEach(option => {
-          const label = option.getAttribute('data-label').toLowerCase();
-          if (label.includes(searchTerm)) {
-            option.style.display = 'block';
-          } else {
-            option.style.display = 'none';
-          }
-        });
-      }
-      
-      function showSelectedTechnique(label) {
-        const wrapper = document.querySelector('.technique-dropdown-wrapper');
-        let display = wrapper.querySelector('.selected-technique-display');
-        if (!display) {
-          display = document.createElement('div');
-          display.className = 'selected-technique-display';
-          wrapper.appendChild(display);
-        }
-        display.innerHTML = '<span>' + label + '</span><button type="button" class="clear-technique" onclick="clearTechnique()">×</button>';
-        techniqueSearch.style.display = 'none';
-      }
-      
-      // If technique is already selected, show it
-      const selectedValue = techniqueInput ? techniqueInput.value : '';
-      if (selectedValue) {
-        const selectedOption = Array.from(techniqueOptions).find(opt => opt.getAttribute('data-value') === selectedValue);
-        if (selectedOption) {
-          showSelectedTechnique(selectedOption.getAttribute('data-label'));
-        }
-      }
-    });
-    
-    function clearTechnique() {
-      const techniqueInput = document.getElementById('technique-input');
-      const techniqueSearch = document.getElementById('technique-search');
-      const display = document.querySelector('.selected-technique-display');
-      
-      if (techniqueInput) techniqueInput.value = '';
-      if (techniqueSearch) {
-        techniqueSearch.value = '';
-        techniqueSearch.style.display = 'block';
-      }
-      if (display) display.remove();
-    }
-    
-    // Update location dropdown when school changes
-    document.addEventListener('DOMContentLoaded', function() {
-      const schoolSelect = document.getElementById('school');
-      if (schoolSelect) {
-        schoolSelect.addEventListener('change', function() {
-          // The form will auto-submit, which will reload with filtered locations
-          // But we can also clear the location selection since it may not be valid for the new school
-          const locationSelect = document.getElementById('location');
-          if (locationSelect) {
-            locationSelect.value = '';
-          }
-        });
-      }
-    });
-    
-    // Ranked search functionality — scores and sorts results by relevance
-    document.addEventListener('DOMContentLoaded', function() {
-      const searchInput = document.getElementById('searchInput');
-      if (!searchInput) return;
+    // ── Autocomplete dropdown helper (reusable for subfield and location) ──
+    function initAutocomplete(searchId, dropdownId, hiddenInputId, onSelect) {
+      const searchEl = document.getElementById(searchId);
+      const dropdownEl = document.getElementById(dropdownId);
+      const hiddenEl = document.getElementById(hiddenInputId);
+      if (!searchEl || !dropdownEl) return;
 
-      const tbody = document.querySelector('.labs-table tbody');
-      const rows = Array.from(document.querySelectorAll('.pi-row'));
-      // Save original order for restoring when search is cleared
-      const originalOrder = rows.map(row => row);
+      const options = dropdownEl.querySelectorAll('.autocomplete-dropdown-option');
 
-      let debounceTimer = null;
-      searchInput.addEventListener('input', function(e) {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => performSearch(e.target.value), 150);
+      searchEl.addEventListener('focus', function() {
+        filterOptions('');
+        dropdownEl.style.display = 'block';
       });
 
-      function performSearch(rawTerm) {
-        const searchTerm = rawTerm.trim().toLowerCase();
+      searchEl.addEventListener('input', function(e) {
+        filterOptions(e.target.value.toLowerCase());
+      });
 
-        if (!searchTerm) {
-          // Restore original order and show all
-          originalOrder.forEach(row => {
-            row.style.display = '';
-            tbody.appendChild(row);
-          });
-          updateCount(rows.length);
-          return;
+      options.forEach(option => {
+        option.addEventListener('click', function() {
+          const value = this.getAttribute('data-value');
+          const label = this.getAttribute('data-label');
+          hiddenEl.value = value;
+          searchEl.value = label;
+          dropdownEl.style.display = 'none';
+          showSelected(label);
+          if (onSelect) onSelect(value);
+        });
+      });
+
+      document.addEventListener('click', function(e) {
+        if (!searchEl.contains(e.target) && !dropdownEl.contains(e.target)) {
+          dropdownEl.style.display = 'none';
         }
+      });
 
-        // Split into words for multi-word matching
-        const terms = searchTerm.split(/\s+/).filter(t => t.length > 0);
-
-        const scored = rows.map(row => {
-          const name = row.getAttribute('data-name') || '';
-          const institution = row.getAttribute('data-institution') || '';
-          const department = row.getAttribute('data-department') || '';
-          const research = row.getAttribute('data-research') || '';
-          const techniques = row.getAttribute('data-techniques') || '';
-
-          let score = 0;
-
-          for (const term of terms) {
-            // Department/field: highest priority (+4)
-            if (department.includes(term)) score += 4;
-            // Professor name: high priority (+3)
-            if (name.includes(term)) score += 3;
-            // Institution: medium priority (+2)
-            if (institution.includes(term)) score += 2;
-            // Research areas: medium priority (+2)
-            if (research.includes(term)) score += 2;
-            // Techniques: lower priority (+1)
-            if (techniques.includes(term)) score += 1;
-          }
-
-          return { row, score };
+      function filterOptions(term) {
+        options.forEach(option => {
+          const label = option.getAttribute('data-label').toLowerCase();
+          option.style.display = label.includes(term) ? 'block' : 'none';
         });
-
-        // Sort by score descending, hide zero-score rows
-        scored.sort((a, b) => b.score - a.score);
-
-        let visibleCount = 0;
-        scored.forEach(({ row, score }) => {
-          if (score > 0) {
-            row.style.display = '';
-            visibleCount++;
-          } else {
-            row.style.display = 'none';
-          }
-          tbody.appendChild(row);
-        });
-
-        updateCount(visibleCount);
       }
 
-      function updateCount(count) {
-        const countEl = document.querySelector('.search-count');
-        if (countEl) {
-          countEl.innerHTML = '<strong>' + count + '</strong> lab' + (count !== 1 ? 's' : '');
+      function showSelected(label) {
+        const wrapper = searchEl.closest('.autocomplete-dropdown-wrapper');
+        let display = wrapper.querySelector('.selected-filter-display');
+        if (!display) {
+          display = document.createElement('div');
+          display.className = 'selected-filter-display';
+          wrapper.appendChild(display);
+        }
+        const clearFn = searchId === 'subfield-search' ? 'clearSubfield' : 'clearLocation';
+        display.innerHTML = '<span>' + label + '</span><button type="button" class="clear-filter-btn" onclick="' + clearFn + '()">×</button>';
+        searchEl.style.display = 'none';
+      }
+
+      // If already selected, show it
+      const selectedValue = hiddenEl ? hiddenEl.value : '';
+      if (selectedValue) {
+        const selectedOption = Array.from(options).find(opt => opt.getAttribute('data-value') === selectedValue);
+        if (selectedOption) {
+          showSelected(selectedOption.getAttribute('data-label'));
         }
       }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      initAutocomplete('subfield-search', 'subfield-dropdown', 'subfield-input');
+      initAutocomplete('location-search', 'location-dropdown', 'location-input');
     });
 
-    // Handle save button clicks with AJAX to prevent scroll to top
+    function clearSubfield() {
+      const input = document.getElementById('subfield-input');
+      const search = document.getElementById('subfield-search');
+      const display = document.querySelector('#filter-form .autocomplete-dropdown-wrapper .selected-filter-display');
+      if (input) input.value = '';
+      if (search) { search.value = ''; search.style.display = 'block'; }
+      // Remove only the subfield display in the subfield wrapper
+      const subfieldWrapper = search ? search.closest('.autocomplete-dropdown-wrapper') : null;
+      if (subfieldWrapper) {
+        const d = subfieldWrapper.querySelector('.selected-filter-display');
+        if (d) d.remove();
+      }
+    }
+
+    function clearLocation() {
+      const input = document.getElementById('location-input');
+      const search = document.getElementById('location-search');
+      if (input) input.value = '';
+      if (search) { search.value = ''; search.style.display = 'block'; }
+      const locationWrapper = search ? search.closest('.autocomplete-dropdown-wrapper') : null;
+      if (locationWrapper) {
+        const d = locationWrapper.querySelector('.selected-filter-display');
+        if (d) d.remove();
+      }
+    }
+
+    function clearSubfieldAndSubmit() {
+      // When dept category changes, clear subfield before submitting
+      const subfieldInput = document.getElementById('subfield-input');
+      if (subfieldInput) subfieldInput.value = '';
+      document.getElementById('filter-form').submit();
+    }
+
+    // ── Server-side search — queries all PIs, renders inline in table ──
+    document.addEventListener('DOMContentLoaded', function() {
+      var searchInput = document.getElementById('searchInput');
+      var inlineResults = document.getElementById('inlineSearchResults');
+      var inlineBody = document.getElementById('inlineSearchBody');
+      var inlineCount = document.getElementById('inlineSearchCount');
+      var originalContent = document.getElementById('originalContent');
+      if (!searchInput || !inlineResults || !inlineBody || !originalContent) return;
+
+      var SCHOOL_LOGOS = {{ SCHOOL_LOGOS | tojson }};
+      var debounceTimer = null;
+      var currentRequest = null;
+
+      searchInput.addEventListener('input', function(e) {
+        clearTimeout(debounceTimer);
+        var query = e.target.value.trim();
+        if (query.length < 2) {
+          showOriginal();
+          return;
+        }
+        debounceTimer = setTimeout(function() { fetchResults(query); }, 300);
+      });
+
+      function showOriginal() {
+        inlineResults.style.display = 'none';
+        originalContent.style.display = '';
+      }
+
+      function showInline() {
+        originalContent.style.display = 'none';
+        inlineResults.style.display = '';
+      }
+
+      function fetchResults(query) {
+        if (currentRequest) currentRequest.abort();
+        var controller = new AbortController();
+        currentRequest = controller;
+
+        inlineBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 2rem; color: var(--text-muted);">Searching...</td></tr>';
+        showInline();
+
+        fetch('/api/search-pis?q=' + encodeURIComponent(query), { signal: controller.signal })
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            currentRequest = null;
+            if (data.length === 0) {
+              inlineBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 2rem; color: var(--text-muted);">No PIs found matching your search.</td></tr>';
+              inlineCount.innerHTML = '<strong>0</strong> results';
+              return;
+            }
+            inlineCount.innerHTML = '<strong>' + data.length + '</strong> result' + (data.length !== 1 ? 's' : '') + ' found';
+            inlineBody.innerHTML = '';
+            data.forEach(function(pi) {
+              inlineBody.insertAdjacentHTML('beforeend', buildPIRow(pi));
+            });
+            attachInlineSaveHandlers();
+          })
+          .catch(function(err) {
+            if (err.name !== 'AbortError') {
+              inlineBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 2rem; color: var(--text-muted);">Search error. Please try again.</td></tr>';
+            }
+          });
+      }
+
+      function buildPIRow(pi) {
+        var logoHtml = buildLogoHtml(pi.school);
+        var topicsHtml = '';
+        if (pi.research_topics && pi.research_topics.length > 0) {
+          topicsHtml = '<p class="research-topics">' + escapeHtml(pi.research_topics.join(' \u00b7 ')) + '</p>';
+        }
+        var hIndexHtml = '';
+        if (pi.h_index) {
+          hIndexHtml = '<div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-muted);">H-index: <strong style="color: var(--accent);">' + escapeHtml(String(pi.h_index)) + '</strong></div>';
+        }
+        var deptHtml = '';
+        if (pi.department) {
+          deptHtml = '<span class="department-badge" data-field="' + escapeHtml(pi.dept_field || '') + '">' + escapeHtml(pi.department) + '</span>';
+        }
+        var websiteHtml = pi.website
+          ? '<a href="' + escapeHtml(pi.website) + '" target="_blank" class="table-link" style="font-size: 0.85rem; display: block; margin-top: 0.25rem;">View Website</a>'
+          : '<span style="font-size: 0.85rem; color: var(--text-dim); display: block; margin-top: 0.25rem;">No website</span>';
+        var scholarHtml = pi.google_scholar
+          ? '<a href="' + escapeHtml(pi.google_scholar) + '" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">Google Scholar</a>'
+          : '';
+        var emailHtml = pi.email && pi.email.trim()
+          ? '<a href="mailto:' + escapeHtml(pi.email) + '" class="table-email">' + escapeHtml(pi.email) + '</a>'
+          : '<span class="text-dim-sm">Not available</span>';
+
+        var actionsHtml = '';
+        {% if session.get('user_id') %}
+        if (pi.is_saved) {
+          actionsHtml = '<span class="saved-indicator" style="font-size: 0.85rem;">Saved</span>';
+        } else {
+          actionsHtml = '<form method="post" action="/save-pi/' + encodeURIComponent(pi.id) + '" class="save-pi-form" data-pi-id="' + escapeHtml(pi.id) + '" style="display: inline;">' +
+            '<button type="submit" class="btn-primary save-pi-btn" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Save</button></form>';
+        }
+        actionsHtml += ' <a href="/draft-email?pi_id=' + encodeURIComponent(pi.id) + '" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Email</a>';
+        {% else %}
+        actionsHtml = '<a href="{{ url_for("login") }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Login</a>';
+        {% endif %}
+
+        return '<tr class="pi-row">' +
+          '<td><div class="logo-container">' + logoHtml + '</div></td>' +
+          '<td>' +
+            '<div class="table-lab-name">' + escapeHtml(pi.name) + '</div>' +
+            topicsHtml +
+            '<div class="table-lab-info">' + escapeHtml(pi.school) + '</div>' +
+            deptHtml +
+            hIndexHtml +
+            '<div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-dim);">' + escapeHtml(pi.location || '') + '</div>' +
+          '</td>' +
+          '<td>' +
+            '<div class="table-lab-name" style="font-size: 0.9rem;">' + escapeHtml(pi.title || '') + '</div>' +
+            websiteHtml + scholarHtml +
+          '</td>' +
+          '<td>' + emailHtml + '</td>' +
+          '<td><div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">' + actionsHtml + '</div></td>' +
+        '</tr>';
+      }
+
+      function buildLogoHtml(school) {
+        if (SCHOOL_LOGOS[school]) {
+          return '<img src="/static/images/' + SCHOOL_LOGOS[school] + '" alt="' + escapeHtml(school) + '" class="institution-logo">';
+        }
+        var initial = school ? school.charAt(0).toUpperCase() : '?';
+        return '<svg class="institution-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><text x="100" y="120" font-family="serif" font-size="80" font-weight="bold" class="institution-logo-default" text-anchor="middle">' + initial + '</text></svg>';
+      }
+
+      function attachInlineSaveHandlers() {
+        var forms = inlineBody.querySelectorAll('.save-pi-form');
+        forms.forEach(function(form) {
+          form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var btn = form.querySelector('.save-pi-btn');
+            var actionsDiv = form.closest('td').querySelector('div');
+            btn.disabled = true;
+            btn.textContent = 'Saving...';
+            fetch(form.action, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams()
+            }).then(function(response) {
+              if (response.ok) {
+                form.outerHTML = '<span class="saved-indicator" style="font-size: 0.85rem;">Saved</span>';
+              } else {
+                btn.disabled = false;
+                btn.textContent = 'Save';
+              }
+            }).catch(function() {
+              btn.disabled = false;
+              btn.textContent = 'Save';
+            });
+          });
+        });
+      }
+
+      function escapeHtml(str) {
+        if (!str) return '';
+        var div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+      }
+
+      // Global clearSearch function
+      window.clearSearch = function() {
+        searchInput.value = '';
+        showOriginal();
+      };
+    });
+
+    // ── Handle save button clicks with AJAX ──
     document.addEventListener('DOMContentLoaded', function() {
       const saveForms = document.querySelectorAll('.save-pi-form');
       saveForms.forEach(form => {
@@ -389,14 +534,11 @@
           const form = this;
           const button = form.querySelector('.save-pi-btn');
           const piId = form.getAttribute('data-pi-id');
-          const row = form.closest('tr');
           const actionsCell = form.closest('td');
-          
-          // Disable button
+
           button.disabled = true;
           button.textContent = 'Saving...';
-          
-          // Submit via AJAX
+
           fetch(form.action, {
             method: 'POST',
             headers: {
@@ -405,13 +547,12 @@
             body: new URLSearchParams()
           }).then(response => {
             if (response.ok) {
-              // Update UI to show saved state
               const actionsDiv = actionsCell.querySelector('div');
               form.remove();
               const savedIndicator = document.createElement('span');
               savedIndicator.className = 'saved-indicator';
               savedIndicator.style.cssText = 'font-size: 0.85rem; margin-right: 0.5rem;';
-              savedIndicator.textContent = '✓ Saved';
+              savedIndicator.textContent = 'Saved';
               actionsDiv.insertBefore(savedIndicator, actionsDiv.firstChild);
             } else {
               button.disabled = false;

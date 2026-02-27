@@ -1,0 +1,356 @@
+[
+  {
+    "id": "nsf-2514057",
+    "name": "Tabitha K Samuel",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: MPI4AI: Enhancing Performance and Productivity of AI Science thr...",
+      "Collaborative Research: Conference: NAIRR Pilot Expansion: FA1: Mid-South Conferences on CyberInfras..."
+    ],
+    "website": "",
+    "email": [
+      "tsamuel@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2514057",
+        "title": "Collaborative Research: Frameworks: MPI4AI: Enhancing Performance and Productivity of AI Science through Next-generation High Performance Communication Abstractions",
+        "amount": "$800,000.00",
+        "program": "Software Institutes",
+        "end_date": "08/31/2029",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2526363",
+        "title": "Collaborative Research: Conference: NAIRR Pilot Expansion: FA1: Mid-South Conferences on CyberInfrastructure Advances to Enable Interdisciplinary AI Research in Health",
+        "amount": "$82,824.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2526034",
+    "name": "Mehmet Aydeniz",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "STEM Education",
+      "Explorations: Tennessee Experiential Learning for Teachers and Students to Empower Pathways into Mic..."
+    ],
+    "website": "",
+    "email": [
+      "maydeniz@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2526034",
+        "title": "Explorations: Tennessee Experiential Learning for Teachers and Students to Empower Pathways into Microelectronics",
+        "amount": "$999,353.00",
+        "program": "ExLENT, ITEST-Inov Tech Exp Stu & Teac",
+        "end_date": "12/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Aly E Fathy fathy@eecs.utk.edu",
+      "Ahmedullah Aziz aziz@utk.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512989",
+    "name": "Dan D Wilson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Phase-Amplitude-Based Reduced Order Modeling and Analysis of Strongly Couple..."
+    ],
+    "website": "",
+    "email": [
+      "dwilso81@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2512989",
+        "title": "Collaborative Research: Phase-Amplitude-Based Reduced Order Modeling and Analysis of Strongly Coupled Neural Oscillators",
+        "amount": "$100,000.00",
+        "program": "MATHEMATICAL BIOLOGY",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505802",
+    "name": "Johnathan N Brantley",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAS: Accessing Functional Materials via Polymer Electroediting"
+    ],
+    "website": "",
+    "email": [
+      "jbrant13@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2505802",
+        "title": "CAS: Accessing Functional Materials via Polymer Electroediting",
+        "amount": "$380,053.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2438030",
+    "name": "Thanh D Do",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Molecular Specificity of Transition Metal and Lanthanide-Cyclic Depsipeptide Complexes"
+    ],
+    "website": "",
+    "email": [
+      "tdo5@tennessee.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2438030",
+        "title": "Molecular Specificity of Transition Metal and Lanthanide-Cyclic Depsipeptide Complexes",
+        "amount": "$480,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2517856",
+    "name": "Ferlin G McGaskey",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "STEM Education",
+      "Advancing and Sustaining Innovation in Science Teaching: Using a Collaborative Multidisciplinary Mod..."
+    ],
+    "website": "",
+    "email": [
+      "fmcgaske@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2517856",
+        "title": "Advancing and Sustaining Innovation in Science Teaching: Using a Collaborative Multidisciplinary Model to Transform Graduate Student Teaching",
+        "amount": "$399,209.00",
+        "program": "IUSE",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Elisabeth E Schussler eschuss@utk.edu",
+      "Katherine L Grzywacz-Jones kgrzywac@utk.edu",
+      "Caroline Wienhold wienhold@utk.edu"
+    ]
+  },
+  {
+    "id": "nsf-2526696",
+    "name": "Joseph R Clark",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Reaction Development and Advancing Spectroscopic Analysis for Selective Labeling and Radiola..."
+    ],
+    "website": "",
+    "email": [
+      "josephcl1986@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2526696",
+        "title": "CAREER: Reaction Development and Advancing Spectroscopic Analysis for Selective Labeling and Radiolabeling of Small Molecules",
+        "amount": "$526,747.00",
+        "program": "Chemical Synthesis",
+        "end_date": "12/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452931",
+    "name": "Stefan Richter",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Hilbert Function Spaces 2025"
+    ],
+    "website": "",
+    "email": [
+      "srichter@tennessee.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2452931",
+        "title": "Conference: Hilbert Function Spaces 2025",
+        "amount": "$30,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2433958",
+    "name": "Janice L Musfeldt",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Hafnia under external stimuli"
+    ],
+    "website": "",
+    "email": [
+      "musfeldt@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2433958",
+        "title": "Hafnia under external stimuli",
+        "amount": "$453,591.00",
+        "program": "CERAMICS",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2503607",
+    "name": "Yulan Qing",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 53rd Barrett Memorial Lectures: Recent Development in Geometric Group Theory"
+    ],
+    "website": "",
+    "email": [
+      "yqing@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2503607",
+        "title": "Conference: 53rd Barrett Memorial Lectures: Recent Development in Geometric Group Theory",
+        "amount": "$20,000.00",
+        "program": "GEOMETRIC ANALYSIS",
+        "end_date": "02/28/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Conrad P Plaut conradplaut@gmail.com"
+    ]
+  },
+  {
+    "id": "nsf-2419926",
+    "name": "Michael K Danquah",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Tennessee Knoxville",
+    "location": "KNOXVILLE, TN",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: US-NZ Collaborative Research on Food Innovation for Sustainable Future"
+    ],
+    "website": "",
+    "email": [
+      "mdanquah@utk.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KNOXVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2419926",
+        "title": "IRES: US-NZ Collaborative Research on Food Innovation for Sustainable Future",
+        "amount": "$449,884.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "12/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tao Wu twu2@utk.edu"
+    ]
+  }
+]

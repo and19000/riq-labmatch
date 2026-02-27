@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nsf-2503055",
+    "name": "Yanzhou Fu",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Benedict College",
+    "location": "COLUMBIA, SC",
+    "research_areas": [
+      "CSE",
+      "EXCELLENCE in RESEARCH: Real-Time Monitoring and Structural Validation for Continuous Fiber Printing"
+    ],
+    "website": "",
+    "email": [
+      "fuy@fau.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLUMBIA, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2503055",
+        "title": "EXCELLENCE in RESEARCH: Real-Time Monitoring and Structural Validation for Continuous Fiber Printing",
+        "amount": "$887,740.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "07/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Simon Laflamme laflamme@iastate.edu",
+      "Austin Downey austindowney@sc.edu"
+    ]
+  }
+]

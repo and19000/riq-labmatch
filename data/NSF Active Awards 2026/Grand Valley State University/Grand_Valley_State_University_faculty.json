@@ -1,0 +1,106 @@
+[
+  {
+    "id": "nsf-2526727",
+    "name": "Sanjivan Manoharan",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Grand Valley State University",
+    "location": "ALLENDALE, MI",
+    "research_areas": [
+      "STEM Education",
+      "Building Engineering Pathways for Low-Income Undergraduates through Integrated Support Structures"
+    ],
+    "website": "",
+    "email": [
+      "manohars@gvsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALLENDALE, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2526727",
+        "title": "Building Engineering Pathways for Low-Income Undergraduates through Integrated Support Structures",
+        "amount": "$1,978,256.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "12/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Timothy L Born bornti@gvsu.edu",
+      "Shabbir A Choudhuri choudhus@gvsu.edu",
+      "Nicholas A Baine bainen@gvsu.edu",
+      "Diane LaFreniere lafrenid@gvsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434807",
+    "name": "Larry Wyn",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Grand Valley State University",
+    "location": "ALLENDALE, MI",
+    "research_areas": [
+      "CSE",
+      "EducateAI: Preparing Michigan Teachers for CSforAll by Infusing CS, Math, and Data Science in Algebr..."
+    ],
+    "website": "",
+    "email": [
+      "wynlar@gvsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALLENDALE, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2434807",
+        "title": "EducateAI: Preparing Michigan Teachers for CSforAll by Infusing CS, Math, and Data Science in Algebra 2",
+        "amount": "$991,861.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "01/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kathryn Fisler kathryn_fisler@brown.edu",
+      "Emmanuel T Schanzer schanzer@bootstrapworld.org"
+    ]
+  },
+  {
+    "id": "nsf-2433161",
+    "name": "Linda Chamberlain",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Grand Valley State University",
+    "location": "ALLENDALE, MI",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Building Institutional Capacity for External Partnerships"
+    ],
+    "website": "",
+    "email": [
+      "chambeli@gvsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALLENDALE, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2433161",
+        "title": "Collaborative Research: EPIIC: Building Institutional Capacity for External Partnerships",
+        "amount": "$399,922.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Edward F Aboufadel aboufade@gvsu.edu",
+      "Ryan R Otter otterr@gvsu.edu"
+    ]
+  }
+]

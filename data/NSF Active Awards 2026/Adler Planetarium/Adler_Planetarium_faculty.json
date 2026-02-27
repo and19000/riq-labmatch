@@ -1,0 +1,44 @@
+[
+  {
+    "id": "nsf-2513444",
+    "name": "Laura Trouille",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Adler Planetarium",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: Building the Twenty-first Century Citizen Science Framework to E...",
+      "Collaborative Research: HCC: Small: Optimizing the Human-Machine System for Citizen Science"
+    ],
+    "website": "",
+    "email": [
+      "ltrouille@adlerplanetarium.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2513444",
+        "title": "Collaborative Research: Frameworks: Building the Twenty-first Century Citizen Science Framework to Enable Scientific Discovery Across Disciplines",
+        "amount": "$1,296,125.00",
+        "program": "Software Institutes",
+        "end_date": "09/30/2029",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2334034",
+        "title": "Collaborative Research: HCC: Small: Optimizing the Human-Machine System for Citizen Science",
+        "amount": "$276,648.00",
+        "program": "HCC-Human-Centered Computing",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Samantha Blickhan sblickhan@adlerplanetarium.org"
+    ]
+  }
+]

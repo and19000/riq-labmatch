@@ -1,0 +1,163 @@
+[
+  {
+    "id": "nsf-2518506",
+    "name": "Chance B Ronemus",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Idaho State University",
+    "location": "POCATELLO, ID",
+    "research_areas": [
+      "Geosciences",
+      "Postdoctoral Fellowship: EAR-PF: Field tests of Mesozoic terrane accretion in South America"
+    ],
+    "website": "",
+    "email": [
+      "1chanceronemus1@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POCATELLO, ID",
+    "nsf_awards": [
+      {
+        "award_number": "2518506",
+        "title": "Postdoctoral Fellowship: EAR-PF: Field tests of Mesozoic terrane accretion in South America",
+        "amount": "$291,976.00",
+        "program": "Postdoctoral Fellowships",
+        "end_date": "07/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2500523",
+    "name": "Kitty E Griswold",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Idaho State University",
+    "location": "POCATELLO, ID",
+    "research_areas": [
+      "STEM Education",
+      "EPSCoR Graduate Fellowship Program (EGFP): Idaho Student Excellence in Education and Research (I-SEE..."
+    ],
+    "website": "",
+    "email": [
+      "griskitt@isu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POCATELLO, ID",
+    "nsf_awards": [
+      {
+        "award_number": "2500523",
+        "title": "EPSCoR Graduate Fellowship Program (EGFP): Idaho Student Excellence in Education and Research (I-SEER)",
+        "amount": "$954,000.00",
+        "program": "EPSCoR Graduate Fellowship (EG",
+        "end_date": "06/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bruce M Savage savabruc@isu.edu",
+      "David Pearson pearson@isu.edu",
+      "Kathryn G Turner turnkat2@isu.edu",
+      "Kendra E Murray kendramurray@isu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2339226",
+    "name": "Anna S Grinath",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Idaho State University",
+    "location": "POCATELLO, ID",
+    "research_areas": [
+      "STEM Education",
+      "CAREER: Supporting Undergraduate Students' Agency to Shape Science Practices from Field Stations to ..."
+    ],
+    "website": "",
+    "email": [
+      "grinanna@isu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POCATELLO, ID",
+    "nsf_awards": [
+      {
+        "award_number": "2339226",
+        "title": "CAREER: Supporting Undergraduate Students' Agency to Shape Science Practices from Field Stations to Classrooms",
+        "amount": "$630,876.00",
+        "program": "IUSE",
+        "end_date": "10/31/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2344970",
+    "name": "Cory A Bennett",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Idaho State University",
+    "location": "POCATELLO, ID",
+    "research_areas": [
+      "STEM Education",
+      "Idaho Making Progress Addressing Critical Teacher Shortages in STEM"
+    ],
+    "website": "",
+    "email": [
+      "benncor3@isu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POCATELLO, ID",
+    "nsf_awards": [
+      {
+        "award_number": "2344970",
+        "title": "Idaho Making Progress Addressing Critical Teacher Shortages in STEM",
+        "amount": "$1,194,225.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Patrick X Rault patrickrault@isu.edu",
+      "Wendy P Ruchti ruchwend@isu.edu",
+      "Anna S Grinath grinanna@isu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418851",
+    "name": "Leslie A Nickerson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Idaho State University",
+    "location": "POCATELLO, ID",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Sustainable Synthesis of Substituted Tetrahydrofuran Products Using Heterogeneous Catalys..."
+    ],
+    "website": "",
+    "email": [
+      "leslienickerson@isu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "POCATELLO, ID",
+    "nsf_awards": [
+      {
+        "award_number": "2418851",
+        "title": "LEAPS-MPS: Sustainable Synthesis of Substituted Tetrahydrofuran Products Using Heterogeneous Catalysts",
+        "amount": "$249,935.00",
+        "program": "LEAPS-MPS",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nsf-2429271",
+    "name": "Lon Mitchell",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Eastern Michigan University",
+    "location": "YPSILANTI, MI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: CBMS Conference: Strong Matrix Properties and the Inverse Eigenvalue Problem"
+    ],
+    "website": "",
+    "email": [
+      "lon.mitchell@emich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "YPSILANTI, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2429271",
+        "title": "Conference: CBMS Conference: Strong Matrix Properties and the Inverse Eigenvalue Problem",
+        "amount": "$35,000.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2432698",
+    "name": "Eric W Portenga",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Eastern Michigan University",
+    "location": "YPSILANTI, MI",
+    "research_areas": [
+      "Geosciences",
+      "EMBRACE-EAR-Growth: Dating ice retreat and advance along the lobate southern margin of the Laurentid..."
+    ],
+    "website": "",
+    "email": [
+      "eric.portenga@emich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "YPSILANTI, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2432698",
+        "title": "EMBRACE-EAR-Growth: Dating ice retreat and advance along the lobate southern margin of the Laurentide Ice Sheet with terrestrial cosmogenic nuclides",
+        "amount": "$397,338.00",
+        "program": "XC-Crosscutting Activities Pro, WaLCZ-Water, Land, & Crit Zone",
+        "end_date": "04/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

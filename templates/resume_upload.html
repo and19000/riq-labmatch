@@ -2,7 +2,7 @@
 
 {% block content %}
   <h1>Upload Your Resume</h1>
-  <p class="subtitle">Upload your resume to get AI-powered lab matches tailored to your experience</p>
+  <p class="subtitle">Upload your resume to get lab matches tailored to your experience</p>
 
   {% if error %}
     <div class="error-message">{{ error }}</div>
@@ -37,7 +37,7 @@
       <h3>How it works:</h3>
       <ul>
         <li>Upload your resume in PDF or DOCX format</li>
-        <li>Our AI will analyze your skills, experience, and research interests</li>
+        <li>We'll analyze your skills, experience, and research interests</li>
         <li>Get personalized lab matches ranked by compatibility</li>
         <li>View your matches on the <a href="{{ url_for('matches') }}">Matches</a> page</li>
       </ul>

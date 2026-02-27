@@ -1,0 +1,736 @@
+[
+  {
+    "id": "nsf-2506055",
+    "name": "Hendrik Utzat",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Instrument Development: Spectral Fluctuation Raman Spectroscopy",
+      "CAREER: Understanding Pure Dephasing in Single Optical Emitters with Time-Resolved Hong-Ou-Mandel Sp..."
+    ],
+    "website": "",
+    "email": [
+      "hutzat@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506055",
+        "title": "Instrument Development: Spectral Fluctuation Raman Spectroscopy",
+        "amount": "$500,000.00",
+        "program": "QISET-Quan Info Sci Eng & Tech, Chemical Measurement & Imaging",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2443087",
+        "title": "CAREER: Understanding Pure Dephasing in Single Optical Emitters with Time-Resolved Hong-Ou-Mandel Spectroscopy",
+        "amount": "$700,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "02/28/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2506157",
+    "name": "Evan R Williams",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Ion Hydration and Nanodrops in Mass Spectrometry"
+    ],
+    "website": "",
+    "email": [
+      "erw@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506157",
+        "title": "Ion Hydration and Nanodrops in Mass Spectrometry",
+        "amount": "$600,000.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "01/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2527996",
+    "name": "Steven M Kahn",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "STEM Education",
+      "Math and Physical Science Scholarship Program"
+    ],
+    "website": "",
+    "email": [
+      "stevkahn@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2527996",
+        "title": "Math and Physical Science Scholarship Program",
+        "amount": "$1,999,999.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "12/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David E Nadler nadler@math.berkeley.edu",
+      "Aaron R Parsons aparsons@astro.berkeley.edu",
+      "Colette E Patt colette@berkeley.edu",
+      "Raul Briceno rbriceno@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2518663",
+    "name": "Anne M Baranger",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "STEM Education",
+      "Coaching and Educating Mentors of Pre-Service Teacher and Chemistry Undergraduate  Researchers"
+    ],
+    "website": "",
+    "email": [
+      "abaranger@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2518663",
+        "title": "Coaching and Educating Mentors of Pre-Service Teacher and Chemistry Undergraduate  Researchers",
+        "amount": "$399,465.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Elisa M Stone emstone@berkeley.edu",
+      "Michelle H Wilkerson mwilkers@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2514234",
+    "name": "Peng Ding",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Theory of Causal Learning"
+    ],
+    "website": "",
+    "email": [
+      "pengdingpku@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2514234",
+        "title": "Collaborative Research: Theory of Causal Learning",
+        "amount": "$125,000.00",
+        "program": "STATISTICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505995",
+    "name": "Haimei Zheng",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Unveiling Atomic-restructuring of Cu-based Bimetallic Nanocatalysts for CO2RR using In-situ/operando..."
+    ],
+    "website": "",
+    "email": [
+      "hmzheng@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2505995",
+        "title": "Unveiling Atomic-restructuring of Cu-based Bimetallic Nanocatalysts for CO2RR using In-situ/operando Electrochemical Liquid Cell Electron Microscopy",
+        "amount": "$575,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452704",
+    "name": "Dean Toste",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: A Physical Organic Chemistry Approach to the Development and Understanding o..."
+    ],
+    "website": "",
+    "email": [
+      "fdtoste@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2452704",
+        "title": "Collaborative Research: A Physical Organic Chemistry Approach to the Development and Understanding of Redox Flow Batteries and Metal-Air Battery Redox Mediators",
+        "amount": "$610,000.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bryan D McCloskey bmcclosk@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2515115",
+    "name": "Hitoshi Murayama",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "New Pathways Connecting Theory and Experiment"
+    ],
+    "website": "",
+    "email": [
+      "hitoshi@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2515115",
+        "title": "New Pathways Connecting Theory and Experiment",
+        "amount": "$540,000.00",
+        "program": "Elem. Particle Physics/Theory",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lawrence J Hall ljh@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2443053",
+    "name": "Jonathan Rittle",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Understanding O2 activation by Manganese/Iron Oxygenases and their Models"
+    ],
+    "website": "",
+    "email": [
+      "rittle@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2443053",
+        "title": "CAREER: Understanding O2 activation by Manganese/Iron Oxygenases and their Models",
+        "amount": "$780,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "07/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506019",
+    "name": "T Don Tilley",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Electronic and Topological Complexity in Nanocarbon Materials"
+    ],
+    "website": "",
+    "email": [
+      "tdtilley@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506019",
+        "title": "Electronic and Topological Complexity in Nanocarbon Materials",
+        "amount": "$780,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "07/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452695",
+    "name": "Richmond Sarpong",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Insertion of Arynes and Carbenes into a Diquinane Derivative for Natural Product Synthesis"
+    ],
+    "website": "",
+    "email": [
+      "rsarpong@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2452695",
+        "title": "Insertion of Arynes and Carbenes into a Diquinane Derivative for Natural Product Synthesis",
+        "amount": "$400,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "06/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505340",
+    "name": "Murat Arcak",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Autonomous Marine Operations for the Arctic"
+    ],
+    "website": "",
+    "email": [
+      "arcak@eecs.berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2505340",
+        "title": "IRES: Autonomous Marine Operations for the Arctic",
+        "amount": "$450,000.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "06/30/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2539753",
+    "name": "Jason Lee",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CIF: Medium: MoDL:Toward a Mathematical Foundation of Deep Reinforcement Lea..."
+    ],
+    "website": "",
+    "email": [
+      "jasondlee@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2539753",
+        "title": "Collaborative Research: CIF: Medium: MoDL:Toward a Mathematical Foundation of Deep Reinforcement Learning",
+        "amount": "$249,987.00",
+        "program": "Comm & Information Foundations",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447759",
+    "name": "Jose Pablo Vazquez-Medina",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "Research Infrastructure: REU Site: How Robustness and Resilience in Response to Biotic and Abiotic S..."
+    ],
+    "website": "",
+    "email": [
+      "jpv-m@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2447759",
+        "title": "Research Infrastructure: REU Site: How Robustness and Resilience in Response to Biotic and Abiotic Stressors Shape Biological Processes",
+        "amount": "$470,995.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gian Garriga garriga@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2449564",
+    "name": "Eran Rabani",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Neural Network-Driven Atomistic Simulations for Predicting Chiroptical Properties in Ligand Induced ..."
+    ],
+    "website": "",
+    "email": [
+      "eran.rabani@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2449564",
+        "title": "Neural Network-Driven Atomistic Simulations for Predicting Chiroptical Properties in Ligand Induced Chiral Semiconductor Nanocrystals",
+        "amount": "$598,414.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2535797",
+    "name": "Shimon J Kolkowitz",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Developing Techniques for Atom-Based Gravitational Wave Detection and Dark Matter Searches w..."
+    ],
+    "website": "",
+    "email": [
+      "kolkowitz@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2535797",
+        "title": "CAREER: Developing Techniques for Atom-Based Gravitational Wave Detection and Dark Matter Searches with a Multiplexed Optical Lattice Clock",
+        "amount": "$168,114.00",
+        "program": "AMO Experiment/Atomic, Molecul",
+        "end_date": "03/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2534430",
+    "name": "Francis A Macdonald",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Geosciences",
+      "Snowball Earth in Space and Time"
+    ],
+    "website": "",
+    "email": [
+      "francism@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2534430",
+        "title": "Snowball Earth in Space and Time",
+        "amount": "$92,606.00",
+        "program": "Sedimentary Geo & Paleobiology",
+        "end_date": "12/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2428964",
+    "name": "Rosemary G Gillespie",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: Biodiversity Dynamics: Linking Broad Scale Remote Sensing with Arthropod Met..."
+    ],
+    "website": "",
+    "email": [
+      "gillespie@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2428964",
+        "title": "Collaborative Research: Biodiversity Dynamics: Linking Broad Scale Remote Sensing with Arthropod Metabarcoding Across a Geological Age Gradient in the Hawaiian Islands",
+        "amount": "$975,393.00",
+        "program": "Ecosystem Science, Systematics & Biodiversity Sci",
+        "end_date": "12/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Iryna Dronova idronova@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426144",
+    "name": "Daniel K Bediako",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Magnetism in vanadium-based intercalation compounds of transition metal dichalcogenides"
+    ],
+    "website": "",
+    "email": [
+      "bediako@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2426144",
+        "title": "Magnetism in vanadium-based intercalation compounds of transition metal dichalcogenides",
+        "amount": "$275,000.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2435380",
+    "name": "john d coates",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Office of the Director",
+      "Global Centers: International Bioeconomy Macroalgae Centre (IBMC)"
+    ],
+    "website": "",
+    "email": [
+      "jdcoates@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2435380",
+        "title": "Global Centers: International Bioeconomy Macroalgae Centre (IBMC)",
+        "amount": "$4,908,127.00",
+        "program": "Cross-BIO Activities, Global Centers: Track I (IMPL)",
+        "end_date": "12/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David Zilberman zilber11@berkeley.edu",
+      "Daniel K Okamoto dkokamoto@berkeley.edu",
+      "Alexandra E Hill alihill@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426525",
+    "name": "Brian J Harding",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: An Observational Network to Enable Investigations of Gravity-Wave and Storm-..."
+    ],
+    "website": "",
+    "email": [
+      "bharding@ssl.berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2426525",
+        "title": "Collaborative Research: An Observational Network to Enable Investigations of Gravity-Wave and Storm-Time Impacts on the Mid-Latitude Thermosphere-Ionosphere",
+        "amount": "$106,548.00",
+        "program": "AERONOMY",
+        "end_date": "11/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2419242",
+    "name": "Simo A Makiharju",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "Engineering",
+      "RET Site: Berkeley Engineering Research Experiences for Teachers - Artificial Intelligence Resources..."
+    ],
+    "website": "",
+    "email": [
+      "makiharju@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2419242",
+        "title": "RET Site: Berkeley Engineering Research Experiences for Teachers - Artificial Intelligence Resources for a Cleaner Environment (BERET-AIRE)",
+        "amount": "$599,855.00",
+        "program": "RES EXP FOR TEACHERS(RET)-SITE",
+        "end_date": "11/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Elisa M Stone emstone@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430522",
+    "name": "Michelle H Wilkerson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of California-Berkeley",
+    "location": "BERKELEY, CA",
+    "research_areas": [
+      "STEM Education",
+      "The Berkeley Data Science Education Fellowship: Exploring Ethical and Inclusive Approaches to Data S..."
+    ],
+    "website": "",
+    "email": [
+      "mwilkers@berkeley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BERKELEY, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2430522",
+        "title": "The Berkeley Data Science Education Fellowship: Exploring Ethical and Inclusive Approaches to Data Science in a Shifting Landscape",
+        "amount": "$1,245,903.00",
+        "program": "IUSE, Postdoctoral Fellowships",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Zachary A Pardos pardos@berkeley.edu",
+      "Lisa Yan yanlisa@eecs.berkeley.edu",
+      "Claudia von Vacano cvacano@berkeley.edu"
+    ]
+  }
+]

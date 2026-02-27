@@ -1,0 +1,133 @@
+[
+  {
+    "id": "nsf-2440647",
+    "name": "Reza Akhavian",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "San Diego State University Foundation",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "STEM Education",
+      "NRT-IPP: Smart Construction, Infrastructure, and Buildings through Education, Research, and Cutting-..."
+    ],
+    "website": "",
+    "email": [
+      "rakhavian@sdsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2440647",
+        "title": "NRT-IPP: Smart Construction, Infrastructure, and Buildings through Education, Research, and Cutting-edge Technology",
+        "amount": "$4,500,000.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jonathan L Goodall goodall@virginia.edu",
+      "Christopher Paolini paolini@engineering.sdsu.edu",
+      "Junfei Xie jxie4@sdsu.edu",
+      "Zahra Nili Ahmadabadi zniliahmadabadi@sdsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452012",
+    "name": "Amirhossein Alimohammad",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "San Diego State University Foundation",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "CSE",
+      "SHF: Small: A Ubiquitous Brain-Computer Interface for Supplementing Cognitive and Motor Functions"
+    ],
+    "website": "",
+    "email": [
+      "aalimohammad@mail.sdsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2452012",
+        "title": "SHF: Small: A Ubiquitous Brain-Computer Interface for Supplementing Cognitive and Motor Functions",
+        "amount": "$497,881.00",
+        "program": "Software & Hardware Foundation",
+        "end_date": "06/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453516",
+    "name": "Byron W Purse",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "San Diego State University Foundation",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Structure-property Relationships and the Optimization of Fluorescent Nucleoside Analogues"
+    ],
+    "website": "",
+    "email": [
+      "bpurse@mail.sdsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2453516",
+        "title": "Structure-property Relationships and the Optimization of Fluorescent Nucleoside Analogues",
+        "amount": "$605,020.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2425168",
+    "name": "Arif E Engin",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "San Diego State University Foundation",
+    "location": "SAN DIEGO, CA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Planning for a Scholarship Program to Create a Bridge from Community College to Engine..."
+    ],
+    "website": "",
+    "email": [
+      "aengin@mail.sdsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN DIEGO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2425168",
+        "title": "Collaborative Planning for a Scholarship Program to Create a Bridge from Community College to Engineering and Research",
+        "amount": "$75,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "10/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David Marx dmarx@sdsu.edu",
+      "Baris Aksanli baksanli@sdsu.edu",
+      "Miranda C Parker (Former) miranda.parker@uncc.edu"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nsf-2408229",
+    "name": "Ying Mao",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Fordham University",
+    "location": "BRONX, NY",
+    "research_areas": [
+      "CSE",
+      "Equipment: MRI: Track 1 Acquisition of a High-Performance GPU Cluster for Multidisciplinary Research..."
+    ],
+    "website": "",
+    "email": [
+      "ymao41@fordham.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BRONX, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2408229",
+        "title": "Equipment: MRI: Track 1 Acquisition of a High-Performance GPU Cluster for Multidisciplinary Research and Education at Fordham University",
+        "amount": "$397,299.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "03/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Juntao Chen jchen504@fordham.edu",
+      "Wenqi Wei wenqiwei@fordham.edu"
+    ]
+  }
+]

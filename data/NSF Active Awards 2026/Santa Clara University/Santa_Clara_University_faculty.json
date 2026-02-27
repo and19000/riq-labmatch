@@ -1,0 +1,96 @@
+[
+  {
+    "id": "nsf-2523599",
+    "name": "Maria Kyrarini",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Santa Clara University",
+    "location": "SANTA CLARA, CA",
+    "research_areas": [
+      "Engineering",
+      "NSF-SNSF: VR-HRC: Virtual Reality-based Multi-Human-Multi-Robot Collaboration in Industrial Environm..."
+    ],
+    "website": "",
+    "email": [
+      "mkyrarini@scu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SANTA CLARA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2523599",
+        "title": "NSF-SNSF: VR-HRC: Virtual Reality-based Multi-Human-Multi-Robot Collaboration in Industrial Environments",
+        "amount": "$442,383.00",
+        "program": "GVF - Global Venture Fund, M3X - Mind, Machine, and Motor",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2415724",
+    "name": "Mary-Ellen Fortini",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Santa Clara University",
+    "location": "SANTA CLARA, CA",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: Tri-Alliance for Post-Award Innovation"
+    ],
+    "website": "",
+    "email": [
+      "mfortini@scu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SANTA CLARA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2415724",
+        "title": "Collaborative Research: Tri-Alliance for Post-Award Innovation",
+        "amount": "$1,947,801.00",
+        "program": "GRANTED",
+        "end_date": "08/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2433158",
+    "name": "Christopher A Kitts",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Santa Clara University",
+    "location": "SANTA CLARA, CA",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Building Institutional Capacity for External Partnerships"
+    ],
+    "website": "",
+    "email": [
+      "ckitts@scu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SANTA CLARA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2433158",
+        "title": "Collaborative Research: EPIIC: Building Institutional Capacity for External Partnerships",
+        "amount": "$399,965.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "08/31/2027",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eric Tillman etillman@scu.edu",
+      "Mary-Ellen Fortini mfortini@scu.edu"
+    ]
+  }
+]

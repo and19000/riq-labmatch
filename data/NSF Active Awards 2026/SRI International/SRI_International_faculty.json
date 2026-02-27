@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2500509",
+    "name": "Satabdi Basu",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "SRI International",
+    "location": "MENLO PARK, CA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: TogetherCS: A Systematic Investigation of Collaborative Programming Models f..."
+    ],
+    "website": "",
+    "email": [
+      "satabdi.basu@sri.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MENLO PARK, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2500509",
+        "title": "Collaborative Research: TogetherCS: A Systematic Investigation of Collaborative Programming Models for Upper Elementary School",
+        "amount": "$649,967.00",
+        "program": "ECR-EDU Core Research, ITEST-Inov Tech Exp Stu & Teac",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Arif Rachmatullah arif.rachmatullah@sri.com"
+    ]
+  },
+  {
+    "id": "nsf-2426523",
+    "name": "Asti Bhatt",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "SRI International",
+    "location": "MENLO PARK, CA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: An Observational Network to Enable Investigations of Gravity-Wave and Storm-..."
+    ],
+    "website": "",
+    "email": [
+      "asti.bhatt@sri.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MENLO PARK, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2426523",
+        "title": "Collaborative Research: An Observational Network to Enable Investigations of Gravity-Wave and Storm-Time Impacts on the Mid-Latitude Thermosphere-Ionosphere",
+        "amount": "$263,830.00",
+        "program": "AERONOMY",
+        "end_date": "11/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

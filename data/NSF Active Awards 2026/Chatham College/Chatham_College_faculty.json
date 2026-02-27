@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2532916",
+    "name": "William C Pfalzgraff",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Chatham College",
+    "location": "PITTSBURGH, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: Memory-Based Simulation Approaches: Developing Computational Methods and Scientists"
+    ],
+    "website": "",
+    "email": [
+      "w.pfalzgraff@chatham.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PITTSBURGH, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2532916",
+        "title": "LEAPS-MPS: Memory-Based Simulation Approaches: Developing Computational Methods and Scientists",
+        "amount": "$249,950.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2432705",
+    "name": "Jill L Riddell",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Chatham College",
+    "location": "PITTSBURGH, PA",
+    "research_areas": [
+      "Geosciences",
+      "EMBRACE-EAR-Seed: Quantifying the hydrologic impacts of plant invasions in a peri-urban forest"
+    ],
+    "website": "",
+    "email": [
+      "j.riddell@chatham.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PITTSBURGH, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2432705",
+        "title": "EMBRACE-EAR-Seed: Quantifying the hydrologic impacts of plant invasions in a peri-urban forest",
+        "amount": "$199,697.00",
+        "program": "WaLCZ-Water, Land, & Crit Zone, XC-Crosscutting Activities Pro",
+        "end_date": "12/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ryan Utz rutz@chatham.edu"
+    ]
+  }
+]

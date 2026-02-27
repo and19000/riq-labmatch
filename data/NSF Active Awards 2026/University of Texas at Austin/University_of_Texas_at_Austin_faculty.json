@@ -1,0 +1,750 @@
+[
+  {
+    "id": "nsf-2544563",
+    "name": "Sean T Roberts",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MPS/CHE-EPSRC: A New Framework for Exploring and Exploiting Quantum Correlations in Molecular Single...",
+      "Developing Structure-Function Relationships for Singlet Fission and Exciton Transport in Molecular C..."
+    ],
+    "website": "",
+    "email": [
+      "roberts@cm.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2544563",
+        "title": "MPS/CHE-EPSRC: A New Framework for Exploring and Exploiting Quantum Correlations in Molecular Singlet Fission",
+        "amount": "$655,882.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds, CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2451921",
+        "title": "Developing Structure-Function Relationships for Singlet Fission and Exciton Transport in Molecular Crystals via Selective Application of Strain",
+        "amount": "$750,687.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "03/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Niels H Damrauer niels.damrauer@colorado.edu"
+    ]
+  },
+  {
+    "id": "nsf-2516080",
+    "name": "Kaushik R Chowdhury",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Engineering",
+      "NSF-SNSF: Rapid Beamforming for Massive MIMO using Machine Learning on RF-only and Multi-modal Senso...",
+      "CSE",
+      "Collaborative Research: CCRI: New: RFDataFactory: Principled Dataset Generation, Sharing and Mainten..."
+    ],
+    "website": "",
+    "email": [
+      "kaushik@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2516080",
+        "title": "NSF-SNSF: Rapid Beamforming for Massive MIMO using Machine Learning on RF-only and Multi-modal Sensor Data",
+        "amount": "$373,326.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "02/29/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2526493",
+        "title": "Collaborative Research: CCRI: New: RFDataFactory: Principled Dataset Generation, Sharing and Maintenance Tools for the Wireless Community",
+        "amount": "$468,660.00",
+        "program": "CCRI-CISE Cmnty Rsrch Infrstrc",
+        "end_date": "10/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2505720",
+    "name": "Jennifer S Brodbelt",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Ultraviolet Photodissociation and Ion Mobility Mass Spectrometry for Top-Down Characterization of Nu..."
+    ],
+    "website": "",
+    "email": [
+      "jbrodbelt@cm.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2505720",
+        "title": "Ultraviolet Photodissociation and Ion Mobility Mass Spectrometry for Top-Down Characterization of Nucleic Acids",
+        "amount": "$630,000.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "01/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2554984",
+    "name": "Michael T Marty",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "GOALI: CDS&E: New Algorithms for Analysis of Intact Protein Electrospray Mass Spectra"
+    ],
+    "website": "",
+    "email": [
+      "michael.marty@austin.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2554984",
+        "title": "GOALI: CDS&E: New Algorithms for Analysis of Intact Protein Electrospray Mass Spectra",
+        "amount": "$377,337.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "06/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514340",
+    "name": "Ariel Chasen",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "STEM Education",
+      "Postdoctoral Fellowship: STEMEdIPRF: Advancing Accessibility in Biology Fieldwork Through Participat..."
+    ],
+    "website": "",
+    "email": [
+      "achasen@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2514340",
+        "title": "Postdoctoral Fellowship: STEMEdIPRF: Advancing Accessibility in Biology Fieldwork Through Participatory Design",
+        "amount": "$340,192.00",
+        "program": "Postdoctoral Fellowships",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510551",
+    "name": "Xiuling Li",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "STEM Education",
+      "NRT-QL: Quantum Cross-platform Advanced Training for Future Innovators"
+    ],
+    "website": "",
+    "email": [
+      "xiuling.li@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2510551",
+        "title": "NRT-QL: Quantum Cross-platform Advanced Training for Future Innovators",
+        "amount": "$3,000,000.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xiaoqin E Li elaineli@physics.utexas.edu",
+      "Jean Anne C Incorvia incorvia@austin.utexas.edu",
+      "Linran Fan linran.fan@utexas.edu",
+      "Nicholas Hunter-Jones nickrhj@utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2534158",
+    "name": "Doran I Raccah",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Winter School on Open Quantum Systems and Quantum Information in the Chemical Sciences"
+    ],
+    "website": "",
+    "email": [
+      "doran.raccah@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2534158",
+        "title": "Conference: Winter School on Open Quantum Systems and Quantum Information in the Chemical Sciences",
+        "amount": "$49,073.00",
+        "program": "QISET-Quan Info Sci Eng & Tech, Chem Thry, Mdls & Cmptnl Mthds, CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506129",
+    "name": "Simon M Humphrey",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Ternary and Quaternary Metallic Nanoalloys: Highly Tunable Catalysts for Sustainable Chemistry"
+    ],
+    "website": "",
+    "email": [
+      "smh@cm.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2506129",
+        "title": "Ternary and Quaternary Metallic Nanoalloys: Highly Tunable Catalysts for Sustainable Chemistry",
+        "amount": "$629,756.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Graeme Henkelman henkelman@utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505299",
+    "name": "Donald J Siegel",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Discovery of Multivalent Solid Electrolytes via Integrated Computations and ..."
+    ],
+    "website": "",
+    "email": [
+      "donald.siegel@austin.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2505299",
+        "title": "Collaborative Research: Discovery of Multivalent Solid Electrolytes via Integrated Computations and Experiments",
+        "amount": "$371,563.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2503966",
+    "name": "Judson W Partin",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Geosciences",
+      "Forced Changes in Tropical Pacific Variability from Glacial Times to the Future"
+    ],
+    "website": "",
+    "email": [
+      "jpartin@ig.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2503966",
+        "title": "Forced Changes in Tropical Pacific Variability from Glacial Times to the Future",
+        "amount": "$1,227,787.00",
+        "program": "P4CLIMATE",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yuko M Okumura yukoo@ig.utexas.edu",
+      "Dunyu Liu dliu@ig.utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453911",
+    "name": "Thomas C Underwood",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ECLIPSE: Mechanistic Investigation of Molecular Level Plasma-Catalytic Methane Reactions on Model Su..."
+    ],
+    "website": "",
+    "email": [
+      "thomas.underwood@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2453911",
+        "title": "ECLIPSE: Mechanistic Investigation of Molecular Level Plasma-Catalytic Methane Reactions on Model Surfaces",
+        "amount": "$600,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, CMFP-Chem Mech Funct, and Prop",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Charles B Mullins mullins@che.utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2443910",
+    "name": "Shwetadwip Chowdhury",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Biological Sciences",
+      "CAREER: Deep-tissue optical imaging via inverse-scattering"
+    ],
+    "website": "",
+    "email": [
+      "shwetadwip.chowdhury@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2443910",
+        "title": "CAREER: Deep-tissue optical imaging via inverse-scattering",
+        "amount": "$303,958.00",
+        "program": "Innovation: Research Methods",
+        "end_date": "07/31/2030",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2544977",
+    "name": "Jay L Banner",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Geosciences",
+      "RAPID: Emergency collection of tree-ring archives from bald cypress killed or damaged in the July 20..."
+    ],
+    "website": "",
+    "email": [
+      "banner@mail.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2544977",
+        "title": "RAPID: Emergency collection of tree-ring archives from bald cypress killed or damaged in the July 2025 Guadalupe River flood",
+        "amount": "$62,500.00",
+        "program": "LET-Life & Enviro Through Time, XC-Crosscutting Activities Pro",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jose Luis Abella-Gutierrez jabella@jsg.utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430717",
+    "name": "Hal Alper",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: CAS: A novel machine learning-assisted materials design cycle for bio-based ..."
+    ],
+    "website": "",
+    "email": [
+      "halper@che.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2430717",
+        "title": "Collaborative Research: CAS: A novel machine learning-assisted materials design cycle for bio-based thermosets",
+        "amount": "$380,824.00",
+        "program": "BIOMATERIALS PROGRAM",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2529222",
+    "name": "Michael Cullinan",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 2025 CHIPS for Science Workshop"
+    ],
+    "website": "",
+    "email": [
+      "michael.cullinan@austin.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2529222",
+        "title": "Conference: 2025 CHIPS for Science Workshop",
+        "amount": "$95,000.00",
+        "program": "DMR SHORT TERM SUPPORT, EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David Chapman david.chapman@beg.utexas.edu",
+      "Tanya Hutter tanya.hutter@utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510098",
+    "name": "Pengyu Ren",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Developing a Polarizable 3DRISM Implicit Solvent Model for AMOEBA Solutes to..."
+    ],
+    "website": "",
+    "email": [
+      "pren@mail.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2510098",
+        "title": "Collaborative Research: Developing a Polarizable 3DRISM Implicit Solvent Model for AMOEBA Solutes to Enable Efficient and Accurate RNA Simulations",
+        "amount": "$349,281.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2446578",
+    "name": "Zhanfei Liu",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Using stable isotope labeling to trace the fate of amino acids and formation..."
+    ],
+    "website": "",
+    "email": [
+      "zhanfei.liu@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2446578",
+        "title": "Collaborative Research: Using stable isotope labeling to trace the fate of amino acids and formation of refractory dissolved organic nitrogen (DON) in the ocean",
+        "amount": "$309,557.00",
+        "program": "Chemical Oceanography",
+        "end_date": "03/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453237",
+    "name": "Maggie Miller",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: Topological and Geometric Structures in Low Dimensions"
+    ],
+    "website": "",
+    "email": [
+      "maggie.miller@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2453237",
+        "title": "Collaborative Research: Conference: Topological and Geometric Structures in Low Dimensions",
+        "amount": "$20,000.00",
+        "program": "TOPOLOGY",
+        "end_date": "03/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447887",
+    "name": "Rosalia Gomez",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "CSE",
+      "REU Site: Cyberinfrastructure (CI) Research for Societal Advancement REU"
+    ],
+    "website": "",
+    "email": [
+      "rosie@tacc.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2447887",
+        "title": "REU Site: Cyberinfrastructure (CI) Research for Societal Advancement REU",
+        "amount": "$415,005.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "02/29/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Anne D Bowen adb@tacc.utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2425655",
+    "name": "Lizy K John",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "CSE",
+      "Fuse2: Topic 1: Efficient Edge Inference and Heterogeneous Integration in Systems for Health and Che..."
+    ],
+    "website": "",
+    "email": [
+      "ljohn@ece.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2425655",
+        "title": "Fuse2: Topic 1: Efficient Edge Inference and Heterogeneous Integration in Systems for Health and Chemical Sensing",
+        "amount": "$1,157,385.00",
+        "program": "NSF-Samsung Partnership, FuSe-Future of Semiconductors, CSR-Computer Systems Research",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eric V Anslyn anslyn@austin.utexas.edu",
+      "Eugene B John eugene.john@utsa.edu",
+      "Praveen Pasupathy praveen@engr.utexas.edu",
+      "Nanshu Lu nanshulu@utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2521734",
+    "name": "Zhaomiao Guo",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Engineering",
+      "Optimizing Information Value in Heterogeneous Multi-agent Transportation Systems (OPTIMA)"
+    ],
+    "website": "",
+    "email": [
+      "zguo@utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2521734",
+        "title": "Optimizing Information Value in Heterogeneous Multi-agent Transportation Systems (OPTIMA)",
+        "amount": "$183,313.00",
+        "program": "CIS-Civil Infrastructure Syst",
+        "end_date": "12/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426989",
+    "name": "Keji Lai",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Spatially, Temporally, and Spectrally Resolved Electrical Probing of Optical Excitations"
+    ],
+    "website": "",
+    "email": [
+      "kejilai@physics.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2426989",
+        "title": "Spatially, Temporally, and Spectrally Resolved Electrical Probing of Optical Excitations",
+        "amount": "$491,285.00",
+        "program": "ELECTRONIC/PHOTONIC MATERIALS",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2422130",
+    "name": "Kenneth McMillan",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Texas at Austin",
+    "location": "AUSTIN, TX",
+    "research_areas": [
+      "CSE",
+      "FMitF: Track I: Performance Verification for Networked Systems"
+    ],
+    "website": "",
+    "email": [
+      "kenmcm@cs.utexas.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AUSTIN, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2422130",
+        "title": "FMitF: Track I: Performance Verification for Networked Systems",
+        "amount": "$875,000.00",
+        "program": "FMitF: Formal Methods in the F",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Isil Dillig isil@cs.utexas.edu",
+      "Venkat Arun venkat@utexas.edu"
+    ]
+  }
+]

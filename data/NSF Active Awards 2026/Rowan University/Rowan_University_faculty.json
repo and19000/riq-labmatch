@@ -1,0 +1,100 @@
+[
+  {
+    "id": "nsf-2508685",
+    "name": "Juan M Cruz",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Rowan University",
+    "location": "GLASSBORO, NJ",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Research Initiation: Applying Systems Dynamics to Explore Faculty Motivation..."
+    ],
+    "website": "",
+    "email": [
+      "cruzj@rowan.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GLASSBORO, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2508685",
+        "title": "Collaborative Research: Research Initiation: Applying Systems Dynamics to Explore Faculty Motivation in Integrating Sustainability Concepts in Undergraduate Engineering Curriculum",
+        "amount": "$62,598.00",
+        "program": "EngEd-Engineering Education",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515218",
+    "name": "Jie Li",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Rowan University",
+    "location": "GLASSBORO, NJ",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Planning Grant Rowan University: Center for Grid Enhancing Technologies for Offshore Wind Tran..."
+    ],
+    "website": "",
+    "email": [
+      "lijie@rowan.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GLASSBORO, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2515218",
+        "title": "IUCRC Planning Grant Rowan University: Center for Grid Enhancing Technologies for Offshore Wind Transmission and Integration (GOWIND)",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "07/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Behrad Koohbor koohbor@rowan.edu",
+      "Huaxia Wang wanghu@rowan.edu",
+      "Chen Shen shenc@rowan.edu"
+    ]
+  },
+  {
+    "id": "nsf-2427090",
+    "name": "Erik P Hoy",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Rowan University",
+    "location": "GLASSBORO, NJ",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Strongly Correlated Molecular Qubits for Quantum Sensing"
+    ],
+    "website": "",
+    "email": [
+      "hoy@rowan.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GLASSBORO, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2427090",
+        "title": "ExpandQISE: Track 1: Strongly Correlated Molecular Qubits for Quantum Sensing",
+        "amount": "$799,998.00",
+        "program": "AISL, ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "David A Mazziotti damazz@uchicago.edu"
+    ]
+  }
+]

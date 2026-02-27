@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2415028",
+    "name": "Hayley White",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Lake Pontchartrain Basin Foundation",
+    "location": "METAIRIE, LA",
+    "research_areas": [
+      "STEM Education",
+      "Communities Investigating Their Environment: Climate-Related Community Science in the Mississippi Ri..."
+    ],
+    "website": "",
+    "email": [
+      "hayley@scienceforourcoast.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "METAIRIE, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2415028",
+        "title": "Communities Investigating Their Environment: Climate-Related Community Science in the Mississippi River Delta",
+        "amount": "$2,000,000.00",
+        "program": "AISL",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Melissa A Collins macollins@berkeley.edu",
+      "Sarah Olsen skolsen@berkeley.edu",
+      "Danielle DiIullo ddiiullo@lsu.edu"
+    ]
+  }
+]

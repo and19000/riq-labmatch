@@ -1,0 +1,795 @@
+[
+  {
+    "id": "nsf-2513443",
+    "name": "Lucy Fortson",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: Building the Twenty-first Century Citizen Science Framework to E...",
+      "Mathematical and Physical Sciences",
+      "WoU-MMA: Very High Energy Astrophysics with VERITAS and CTAO",
+      "Collaborative Research: HCC: Small: Optimizing the Human-Machine System for Citizen Science"
+    ],
+    "website": "",
+    "email": [
+      "fortson@physics.umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2513443",
+        "title": "Collaborative Research: Frameworks: Building the Twenty-first Century Citizen Science Framework to Enable Scientific Discovery Across Disciplines",
+        "amount": "$2,140,536.00",
+        "program": "Software Institutes",
+        "end_date": "09/30/2029",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2513660",
+        "title": "WoU-MMA: Very High Energy Astrophysics with VERITAS and CTAO",
+        "amount": "$200,000.00",
+        "program": "WoU-Windows on the Universe: T, Particle Astrophysics/Cosmic P",
+        "end_date": "07/31/2026",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2334033",
+        "title": "Collaborative Research: HCC: Small: Optimizing the Human-Machine System for Citizen Science",
+        "amount": "$322,498.00",
+        "program": "HCC-Human-Centered Computing",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 3,
+    "co_investigators": [
+      "Ryan R Noe rrnoe@umn.edu",
+      "Emily Fairfax efairfax@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2534861",
+    "name": "Caiwen Ding",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Multi-Modal Sensing with Robust, Unified, and Scalable Diffractive Optical N...",
+      "CSE",
+      "Collaborative Research: SaTC: CORE: Medium: Accelerating Privacy-Preserving Machine Learning as a Se..."
+    ],
+    "website": "",
+    "email": [
+      "dingc@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2534861",
+        "title": "Collaborative Research: Multi-Modal Sensing with Robust, Unified, and Scalable Diffractive Optical Neural Networks",
+        "amount": "$300,000.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2505747",
+        "title": "Collaborative Research: SaTC: CORE: Medium: Accelerating Privacy-Preserving Machine Learning as a Service: From Algorithm to Hardware",
+        "amount": "$397,406.00",
+        "program": "Secure &Trustworthy Cyberspace",
+        "end_date": "08/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2503864",
+    "name": "Emily J Beverly",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Identifying non-linearities in rainfall and river responses to consecutive P...",
+      "CAREER: Quantifying climate induced landscape evolution during early Eocene hyperthermals"
+    ],
+    "website": "",
+    "email": [
+      "ebeverly@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2503864",
+        "title": "Collaborative Research: Identifying non-linearities in rainfall and river responses to consecutive Paleogene global warming events to inform the future",
+        "amount": "$399,996.00",
+        "program": "P4CLIMATE",
+        "end_date": "08/31/2028",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2517747",
+        "title": "CAREER: Quantifying climate induced landscape evolution during early Eocene hyperthermals",
+        "amount": "$670,984.00",
+        "program": "LET-Life & Enviro Through Time, XC-Crosscutting Activities Pro, Sedimentary Geo & Paleobiology",
+        "end_date": "01/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2533398",
+    "name": "Craig C Westerland",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Equivariant, Motivic, and Physical Topology in the Midwest"
+    ],
+    "website": "",
+    "email": [
+      "cwesterl@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2533398",
+        "title": "Conference: Equivariant, Motivic, and Physical Topology in the Midwest",
+        "amount": "$25,000.00",
+        "program": "TOPOLOGY",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alexander A Voronov voronov@umn.edu",
+      "Maria E Sarazola maru@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2400584",
+    "name": "Xiang Cheng",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Experimental study of the microscopic dynamics of bacterial turbulence"
+    ],
+    "website": "",
+    "email": [
+      "xcheng@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2400584",
+        "title": "Experimental study of the microscopic dynamics of bacterial turbulence",
+        "amount": "$285,773.00",
+        "program": "CONDENSED MATTER PHYSICS",
+        "end_date": "09/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2549573",
+    "name": "David DeLiema",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "STEM Education",
+      "Practitioner-Driven Synthesis of Museum Family Learning Conversations Research"
+    ],
+    "website": "",
+    "email": [
+      "ddeliema@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2549573",
+        "title": "Practitioner-Driven Synthesis of Museum Family Learning Conversations Research",
+        "amount": "$499,743.00",
+        "program": "AISL",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2524850",
+    "name": "Vuk Mandic",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "The Minnesota-New Mexico Partnership in Astrophysics"
+    ],
+    "website": "",
+    "email": [
+      "vuk@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2524850",
+        "title": "The Minnesota-New Mexico Partnership in Astrophysics",
+        "amount": "$741,344.00",
+        "program": "PAARE",
+        "end_date": "08/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Van D Romero van.romero@nmt.edu",
+      "Sylke G Boyd sboyd@morris.umn.edu",
+      "Lindsay Glesener glesener@umn.edu",
+      "Peter C Dolan dolan118@morris.umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452372",
+    "name": "Thomas R Hoye",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ABR: Using Alkynes to Fuel the Generation of Reactive Intermediates"
+    ],
+    "website": "",
+    "email": [
+      "hoye@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2452372",
+        "title": "ABR: Using Alkynes to Fuel the Generation of Reactive Intermediates",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505780",
+    "name": "R. Lee Penn",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Root Exudate Driven Perturbations of Iron Oxide-Organic Matter Assemblages:  Impact on Phase Transfo..."
+    ],
+    "website": "",
+    "email": [
+      "rleepenn@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2505780",
+        "title": "Root Exudate Driven Perturbations of Iron Oxide-Organic Matter Assemblages:  Impact on Phase Transformations and Carbon Fractionation",
+        "amount": "$415,000.00",
+        "program": "Environmental Chemical Science",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rene M Boiteau rboiteau@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452506",
+    "name": "Jessica M Hoover",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Oxidant-Controlled Decarboxylation Reactions"
+    ],
+    "website": "",
+    "email": [
+      "jmhoover@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2452506",
+        "title": "Oxidant-Controlled Decarboxylation Reactions",
+        "amount": "$570,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505782",
+    "name": "Aaron M Massari",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Measuring Microscopic Charge Transfer Rates in Heterogeneous Thin Films"
+    ],
+    "website": "",
+    "email": [
+      "massari@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2505782",
+        "title": "Measuring Microscopic Charge Transfer Rates in Heterogeneous Thin Films",
+        "amount": "$525,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2508620",
+    "name": "Ben Margalit",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Accurately Modeling Synchrotron Emission from Trans-Relativistic Transients"
+    ],
+    "website": "",
+    "email": [
+      "margalit@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2508620",
+        "title": "Accurately Modeling Synchrotron Emission from Trans-Relativistic Transients",
+        "amount": "$440,757.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434541",
+    "name": "James L Dickson",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Geosciences",
+      "Polar Geospatial Center: Community and Facility Support for Enabling the Next Decade of Scientific D..."
+    ],
+    "website": "",
+    "email": [
+      "jdickson@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2434541",
+        "title": "Polar Geospatial Center: Community and Facility Support for Enabling the Next Decade of Scientific Discovery and Logistics Operations in Earth's Polar Regions",
+        "amount": "$1,998,449.00",
+        "program": "ANT Instrum & Facilities, Antarctic Operations Support, Polar Cyberinfrastructure",
+        "end_date": "06/30/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Charles T Nguyen ctn@umn.edu",
+      "Claire C Porter porte254@umn.edu",
+      "Cole M Kelleher kell1026@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2501560",
+    "name": "Anna Weigandt",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Formal Power Series and Algebraic Combinatorics 2025 and 2026"
+    ],
+    "website": "",
+    "email": [
+      "weigandt@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2501560",
+        "title": "Conference: Formal Power Series and Algebraic Combinatorics 2025 and 2026",
+        "amount": "$90,000.00",
+        "program": "Combinatorics",
+        "end_date": "05/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2513573",
+    "name": "Sandra E Safo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: STATGEN25"
+    ],
+    "website": "",
+    "email": [
+      "ssafo@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2513573",
+        "title": "Conference: STATGEN25",
+        "amount": "$19,104.00",
+        "program": "STATISTICS",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kelsey E Grinde kgrinde@macalester.edu"
+    ]
+  },
+  {
+    "id": "nsf-2516932",
+    "name": "Tianhong Cui",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Engineering",
+      "ECCS-EPSRC: Nano-Embossed Microwave Photonic Sensors"
+    ],
+    "website": "",
+    "email": [
+      "cuixx006@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2516932",
+        "title": "ECCS-EPSRC: Nano-Embossed Microwave Photonic Sensors",
+        "amount": "$449,996.00",
+        "program": "NSF/ENG-UKRI EPSRC Opportunity, EPMD-ElectrnPhoton&MagnDevices",
+        "end_date": "04/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2451524",
+    "name": "Ru-yu Lai",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 2025 Riviere-Fabes Symposium"
+    ],
+    "website": "",
+    "email": [
+      "rylai@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2451524",
+        "title": "Conference: 2025 Riviere-Fabes Symposium",
+        "amount": "$39,822.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "03/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hao Jia jiaxx034@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2521887",
+    "name": "Maxwell C Brown",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Geosciences",
+      "Conference: 14th Institute for Rock Magnetism Conference"
+    ],
+    "website": "",
+    "email": [
+      "mcbrown@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2521887",
+        "title": "Conference: 14th Institute for Rock Magnetism Conference",
+        "amount": "$49,951.00",
+        "program": "SPSE-Study of Physics of Earth",
+        "end_date": "02/28/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2346918",
+    "name": "Jonathan S Schilling",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Biological Sciences",
+      "Planning: Strategic Planning for Itasca Biological Station & Laboratories"
+    ],
+    "website": "",
+    "email": [
+      "schillin@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2346918",
+        "title": "Planning: Strategic Planning for Itasca Biological Station & Laboratories",
+        "amount": "$24,950.00",
+        "program": "Capacity: Field Stations",
+        "end_date": "10/31/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Emily G Schilling egschill@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2419290",
+    "name": "Steven J Koester",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: RET Site: Research Experiences for Teachers across the National Nanotechnolo..."
+    ],
+    "website": "",
+    "email": [
+      "skoester@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2419290",
+        "title": "Collaborative Research: RET Site: Research Experiences for Teachers across the National Nanotechnology Coordinated Infrastructure",
+        "amount": "$200,000.00",
+        "program": "National Nanotechnology Coordi",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2521078",
+    "name": "Nicholas L Swanson-Hysell",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Proposal: Facility: Magnetics Information Consortium Catalyzes Enhanced Cyberinfrastru..."
+    ],
+    "website": "",
+    "email": [
+      "nicks-h@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2521078",
+        "title": "Collaborative Proposal: Facility: Magnetics Information Consortium Catalyzes Enhanced Cyberinfrastructure and FAIR Data Access Enabling Science Across Community Subdomains",
+        "amount": "$182,281.00",
+        "program": "GEOINFORMATICS",
+        "end_date": "10/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434301",
+    "name": "Yiling Zhang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Uncertainty-Aware Multimodal Transit System Design with Shared Mobility unde..."
+    ],
+    "website": "",
+    "email": [
+      "yiling@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2434301",
+        "title": "Collaborative Research: Uncertainty-Aware Multimodal Transit System Design with Shared Mobility under Ambiguous Rider Preferences",
+        "amount": "$302,001.00",
+        "program": "CIS-Civil Infrastructure Syst",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429128",
+    "name": "Amanda K Lane",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "STEM Education",
+      "IGE: Track 2: Comparing rotations and direct admissions pathways to graduate education in the scienc..."
+    ],
+    "website": "",
+    "email": [
+      "aklane@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2429128",
+        "title": "IGE: Track 2: Comparing rotations and direct admissions pathways to graduate education in the sciences: an assessment of policy and practice",
+        "amount": "$995,095.00",
+        "program": "Innovations in Grad Education",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Anita Schuchardt aschucha@umn.edu",
+      "Ariel L Steele steel250@umn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2436649",
+    "name": "Saonli Basu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Minnesota-Twin Cities",
+    "location": "MINNEAPOLIS, MN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: International Indian Statistical Association 2024 Annual Flagship Conference in India"
+    ],
+    "website": "",
+    "email": [
+      "saonli@umn.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MINNEAPOLIS, MN",
+    "nsf_awards": [
+      {
+        "award_number": "2436649",
+        "title": "Conference: International Indian Statistical Association 2024 Annual Flagship Conference in India",
+        "amount": "$25,000.00",
+        "program": "STATISTICS",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

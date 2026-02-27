@@ -1,0 +1,108 @@
+[
+  {
+    "id": "nsf-2450039",
+    "name": "Zhaoshuo Jiang",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "San Francisco State University",
+    "location": "SAN FRANCISCO, CA",
+    "research_areas": [
+      "STEM Education",
+      "Interdisciplinary Research and Education through the Development of AI-assisted Home Health Monitori...",
+      "ELITE: Enhancing Learning through Innovative Teaching Equipment"
+    ],
+    "website": "",
+    "email": [
+      "zsjiang@sfsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN FRANCISCO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2450039",
+        "title": "Interdisciplinary Research and Education through the Development of AI-assisted Home Health Monitoring Systems",
+        "amount": "$199,930.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "05/31/2027",
+        "directorate": "EDU"
+      },
+      {
+        "award_number": "2434215",
+        "title": "ELITE: Enhancing Learning through Innovative Teaching Equipment",
+        "amount": "$196,135.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Tao He hetao@sfsu.edu",
+      "Zhuwei Qin zwqin@sfsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2431594",
+    "name": "Jingyi Wang",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "San Francisco State University",
+    "location": "SAN FRANCISCO, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CISE MSI: RDP: CNS: Towards the Resilient NextG Network Design for Federated..."
+    ],
+    "website": "",
+    "email": [
+      "jingyiwang@sfsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN FRANCISCO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2431594",
+        "title": "Collaborative Research: CISE MSI: RDP: CNS: Towards the Resilient NextG Network Design for Federated Learning over Mobile Devices",
+        "amount": "$199,999.00",
+        "program": "CISE MSI Research Expansion",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434737",
+    "name": "Shahrukh Humayoun",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "San Francisco State University",
+    "location": "SAN FRANCISCO, CA",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: VRMaS: VR Maker Space"
+    ],
+    "website": "",
+    "email": [
+      "humayoun@sfsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN FRANCISCO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2434737",
+        "title": "Equipment: VRMaS: VR Maker Space",
+        "amount": "$199,974.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "11/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jenna Wong jewong@sfsu.edu"
+    ]
+  }
+]

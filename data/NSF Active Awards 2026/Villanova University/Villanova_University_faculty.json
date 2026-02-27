@@ -1,0 +1,134 @@
+[
+  {
+    "id": "nsf-2423869",
+    "name": "Bo Li",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Villanova University",
+    "location": "VILLANOVA, PA",
+    "research_areas": [
+      "Engineering",
+      "Self-limiting particle assembly on soft substrates",
+      "GOALI: Water-Based Assembly of Functional Nanomaterial Coatings for Smart Textiles"
+    ],
+    "website": "",
+    "email": [
+      "bo.li@villanova.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VILLANOVA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2423869",
+        "title": "Self-limiting particle assembly on soft substrates",
+        "amount": "$523,654.00",
+        "program": "Nanoscale Interactions Program",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2348898",
+        "title": "GOALI: Water-Based Assembly of Functional Nanomaterial Coatings for Smart Textiles",
+        "amount": "$600,002.00",
+        "program": "GOALI-Grnt Opp Acad Lia wIndus, AM-Advanced Manufacturing",
+        "end_date": "10/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Gang Feng gang.feng@villanova.edu"
+    ]
+  },
+  {
+    "id": "nsf-2437519",
+    "name": "Stephanie M Campos",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Villanova University",
+    "location": "VILLANOVA, PA",
+    "research_areas": [
+      "Biological Sciences",
+      "BRC-BIO: Scents and sensibility: The impacts of vasotocin and humidity on chemical communication in ..."
+    ],
+    "website": "",
+    "email": [
+      "stephanie.campos@villanova.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VILLANOVA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2437519",
+        "title": "BRC-BIO: Scents and sensibility: The impacts of vasotocin and humidity on chemical communication in lizards",
+        "amount": "$423,192.00",
+        "program": "NFE-New Faculty Enhancement",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2524369",
+    "name": "Rebecca A Phillipson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Villanova University",
+    "location": "VILLANOVA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MPS-Ascend Faculty Catalyst: Preparing for Early Science with Rubin Observatory: Intrinsic Variabili..."
+    ],
+    "website": "",
+    "email": [
+      "rebecca.phillipson@villanova.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VILLANOVA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2524369",
+        "title": "MPS-Ascend Faculty Catalyst: Preparing for Early Science with Rubin Observatory: Intrinsic Variability of Accreting Compact Objects",
+        "amount": "$289,158.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "06/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2337906",
+    "name": "Matthew C O'Reilly",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Villanova University",
+    "location": "VILLANOVA, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Development of Chemical Tools for the Preparation of Strained Cyclic Peptides"
+    ],
+    "website": "",
+    "email": [
+      "matthew.oreilly@villanova.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VILLANOVA, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2337906",
+        "title": "CAREER: Development of Chemical Tools for the Preparation of Strained Cyclic Peptides",
+        "amount": "$462,481.00",
+        "program": "Chemical Synthesis",
+        "end_date": "08/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

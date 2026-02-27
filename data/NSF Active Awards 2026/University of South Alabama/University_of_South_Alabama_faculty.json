@@ -1,0 +1,249 @@
+[
+  {
+    "id": "nsf-2408064",
+    "name": "Na Gong",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of South Alabama",
+    "location": "MOBILE, AL",
+    "research_areas": [
+      "CSE",
+      "MRI: Track 1 Acquisition of a Measurement System for Multi-disciplinary Microelectronics Research, E...",
+      "RET Site: Research Experiences for Teachers in Biologically-inspired Computing Systems",
+      "Office of the Director",
+      "RII Track 2 FEC: Building Research Infrastructure and Workforce in Edge Artificial Intelligence",
+      "IRES Track I:Collaborative Research:Application-Specific Asynchronous Deep Learning IC Design for Ul..."
+    ],
+    "website": "",
+    "email": [
+      "ngong@ua.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOBILE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2408064",
+        "title": "MRI: Track 1 Acquisition of a Measurement System for Multi-disciplinary Microelectronics Research, Education, and Training at South Alabama",
+        "amount": "$800,000.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2610355",
+        "title": "RET Site: Research Experiences for Teachers in Biologically-inspired Computing Systems",
+        "amount": "$600,000.00",
+        "program": "RES EXP FOR TEACHERS(RET)-SITE",
+        "end_date": "06/30/2028",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2611071",
+        "title": "RII Track 2 FEC: Building Research Infrastructure and Workforce in Edge Artificial Intelligence",
+        "amount": "$2,587,276.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "09/30/2026",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2611766",
+        "title": "IRES Track I:Collaborative Research:Application-Specific Asynchronous Deep Learning IC Design for Ultra-Low Power",
+        "amount": "$37,578.00",
+        "program": "IRES Track I: IRES Sites (IS)",
+        "end_date": "08/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 4,
+    "co_investigators": [
+      "Kuang-Ting Hsiao kthsiao@southalabama.edu",
+      "Ryan G Benton rbenton@southalabama.edu",
+      "Silas Leavesley leavesley@southalabama.edu",
+      "Jinhui Wang jwang231@ua.edu"
+    ]
+  },
+  {
+    "id": "nsf-2450141",
+    "name": "Shenghua Wu",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of South Alabama",
+    "location": "MOBILE, AL",
+    "research_areas": [
+      "Office of the Director",
+      "Conference: Workshop on Bridging the Gaps: Tackling Microplastics and Nanoplastics Challenges in Coa...",
+      "Engineering",
+      "REU Site: Interdisciplinary Research to Address Microplastics in Gulf Coast Region"
+    ],
+    "website": "",
+    "email": [
+      "shenghuawu@southalabama.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOBILE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2450141",
+        "title": "Conference: Workshop on Bridging the Gaps: Tackling Microplastics and Nanoplastics Challenges in Coastal Ecosystems",
+        "amount": "$200,000.00",
+        "program": "EPSCoR Outreach and Workshops",
+        "end_date": "07/31/2026",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2348977",
+        "title": "REU Site: Interdisciplinary Research to Address Microplastics in Gulf Coast Region",
+        "amount": "$464,508.00",
+        "program": "SSA-Special Studies & Analysis",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Alexandra C Stenson astenson@jaguar1.usouthal.edu",
+      "Jinhui Wang jwang231@ua.edu",
+      "Melike Dizbay-Onat monat@southalabama.edu",
+      "Kaushik Venkiteshwaran kvenkiteshwaran@southalabama.edu"
+    ]
+  },
+  {
+    "id": "nsf-2526798",
+    "name": "Eric Steward",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of South Alabama",
+    "location": "MOBILE, AL",
+    "research_areas": [
+      "STEM Education",
+      "STEM STARs: A Partnership to Build Persistence to Math-Intensive Degrees in Low-Income Students"
+    ],
+    "website": "",
+    "email": [
+      "esteward@southalabama.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOBILE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2526798",
+        "title": "STEM STARs: A Partnership to Build Persistence to Math-Intensive Degrees in Low-Income Students",
+        "amount": "$4,999,979.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2032",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Maria A Kiskowski-Byrne abyrne@southalabama.edu",
+      "Christy W West cwwest@southalabama.edu",
+      "Andrei Pavelescu andreipavelescu@southalabama.edu",
+      "Drew Gossen dgossen@southalabama.edu"
+    ]
+  },
+  {
+    "id": "nsf-2437635",
+    "name": "Tuan M Tran",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of South Alabama",
+    "location": "MOBILE, AL",
+    "research_areas": [
+      "Biological Sciences",
+      "BRC-BIO: Deciphering the Organization, Membrane Architecture and Immunity functions of plant membran..."
+    ],
+    "website": "",
+    "email": [
+      "tuantran2904@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOBILE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2437635",
+        "title": "BRC-BIO: Deciphering the Organization, Membrane Architecture and Immunity functions of plant membrane Nanodomains (DOMAIN)",
+        "amount": "$502,995.00",
+        "program": "NFE-New Faculty Enhancement, EPSCoR Co-Funding",
+        "end_date": "02/29/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Caitilyn Allen cza@plantpath.wisc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453745",
+    "name": "Steven C Clontz",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of South Alabama",
+    "location": "MOBILE, AL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Summer Conference on Topology and Its Applications 2025"
+    ],
+    "website": "",
+    "email": [
+      "sclontz@southalabama.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOBILE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2453745",
+        "title": "Summer Conference on Topology and Its Applications 2025",
+        "amount": "$30,000.00",
+        "program": "FOUNDATIONS, TOPOLOGY",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Elena Pavelescu elenapavelescu@southalabama.edu",
+      "Joanna Furno jfurno@southalabama.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417167",
+    "name": "Shiladitya R Chaudhury",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of South Alabama",
+    "location": "MOBILE, AL",
+    "research_areas": [
+      "STEM Education",
+      "Motivating Academics for Growth, Innovation, and Collaboration in STEM: a Regional Faculty Learning ..."
+    ],
+    "website": "",
+    "email": [
+      "schaudhury@southalabama.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MOBILE, AL",
+    "nsf_awards": [
+      {
+        "award_number": "2417167",
+        "title": "Motivating Academics for Growth, Innovation, and Collaboration in STEM: a Regional Faculty Learning Community in South Alabama",
+        "amount": "$184,224.00",
+        "program": "IUSE",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "James R Adams adams@southalabama.edu",
+      "Shiladitya R Chaudhury (Former) schaudhury@southalabama.edu"
+    ]
+  }
+]

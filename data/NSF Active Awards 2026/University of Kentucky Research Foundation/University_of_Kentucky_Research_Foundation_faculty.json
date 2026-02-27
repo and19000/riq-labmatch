@@ -1,0 +1,527 @@
+[
+  {
+    "id": "nsf-2529093",
+    "name": "Simone Silvestri",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CPS: Medium: Calfhealth: An Explainable AI Framework for the Early Detection...",
+      "Planning: DCL EPSCOR: CISE Large: Distributed Edge Intelligence in Support of Next-Generation Applic..."
+    ],
+    "website": "",
+    "email": [
+      "simone.silvestri@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2529093",
+        "title": "Collaborative Research: CPS: Medium: Calfhealth: An Explainable AI Framework for the Early Detection of Pneumonia in Dairy Calves through Precision Technologies",
+        "amount": "$941,359.00",
+        "program": "CPS-Cyber-Physical Systems",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2438581",
+        "title": "Planning: DCL EPSCOR: CISE Large: Distributed Edge Intelligence in Support of Next-Generation Applications",
+        "amount": "$100,000.00",
+        "program": "Information Technology Researc",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Muhammad A Siddique siddique@cs.uky.edu"
+    ]
+  },
+  {
+    "id": "nsf-2336268",
+    "name": "Sarah A Wilson",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Supporting Student Well-being with a Community of Transformation",
+      "Building a Chemical Engineering Inter-Institutional Consortium to Support Talented, Low-income Stude..."
+    ],
+    "website": "",
+    "email": [
+      "wilsonsa@rowan.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2336268",
+        "title": "Collaborative Research: Supporting Student Well-being with a Community of Transformation",
+        "amount": "$347,824.00",
+        "program": "IUSE",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      },
+      {
+        "award_number": "2424673",
+        "title": "Building a Chemical Engineering Inter-Institutional Consortium to Support Talented, Low-income Students",
+        "amount": "$43,634.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2534780",
+    "name": "Anne-Frances Miller",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Bifurcation in Context: Essential ingredients and coupling with partners"
+    ],
+    "website": "",
+    "email": [
+      "afmill3r2@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2534780",
+        "title": "Bifurcation in Context: Essential ingredients and coupling with partners",
+        "amount": "$605,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "12/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2448224",
+    "name": "Jennifer A Wilhelm",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "STEM Education",
+      "Robert Noyce Teacher Scholarship Program Track 2 Project: Kentucky Teachers Improving Education in S..."
+    ],
+    "website": "",
+    "email": [
+      "jennifer.wilhelm@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2448224",
+        "title": "Robert Noyce Teacher Scholarship Program Track 2 Project: Kentucky Teachers Improving Education in STEM",
+        "amount": "$1,714,942.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Robin L Cooper RLCOOP1@email.uky.edu",
+      "Francis J Chung fj.chung@uky.edu",
+      "Lin Xiang lin.xiang@uky.edu",
+      "Lisa R Amick lisa.amick@uky.edu"
+    ]
+  },
+  {
+    "id": "nsf-2509369",
+    "name": "Nisal A Peiris",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Engineering",
+      "MRI: Track 1 Acquisition of Servo-Hydraulic Actuator System for Controlled Testing of Structural Com..."
+    ],
+    "website": "",
+    "email": [
+      "abheetha.peiris@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2509369",
+        "title": "MRI: Track 1 Acquisition of Servo-Hydraulic Actuator System for Controlled Testing of Structural Components for Transdisciplinary Research",
+        "amount": "$740,704.00",
+        "program": "Special Initiatives",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kamyar C Mahboub kc.mahboub@uky.edu",
+      "James R Caudill james.caudill@uky.edu",
+      "Ronnie C Graves clark.graves@uky.edu",
+      "Joshua Calnan joshcalnan@uky.edu"
+    ]
+  },
+  {
+    "id": "nsf-2441654",
+    "name": "Biyun Xie",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "CSE",
+      "CAREER: Safe and Reliable Human-Robot Shared Control for Robotic Telemanipulation in Complex and Ext..."
+    ],
+    "website": "",
+    "email": [
+      "Biyun.Xie@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2441654",
+        "title": "CAREER: Safe and Reliable Human-Robot Shared Control for Robotic Telemanipulation in Complex and Extreme Environments",
+        "amount": "$602,698.00",
+        "program": "FRR-Foundationl Rsrch Robotics",
+        "end_date": "08/31/2030",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2451533",
+    "name": "David Jensen",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Tropical Brill-Noether Theory"
+    ],
+    "website": "",
+    "email": [
+      "dave.h.jensen@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2451533",
+        "title": "Tropical Brill-Noether Theory",
+        "amount": "$313,823.00",
+        "program": "MSPA-INTERDISCIPLINARY, ALGEBRA,NUMBER THEORY,AND COM",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2442924",
+    "name": "Jessica Santollo",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: A new perspective for understanding the varied actions of vasopressin on soc..."
+    ],
+    "website": "",
+    "email": [
+      "j.santollo@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2442924",
+        "title": "Collaborative Research: A new perspective for understanding the varied actions of vasopressin on social development",
+        "amount": "$449,000.00",
+        "program": "Modulation",
+        "end_date": "07/31/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514845",
+    "name": "Erin E Peters",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Elucidating Nuclear Structure with Fast Neutrons and Complementary Techniques"
+    ],
+    "website": "",
+    "email": [
+      "fe.peters@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2514845",
+        "title": "Elucidating Nuclear Structure with Fast Neutrons and Complementary Techniques",
+        "amount": "$449,999.00",
+        "program": "NUCLEAR STRUCTURE & REACTIONS",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2528161",
+    "name": "Vernon Bumgardner",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "CSE",
+      "Conference: NAIRR Pilot Expansion: FA1: Democratizing AI Training and Access Statewide"
+    ],
+    "website": "",
+    "email": [
+      "cody@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2528161",
+        "title": "Conference: NAIRR Pilot Expansion: FA1: Democratizing AI Training and Access Statewide",
+        "amount": "$140,554.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "06/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Vernon Bumgardner (Former) cody@uky.edu"
+    ]
+  },
+  {
+    "id": "nsf-2444978",
+    "name": "Baron G Wolf",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Office of the Director",
+      "RCN: Research Evaluation and Analytics Capacity Hub (REACH)"
+    ],
+    "website": "",
+    "email": [
+      "baron.wolf@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2444978",
+        "title": "RCN: Research Evaluation and Analytics Capacity Hub (REACH)",
+        "amount": "$913,685.00",
+        "program": "GRANTED",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2423467",
+    "name": "Dusan P Sekulic",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: ISS: Segregation of Inhomogeneous Alloy Melt Driven by Capillary Flow in Mic..."
+    ],
+    "website": "",
+    "email": [
+      "sekulicd@engr.uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2423467",
+        "title": "Collaborative Research: ISS: Segregation of Inhomogeneous Alloy Melt Driven by Capillary Flow in Microgravity",
+        "amount": "$217,925.00",
+        "program": "METAL & METALLIC NANOSTRUCTURE",
+        "end_date": "02/28/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2444521",
+    "name": "Mihai Tohaneanu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Conference: Ohio River Analysis Meetings 2025-2027"
+    ],
+    "website": "",
+    "email": [
+      "mihai.tohaneanu@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2444521",
+        "title": "Collaborative Research: Conference: Ohio River Analysis Meetings 2025-2027",
+        "amount": "$16,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Peter D Hislop peter.hislop@uky.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429424",
+    "name": "Xingsheng Sun",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Dynamic Response Characterization of High Entropy Alloys under High-Ve..."
+    ],
+    "website": "",
+    "email": [
+      "xingsheng.sun@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2429424",
+        "title": "EPSCoR Research Fellows: NSF: Dynamic Response Characterization of High Entropy Alloys under High-Velocity Impact Conditions",
+        "amount": "$299,741.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "01/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2438033",
+    "name": "Fuqian Yang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "Engineering",
+      "NSF-DFG MISSION “In-situ analysis of Li transport through solid state interfacial systems by neutron..."
+    ],
+    "website": "",
+    "email": [
+      "fyang2@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2438033",
+        "title": "NSF-DFG MISSION “In-situ analysis of Li transport through solid state interfacial systems by neutron reflectometry measurements\"",
+        "amount": "$246,000.00",
+        "program": "Special Initiatives",
+        "end_date": "12/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429832",
+    "name": "Pedram Roghanchi",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Kentucky Research Foundation",
+    "location": "LEXINGTON, KY",
+    "research_areas": [
+      "STEM Education",
+      "IGE Track 1: Integrating Artificial Intelligence Technologies into Mining Education"
+    ],
+    "website": "",
+    "email": [
+      "pedram.roghanchi@uky.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LEXINGTON, KY",
+    "nsf_awards": [
+      {
+        "award_number": "2429832",
+        "title": "IGE Track 1: Integrating Artificial Intelligence Technologies into Mining Education",
+        "amount": "$442,070.00",
+        "program": "Innovations in Grad Education",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sarah A Wilson wilsonsa@rowan.edu",
+      "Ali Moradi Afrapoli Ali.Moradi@uky.edu",
+      "Zacharias Agioutantis zach.agioutantis@uky.edu",
+      "Steven J Schafrik steven.schafrik@uky.edu"
+    ]
+  }
+]

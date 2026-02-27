@@ -1,0 +1,67 @@
+[
+  {
+    "id": "nsf-2524167",
+    "name": "Lihan Wang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "California State University-Long Beach Foundation",
+    "location": "LONG BEACH, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "PRIMES: Hear the Boundary via Investigating Steklov Eigenvalues"
+    ],
+    "website": "",
+    "email": [
+      "lihan.wang@csulb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LONG BEACH, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2524167",
+        "title": "PRIMES: Hear the Boundary via Investigating Steklov Eigenvalues",
+        "amount": "$400,000.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434875",
+    "name": "Ji-Hwan Kang",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State University-Long Beach Foundation",
+    "location": "LONG BEACH, CA",
+    "research_areas": [
+      "STEM Education",
+      "Equipment: Breaking Barriers: Advancing Chemical Engineering Education with Additive Manufacturing I..."
+    ],
+    "website": "",
+    "email": [
+      "jihwan.kang@csulb.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LONG BEACH, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2434875",
+        "title": "Equipment: Breaking Barriers: Advancing Chemical Engineering Education with Additive Manufacturing Integration",
+        "amount": "$199,989.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "11/30/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Roger C Lo roger.lo@csulb.edu",
+      "Ehsan Barjasteh ehsan.Barjasteh@csulb.edu",
+      "Yu Yang yu.yang@csulb.edu"
+    ]
+  }
+]

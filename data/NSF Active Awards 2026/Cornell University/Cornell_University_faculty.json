@@ -1,0 +1,586 @@
+[
+  {
+    "id": "nsf-2453452",
+    "name": "Andrew J Musser",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Controlling Coherences in Crystalline Frameworks for Enhanced Singlet Fission",
+      "Vibrational Coherence Probes of Polariton Photochemistry"
+    ],
+    "website": "",
+    "email": [
+      "ajm557@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2453452",
+        "title": "Controlling Coherences in Crystalline Frameworks for Enhanced Singlet Fission",
+        "amount": "$628,111.00",
+        "program": "CMFP-Chem Mech Funct, and Prop, QISET-Quan Info Sci Eng & Tech",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2431885",
+        "title": "Vibrational Coherence Probes of Polariton Photochemistry",
+        "amount": "$522,354.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Phillip J Milner pjm347@cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2449849",
+    "name": "Susan Daniel",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Engineering",
+      "IUSE/PFE: RED Innovation: Integrating a Living Laboratory in Chemical and Biomolecular Engineering t..."
+    ],
+    "website": "",
+    "email": [
+      "sd386@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2449849",
+        "title": "IUSE/PFE: RED Innovation: Integrating a Living Laboratory in Chemical and Biomolecular Engineering to Create a Responsive and Dynamic Educational Ecosystem",
+        "amount": "$2,000,000.00",
+        "program": "IUSE, PFE\\RED - Professional Formati",
+        "end_date": "09/30/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "T. Michael Duncan tmd10@cornell.edu",
+      "Jeffrey D Varner jdv27@cornell.edu",
+      "Allison Godwin afg64@cornell.edu",
+      "Alexandra C Strong acosostrong@cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2506021",
+    "name": "Tristan Lambert",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Hydrazine-Catalyzed Ring-Opening Metathesis Polymerization"
+    ],
+    "website": "",
+    "email": [
+      "thl36@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2506021",
+        "title": "Hydrazine-Catalyzed Ring-Opening Metathesis Polymerization",
+        "amount": "$800,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Brett P Fors bpf46@cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2516142",
+    "name": "David L Hysell",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Subauroral atmospheric and ionospheric dynamics at the edge of space"
+    ],
+    "website": "",
+    "email": [
+      "dlh37@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2516142",
+        "title": "Collaborative Research: Subauroral atmospheric and ionospheric dynamics at the edge of space",
+        "amount": "$351,460.00",
+        "program": "AERONOMY",
+        "end_date": "07/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510804",
+    "name": "Thomas J Loredo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CDS&E: A Cosmic Demographics Toolkit"
+    ],
+    "website": "",
+    "email": [
+      "loredo@astro.cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2510804",
+        "title": "CDS&E: A Cosmic Demographics Toolkit",
+        "amount": "$556,256.00",
+        "program": "EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shami Chatterjee shami@astro.cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2514209",
+    "name": "Campbell J McColley",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "STEM Education",
+      "Postdoctoral Fellowship: STEMEdIPRF: Real-World Learning in Engineering: Case Studies of University ..."
+    ],
+    "website": "",
+    "email": [
+      "cjm396@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2514209",
+        "title": "Postdoctoral Fellowship: STEMEdIPRF: Real-World Learning in Engineering: Case Studies of University Partnerships with Wastewater Treatment Facilities",
+        "amount": "$360,116.00",
+        "program": "Postdoctoral Fellowships",
+        "end_date": "07/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2509743",
+    "name": "Julio Giordano",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "CSE",
+      "Planning: AI Ready; Artificial Intelligence for Agriculture (AI4Ag) Testbed"
+    ],
+    "website": "",
+    "email": [
+      "jog25@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2509743",
+        "title": "Planning: AI Ready; Artificial Intelligence for Agriculture (AI4Ag) Testbed",
+        "amount": "$195,013.00",
+        "program": "AI-Ready Testbeds",
+        "end_date": "07/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hakim Weatherspoon hweather@cs.cornell.edu",
+      "Renata Ivanek Miojevic ri25@cornell.edu",
+      "Fengqi You fengqi.you@cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2532653",
+    "name": "Tianyi Chen",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: BLoG: A Bi-Level Optimization Framework for Learning Over Graphs"
+    ],
+    "website": "",
+    "email": [
+      "chentianyi19@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2532653",
+        "title": "Collaborative Research: BLoG: A Bi-Level Optimization Framework for Learning Over Graphs",
+        "amount": "$250,002.00",
+        "program": "CCSS-Comms Circuits & Sens Sys",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453722",
+    "name": "Song Lin",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "New Hypervalent Iodine Agents for N-N Bond Coupling"
+    ],
+    "website": "",
+    "email": [
+      "songlin@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2453722",
+        "title": "New Hypervalent Iodine Agents for N-N Bond Coupling",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2442363",
+    "name": "Xiaomeng Liu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Visualizing and Manipulating Anyons in 2D Topological Matter with Scanning Tunneling Microsc..."
+    ],
+    "website": "",
+    "email": [
+      "xl956@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2442363",
+        "title": "CAREER: Visualizing and Manipulating Anyons in 2D Topological Matter with Scanning Tunneling Microscopy",
+        "amount": "$175,228.00",
+        "program": "CONDENSED MATTER PHYSICS",
+        "end_date": "04/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2452501",
+    "name": "Laurent P Saloff-Coste",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Cornell 8th Conference on Analysis, Probability, and Mathematical Physics on Fractals"
+    ],
+    "website": "",
+    "email": [
+      "lsc@math.cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2452501",
+        "title": "Conference: Cornell 8th Conference on Analysis, Probability, and Mathematical Physics on Fractals",
+        "amount": "$35,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alexander Teplyaev alexander.teplyaev@uconn.edu",
+      "Luke G Rogers rogers@math.uconn.edu"
+    ]
+  },
+  {
+    "id": "nsf-2506883",
+    "name": "Carmen E Martinez",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Geosciences",
+      "NERC-NSFGEO: Unravelling the formation and impact of the plastisphere in response to environmental s..."
+    ],
+    "website": "",
+    "email": [
+      "cem20@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2506883",
+        "title": "NERC-NSFGEO: Unravelling the formation and impact of the plastisphere in response to environmental stresses in microplastic contaminated soils",
+        "amount": "$478,560.00",
+        "program": "Integrat & Collab Ed & Rsearch",
+        "end_date": "12/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2434321",
+    "name": "Judith A Spitz",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CUE-T: Expanding the undergraduate AI talent pipeline by democratizing acces..."
+    ],
+    "website": "",
+    "email": [
+      "judith.spitz@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2434321",
+        "title": "Collaborative Research: CUE-T: Expanding the undergraduate AI talent pipeline by democratizing access to instructional capabilities across institutions of higher education (IHEs)",
+        "amount": "$1,388,966.00",
+        "program": "CSforAll-Computer Sci for All, IUSE: Computing Undergrad Educ, NAIRR-Nat AI Research Resource",
+        "end_date": "12/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2347724",
+    "name": "Susanne M Bruyere",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "STEM Education",
+      "Navigating Pathways to STEM Careers: Identifying Barriers and Facilitators in Interview Processes fr..."
+    ],
+    "website": "",
+    "email": [
+      "smb23@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2347724",
+        "title": "Navigating Pathways to STEM Careers: Identifying Barriers and Facilitators in Interview Processes from the Perspectives of Autistic Students, Career Counselors, and STEM Employers",
+        "amount": "$828,097.00",
+        "program": "Alliances-Minority Participat., Disabilities Research in STEM",
+        "end_date": "03/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Katherine R Brown kb726@cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2519295",
+    "name": "Mohammad Alian",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: EAGER: AI-Assisted Just-in-Time Scaffolding Framework for Exploring Modern C..."
+    ],
+    "website": "",
+    "email": [
+      "malian@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2519295",
+        "title": "Collaborative Research: EAGER: AI-Assisted Just-in-Time Scaffolding Framework for Exploring Modern Computer Design",
+        "amount": "$145,221.00",
+        "program": "Cyberlearn & Future Learn Tech",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430496",
+    "name": "Michelle Smith",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "STEM Education",
+      "NSF STEM Ed OPRF: The Cornell Interdisciplinary Education Research Postdoctoral Cohort"
+    ],
+    "website": "",
+    "email": [
+      "mks274@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2430496",
+        "title": "NSF STEM Ed OPRF: The Cornell Interdisciplinary Education Research Postdoctoral Cohort",
+        "amount": "$1,250,000.00",
+        "program": "Postdoctoral Fellowships, ECR:BCSER Capcity STEM Ed Rscr, IUSE",
+        "end_date": "09/30/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Allison Godwin afg64@cornell.edu",
+      "Natasha G Holmes ngholmes@cornell.edu",
+      "Alexandra Werth amw438@cornell.edu"
+    ]
+  },
+  {
+    "id": "nsf-2432763",
+    "name": "Patrick M O'Grady",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Biological Sciences",
+      "Planning: Strategic Planning and Sustainability of the Natural Drosophila Species Stock Center"
+    ],
+    "website": "",
+    "email": [
+      "ogrady@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2432763",
+        "title": "Planning: Strategic Planning and Sustainability of the Natural Drosophila Species Stock Center",
+        "amount": "$99,664.00",
+        "program": "Capacity: Bio Collections",
+        "end_date": "08/31/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2349310",
+    "name": "Judy Cha",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Cornell University",
+    "location": "ITHACA, NY",
+    "research_areas": [
+      "Engineering",
+      "REU SITE: Summer Research Program at SRC JUMP2.0 SUPREME"
+    ],
+    "website": "",
+    "email": [
+      "judy.cha@cornell.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ITHACA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2349310",
+        "title": "REU SITE: Summer Research Program at SRC JUMP2.0 SUPREME",
+        "amount": "$549,749.00",
+        "program": "SSA-Special Studies & Analysis",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Lynn C Rathbun rathbun@cnf.cornell.edu"
+    ]
+  }
+]

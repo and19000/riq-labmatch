@@ -1,0 +1,131 @@
+[
+  {
+    "id": "nsf-2502828",
+    "name": "Kejun Wen",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Jackson State University",
+    "location": "JACKSON, MS",
+    "research_areas": [
+      "Engineering",
+      "Excellence in Research: Self-Healing Infrastructure with Natural-Based Enhancements (SHINE): Innovat..."
+    ],
+    "website": "",
+    "email": [
+      "kejun.wen@jsums.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JACKSON, MS",
+    "nsf_awards": [
+      {
+        "award_number": "2502828",
+        "title": "Excellence in Research: Self-Healing Infrastructure with Natural-Based Enhancements (SHINE): Innovative Solutions Development for Resilient Earthen Infrastructure",
+        "amount": "$500,090.00",
+        "program": "HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440303",
+    "name": "Muhammad Saiful Islam",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Jackson State University",
+    "location": "JACKSON, MS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Design Principles for Chalcogenide and Oxychalcogenide Aerogels: Synthetic Building Blocks, ..."
+    ],
+    "website": "",
+    "email": [
+      "muhammad.s.islam@jsums.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JACKSON, MS",
+    "nsf_awards": [
+      {
+        "award_number": "2440303",
+        "title": "CAREER: Design Principles for Chalcogenide and Oxychalcogenide Aerogels: Synthetic Building Blocks, Mechanistic Understanding, and Emergent Properties",
+        "amount": "$468,294.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS, EPSCoR Co-Funding",
+        "end_date": "03/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2417547",
+    "name": "Deidre L Wheaton",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Jackson State University",
+    "location": "JACKSON, MS",
+    "research_areas": [
+      "CSE",
+      "BPC-DP: Integrated Math and Computer Science (IMaCS) Teacher Professional Development Project"
+    ],
+    "website": "",
+    "email": [
+      "deidre.l.wheaton@jsums.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JACKSON, MS",
+    "nsf_awards": [
+      {
+        "award_number": "2417547",
+        "title": "BPC-DP: Integrated Math and Computer Science (IMaCS) Teacher Professional Development Project",
+        "amount": "$300,000.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Loretta A Moore loretta.a.moore@jsums.edu",
+      "Jacqueline M Jackson jacqueline.m.jackson@jsums.edu",
+      "Jana Talley jana.r.talley@jsums.edu",
+      "Carmen M Wright carmen.m.wright@jsums.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426522",
+    "name": "Paresh C Ray",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Jackson State University",
+    "location": "JACKSON, MS",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: JSU-UNL Collaboration on Quantum Sensing Research and Education for Minority Pa..."
+    ],
+    "website": "",
+    "email": [
+      "paresh.c.ray@jsums.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JACKSON, MS",
+    "nsf_awards": [
+      {
+        "award_number": "2426522",
+        "title": "ExpandQISE: Track 1: JSU-UNL Collaboration on Quantum Sensing Research and Education for Minority Participants",
+        "amount": "$800,000.00",
+        "program": "ExpandQISE, Hist Black Colleges and Univ, Special Initiatives",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Abdelghani Laraoui alaraoui2@unl.edu"
+    ]
+  }
+]

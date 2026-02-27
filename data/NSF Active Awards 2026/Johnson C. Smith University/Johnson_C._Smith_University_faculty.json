@@ -1,0 +1,95 @@
+[
+  {
+    "id": "nsf-2436648",
+    "name": "Felesia Stukes",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Johnson C. Smith University",
+    "location": "CHARLOTTE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: The Charlotte Data Science Corps - Cross-Institutional Flexible Pathways and..."
+    ],
+    "website": "",
+    "email": [
+      "fstukes@jcsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHARLOTTE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2436648",
+        "title": "Collaborative Research: The Charlotte Data Science Corps - Cross-Institutional Flexible Pathways and Immersive Community Capacity Building",
+        "amount": "$228,272.00",
+        "program": "Data Science Corps",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510505",
+    "name": "Sabina D Otienoburu",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Johnson C. Smith University",
+    "location": "CHARLOTTE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Targeted Infusion Project: The DataSmiths Initiative: Transforming STEM Education with Data-Centric ..."
+    ],
+    "website": "",
+    "email": [
+      "sotienoburu@jcsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHARLOTTE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2510505",
+        "title": "Targeted Infusion Project: The DataSmiths Initiative: Transforming STEM Education with Data-Centric Approaches",
+        "amount": "$399,930.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "07/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Felesia Stukes fstukes@jcsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2300429",
+    "name": "Ronda K Bibbs",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Johnson C. Smith University",
+    "location": "CHARLOTTE, NC",
+    "research_areas": [
+      "STEM Education",
+      "Research Initiation Award: Green-Synthesized Silver Nanoparticles using Citrus fruit and their evalu..."
+    ],
+    "website": "",
+    "email": [
+      "rbibbs@jcsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHARLOTTE, NC",
+    "nsf_awards": [
+      {
+        "award_number": "2300429",
+        "title": "Research Initiation Award: Green-Synthesized Silver Nanoparticles using Citrus fruit and their evaluation on the Bacterial Stability of Streptococcus pneumoniae.",
+        "amount": "$289,448.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

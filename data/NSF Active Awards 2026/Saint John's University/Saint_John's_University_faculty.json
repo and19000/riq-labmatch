@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2430454",
+    "name": "Genady Grabarnik",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Saint John's University",
+    "location": "JAMAICA, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: CBMS Conference Representations of p-adic Groups and Noncommutative Geometry"
+    ],
+    "website": "",
+    "email": [
+      "grabarng@stjohns.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JAMAICA, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2430454",
+        "title": "Conference: CBMS Conference Representations of p-adic Groups and Noncommutative Geometry",
+        "amount": "$39,510.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "03/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alexander A Katz katza@stjohns.edu",
+      "Igor Nikolaev nikolaei@stjohns.edu",
+      "Orli Herscovici oherscovici3@gatech.edu"
+    ]
+  }
+]

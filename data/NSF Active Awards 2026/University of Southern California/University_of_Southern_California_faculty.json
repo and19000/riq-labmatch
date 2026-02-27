@@ -1,0 +1,456 @@
+[
+  {
+    "id": "nsf-2530698",
+    "name": "John S Heidemann",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "CICI: TCR: Building a more Resilient IPv6 from Passive Outage Detection"
+    ],
+    "website": "",
+    "email": [
+      "johnh@isi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2530698",
+        "title": "CICI: TCR: Building a more Resilient IPv6 from Passive Outage Detection",
+        "amount": "$700,000.00",
+        "program": "Cybersecurity Innovation",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Pierrette Dagg pdagg@merit.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505103",
+    "name": "Ramesh Govindan",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS: Medium: Toward Pervasive Outdoor Augmented Reality"
+    ],
+    "website": "",
+    "email": [
+      "ramesh@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2505103",
+        "title": "Collaborative Research: NeTS: Medium: Toward Pervasive Outdoor Augmented Reality",
+        "amount": "$700,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Harsha V Madhyastha madhyast@usc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2533874",
+    "name": "Kyler B Siegel",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Southern California Symplectothon"
+    ],
+    "website": "",
+    "email": [
+      "kyler.siegel@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2533874",
+        "title": "Conference: Southern California Symplectothon",
+        "amount": "$41,049.00",
+        "program": "GEOMETRIC ANALYSIS",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sheel C Ganatra sheel.ganatra@usc.edu",
+      "Bahar Acu baharacu@pitzer.edu",
+      "Austin R Christian achris66@calpoly.edu"
+    ]
+  },
+  {
+    "id": "nsf-2541785",
+    "name": "Stephen E Bradforth",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MPS/CHE-EPSRC: Quantum Coherence and Correlations in Condensed Phase Photochemical Reaction Dynamics"
+    ],
+    "website": "",
+    "email": [
+      "stephen.bradforth@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2541785",
+        "title": "MPS/CHE-EPSRC: Quantum Coherence and Correlations in Condensed Phase Photochemical Reaction Dynamics",
+        "amount": "$597,560.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds, CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525964",
+    "name": "Anna Krylov",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "New Coupled-cluster Methods for Modeling Valence and Core-level Spectroscopy in Bound and Unbound Do..."
+    ],
+    "website": "",
+    "email": [
+      "krylov@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2525964",
+        "title": "New Coupled-cluster Methods for Modeling Valence and Core-level Spectroscopy in Bound and Unbound Domains",
+        "amount": "$647,636.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2454153",
+    "name": "Smaranda Marinescu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Synthetic Tuning of Bio-Inspired Aminopyridine Complexes for CO2 Reduction"
+    ],
+    "website": "",
+    "email": [
+      "smarines@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2454153",
+        "title": "Synthetic Tuning of Bio-Inspired Aminopyridine Complexes for CO2 Reduction",
+        "amount": "$650,000.00",
+        "program": "Chemical Catalysis, CMFP-Chem Mech Funct, and Prop",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shaama Sharada ssharada@usc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2447729",
+    "name": "Jelena Mirkovic",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "REU Site: SRAII: Safe and Reliable AI and the Internet"
+    ],
+    "website": "",
+    "email": [
+      "mirkovic@isi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2447729",
+        "title": "REU Site: SRAII: Safe and Reliable AI and the Internet",
+        "amount": "$465,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "07/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John S Heidemann johnh@isi.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505279",
+    "name": "Richard L Brutchey",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-BSF: Quantifying the Nature of N-Heterocyclic Carbene-Gold Nanoparticle Interactions"
+    ],
+    "website": "",
+    "email": [
+      "brutchey@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2505279",
+        "title": "NSF-BSF: Quantifying the Nature of N-Heterocyclic Carbene-Gold Nanoparticle Interactions",
+        "amount": "$353,549.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447397",
+    "name": "Daniel T Seita",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "REU Site: Robotics and Autonomous Systems"
+    ],
+    "website": "",
+    "email": [
+      "seita@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2447397",
+        "title": "REU Site: Robotics and Autonomous Systems",
+        "amount": "$360,422.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "11/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Erdem Biyik biyik@usc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2446866",
+    "name": "Ron Artstein",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "REU Site: The Face and Mind of Artificial Intelligence"
+    ],
+    "website": "",
+    "email": [
+      "artstein@ict.usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2446866",
+        "title": "REU Site: The Face and Mind of Artificial Intelligence",
+        "amount": "$499,637.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gale Lucas lucas@ict.usc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2413417",
+    "name": "Behnam Jafarpour",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Geosciences",
+      "IUCRC Phase I University of Southern California: Center for CO2 Storage Modeling, Analytics, and Ris..."
+    ],
+    "website": "",
+    "email": [
+      "behnam.jafarpour@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2413417",
+        "title": "IUCRC Phase I University of Southern California: Center for CO2 Storage Modeling, Analytics, and Risk Reduction Technologies (CO2-SMART)",
+        "amount": "$395,563.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "09/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Roger G Ghanem ghanem@usc.edu",
+      "Yan Liu yanliu.cs@usc.edu",
+      "Felipe de Barros fbarros@usc.edu",
+      "Birendra Jha bjha@usc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417075",
+    "name": "Jyotirmoy V Deshmukh",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "SLES: A Neurosymbolic Approach for Safe Multi-Agent Systems"
+    ],
+    "website": "",
+    "email": [
+      "jdeshmuk@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2417075",
+        "title": "SLES: A Neurosymbolic Approach for Safe Multi-Agent Systems",
+        "amount": "$1,500,000.00",
+        "program": "AI-Safety",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gaurav Sukhatme gaurav@cs.usc.edu",
+      "Mahdi Soltanolkotabi soltanol@usc.edu",
+      "Jyotirmoy V Deshmukh (Former) jdeshmuk@usc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2335493",
+    "name": "Yue Wang",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: HCC: Small: Discretization-Free Geometry Processing"
+    ],
+    "website": "",
+    "email": [
+      "yue.w@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2335493",
+        "title": "Collaborative Research: HCC: Small: Discretization-Free Geometry Processing",
+        "amount": "$300,000.00",
+        "program": "HCC-Human-Centered Computing",
+        "end_date": "08/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2421793",
+    "name": "James W Moffett",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Southern California",
+    "location": "LOS ANGELES, CA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Collection, Testing, and Intercalibration of New Trace Metal Consensus Seawa..."
+    ],
+    "website": "",
+    "email": [
+      "jmoffett@usc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LOS ANGELES, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2421793",
+        "title": "Collaborative Research: Collection, Testing, and Intercalibration of New Trace Metal Consensus Seawater Samples",
+        "amount": "$198,707.00",
+        "program": "Chemical Oceanography",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

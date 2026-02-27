@@ -1,0 +1,880 @@
+[
+  {
+    "id": "nsf-2517529",
+    "name": "Timothy W Deering",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Geosciences",
+      "University of Delaware, R/V HUGH R. SHARP OCE - Oceanographic Instrumentation 2025",
+      "Oceanographic Technical Support CY 2024 Year 1 of 5"
+    ],
+    "website": "",
+    "email": [
+      "deering@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2517529",
+        "title": "University of Delaware, R/V HUGH R. SHARP OCE - Oceanographic Instrumentation 2025",
+        "amount": "$18,191.00",
+        "program": "OCEANOGRAPHIC INSTRUMENTATION",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2420605",
+        "title": "Oceanographic Technical Support CY 2024 Year 1 of 5",
+        "amount": "$110,673.00",
+        "program": "OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2517555",
+    "name": "David Walter",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Geosciences",
+      "University of Delaware RV HUGH R. SHARP - SSSE FY 2025",
+      "Research Infrastructure: R/V HUGH R SHARP Ship Operations CY 2024-2028"
+    ],
+    "website": "",
+    "email": [
+      "dwalter@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2517555",
+        "title": "University of Delaware RV HUGH R. SHARP - SSSE FY 2025",
+        "amount": "$174,726.00",
+        "program": "SHIPBOARD SCIENTIFIC SUPP EQUI",
+        "end_date": "06/30/2026",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2416131",
+        "title": "Research Infrastructure: R/V HUGH R SHARP Ship Operations CY 2024-2028",
+        "amount": "$1,635,382.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2526590",
+    "name": "Carsten Milsmann",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAS: Functionalization of Earth-Abundant, Molecular Group 4 Photosensitizers for Photochemical Appli...",
+      "CAS: Four-Coordinate Iron- and Cobalt-Carbene Complexes for Carbene-Transfer Catalysis"
+    ],
+    "website": "",
+    "email": [
+      "milsmann@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2526590",
+        "title": "CAS: Functionalization of Earth-Abundant, Molecular Group 4 Photosensitizers for Photochemical Applications",
+        "amount": "$558,161.00",
+        "program": "EPSCoR Co-Funding, CMFP-Chem Mech Funct, and Prop",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2514871",
+        "title": "CAS: Four-Coordinate Iron- and Cobalt-Carbene Complexes for Carbene-Transfer Catalysis",
+        "amount": "$258,403.00",
+        "program": "Chemical Catalysis",
+        "end_date": "02/28/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2426482",
+    "name": "Weisong Shi",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CSR: Small: CADaaS: Deterministic Communication and Predictive Computation f...",
+      "CSR: Small: Predictable Multi-Tenant DNN Inference for Autonomous Driving"
+    ],
+    "website": "",
+    "email": [
+      "weisong@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2426482",
+        "title": "Collaborative Research: CSR: Small: CADaaS: Deterministic Communication and Predictive Computation for Connected Autonomous Driving as a Service",
+        "amount": "$273,555.00",
+        "program": "CSR-Computer Systems Research",
+        "end_date": "02/29/2028",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2343601",
+        "title": "CSR: Small: Predictable Multi-Tenant DNN Inference for Autonomous Driving",
+        "amount": "$600,000.00",
+        "program": "CSR-Computer Systems Research",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2531815",
+    "name": "Yafei Ren",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Dissipative Structure in Quantum Materials Driven by Light-Induced Coh..."
+    ],
+    "website": "",
+    "email": [
+      "yfren@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2531815",
+        "title": "EPSCoR Research Fellows: NSF: Dissipative Structure in Quantum Materials Driven by Light-Induced Coherent Phonons",
+        "amount": "$299,237.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "01/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2529095",
+    "name": "Michelle Segovia",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CPS: Medium: Calfhealth: An Explainable AI Framework for the Early Detection..."
+    ],
+    "website": "",
+    "email": [
+      "segoviam@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2529095",
+        "title": "Collaborative Research: CPS: Medium: Calfhealth: An Explainable AI Framework for the Early Detection of Pneumonia in Dairy Calves through Precision Technologies",
+        "amount": "$158,641.00",
+        "program": "CPS-Cyber-Physical Systems",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515007",
+    "name": "Harikrishnan Ramani",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Searching for New Physics in the Laboratory and in the Cosmos"
+    ],
+    "website": "",
+    "email": [
+      "hramani@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2515007",
+        "title": "Searching for New Physics in the Laboratory and in the Cosmos",
+        "amount": "$225,000.00",
+        "program": "Elem. Particle Physics/Theory",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453313",
+    "name": "William J Chain",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Umpolung Methods with Electron Rich Aromatic Systems:  Amine-Derived Reactive Intermediates in Synth..."
+    ],
+    "website": "",
+    "email": [
+      "wchain@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2453313",
+        "title": "Umpolung Methods with Electron Rich Aromatic Systems:  Amine-Derived Reactive Intermediates in Synthesis",
+        "amount": "$450,000.00",
+        "program": "Chemical Synthesis, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2526022",
+    "name": "Constanze D Liaw",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: NEAM 2025 - The Northeastern Analysis Meeting"
+    ],
+    "website": "",
+    "email": [
+      "liaw@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2526022",
+        "title": "Conference: NEAM 2025 - The Northeastern Analysis Meeting",
+        "amount": "$25,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2511639",
+    "name": "Federica B Bianco",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Chance favors the prepared astrophysicists: forcing serendipitous discoveries in the era of big surv..."
+    ],
+    "website": "",
+    "email": [
+      "fbianco@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2511639",
+        "title": "Chance favors the prepared astrophysicists: forcing serendipitous discoveries in the era of big surveys and AI",
+        "amount": "$395,378.00",
+        "program": "EXTRAGALACTIC ASTRON & COSMOLO",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2521374",
+    "name": "Dongxia Liu",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: FEC: Tri-State Collaborative for Defluorination of Per- and Polyfluoroalkyl ..."
+    ],
+    "website": "",
+    "email": [
+      "liud@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2521374",
+        "title": "Collaborative Research: FEC: Tri-State Collaborative for Defluorination of Per- and Polyfluoroalkyl Substances",
+        "amount": "$3,600,000.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "08/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xuanren Goodman xsgoodman@desu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2509986",
+    "name": "Tatyana Polenova",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Biological Sciences",
+      "Equipment: MRI: Track 2 Acquisition of a 600 MHz Dynamic Nuclear Polarization NMR System for Interdi..."
+    ],
+    "website": "",
+    "email": [
+      "tpolenov@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2509986",
+        "title": "Equipment: MRI: Track 2 Acquisition of a 600 MHz Dynamic Nuclear Polarization NMR System for Interdisciplinary Research, Education, and Training",
+        "amount": "$3,982,009.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "07/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shi Bai bais@udel.edu",
+      "Caitlin M Quinn cmquinn@udel.edu"
+    ]
+  },
+  {
+    "id": "nsf-2444042",
+    "name": "Ilya Safro",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "CSE",
+      "Planning: DCL EPSCOR: CISE Large: Application-aware Co-Design of Quantum-Classical Algorithms for Hi..."
+    ],
+    "website": "",
+    "email": [
+      "isafro@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2444042",
+        "title": "Planning: DCL EPSCOR: CISE Large: Application-aware Co-Design of Quantum-Classical Algorithms for High-Performance and Quantum Computing Systems",
+        "amount": "$197,458.00",
+        "program": "Information Technology Researc",
+        "end_date": "07/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Samee U Khan sameekhan@ksu.edu",
+      "Khoa Luu khoaluu@uark.edu"
+    ]
+  },
+  {
+    "id": "nsf-2416550",
+    "name": "Pinki Mondal",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Collaborative Research: Spatial Variability in Adaptations to Environmental Change"
+    ],
+    "website": "",
+    "email": [
+      "mondalp@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2416550",
+        "title": "Collaborative Research: Spatial Variability in Adaptations to Environmental Change",
+        "amount": "$142,723.00",
+        "program": "Cultural Anthropology, Human-Envi & Geographical Scis",
+        "end_date": "07/31/2028",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Pinki Mondal (Former) mondalp@udel.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453033",
+    "name": "Donald A Watson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Metal Catalyzed Methods for Preparing Organoboron and Organosilicon Compounds"
+    ],
+    "website": "",
+    "email": [
+      "dawatson@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2453033",
+        "title": "Metal Catalyzed Methods for Preparing Organoboron and Organosilicon Compounds",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2453618",
+    "name": "Mary P Watson",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Enantioselective, Metal-Catalyzed Alkynylations of Oxocarbenium & Iminium Ions"
+    ],
+    "website": "",
+    "email": [
+      "mpwatson@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2453618",
+        "title": "Enantioselective, Metal-Catalyzed Alkynylations of Oxocarbenium & Iminium Ions",
+        "amount": "$600,000.00",
+        "program": "Chemical Synthesis, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "06/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2446056",
+    "name": "Kent D Messer",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Office of the Director",
+      "E-RISE RII: An Investigation of Saltwater Intrusion in the Complex Coastal Environment of Delaware"
+    ],
+    "website": "",
+    "email": [
+      "messer@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2446056",
+        "title": "E-RISE RII: An Investigation of Saltwater Intrusion in the Complex Coastal Environment of Delaware",
+        "amount": "$3,319,335.00",
+        "program": "EPSCoR RII: E-RISE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gulnihal Ozbay gozbay@desu.edu",
+      "Holly A Michael hmichael@udel.edu",
+      "Leah H Palm-Forster leahhp@udel.edu",
+      "Antonette Todd atodd@desu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2502758",
+    "name": "Tao Li",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Computational Polariton Chemistry Beyond the Single-mode Approximation"
+    ],
+    "website": "",
+    "email": [
+      "taoeli@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2502758",
+        "title": "Computational Polariton Chemistry Beyond the Single-mode Approximation",
+        "amount": "$449,457.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2527684",
+    "name": "Ryan B Comes",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Topological Phenomena in 4d and 5d Complex Oxide Interfaces and Superlattices Grown by Hybri..."
+    ],
+    "website": "",
+    "email": [
+      "comes@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2527684",
+        "title": "CAREER: Topological Phenomena in 4d and 5d Complex Oxide Interfaces and Superlattices Grown by Hybrid Molecular Beam Epitaxy",
+        "amount": "$239,009.00",
+        "program": "CERAMICS",
+        "end_date": "04/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2502208",
+    "name": "Elisa Arch",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: Investigating the importance of biomimicry and customization in ankle-foot o..."
+    ],
+    "website": "",
+    "email": [
+      "schranke@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2502208",
+        "title": "Collaborative Research: Investigating the importance of biomimicry and customization in ankle-foot orthosis stiffness for restoring gait mechanics",
+        "amount": "$207,611.00",
+        "program": "Disability & Rehab Engineering",
+        "end_date": "03/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2438144",
+    "name": "Amy L Slocum",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: E-CORE RII: Strengthening Partnerships for Advancing Research Capacity in De..."
+    ],
+    "website": "",
+    "email": [
+      "als@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2438144",
+        "title": "Collaborative Research: E-CORE RII: Strengthening Partnerships for Advancing Research Capacity in Delaware",
+        "amount": "$3,061,772.00",
+        "program": "EPSCoR RII: E-CORE",
+        "end_date": "02/28/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Cathy H Wu wuc@udel.edu",
+      "Karl E Wommack wommack@dbi.udel.edu",
+      "Julius Korley korley@udel.edu",
+      "John N Huffman jnhuffma@udel.edu"
+    ]
+  },
+  {
+    "id": "nsf-2443070",
+    "name": "Sunita R Shah Walter",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Investigating the controls on the loss of oceanic organic carbon in aged basaltic crust"
+    ],
+    "website": "",
+    "email": [
+      "suni@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2443070",
+        "title": "CAREER: Investigating the controls on the loss of oceanic organic carbon in aged basaltic crust",
+        "amount": "$384,920.00",
+        "program": "Chemical Oceanography",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447647",
+    "name": "Joanna York",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Geosciences",
+      "REU Site: Summer REU Program in Marine Science at the University of Delaware"
+    ],
+    "website": "",
+    "email": [
+      "jyork@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2447647",
+        "title": "REU Site: Summer REU Program in Marine Science at the University of Delaware",
+        "amount": "$355,594.00",
+        "program": "EPSCoR Co-Funding, EDUCATION/HUMAN RESOURCES,OCE",
+        "end_date": "12/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429792",
+    "name": "Emil A Hernández-Pagán",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Understanding the Effects of Morphology and Spectator Ions in the Elec..."
+    ],
+    "website": "",
+    "email": [
+      "emilhp@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2429792",
+        "title": "EPSCoR Research Fellows: NSF: Understanding the Effects of Morphology and Spectator Ions in the Electro-conversion of Furfural",
+        "amount": "$278,606.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "06/30/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2528801",
+    "name": "Christian W Pester",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Photocatalytic Optical Fibers"
+    ],
+    "website": "",
+    "email": [
+      "pester@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2528801",
+        "title": "CAREER: Photocatalytic Optical Fibers",
+        "amount": "$378,635.00",
+        "program": "Proc Sys, Reac Eng & Mol Therm",
+        "end_date": "03/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2404740",
+    "name": "Gonzalo R Arce",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "Office of the Director",
+      "EAGER: IMPRESS-U: Exploratory Research on Generative Compression for Compressive Lidar"
+    ],
+    "website": "",
+    "email": [
+      "arce@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2404740",
+        "title": "EAGER: IMPRESS-U: Exploratory Research on Generative Compression for Compressive Lidar",
+        "amount": "$300,000.00",
+        "program": "International Research Collab, Comm & Information Foundations, EPSCoR Co-Funding",
+        "end_date": "09/30/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2417814",
+    "name": "Sunita Chandrasekaran",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Delaware",
+    "location": "NEWARK, DE",
+    "research_areas": [
+      "CSE",
+      "SCIPE: Building a Computational and Data-Intensive Research Workforce & Network in the Mid-Atlantic ..."
+    ],
+    "website": "",
+    "email": [
+      "schandra@udel.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, DE",
+    "nsf_awards": [
+      {
+        "award_number": "2417814",
+        "title": "SCIPE: Building a Computational and Data-Intensive Research Workforce & Network in the Mid-Atlantic Region",
+        "amount": "$4,679,886.00",
+        "program": "Strengthen the CIP Ecosystem",
+        "end_date": "08/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rudolf Eigenmann eigenman@udel.edu",
+      "Tian-Jian (Tom) Hsu thsu@udel.edu",
+      "Benjamin E Bagozzi bagozzib@udel.edu",
+      "John N Huffman jnhuffma@udel.edu"
+    ]
+  }
+]

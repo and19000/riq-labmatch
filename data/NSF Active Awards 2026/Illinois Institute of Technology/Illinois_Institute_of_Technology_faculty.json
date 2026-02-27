@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2514056",
+    "name": "Bogdan F Nicolae",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Illinois Institute of Technology",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: MPI4AI: Enhancing Performance and Productivity of AI Science thr..."
+    ],
+    "website": "",
+    "email": [
+      "bogdan.nicolae@acm.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2514056",
+        "title": "Collaborative Research: Frameworks: MPI4AI: Enhancing Performance and Productivity of AI Science through Next-generation High Performance Communication Abstractions",
+        "amount": "$799,321.00",
+        "program": "Software Institutes",
+        "end_date": "08/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2333538",
+    "name": "Mustafa Bilgic",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Illinois Institute of Technology",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: HCC: Small: Socio-linguistic modeling to understand the long-term dynamics o..."
+    ],
+    "website": "",
+    "email": [
+      "mbilgic@iit.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2333538",
+        "title": "Collaborative Research: HCC: Small: Socio-linguistic modeling to understand the long-term dynamics of news engagement in online media",
+        "amount": "$322,812.00",
+        "program": "Secure &Trustworthy Cyberspace",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Matthew A Shapiro mshapir2@iit.edu"
+    ]
+  }
+]

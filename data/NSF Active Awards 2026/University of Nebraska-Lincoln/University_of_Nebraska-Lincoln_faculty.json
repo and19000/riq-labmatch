@@ -1,0 +1,744 @@
+[
+  {
+    "id": "nsf-2531744",
+    "name": "Kazuo Yamazaki",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Analysis on Models of Fluid Mechanics and Mathematical Physics",
+      "Conference: EPSCoR States Workshop for Research and Workforce Development in Fluid Mechanics"
+    ],
+    "website": "",
+    "email": [
+      "kyamazaki2@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2531744",
+        "title": "EPSCoR Research Fellows: NSF: Analysis on Models of Fluid Mechanics and Mathematical Physics",
+        "amount": "$234,669.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2027",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2436937",
+        "title": "Conference: EPSCoR States Workshop for Research and Workforce Development in Fluid Mechanics",
+        "amount": "$99,957.00",
+        "program": "EPSCoR Outreach and Workshops",
+        "end_date": "02/28/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2511652",
+    "name": "Martha D Morton",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Biological Sciences",
+      "Equipment: MRI: Track 1 Acquisition of a LC-MS for small molecule identification",
+      "Mathematical and Physical Sciences",
+      "REU Site: Research Experiences for Undergraduates in Chemical Assembly at the University of Nebraska"
+    ],
+    "website": "",
+    "email": [
+      "mmorton4@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2511652",
+        "title": "Equipment: MRI: Track 1 Acquisition of a LC-MS for small molecule identification",
+        "amount": "$167,814.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      },
+      {
+        "award_number": "2447813",
+        "title": "REU Site: Research Experiences for Undergraduates in Chemical Assembly at the University of Nebraska",
+        "amount": "$465,000.00",
+        "program": "UNDERGRADUATE PROGRAMS IN CHEM, EPSCoR Co-Funding",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Andrzej Rajca arajca1@unl.edu",
+      "David S Hage dhage1@unl.edu",
+      "Jiantao Guo jguo4@unl.edu",
+      "Tim Gatzenmeier tgatzenmeier2@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2426481",
+    "name": "Qiang Liu",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CSR: Small: CADaaS: Deterministic Communication and Predictive Computation f...",
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Online Hierarchical Learning for Network Autonomy in Open Radio Access..."
+    ],
+    "website": "",
+    "email": [
+      "qiang.liu@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2426481",
+        "title": "Collaborative Research: CSR: Small: CADaaS: Deterministic Communication and Predictive Computation for Connected Autonomous Driving as a Service",
+        "amount": "$289,374.00",
+        "program": "CSR-Computer Systems Research",
+        "end_date": "02/29/2028",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2428427",
+        "title": "EPSCoR Research Fellows: NSF: Online Hierarchical Learning for Network Autonomy in Open Radio Access Networks",
+        "amount": "$285,694.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2516013",
+    "name": "Hongzhi Guo",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "CSE",
+      "CIF: Small: Towards Knowledge-Based Topologically Informed Error Detection and Correction"
+    ],
+    "website": "",
+    "email": [
+      "hguo10@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2516013",
+        "title": "CIF: Small: Towards Knowledge-Based Topologically Informed Error Detection and Correction",
+        "amount": "$125,000.00",
+        "program": "Comm & Information Foundations",
+        "end_date": "09/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2502799",
+    "name": "Derek J Weitzel",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "CSE",
+      "CC* Storage-Region: GP-STOR: Great Plains Scalable Tiered Object Repository"
+    ],
+    "website": "",
+    "email": [
+      "dweitzel@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2502799",
+        "title": "CC* Storage-Region: GP-STOR: Great Plains Scalable Tiered Object Repository",
+        "amount": "$1,400,000.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ryan M Johnson Ryan.Johnson@usd.edu",
+      "Matthew R Keeler keelerm@missouri.edu",
+      "James Hurt (Former) jhurt@missouri.edu"
+    ]
+  },
+  {
+    "id": "nsf-2533446",
+    "name": "Allan P Donsig",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: East Coast Operator Algebras Symposium 2025"
+    ],
+    "website": "",
+    "email": [
+      "adonsig1@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2533446",
+        "title": "Conference: East Coast Operator Algebras Symposium 2025",
+        "amount": "$13,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Christopher P Schafhauser cschafhauser2@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512429",
+    "name": "Ilya Kravchenko",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Shaping the Future of Particle Physics: In-Depth Analysis of Run 3 Data and HL-LHC Detector Upgrades..."
+    ],
+    "website": "",
+    "email": [
+      "ikrav@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2512429",
+        "title": "Shaping the Future of Particle Physics: In-Depth Analysis of Run 3 Data and HL-LHC Detector Upgrades for CMS",
+        "amount": "$1,800,000.00",
+        "program": "HEP-High Energy Physics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Daniel R Claes dclaes@unl.edu",
+      "Kenneth A Bloom kenbloom@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512309",
+    "name": "Bradley A Shadwick",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Controlling Instabilities and Energy Transfer in Vlasov Plasmas"
+    ],
+    "website": "",
+    "email": [
+      "bshadwick2@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2512309",
+        "title": "Controlling Instabilities and Energy Transfer in Vlasov Plasmas",
+        "amount": "$1,031,843.00",
+        "program": "PLASMA PHYSICS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Philip J Morrison morrison@physics.utexas.edu"
+    ]
+  },
+  {
+    "id": "nsf-2521394",
+    "name": "Siamak Nejati",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: FEC: Circular Waste Resource Recovery and Water Reuse Systems to Drive Susta..."
+    ],
+    "website": "",
+    "email": [
+      "snejati2@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2521394",
+        "title": "Collaborative Research: FEC: Circular Waste Resource Recovery and Water Reuse Systems to Drive Sustainability and Resiliency of the Great Plains Rural Communities",
+        "amount": "$1,500,000.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "07/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mona Bavarian mona.bavarian@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2521415",
+    "name": "Christian Binek",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: FEC: Harnessing Artificial Magnetic Semiconductors in the Flatland"
+    ],
+    "website": "",
+    "email": [
+      "cbinek@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2521415",
+        "title": "Collaborative Research: FEC: Harnessing Artificial Magnetic Semiconductors in the Flatland",
+        "amount": "$1,800,000.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "07/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Peter A Dowben pdowben@unl.edu",
+      "Kirill D Belashchenko belashchenko@unl.edu",
+      "Xia Hong xhong2@unl.edu",
+      "Abdelghani Laraoui alaraoui2@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2440608",
+    "name": "Jenna Finch",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "STEM Education",
+      "CAREER: Self-Regulation, Mathematics Achievement, and Mathematical Attitudes during the Third-Grade ..."
+    ],
+    "website": "",
+    "email": [
+      "jenna.finch@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2440608",
+        "title": "CAREER: Self-Regulation, Mathematics Achievement, and Mathematical Attitudes during the Third-Grade Transition",
+        "amount": "$928,922.00",
+        "program": "ECR-EDU Core Research",
+        "end_date": "07/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2443557",
+    "name": "Tirthankar Roy",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Characteristics of Rain-on-Snow Flooding in the Midwest"
+    ],
+    "website": "",
+    "email": [
+      "roy@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2443557",
+        "title": "CAREER: Characteristics of Rain-on-Snow Flooding in the Midwest",
+        "amount": "$673,168.00",
+        "program": "WaLCZ-Water, Land, & Crit Zone, EPSCoR Co-Funding",
+        "end_date": "06/30/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2527500",
+    "name": "Souparno Ghosh",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: International Indian Statistical Association Annual Conference 2025"
+    ],
+    "website": "",
+    "email": [
+      "sghosh5@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2527500",
+        "title": "Conference: International Indian Statistical Association Annual Conference 2025",
+        "amount": "$23,845.00",
+        "program": "GVF - Global Venture Fund, STATISTICS",
+        "end_date": "12/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2349858",
+    "name": "Eric Markvicka",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Undergraduate Research Opportunities in Biomedical Engineering Devices at the University o..."
+    ],
+    "website": "",
+    "email": [
+      "eric.markvicka@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2349858",
+        "title": "REU Site: Undergraduate Research Opportunities in Biomedical Engineering Devices at the University of Nebraska-Lincoln",
+        "amount": "$516,794.00",
+        "program": "EWFD-Eng Workforce Development, EPSCoR Co-Funding",
+        "end_date": "02/29/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gregory R Bashford gbashford2@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2441334",
+    "name": "Dung Tran",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "CSE",
+      "CAREER: Enabling Trustworthy Complex Learning-enabled Autonomy"
+    ],
+    "website": "",
+    "email": [
+      "dtran30@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2441334",
+        "title": "CAREER: Enabling Trustworthy Complex Learning-enabled Autonomy",
+        "amount": "$477,242.00",
+        "program": "EPSCoR Co-Funding, Software & Hardware Foundation",
+        "end_date": "01/31/2030",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429905",
+    "name": "Yanan Wang",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Integrated Photonic Platforms Empowered by  Solution-Processed Wide-Ba..."
+    ],
+    "website": "",
+    "email": [
+      "yanan.wang@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2429905",
+        "title": "EPSCoR Research Fellows: NSF: Integrated Photonic Platforms Empowered by  Solution-Processed Wide-Bandgap Perovskites",
+        "amount": "$300,000.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429381",
+    "name": "Abdelghani Laraoui",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Plasmonic Cavity Nanostructures to Boost Single Photon Emission from M..."
+    ],
+    "website": "",
+    "email": [
+      "alaraoui2@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2429381",
+        "title": "EPSCoR Research Fellows: NSF: Plasmonic Cavity Nanostructures to Boost Single Photon Emission from Multilayered Hexagonal Boron Nitride",
+        "amount": "$299,999.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430234",
+    "name": "Adam P Caprez",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "CSE",
+      "CC* Compute-Campus: PLUMAGE: Promoting Learning Using Mixed Advanced GPU Environments"
+    ],
+    "website": "",
+    "email": [
+      "adam.caprez@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2430234",
+        "title": "CC* Compute-Campus: PLUMAGE: Promoting Learning Using Mixed Advanced GPU Environments",
+        "amount": "$697,813.00",
+        "program": "Campus Cyberinfrastructure, EPSCoR Co-Funding",
+        "end_date": "11/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hongfeng Yu yu@cse.unl.edu",
+      "Derek J Weitzel dweitzel@unl.edu",
+      "Garhan Attebury garhan.attebury@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2430498",
+    "name": "Heidi A Diefes-Dux",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "STEM Education",
+      "Communication, Collaboration, Coordination: Preparing Postdoctoral Fellows to be Embedded in Enginee..."
+    ],
+    "website": "",
+    "email": [
+      "hdiefes-dux2@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2430498",
+        "title": "Communication, Collaboration, Coordination: Preparing Postdoctoral Fellows to be Embedded in Engineering Disciplines",
+        "amount": "$1,208,862.00",
+        "program": "IUSE, Postdoctoral Fellowships",
+        "end_date": "10/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Grace Panther grace.panther@unl.edu",
+      "Logan A Perry logan.perry@unl.edu",
+      "Jessica R Deters jessica.deters@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2419291",
+    "name": "Jeffrey E Shield",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: RET Site: Research Experiences for Teachers across the National Nanotechnolo..."
+    ],
+    "website": "",
+    "email": [
+      "jshield2@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2419291",
+        "title": "Collaborative Research: RET Site: Research Experiences for Teachers across the National Nanotechnology Coordinated Infrastructure",
+        "amount": "$199,950.00",
+        "program": "SSA-Special Studies & Analysis",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Eric Markvicka eric.markvicka@unl.edu",
+      "Ryan M Pedrigi rpedrigi@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2337266",
+    "name": "Leen-Kiat Soh",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "STEM Education",
+      "Computer Science: Focusing on Undergraduate Pre-Service Teachers, with Unified Research, Ecosystems,..."
+    ],
+    "website": "",
+    "email": [
+      "lksoh@cse.unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2337266",
+        "title": "Computer Science: Focusing on Undergraduate Pre-Service Teachers, with Unified Research, Ecosystems, and Structures",
+        "amount": "$1,999,675.00",
+        "program": "IUSE, Robert Noyce Scholarship Pgm",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gwen C Nugent gnugent@unl.edu",
+      "Wendy M Smith wsmith5@unl.edu",
+      "Brian Dorn bdorn@unomaha.edu",
+      "Guy Trainin gtrainin2@unl.edu"
+    ]
+  },
+  {
+    "id": "nsf-2412930",
+    "name": "James Schnable",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of Nebraska-Lincoln",
+    "location": "LINCOLN, NE",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: TRTech-PGR: Digital Ideotype for Optimal Canopy Architecture"
+    ],
+    "website": "",
+    "email": [
+      "schnable@unl.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LINCOLN, NE",
+    "nsf_awards": [
+      {
+        "award_number": "2412930",
+        "title": "Collaborative Research: TRTech-PGR: Digital Ideotype for Optimal Canopy Architecture",
+        "amount": "$953,779.00",
+        "program": "Plant Genome Research Project",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

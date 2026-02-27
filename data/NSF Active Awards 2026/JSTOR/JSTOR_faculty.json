@@ -1,0 +1,45 @@
+[
+  {
+    "id": "nsf-2512157",
+    "name": "Russell D Ruediger",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "JSTOR",
+    "location": "NEW YORK, NY",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Conference: Convening Stakeholders in the Open-Source Ecosystem Workshop",
+      "Office of the Director",
+      "Planning: Advancing AI Implementation at Emerging Research Institutions"
+    ],
+    "website": "",
+    "email": [
+      "dylan.ruediger@ithaka.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW YORK, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2512157",
+        "title": "Conference: Convening Stakeholders in the Open-Source Ecosystem Workshop",
+        "amount": "$49,110.00",
+        "program": "POSE",
+        "end_date": "06/30/2026",
+        "directorate": "TIP"
+      },
+      {
+        "award_number": "2437518",
+        "title": "Planning: Advancing AI Implementation at Emerging Research Institutions",
+        "amount": "$112,441.00",
+        "program": "GRANTED",
+        "end_date": "03/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Patrick J Masson patrick.masson@apereo.org"
+    ]
+  }
+]

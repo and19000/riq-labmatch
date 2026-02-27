@@ -1,0 +1,167 @@
+[
+  {
+    "id": "nsf-2527879",
+    "name": "Robert Iafe",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State University San Marcos Corporation",
+    "location": "SAN MARCOS, CA",
+    "research_areas": [
+      "STEM Education",
+      "S-STEM Vertical Mentoring Learning Community"
+    ],
+    "website": "",
+    "email": [
+      "riafe@csusm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN MARCOS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2527879",
+        "title": "S-STEM Vertical Mentoring Learning Community",
+        "amount": "$1,977,368.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "11/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Afra Panahi apanahi@csusm.edu",
+      "Aswad A Allen aswadallen@csusm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2524329",
+    "name": "Mallory M Rice",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State University San Marcos Corporation",
+    "location": "SAN MARCOS, CA",
+    "research_areas": [
+      "STEM Education",
+      "Engaging Biology Students through Community-Driven Research at the Urban-Wildland Interface"
+    ],
+    "website": "",
+    "email": [
+      "mmrice@csusm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN MARCOS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2524329",
+        "title": "Engaging Biology Students through Community-Driven Research at the Urban-Wildland Interface",
+        "amount": "$499,970.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "George L Vourlitis georgev@csusm.edu",
+      "Jane Kim jckim@csusm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2439636",
+    "name": "Kimberly Ayers",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State University San Marcos Corporation",
+    "location": "SAN MARCOS, CA",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Elevating the Calculus Standard of Care Through an Innovative Collaborative ..."
+    ],
+    "website": "",
+    "email": [
+      "kayers@csusm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN MARCOS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2439636",
+        "title": "Collaborative Research: Elevating the Calculus Standard of Care Through an Innovative Collaborative Testbed",
+        "amount": "$173,098.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2417871",
+    "name": "Youwen Ouyang",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "California State University San Marcos Corporation",
+    "location": "SAN MARCOS, CA",
+    "research_areas": [
+      "CSE",
+      "BPC-DP Harmony in Hacking: Orchestrating Cryptography with Elements of Music"
+    ],
+    "website": "",
+    "email": [
+      "ouyang@csusm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN MARCOS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2417871",
+        "title": "BPC-DP Harmony in Hacking: Orchestrating Cryptography with Elements of Music",
+        "amount": "$299,894.00",
+        "program": "CSforAll-Computer Sci for All",
+        "end_date": "08/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Merryl Goldberg goldberg@csusm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2400983",
+    "name": "Reza Kamali-Sarvestani",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "California State University San Marcos Corporation",
+    "location": "SAN MARCOS, CA",
+    "research_areas": [
+      "STEM Education",
+      "Fast-Track to Success: Bridging the CTE and Higher Education to Empower Students for Immediate Caree..."
+    ],
+    "website": "",
+    "email": [
+      "rkamali@csusm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SAN MARCOS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2400983",
+        "title": "Fast-Track to Success: Bridging the CTE and Higher Education to Empower Students for Immediate Career Opportunities in Technical Education (CTE & HE)",
+        "amount": "$649,606.00",
+        "program": "Advanced Tech Education Prog",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Hector Garcia Villa hgarciavilla@palomar.edu",
+      "DuyKhang P Nguyen knguyen@miracosta.edu"
+    ]
+  }
+]

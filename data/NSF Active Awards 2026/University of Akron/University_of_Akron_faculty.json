@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2503801",
+    "name": "Kwek-Tze Tan",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Akron",
+    "location": "AKRON, OH",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Advancing Sustainable Technology And Recycling for Composite Materials"
+    ],
+    "website": "",
+    "email": [
+      "ktan@uakron.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AKRON, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2503801",
+        "title": "IRES: Advancing Sustainable Technology And Recycling for Composite Materials",
+        "amount": "$363,657.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sadhan C Jana janas@uakron.edu",
+      "En Cheng echeng@uakron.edu"
+    ]
+  },
+  {
+    "id": "nsf-2505924",
+    "name": "Mesfin Tsige",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Akron",
+    "location": "AKRON, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Decoding Macroion Self-Assembly and Solvation: A Multi-Scale Computational Approach to Self-Recognit..."
+    ],
+    "website": "",
+    "email": [
+      "mtsige@uakron.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AKRON, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2505924",
+        "title": "Decoding Macroion Self-Assembly and Solvation: A Multi-Scale Computational Approach to Self-Recognition",
+        "amount": "$358,040.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

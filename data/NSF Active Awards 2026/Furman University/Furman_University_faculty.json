@@ -1,0 +1,98 @@
+[
+  {
+    "id": "nsf-2505643",
+    "name": "Jeffrey T Petty",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Furman University",
+    "location": "GREENVILLE, SC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Nanoscale DNA-Silver Cluster Catalysts"
+    ],
+    "website": "",
+    "email": [
+      "jeff.petty@furman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GREENVILLE, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2505643",
+        "title": "RUI: Nanoscale DNA-Silver Cluster Catalysts",
+        "amount": "$216,641.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424808",
+    "name": "John F Wheeler",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Furman University",
+    "location": "GREENVILLE, SC",
+    "research_areas": [
+      "STEM Education",
+      "Building Scientific Self-Identity and Sense of Belonging in Preparing Academically Talented, Low-Inc..."
+    ],
+    "website": "",
+    "email": [
+      "john.wheeler@furman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GREENVILLE, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2424808",
+        "title": "Building Scientific Self-Identity and Sense of Belonging in Preparing Academically Talented, Low-Income Students for Successful STEM Careers",
+        "amount": "$2,000,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John G Kaup john.kaup@furman.edu",
+      "Michelle Horhota michelle.horhota@furman.edu",
+      "Suzanne Klonis suzanne.klonis@furman.edu",
+      "Benjamin K Haywood (Former) benjamin.haywood@furman.edu"
+    ]
+  },
+  {
+    "id": "nsf-2404379",
+    "name": "George C Shields",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Furman University",
+    "location": "GREENVILLE, SC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Thermodynamics of Nucleation: Pathways to Atmospheric Aerosols"
+    ],
+    "website": "",
+    "email": [
+      "george.shields@furman.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GREENVILLE, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2404379",
+        "title": "RUI: Thermodynamics of Nucleation: Pathways to Atmospheric Aerosols",
+        "amount": "$499,590.00",
+        "program": "Environmental Chemical Science",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

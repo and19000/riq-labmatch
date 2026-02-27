@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2424581",
+    "name": "Yoel Rodriguez",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "CUNY Hostos Community College",
+    "location": "BRONX, NY",
+    "research_areas": [
+      "STEM Education",
+      "The Hostos Engineering Academic Talent Scholarship Program"
+    ],
+    "website": "",
+    "email": [
+      "yrodriguez@hostos.cuny.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BRONX, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2424581",
+        "title": "The Hostos Engineering Academic Talent Scholarship Program",
+        "amount": "$2,000,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nieves Angulo nangulo@hostos.cuny.edu",
+      "Clara B Nieto-Wire cnieto@hostos.cuny.edu",
+      "Antonios Varelas avarelas@hostos.cuny.edu"
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "nsf-2444315",
+    "name": "Mitchell J Malone",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Texas A&M Research Foundation",
+    "location": "COLLEGE STATION, TX",
+    "research_areas": [
+      "Geosciences",
+      "A Scientific Ocean Drilling Coordinating Office for the US Community",
+      "Closeout of JOIDES Resolution IODP Expedition Obligations and Operation of an Instrumented Gulf Coas..."
+    ],
+    "website": "",
+    "email": [
+      "malone@iodp.tamu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLLEGE STATION, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2444315",
+        "title": "A Scientific Ocean Drilling Coordinating Office for the US Community",
+        "amount": "$17,635,792.00",
+        "program": "US Sub-seafloor Sampling (S3P)",
+        "end_date": "01/31/2030",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2412279",
+        "title": "Closeout of JOIDES Resolution IODP Expedition Obligations and Operation of an Instrumented Gulf Coast Repository",
+        "amount": "$24,209,692.00",
+        "program": "SODV - OPERATIONS & MAINTENANC",
+        "end_date": "09/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Angela L Slagle aslagle@ldeo.columbia.edu"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2524510",
+    "name": "Matthew Krauel",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University Enterprises, Incorporated",
+    "location": "SACRAMENTO, CA",
+    "research_areas": [
+      "STEM Education",
+      "Implementing and studying a peer learning program to increase student success in calculus and statis..."
+    ],
+    "website": "",
+    "email": [
+      "krauel@csus.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SACRAMENTO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2524510",
+        "title": "Implementing and studying a peer learning program to increase student success in calculus and statistics across two- and four-year institutions",
+        "amount": "$499,925.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "12/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Wyatt C Howard howardw@crc.losrios.edu",
+      "Corey Shanbrom corey.shanbrom@csus.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510568",
+    "name": "Rodolfo Barniol Duran",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University Enterprises, Incorporated",
+    "location": "SACRAMENTO, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: NSF-BSF: WoU-MMA: RUI: From meters to parsecs, from milliseconds to years: A..."
+    ],
+    "website": "",
+    "email": [
+      "barniolduran@csus.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SACRAMENTO, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2510568",
+        "title": "Collaborative Research: NSF-BSF: WoU-MMA: RUI: From meters to parsecs, from milliseconds to years: A journey through space and time with binary mergers",
+        "amount": "$366,329.00",
+        "program": "WoU-Windows on the Universe: T",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "nsf-2422435",
+    "name": "Brian G Scholtens",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "College of Charleston",
+    "location": "CHARLESTON, SC",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: Research Infrastructure: Bringing historic collections into the 21st century..."
+    ],
+    "website": "",
+    "email": [
+      "scholtensb@cofc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHARLESTON, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2422435",
+        "title": "Collaborative Research: Research Infrastructure: Bringing historic collections into the 21st century: Digitization of Southeastern Lepidopteran collections",
+        "amount": "$72,486.00",
+        "program": "Capacity: Bio Collections",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426921",
+    "name": "YU GONG",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "College of Charleston",
+    "location": "CHARLESTON, SC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Topological phonon dynamics and control in quantum materials"
+    ],
+    "website": "",
+    "email": [
+      "gongy@cofc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHARLESTON, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2426921",
+        "title": "ExpandQISE: Track 1: Topological phonon dynamics and control in quantum materials",
+        "amount": "$769,750.00",
+        "program": "ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rongying Jin rjin@mailbox.sc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2407201",
+    "name": "Leslie Hart",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "College of Charleston",
+    "location": "CHARLESTON, SC",
+    "research_areas": [
+      "Geosciences",
+      "Equipment: MRI: Track 1 Acquisition of a Raman Spectroscopy System to Enhance Microplastic Screening..."
+    ],
+    "website": "",
+    "email": [
+      "hartlb@cofc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHARLESTON, SC",
+    "nsf_awards": [
+      {
+        "award_number": "2407201",
+        "title": "Equipment: MRI: Track 1 Acquisition of a Raman Spectroscopy System to Enhance Microplastic Screening in Environmental and Biological Samples",
+        "amount": "$311,139.00",
+        "program": "OCE-Ocean Sciences Research",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John E Weinstein weinsteinj@citadel.edu",
+      "Geoffrey I Scott giscott0@mailbox.sc.edu"
+    ]
+  }
+]

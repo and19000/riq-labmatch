@@ -1,0 +1,260 @@
+[
+  {
+    "id": "nsf-2530206",
+    "name": "Gina C Adam",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "CSE",
+      "CISE-ANR: FET: Small: ASTROCOMP- Advanced Stochastic Magnetic Tunnel Junction Architectures for Scal..."
+    ],
+    "website": "",
+    "email": [
+      "ginaadam@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2530206",
+        "title": "CISE-ANR: FET: Small: ASTROCOMP- Advanced Stochastic Magnetic Tunnel Junction Architectures for Scalable Neuromorphic Computing",
+        "amount": "$584,353.00",
+        "program": "Special Projects - CCF",
+        "end_date": "12/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2505507",
+    "name": "Robert W Orttung",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Student Research on Renewable Energy Technologies and Transition"
+    ],
+    "website": "",
+    "email": [
+      "rorttung@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2505507",
+        "title": "IRES: Student Research on Renewable Energy Technologies and Transition",
+        "amount": "$450,000.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Caitlin Grady caitlin.grady@gwu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2433872",
+    "name": "Andrei Afanasev",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Office of the Director",
+      "EAGER: Study of 3D nucleon structure through deep exclusive processes at the EIC"
+    ],
+    "website": "",
+    "email": [
+      "afanas@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2433872",
+        "title": "EAGER: Study of 3D nucleon structure through deep exclusive processes at the EIC",
+        "amount": "$200,000.00",
+        "program": "International Research Collab, NUCLEAR THEORY",
+        "end_date": "08/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2533372",
+    "name": "Miguel Lejeune",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: A Risk-based Real-Options Approach for Infrastructure Systems Protection Inv..."
+    ],
+    "website": "",
+    "email": [
+      "mlejeune@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2533372",
+        "title": "Collaborative Research: A Risk-based Real-Options Approach for Infrastructure Systems Protection Investment",
+        "amount": "$274,000.00",
+        "program": "ISP-Infrastructre Systms & Ppl",
+        "end_date": "07/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2441413",
+    "name": "Lien-Yung Kao",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Ergodic Geometry Beyond Compactness and Uniform Hyperbolicity"
+    ],
+    "website": "",
+    "email": [
+      "lkao@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2441413",
+        "title": "CAREER: Ergodic Geometry Beyond Compactness and Uniform Hyperbolicity",
+        "amount": "$89,113.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "06/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2514925",
+    "name": "Tatiyana V Apanasovich",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: The Past, Present, and Future of Statistics in the Era of AI"
+    ],
+    "website": "",
+    "email": [
+      "apanasovich@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2514925",
+        "title": "Conference: The Past, Present, and Future of Statistics in the Era of AI",
+        "amount": "$18,400.00",
+        "program": "STATISTICS",
+        "end_date": "05/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xiaoke Zhang xkzhang@gwu.edu",
+      "Subrata Kundu kundu@gwu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424118",
+    "name": "Xitong Liu",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Engineering",
+      "Designing Functionalized Aromatic Polyamide Brushes for High-Performance Antifouling Coatings"
+    ],
+    "website": "",
+    "email": [
+      "xitongliu@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2424118",
+        "title": "Designing Functionalized Aromatic Polyamide Brushes for High-Performance Antifouling Coatings",
+        "amount": "$575,000.00",
+        "program": "Interfacial Engineering Progra",
+        "end_date": "12/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Christopher L Cahill cahill@gwu.edu",
+      "Yongsheng Leng leng@gwu.edu",
+      "Stephen G Boyes (Former) sboyes@gwu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2428878",
+    "name": "Jozef H Przytycki",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "George Washington University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Knots in Washington: Conferences on Knot Theory and its Ramifications"
+    ],
+    "website": "",
+    "email": [
+      "przytyck@gwu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2428878",
+        "title": "Conference: Knots in Washington: Conferences on Knot Theory and its Ramifications",
+        "amount": "$20,000.00",
+        "program": "TOPOLOGY",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Valentina Harizanov harizanv@gwu.edu",
+      "Mikhail G Khovanov khovanov@jhu.edu",
+      "Radmila Sazdanovic rsazdanovic@math.ncsu.edu",
+      "Mee Seong Im meeseongim@gmail.com"
+    ]
+  }
+]

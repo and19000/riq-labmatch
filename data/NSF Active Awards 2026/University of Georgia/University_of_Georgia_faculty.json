@@ -1,0 +1,67 @@
+[
+  {
+    "id": "nsf-2517556",
+    "name": "Marc A Ragin",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "University of Georgia",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "IUCRC Phase I University of Georgia: Center for Innovation in Risk, Catastrophes, and Decisions (CIR..."
+    ],
+    "website": "",
+    "email": [
+      "mragin@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2517556",
+        "title": "IUCRC Phase I University of Georgia: Center for Innovation in Risk, Catastrophes, and Decisions (CIRCAD)",
+        "amount": "$500,000.00",
+        "program": "Human-Envi & Geographical Scis, IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "08/31/2030",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "James M Shepherd marshgeo@uga.edu",
+      "Matthew V Bilskie mbilskie@uga.edu",
+      "Todd S Bridges todd.bridges@uga.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424302",
+    "name": "Yang Yang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Georgia",
+    "location": "ATHENS, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "eMB: Collaborative Research: Integrated Hybrid Mathematical Modeling for Schistosomiasis Elimination"
+    ],
+    "website": "",
+    "email": [
+      "yang.yang4@uga.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2424302",
+        "title": "eMB: Collaborative Research: Integrated Hybrid Mathematical Modeling for Schistosomiasis Elimination",
+        "amount": "$133,203.00",
+        "program": "MATHEMATICAL BIOLOGY",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

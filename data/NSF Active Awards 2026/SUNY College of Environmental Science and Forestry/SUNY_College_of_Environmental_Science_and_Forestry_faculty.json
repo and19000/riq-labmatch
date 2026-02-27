@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2506063",
+    "name": "Leanne Powers",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "SUNY College of Environmental Science and Forestry",
+    "location": "SYRACUSE, NY",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Using a Bottom-Up Approach to Understand Dissolved Organic Matter Photoreactivity"
+    ],
+    "website": "",
+    "email": [
+      "lcpowers@esf.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SYRACUSE, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2506063",
+        "title": "Using a Bottom-Up Approach to Understand Dissolved Organic Matter Photoreactivity",
+        "amount": "$549,999.00",
+        "program": "Environmental Chemical Science",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Theodore S Dibble tsdibble@esf.edu",
+      "Nicholas C Pflug ncpflug@esf.edu"
+    ]
+  },
+  {
+    "id": "nsf-2409440",
+    "name": "Aaron T Ninokawa",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "SUNY College of Environmental Science and Forestry",
+    "location": "SYRACUSE, NY",
+    "research_areas": [
+      "Geosciences",
+      "EMBRACE-OCE-Seed - Carbonate chemistry controls on shell formation in tropical marine bivalves"
+    ],
+    "website": "",
+    "email": [
+      "atninoka@esf.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SYRACUSE, NY",
+    "nsf_awards": [
+      {
+        "award_number": "2409440",
+        "title": "EMBRACE-OCE-Seed - Carbonate chemistry controls on shell formation in tropical marine bivalves",
+        "amount": "$200,000.00",
+        "program": "Special Initiatives",
+        "end_date": "12/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

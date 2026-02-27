@@ -1,0 +1,791 @@
+[
+  {
+    "id": "nsf-2434086",
+    "name": "Jacobus VAN DER MERWE",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Adaptive Spectrum Sharing and UsE (ASSURE)",
+      "CSE",
+      "CIRC: ENS/Grand: POWDER-ENS - Enhancing and Sustaining the POWDER Platform"
+    ],
+    "website": "",
+    "email": [
+      "kobus@cs.utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2434086",
+        "title": "Adaptive Spectrum Sharing and UsE (ASSURE)",
+        "amount": "$629,737.00",
+        "program": "SII-Spectrum Innovation Initia",
+        "end_date": "09/30/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2346555",
+        "title": "CIRC: ENS/Grand: POWDER-ENS - Enhancing and Sustaining the POWDER Platform",
+        "amount": "$4,200,001.00",
+        "program": "CISE Research Resources, CCRI-CISE Cmnty Rsrch Infrstrc",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Dustin C Maas dmaas@cs.utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2545871",
+    "name": "Valerie C Pierre",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "DNA-TEMPLATED SUPRAMOLECULAR SYNTHESIS OF WIREFRAME POLYMERS",
+      "CAS: REGENERABLE POLYMERS FOR PHOSPHATE REMOVAL AND RECOVERY FROM WASTEWATER"
+    ],
+    "website": "",
+    "email": [
+      "v.pierre@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2545871",
+        "title": "DNA-TEMPLATED SUPRAMOLECULAR SYNTHESIS OF WIREFRAME POLYMERS",
+        "amount": "$87,147.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "07/31/2026",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2545868",
+        "title": "CAS: REGENERABLE POLYMERS FOR PHOSPHATE REMOVAL AND RECOVERY FROM WASTEWATER",
+        "amount": "$329,282.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "11/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2508384",
+    "name": "Long Luo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "GOALI: Developing New Hydrogen Isotope Exchange Strategies for Isotope Labelling of Pharmaceuticals",
+      "CAREER: CAS: Developing Gas Bubbles as a New Tool for Surface-Active Agent Analysis"
+    ],
+    "website": "",
+    "email": [
+      "long.luo@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2508384",
+        "title": "GOALI: Developing New Hydrogen Isotope Exchange Strategies for Isotope Labelling of Pharmaceuticals",
+        "amount": "$329,206.00",
+        "program": "Chemical Catalysis, Chemical Synthesis",
+        "end_date": "02/28/2027",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2503459",
+        "title": "CAREER: CAS: Developing Gas Bubbles as a New Tool for Surface-Active Agent Analysis",
+        "amount": "$101,088.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "04/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2452790",
+    "name": "Matthew S Sigman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Employing Data Science Tools to Develop Reactions Using Heteroleptic Catalysts"
+    ],
+    "website": "",
+    "email": [
+      "sigman@chem.utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2452790",
+        "title": "Employing Data Science Tools to Develop Reactions Using Heteroleptic Catalysts",
+        "amount": "$600,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, Chemical Catalysis",
+        "end_date": "09/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506109",
+    "name": "Ming L Tang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Silicon Nanocrystal-radical Systems for Photo Excited, Spin-polarized Triplet- quartet/ Doublet stat..."
+    ],
+    "website": "",
+    "email": [
+      "minglee.tang@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2506109",
+        "title": "Silicon Nanocrystal-radical Systems for Photo Excited, Spin-polarized Triplet- quartet/ Doublet states",
+        "amount": "$600,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2510840",
+    "name": "Tanmoy Laskar",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "The Structure of Transient Relativistic Jets"
+    ],
+    "website": "",
+    "email": [
+      "tanmoy.laskar@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2510840",
+        "title": "The Structure of Transient Relativistic Jets",
+        "amount": "$499,678.00",
+        "program": "STELLAR ASTRONOMY & ASTROPHYSC",
+        "end_date": "08/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2518337",
+    "name": "Henry Fu",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Deformation-Enhanced Dynamics and Control of Microscale Modular Soft Robots"
+    ],
+    "website": "",
+    "email": [
+      "Henry.Fu@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2518337",
+        "title": "Collaborative Research: Deformation-Enhanced Dynamics and Control of Microscale Modular Soft Robots",
+        "amount": "$313,091.00",
+        "program": "FRR-Foundationl Rsrch Robotics",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515622",
+    "name": "Eric Pardyjak",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Geosciences",
+      "Quantifying and Parameterizing Mixed-Phase Microphysical Properties Using Novel Measurement Technolo..."
+    ],
+    "website": "",
+    "email": [
+      "pardyjak@eng.utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2515622",
+        "title": "Quantifying and Parameterizing Mixed-Phase Microphysical Properties Using Novel Measurement Technologies",
+        "amount": "$499,746.00",
+        "program": "Physical & Dynamic Meteorology",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Timothy J Garrett tim.garrett@utah.edu",
+      "Dhiraj K Singh u6021818@utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2532136",
+    "name": "Amy M Barrios",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Chemical Toolkit for Monitoring and Modulating Receptor Tyrosine Phosphatase Activity"
+    ],
+    "website": "",
+    "email": [
+      "amy.barrios@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2532136",
+        "title": "Chemical Toolkit for Monitoring and Modulating Receptor Tyrosine Phosphatase Activity",
+        "amount": "$639,000.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Brian V Popp Brian.Popp@mail.wvu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2517137",
+    "name": "Surya Pachhai",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Geosciences",
+      "Investigation of sources of global seismic scattering using advanced array processing and Bayesian i..."
+    ],
+    "website": "",
+    "email": [
+      "surya.pachhai@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2517137",
+        "title": "Investigation of sources of global seismic scattering using advanced array processing and Bayesian inversion",
+        "amount": "$419,913.00",
+        "program": "SPSE-Study of Physics of Earth",
+        "end_date": "07/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael Thorne michael.thorne@utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2503705",
+    "name": "Sarah Lambart",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Hydrous melting of a lithologically-heterogeneous mantle: A combined experim..."
+    ],
+    "website": "",
+    "email": [
+      "sarah.lambart@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2503705",
+        "title": "Collaborative Research: Hydrous melting of a lithologically-heterogeneous mantle: A combined experimental and computational approach",
+        "amount": "$476,591.00",
+        "program": "Marine Geology and Geophysics, CESEV-Chem Evo of Earth & Volc",
+        "end_date": "07/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2447859",
+    "name": "Ming C Hammond",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: Experimental and Computational Chemistry of Materials and Bio-Molecular Systems"
+    ],
+    "website": "",
+    "email": [
+      "ming.hammond@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2447859",
+        "title": "REU Site: Experimental and Computational Chemistry of Materials and Bio-Molecular Systems",
+        "amount": "$448,384.00",
+        "program": "UNDERGRADUATE PROGRAMS IN CHEM",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Michael Gruenwald michael.gruenwald@utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2516352",
+    "name": "Jeffrey Bates",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Engineering",
+      "U.S.-Ireland R&D Partnership: Production-Application-Environmental Impact of Biodegradable Polymers ..."
+    ],
+    "website": "",
+    "email": [
+      "jeffreyscottbates@gmail.com"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2516352",
+        "title": "U.S.-Ireland R&D Partnership: Production-Application-Environmental Impact of Biodegradable Polymers Based on PHAs",
+        "amount": "$537,639.00",
+        "program": "EnvS-Environmtl Sustainability",
+        "end_date": "06/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2439958",
+    "name": "Thomas J Reichler",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Geosciences",
+      "Insights from Idealized Modelling into the Quasi-Biennial Oscillation"
+    ],
+    "website": "",
+    "email": [
+      "thomas.reichler@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2439958",
+        "title": "Insights from Idealized Modelling into the Quasi-Biennial Oscillation",
+        "amount": "$797,237.00",
+        "program": "Climate & Large-Scale Dynamics",
+        "end_date": "06/30/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2516476",
+    "name": "Ilya Zharov",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Elucidation of Molecular Interactions between Spherical Polymer Brushes Using Sum Frequency Generati..."
+    ],
+    "website": "",
+    "email": [
+      "i.zharov@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2516476",
+        "title": "Elucidation of Molecular Interactions between Spherical Polymer Brushes Using Sum Frequency Generation Vibrational Spectroscopy",
+        "amount": "$688,144.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "John C Conboy conboy@chem.utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2440026",
+    "name": "Gabe Nagy",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Transforming Ion Mobility Spectrometry-Mass Spectrometry-Based Isotopic Shifts Across Molecu..."
+    ],
+    "website": "",
+    "email": [
+      "gabe.nagy@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2440026",
+        "title": "CAREER: Transforming Ion Mobility Spectrometry-Mass Spectrometry-Based Isotopic Shifts Across Molecular Classes for Isomer Identification",
+        "amount": "$600,000.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "02/28/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2437374",
+    "name": "Jacob A George",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: RUI: Noninvasive, Natural and Intuitive Electrocutaneous Stimuli for Bionic ..."
+    ],
+    "website": "",
+    "email": [
+      "jake.george@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2437374",
+        "title": "Collaborative Research: RUI: Noninvasive, Natural and Intuitive Electrocutaneous Stimuli for Bionic Limbs",
+        "amount": "$183,309.00",
+        "program": "Disability & Rehab Engineering",
+        "end_date": "01/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430361",
+    "name": "Manish Parashar",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "CSE",
+      "CC* Storage-Region: Introducing Archiving and Disaster Recovery into Utah’s Regional Data Lifecycle ..."
+    ],
+    "website": "",
+    "email": [
+      "manish.parashar@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2430361",
+        "title": "CC* Storage-Region: Introducing Archiving and Disaster Recovery into Utah’s Regional Data Lifecycle Cyberinfrastructure",
+        "amount": "$1,089,887.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "11/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Thomas E Cheatham tec3@utah.edu",
+      "Zachariah Gompert zach.gompert@usu.edu",
+      "Penny R Atkins penny.atkins@utah.edu",
+      "Harish K Maringanti harish.maringanti@utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2506163",
+    "name": "Tong Qiu",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Engineering",
+      "Revisiting Compaction of Granular Soil: Insights from Particle Kinematics"
+    ],
+    "website": "",
+    "email": [
+      "tong.qiu@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2506163",
+        "title": "Revisiting Compaction of Granular Soil: Insights from Particle Kinematics",
+        "amount": "$448,699.00",
+        "program": "ECI-Engineering for Civil Infr",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424954",
+    "name": "Michelle M Camacho",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "STEM Education",
+      "Expanding Talent in Data Science Careers for Graduate Students in Utah"
+    ],
+    "website": "",
+    "email": [
+      "michelle.camacho@csbs.utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2424954",
+        "title": "Expanding Talent in Data Science Careers for Graduate Students in Utah",
+        "amount": "$1,999,999.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Rebecca Utz Rebecca.utz@utah.edu",
+      "Lori Kowaleski-Jones lk2700@fcs.utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2436344",
+    "name": "Bao Wang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: MATH-DT: Mathematical Foundations of AI-assisted Digital Twins for High Powe..."
+    ],
+    "website": "",
+    "email": [
+      "bwang@math.utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2436344",
+        "title": "Collaborative Research: MATH-DT: Mathematical Foundations of AI-assisted Digital Twins for High Power Laser Science and Engineering",
+        "amount": "$250,000.00",
+        "program": "COMPUTATIONAL MATHEMATICS, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2431419",
+    "name": "Robert Ricci",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "CSE",
+      "CloudLab Phase-IV: Strengthening a Core Resource for Research and Education"
+    ],
+    "website": "",
+    "email": [
+      "ricci@cs.utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2431419",
+        "title": "CloudLab Phase-IV: Strengthening a Core Resource for Research and Education",
+        "amount": "$9,000,000.00",
+        "program": "CISE Research Resources",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kuang-Ching Wang kwang@clemson.edu",
+      "Jason Wiese jason.wiese@utah.edu",
+      "Shivaram Venkataraman shivaram@cs.wisc.edu",
+      "Ming Liu mgliu@cs.wisc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2349129",
+    "name": "Jamesina J Simpson",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Engineering",
+      "REU Site: Intelligent Systems for Healthcare, Imaging, Communications and Infrastructure"
+    ],
+    "website": "",
+    "email": [
+      "jamesina.simpson@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2349129",
+        "title": "REU Site: Intelligent Systems for Healthcare, Imaging, Communications and Infrastructure",
+        "amount": "$469,831.00",
+        "program": "EWFD-Eng Workforce Development",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Berardi Sensale-Rodriguez berardi.sensale@utah.edu"
+    ]
+  },
+  {
+    "id": "nsf-2341274",
+    "name": "Timothy J Garrett",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Utah",
+    "location": "SALT LAKE CITY, UT",
+    "research_areas": [
+      "Geosciences",
+      "Evaluating a Constrained Cloud Response to Varying Atmospheric Climate and Chemical States"
+    ],
+    "website": "",
+    "email": [
+      "tim.garrett@utah.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "SALT LAKE CITY, UT",
+    "nsf_awards": [
+      {
+        "award_number": "2341274",
+        "title": "Evaluating a Constrained Cloud Response to Varying Atmospheric Climate and Chemical States",
+        "amount": "$941,193.00",
+        "program": "Climate & Large-Scale Dynamics",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jessica H Haskell jessica.haskins@utah.edu"
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "nsf-2510380",
+    "name": "Kesete Ghebreyessus",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Hampton University",
+    "location": "HAMPTON, VA",
+    "research_areas": [
+      "STEM Education",
+      "Targeted Infusing Project: Integrating Chemistry Research with Analytical and Forensic Chemistry Edu..."
+    ],
+    "website": "",
+    "email": [
+      "Kesete.Ghebreyessus@Hamptonu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HAMPTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2510380",
+        "title": "Targeted Infusing Project: Integrating Chemistry Research with Analytical and Forensic Chemistry Education to Enhance Undergraduate Research, Pedagogy, and Workforce Development",
+        "amount": "$399,940.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "07/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Peter Njoki peter.njoki@hamptonu.edu",
+      "Anupam Das anupam.das@hamptonu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2400446",
+    "name": "Joseph W Reustle",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Hampton University",
+    "location": "HAMPTON, VA",
+    "research_areas": [
+      "STEM Education",
+      "Research Initiation Award: You are what you eat: Incorporating Stable Isotope Analyses (SIA) and foo..."
+    ],
+    "website": "",
+    "email": [
+      "joseph.reustle@hamptonu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HAMPTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2400446",
+        "title": "Research Initiation Award: You are what you eat: Incorporating Stable Isotope Analyses (SIA) and food web ecology into undergraduate research and education",
+        "amount": "$200,000.00",
+        "program": "Hist Black Colleges and Univ",
+        "end_date": "08/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430296",
+    "name": "Demetris L Geddis",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Hampton University",
+    "location": "HAMPTON, VA",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: Ideas Lab: Partnership for Advancing Research Capacity in Semiconductors at ..."
+    ],
+    "website": "",
+    "email": [
+      "Demetris.Geddis@hamptonu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HAMPTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2430296",
+        "title": "Collaborative Research: Ideas Lab: Partnership for Advancing Research Capacity in Semiconductors at Historically Black Colleges and Universities",
+        "amount": "$457,000.00",
+        "program": "EDUCATION AND WORKFORCE, HBCU-EiR - HBCU-Excellence in",
+        "end_date": "08/31/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Neelam Azad neelam.azad@hamptonu.edu",
+      "Clyde R Varner clyde.varner@aamu.edu",
+      "Mohamed Noufal MOHAMED.NOUFAL@HAMPTONU.EDU",
+      "Ikemefuna Uba ikemefuna.uba@hamptonu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2412757",
+    "name": "Michael Kohl",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Hampton University",
+    "location": "HAMPTON, VA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-BSF: Precision Scattering of Low-Energy Muons, Electrons, and Pions with MUSE"
+    ],
+    "website": "",
+    "email": [
+      "kohlm@jlab.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "HAMPTON, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2412757",
+        "title": "NSF-BSF: Precision Scattering of Low-Energy Muons, Electrons, and Pions with MUSE",
+        "amount": "$670,000.00",
+        "program": "NUCLEAR PRECISION MEASUREMENTS",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

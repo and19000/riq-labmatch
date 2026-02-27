@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2514918",
+    "name": "Paul M King",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Ohio University",
+    "location": "ATHENS, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-BSF:  Nuclear Physics Experiments with the Electro-Weak Probe"
+    ],
+    "website": "",
+    "email": [
+      "kingp1@ohio.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2514918",
+        "title": "NSF-BSF:  Nuclear Physics Experiments with the Electro-Weak Probe",
+        "amount": "$450,000.00",
+        "program": "NUCLEAR PRECISION MEASUREMENTS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Julie Roche rochej@ohio.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452063",
+    "name": "Horacio E Castillo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Ohio University",
+    "location": "ATHENS, OH",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Local relaxation rates and heterogeneity in glassy dynamics"
+    ],
+    "website": "",
+    "email": [
+      "castillh@ohio.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATHENS, OH",
+    "nsf_awards": [
+      {
+        "award_number": "2452063",
+        "title": "Local relaxation rates and heterogeneity in glassy dynamics",
+        "amount": "$235,528.00",
+        "program": "CONDENSED MATTER & MAT THEORY",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

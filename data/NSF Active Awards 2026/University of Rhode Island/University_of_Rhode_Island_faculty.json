@@ -1,0 +1,269 @@
+[
+  {
+    "id": "nsf-2528714",
+    "name": "Erich M Gruebel",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Research Infrastructure: Shared Unified Research Fleet IT Support for the AR...",
+      "R/V Endeavor Oceanographic Technical Support Services CY2024 Proposal and Annual Report"
+    ],
+    "website": "",
+    "email": [
+      "egruebel@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2528714",
+        "title": "Collaborative Research: Research Infrastructure: Shared Unified Research Fleet IT Support for the ARF, Pilot Project (SURF-IT)",
+        "amount": "$28,345.00",
+        "program": "Oceanographic CybrinfraCybrsec",
+        "end_date": "06/30/2026",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2422983",
+        "title": "R/V Endeavor Oceanographic Technical Support Services CY2024 Proposal and Annual Report",
+        "amount": "$599,656.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2505897",
+    "name": "Jason R Dwyer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Development of a Nanopore Scanner and Elucidation of Molecular Design Principles for Nanopore Conduc..."
+    ],
+    "website": "",
+    "email": [
+      "jason_dwyer@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2505897",
+        "title": "Development of a Nanopore Scanner and Elucidation of Molecular Design Principles for Nanopore Conductance, Transport and Sensing Optimization",
+        "amount": "$464,964.00",
+        "program": "Chemical Measurement & Imaging",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426976",
+    "name": "Leonard M Kahn",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 2: URI-PQI Collaboration - Application Of Quantum Fundamentals To Advance Research..."
+    ],
+    "website": "",
+    "email": [
+      "lkahn@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2426976",
+        "title": "ExpandQISE: Track 2: URI-PQI Collaboration - Application Of Quantum Fundamentals To Advance Research and Workforce Development",
+        "amount": "$4,990,252.00",
+        "program": "QISET-Quan Info Sci Eng & Tech",
+        "end_date": "07/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gaurav Khanna gkhanna@uri.edu",
+      "Feruz Ganikhanov fganikhanov@uri.edu",
+      "Sergey Frolov frolovsm@pitt.edu",
+      "Benjamin M Hunt bmhunt@andrew.cmu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2438542",
+    "name": "Daniel Roxbury",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Office of the Director",
+      "E-RISE RII: Socio-ecological Impact of Microplastics in Coastal Ecosystems"
+    ],
+    "website": "",
+    "email": [
+      "roxbury@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2438542",
+        "title": "E-RISE RII: Socio-ecological Impact of Microplastics in Coastal Ecosystems",
+        "amount": "$3,935,884.00",
+        "program": "EPSCoR RII: E-RISE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Stephen K O'Shea soshea@rwu.edu",
+      "Baylor Fox-Kemper baylor@brown.edu",
+      "Vinka Craver craver@uri.edu",
+      "Anabela M Resende da Maia aresendedamaia@ric.edu"
+    ]
+  },
+  {
+    "id": "nsf-2441496",
+    "name": "Reza Abiri",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Engineering",
+      "CAREER: Versatile and high-performance shared autonomy paradigms for assistive and rehabilitation ro..."
+    ],
+    "website": "",
+    "email": [
+      "reza_abiri@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2441496",
+        "title": "CAREER: Versatile and high-performance shared autonomy paradigms for assistive and rehabilitation robots",
+        "amount": "$546,848.00",
+        "program": "EPSCoR Co-Funding, Disability & Rehab Engineering",
+        "end_date": "05/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2427120",
+    "name": "Vanita Srinivasa",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Hybrid Solid-State Qubit Systems for Modular Quantum Information Processing"
+    ],
+    "website": "",
+    "email": [
+      "vsriniv@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2427120",
+        "title": "ExpandQISE: Track 1: Hybrid Solid-State Qubit Systems for Modular Quantum Information Processing",
+        "amount": "$799,123.00",
+        "program": "ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "William D Oliver william.oliver@mit.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434964",
+    "name": "Holly B Morin",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Geosciences",
+      "NSF Ocean Observatories Initiative Facility Board (OOIFB) Administrative Support Office"
+    ],
+    "website": "",
+    "email": [
+      "holly_morin@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2434964",
+        "title": "NSF Ocean Observatories Initiative Facility Board (OOIFB) Administrative Support Office",
+        "amount": "$1,111,322.00",
+        "program": "OCEAN OBSERVATORIES INITIATIVE",
+        "end_date": "09/30/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2427042",
+    "name": "Wenchao Ge",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Rhode Island",
+    "location": "KINGSTON, RI",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Quantum Correlations in Quantum Approximate Optimization Algorithms and Their I..."
+    ],
+    "website": "",
+    "email": [
+      "wenchao.ge@uri.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "KINGSTON, RI",
+    "nsf_awards": [
+      {
+        "award_number": "2427042",
+        "title": "ExpandQISE: Track 1: Quantum Correlations in Quantum Approximate Optimization Algorithms and Their Implementation",
+        "amount": "$800,000.00",
+        "program": "Special Initiatives, ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ilya Safro isafro@udel.edu"
+    ]
+  }
+]

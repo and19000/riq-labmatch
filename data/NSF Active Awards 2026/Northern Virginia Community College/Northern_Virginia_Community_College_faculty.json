@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2519849",
+    "name": "Michael Davis",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "Northern Virginia Community College",
+    "location": "ANNANDALE, VA",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: EPIIC: Advancing Regional Innovation Through Sustainable Engagement (ARISE)"
+    ],
+    "website": "",
+    "email": [
+      "mdavis1@nvcc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ANNANDALE, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2519849",
+        "title": "Collaborative Research: EPIIC: Advancing Regional Innovation Through Sustainable Engagement (ARISE)",
+        "amount": "$399,999.00",
+        "program": "EPIIC-Enbl Part Incr Innov Cap",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Will Schmidt wschmidt@nvcc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2500848",
+    "name": "Christine Hirst Bernhardt",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Northern Virginia Community College",
+    "location": "ANNANDALE, VA",
+    "research_areas": [
+      "STEM Education",
+      "ETSTE DCL - Collaborative Research: Teacher Chip Professional Learning Program"
+    ],
+    "website": "",
+    "email": [
+      "lchbernhardt@nvcc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ANNANDALE, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2500848",
+        "title": "ETSTE DCL - Collaborative Research: Teacher Chip Professional Learning Program",
+        "amount": "$539,534.00",
+        "program": "Advanced Tech Education Prog, NSF-Intel Semiconductr Partnrs",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Natasha Schuh-Nuhfer nschuhnuhfer@nvcc.edu"
+    ]
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "nsf-2528534",
+    "name": "Jun Dai",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Worcester Polytechnic Institute",
+    "location": "WORCESTER, MA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: EAGER: NAIRR Pilot Expansion: FA1: Advancing AI Research with NAIRR Workshop..."
+    ],
+    "website": "",
+    "email": [
+      "jdai@wpi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WORCESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2528534",
+        "title": "Collaborative Research: EAGER: NAIRR Pilot Expansion: FA1: Advancing AI Research with NAIRR Workshop Series on Cybersecurity, Edge AI, and Autonomous Driving",
+        "amount": "$149,951.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "07/31/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Craig Shue cshue@wpi.edu",
+      "Xiaozhong Liu xliu14@wpi.edu",
+      "Xiaoyan Sun xsun7@wpi.edu"
+    ]
+  },
+  {
+    "id": "nsf-2509024",
+    "name": "Erin R Ottmar",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Worcester Polytechnic Institute",
+    "location": "WORCESTER, MA",
+    "research_areas": [
+      "STEM Education",
+      "Building the Infrastructure for Sustained Research-Practice Partnerships in Worcester"
+    ],
+    "website": "",
+    "email": [
+      "erottmar@wpi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WORCESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2509024",
+        "title": "Building the Infrastructure for Sustained Research-Practice Partnerships in Worcester",
+        "amount": "$99,999.00",
+        "program": "Discovery Research K-12",
+        "end_date": "07/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Andrew J Lampi lampia@worcesterschools.net"
+    ]
+  },
+  {
+    "id": "nsf-2537029",
+    "name": "Fanglin Che",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Worcester Polytechnic Institute",
+    "location": "WORCESTER, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAS: Collaborative Research: Physics-Informed Machine Learning for Electrochemical C-N Coupling by M..."
+    ],
+    "website": "",
+    "email": [
+      "fche@wpi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WORCESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2537029",
+        "title": "CAS: Collaborative Research: Physics-Informed Machine Learning for Electrochemical C-N Coupling by Metal-Organic Materials",
+        "amount": "$212,882.00",
+        "program": "Chemical Catalysis",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2544948",
+    "name": "Qi Zhang",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Worcester Polytechnic Institute",
+    "location": "WORCESTER, MA",
+    "research_areas": [
+      "CSE",
+      "CAREER: Identifying and Exploiting Multi-Agent Symmetries"
+    ],
+    "website": "",
+    "email": [
+      "qzhang9@wpi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WORCESTER, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2544948",
+        "title": "CAREER: Identifying and Exploiting Multi-Agent Symmetries",
+        "amount": "$387,654.00",
+        "program": "Robust Intelligence, EPSCoR Co-Funding",
+        "end_date": "04/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

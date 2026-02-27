@@ -1,0 +1,67 @@
+[
+  {
+    "id": "nsf-2510880",
+    "name": "Jennifer Bouldin",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Arkansas State University Main Campus",
+    "location": "JONESBORO, AR",
+    "research_areas": [
+      "Biological Sciences",
+      "MRI Track I: Acquisition of an UHPLC-TQ and DESI for facilitation of interdisciplinary ecotoxicologi..."
+    ],
+    "website": "",
+    "email": [
+      "jbouldin@astate.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JONESBORO, AR",
+    "nsf_awards": [
+      {
+        "award_number": "2510880",
+        "title": "MRI Track I: Acquisition of an UHPLC-TQ and DESI for facilitation of interdisciplinary ecotoxicological and analytical research at Arkansas State University",
+        "amount": "$719,800.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430158",
+    "name": "Robert Fleming",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Arkansas State University Main Campus",
+    "location": "JONESBORO, AR",
+    "research_areas": [
+      "CSE",
+      "CC* Strategy: Campus - Cyberinfrastructure Modernization at Arkansas State University"
+    ],
+    "website": "",
+    "email": [
+      "rofleming@AState.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "JONESBORO, AR",
+    "nsf_awards": [
+      {
+        "award_number": "2430158",
+        "title": "CC* Strategy: Campus - Cyberinfrastructure Modernization at Arkansas State University",
+        "amount": "$99,906.00",
+        "program": "Campus Cyberinfrastructure, EPSCoR Co-Funding",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jonathan Stubblefield jstubblefield@astate.edu",
+      "Alexandr M Sokolov asokolov@astate.edu",
+      "Sudeepa Bhattacharyya sbhattacharyya@astate.edu"
+    ]
+  }
+]

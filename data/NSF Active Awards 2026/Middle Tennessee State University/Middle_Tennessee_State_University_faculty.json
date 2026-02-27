@@ -1,0 +1,164 @@
+[
+  {
+    "id": "nsf-2446952",
+    "name": "Jennifer J Kaplan",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Middle Tennessee State University",
+    "location": "MURFREESBORO, TN",
+    "research_areas": [
+      "STEM Education",
+      "REU Site: Advancing InterDisciplinary Education Research in STEM"
+    ],
+    "website": "",
+    "email": [
+      "jkaplan@mtsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MURFREESBORO, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2446952",
+        "title": "REU Site: Advancing InterDisciplinary Education Research in STEM",
+        "amount": "$405,063.00",
+        "program": "IUSE",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2448306",
+    "name": "Gregory T Rushton",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Middle Tennessee State University",
+    "location": "MURFREESBORO, TN",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Improving Teacher Retention and Effectiveness through Knowledge Sharing (iTR..."
+    ],
+    "website": "",
+    "email": [
+      "gregory.rushton@mtsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MURFREESBORO, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2448306",
+        "title": "Collaborative Research: Improving Teacher Retention and Effectiveness through Knowledge Sharing (iTREKS): Studying STEM Teachers in High Need Schools across a Community of Practice",
+        "amount": "$1,232,951.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Salam Khan salam.khan@aamu.edu",
+      "Allyson Rogan-Klyve roganklyve@cwu.edu",
+      "Mandi M Collins mmcollins@unr.edu",
+      "Kimberly A Evert kimberly.evert@mtsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510274",
+    "name": "Wandi Ding",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Middle Tennessee State University",
+    "location": "MURFREESBORO, TN",
+    "research_areas": [
+      "STEM Education",
+      "NRT-QISE-AI: Middle Tennessee Interdisciplinary Graduate Research and Training in Quantum Informatio..."
+    ],
+    "website": "",
+    "email": [
+      "wding@mtsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MURFREESBORO, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2510274",
+        "title": "NRT-QISE-AI: Middle Tennessee Interdisciplinary Graduate Research and Training in Quantum Information Science and AI",
+        "amount": "$2,000,000.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Abdul-Qayyum M Khaliq Abdul.Khaliq@mtsu.edu",
+      "Jing Kong jing.kong@mtsu.edu",
+      "Joshua L Phillips joshua.phillips@mtsu.edu",
+      "Hanna Terletska Hanna.Terletska@mtsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2538963",
+    "name": "Hanna Terletska",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Middle Tennessee State University",
+    "location": "MURFREESBORO, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: DMREF: Data-Driven Prediction of Hybrid Organic-Inorganic Structures"
+    ],
+    "website": "",
+    "email": [
+      "Hanna.Terletska@mtsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MURFREESBORO, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2538963",
+        "title": "Collaborative Research: DMREF: Data-Driven Prediction of Hybrid Organic-Inorganic Structures",
+        "amount": "$286,822.00",
+        "program": "DMREF",
+        "end_date": "10/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2341836",
+    "name": "Jessica H Arbour",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Middle Tennessee State University",
+    "location": "MURFREESBORO, TN",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: The age of cichlids: a fossils-to-genomes approach to dating divergence and ..."
+    ],
+    "website": "",
+    "email": [
+      "jessica.arbour@mtsu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MURFREESBORO, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2341836",
+        "title": "Collaborative Research: The age of cichlids: a fossils-to-genomes approach to dating divergence and tracing ecomorphological change in a key model of vertebrate evolution",
+        "amount": "$179,700.00",
+        "program": "Systematics & Biodiversity Sci, Sedimentary Geo & Paleobiology",
+        "end_date": "08/31/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

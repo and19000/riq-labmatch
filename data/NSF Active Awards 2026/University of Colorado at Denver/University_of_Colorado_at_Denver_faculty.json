@@ -1,0 +1,71 @@
+[
+  {
+    "id": "nsf-2521719",
+    "name": "Chelsea M Magin",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "University of Colorado at Denver",
+    "location": "AURORA, CO",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Pivots: Experiential Learning to Upskill Participants for High-Wage Biotechnology Careers"
+    ],
+    "website": "",
+    "email": [
+      "chelsea.magin@cuanschutz.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AURORA, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2521719",
+        "title": "Pivots: Experiential Learning to Upskill Participants for High-Wage Biotechnology Careers",
+        "amount": "$987,757.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Megan John mjohn@cobioscience.com"
+    ]
+  },
+  {
+    "id": "nsf-2509232",
+    "name": "Shengzhe Wang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Colorado at Denver",
+    "location": "AURORA, CO",
+    "research_areas": [
+      "Engineering",
+      "MRI: Track 1 Acquisition of a Large-amplitude 6-DOF Motion Simulator to Advance Multidisciplinary Re..."
+    ],
+    "website": "",
+    "email": [
+      "shengzhe.2.wang@ucdenver.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "AURORA, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2509232",
+        "title": "MRI: Track 1 Acquisition of a Large-amplitude 6-DOF Motion Simulator to Advance Multidisciplinary Research and Education",
+        "amount": "$368,260.00",
+        "program": "Dynamics, Control and System D",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Aditi Misra aditi.misra@ucdenver.edu",
+      "Linyue Gao linyue.gao@ucdenver.edu",
+      "Guoying Dong guoying.dong@ucdenver.edu",
+      "Bing Han bing.2.han@ucdenver.edu"
+    ]
+  }
+]

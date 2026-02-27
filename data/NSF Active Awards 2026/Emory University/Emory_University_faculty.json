@@ -1,0 +1,95 @@
+[
+  {
+    "id": "nsf-2534450",
+    "name": "Michael C Heaven",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Emory University",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Molecular Platforms for Studies of Parity Non-conservation and Novel Bonding..."
+    ],
+    "website": "",
+    "email": [
+      "mheaven@emory.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2534450",
+        "title": "Collaborative Research: Molecular Platforms for Studies of Parity Non-conservation and Novel Bonding Mechanisms",
+        "amount": "$497,664.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "09/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2533622",
+    "name": "Shanshuang Yang",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Emory University",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Advances and Connections of Modern Geometric Function Theory"
+    ],
+    "website": "",
+    "email": [
+      "syang05@emory.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2533622",
+        "title": "Conference: Advances and Connections of Modern Geometric Function Theory",
+        "amount": "$20,000.00",
+        "program": "ANALYSIS PROGRAM",
+        "end_date": "08/31/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Xiangdong Xie xiex@bgsu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2539855",
+    "name": "Letian Dou",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Emory University",
+    "location": "ATLANTA, GA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Understanding and Quantifying Ion Migration and Diffusion in Two-Dimensional Halide Perovski..."
+    ],
+    "website": "",
+    "email": [
+      "letian.dou@emory.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ATLANTA, GA",
+    "nsf_awards": [
+      {
+        "award_number": "2539855",
+        "title": "CAREER: Understanding and Quantifying Ion Migration and Diffusion in Two-Dimensional Halide Perovskite Heterostructures",
+        "amount": "$242,085.00",
+        "program": "ELECTRONIC/PHOTONIC MATERIALS",
+        "end_date": "05/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

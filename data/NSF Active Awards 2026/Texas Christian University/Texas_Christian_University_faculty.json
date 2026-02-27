@@ -1,0 +1,67 @@
+[
+  {
+    "id": "nsf-2435970",
+    "name": "Eric E Simanek",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Texas Christian University",
+    "location": "FORT WORTH, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Applying Computation to Molecular Hinges"
+    ],
+    "website": "",
+    "email": [
+      "e.simanek@tcu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FORT WORTH, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2435970",
+        "title": "Applying Computation to Molecular Hinges",
+        "amount": "$300,000.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430050",
+    "name": "Jose Carrion Muniz",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Texas Christian University",
+    "location": "FORT WORTH, TX",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: CBMS Conference: Classifying Amenable Operator Algebras"
+    ],
+    "website": "",
+    "email": [
+      "j.carrion@tcu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "FORT WORTH, TX",
+    "nsf_awards": [
+      {
+        "award_number": "2430050",
+        "title": "Conference: CBMS Conference: Classifying Amenable Operator Algebras",
+        "amount": "$44,290.00",
+        "program": "INFRASTRUCTURE PROGRAM",
+        "end_date": "02/28/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Efton Park e.park@tcu.edu",
+      "Greg B Friedman g.friedman@tcu.edu",
+      "Travis B Russell travis.b.russell@tcu.edu"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2611855",
+    "name": "Meredith Townsend",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Lehigh University",
+    "location": "BETHLEHEM, PA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Investigating the role of topography and magma properties on dike pathways b..."
+    ],
+    "website": "",
+    "email": [
+      "met423@lehigh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BETHLEHEM, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2611855",
+        "title": "Collaborative Research: Investigating the role of topography and magma properties on dike pathways beneath stratovolcanoes using field data, analogue experiments, and modeling",
+        "amount": "$25,282.00",
+        "program": "Petrology and Geochemistry, Geophysics",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2446742",
+    "name": "Rosi Reed",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Lehigh University",
+    "location": "BETHLEHEM, PA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "REU Site: Research Experience for Undergraduates in Physics at Lehigh University"
+    ],
+    "website": "",
+    "email": [
+      "rjr215@lehigh.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BETHLEHEM, PA",
+    "nsf_awards": [
+      {
+        "award_number": "2446742",
+        "title": "REU Site: Research Experience for Undergraduates in Physics at Lehigh University",
+        "amount": "$464,339.00",
+        "program": "Integrative Activities in Phys",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Aurelia R Honerkamp-Smith auh216@lehigh.edu"
+    ]
+  }
+]

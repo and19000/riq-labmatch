@@ -1,0 +1,101 @@
+[
+  {
+    "id": "nsf-2445879",
+    "name": "Sonia M Tiquia-Arashiro",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "Regents of the University of Michigan - Dearborn",
+    "location": "Dearborn, MI",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site: Interdisciplinary Research Experiences in Urban Watershed Science"
+    ],
+    "website": "",
+    "email": [
+      "smtiquia@umich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "Dearborn, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2445879",
+        "title": "REU Site: Interdisciplinary Research Experiences in Urban Watershed Science",
+        "amount": "$464,993.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "12/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jacob Napieralski jnapiera@umich.edu"
+    ]
+  },
+  {
+    "id": "nsf-2509993",
+    "name": "VAN HAI BUI",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Regents of the University of Michigan - Dearborn",
+    "location": "Dearborn, MI",
+    "research_areas": [
+      "Engineering",
+      "MRI: Track 1 Acquisition of Hierarchical Testing Framework for Power and Energy Systems Supporting M..."
+    ],
+    "website": "",
+    "email": [
+      "vhbui@umich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "Dearborn, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2509993",
+        "title": "MRI: Track 1 Acquisition of Hierarchical Testing Framework for Power and Energy Systems Supporting Multidisciplinary Research and Education at the University of Michigan-Dearborn",
+        "amount": "$380,338.00",
+        "program": "EPCN-Energy-Power-Ctrl-Netwrks",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Youngki Kim youngki@umich.edu",
+      "Jaerock Kwon jrkwon@umich.edu",
+      "Guilherme Vieira Hollweg hollweg@umich.edu",
+      "Srijita Das sridas@umich.edu"
+    ]
+  },
+  {
+    "id": "nsf-2500638",
+    "name": "Jaerock Kwon",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Regents of the University of Michigan - Dearborn",
+    "location": "Dearborn, MI",
+    "research_areas": [
+      "Engineering",
+      "ERI: Predictive Neural Dynamics for Latency Mitigation in Autonomous Driving"
+    ],
+    "website": "",
+    "email": [
+      "jrkwon@umich.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "Dearborn, MI",
+    "nsf_awards": [
+      {
+        "award_number": "2500638",
+        "title": "ERI: Predictive Neural Dynamics for Latency Mitigation in Autonomous Driving",
+        "amount": "$200,000.00",
+        "program": "ERI-Eng. Research Initiation",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

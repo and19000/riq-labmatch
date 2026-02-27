@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nsf-2439468",
+    "name": "Kelly R Roos",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Bradley University",
+    "location": "PEORIA, IL",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Creating Rubrics and Related Tools to Assess College Students' Learning of C..."
+    ],
+    "website": "",
+    "email": [
+      "rooster@bradley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PEORIA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2439468",
+        "title": "Collaborative Research: Creating Rubrics and Related Tools to Assess College Students' Learning of Computational Physics",
+        "amount": "$45,366.00",
+        "program": "IUSE",
+        "end_date": "06/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2423921",
+    "name": "Kristi L McQuade",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Bradley University",
+    "location": "PEORIA, IL",
+    "research_areas": [
+      "STEM Education",
+      "S-STEM: Scholarships for an Undergraduate STEM Access and Inclusion Nexus"
+    ],
+    "website": "",
+    "email": [
+      "mcquade@bradley.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PEORIA, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2423921",
+        "title": "S-STEM: Scholarships for an Undergraduate STEM Access and Inclusion Nexus",
+        "amount": "$2,000,000.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Julie A Reyer jreyer@bradley.edu",
+      "Sherri J Morris sjmorris@bradley.edu"
+    ]
+  }
+]

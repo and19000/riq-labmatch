@@ -30,9 +30,9 @@
       'Polishing the draft...'
     ],
     default: [
-      'Thinking...',
+      'Working...',
       'Processing your request...',
-      'Generating response...'
+      'Almost done...'
     ]
   };
 
@@ -53,7 +53,7 @@
       this.container = document.createElement('div');
       this.container.className = 'thinking-bar';
       this.container.setAttribute('aria-live', 'polite');
-      this.container.setAttribute('aria-label', 'AI is thinking');
+      this.container.setAttribute('aria-label', 'Processing');
       
       // Create inner structure
       this.container.innerHTML = `

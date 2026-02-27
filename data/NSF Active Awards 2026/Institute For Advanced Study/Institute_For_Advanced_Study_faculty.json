@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nsf-2424441",
+    "name": "Akshay Venkatesh",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Institute For Advanced Study",
+    "location": "PRINCETON, NJ",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Institute for Advanced Study, School of Mathematics"
+    ],
+    "website": "",
+    "email": [
+      "akshay@math.ias.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "PRINCETON, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2424441",
+        "title": "Institute for Advanced Study, School of Mathematics",
+        "amount": "$3,614,860.00",
+        "program": "MATHEMATICAL SCIENCES RES INST",
+        "end_date": "08/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bhargav Bhatt bhatt@ias.edu",
+      "Wei Ho who@ias.edu"
+    ]
+  }
+]

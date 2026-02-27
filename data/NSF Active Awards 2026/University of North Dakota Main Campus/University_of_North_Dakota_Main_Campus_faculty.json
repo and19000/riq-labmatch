@@ -1,0 +1,320 @@
+[
+  {
+    "id": "nsf-2447669",
+    "name": "Van A Doze",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site: Genes & the Environment",
+      "Office of the Director",
+      "Collaborative Research: E-CORE RII: Sustainable Programs Advancing Research and Knowledge across Nor..."
+    ],
+    "website": "",
+    "email": [
+      "van.doze@med.und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2447669",
+        "title": "REU Site: Genes & the Environment",
+        "amount": "$465,000.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "10/31/2028",
+        "directorate": "BIO"
+      },
+      {
+        "award_number": "2438110",
+        "title": "Collaborative Research: E-CORE RII: Sustainable Programs Advancing Research and Knowledge across North Dakota",
+        "amount": "$522,000.00",
+        "program": "EPSCoR RII: E-CORE",
+        "end_date": "07/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Rebecca B Simmons rebecca.simmons@email.und.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429752",
+    "name": "Ayush Asthana",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Office of the Director",
+      "\"EPSCoR Research Fellows: NSF: Quantum algorithms for early fault-tolerant quantum computers",
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Quantum Algorithms for Relativistic Quantum Chemistry"
+    ],
+    "website": "",
+    "email": [
+      "ayush.asthana@und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2429752",
+        "title": "\"EPSCoR Research Fellows: NSF: Quantum algorithms for early fault-tolerant quantum computers",
+        "amount": "$299,977.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      },
+      {
+        "award_number": "2427046",
+        "title": "ExpandQISE: Track 1: Quantum Algorithms for Relativistic Quantum Chemistry",
+        "amount": "$800,000.00",
+        "program": "ExpandQISE, AISL",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2531729",
+    "name": "Julie R Robinson",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Expanding Pathways for Rural Students into Engineering"
+    ],
+    "website": "",
+    "email": [
+      "julie.robinson@und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2531729",
+        "title": "EPSCoR Research Fellows: NSF: Expanding Pathways for Rural Students into Engineering",
+        "amount": "$299,999.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "09/30/2027",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2526465",
+    "name": "Ryan J Zerr",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 2025 Midwest Optimization Meeting"
+    ],
+    "website": "",
+    "email": [
+      "ryan.zerr@und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2526465",
+        "title": "Conference: 2025 Midwest Optimization Meeting",
+        "amount": "$31,200.00",
+        "program": "APPLIED MATHEMATICS",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Bryce A Christopherson bryce.christopherson@und.edu",
+      "ADEWALE F LUKMAN adewale.lukman@und.edu",
+      "Thanh Phat Vo thanh.vo.1@und.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512856",
+    "name": "Haochi Zheng",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "STEM Education",
+      "NRT: Training Next Generation Resource Managers with Converging Technologies for Sustainable Uses of..."
+    ],
+    "website": "",
+    "email": [
+      "hzheng@aero.und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2512856",
+        "title": "NRT: Training Next Generation Resource Managers with Converging Technologies for Sustainable Uses of Water and Land",
+        "amount": "$1,999,846.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Gregory S Vandeberg gregory.vandeberg@email.und.edu",
+      "Jeff VanLooy jvanlooy@aero.und.edu",
+      "Paul R Snyder paul.snyder@und.edu",
+      "Montana Etten-Bohm montana.ettenbohm@und.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510433",
+    "name": "Alena Kubatova",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MRI: Track 1 Acquisition of Pyrolysis-Gas Chromatograph with a High-Resolution Mass Spectrometer (Py..."
+    ],
+    "website": "",
+    "email": [
+      "alena.kubatova@UND.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2510433",
+        "title": "MRI: Track 1 Acquisition of Pyrolysis-Gas Chromatograph with a High-Resolution Mass Spectrometer (Pyr-GC-HR-MS)",
+        "amount": "$626,295.00",
+        "program": "Chemical Instrumentation, OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yun Ji yun.ji@und.edu",
+      "Mahmut S Ersan mahmut.ersan@und.edu",
+      "Melissa H Schmitt melissa.schmitt.1@und.edu"
+    ]
+  },
+  {
+    "id": "nsf-2442947",
+    "name": "Paul V Ullmann",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Taphonomic Insights into Molecular Equilibration and Soft Tissue and Molecular Preservation"
+    ],
+    "website": "",
+    "email": [
+      "paul.ullmann@und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2442947",
+        "title": "CAREER: Taphonomic Insights into Molecular Equilibration and Soft Tissue and Molecular Preservation",
+        "amount": "$652,903.00",
+        "program": "LET-Life & Enviro Through Time",
+        "end_date": "07/31/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2424922",
+    "name": "Rebecca B Simmons",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "STEM Education",
+      "Improving Outcomes for Talented Undergraduate STEM Students through Experiential Science Training"
+    ],
+    "website": "",
+    "email": [
+      "rebecca.simmons@email.und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2424922",
+        "title": "Improving Outcomes for Talented Undergraduate STEM Students through Experiential Science Training",
+        "amount": "$1,999,497.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "03/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alena Kubatova alena.kubatova@UND.edu",
+      "Daphne E Pedersen daphne.pedersen@und.edu",
+      "Lavinia Iancu lavinia.iancu@und.edu",
+      "Shaina Mattingly shaina.mattingly@und.edu"
+    ]
+  },
+  {
+    "id": "nsf-2427047",
+    "name": "Markus Allgaier",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of North Dakota Main Campus",
+    "location": "GRAND FORKS, ND",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "ExpandQISE: Track 1: Spectrally-multiplexed photon-pair sources for Quantum Sensing and Networking"
+    ],
+    "website": "",
+    "email": [
+      "markus.allgaier@und.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "GRAND FORKS, ND",
+    "nsf_awards": [
+      {
+        "award_number": "2427047",
+        "title": "ExpandQISE: Track 1: Spectrally-multiplexed photon-pair sources for Quantum Sensing and Networking",
+        "amount": "$800,000.00",
+        "program": "AISL, ExpandQISE",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Brian J Smith bjsmith@uoregon.edu"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2526364",
+    "name": "Lei Qian",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Meharry Medical College",
+    "location": "NASHVILLE, TN",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Conference: NAIRR Pilot Expansion: FA1: Mid-South Conferences on CyberInfras..."
+    ],
+    "website": "",
+    "email": [
+      "lei.qian@mmc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NASHVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2526364",
+        "title": "Collaborative Research: Conference: NAIRR Pilot Expansion: FA1: Mid-South Conferences on CyberInfrastructure Advances to Enable Interdisciplinary AI Research in Health",
+        "amount": "$28,082.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Vibhuti Gupta vibhgupt@utmb.edu"
+    ]
+  }
+]

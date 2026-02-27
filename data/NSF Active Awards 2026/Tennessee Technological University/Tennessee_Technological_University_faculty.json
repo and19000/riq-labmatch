@@ -1,0 +1,178 @@
+[
+  {
+    "id": "nsf-2514054",
+    "name": "Anthony Skjellum",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Tennessee Technological University",
+    "location": "COOKEVILLE, TN",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: MPI4AI: Enhancing Performance and Productivity of AI Science thr...",
+      "Collaborative Research: Conference: NAIRR Pilot Expansion: FA1: Mid-South Conferences on CyberInfras..."
+    ],
+    "website": "",
+    "email": [
+      "askjellum@tntech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COOKEVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2514054",
+        "title": "Collaborative Research: Frameworks: MPI4AI: Enhancing Performance and Productivity of AI Science through Next-generation High Performance Communication Abstractions",
+        "amount": "$1,200,000.00",
+        "program": "Software Institutes",
+        "end_date": "08/31/2029",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2526362",
+        "title": "Collaborative Research: Conference: NAIRR Pilot Expansion: FA1: Mid-South Conferences on CyberInfrastructure Advances to Enable Interdisciplinary AI Research in Health",
+        "amount": "$125,133.00",
+        "program": "NAIRR-Nat AI Research Resource",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2424738",
+    "name": "Tania Datta",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Tennessee Technological University",
+    "location": "COOKEVILLE, TN",
+    "research_areas": [
+      "STEM Education",
+      "Cultivating Resilient STEM Graduates in Engineering, Computer Science, and Technology"
+    ],
+    "website": "",
+    "email": [
+      "tdatta@tntech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COOKEVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2424738",
+        "title": "Cultivating Resilient STEM Graduates in Engineering, Computer Science, and Technology",
+        "amount": "$1,993,636.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "09/30/2031",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Ada Haynes ahaynes@tntech.edu",
+      "Indranil Bhattacharya ibhattacharya@tntech.edu",
+      "MOHAN D RAO mrao@tntech.edu",
+      "Maanak Gupta mgupta@tntech.edu"
+    ]
+  },
+  {
+    "id": "nsf-2448291",
+    "name": "Holly Anthony",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Tennessee Technological University",
+    "location": "COOKEVILLE, TN",
+    "research_areas": [
+      "STEM Education",
+      "Robert Noyce Teacher Scholarship Program Track 1 Project at Tennessee Technological University"
+    ],
+    "website": "",
+    "email": [
+      "HAnthony@tntech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COOKEVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2448291",
+        "title": "Robert Noyce Teacher Scholarship Program Track 1 Project at Tennessee Technological University",
+        "amount": "$759,761.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Christopher D Wilson chriswilson@tntech.edu",
+      "Stephen J Robinson sjrobinson@tntech.edu",
+      "Kumar Yelamarthi (Former) kyelamarthi@tntech.edu"
+    ]
+  },
+  {
+    "id": "nsf-2532981",
+    "name": "Kyle E Murphy",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Tennessee Technological University",
+    "location": "COOKEVILLE, TN",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "LEAPS-MPS: A Sustainable Chemistry Approach in Pursuit of Novel Methodologies, Organocatalysts, and ..."
+    ],
+    "website": "",
+    "email": [
+      "Kmurphy@tntech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COOKEVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2532981",
+        "title": "LEAPS-MPS: A Sustainable Chemistry Approach in Pursuit of Novel Methodologies, Organocatalysts, and Antimicrobials",
+        "amount": "$250,000.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2430341",
+    "name": "Allen B MacKenzie",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Tennessee Technological University",
+    "location": "COOKEVILLE, TN",
+    "research_areas": [
+      "CSE",
+      "TREN: Building a Tennessee Research and Education Network"
+    ],
+    "website": "",
+    "email": [
+      "amackenzie@tntech.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COOKEVILLE, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2430341",
+        "title": "TREN: Building a Tennessee Research and Education Network",
+        "amount": "$200,000.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "11/30/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tamara Rogers trogers3@tnstate.edu",
+      "John F Wallin jwallin@mtsu.edu",
+      "Donald Reising Donald-Reising@utc.edu",
+      "Susmit Shannigrahi sshannigrahi@tntech.edu"
+    ]
+  }
+]

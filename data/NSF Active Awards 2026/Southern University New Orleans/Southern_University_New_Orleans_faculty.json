@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2444969",
+    "name": "Joe Omojola",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Southern University New Orleans",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "STEM Education",
+      "The 2025 Gulf States Math Alliance Conference and Faculty Development Workshop"
+    ],
+    "website": "",
+    "email": [
+      "jomojola@suno.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2444969",
+        "title": "The 2025 Gulf States Math Alliance Conference and Faculty Development Workshop",
+        "amount": "$50,000.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "12/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jianzhong Su su@uta.edu",
+      "Rachid Belmasrour rbelmasrour@suno.edu",
+      "Theresa N Martines tmartines@utexas.edu",
+      "Phyllis Okwan phyllis_okwan@subr.edu"
+    ]
+  },
+  {
+    "id": "nsf-2429346",
+    "name": "Yi Zhen",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "Southern University New Orleans",
+    "location": "NEW ORLEANS, LA",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: @NASA: Application and Development of the PACE-MAPP Algorithm to the HARP2 ..."
+    ],
+    "website": "",
+    "email": [
+      "yzhen@suno.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEW ORLEANS, LA",
+    "nsf_awards": [
+      {
+        "award_number": "2429346",
+        "title": "EPSCoR Research Fellows: @NASA: Application and Development of the PACE-MAPP Algorithm to the HARP2 Polarimeter for Retrieving Aerosol and Ocean Properties Over the Gulf of Mexico",
+        "amount": "$185,260.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

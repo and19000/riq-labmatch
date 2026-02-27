@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nsf-2440601",
+    "name": "Raja Kushalnagar",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Gallaudet University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "STEM Education",
+      "NRT-IPP: Universal AI",
+      "CSE",
+      "REU Accessible Information and Communication Technologies"
+    ],
+    "website": "",
+    "email": [
+      "raja.kushalnagar@gallaudet.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2440601",
+        "title": "NRT-IPP: Universal AI",
+        "amount": "$4,498,537.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      },
+      {
+        "award_number": "2447704",
+        "title": "REU Accessible Information and Communication Technologies",
+        "amount": "$456,342.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "05/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Christian P Vogler christian.vogler@gallaudet.edu",
+      "Reynold J Bailey rjb@cs.rit.edu",
+      "Cecilia O Alm coagla@rit.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418662",
+    "name": "Lorna Quandt",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Gallaudet University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Building Real-time Intelligent Grounding in Deaf Education"
+    ],
+    "website": "",
+    "email": [
+      "lorna.quandt@gallaudet.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2418662",
+        "title": "Collaborative Research: Building Real-time Intelligent Grounding in Deaf Education",
+        "amount": "$395,017.00",
+        "program": "Cyberlearn & Future Learn Tech",
+        "end_date": "08/31/2026",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alicia K Wooten alicia.wooten@gallaudet.edu"
+    ]
+  }
+]

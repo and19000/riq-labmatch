@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nsf-2505194",
+    "name": "Miklos Kertesz",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Georgetown University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Radical and Biradical Polycyclic Aromatic Hydrocarbons in Complex Aggregatio..."
+    ],
+    "website": "",
+    "email": [
+      "kertesz@georgetown.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2505194",
+        "title": "Collaborative Research: Radical and Biradical Polycyclic Aromatic Hydrocarbons in Complex Aggregation Environments",
+        "amount": "$323,702.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440337",
+    "name": "Gen Yin",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Georgetown University",
+    "location": "WASHINGTON, DC",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Transport and optical properties of spin-compensated materials for next-generation non-volat..."
+    ],
+    "website": "",
+    "email": [
+      "gen.yin@georgetown.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WASHINGTON, DC",
+    "nsf_awards": [
+      {
+        "award_number": "2440337",
+        "title": "CAREER: Transport and optical properties of spin-compensated materials for next-generation non-volatile memory devices",
+        "amount": "$240,000.00",
+        "program": "CONDENSED MATTER & MAT THEORY",
+        "end_date": "02/28/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

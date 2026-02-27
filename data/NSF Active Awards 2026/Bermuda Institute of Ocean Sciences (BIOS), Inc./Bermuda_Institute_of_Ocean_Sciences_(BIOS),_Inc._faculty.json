@@ -1,0 +1,103 @@
+[
+  {
+    "id": "nsf-2521708",
+    "name": "Rory E O'Connell",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Bermuda Institute of Ocean Sciences (BIOS), Inc.",
+    "location": "ST. GEORGE'S",
+    "research_areas": [
+      "Geosciences",
+      "Equipment: BIOS/ASU RV Atlantic Explorer Oceanographic Instrumentation 2025"
+    ],
+    "website": "",
+    "email": [
+      "rory.oconnell@bios.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ST. GEORGE'S",
+    "nsf_awards": [
+      {
+        "award_number": "2521708",
+        "title": "Equipment: BIOS/ASU RV Atlantic Explorer Oceanographic Instrumentation 2025",
+        "amount": "$136,676.00",
+        "program": "OCEANOGRAPHIC INSTRUMENTATION",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nicholas R Bates nick.bates@bios.edu",
+      "Murray A Stein murray.stein@bios.edu"
+    ]
+  },
+  {
+    "id": "nsf-2421261",
+    "name": "Nicholas R Bates",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Bermuda Institute of Ocean Sciences (BIOS), Inc.",
+    "location": "ST. GEORGE'S",
+    "research_areas": [
+      "Geosciences",
+      "2024 Oceanographic Technical Services R/V Atlantic Explorer"
+    ],
+    "website": "",
+    "email": [
+      "nick.bates@bios.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ST. GEORGE'S",
+    "nsf_awards": [
+      {
+        "award_number": "2421261",
+        "title": "2024 Oceanographic Technical Services R/V Atlantic Explorer",
+        "amount": "$585,165.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "02/28/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Murray A Stein murray.stein@bios.edu",
+      "Rory E O'Connell rory.oconnell@bios.edu"
+    ]
+  },
+  {
+    "id": "nsf-2416329",
+    "name": "Murray A Stein",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Bermuda Institute of Ocean Sciences (BIOS), Inc.",
+    "location": "ST. GEORGE'S",
+    "research_areas": [
+      "Geosciences",
+      "Research Infrastructure: R/V Atlantic Explorer Ship Operations of the U.S. Academic Research Fleet (..."
+    ],
+    "website": "",
+    "email": [
+      "murray.stein@bios.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ST. GEORGE'S",
+    "nsf_awards": [
+      {
+        "award_number": "2416329",
+        "title": "Research Infrastructure: R/V Atlantic Explorer Ship Operations of the U.S. Academic Research Fleet (ARF) Vessels",
+        "amount": "$6,150,000.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Nicholas R Bates nick.bates@bios.edu"
+    ]
+  }
+]

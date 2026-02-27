@@ -37,6 +37,9 @@
   /* Transitions - animation timing */
   --transition-fast: 180ms ease-out;
   --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Font */
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 /* ============================================
@@ -53,7 +56,7 @@
 body {
     margin: 0;
   /* Use system fonts for a native feel on all devices */
-  font-family: -apple-system, BlinkMacSystemFont, system-ui, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-main);
   line-height: 1.6;
   color: var(--text-main);
   /* Subtle gradient background */
@@ -515,7 +518,7 @@ body {
   border-left-color: rgba(147, 51, 234, 0.7);
   filter: blur(3px);
   animation-duration: 25s;
-  box-shadow: 0 0 60px rgba(139, 92, 246, 0.4), 
+  box-shadow: 0 0 60px rgba(139, 92, 246, 0.4),
               0 0 120px rgba(59, 130, 246, 0.3);
 }
 
@@ -1034,6 +1037,47 @@ body {
 .stat-label {
   color: var(--text-muted);
   font-size: 1rem;
+}
+
+/* School Logos Grid */
+.school-logos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.school-logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100px;
+}
+
+.school-logo-img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  filter: brightness(0.95);
+}
+
+.school-logo-img:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  filter: brightness(1);
+}
+
+.school-logo-name {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-weight: 500;
 }
 
 /* CTA Section */
@@ -1767,6 +1811,100 @@ body {
   opacity: 1;
 }
 
+/* Autocomplete dropdown (used for subfield and location filters) */
+.autocomplete-dropdown-wrapper {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.autocomplete-search-input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: all var(--transition-fast);
+}
+
+.autocomplete-search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.autocomplete-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 0.25rem;
+  max-height: 300px;
+  overflow-y: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  z-index: 100;
+  box-shadow: var(--shadow-card);
+}
+
+.autocomplete-dropdown-option {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  transition: background var(--transition-fast);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.autocomplete-dropdown-option:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-dropdown-option:hover {
+  background: var(--bg-elevated);
+}
+
+.autocomplete-dropdown-option:active {
+  background: var(--accent-soft);
+}
+
+.selected-filter-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.selected-filter-display span {
+  flex: 1;
+}
+
+.clear-filter-btn {
+  background: none;
+  border: none;
+  color: var(--text-main);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+  opacity: 0.7;
+  transition: opacity var(--transition-fast);
+}
+
+.clear-filter-btn:hover {
+  opacity: 1;
+}
+
 /* Legacy technique pills (keeping for backwards compatibility if needed elsewhere) */
 .technique-multiselect {
   display: flex;
@@ -1824,6 +1962,18 @@ body {
 
 .page-with-sidebar .main-content {
   min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure content stacks above planet graphic */
+.labs-table-container,
+.search-bar-container,
+.pagination,
+.no-results,
+#inlineSearchResults {
+  position: relative;
+  z-index: 1;
 }
 
 /* Search Bar */
@@ -1832,6 +1982,8 @@ body {
   display: flex;
   gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .search-bar {
@@ -1855,6 +2007,10 @@ body {
   color: var(--text-muted);
   font-size: 0.9rem;
   white-space: nowrap;
+}
+
+.search-hint {
+  width: 100%;
 }
 
 /* Matches Page */
@@ -2422,19 +2578,19 @@ footer {
     width: 600px;
     height: 600px;
   }
-  
+
   .torus-outer {
     width: 500px;
     height: 500px;
     filter: blur(2px);
   }
-  
+
   .torus-middle {
     width: 350px;
     height: 350px;
     filter: blur(1.5px);
   }
-  
+
   .torus-inner {
     width: 250px;
     height: 250px;
@@ -3257,6 +3413,98 @@ footer {
   }
 }
 
+/* ============================================
+   Browse Labs Page - Decorative Planet Graphic
+   ============================================ */
+.browse-planet-graphic {
+  position: absolute;
+  top: -40px;
+  right: -60px;
+  width: 350px;
+  height: 350px;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.browse-planet-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.browse-planet-core {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #1a1d3a 0%, #0a0e1a 60%, #050608 100%);
+  box-shadow:
+    0 0 40px rgba(59, 130, 246, 0.4),
+    0 0 80px rgba(99, 102, 241, 0.25);
+  z-index: 3;
+  animation: blackholePulse 6s ease-in-out infinite;
+}
+
+.browse-planet-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: accretionSpin linear infinite;
+}
+
+.browse-planet-ring.ring-a {
+  width: 140px;
+  height: 140px;
+  border-top-color: rgba(59, 130, 246, 0.5);
+  border-right-color: rgba(99, 102, 241, 0.4);
+  border-bottom-color: rgba(139, 124, 248, 0.3);
+  filter: blur(2px);
+  animation-duration: 10s;
+}
+
+.browse-planet-ring.ring-b {
+  width: 220px;
+  height: 220px;
+  border-top-color: rgba(99, 102, 241, 0.4);
+  border-left-color: rgba(139, 124, 248, 0.3);
+  filter: blur(3px);
+  animation-duration: 15s;
+  animation-direction: reverse;
+}
+
+.browse-star-field {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.browse-star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  animation: starTwinkle 3s ease-in-out infinite;
+}
+
+.browse-star.bs-1 { top: 10%; left: 25%; animation-delay: 0s; }
+.browse-star.bs-2 { top: 30%; left: 75%; animation-delay: 0.7s; }
+.browse-star.bs-3 { top: 50%; left: 15%; animation-delay: 1.3s; }
+.browse-star.bs-4 { top: 65%; left: 85%; animation-delay: 1.8s; }
+.browse-star.bs-5 { top: 80%; left: 40%; animation-delay: 2.2s; }
+.browse-star.bs-6 { top: 20%; left: 55%; animation-delay: 0.4s; }
+
+@media (max-width: 1024px) {
+  .browse-planet-graphic {
+    display: none;
+  }
+}
+
 /* Responsive styles for Draft Email Page */
 @media (max-width: 1024px) {
   .draft-email-wrapper {
@@ -3579,3 +3827,263 @@ footer {
 .institution-logo-mit  { fill: #A31F34; }
 .institution-logo-harvard { fill: #A51C30; }
 .institution-logo-default { fill: var(--accent); }
+
+/* ============================================
+   Custom Select Dropdowns
+   ============================================ */
+.cs-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.cs-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  color: var(--text-main);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  min-height: 42px;
+  user-select: none;
+}
+
+.cs-display:hover {
+  border-color: var(--accent);
+}
+
+.cs-display:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft);
+}
+
+.cs-open .cs-display {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.cs-value {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cs-arrow {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-left: 0.5rem;
+  transition: transform var(--transition-fast);
+}
+
+.cs-open .cs-arrow {
+  transform: rotate(180deg);
+}
+
+.cs-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--accent);
+  border-top: none;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  z-index: 100;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  max-height: 260px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-search {
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  background: var(--bg-card);
+  border: none;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.cs-search::placeholder {
+  color: var(--text-dim);
+}
+
+.cs-options {
+  overflow-y: auto;
+  max-height: 220px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-subtle) transparent;
+}
+
+.cs-option {
+  padding: 0.55rem 1rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background var(--transition-fast), color var(--transition-fast);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cs-option:hover {
+  background: var(--accent-soft);
+  color: var(--text-main);
+}
+
+.cs-option.cs-selected {
+  color: var(--accent);
+  font-weight: 500;
+  background: rgba(139, 124, 248, 0.08);
+}
+
+/* Onboarding-specific overrides — these selects are on a light bg */
+.onboarding-form .cs-display {
+  background: #fff;
+  color: #333;
+  border-color: #ddd;
+}
+
+.onboarding-form .cs-display:hover,
+.onboarding-form .cs-open .cs-display {
+  border-color: #4a90d9;
+  box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.1);
+}
+
+.onboarding-form .cs-dropdown {
+  background: #fff;
+  border-color: #4a90d9;
+}
+
+.onboarding-form .cs-search {
+  background: #f9fafb;
+  color: #333;
+  border-bottom-color: #e5e7eb;
+}
+
+.onboarding-form .cs-option {
+  color: #555;
+}
+
+.onboarding-form .cs-option:hover {
+  background: #e8f4fc;
+  color: #1a5fa3;
+}
+
+.onboarding-form .cs-option.cs-selected {
+  background: #d4e9f7;
+  color: #1a5fa3;
+}
+
+/* ============================================
+   Planet Icons for Saved PIs
+   ============================================ */
+.pi-planet-icon {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet-sphere {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 16px rgba(139, 124, 248, 0.3), inset -6px -4px 10px rgba(0,0,0,0.5);
+  animation: planetRotate 12s linear infinite;
+}
+
+.planet-surface {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.15), transparent 50%),
+              linear-gradient(135deg, var(--planet-c1, #6366f1) 0%, var(--planet-c2, #3b82f6) 50%, var(--planet-c3, #1e40af) 100%);
+}
+
+.planet-shine {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 12px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.25);
+  filter: blur(3px);
+}
+
+.planet-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 54px;
+  height: 14px;
+  border: 2px solid rgba(255,255,255,0.12);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotateX(70deg);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pi-card:hover .planet-ring {
+  opacity: 1;
+}
+
+@keyframes planetRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Planet colors by field */
+.pi-planet-icon[data-field="cs"] .planet-surface         { --planet-c1: #60a5fa; --planet-c2: #3b82f6; --planet-c3: #1d4ed8; }
+.pi-planet-icon[data-field="engineering"] .planet-surface { --planet-c1: #a5b4fc; --planet-c2: #6366f1; --planet-c3: #4338ca; }
+.pi-planet-icon[data-field="biology"] .planet-surface     { --planet-c1: #86efac; --planet-c2: #22c55e; --planet-c3: #15803d; }
+.pi-planet-icon[data-field="chemistry"] .planet-surface   { --planet-c1: #fde68a; --planet-c2: #f59e0b; --planet-c3: #b45309; }
+.pi-planet-icon[data-field="physics"] .planet-surface     { --planet-c1: #f9a8d4; --planet-c2: #ec4899; --planet-c3: #be185d; }
+.pi-planet-icon[data-field="math"] .planet-surface        { --planet-c1: #d8b4fe; --planet-c2: #a855f7; --planet-c3: #7e22ce; }
+.pi-planet-icon[data-field="medicine"] .planet-surface    { --planet-c1: #fca5a5; --planet-c2: #ef4444; --planet-c3: #b91c1c; }
+.pi-planet-icon[data-field="neuro"] .planet-surface       { --planet-c1: #fbcfe8; --planet-c2: #ec4899; --planet-c3: #9d174d; }
+.pi-planet-icon[data-field="social"] .planet-surface      { --planet-c1: #99f6e4; --planet-c2: #14b8a6; --planet-c3: #0f766e; }
+.pi-planet-icon[data-field="economics"] .planet-surface   { --planet-c1: #fed7aa; --planet-c2: #f97316; --planet-c3: #c2410c; }
+.pi-planet-icon[data-field="materials"] .planet-surface   { --planet-c1: #c4b5fd; --planet-c2: #8b5cf6; --planet-c3: #6d28d9; }
+.pi-planet-icon[data-field="earth"] .planet-surface       { --planet-c1: #a7f3d0; --planet-c2: #34d399; --planet-c3: #059669; }
+.pi-planet-icon[data-field="default"] .planet-surface     { --planet-c1: #cbd5e1; --planet-c2: #64748b; --planet-c3: #334155; }
+
+/* Staggered animation delay for each planet */
+.pi-card:nth-child(1) .planet-sphere { animation-duration: 12s; }
+.pi-card:nth-child(2) .planet-sphere { animation-duration: 14s; animation-direction: reverse; }
+.pi-card:nth-child(3) .planet-sphere { animation-duration: 10s; }
+.pi-card:nth-child(4) .planet-sphere { animation-duration: 16s; animation-direction: reverse; }
+.pi-card:nth-child(5) .planet-sphere { animation-duration: 11s; }
+.pi-card:nth-child(6) .planet-sphere { animation-duration: 13s; animation-direction: reverse; }
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+.text-dim-sm {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.link-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

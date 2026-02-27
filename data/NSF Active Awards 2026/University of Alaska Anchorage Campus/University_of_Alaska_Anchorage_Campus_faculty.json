@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2435188",
+    "name": "Masoumeh Heidari Kapourchali",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Alaska Anchorage Campus",
+    "location": "ANCHORAGE, AK",
+    "research_areas": [
+      "CSE",
+      "AI-UNITE: Advancing Inclusivity, Unity, Networking, Innovation, Technology, and Education for Enhanc..."
+    ],
+    "website": "",
+    "email": [
+      "mheidari2@alaska.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ANCHORAGE, AK",
+    "nsf_awards": [
+      {
+        "award_number": "2435188",
+        "title": "AI-UNITE: Advancing Inclusivity, Unity, Networking, Innovation, Technology, and Education for Enhanced AI Innovation Capacity in Alaska",
+        "amount": "$400,000.00",
+        "program": "Information Technology Researc, Alliances-Minority Participat.",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kenrick Mock kjmock@alaska.edu"
+    ]
+  },
+  {
+    "id": "nsf-2349068",
+    "name": "Getu Hailu",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Alaska Anchorage Campus",
+    "location": "ANCHORAGE, AK",
+    "research_areas": [
+      "Geosciences",
+      "REU Site: Research Experience in Cold Climate Engineering and Science"
+    ],
+    "website": "",
+    "email": [
+      "ghailu@alaska.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ANCHORAGE, AK",
+    "nsf_awards": [
+      {
+        "award_number": "2349068",
+        "title": "REU Site: Research Experience in Cold Climate Engineering and Science",
+        "amount": "$354,550.00",
+        "program": "Polar Special Initiatives",
+        "end_date": "09/30/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

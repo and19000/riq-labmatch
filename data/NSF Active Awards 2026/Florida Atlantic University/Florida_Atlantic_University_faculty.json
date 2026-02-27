@@ -1,0 +1,128 @@
+[
+  {
+    "id": "nsf-2447437",
+    "name": "Jason O Hallstrom",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Florida Atlantic University",
+    "location": "BOCA RATON, FL",
+    "research_areas": [
+      "CSE",
+      "REU Site: CNS: Sensing and Smart Systems"
+    ],
+    "website": "",
+    "email": [
+      "jhallstrom@fau.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOCA RATON, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2447437",
+        "title": "REU Site: CNS: Sensing and Smart Systems",
+        "amount": "$264,532.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yufei Tang tangy@fau.edu"
+    ]
+  },
+  {
+    "id": "nsf-2512890",
+    "name": "Muxin Han",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Florida Atlantic University",
+    "location": "BOCA RATON, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Loop Quantum Gravity with Cosmological Constant"
+    ],
+    "website": "",
+    "email": [
+      "hanm@fau.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOCA RATON, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2512890",
+        "title": "Loop Quantum Gravity with Cosmological Constant",
+        "amount": "$110,000.00",
+        "program": "Gravity Theory",
+        "end_date": "06/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2436168",
+    "name": "Frederick Hoffman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Florida Atlantic University",
+    "location": "BOCA RATON, FL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: 56th Southeastern International Conference on Combinatorics, Graph Theory, and Computing"
+    ],
+    "website": "",
+    "email": [
+      "hoffman@fau.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOCA RATON, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2436168",
+        "title": "Conference: 56th Southeastern International Conference on Combinatorics, Graph Theory, and Computing",
+        "amount": "$21,200.00",
+        "program": "Combinatorics",
+        "end_date": "09/30/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2417783",
+    "name": "Adriana M Garriga-Lopez",
+    "title": "Principal Investigator",
+    "department": "Social, Behavioral and Economic Sciences",
+    "school": "Florida Atlantic University",
+    "location": "BOCA RATON, FL",
+    "research_areas": [
+      "Social, Behavioral and Economic Sciences",
+      "Collaborative Research: Rhizomatic Nexus: Cultural Dimensions of Ecological Instability"
+    ],
+    "website": "",
+    "email": [
+      "agarrigalopez@fau.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BOCA RATON, FL",
+    "nsf_awards": [
+      {
+        "award_number": "2417783",
+        "title": "Collaborative Research: Rhizomatic Nexus: Cultural Dimensions of Ecological Instability",
+        "amount": "$345,075.00",
+        "program": "Build and Broaden",
+        "end_date": "10/31/2027",
+        "directorate": "SBE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Katharina Rynkiewich krynkiewich@fau.edu"
+    ]
+  }
+]

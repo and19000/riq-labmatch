@@ -1,0 +1,464 @@
+[
+  {
+    "id": "nsf-2542485",
+    "name": "Daniel E Parker",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Solving the Quantum Many-Body Problem in Moire Materials with Quantum Geometry & Tensor Netw..."
+    ],
+    "website": "",
+    "email": [
+      "danielericparker@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2542485",
+        "title": "CAREER: Solving the Quantum Many-Body Problem in Moire Materials with Quantum Geometry & Tensor Networks",
+        "amount": "$360,000.00",
+        "program": "CONDENSED MATTER & MAT THEORY",
+        "end_date": "01/31/2031",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2531134",
+    "name": "Ka Pui Mok",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "CSE",
+      "CICI:IPAAI:CANIS: Curated AI-ready Network telescope datasets for Internet Security"
+    ],
+    "website": "",
+    "email": [
+      "cskpmok@caida.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2531134",
+        "title": "CICI:IPAAI:CANIS: Curated AI-ready Network telescope datasets for Internet Security",
+        "amount": "$900,000.00",
+        "program": "Cybersecurity Innovation",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kimberly C Claffy kc@caida.org"
+    ]
+  },
+  {
+    "id": "nsf-2537134",
+    "name": "Joel Yuen-Zhou",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MPS/CHE-EPSRC: Nanoscale Spin Entanglement and Chemistry (NanoSPINEC)"
+    ],
+    "website": "",
+    "email": [
+      "joelyuen@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2537134",
+        "title": "MPS/CHE-EPSRC: Nanoscale Spin Entanglement and Chemistry (NanoSPINEC)",
+        "amount": "$600,000.00",
+        "program": "GVF - Global Venture Fund, PROJECTS, CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506165",
+    "name": "Alina M Schimpf",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Tailored Precursor Reactivity for the Colloidal Synthesis and Surface Functionalization of Phase-Pur..."
+    ],
+    "website": "",
+    "email": [
+      "aschimpf@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506165",
+        "title": "Tailored Precursor Reactivity for the Colloidal Synthesis and Surface Functionalization of Phase-Pure Transition Metal Dichalcogenide Nanocrystals",
+        "amount": "$439,063.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2506032",
+    "name": "Andrea R Tao",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Understanding How Ligands Dictate Nanocrystal Shape Using Force Spectroscopy"
+    ],
+    "website": "",
+    "email": [
+      "atao@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2506032",
+        "title": "Understanding How Ligands Dictate Nanocrystal Shape Using Force Spectroscopy",
+        "amount": "$552,380.00",
+        "program": "Chemical Measurement & Imaging, Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2500299",
+    "name": "Kimberly L Cooper",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: IntBIO: Mammalian Tail Innovations & Biodiversity Revealed By the Intersecti..."
+    ],
+    "website": "",
+    "email": [
+      "kcooper@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2500299",
+        "title": "Collaborative Research: IntBIO: Mammalian Tail Innovations & Biodiversity Revealed By the Intersection of Genetics, Biomechanics, and Macroevolution",
+        "amount": "$1,017,872.00",
+        "program": "Evolution of Develp Mechanism, Cross-BIO Activities",
+        "end_date": "08/31/2029",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2525533",
+    "name": "Francesco Paesani",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Dynamics of Solvated Ion Transport in Confined Pore Environments"
+    ],
+    "website": "",
+    "email": [
+      "fpaesani@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2525533",
+        "title": "Dynamics of Solvated Ion Transport in Confined Pore Environments",
+        "amount": "$620,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mircea Dinca mdinca@princeton.edu"
+    ]
+  },
+  {
+    "id": "nsf-2517906",
+    "name": "Sonia Martinez",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Engineering",
+      "Distributed and Constrained Optimal Transport of Large-scale, Heterogenous, Multi-agent Systems"
+    ],
+    "website": "",
+    "email": [
+      "soniamd@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2517906",
+        "title": "Distributed and Constrained Optimal Transport of Large-scale, Heterogenous, Multi-agent Systems",
+        "amount": "$519,563.00",
+        "program": "Dynamics, Control and System D",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2516225",
+    "name": "Tatiana V Mishanina",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "Riboswitch-based gene regulation of manganese ion transporters"
+    ],
+    "website": "",
+    "email": [
+      "tmishanina@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2516225",
+        "title": "Riboswitch-based gene regulation of manganese ion transporters",
+        "amount": "$700,000.00",
+        "program": "Genetic Mechanisms",
+        "end_date": "07/31/2028",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2504468",
+    "name": "Yiying Zhang",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS:Medium:Rack-Scale Disaggregation and Consolidation of Network Functiona..."
+    ],
+    "website": "",
+    "email": [
+      "yiying@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2504468",
+        "title": "Collaborative Research: NeTS:Medium:Rack-Scale Disaggregation and Consolidation of Network Functionalities",
+        "amount": "$540,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "07/31/2029",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426321",
+    "name": "Mehran Tehrani",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Engineering",
+      "NSF-DFG/Collaborative Research: Integrated Computational Materials Engineering of Thermoplastic Comp..."
+    ],
+    "website": "",
+    "email": [
+      "mtehrani@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2426321",
+        "title": "NSF-DFG/Collaborative Research: Integrated Computational Materials Engineering of Thermoplastic Composites",
+        "amount": "$328,133.00",
+        "program": "AM-Advanced Manufacturing",
+        "end_date": "06/30/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2526846",
+    "name": "Kiana Aran",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Engineering",
+      "EAGER: Strategic Alliances for Semiconductor Workforce Development"
+    ],
+    "website": "",
+    "email": [
+      "karan@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2526846",
+        "title": "EAGER: Strategic Alliances for Semiconductor Workforce Development",
+        "amount": "$300,000.00",
+        "program": "EFRI Research Projects",
+        "end_date": "06/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2512067",
+    "name": "Alexey Arefiev",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-UEFISCDI: Generation of Energetic Electrons and Gamma-Rays in a High-Intensity Laser-Plasma Inte..."
+    ],
+    "website": "",
+    "email": [
+      "aarefiev@eng.ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2512067",
+        "title": "NSF-UEFISCDI: Generation of Energetic Electrons and Gamma-Rays in a High-Intensity Laser-Plasma Interactions",
+        "amount": "$640,000.00",
+        "program": "PLASMA PHYSICS",
+        "end_date": "05/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mario Manuel manuelm@fusion.gat.com"
+    ]
+  },
+  {
+    "id": "nsf-2424853",
+    "name": "Dominik Wodarz",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "eMB: Collaborative Research: Using mathematics to bridge between evolutionary dynamics in the hemato..."
+    ],
+    "website": "",
+    "email": [
+      "dwodarz@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2424853",
+        "title": "eMB: Collaborative Research: Using mathematics to bridge between evolutionary dynamics in the hematopoietic systems of mice and humans: from in vivo to epidemiological scales",
+        "amount": "$200,812.00",
+        "program": "MATHEMATICAL BIOLOGY",
+        "end_date": "09/30/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Natalia Komarova nkomarova@ucsd.edu"
+    ]
+  },
+  {
+    "id": "nsf-2417787",
+    "name": "Adalbert Gerald Soosai Raj",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of California-San Diego",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "CSE",
+      "Generation and Evaluation of Culturally Relevant Computing Resources for Latines in Introductory Pro..."
+    ],
+    "website": "",
+    "email": [
+      "gerald@eng.ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2417787",
+        "title": "Generation and Evaluation of Culturally Relevant Computing Resources for Latines in Introductory Programming",
+        "amount": "$300,000.00",
+        "program": "CISE Education and Workforce",
+        "end_date": "08/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

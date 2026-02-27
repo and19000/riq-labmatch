@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mit-A5106121736",
+    "name": "Philip Morrison",
+    "name_alternatives": [
+      "Philip Morrison"
+    ],
+    "title": "Professor at Massachusetts Institute of Technology",
+    "department": "Various",
+    "school": "MIT",
+    "location": "Cambridge, MA",
+    "email": null,
+    "email_confidence": null,
+    "email_source": "no_email_found",
+    "mit_profile_url": "https://physics.mit.edu/wp-content/uploads/2021/01/physicsatmit_05_inremembrance_morrison.pdf",
+    "google_scholar_id": null,
+    "google_scholar_url": null,
+    "scholar_homepage": null,
+    "orcid": null,
+    "h_index": null,
+    "h_index_source": null,
+    "h_index_scholar": null,
+    "h_index_5y": null,
+    "h_index_openalex": 5,
+    "citations_total": 149,
+    "citations_5y": null,
+    "i10_index": 4,
+    "i10_5y": null,
+    "works_count": 255,
+    "scholar_name": null,
+    "scholar_affiliation": null,
+    "scholar_email_domain": null,
+    "at_mit_openalex": true,
+    "research_areas": "Research information not available",
+    "topics_openalex": [],
+    "scholar_interests": [],
+    "lab_techniques": "Computer science, Environmental science, Medicine, Philosophy, Political science",
+    "website": "",
+    "confidence": "LOW",
+    "confidence_reason": "no email found; has MIT profile"
+  }
+]

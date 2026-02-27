@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nsf-2526381",
+    "name": "Darran R Cairns",
+    "title": "Principal Investigator",
+    "department": "Technology, Innovation and Partnerships",
+    "school": "University of Missouri-Kansas City",
+    "location": "COLUMBIA, MO",
+    "research_areas": [
+      "Technology, Innovation and Partnerships",
+      "Collaborative Research: Obtaining Great Jobs in Advanced Manufacturing through Experiential Learning..."
+    ],
+    "website": "",
+    "email": [
+      "cairnsd@umkc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLUMBIA, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2526381",
+        "title": "Collaborative Research: Obtaining Great Jobs in Advanced Manufacturing through Experiential Learning Opportunities",
+        "amount": "$753,296.00",
+        "program": "ExLENT",
+        "end_date": "09/30/2028",
+        "directorate": "TIP"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Micah A Wyssmann wyssmannm@umkc.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452603",
+    "name": "Mohammad Rafiee",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Missouri-Kansas City",
+    "location": "COLUMBIA, MO",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Electrochemical Ni-Catalyzed Reductive Biaryl Coupling: Mechanistic Studies ..."
+    ],
+    "website": "",
+    "email": [
+      "mrafiee@umkc.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "COLUMBIA, MO",
+    "nsf_awards": [
+      {
+        "award_number": "2452603",
+        "title": "Collaborative Research: Electrochemical Ni-Catalyzed Reductive Biaryl Coupling: Mechanistic Studies to Enable Chemical Synthesis",
+        "amount": "$350,000.00",
+        "program": "Chemical Catalysis",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

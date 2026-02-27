@@ -1,0 +1,99 @@
+[
+  {
+    "id": "nsf-2439763",
+    "name": "Paulo H Acioli",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Northeastern Illinois University",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Developing STEM Education Reform Leaders through a Multidisciplinary and Cro..."
+    ],
+    "website": "",
+    "email": [
+      "p-acioli@neiu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2439763",
+        "title": "Collaborative Research: Developing STEM Education Reform Leaders through a Multidisciplinary and Cross-Institutional Community of Transformation",
+        "amount": "$248,274.00",
+        "program": "IUSE",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Sandra D Beyda-Lorie s-beyda@neiu.edu",
+      "Naga Lakshmi Potluri npotluri@oakton.edu"
+    ]
+  },
+  {
+    "id": "nsf-2435186",
+    "name": "Marcelo O Sztainberg",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "Northeastern Illinois University",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "CSE",
+      "CAP: Enhancing Pathways for Student Success in AI"
+    ],
+    "website": "",
+    "email": [
+      "M-Sztainberg@neiu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2435186",
+        "title": "CAP: Enhancing Pathways for Student Success in AI",
+        "amount": "$399,997.00",
+        "program": "ExpandAI",
+        "end_date": "12/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kristian J Hammond hammond@cs.northwestern.edu"
+    ]
+  },
+  {
+    "id": "nsf-2412939",
+    "name": "Kara Nuss",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Northeastern Illinois University",
+    "location": "CHICAGO, IL",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Equitable STEM Student Success and Persistence Through Leadership Developmen..."
+    ],
+    "website": "",
+    "email": [
+      "k-nuss@neiu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "CHICAGO, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2412939",
+        "title": "Collaborative Research: Equitable STEM Student Success and Persistence Through Leadership Development Contextualized in a Learning Assistant Program",
+        "amount": "$12,159.00",
+        "program": "Innov TwoYear College STEM Ed",
+        "end_date": "08/31/2027",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

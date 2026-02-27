@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nsf-2514295",
+    "name": "Alexander R Grandon",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "American Indian Higher Education Consortium",
+    "location": "ALEXANDRIA, VA",
+    "research_areas": [
+      "CSE",
+      "Conference: Tribal College and University Cyberinfrastructure Workshop"
+    ],
+    "website": "",
+    "email": [
+      "AGrandon@aihec.org"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "ALEXANDRIA, VA",
+    "nsf_awards": [
+      {
+        "award_number": "2514295",
+        "title": "Conference: Tribal College and University Cyberinfrastructure Workshop",
+        "amount": "$123,442.00",
+        "program": "Campus Cyberinfrastructure",
+        "end_date": "05/31/2026",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Tyler Postma tpostma@bmcc.edu",
+      "Justin Kocian JKocian@thenicc.edu",
+      "Shelly L Knight sknight@aihec.org"
+    ]
+  }
+]

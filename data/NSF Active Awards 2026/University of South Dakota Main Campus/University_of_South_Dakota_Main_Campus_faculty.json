@@ -1,0 +1,130 @@
+[
+  {
+    "id": "nsf-2511435",
+    "name": "James D Hoefelmeyer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of South Dakota Main Campus",
+    "location": "VERMILLION, SD",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MRI: Track 1 Acquisition of a Bench Top Powder X-ray Diffractometer Enabling Research, Education, an..."
+    ],
+    "website": "",
+    "email": [
+      "James.Hoefelmeyer@usd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VERMILLION, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2511435",
+        "title": "MRI: Track 1 Acquisition of a Bench Top Powder X-ray Diffractometer Enabling Research, Education, and Outreach in the Upper Great Plains",
+        "amount": "$142,977.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, Chemical Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Chaoyang Jiang CY.Jiang@usd.edu",
+      "Zhenqiang Wang Zhenqiang.Wang@usd.edu",
+      "Steven X Wu steven.wu01@usd.edu"
+    ]
+  },
+  {
+    "id": "nsf-2437416",
+    "name": "Dongming Mei",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of South Dakota Main Campus",
+    "location": "VERMILLION, SD",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: E-RISE RII: Germanium-based Science and Technology Advancement Research"
+    ],
+    "website": "",
+    "email": [
+      "dongming.mei@usd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VERMILLION, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2437416",
+        "title": "Collaborative Research: E-RISE RII: Germanium-based Science and Technology Advancement Research",
+        "amount": "$1,562,289.00",
+        "program": "EPSCoR RII: E-RISE, EPSCoR RII: E-RISE",
+        "end_date": "06/30/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "chao zhang chao.zhang@mountmarty.edu"
+    ]
+  },
+  {
+    "id": "nsf-2411825",
+    "name": "Jing Liu",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of South Dakota Main Campus",
+    "location": "VERMILLION, SD",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Construction and Deployment of a Cryogenic, Undoped CsI Scintillator at the ..."
+    ],
+    "website": "",
+    "email": [
+      "jing.liu@usd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VERMILLION, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2411825",
+        "title": "Collaborative Research: Construction and Deployment of a Cryogenic, Undoped CsI Scintillator at the Spallation Neutron Source within the COHERENT Experiment",
+        "amount": "$343,512.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, Particle Astrophysics/Cosmic P, Particle Astrophysics/Undergro",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2349297",
+    "name": "Chaoyang Jiang",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of South Dakota Main Campus",
+    "location": "VERMILLION, SD",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: REU Site: C3: Collaboration to Combat Crime - An Interdisciplinary Approach"
+    ],
+    "website": "",
+    "email": [
+      "CY.Jiang@usd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "VERMILLION, SD",
+    "nsf_awards": [
+      {
+        "award_number": "2349297",
+        "title": "Collaborative Research: REU Site: C3: Collaboration to Combat Crime - An Interdisciplinary Approach",
+        "amount": "$139,546.00",
+        "program": "SSA-Special Studies & Analysis, EPSCoR Co-Funding",
+        "end_date": "08/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

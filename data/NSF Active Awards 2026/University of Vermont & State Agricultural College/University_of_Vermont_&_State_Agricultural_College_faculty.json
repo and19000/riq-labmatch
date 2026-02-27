@@ -1,0 +1,292 @@
+[
+  {
+    "id": "nsf-2433427",
+    "name": "Kathryn Hinkelman",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Engineering",
+      "Collaborative Research: CPS: Medium: Honeybee-Inspired Coordination & Control of Distributed Energy ...",
+      "ERI: Towards Dynamic Life Cycle Assessment of Renewable Energy Hub Systems"
+    ],
+    "website": "",
+    "email": [
+      "kathryn.hinkelman@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2433427",
+        "title": "Collaborative Research: CPS: Medium: Honeybee-Inspired Coordination & Control of Distributed Energy Resources for Resilient Electric Grids at the Distribution Level",
+        "amount": "$208,333.00",
+        "program": "CPS-Cyber-Physical Systems",
+        "end_date": "09/30/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2501735",
+        "title": "ERI: Towards Dynamic Life Cycle Assessment of Renewable Energy Hub Systems",
+        "amount": "$200,000.00",
+        "program": "Special Initiatives",
+        "end_date": "05/31/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2505463",
+    "name": "Matthew S White",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: Applied Energy Innovation in Organic and Bio Materials"
+    ],
+    "website": "",
+    "email": [
+      "mwhite25@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2505463",
+        "title": "IRES: Applied Energy Innovation in Organic and Bio Materials",
+        "amount": "$444,871.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "12/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kyle Ikeda kyle.ikeda@uvm.edu",
+      "Jihong A Ma Jihong.Ma@uvm.edu",
+      "David Punihaole David.Punihaole@uvm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2510406",
+    "name": "Christopher M Danforth",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "CSE",
+      "Equipment: MRI: Track 2 Acquisition of a Transformational High-Performance Computing Cluster for AI ..."
+    ],
+    "website": "",
+    "email": [
+      "chris.danforth@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2510406",
+        "title": "Equipment: MRI: Track 2 Acquisition of a Transformational High-Performance Computing Cluster for AI Research, Innovation, and Capacity Building for Vermont",
+        "amount": "$2,165,729.00",
+        "program": "Major Research Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Laurent Hebert-Dufresne lhebertd@uvm.edu",
+      "Nicholas Cheney ncheney@uvm.edu",
+      "Sarah Nowak sarah.nowak@med.uvm.edu",
+      "Davi D Bock dbock@uvm.edu"
+    ]
+  },
+  {
+    "id": "nsf-2452977",
+    "name": "Matthias Brewer",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Synthetic Methods to Generate Encarbamates and Nitrogen Containing Compounds"
+    ],
+    "website": "",
+    "email": [
+      "Matthias.Brewer@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2452977",
+        "title": "Synthetic Methods to Generate Encarbamates and Nitrogen Containing Compounds",
+        "amount": "$400,000.00",
+        "program": "Chemical Synthesis",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2441133",
+    "name": "David Punihaole",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Directly Visualizing the Conformational Dynamics and Non-covalent Interactions of Biological..."
+    ],
+    "website": "",
+    "email": [
+      "David.Punihaole@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2441133",
+        "title": "CAREER: Directly Visualizing the Conformational Dynamics and Non-covalent Interactions of Biological Macromolecules in Living Cells using Fast Raman Relaxation Imaging",
+        "amount": "$665,769.00",
+        "program": "Chemistry of Life Processes",
+        "end_date": "04/30/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2436128",
+    "name": "Rory Waterman",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Conference: Challenges and Opportunities for Improving Reproducibility in Homogeneous Catalysis"
+    ],
+    "website": "",
+    "email": [
+      "Rory.Waterman@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2436128",
+        "title": "Conference: Challenges and Opportunities for Improving Reproducibility in Homogeneous Catalysis",
+        "amount": "$84,426.00",
+        "program": "Chemical Catalysis, Catalysis",
+        "end_date": "02/28/2026",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429505",
+    "name": "Luis A Duffaut Espinosa",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Robust Data-Driven Formations of Multi-Robot Exploring Systems"
+    ],
+    "website": "",
+    "email": [
+      "lduffaut@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2429505",
+        "title": "EPSCoR Research Fellows: NSF: Robust Data-Driven Formations of Multi-Robot Exploring Systems",
+        "amount": "$269,069.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2407237",
+    "name": "Victoria M Glynn",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Geosciences",
+      "Postdoctoral Fellowship: OCE-PRF: A holobiont approach to rapid thermal evolution using an emerging ..."
+    ],
+    "website": "",
+    "email": [
+      "victoria.glynn@mail.mcgill.ca"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2407237",
+        "title": "Postdoctoral Fellowship: OCE-PRF: A holobiont approach to rapid thermal evolution using an emerging copepod model system",
+        "amount": "$339,172.00",
+        "program": "OCE Postdoctoral Fellowships",
+        "end_date": "11/30/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2342151",
+    "name": "Keith A Klepeis",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Vermont & State Agricultural College",
+    "location": "BURLINGTON, VT",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Is it MASH or MUSH? Testing Conflicting Models for Magma Diversification and..."
+    ],
+    "website": "",
+    "email": [
+      "kklepeis@uvm.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "BURLINGTON, VT",
+    "nsf_awards": [
+      {
+        "award_number": "2342151",
+        "title": "Collaborative Research: Is it MASH or MUSH? Testing Conflicting Models for Magma Diversification and Mobilization in Lower-Arc Crust",
+        "amount": "$385,643.00",
+        "program": "Tectonics",
+        "end_date": "08/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

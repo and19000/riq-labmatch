@@ -1,0 +1,353 @@
+[
+  {
+    "id": "nsf-2500503",
+    "name": "Kristie J Koski",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Atomic Intercalation for Tunable Phase Transitions in 2D Layered Materials",
+      "Silicon Telluride Nanocrystals: Tunable Broadband Photoresponse"
+    ],
+    "website": "",
+    "email": [
+      "Koski@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2500503",
+        "title": "Atomic Intercalation for Tunable Phase Transitions in 2D Layered Materials",
+        "amount": "$389,669.00",
+        "program": "SOLID STATE & MATERIALS CHEMIS",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      },
+      {
+        "award_number": "2504357",
+        "title": "Silicon Telluride Nanocrystals: Tunable Broadband Photoresponse",
+        "amount": "$479,592.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "07/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2611036",
+    "name": "Amanda M Thomas",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Using the Rattlesnake Ridge landslide as a natural laboratory to study repeating earthquake ..."
+    ],
+    "website": "",
+    "email": [
+      "amthom@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2611036",
+        "title": "CAREER: Using the Rattlesnake Ridge landslide as a natural laboratory to study repeating earthquake evolution and development of operational repeating signal detectors",
+        "amount": "$166,975.00",
+        "program": "XC-Crosscutting Activities Pro, Geophysics",
+        "end_date": "07/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2448486",
+    "name": "Matthew Wallace",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "STEM Education",
+      "Robert Noyce Teacher Scholarship Program Track 2 Project: Creating STEM Teacher Fellows To Leverage ..."
+    ],
+    "website": "",
+    "email": [
+      "mtwallace@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2448486",
+        "title": "Robert Noyce Teacher Scholarship Program Track 2 Project: Creating STEM Teacher Fellows To Leverage AI",
+        "amount": "$1,715,167.00",
+        "program": "Robert Noyce Scholarship Pgm",
+        "end_date": "09/30/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Timothy J Lewis tjlewis@ucdavis.edu",
+      "Cynthia Passmore cpassmore@ucdavis.edu",
+      "Margarita Jimenez-Silva drmjs@ucdavis.edu",
+      "Charles Wilkes cwilkes@ucdavis.edu"
+    ]
+  },
+  {
+    "id": "nsf-2453210",
+    "name": "Dean J Tantillo",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Modulating Kinetic Reactivity of Organic Molecules - A Focus on Dynamic Control"
+    ],
+    "website": "",
+    "email": [
+      "djtantillo@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2453210",
+        "title": "Modulating Kinetic Reactivity of Organic Molecules - A Focus on Dynamic Control",
+        "amount": "$600,000.00",
+        "program": "CMFP-Chem Mech Funct, and Prop",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515308",
+    "name": "Bruce C Gates",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Phase III at  University of California-Davis/Berkeley: The Center for Rational Catalyst Synthe..."
+    ],
+    "website": "",
+    "email": [
+      "bcgates@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2515308",
+        "title": "IUCRC Phase III at  University of California-Davis/Berkeley: The Center for Rational Catalyst Synthesis (CeRCaS)",
+        "amount": "$250,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "07/31/2030",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Alexander Katz askatz@berkeley.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434739",
+    "name": "Amit M Kanvinde",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Engineering",
+      "NSF-SNSF: Simulating Fracture in Structural Steel Members through Fracture-Mechanics-Enriched Frame ..."
+    ],
+    "website": "",
+    "email": [
+      "amkanvinde@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2434739",
+        "title": "NSF-SNSF: Simulating Fracture in Structural Steel Members through Fracture-Mechanics-Enriched Frame Elements",
+        "amount": "$399,915.00",
+        "program": "Special Initiatives",
+        "end_date": "03/31/2028",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2426076",
+    "name": "Barbara C Ratschbacher",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Geosciences",
+      "Collaborative Research: Comparing the Geochemical and Temporal Links Between Volcanism and Plutonism..."
+    ],
+    "website": "",
+    "email": [
+      "bratschbacher@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2426076",
+        "title": "Collaborative Research: Comparing the Geochemical and Temporal Links Between Volcanism and Plutonism at the Scale of a Single Arc Magmatic System",
+        "amount": "$0.00",
+        "program": "Petrology and Geochemistry",
+        "end_date": "12/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2440880",
+    "name": "Chenchen Song",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "CAREER: Reduced Scaling Multireference Perturbation Theory with Polarizable Multipole Force Field Em..."
+    ],
+    "website": "",
+    "email": [
+      "ccsong@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2440880",
+        "title": "CAREER: Reduced Scaling Multireference Perturbation Theory with Polarizable Multipole Force Field Embedding for Simulating Photoreactions in Biological Environments",
+        "amount": "$660,000.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "12/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2450802",
+    "name": "Blake C Meyers",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "Collaborative Research: BBSRC-NSF/BIO: An autonomous registry system for plant microRNAs"
+    ],
+    "website": "",
+    "email": [
+      "bcmeyers@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2450802",
+        "title": "Collaborative Research: BBSRC-NSF/BIO: An autonomous registry system for plant microRNAs",
+        "amount": "$562,816.00",
+        "program": "Capacity: Cyberinfrastructure",
+        "end_date": "11/30/2026",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2349767",
+    "name": "Jeffrey Ross-Ibarra",
+    "title": "Principal Investigator",
+    "department": "Biological Sciences",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "Biological Sciences",
+      "REU Site: Ecology, Evolution, and Equity in Environmental Change (4EC)"
+    ],
+    "website": "",
+    "email": [
+      "rossibarra@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2349767",
+        "title": "REU Site: Ecology, Evolution, and Equity in Environmental Change (4EC)",
+        "amount": "$341,087.00",
+        "program": "RSCH EXPER FOR UNDERGRAD SITES, Cross-BIO Activities",
+        "end_date": "09/30/2027",
+        "directorate": "BIO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Anne E Todgham todgham@ucdavis.edu"
+    ]
+  },
+  {
+    "id": "nsf-2402963",
+    "name": "Alexander Gamero-Garrido",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of California-Davis",
+    "location": "DAVIS, CA",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: NeTS: Medium: Measurement, Modeling and Analysis to Assess Network Connectiv..."
+    ],
+    "website": "",
+    "email": [
+      "agamerog@ucdavis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DAVIS, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2402963",
+        "title": "Collaborative Research: NeTS: Medium: Measurement, Modeling and Analysis to Assess Network Connectivity and Performance at Anchor Institutions",
+        "amount": "$360,000.00",
+        "program": "Networking Technology and Syst",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

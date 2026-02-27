@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nsf-2411599",
+    "name": "Martin E Huber",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Colorado at Denver-Downtown Campus",
+    "location": "DENVER, CO",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: The SuperCDMS at SNOLAB Science Program"
+    ],
+    "website": "",
+    "email": [
+      "martin.huber@ucdenver.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DENVER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2411599",
+        "title": "Collaborative Research: The SuperCDMS at SNOLAB Science Program",
+        "amount": "$487,500.00",
+        "program": "Particle Astrophysics/Cosmic P, Particle Astrophysics/Undergro",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Anthony N Villano anthony.villano@ucdenver.edu"
+    ]
+  }
+]

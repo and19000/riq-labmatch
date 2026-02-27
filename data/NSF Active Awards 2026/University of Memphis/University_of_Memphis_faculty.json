@@ -1,0 +1,164 @@
+[
+  {
+    "id": "nsf-2505397",
+    "name": "Alexander J Headley",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Memphis",
+    "location": "MEMPHIS, TN",
+    "research_areas": [
+      "Office of the Director",
+      "IRES: International Grid Research and Advanced Training in Energy (InteGRATE)"
+    ],
+    "website": "",
+    "email": [
+      "jheadley@memphis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEMPHIS, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2505397",
+        "title": "IRES: International Grid Research and Advanced Training in Energy (InteGRATE)",
+        "amount": "$449,998.00",
+        "program": "Intl Rsrch Exp for Stds (IRES)",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mohammadreza Davoodi mdavoodi@memphis.edu",
+      "Yong Hoon Lee yhlee@memphis.edu"
+    ]
+  },
+  {
+    "id": "nsf-2518665",
+    "name": "Amy Dejongh Curry",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Memphis",
+    "location": "MEMPHIS, TN",
+    "research_areas": [
+      "STEM Education",
+      "Impact and Mediating Mechanisms of a Co-Curricular Community-Based Professional Mentoring Program on..."
+    ],
+    "website": "",
+    "email": [
+      "adejongh@memphis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEMPHIS, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2518665",
+        "title": "Impact and Mediating Mechanisms of a Co-Curricular Community-Based Professional Mentoring Program on Undergraduate Engineering Student Persistence and Career Readiness",
+        "amount": "$399,787.00",
+        "program": "IUSE",
+        "end_date": "08/31/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kurt Kraiger kkraiger@memphis.edu"
+    ]
+  },
+  {
+    "id": "nsf-2424742",
+    "name": "Stephanie S Ivey",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Memphis",
+    "location": "MEMPHIS, TN",
+    "research_areas": [
+      "STEM Education",
+      "S-STEM. Bridging the Gaps: Cultivating STEM Identity and Success through STEM Outreach, Networking, ..."
+    ],
+    "website": "",
+    "email": [
+      "ssalyers@memphis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEMPHIS, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2424742",
+        "title": "S-STEM. Bridging the Gaps: Cultivating STEM Identity and Success through STEM Outreach, Networking, and Scholarships",
+        "amount": "$1,999,581.00",
+        "program": "S-STEM-Schlr Sci Tech Eng&Math",
+        "end_date": "01/31/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Aaron L Robinson alrobins@memphis.edu",
+      "Alistair J Windsor awindsor@memphis.edu",
+      "Craig O Stewart Craig.Stewart@memphis.edu"
+    ]
+  },
+  {
+    "id": "nsf-2330216",
+    "name": "Mohammadreza Davoodi",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Memphis",
+    "location": "MEMPHIS, TN",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: CPS: Medium: Multi-Scale Sensing and Control for Optimizing Crop Production ..."
+    ],
+    "website": "",
+    "email": [
+      "mdavoodi@memphis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEMPHIS, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2330216",
+        "title": "Collaborative Research: CPS: Medium: Multi-Scale Sensing and Control for Optimizing Crop Production and Energy Efficiency in Controlled-Environment Agriculture",
+        "amount": "$250,037.00",
+        "program": "CPS-Cyber-Physical Systems",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2410878",
+    "name": "Daniel R Nascimento",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Memphis",
+    "location": "MEMPHIS, TN",
+    "research_areas": [
+      "CSE",
+      "Collaborative Research: Frameworks: Software Infrastructure for Next-Generation Quantum Chemistry"
+    ],
+    "website": "",
+    "email": [
+      "daniel.nascimento@memphis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "MEMPHIS, TN",
+    "nsf_awards": [
+      {
+        "award_number": "2410878",
+        "title": "Collaborative Research: Frameworks: Software Infrastructure for Next-Generation Quantum Chemistry",
+        "amount": "$417,501.00",
+        "program": "Software Institutes",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

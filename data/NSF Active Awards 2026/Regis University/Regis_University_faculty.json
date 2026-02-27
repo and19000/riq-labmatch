@@ -1,0 +1,70 @@
+[
+  {
+    "id": "nsf-2524478",
+    "name": "Gena J Nichols",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Regis University",
+    "location": "DENVER, CO",
+    "research_areas": [
+      "STEM Education",
+      "Improving Retention and Success of Undergraduate Students with Enhanced Research and Leadership Oppo..."
+    ],
+    "website": "",
+    "email": [
+      "gnichols@regis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DENVER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2524478",
+        "title": "Improving Retention and Success of Undergraduate Students with Enhanced Research and Leadership Opportunities in Biology",
+        "amount": "$499,908.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Allyson M Sterling aspence001@regis.edu"
+    ]
+  },
+  {
+    "id": "nsf-2434770",
+    "name": "Allison Hall",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "Regis University",
+    "location": "DENVER, CO",
+    "research_areas": [
+      "STEM Education",
+      "Improving Institutional Capacity in Undergraduate Biology Courses with Laboratory Equipment"
+    ],
+    "website": "",
+    "email": [
+      "ahall013@regis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DENVER, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2434770",
+        "title": "Improving Institutional Capacity in Undergraduate Biology Courses with Laboratory Equipment",
+        "amount": "$200,000.00",
+        "program": "HSI-Hispanic Serving Instituti",
+        "end_date": "09/30/2029",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Allyson M Sterling aspence001@regis.edu",
+      "Gena J Nichols gnichols@regis.edu",
+      "Bethany Lucas blucas001@regis.edu"
+    ]
+  }
+]

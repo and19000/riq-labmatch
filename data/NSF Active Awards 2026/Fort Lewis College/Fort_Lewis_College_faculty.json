@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nsf-2424811",
+    "name": "Jeff Jessing",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Fort Lewis College",
+    "location": "DURANGO, CO",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Partnership for Education and Advancement of Quantum and nano-Sciences (PEAQS)"
+    ],
+    "website": "",
+    "email": [
+      "jrjessing@fortlewis.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "DURANGO, CO",
+    "nsf_awards": [
+      {
+        "award_number": "2424811",
+        "title": "Partnership for Education and Advancement of Quantum and nano-Sciences (PEAQS)",
+        "amount": "$2,097,820.00",
+        "program": "PREM",
+        "end_date": "08/31/2030",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Doyle A Temple datemple@nsu.edu",
+      "David S Ginger ginger@chem.washington.edu",
+      "Sarah M Schreiner sarah.schreiner@colorado.edu",
+      "Yiyan Li yli@fortlewis.edu"
+    ]
+  }
+]

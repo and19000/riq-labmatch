@@ -1,0 +1,110 @@
+[
+  {
+    "id": "nsf-2521457",
+    "name": "Sarah Fuller",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Woods Hole Oceanographic Institution",
+    "location": "WOODS HOLE, MA",
+    "research_areas": [
+      "Geosciences",
+      "Equipment: WHOI R/V Atlantis and R/V Neil Armstrong SHIPBOARD SCIENTIFIC SUPPORT EQUIPMENT (SSSE) 20...",
+      "Equipment: WHOI/ R/V Atlantis and R/V Neil Armstrong Oceanographic Instrumentation",
+      "Oceanographic Technical Services, R/V Atlantis and R/V Neil Armstrong"
+    ],
+    "website": "",
+    "email": [
+      "sfuller@whoi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WOODS HOLE, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2521457",
+        "title": "Equipment: WHOI R/V Atlantis and R/V Neil Armstrong SHIPBOARD SCIENTIFIC SUPPORT EQUIPMENT (SSSE) 2025",
+        "amount": "$467,057.00",
+        "program": "SHIPBOARD SCIENTIFIC SUPP EQUI",
+        "end_date": "06/30/2027",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2521127",
+        "title": "Equipment: WHOI/ R/V Atlantis and R/V Neil Armstrong Oceanographic Instrumentation",
+        "amount": "$92,164.00",
+        "program": "OCEANOGRAPHIC INSTRUMENTATION",
+        "end_date": "06/30/2027",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2420887",
+        "title": "Oceanographic Technical Services, R/V Atlantis and R/V Neil Armstrong",
+        "amount": "$1,500,000.00",
+        "program": "Oceanographic CybrinfraCybrsec, OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "05/31/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 3
+  },
+  {
+    "id": "nsf-2517543",
+    "name": "Masako Tominaga",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "Woods Hole Oceanographic Institution",
+    "location": "WOODS HOLE, MA",
+    "research_areas": [
+      "Geosciences",
+      "WHOI/PFPE Oceanographic Instrumentation - Toward the completion of upgrading UNOLS Academic Research..."
+    ],
+    "website": "",
+    "email": [
+      "mtominaga@whoi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WOODS HOLE, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2517543",
+        "title": "WHOI/PFPE Oceanographic Instrumentation - Toward the completion of upgrading UNOLS Academic Research Fleet marine gravimetry capability",
+        "amount": "$425,929.00",
+        "program": "OCEANOGRAPHIC INSTRUMENTATION",
+        "end_date": "07/31/2027",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2448198",
+    "name": "Laura C Motta",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Woods Hole Oceanographic Institution",
+    "location": "WOODS HOLE, MA",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Understanding Spin-Forbidden Reactions Mediated by Relativistic Nuclear-Elec..."
+    ],
+    "website": "",
+    "email": [
+      "laura.motta@whoi.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "WOODS HOLE, MA",
+    "nsf_awards": [
+      {
+        "award_number": "2448198",
+        "title": "Collaborative Research: Understanding Spin-Forbidden Reactions Mediated by Relativistic Nuclear-Electronic Hyperfine Coupling",
+        "amount": "$545,607.00",
+        "program": "Chem Thry, Mdls & Cmptnl Mthds",
+        "end_date": "04/30/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

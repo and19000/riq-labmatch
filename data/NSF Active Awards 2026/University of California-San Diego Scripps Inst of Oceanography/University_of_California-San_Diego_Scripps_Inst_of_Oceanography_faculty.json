@@ -1,0 +1,128 @@
+[
+  {
+    "id": "nsf-2413387",
+    "name": "Terry B Appelgate",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-San Diego Scripps Inst of Oceanography",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Geosciences",
+      "HiSeasNet: Continuous Internet Connectivity for Oceanographic Research - 2024-2028",
+      "Scripps Institution of Oceanography / Management of West Coast Winch Pool SSSE",
+      "Ship Operations: R/V ROBERT GORDON SPROUL",
+      "Ship Operations: R/V SALLY RIDE"
+    ],
+    "website": "",
+    "email": [
+      "bappelgate@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2413387",
+        "title": "HiSeasNet: Continuous Internet Connectivity for Oceanographic Research - 2024-2028",
+        "amount": "$1,956,645.00",
+        "program": "Oceanographic CybrinfraCybrsec",
+        "end_date": "07/31/2030",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2500231",
+        "title": "Scripps Institution of Oceanography / Management of West Coast Winch Pool SSSE",
+        "amount": "$1,540,613.00",
+        "program": "Oceanographic CybrinfraCybrsec, SHIPBOARD SCIENTIFIC SUPP EQUI",
+        "end_date": "06/30/2030",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2419196",
+        "title": "Ship Operations: R/V ROBERT GORDON SPROUL",
+        "amount": "$612,870.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      },
+      {
+        "award_number": "2419287",
+        "title": "Ship Operations: R/V SALLY RIDE",
+        "amount": "$6,400,000.00",
+        "program": "SHIP OPERATIONS",
+        "end_date": "12/31/2028",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 4,
+    "co_investigators": [
+      "Lee Ellett lellett@ucsd.edu",
+      "Jon C Meyer jmeyer@ucsd.edu"
+    ]
+  },
+  {
+    "id": "nsf-2439640",
+    "name": "Karen I Stocks",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-San Diego Scripps Inst of Oceanography",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Geosciences",
+      "R2R: FAIR and open data management services for the academic research fleet 2025-2029"
+    ],
+    "website": "",
+    "email": [
+      "kstocks@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2439640",
+        "title": "R2R: FAIR and open data management services for the academic research fleet 2025-2029",
+        "amount": "$3,764,217.00",
+        "program": "OCEANOGRAPHIC TECHNICAL SERVCE",
+        "end_date": "12/31/2029",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Shawn R Smith srsmith@fsu.edu",
+      "Frank O Nitsche fnitsche@ldeo.columbia.edu",
+      "Rebecca Hudak rhudak@whoi.edu"
+    ]
+  },
+  {
+    "id": "nsf-2431301",
+    "name": "Stuart A Sandin",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of California-San Diego Scripps Inst of Oceanography",
+    "location": "LA JOLLA, CA",
+    "research_areas": [
+      "Geosciences",
+      "CIVIC-PG Track A: Incorporating large-area imaging and analytics into community-driven underwater re..."
+    ],
+    "website": "",
+    "email": [
+      "ssandin@ucsd.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "LA JOLLA, CA",
+    "nsf_awards": [
+      {
+        "award_number": "2431301",
+        "title": "CIVIC-PG Track A: Incorporating large-area imaging and analytics into community-driven underwater restoration and management",
+        "amount": "$75,000.00",
+        "program": "S&CC: Smart & Connected Commun",
+        "end_date": "03/31/2026",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

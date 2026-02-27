@@ -1,0 +1,408 @@
+[
+  {
+    "id": "nsf-2503204",
+    "name": "Henry J Neeman",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "CSE",
+      "CC*Network-Campus: The OneOklahoma Friction Free Network 400GE (OFFN-400) at the University of Oklah...",
+      "OneOklahoma Cyberinfrastructure Initiative Artificial Intelligence Consultants (OneOCII-AIC): Develo..."
+    ],
+    "website": "",
+    "email": [
+      "hneeman@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2503204",
+        "title": "CC*Network-Campus: The OneOklahoma Friction Free Network 400GE (OFFN-400) at the University of Oklahoma",
+        "amount": "$645,829.00",
+        "program": "CISE Research Resources, Networking Technology and Syst",
+        "end_date": "09/30/2027",
+        "directorate": "CSE"
+      },
+      {
+        "award_number": "2538234",
+        "title": "OneOklahoma Cyberinfrastructure Initiative Artificial Intelligence Consultants (OneOCII-AIC): Developing a Pipeline of AI Consultants and Workforce Training Program",
+        "amount": "$1,800,000.00",
+        "program": "Information Technology Researc",
+        "end_date": "09/30/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 2,
+    "co_investigators": [
+      "Horst Severini severini@ou.edu"
+    ]
+  },
+  {
+    "id": "nsf-2528633",
+    "name": "Alberto Striolo",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Engineering",
+      "CBET-EPSRC: Bespoke Porous Catalyst Design via Integrated Stochastic Modelling of Reaction and Trans...",
+      "STEM Education",
+      "NRT: An Interdisciplinary Training Program to Accelerate Fundamental Science Translation"
+    ],
+    "website": "",
+    "email": [
+      "astriolo@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2528633",
+        "title": "CBET-EPSRC: Bespoke Porous Catalyst Design via Integrated Stochastic Modelling of Reaction and Transport in Synergy with Experiments",
+        "amount": "$397,818.00",
+        "program": "NSF/ENG-UKRI EPSRC Opportunity",
+        "end_date": "08/31/2028",
+        "directorate": "ENG"
+      },
+      {
+        "award_number": "2510547",
+        "title": "NRT: An Interdisciplinary Training Program to Accelerate Fundamental Science Translation",
+        "amount": "$2,999,865.00",
+        "program": "NSF Research Traineeship (NRT)",
+        "end_date": "08/31/2030",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 2
+  },
+  {
+    "id": "nsf-2535175",
+    "name": "Indrajeet Sharma",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "NSF-ANR CHE: Design And Development of Earth-Abundant Metal Catalysts for Nitrous Oxide and Carbon D..."
+    ],
+    "website": "",
+    "email": [
+      "isharma@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2535175",
+        "title": "NSF-ANR CHE: Design And Development of Earth-Abundant Metal Catalysts for Nitrous Oxide and Carbon Dioxide Reactions with Hydrocarbons",
+        "amount": "$640,853.00",
+        "program": "OFFICE OF MULTIDISCIPLINARY AC, PROJECTS",
+        "end_date": "12/31/2029",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Kenneth M Nicholas knicholas@ou.edu"
+    ]
+  },
+  {
+    "id": "nsf-2530361",
+    "name": "Qi Cheng",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "CSE",
+      "AF: Small: Algorithms and Complexity of Ideal and Structured Lattices"
+    ],
+    "website": "",
+    "email": [
+      "qcheng@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2530361",
+        "title": "AF: Small: Algorithms and Complexity of Ideal and Structured Lattices",
+        "amount": "$328,588.00",
+        "program": "Algorithmic Foundations, Information Technology Researc",
+        "end_date": "08/31/2028",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2508719",
+    "name": "John W Peters",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "MRI: Track 3 Acquisition of Helium Recovery Equipment at the University of Oklahoma"
+    ],
+    "website": "",
+    "email": [
+      "jw.peters@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2508719",
+        "title": "MRI: Track 3 Acquisition of Helium Recovery Equipment at the University of Oklahoma",
+        "amount": "$185,156.00",
+        "program": "Chemical Instrumentation",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Steven P Crossley stevencrossley@ou.edu",
+      "Indrajeet Sharma isharma@ou.edu",
+      "Shanteri Singh shanteri.singh@ou.edu",
+      "Yitong Dong Yitong.Dong-1@ou.edu"
+    ]
+  },
+  {
+    "id": "nsf-2521433",
+    "name": "Connor J Flynn",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: FEC: Optical Properties of Mineral Dust Aerosols: Building Capacity for Use-..."
+    ],
+    "website": "",
+    "email": [
+      "Connor.J.Flynn@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2521433",
+        "title": "Collaborative Research: FEC: Optical Properties of Mineral Dust Aerosols: Building Capacity for Use-Inspired Applications Through Experimental and Theoretical Investigations",
+        "amount": "$878,192.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "07/31/2029",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Farina King farinaking@ou.edu"
+    ]
+  },
+  {
+    "id": "nsf-2442777",
+    "name": "Junle Jiang",
+    "title": "Principal Investigator",
+    "department": "Geosciences",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Geosciences",
+      "CAREER: Bridging Multiscale Observations and Models of Megathrust Faulting and Subduction Zone Hazar..."
+    ],
+    "website": "",
+    "email": [
+      "jiang@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2442777",
+        "title": "CAREER: Bridging Multiscale Observations and Models of Megathrust Faulting and Subduction Zone Hazards",
+        "amount": "$729,600.00",
+        "program": "SPSE-Study of Physics of Earth, EDUCATION AND HUMAN RESOURCES",
+        "end_date": "06/30/2030",
+        "directorate": "GEO"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2443386",
+    "name": "Marmar R Moussa",
+    "title": "Principal Investigator",
+    "department": "CSE",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "CSE",
+      "CAREER: Computational and statistical methods for studying single cell genomics data in the context ..."
+    ],
+    "website": "",
+    "email": [
+      "marmar.moussa@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2443386",
+        "title": "CAREER: Computational and statistical methods for studying single cell genomics data in the context of tissue organization",
+        "amount": "$553,616.00",
+        "program": "EPSCoR Co-Funding, FET-Fndtns of Emerging Tech",
+        "end_date": "04/30/2030",
+        "directorate": "CSE"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2439709",
+    "name": "Deborah A Moore-Russo",
+    "title": "Principal Investigator",
+    "department": "STEM Education",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "STEM Education",
+      "Collaborative Research: Institutional Mentored Partnerships Advancing Multivariable and Vector Calcu..."
+    ],
+    "website": "",
+    "email": [
+      "dmr@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2439709",
+        "title": "Collaborative Research: Institutional Mentored Partnerships Advancing Multivariable and Vector Calculus Teaching with CalcPlot3D",
+        "amount": "$43,958.00",
+        "program": "IUSE",
+        "end_date": "04/30/2028",
+        "directorate": "EDU"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2429932",
+    "name": "Chengbin Deng",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Office of the Director",
+      "EPSCoR Research Fellows: NSF: Farm Pond Watch: A framework for monitoring subseasonal dynamics of fa..."
+    ],
+    "website": "",
+    "email": [
+      "cdeng@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2429932",
+        "title": "EPSCoR Research Fellows: NSF: Farm Pond Watch: A framework for monitoring subseasonal dynamics of farm ponds to enhance water resource resilience",
+        "amount": "$272,397.00",
+        "program": "EPSCoR RII: EPSCoR Research Fe",
+        "end_date": "12/31/2026",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2406666",
+    "name": "Sarah S Sharif",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Engineering",
+      "Equipment: MRI: Track 1 Acquisition of a Superconducting Nanowire Single Photon Detectors System for..."
+    ],
+    "website": "",
+    "email": [
+      "s.sh@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2406666",
+        "title": "Equipment: MRI: Track 1 Acquisition of a Superconducting Nanowire Single Photon Detectors System for Advancing Research and Education in Quantum, Nanophotonics, and Imaging",
+        "amount": "$697,870.00",
+        "program": "Major Research Instrumentation, SSA-Special Studies & Analysis",
+        "end_date": "09/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Yaser M Banad bana@ou.edu",
+      "Qinggong Tang qtang@ou.edu",
+      "Joseph G Tischler tischler@ou.edu",
+      "Alisa Javadi alisa.javadi@ou.edu"
+    ]
+  },
+  {
+    "id": "nsf-2418311",
+    "name": "Elinor R Martin",
+    "title": "Principal Investigator",
+    "department": "Office of the Director",
+    "school": "University of Oklahoma Norman Campus",
+    "location": "NORMAN, OK",
+    "research_areas": [
+      "Office of the Director",
+      "Collaborative Research: RII FEC: Enhancing Indigenous Community Resilience to Climate Change Impacts..."
+    ],
+    "website": "",
+    "email": [
+      "elinor.martin@ou.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAN, OK",
+    "nsf_awards": [
+      {
+        "award_number": "2418311",
+        "title": "Collaborative Research: RII FEC: Enhancing Indigenous Community Resilience to Climate Change Impacts through Partnerships and Co-Development of Adaptation Planning",
+        "amount": "$1,277,419.00",
+        "program": "EPSCoR RII: Focused EPSCoR Col",
+        "end_date": "08/31/2028",
+        "directorate": "O/D"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Renee A McPherson renee@ou.edu",
+      "Emma Kuster emmakuster@ou.edu",
+      "Sandra M Loria-Salazar mloria@ou.edu",
+      "Sharon Hausam shausam@ou.edu"
+    ]
+  }
+]

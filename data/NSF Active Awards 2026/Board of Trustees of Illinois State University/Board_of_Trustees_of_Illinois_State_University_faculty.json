@@ -1,0 +1,131 @@
+[
+  {
+    "id": "nsf-2505894",
+    "name": "Uttam Manna",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Board of Trustees of Illinois State University",
+    "location": "NORMAL, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Selective Excitation and Charge Dynamics of Dark Molecular Transitions"
+    ],
+    "website": "",
+    "email": [
+      "umanna@ilstu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAL, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2505894",
+        "title": "RUI: Selective Excitation and Charge Dynamics of Dark Molecular Transitions",
+        "amount": "$391,078.00",
+        "program": "Macromolec/Supramolec/Nano",
+        "end_date": "08/31/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Mahua Biswas mbiswas@ilstu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2449643",
+    "name": "Matthew R Aldeman",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "Board of Trustees of Illinois State University",
+    "location": "NORMAL, IL",
+    "research_areas": [
+      "Engineering",
+      "IUSE/PFE:RED Planning: Redbirds Exploring Global Grand challenges In Engineering"
+    ],
+    "website": "",
+    "email": [
+      "maldema@IllinoisState.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAL, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2449643",
+        "title": "IUSE/PFE:RED Planning: Redbirds Exploring Global Grand challenges In Engineering",
+        "amount": "$149,998.00",
+        "program": "PFE\\RED - Professional Formati, IUSE",
+        "end_date": "06/30/2027",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Jing Wang jwang77@ilstu.edu",
+      "Allison Antink Meyer am32m@umsl.edu",
+      "Thomas K Keyser tkkeyse@ilstu.edu",
+      "Nesrin Ozalp nozalp@ilstu.edu"
+    ]
+  },
+  {
+    "id": "nsf-2419653",
+    "name": "George L Barnes",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Board of Trustees of Illinois State University",
+    "location": "NORMAL, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Simulations of MS Spectra: Examining Post-Translational Modifications and Nucleosides"
+    ],
+    "website": "",
+    "email": [
+      "glbarn3@ilstu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAL, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2419653",
+        "title": "RUI: Simulations of MS Spectra: Examining Post-Translational Modifications and Nucleosides",
+        "amount": "$396,000.00",
+        "program": "CSD-Chem Strcture and Dynamics",
+        "end_date": "02/29/2028",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2412920",
+    "name": "Justin Bergfield",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "Board of Trustees of Illinois State University",
+    "location": "NORMAL, IL",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "RUI: Quantum Information of Interference Features in Transport"
+    ],
+    "website": "",
+    "email": [
+      "jpbergf@ilstu.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NORMAL, IL",
+    "nsf_awards": [
+      {
+        "award_number": "2412920",
+        "title": "RUI: Quantum Information of Interference Features in Transport",
+        "amount": "$100,000.00",
+        "program": "QIS - Quantum Information Scie",
+        "end_date": "08/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  }
+]

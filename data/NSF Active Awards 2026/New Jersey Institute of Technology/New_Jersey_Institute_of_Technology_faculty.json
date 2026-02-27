@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nsf-2510714",
+    "name": "Yuan-Nan Young",
+    "title": "Principal Investigator",
+    "department": "Mathematical and Physical Sciences",
+    "school": "New Jersey Institute of Technology",
+    "location": "NEWARK, NJ",
+    "research_areas": [
+      "Mathematical and Physical Sciences",
+      "Collaborative Research: Surface and Bulk PDE Modeling of the Propulsion of an Active Drop"
+    ],
+    "website": "",
+    "email": [
+      "yyoung@njit.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2510714",
+        "title": "Collaborative Research: Surface and Bulk PDE Modeling of the Propulsion of an Active Drop",
+        "amount": "$100,000.00",
+        "program": "APPLIED MATHEMATICS",
+        "end_date": "07/31/2027",
+        "directorate": "MPS"
+      }
+    ],
+    "nsf_grants_count": 1
+  },
+  {
+    "id": "nsf-2515138",
+    "name": "Philip Pong",
+    "title": "Principal Investigator",
+    "department": "Engineering",
+    "school": "New Jersey Institute of Technology",
+    "location": "NEWARK, NJ",
+    "research_areas": [
+      "Engineering",
+      "IUCRC Planning Grant New Jersey Institute of Technology: Center for Grid Enhancing Technologies for ..."
+    ],
+    "website": "",
+    "email": [
+      "philip.pong@njit.edu"
+    ],
+    "h_index": "",
+    "lab_techniques": [],
+    "specific_location": "NEWARK, NJ",
+    "nsf_awards": [
+      {
+        "award_number": "2515138",
+        "title": "IUCRC Planning Grant New Jersey Institute of Technology: Center for Grid Enhancing Technologies for Offshore Wind Transmission and Integration (GOWIND)",
+        "amount": "$20,000.00",
+        "program": "IUCRC-Indust-Univ Coop Res Ctr",
+        "end_date": "07/31/2026",
+        "directorate": "ENG"
+      }
+    ],
+    "nsf_grants_count": 1,
+    "co_investigators": [
+      "Seyyedmohsen Azizi azizi@njit.edu",
+      "Marcos Netto marcos.netto@njit.edu",
+      "Joshua A Taylor taylor.a.josh@gmail.com",
+      "SangWoo Park sangwoo.park@njit.edu"
+    ]
+  }
+]
