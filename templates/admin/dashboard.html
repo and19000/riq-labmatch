@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="admin-header">
+    <h1>Admin Dashboard</h1>
+    <nav class="admin-nav">
+      <a href="{{ url_for('admin_dashboard') }}">Dashboard</a>
+      <a href="{{ url_for('admin_users') }}">Users</a>
+    </nav>
+  </div>
+
+  <div class="admin-stats">
+    <div class="stat-card">
+      <span class="stat-value">{{ total_page_views }}</span>
+      <span class="stat-label">Total page views</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-value">{{ total_users }}</span>
+      <span class="stat-label">Registered users</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-value">{{ total_saved }}</span>
+      <span class="stat-label">Saved PIs (total)</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-value">{{ total_resumes }}</span>
+      <span class="stat-label">Resumes uploaded</span>
+    </div>
+  </div>
+
+  <section class="admin-section">
+    <h2>Recent signups (last 10)</h2>
+    {% if recent_users %}
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Joined</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for u in recent_users %}
+            <tr>
+              <td>{{ u.username }}</td>
+              <td>{{ u.email }}</td>
+              <td>{{ u.created_at.strftime("%Y-%m-%d %H:%M") if u.created_at else "—" }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>No users yet.</p>
+    {% endif %}
+  </section>
+{% endblock %}

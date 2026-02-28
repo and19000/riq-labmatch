@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="admin-header">
+    <h1>Admin – Users</h1>
+    <nav class="admin-nav">
+      <a href="{{ url_for('admin_dashboard') }}">Dashboard</a>
+      <a href="{{ url_for('admin_users') }}">Users</a>
+    </nav>
+  </div>
+
+  <section class="admin-section">
+    {% if rows %}
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Joined</th>
+            <th>Saved PIs</th>
+            <th>Resumes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in rows %}
+            <tr>
+              <td>{{ r.user.username }}</td>
+              <td>{{ r.user.email }}</td>
+              <td>{{ r.user.created_at.strftime("%Y-%m-%d %H:%M") if r.user.created_at else "—" }}</td>
+              <td>{{ r.saved_count }}</td>
+              <td>{{ r.resume_count }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>No users yet.</p>
+    {% endif %}
+  </section>
+{% endblock %}

@@ -33,6 +33,9 @@
               <a href="{{ url_for('saved_pis') }}">Saved PIs</a>
             {% endif %}
             <a href="{{ url_for('help_page') }}">Help</a>
+            {% if is_admin %}
+              <a href="{{ url_for('admin_dashboard') }}">Admin</a>
+            {% endif %}
             <!-- Show different links based on whether user is logged in -->
             {% if session.get('user_id') %}
               <a href="{{ url_for('account') }}">{{ session.get('username', 'Account') }}</a>

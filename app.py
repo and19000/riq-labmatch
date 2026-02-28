@@ -25,8 +25,9 @@ from dotenv import load_dotenv
 
 # Load our environment variables (like API keys) from the .env file
 load_dotenv()
-# Set up the OpenAI client so we can use their AI models
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Set up the OpenAI client so we can use their AI models (optional for local dev)
+_api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=_api_key) if _api_key else None
 # We use gpt-4o-mini because it's cost-effective and still very capable
 GPT_MODEL = "gpt-4o-mini"
 
@@ -333,6 +334,11 @@ class PasswordResetToken(db.Model):
     def is_valid(self):
         return not self.used and datetime.utcnow() < self.expires_at
 
+# SiteStats: simple counter for total page views (admin dashboard)
+class SiteStats(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    total_page_views = db.Column(db.Integer, default=0)
+
 # Configuration for file uploads
 # Note: On hosted servers (Render/Railway), disk storage may be ephemeral
 # For production, consider using S3 or similar cloud storage for uploaded files
@@ -488,6 +494,13 @@ if ALLOWED_USERS:
 else:
     ALLOWED_EMAILS = None
 
+# Admin dashboard access: comma-separated emails (e.g. "admin@example.com,partner@example.com")
+_admin_emails_raw = os.getenv("ADMIN_EMAILS", "").strip()
+if _admin_emails_raw:
+    ADMIN_EMAILS_SET = {e.strip().lower() for e in _admin_emails_raw.split(",") if e.strip()}
+else:
+    ADMIN_EMAILS_SET = set()
+
 def is_user_authorized(user_email: str) -> bool:
     """Check if a user's email is in the allowed list.
     Handles Harvard email formats like something.college.harvard.edu"""
@@ -522,6 +535,26 @@ def require_authorized_user(f):
             flash("Access denied. This site is restricted to authorized users only.", "error")
             return redirect(url_for("login"))
         
+        return f(*args, **kwargs)
+    return decorated_function
+
+def admin_required(f):
+    """Decorator: require user to be logged in and listed in ADMIN_EMAILS."""
+    from functools import wraps
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        user_id = session.get("user_id")
+        if not user_id:
+            flash("Please log in to access the admin area.", "info")
+            return redirect(url_for("login"))
+        user = User.query.get(user_id)
+        if not user:
+            session.pop("user_id", None)
+            session.pop("is_admin", None)
+            return redirect(url_for("login"))
+        if not ADMIN_EMAILS_SET or user.email.lower().strip() not in ADMIN_EMAILS_SET:
+            flash("Access denied. Admin only.", "error")
+            return redirect(url_for("index"))
         return f(*args, **kwargs)
     return decorated_function
 
@@ -1257,6 +1290,8 @@ RIQ Lab Matcher Team
 # Instead of checking all labs one by one, we split them into batches and process multiple batches at once
 def process_faculty_batch(faculty_batch, resume_info, batch_num, total_batches):
     """Process a batch of faculty members and return match scores using AI."""
+    if not client:
+        return []
     try:
         # Create concise summaries for this batch (optimized for speed)
         # We use a more compact format to reduce token count and processing time
@@ -1332,10 +1367,37 @@ Only include labs with score >= 50. Rank highest to lowest."""
 
 # Routes - these define what happens when users visit different pages
 
+@app.context_processor
+def inject_admin():
+    """Make is_admin available in all templates."""
+    return {"is_admin": session.get("is_admin", False)}
+
+# Track page views for admin dashboard (GET requests to main pages only)
+_PAGE_VIEW_PATHS = frozenset(["/", "/general", "/matches", "/login", "/signup", "/saved", "/account", "/onboarding", "/help", "/draft-email", "/bulk-email"])
+@app.before_request
+def _increment_page_views():
+    if request.method != "GET":
+        return
+    path = request.path.rstrip("/") or "/"
+    if path not in _PAGE_VIEW_PATHS:
+        return
+    try:
+        row = SiteStats.query.get(1)
+        if row is None:
+            row = SiteStats(id=1, total_page_views=0)
+            db.session.add(row)
+        row.total_page_views = (row.total_page_views or 0) + 1
+        db.session.commit()
+    except Exception:
+        pass  # Don't break the request if stats fail
+
 @app.route("/test-gpt")
 @require_authorized_user
 def test_gpt():
     """Simple test route to make sure OpenAI API is working correctly."""
+    if not client:
+        flash("Set OPENAI_API_KEY in .env to use AI features.", "warning")
+        return redirect(url_for("matches"))
     try:
         completion = client.chat.completions.create(
             model=GPT_MODEL,
@@ -1846,6 +1908,9 @@ def bulk_email():
         if not selected_pi_ids:
             flash("Please select at least one PI.", "error")
             return redirect(url_for("bulk_email"))
+        if not client:
+            flash("Set OPENAI_API_KEY in .env to use email generation.", "warning")
+            return redirect(url_for("bulk_email"))
         
         generated_emails = []
         for pi_id in selected_pi_ids:
@@ -1937,6 +2002,8 @@ def draft_email():
             error = "Please select a PI."
         elif not student_name or not student_email:
             error = "Please provide your name and email."
+        elif not client:
+            error = "Set OPENAI_API_KEY in .env to use email drafting."
         else:
             pi = get_faculty_by_id(pi_id)
             if not pi:
@@ -2289,6 +2356,48 @@ def account():
     
     return render_template("account.html", user=user, profile=profile)
 
+
+# -----------------------------------------------------------------------------
+# Admin dashboard (requires ADMIN_EMAILS env var)
+# -----------------------------------------------------------------------------
+
+@app.route("/admin")
+@admin_required
+def admin_dashboard():
+    """Admin dashboard: site stats and recent activity."""
+    stats = SiteStats.query.get(1)
+    total_views = (stats.total_page_views or 0) if stats else 0
+    total_users = User.query.count()
+    total_saved = db.session.query(db.func.count(SavedPI.id)).scalar() or 0
+    total_resumes = db.session.query(db.func.count(Resume.id)).scalar() or 0
+    recent_users = User.query.order_by(User.created_at.desc()).limit(10).all()
+    return render_template(
+        "admin/dashboard.html",
+        total_page_views=total_views,
+        total_users=total_users,
+        total_saved=total_saved,
+        total_resumes=total_resumes,
+        recent_users=recent_users,
+    )
+
+
+@app.route("/admin/users")
+@admin_required
+def admin_users():
+    """Admin: list all users with saved-PI and resume counts."""
+    users = User.query.order_by(User.created_at.desc()).all()
+    rows = []
+    for u in users:
+        saved_count = SavedPI.query.filter_by(user_id=u.id).count()
+        resume_count = Resume.query.filter_by(user_id=u.id).count()
+        rows.append({
+            "user": u,
+            "saved_count": saved_count,
+            "resume_count": resume_count,
+        })
+    return render_template("admin/users.html", rows=rows)
+
+
 # Simple rate limit for login (prevent brute force): 10 attempts per minute per IP
 _login_attempts = {}  # ip -> list of timestamps
 LOGIN_RATE_LIMIT = 10
@@ -2348,6 +2457,7 @@ def login():
         # Login successful! Store the user info in the session so they stay logged in
         session["user_id"] = user.id
         session["username"] = user.username
+        session["is_admin"] = user.email.lower().strip() in ADMIN_EMAILS_SET
 
         return redirect(url_for("account"))
 
@@ -2356,6 +2466,7 @@ def login():
 @app.route("/logout")
 def logout():
     session.pop("user_id", None)
+    session.pop("is_admin", None)
     return redirect(url_for("index"))
 
 @app.route("/signup", methods=["GET", "POST"])
@@ -2432,6 +2543,7 @@ def signup():
         # Automatically log them in after signup
         session["user_id"] = user.id
         session["username"] = user.username
+        session["is_admin"] = user.email.lower().strip() in ADMIN_EMAILS_SET
 
         flash("Account created successfully!", "success")
         # Send new users to onboarding to set up their profile
