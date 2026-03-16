@@ -1,0 +1,2032 @@
+{
+  "api": "Brave",
+  "timestamp": "2026-03-02T00:28:59.904550",
+  "stats": {
+    "api": "Brave",
+    "queries": 239,
+    "estimated_cost": 1.195
+  },
+  "metrics": {
+    "total_professors": 80,
+    "website": {
+      "exact_match": 61,
+      "domain_match": 65,
+      "name_in_url": 76,
+      "found_any": 80,
+      "exact_rate": 76.2,
+      "domain_rate": 81.2,
+      "found_rate": 100.0
+    },
+    "email": {
+      "exact_match": 26,
+      "domain_match": 29,
+      "found_any": 64,
+      "exact_rate": 32.5,
+      "domain_rate": 36.2,
+      "found_rate": 80.0
+    },
+    "avg_website_score": 0.876,
+    "avg_email_score": 0.431,
+    "combined_score": 0.653
+  },
+  "results": [
+    {
+      "name": "Fernando D. Camargo",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "fernando.camargo@childrens.harvard.edu",
+      "gold_website": "https://dms.hms.harvard.edu/people/fernando-d-camargo",
+      "found_website": "https://dms.hms.harvard.edu/people/fernando-d-camargo",
+      "found_email": "fernando.camargo@childrens.harvard.edu",
+      "all_urls": [
+        "https://dms.hms.harvard.edu/people/fernando-d-camargo",
+        "https://ogephd.hms.harvard.edu/people/fernando-d-camargo",
+        "https://www.researchgate.net/scientific-contributions/Fernando-D-Camargo-44487432",
+        "https://www.childrenshospital.org/research/labs/camargo-laboratory-research/meet-our-team",
+        "https://www.pewtrusts.org/en/projects/pew-biomedical-scholars/directory-of-pew-scholars/2010/fernando-camargo"
+      ],
+      "all_emails": [
+        "fernando.camargo@childrens.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 3
+    },
+    {
+      "name": "Elizabeth Loder",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1252082/217",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1252082/217",
+      "found_email": "",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1252082/217",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1252082",
+        "https://www.linkedin.com/in/elizabeth-loder-616a20175/",
+        "https://www.bmj.com/about-bmj/editorial-staff/elizabeth-loder",
+        "https://www.zoominfo.com/p/Elizabeth-Loder/1231535338"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 6
+    },
+    {
+      "name": "Troyen A. Brennan",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "karen_brennan@gse.harvard.edu",
+      "gold_website": "https://seas.harvard.edu/person/karen-brennan",
+      "found_website": "https://www.hup.harvard.edu/authors/2253-brennan-troyen-a",
+      "found_email": "",
+      "all_urls": [
+        "https://www.hup.harvard.edu/authors/2253-brennan-troyen-a",
+        "https://dash.harvard.edu/handle/1/38846188",
+        "http://www.hup.harvard.edu/catalog.php?isbn=9780674558809",
+        "https://dash.harvard.edu/entities/publication/73120378-ab75-6bd4-e053-0100007fdf3b",
+        "https://www.press.jhu.edu/books/authors/troyen-brennan"
+      ],
+      "all_emails": [],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 9
+    },
+    {
+      "name": "Fiammetta Straneo",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "fstraneo@seas.harvard.edu",
+      "gold_website": "",
+      "found_website": "https://www.environment.harvard.edu/event/seas-seminar-0",
+      "found_email": "douglas_woodhouse@harvard.edu",
+      "all_urls": [
+        "https://www.environment.harvard.edu/event/seas-seminar-0"
+      ],
+      "all_emails": [
+        "douglas_woodhouse@harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": false,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 12
+    },
+    {
+      "name": "Josep M. Mercader",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "jmercader@mgh.harvard.edu",
+      "gold_website": "https://mercaderlab.mgh.harvard.edu/",
+      "found_website": "https://mercaderlab.mgh.harvard.edu/",
+      "found_email": "jmercader@mgh.harvard.edu",
+      "all_urls": [
+        "https://mercaderlab.mgh.harvard.edu/",
+        "https://loop.frontiersin.org/people/424226/overview",
+        "https://www.medrxiv.org/content/10.1101/2023.09.28.23296244v1",
+        "https://www.medrxiv.org/content/10.1101/2024.07.15.24310282v1",
+        "https://advances.massgeneral.org/contributors/contributor.aspx?id=1865"
+      ],
+      "all_emails": [
+        "jmercader@mgh.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 15
+    },
+    {
+      "name": "Janey L. Wiggs",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://eye.hms.harvard.edu/janeywiggs",
+      "found_website": "https://eye.hms.harvard.edu/janeywiggs",
+      "found_email": "",
+      "all_urls": [
+        "https://eye.hms.harvard.edu/janeywiggs",
+        "https://eye.hms.harvard.edu/news/janey-wiggs-md-phd-receives-heed-gutman-award",
+        "https://eye.hms.harvard.edu/news/janey-l-wiggs-md-phd-receives-lifetime-achievement-mentoring-award",
+        "https://eye.hms.harvard.edu/news/janey-l-wiggs-md-phd-selected-receive-2022-weisenfeld-award",
+        "https://eye.hms.harvard.edu/news/janey-l-wiggs-md-phd-elected-national-academy-medicine"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 18
+    },
+    {
+      "name": "Robert J. Blendon",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/profile/robert-j-blendon",
+      "found_website": "https://hsph.harvard.edu/profile/robert-j-blendon/",
+      "found_email": "ali_sir@harvard.edu",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/robert-j-blendon/",
+        "https://www.hsph.harvard.edu/robert-blendon/",
+        "https://www.sir.advancedleadership.harvard.edu/articles/over-71-million-votes-trump-and-party-polarization-stronger-ever",
+        "https://cff.hms.harvard.edu/fellows/fellows-bios/robert-blendon-mba-mph-scd-ma",
+        "https://news.harvard.edu/gazette/story/2009/05/survey-many-americans-protecting-themselves-against-h1n1/"
+      ],
+      "all_emails": [
+        "ali_sir@harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 21
+    },
+    {
+      "name": "Kenneth Froot",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://sites.harvard.edu/cafh/directory/kenneth-froot",
+      "found_website": "https://sites.harvard.edu/cafh/directory/kenneth-froot/",
+      "found_email": "krogoff@harvard.edu",
+      "all_urls": [
+        "https://sites.harvard.edu/cafh/directory/kenneth-froot/",
+        "https://scholar.harvard.edu/files/kenfroot/files/how_institutional_investors.pdf",
+        "https://scholar.harvard.edu/rogoff/publications/law-one-price-over-700-years",
+        "https://rogoff.scholars.harvard.edu/sites/g/files/omnuum5901/files/2025-02/cv_rogoff_jan2025.doc.pdf",
+        "https://scholar.harvard.edu/files/rogoff/files/cv_rogoff_121619.pdf"
+      ],
+      "all_emails": [
+        "krogoff@harvard.edu",
+        "csqueries@infopro-digital.com"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 24
+    },
+    {
+      "name": "Lisa Diller",
+      "affiliation": "Radcliffe Institute",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.radcliffe.harvard.edu/people/lisa-diller",
+      "found_website": "https://www.radcliffe.harvard.edu/people/lisa-diller",
+      "found_email": "",
+      "all_urls": [
+        "https://www.radcliffe.harvard.edu/people/lisa-diller",
+        "https://www.radcliffe.harvard.edu/fellowship-program/fellows?page=6%2C30&q=fellowship-program%2Ffellows&year=",
+        "https://news.harvard.edu/gazette/story/2019/03/harvard-doc-says-neonatal-dna-tests-could-save-young-lives/",
+        "https://medicalxpress.com/news/2019-04-neonatal-dna-young-expert.html",
+        "https://www.dfhcc.harvard.edu/insider/member-detail/member/lisa-diller-md/"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 26
+    },
+    {
+      "name": "Naoshige Uchida",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "uchida@hms.harvard.edu",
+      "gold_website": "https://www.harvard.edu/directory/uchida",
+      "found_website": "https://www.mcb.harvard.edu/directory/naoshige-uchida/",
+      "found_email": "uchida@mcb.harvard.edu",
+      "all_urls": [
+        "https://www.mcb.harvard.edu/directory/naoshige-uchida/",
+        "https://www.mcb.harvard.edu/department/news/naoshige-uchida-becomes-director-of-undergraduate-studies-in-neuroscience-taking-over-from-jeff-lichtman/",
+        "https://www.mcb.harvard.edu/department/news/naoshige-uchida-named-jeff-c-tarr-professor-launches-new-simons-funded-autism-research-collaboration/",
+        "https://brain.harvard.edu/?people=naoshige-uchida",
+        "https://cbs.fas.harvard.edu/directory/naoshige-uchida/"
+      ],
+      "all_emails": [
+        "uchida@mcb.harvard.edu",
+        "kehayova@fas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 29
+    },
+    {
+      "name": "Andrew Wellman",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "awellman@rics.bwh.harvard.edu",
+      "gold_website": "https://sleep.hms.harvard.edu/faculty-staff/d-andrew-wellman",
+      "found_website": "https://sleep.hms.harvard.edu/faculty-staff/d-andrew-wellman",
+      "found_email": "awellman@rics.bwh.harvard.edu",
+      "all_urls": [
+        "https://sleep.hms.harvard.edu/faculty-staff/d-andrew-wellman",
+        "https://sleep.hms.harvard.edu/news/andrew-wellman-md-phd-wins-distinguished-clinician-award",
+        "https://sleep.hms.harvard.edu/research/labs-divisions/sleep-disordered-breathing-lab",
+        "https://sleep.hms.harvard.edu/news",
+        "https://sleep.hms.harvard.edu/research/labs-divisions/program-sleep-medicine-epidemiology-sme"
+      ],
+      "all_emails": [
+        "awellman@rics.bwh.harvard.edu",
+        "ncalianese@partners.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 32
+    },
+    {
+      "name": "Anne Marie Valente",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1255445",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1255445",
+      "found_email": "",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1255445",
+        "https://connects.catalyst.harvard.edu/profiles/profile/person/41995/historynext",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1255445/217",
+        "https://physiciandirectory.brighamandwomens.org/details/141/anne-valente-cardiovascular_medicine-boston",
+        "https://www.practiceupdate.com/author/anne-valente/4732"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 35
+    },
+    {
+      "name": "Bruce E. Landon",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "erika_landon@hcp.med.harvard.edu",
+      "gold_website": "https://hcp.hms.harvard.edu/people/bruce-e-landon",
+      "found_website": "https://hcp.hms.harvard.edu/people/bruce-e-landon",
+      "found_email": "landon@hcp.med.harvard.edu ",
+      "all_urls": [
+        "https://hcp.hms.harvard.edu/people/bruce-e-landon",
+        "https://primarycare.hms.harvard.edu/faculty-staff/bruce-e-landon",
+        "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/bruce-e-landon",
+        "https://ihsrc.hsites.harvard.edu/people/bruce-e-landon",
+        "https://hmrlab.hcp.med.harvard.edu/people/bruce-e-landon-md-mba-msc"
+      ],
+      "all_emails": [
+        "landon@hcp.med.harvard.edu ",
+        "landon@hcp.med.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": true,
+      "queries_used": 38
+    },
+    {
+      "name": "Michael E. Chernew",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "chernew@hcp.med.harvard.edu",
+      "gold_website": "https://hcp.hms.harvard.edu/people/michael-e-chernew",
+      "found_website": "https://hcp.hms.harvard.edu/people/michael-e-chernew",
+      "found_email": "chernew@hcp.med.harvard.edu",
+      "all_urls": [
+        "https://hcp.hms.harvard.edu/people/michael-e-chernew",
+        "https://scholar.harvard.edu/michaelchernew/bio",
+        "https://hcp.hms.harvard.edu/news/hcp-professors-appointed-medpac",
+        "https://hcp.hms.harvard.edu/news/chernew-reappointed-medpac-chair",
+        "https://hcp.hms.harvard.edu/people"
+      ],
+      "all_emails": [
+        "chernew@hcp.med.harvard.edu",
+        "abing@hcp.med.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 41
+    },
+    {
+      "name": "Bertrand I. Halperin",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "halperin@physics.harvard.edu",
+      "gold_website": "https://www.harvard.edu/directory/halperin",
+      "found_website": "https://www.physics.harvard.edu/people/facpages/halperin",
+      "found_email": "halperin@physics.harvard.edu",
+      "all_urls": [
+        "https://www.physics.harvard.edu/people/facpages/halperin",
+        "http://cmt.harvard.edu/halperin.html",
+        "https://www.physics.harvard.edu/resource/halperin-cvpdf",
+        "https://projects.iq.harvard.edu/files/CV_Halperin.pdf",
+        "https://nelson.hsites.harvard.edu/?destination=home&cb=94406617"
+      ],
+      "all_emails": [
+        "halperin@physics.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 44
+    },
+    {
+      "name": "Eli Tziperman",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://eps.harvard.edu/people/eli-tziperman",
+      "found_website": "https://eps.harvard.edu/people/eli-tziperman/",
+      "found_email": "eli@eps.harvard.edu",
+      "all_urls": [
+        "https://eps.harvard.edu/people/eli-tziperman/",
+        "https://groups.seas.harvard.edu/climate/eli/",
+        "https://seas.harvard.edu/person/eli-tziperman",
+        "https://www.environment.harvard.edu/people/eli-tziperman",
+        "https://climate.fas.harvard.edu/people/eli-tziperman"
+      ],
+      "all_emails": [
+        "eli@eps.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 47
+    },
+    {
+      "name": "Katia Bertoldi",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "bertoldi@seas.harvard.edu",
+      "gold_website": "https://scholar.harvard.edu/bertoldi",
+      "found_website": "https://seas.harvard.edu/person/katia-bertoldi",
+      "found_email": "bertoldi@seas.harvard.edu",
+      "all_urls": [
+        "https://seas.harvard.edu/person/katia-bertoldi",
+        "https://bertoldi.seas.harvard.edu/pages/principal-investigator",
+        "https://seas.harvard.edu/news/2012/02/katia-bertoldi-wins-faculty-early-career-development-award",
+        "https://wyss.harvard.edu/news/humans-of-the-wyss-faculty-edition-katia-bertoldi/",
+        "https://www.seas.harvard.edu/news/2014/02/katia-bertoldi-receive-asmes-2014-hughes-young-investigator-award"
+      ],
+      "all_emails": [
+        "bertoldi@seas.harvard.edu",
+        "azewe@seas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 50
+    },
+    {
+      "name": "Manoj T. Duraisingh",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/profile/manoj-t-duraisingh",
+      "found_website": "https://hsph.harvard.edu/profile/manoj-t-duraisingh/",
+      "found_email": "mbrownstein@hsph.harvard.edu",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/manoj-t-duraisingh/",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1233376",
+        "https://dash.harvard.edu/entities/publication/73120378-886c-6bd4-e053-0100007fdf3b",
+        "https://hsph.harvard.edu/news/essential-genome-of-malaria-parasite-plasmodium-knowlesi-mapped/",
+        "https://www.science.org/content/author/manoj-t-duraisingh"
+      ],
+      "all_emails": [
+        "mbrownstein@hsph.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 53
+    },
+    {
+      "name": "Haim Sompolinsky",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "hsompolinsky@mcb.harvard.edu",
+      "gold_website": "https://www.mcb.harvard.edu/directory/haim-sompolinsky",
+      "found_website": "https://www.mcb.harvard.edu/directory/haim-sompolinsky/",
+      "found_email": "hsompolinsky@mcb.harvard.edu",
+      "all_urls": [
+        "https://www.mcb.harvard.edu/directory/haim-sompolinsky/",
+        "https://kempnerinstitute.harvard.edu/people/our-people/haim-sompolinsky/",
+        "https://cbs.fas.harvard.edu/directory/haim-sompolinsky/",
+        "https://www.physics.harvard.edu/people/haim-sompolinsky",
+        "https://news.harvard.edu/gazette/story/2024/03/haim-sompolinsky-awarded-brain-prize/"
+      ],
+      "all_emails": [
+        "hsompolinsky@mcb.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 56
+    },
+    {
+      "name": "Charles R.G. Guttmann",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/display/person/49315/network/researchareas",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/display/Person/49315/Network/ResearchAreas",
+      "found_email": "sandler.brittney@wustl.edu",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/49315/Network/ResearchAreas",
+        "https://scholar.google.com/citations?user=YGin91kAAAAJ&hl=en",
+        "https://research.com/u/charles-rg-guttmann",
+        "https://loop.frontiersin.org/people/449221/overview",
+        "https://digitalcommons.wustl.edu/open_access_pubs/8348/"
+      ],
+      "all_emails": [
+        "sandler.brittney@wustl.edu",
+        "mmandel@hsph.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 59
+    },
+    {
+      "name": "Aravinthan D. T. Samuel",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "asamuel@fas.harvard.edu",
+      "gold_website": "",
+      "found_website": "https://www.researchgate.net/profile/Linjiao-Luo",
+      "found_email": "firstyearseminarprogram@fas.harvard.edu",
+      "all_urls": [
+        "https://www.researchgate.net/profile/Linjiao-Luo",
+        "https://www.researchgate.net/scientific-contributions/Aravinthan-D-T-Samuel-21148846",
+        "https://research.com/u/aravinthan-d-t-samuel",
+        "https://firstyearseminarprogram.college.harvard.edu/directory/changing-perspectives-the-science-of-optics-in-the-visual-arts-2/",
+        "https://timesofindia.indiatimes.com/etimes/trending/meet-aravinthan-samuel-indian-origin-harvard-professor-building-a-smart-microscope-to-map-the-brains-wiring-faster-than-before/articleshow/126660757.cms"
+      ],
+      "all_emails": [
+        "firstyearseminarprogram@fas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": false,
+      "email_exact_match": false,
+      "email_domain_match": true,
+      "queries_used": 62
+    },
+    {
+      "name": "Daniel E. Lieberman",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "danlieb@fas.harvard.edu",
+      "gold_website": "https://scholar.harvard.edu/dlieberman",
+      "found_website": "https://scholar.harvard.edu/dlieberman/home",
+      "found_email": "danlieb@fas.harvard.edu",
+      "all_urls": [
+        "https://scholar.harvard.edu/dlieberman/home",
+        "https://scholar.harvard.edu/dlieberman/about-me",
+        "https://skeleton.hsites.harvard.edu/people/daniel-e-lieberman",
+        "https://www.oeb.harvard.edu/people/mr-daniel-e-lieberman-lieberman-daniel-eric",
+        "https://scholar.harvard.edu/dlieberman/publications"
+      ],
+      "all_emails": [
+        "danlieb@fas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 65
+    },
+    {
+      "name": "James Mallet",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "jmallet@oeb.harvard.edu",
+      "gold_website": "https://www.oeb.harvard.edu/people/james-mallet",
+      "found_website": "https://www.oeb.harvard.edu/people/james-mallet",
+      "found_email": "jmallet@oeb.harvard.edu",
+      "all_urls": [
+        "https://www.oeb.harvard.edu/people/james-mallet",
+        "https://alumni.harvard.edu/travel/leaders/james-mallet",
+        "https://mallet.oeb.harvard.edu/group",
+        "https://scholar.harvard.edu/mallet/home",
+        "https://www.mcb.harvard.edu/directory/james-mallet/"
+      ],
+      "all_emails": [
+        "jmallet@oeb.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 68
+    },
+    {
+      "name": "Robert D. Howe",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "howe@seas.harvard.edu",
+      "gold_website": "https://seas.harvard.edu/person/robert-howe",
+      "found_website": "https://seas.harvard.edu/person/robert-howe",
+      "found_email": "howe@seas.harvard.edu",
+      "all_urls": [
+        "https://seas.harvard.edu/person/robert-howe",
+        "http://people.seas.harvard.edu/~howe/",
+        "https://robotics.harvard.edu/robert-d-howe",
+        "http://biorobotics.harvard.edu/publications.html",
+        "https://dash.harvard.edu/entities/publication/73120378-8cdf-6bd4-e053-0100007fdf3b"
+      ],
+      "all_emails": [
+        "howe@seas.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 71
+    },
+    {
+      "name": "Steven E. Shoelson",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "steven.shoelson@josin.harvard.edu",
+      "gold_website": "https://bcmp.hms.harvard.edu/faculty-staff/steven-e-shoelson",
+      "found_website": "https://bcmp.hms.harvard.edu/faculty-staff/steven-e-shoelson",
+      "found_email": "steven.shoelson@josin.harvard.edu",
+      "all_urls": [
+        "https://bcmp.hms.harvard.edu/faculty-staff/steven-e-shoelson",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/25441",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/25441/Network/CoAuthors/Person/79663",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1243764",
+        "https://news.harvard.edu/gazette/story/2005/01/scientists-discover-master-switch-that-triggers-insulin-resistance-and-type-2-diabetes/"
+      ],
+      "all_emails": [
+        "steven.shoelson@josin.harvard.edu",
+        "steven.shoelson@joslin.harvard.edu",
+        "allison.goldfine@joslin.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 74
+    },
+    {
+      "name": "Hicham Skali",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.health.harvard.edu/authors/hicham-skali-md-msc-facc",
+      "found_website": "https://www.health.harvard.edu/authors/hicham-skali-md-msc-facc",
+      "found_email": "hskali@bwh.harvard.edu",
+      "all_urls": [
+        "https://www.health.harvard.edu/authors/hicham-skali-md-msc-facc",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1250092",
+        "https://nutrition.hms.harvard.edu/hicham-skali",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1250092/217",
+        "https://www.health.harvard.edu/heart-health/how-physical-activity-keeps-your-heart-in-good-shape"
+      ],
+      "all_emails": [
+        "hskali@bwh.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 77
+    },
+    {
+      "name": "Dyann F. Wirth",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/profile/dyann-f-wirth",
+      "found_website": "https://hsph.harvard.edu/profile/dyann-f-wirth/",
+      "found_email": "hcronshaw@hsph.harvard.edu",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/dyann-f-wirth/",
+        "https://bbsphd.hms.harvard.edu/people/dyann-f-wirth",
+        "https://dms.hms.harvard.edu/people/dyann-f-wirth",
+        "https://news.harvard.edu/gazette/story/2015/06/coordinating-against-malaria/",
+        "https://www.hsph.harvard.edu/news/press-releases/malaria-drug-resistance-genes/"
+      ],
+      "all_emails": [
+        "hcronshaw@hsph.harvard.edu",
+        "dfwirth@hsph.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 80
+    },
+    {
+      "name": "Ramesh A. Shivdasani",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "ramesh_shivdasani@dfci.harvard.edu",
+      "gold_website": "https://dms.hms.harvard.edu/people/ramesh-shivdasani-3",
+      "found_website": "https://www.dfhcc.harvard.edu/insider/member-detail?tx_hcc_persondetail%5Baction%5D=show&tx_hcc_persondetail%5Bcontroller%5D=Person&tx_hcc_persondetail%5Bperson%5D=380&cHash=4aa9d721273f286e74e9bfd10492a622",
+      "found_email": "dfhcc@partners.org",
+      "all_urls": [
+        "https://www.dfhcc.harvard.edu/insider/member-detail?tx_hcc_persondetail%5Baction%5D=show&tx_hcc_persondetail%5Bcontroller%5D=Person&tx_hcc_persondetail%5Bperson%5D=380&cHash=4aa9d721273f286e74e9bfd10492a622",
+        "https://dms.hms.harvard.edu/people/ramesh-shivdasani-3",
+        "https://dash.harvard.edu/entities/publication/73120378-d869-6bd4-e053-0100007fdf3b",
+        "https://data.the-asci.org/controllers/asci/DirectoryController.php?action=profile&entryId=500466",
+        "https://www.zoominfo.com/p/Ramesh-Shivdasani/16994499"
+      ],
+      "all_emails": [
+        "dfhcc@partners.org",
+        "ramesh_shivdasani@dfci.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": false,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 83
+    },
+    {
+      "name": "Marc G. Weisskopf",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/profile/marc-weisskopf",
+      "found_website": "https://hsph.harvard.edu/profile/marc-weisskopf/",
+      "found_email": "",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/marc-weisskopf/",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1259992",
+        "https://footballplayershealth.harvard.edu/team/marc-g-weisskopf/",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1259992/494",
+        "https://dash.harvard.edu/handle/1/16120915"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 86
+    },
+    {
+      "name": "William Milberg",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "wmilberg@hms.harvard.edu",
+      "gold_website": "https://heartbrain.hms.harvard.edu/people/william-milberg-phd",
+      "found_website": "https://heartbrain.hms.harvard.edu/people/william-milberg-phd",
+      "found_email": "wmilberg@hms.harvard.edu",
+      "all_urls": [
+        "https://heartbrain.hms.harvard.edu/people/william-milberg-phd",
+        "https://mbb.harvard.edu/people/william-milberg",
+        "https://projects.iq.harvard.edu/stephome/people/william-milberg-phd",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1258047",
+        "https://heartbrain.hms.harvard.edu/news/tracts-co-directors-dr-william-milberg-and-dr-catherine-fortier-interviewed-wgbhs"
+      ],
+      "all_emails": [
+        "wmilberg@hms.harvard.edu",
+        "william_milberg@hms.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 89
+    },
+    {
+      "name": "Jill M. Goldstein",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.health.harvard.edu/authors/jill-m-goldstein-phd",
+      "found_website": "https://www.health.harvard.edu/authors/jill-m-goldstein-phd",
+      "found_email": "02129cnl@partners.org",
+      "all_urls": [
+        "https://www.health.harvard.edu/authors/jill-m-goldstein-phd",
+        "https://www.cnl-sd.mgh.harvard.edu/directors-team/jill-goldstein",
+        "https://www.icon.mgh.harvard.edu/leadership/jill-goldstein",
+        "https://bricweb.bidmc.harvard.edu/bostoncidar/bio.asp?n=goldstein",
+        "https://www.cnl-sd.mgh.harvard.edu/?page_id=225"
+      ],
+      "all_emails": [
+        "02129cnl@partners.org",
+        "icon@mgh.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 92
+    },
+    {
+      "name": "Thumbi Ndung\u2019u",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/profile/peter-thumbi-ndungu",
+      "found_website": "https://hsph.harvard.edu/profile/peter-thumbi-ndungu/",
+      "found_email": "giving@hsph.harvard.edu",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/peter-thumbi-ndungu/",
+        "https://www.hsph.harvard.edu/news/aw23_awardee_1200/",
+        "https://www.hsph.harvard.edu/news/features/2023-alumni-awards/",
+        "https://hsph.harvard.edu/news/2023-alumni-awards/",
+        "https://hsph.harvard.edu/alumni-friends/alumni-home/alumni-association/awards/honorees/"
+      ],
+      "all_emails": [
+        "giving@hsph.harvard.edu",
+        "dbarouch@bidmc.harvard.edu",
+        "thumbi.ndungu@ahri.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 95
+    },
+    {
+      "name": "Scott Kinlay",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1238853",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1238853",
+      "found_email": "scott.kinlay@va.gov",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1238853",
+        "https://dicp.hms.harvard.edu/pfdi_faculty_fellowship",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/88844",
+        "https://www.linkedin.com/in/scott-kinlay-2a5985340/",
+        "https://www.bumc.bu.edu/medicine/profile/scott-kinlay/"
+      ],
+      "all_emails": [
+        "scott.kinlay@va.gov"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 98
+    },
+    {
+      "name": "Aristidis Veves",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "aveves@bidmc.harvard.edu",
+      "gold_website": "https://sleep.hms.harvard.edu/faculty-staff/aristidis-veves",
+      "found_website": "https://sleep.hms.harvard.edu/faculty-staff/aristidis-veves",
+      "found_email": "aveves@bidmc.harvard.edu",
+      "all_urls": [
+        "https://sleep.hms.harvard.edu/faculty-staff/aristidis-veves",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1241173",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1241173/363",
+        "https://connects.catalyst.harvard.edu/profiles/display/Person/18929",
+        "https://hms.harvard.edu/news/veves-receives-xu-professorship"
+      ],
+      "all_emails": [
+        "aveves@bidmc.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 101
+    },
+    {
+      "name": "Robert M. Neer",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.hup.harvard.edu/authors/15092-neer-robert-m",
+      "found_website": "https://www.hup.harvard.edu/authors/15092-neer-robert-m",
+      "found_email": "",
+      "all_urls": [
+        "https://www.hup.harvard.edu/authors/15092-neer-robert-m",
+        "https://hup.harvard.edu/catalog.php?isbn=9780674088085",
+        "https://www.hup.harvard.edu/catalog.php?isbn=9780674088085",
+        "https://www.hup.harvard.edu/catalog.php?isbn=9780674088085&content=bios",
+        "https://www.amazon.com/Robert-M.-Neer/e/B002N2V0JI%3Fref=dbs_a_mng_rwt_scns_share"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 104
+    },
+    {
+      "name": "Robert F. Padera",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://meded.hms.harvard.edu/people/robert-f-padera-jr-md-phd",
+      "found_website": "https://meded.hms.harvard.edu/people/robert-f-padera-jr-md-phd",
+      "found_email": "hst@mit.edu",
+      "all_urls": [
+        "https://meded.hms.harvard.edu/people/robert-f-padera-jr-md-phd",
+        "https://hst.mit.edu/faculty-research/faculty/padera-robert",
+        "https://www.dana-farber.org/find-a-doctor/robert-f-padera",
+        "https://physiciandirectory.brighamandwomens.org/details/1238/robert-padera-jr-pathology-boston",
+        "https://health.usnews.com/doctors/robert-padera-755342"
+      ],
+      "all_emails": [
+        "hst@mit.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 107
+    },
+    {
+      "name": "Stephen B. Calderwood",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "jstartek@mgh.harvard.edu",
+      "gold_website": "https://mghbwhid.hms.harvard.edu/dr-stephen-b-calderwood-receives-the-partners-medical-education-outstanding-mentor-award",
+      "found_website": "https://mghbwhid.hms.harvard.edu/dr-stephen-b-calderwood-receives-the-partners-medical-education-outstanding-mentor-award/",
+      "found_email": "",
+      "all_urls": [
+        "https://mghbwhid.hms.harvard.edu/dr-stephen-b-calderwood-receives-the-partners-medical-education-outstanding-mentor-award/",
+        "https://hms.harvard.edu/news/internal-awards-recognitions-autumn-2024",
+        "https://dash.harvard.edu/entities/publication/73120378-c4f4-6bd4-e053-0100007fdf3b",
+        "https://www.researchgate.net/scientific-contributions/Stephen-B-Calderwood-38741878",
+        "https://journals.asm.org/doi/full/10.1128/iai.00578-08"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 110
+    },
+    {
+      "name": "R. J. Madix",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://madixlab.seas.harvard.edu/publications",
+      "found_website": "https://efrc.harvard.edu/resources-publications",
+      "found_email": "rmadix@seas.harvard.edu",
+      "all_urls": [
+        "https://efrc.harvard.edu/resources-publications",
+        "https://madixlab.seas.harvard.edu/publications",
+        "https://pubs.rsc.org/en/content/articlelanding/2021/cy/d1cy00469g/unauth",
+        "https://pubs.rsc.org/en/content/articlelanding/2018/CP/C7CP06451A"
+      ],
+      "all_emails": [
+        "rmadix@seas.harvard.edu",
+        "friend@fas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": false,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 113
+    },
+    {
+      "name": "Clare M. Tempany",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "ctempany@bwh.harvard.edu",
+      "gold_website": "https://spl.harvard.edu/people/clare-m-tempany-md",
+      "found_website": "https://spl.harvard.edu/people/clare-m-tempany-md",
+      "found_email": "ctempany@bwh.harvard.edu",
+      "all_urls": [
+        "https://spl.harvard.edu/people/clare-m-tempany-md",
+        "https://nac.spl.harvard.edu/active-collaborations",
+        "https://www.dfhcc.harvard.edu/insider/member-detail?tx_hcc_persondetail%5Baction%5D=show&tx_hcc_persondetail%5Bcontroller%5D=Person&tx_hcc_persondetail%5Bperson%5D=306&cHash=52766235bc6031b4251967d398ea07a5",
+        "https://www.ncigt.org/clare-m-tempany-md/",
+        "https://ncigt.org/people/center-director/clare-tempany"
+      ],
+      "all_emails": [
+        "ctempany@bwh.harvard.edu",
+        "cmorton@partners.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 116
+    },
+    {
+      "name": "Shingo Kajimura",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "skajimur@bidmc.harvard.edu",
+      "gold_website": "https://ogephd.hms.harvard.edu/people/shingo-kajimura",
+      "found_website": "https://ogephd.hms.harvard.edu/people/shingo-kajimura",
+      "found_email": "skajimur@bidmc.harvard.edu",
+      "all_urls": [
+        "https://ogephd.hms.harvard.edu/people/shingo-kajimura",
+        "https://nutrition.hms.harvard.edu/people/shingo-kajimura",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1232055",
+        "https://bbsphd.hms.harvard.edu/people/shingo-kajimura",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1232055/217"
+      ],
+      "all_emails": [
+        "skajimur@bidmc.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 119
+    },
+    {
+      "name": "Nicole Lurie",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://cff.hms.harvard.edu/fellows/fellows-bios/nicole-lurie-md-msph",
+      "found_website": "https://cff.hms.harvard.edu/fellows/fellows-bios/nicole-lurie-md-msph",
+      "found_email": "ying_wang@hms.harvard.edu",
+      "all_urls": [
+        "https://cff.hms.harvard.edu/fellows/fellows-bios/nicole-lurie-md-msph",
+        "https://cff.hms.harvard.edu/about/administration",
+        "http://petrieflom.law.harvard.edu/events/details/vaccines-for-outbreaks-in-the-modern-world",
+        "https://en.wikipedia.org/wiki/Nicole_Lurie",
+        "https://academyhealth.org/about/people/nicole-lurie-md-msph"
+      ],
+      "all_emails": [
+        "ying_wang@hms.harvard.edu",
+        "petrie-flom@law.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 122
+    },
+    {
+      "name": "Liu C",
+      "affiliation": "Harvard Law School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://corpgov.law.harvard.edu/2020/07/04/an-analysis-of-the-supreme-courts-decision-in-liu-v-sec",
+      "found_website": "https://corpgov.law.harvard.edu/2020/07/04/an-analysis-of-the-supreme-courts-decision-in-liu-v-sec/",
+      "found_email": "yahya_chaudhry@fas.harvard.edu",
+      "all_urls": [
+        "https://corpgov.law.harvard.edu/2020/07/04/an-analysis-of-the-supreme-courts-decision-in-liu-v-sec/",
+        "https://cyber.harvard.edu/property00/jurisdiction/liu.html",
+        "https://www.chemistry.harvard.edu/news/new-assistant-professor-richard-liu-joins-ccb",
+        "https://salatainstitute.harvard.edu/faculty/richard-liu/",
+        "https://hls.harvard.edu/faculty/goodwin-liu/"
+      ],
+      "all_emails": [
+        "yahya_chaudhry@fas.harvard.edu",
+        "richardliu@chemistry.harvard.edu",
+        "gliu@law.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 125
+    },
+    {
+      "name": "Hiroaki Hayashi",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/169500642",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/169500642",
+      "found_email": "hayashi.hiroaki@staff.kanazawa-u.ac.jp",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/169500642",
+        "https://scholar.google.com/citations?hl=en&user=dhdP1fIAAAAJ",
+        "https://jglobal.jst.go.jp/en/detail/?JGLOBAL_ID=200901084160668587&t=1",
+        "https://ridb.kanazawa-u.ac.jp/public/detail_en.php?id=4662",
+        "https://www.linkedin.com/in/hiroakihayashi/"
+      ],
+      "all_emails": [
+        "hayashi.hiroaki@staff.kanazawa-u.ac.jp"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 128
+    },
+    {
+      "name": "Sauro Succi",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://iacs.seas.harvard.edu/people/sauro-succi",
+      "found_website": "https://iacs.seas.harvard.edu/people/sauro-succi",
+      "found_email": "",
+      "all_urls": [
+        "https://iacs.seas.harvard.edu/people/sauro-succi",
+        "https://scholar.harvard.edu/efthimios_kaxiras/sauro-succi",
+        "https://projects.iq.harvard.edu/iacs/people/sauro-succi",
+        "https://efthimioskaxiras.scholars.harvard.edu/sauro-succi",
+        "https://projects.iq.harvard.edu/ac274_2016"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 131
+    },
+    {
+      "name": "Frederick A. Jakobiec",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://eye.hms.harvard.edu/frederickjakobiec",
+      "found_website": "https://eye.hms.harvard.edu/frederickjakobiec",
+      "found_email": "history@fas.harvard.edu",
+      "all_urls": [
+        "https://eye.hms.harvard.edu/frederickjakobiec",
+        "https://eye.hms.harvard.edu/jakobiec/tribute",
+        "https://history.fas.harvard.edu/event/inaugural-frederick-jakobiec-lecture-end-natural-disasters",
+        "https://www.environment.harvard.edu/event/inaugural-frederick-jakobiec-lecture",
+        "https://histsci.fas.harvard.edu/event/frederick-jakobiec-lecture-featuring-matthew-l-jones"
+      ],
+      "all_emails": [
+        "history@fas.harvard.edu",
+        "valdovin@fas.harvard.edu",
+        "hsdept@fas.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 134
+    },
+    {
+      "name": "Meghnath Dhimal",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/profile/meghnath-dhimal",
+      "found_website": "https://hsph.harvard.edu/profile/meghnath-dhimal/",
+      "found_email": "",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/meghnath-dhimal/",
+        "https://www.linkedin.com/in/meghnathdhimal/",
+        "https://www.researchgate.net/profile/Meghnath-Dhimal/4",
+        "https://www.medrxiv.org/content/10.1101/2025.08.12.25333484v1.full",
+        "https://scholar.google.com/citations?hl=en&user=iD4CQUgAAAAJ"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 137
+    },
+    {
+      "name": "Andrew A. Biewener",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "abiewener@oeb.harvard.edu",
+      "gold_website": "https://www.oeb.harvard.edu/people/andrew-biewener",
+      "found_website": "https://www.oeb.harvard.edu/people/andrew-biewener",
+      "found_email": "abiewener@oeb.harvard.edu",
+      "all_urls": [
+        "https://www.oeb.harvard.edu/people/andrew-biewener",
+        "https://biewenerlab.oeb.harvard.edu/people/andrew-biewener",
+        "https://news.harvard.edu/gazette/story/2006/10/spring-in-your-step-helps-avert-disastrous-stumbles/",
+        "https://dash.harvard.edu/entities/publication/73120379-2eb0-6bd4-e053-0100007fdf3b",
+        "https://dash.harvard.edu/handle/1/4892998"
+      ],
+      "all_emails": [
+        "abiewener@oeb.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 140
+    },
+    {
+      "name": "Anju Nohria",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1236824",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1236824",
+      "found_email": "",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1236824",
+        "https://www.health.harvard.edu/heart-health/the-cancerheart-disease-connection",
+        "https://www.health.harvard.edu/heart-health/cancer-treatments-may-harm-the-heart",
+        "https://hfsa.org/anju-nohria-md",
+        "https://physiciandirectory.brighamandwomens.org/details/1203/anju-nohria-cardiovascular_medicine-boston"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 143
+    },
+    {
+      "name": "Aneesh B. Singhal",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/aneesh-b-singhal",
+      "found_website": "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/aneesh-b-singhal",
+      "found_email": "",
+      "all_urls": [
+        "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/aneesh-b-singhal",
+        "https://postgraduateeducation.hms.harvard.edu/faculty-staff/aneesh-b-singhal",
+        "https://www.health.harvard.edu/authors/aneesh-singhal-md",
+        "https://hms.harvard.edu/faculty-staff/aneesh-b-singhal",
+        "https://www.health.harvard.edu/blog/thunderclap-headache-the-worst-headache-of-my-life-2019062516939"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 146
+    },
+    {
+      "name": "Martin Sattler",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/display/person/87527",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/display/Person/87527",
+      "found_email": "akarnoub@bidmc.harvard.edu",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/87527",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/87527/Network/CoAuthors",
+        "https://www.dfhcc.harvard.edu/insider/member-detail?tx_hcc_persondetail%5Baction%5D=show&tx_hcc_persondetail%5Bcontroller%5D=Person&tx_hcc_persondetail%5Bperson%5D=795&cHash=dda77a23a4d39eed5ed8034691ae9ec9",
+        "https://www.dfhcc.harvard.edu/research/research-programs/clinical-based-programs/leukemia/program-member-list",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1247946"
+      ],
+      "all_emails": [
+        "akarnoub@bidmc.harvard.edu",
+        "dfhcc@partners.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 149
+    },
+    {
+      "name": "Milind Tambe",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "tambe@seas.harvard.edu",
+      "gold_website": "https://seas.harvard.edu/people/tambe",
+      "found_website": "https://teamcore.seas.harvard.edu/tambe/",
+      "found_email": "milind_tambe@harvard.edu",
+      "all_urls": [
+        "https://teamcore.seas.harvard.edu/tambe/",
+        "https://seas.harvard.edu/person/milind-tambe",
+        "https://www.hks.harvard.edu/about/milind-tambe",
+        "https://seas.harvard.edu/sites/default/files/CV_Harvard_August19.pdf",
+        "https://seas.harvard.edu/news/2019/08/ai-expert-milind-tambe-joins-harvard-university"
+      ],
+      "all_emails": [
+        "milind_tambe@harvard.edu",
+        "tambe@seas.harvard.edu",
+        "lburrows@seas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 152
+    },
+    {
+      "name": "Marcia C. Haigis",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://haigis.hms.harvard.edu/marcia-c-haigis-phd",
+      "found_website": "https://haigis.hms.harvard.edu/marcia-c-haigis-phd",
+      "found_email": "marcia_haigis@hms.harvard.edu",
+      "all_urls": [
+        "https://haigis.hms.harvard.edu/marcia-c-haigis-phd",
+        "https://cellbio.hms.harvard.edu/faculty-staff/marcia-haigis-phd",
+        "https://ogephd.hms.harvard.edu/people/marcia-c-haigis",
+        "https://haigis.hms.harvard.edu/people",
+        "https://www.hms.harvard.edu/agingresearch/index.php/haigis"
+      ],
+      "all_emails": [
+        "marcia_haigis@hms.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 155
+    },
+    {
+      "name": "Anthony L. Komaroff",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.health.harvard.edu/authors/anthony-l-komaroff-md",
+      "found_website": "https://www.health.harvard.edu/authors/anthony-l-komaroff-md",
+      "found_email": "",
+      "all_urls": [
+        "https://www.health.harvard.edu/authors/anthony-l-komaroff-md",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1234657",
+        "https://www.health.harvard.edu/mind-and-mood/more-evidence-suggests-multivitamins-slow-cognitive-decline",
+        "https://www.health.harvard.edu/staying-healthy/is-us-life-expectancy-getting-shorter",
+        "https://www.health.harvard.edu/mind-and-mood/can-our-brain-talk-to-our-immune-system"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 158
+    },
+    {
+      "name": "Elsie M. Taveras",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "elsie.taveras@mgh.harvard.edu",
+      "gold_website": "https://nutrition.hms.harvard.edu/people/elsie-m-taveras",
+      "found_website": "https://nutrition.hms.harvard.edu/people/elsie-m-taveras",
+      "found_email": "elsie.taveras@mgh.harvard.edu",
+      "all_urls": [
+        "https://nutrition.hms.harvard.edu/people/elsie-m-taveras",
+        "https://developingchild.harvard.edu/people/elsie-m-taveras/",
+        "https://developingchild.harvard.edu/people/elsie-m-taveras-m-d-m-p-h/",
+        "https://sleep.hms.harvard.edu/faculty-staff/elsie-m-taveras?page=1",
+        "https://www.hsph.harvard.edu/isccce/people/page/2/"
+      ],
+      "all_emails": [
+        "elsie.taveras@mgh.harvard.edu",
+        "etaveras@partners.org",
+        "jdaly@hsph.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 161
+    },
+    {
+      "name": "David Laibson",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "laibson@fas.harvard.edu",
+      "gold_website": "https://scholar.harvard.edu/laibson",
+      "found_website": "https://laibson.scholars.harvard.edu/",
+      "found_email": "dlaibson@harvard.edu",
+      "all_urls": [
+        "https://laibson.scholars.harvard.edu/",
+        "https://www.hks.harvard.edu/about/david-laibson",
+        "https://www.economics.harvard.edu/people/david-laibson",
+        "https://scholar.harvard.edu/laibson/home",
+        "https://popcenter.harvard.edu/blog/directory/david-laibson-phd/"
+      ],
+      "all_emails": [
+        "dlaibson@harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 164
+    },
+    {
+      "name": "Loretta J. Mickley",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://seas.harvard.edu/person/loretta-mickley",
+      "found_website": "https://seas.harvard.edu/person/loretta-mickley",
+      "found_email": "mickley@fas.harvard.edu",
+      "all_urls": [
+        "https://seas.harvard.edu/person/loretta-mickley",
+        "https://sites.harvard.edu/loretta-mickley/",
+        "https://environment.harvard.edu/people/loretta-j-mickley",
+        "https://sites.harvard.edu/loretta-mickley/cv-loretta-mickley/",
+        "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/mickley/files/cv_mickley_14feb24.pdf"
+      ],
+      "all_emails": [
+        "mickley@fas.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 167
+    },
+    {
+      "name": "Allon M. Klein",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "klein@mcb.harvard.edu",
+      "gold_website": "https://biology.harvard.edu/people/klein",
+      "found_website": "https://brain.harvard.edu/?people=allon-m-klein",
+      "found_email": "allon_klein@hms.harvard.edu",
+      "all_urls": [
+        "https://brain.harvard.edu/?people=allon-m-klein",
+        "https://openreview.net/profile?id=~Allon_M_Klein1",
+        "https://www.researchgate.net/scientific-contributions/Allon-M-Klein-38204741",
+        "https://typeset.io/authors/allon-m-klein-4khxyb24ju",
+        "https://virtual.keystonesymposia.org/b/sp/allon-klein-11953"
+      ],
+      "all_emails": [
+        "allon_klein@hms.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 170
+    },
+    {
+      "name": "Abraham Morgentaler",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1238845",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1238845",
+      "found_email": "learn@hms.harvard.edu",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1238845",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/87781/Network/ResearchAreas",
+        "https://pll.harvard.edu/course/testosterone-therapy-and-sexual-dysfunction-1",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/87781/Network/CoAuthors/Person/114422",
+        "https://news.harvard.edu/gazette/story/2004/02/study-of-testosterone-replacement-therapy-not-linked-to-prostate-cancer-heart-disease-risk/"
+      ],
+      "all_emails": [
+        "learn@hms.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 173
+    },
+    {
+      "name": "M. Brandon Westover",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://meded.hms.harvard.edu/people/m-brandon-westover-md-phd",
+      "found_website": "https://meded.hms.harvard.edu/people/m-brandon-westover-md-phd",
+      "found_email": "hst@mit.edu",
+      "all_urls": [
+        "https://meded.hms.harvard.edu/people/m-brandon-westover-md-phd",
+        "https://scholar.harvard.edu/ccni/people/m-brandon-westover",
+        "https://news.harvard.edu/gazette/story/2020/09/sleep-test-may-help-diagnose-and-predict-dementia-in-older-adults/",
+        "https://dash.harvard.edu/handle/1/14065463",
+        "https://clue.mgh.harvard.edu/elucid-study/elucid-study-team/"
+      ],
+      "all_emails": [
+        "hst@mit.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 176
+    },
+    {
+      "name": "Yoshito Kishi",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "yahya_chaudhry@fas.harvard.edu",
+      "gold_website": "https://www.chemistry.harvard.edu/news/yoshito-kishi-1937-2023",
+      "found_website": "https://www.chemistry.harvard.edu/event/symposium-honoring-yoshito-kishi",
+      "found_email": "yahya_chaudhry@fas.harvard.edu",
+      "all_urls": [
+        "https://www.chemistry.harvard.edu/event/symposium-honoring-yoshito-kishi",
+        "https://www.chemistry.harvard.edu/news/fas-memorial-minute-yoshito-kishi-85",
+        "https://news.harvard.edu/gazette/story/2023/01/yoshito-kishi-86-remembered-for-developing-important-anti-cancer-agent/",
+        "https://www.chemistry.harvard.edu/news/yoshito-kishi-1937-2023",
+        "https://news.harvard.edu/gazette/story/2024/03/yoshito-kishi-85/"
+      ],
+      "all_emails": [
+        "yahya_chaudhry@fas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 179
+    },
+    {
+      "name": "Robert Flaumenhaft",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1242092",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1242092",
+      "found_email": "rflaumen@bidmc.harvard.edu",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1242092",
+        "https://connects.catalyst.harvard.edu/profiles/display/Person/27465",
+        "https://news.harvard.edu/gazette/story/2012/05/flavonoid-compound-can-prevent-blood-clots/",
+        "https://dash.harvard.edu/entities/publication/73120378-bdbd-6bd4-e053-0100007fdf3b",
+        "https://dash.harvard.edu/entities/publication/73120379-410e-6bd4-e053-0100007fdf3b"
+      ],
+      "all_emails": [
+        "rflaumen@bidmc.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 182
+    },
+    {
+      "name": "Xavier Gabaix",
+      "affiliation": "Harvard Faculty of Arts and Sciences",
+      "department": "",
+      "gold_email": "xgabaix@fas.harvard.edu",
+      "gold_website": "https://economics.harvard.edu/people/xavier-gabaix",
+      "found_website": "https://xgabaix.scholars.harvard.edu/",
+      "found_email": "xgabaix@fas.harvard.edu",
+      "all_urls": [
+        "https://xgabaix.scholars.harvard.edu/",
+        "https://scholar.harvard.edu/xgabaix/home",
+        "https://www.economics.harvard.edu/people/xavier-gabaix",
+        "https://xgabaix.scholars.harvard.edu/file_url/188",
+        "https://xgabaix.scholars.harvard.edu/publications/power-laws-economics-and-finance"
+      ],
+      "all_emails": [
+        "xgabaix@fas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 185
+    },
+    {
+      "name": "Gerasimos Siasos",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://scholar.harvard.edu/gsiasos/home",
+      "found_website": "https://scholar.harvard.edu/gsiasos/home",
+      "found_email": "gsiasos@med.uoa.gr",
+      "all_urls": [
+        "https://scholar.harvard.edu/gsiasos/home",
+        "https://scholar.harvard.edu/gsiasos/biocv",
+        "https://scholar.harvard.edu/gsiasos/publications/extracellular-matrix-remodeling-biomarkers-coronary-artery-disease",
+        "https://scholar.harvard.edu/gsiasos/publications/omega-3-pufas-improved-endothelial-function-and-arterial-stiffness-parallel",
+        "https://scholar.harvard.edu/gsiasos/publications/sociodemographic-and-lifestyle-statistics-oldest-old-people-80-years-living"
+      ],
+      "all_emails": [
+        "gsiasos@med.uoa.gr"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 188
+    },
+    {
+      "name": "Patricia K. Donahoe",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "donahoe.patricia@mgh.harvard.edu",
+      "gold_website": "https://www.hsci.harvard.edu/people/patricia-k-donahoe-md",
+      "found_website": "https://www.hsci.harvard.edu/people/patricia-k-donahoe-md",
+      "found_email": "donahoe.patricia@mgh.harvard.edu",
+      "all_urls": [
+        "https://www.hsci.harvard.edu/people/patricia-k-donahoe-md",
+        "https://www.dfhcc.harvard.edu/insider/member-detail?tx_hcc_persondetail%5Baction%5D=show&tx_hcc_persondetail%5Bcontroller%5D=Person&tx_hcc_persondetail%5Bperson%5D=116&cHash=a566156455dd02a7e38d71127e3116ea",
+        "https://news.harvard.edu/gazette/story/2023/06/birth-control-for-cats-is-effective-but-ahead-of-its-time/",
+        "https://goldsteinlab.mgh.harvard.edu/richard-guyer-md-phd/",
+        "https://en.wikipedia.org/wiki/Patricia_K._Donahoe"
+      ],
+      "all_emails": [
+        "donahoe.patricia@mgh.harvard.edu",
+        "pdonahoe@partners.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 191
+    },
+    {
+      "name": "Xandra O. Breakefield",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://projects.iq.harvard.edu/chd/people/xandra-o-breakefield-phd",
+      "found_website": "https://projects.iq.harvard.edu/chd/people/xandra-o-breakefield-phd",
+      "found_email": "breakefield@helix.mgh.harvard.edu",
+      "all_urls": [
+        "https://projects.iq.harvard.edu/chd/people/xandra-o-breakefield-phd",
+        "https://dash.harvard.edu/entities/publication/73120379-07cf-6bd4-e053-0100007fdf3b",
+        "https://dash.harvard.edu/entities/publication/73120378-f52a-6bd4-e053-0100007fdf3b",
+        "https://dash.harvard.edu/entities/publication/73120378-aa02-6bd4-e053-0100007fdf3b",
+        "https://scholar.google.com/citations?user=X2FA3NoAAAAJ&hl=en"
+      ],
+      "all_emails": [
+        "breakefield@helix.mgh.harvard.edu",
+        "breakefield@hms.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 194
+    },
+    {
+      "name": "George Serafeim",
+      "affiliation": "Harvard Business School",
+      "department": "",
+      "gold_email": "gserafeim@hbs.edu",
+      "gold_website": "https://heep.hks.harvard.edu/people/george-serafeim",
+      "found_website": "https://www.hks.harvard.edu/centers/mrcbg/programs/growthpolicy/greenfin-interview-harvards-george-serafeim-purpose-and-profit",
+      "found_email": "gserafeim@hbs.edu",
+      "all_urls": [
+        "https://www.hks.harvard.edu/centers/mrcbg/programs/growthpolicy/greenfin-interview-harvards-george-serafeim-purpose-and-profit",
+        "https://www.hks.harvard.edu/centers/mrcbg/programs/growthpolicy/george-serafeim-employment-inequality-and-relationship-between",
+        "https://heep.hks.harvard.edu/people/george-serafeim",
+        "https://www.environment.harvard.edu/people/george-serafeim",
+        "https://pll.harvard.edu/instructor/george-serafeim"
+      ],
+      "all_emails": [
+        "gserafeim@hbs.edu",
+        "bei@hbs.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 197
+    },
+    {
+      "name": "Raina N. Fichorova",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "rfichorova@bwh.harvard.edu",
+      "gold_website": "https://fichorovalab.bwh.harvard.edu/team",
+      "found_website": "https://fichorovalab.bwh.harvard.edu/team/",
+      "found_email": "",
+      "all_urls": [
+        "https://fichorovalab.bwh.harvard.edu/team/",
+        "https://fichorovalab.bwh.harvard.edu/news/",
+        "https://projects.iq.harvard.edu/lab-of-genital-tract-biology/principal-investigator",
+        "https://dash.harvard.edu/handle/1/11877121",
+        "https://dash.harvard.edu/entities/publication/73120379-46e6-6bd4-e053-0100007fdf3b"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 200
+    },
+    {
+      "name": "Tom Jaksic",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "tom.jaksic@childrens.harvard.edu",
+      "gold_website": "https://nutrition.hms.harvard.edu/tom-jaksic",
+      "found_website": "https://nutrition.hms.harvard.edu/tom-jaksic",
+      "found_email": "tom.jaksic@childrens.harvard.edu",
+      "all_urls": [
+        "https://nutrition.hms.harvard.edu/tom-jaksic",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1240912",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1240912/217",
+        "https://connects.catalyst.harvard.edu/Profiles/display/person/17045/network/coauthors/radial",
+        "https://hms.harvard.edu/search?search=&page=51"
+      ],
+      "all_emails": [
+        "tom.jaksic@childrens.harvard.edu",
+        "think@apsapedsurg.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 203
+    },
+    {
+      "name": "Thomas E. Scammell",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "tscammel@bidmc.harvard.edu",
+      "gold_website": "https://sleep.hms.harvard.edu/faculty-staff/thomas-e-scammell",
+      "found_website": "https://brain.harvard.edu/?people=thomas-e-scammell",
+      "found_email": "tscammel@bidmc.harvard.edu",
+      "all_urls": [
+        "https://brain.harvard.edu/?people=thomas-e-scammell",
+        "https://sleep.hms.harvard.edu/faculty-staff/thomas-e-scammell",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1245669",
+        "https://sleep.hms.harvard.edu/research/labs-divisions/scammell-lab",
+        "https://connects.catalyst.harvard.edu/Profiles/display/person/65924/network/similarto/map"
+      ],
+      "all_emails": [
+        "tscammel@bidmc.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 206
+    },
+    {
+      "name": "Elsie M. Sunderland",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://hsph.harvard.edu/exec-ed/faculty/elsie-m-sunderland",
+      "found_website": "https://hsph.harvard.edu/exec-ed/faculty/elsie-m-sunderland/",
+      "found_email": "",
+      "all_urls": [
+        "https://hsph.harvard.edu/exec-ed/faculty/elsie-m-sunderland/",
+        "http://people.seas.harvard.edu/~swofsy/SUNDERLAND/emsCVgeneral-031514.pdf",
+        "https://eps.harvard.edu/people?page=2",
+        "https://seas.harvard.edu/news/2013/07/harvard-researchers-warn-legacy-mercury-environment",
+        "https://catalyst.harvard.edu/news/article/communities-of-color-disproportionately-exposed-to-pfas-pollution-in-drinking-water/"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 209
+    },
+    {
+      "name": "Hanspeter Pfister",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "pfister@seas.harvard.edu",
+      "gold_website": "https://seas.harvard.edu/people/pfister",
+      "found_website": "https://seas.harvard.edu/person/hanspeter-pfister",
+      "found_email": "pfister@seas.harvard.edu",
+      "all_urls": [
+        "https://seas.harvard.edu/person/hanspeter-pfister",
+        "https://vcg.seas.harvard.edu/people",
+        "https://vcg.seas.harvard.edu/people/hanspeter-pfister",
+        "https://professional.dce.harvard.edu/faculty/hanspeter-pfister/",
+        "https://datascience.harvard.edu/directory/hanspeter-pfister/"
+      ],
+      "all_emails": [
+        "pfister@seas.harvard.edu",
+        "datascience@harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 212
+    },
+    {
+      "name": "David P. Corey",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "david_corey@hms.harvard.edu",
+      "gold_website": "https://bertarelli.hms.harvard.edu/people/david-corey",
+      "found_website": "https://bertarelli.hms.harvard.edu/people/david-corey",
+      "found_email": "david_corey@hms.harvard.edu",
+      "all_urls": [
+        "https://bertarelli.hms.harvard.edu/people/david-corey",
+        "https://brain.harvard.edu/?people=david-p-corey",
+        "https://corey.med.harvard.edu/contact",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1260742",
+        "https://corey.med.harvard.edu/sites/g/files/omnuum5356/files/coreylab/files/dpccv2023.pdf"
+      ],
+      "all_emails": [
+        "david_corey@hms.harvard.edu",
+        "dcorey@hms.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 215
+    },
+    {
+      "name": "James F. Markmann",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1237914/494",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1237914/494",
+      "found_email": "jmarkmann@partners.org",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1237914/494",
+        "https://www.researchgate.net/profile/James-Markmann-2",
+        "https://egenesisbio.com/about/james-f-markmann/",
+        "https://scholar.google.com/citations?user=x3zUkEUAAAAJ&hl=en",
+        "https://societyofclinicalsurgery.com/senior-members/markmann/"
+      ],
+      "all_emails": [
+        "jmarkmann@partners.org"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 218
+    },
+    {
+      "name": "Conor J. Walsh",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "walsh@seas.harvard.edu",
+      "gold_website": "https://seas.harvard.edu/people/walsh",
+      "found_website": "https://www.seas.harvard.edu/news/2015/03/soft-robotics-expert-conor-j-walsh-receives-nsf-career-award",
+      "found_email": "karoff@seas.harvard.edu",
+      "all_urls": [
+        "https://www.seas.harvard.edu/news/2015/03/soft-robotics-expert-conor-j-walsh-receives-nsf-career-award",
+        "https://lifesciences.fas.harvard.edu/people/conor-j-walsh",
+        "https://wyss.harvard.edu/news/conor-walsh-receives-nsf-career-award/",
+        "https://team.seas.harvard.edu/people/conor-j-walsh",
+        "https://scienceeducation.fas.harvard.edu/people/conor-j-walsh"
+      ],
+      "all_emails": [
+        "karoff@seas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": true,
+      "queries_used": 221
+    },
+    {
+      "name": "Michael P. Brenner",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "department": "",
+      "gold_email": "brenner@seas.harvard.edu",
+      "gold_website": "https://www.harvard.edu/directory/brenner",
+      "found_website": "https://seas.harvard.edu/person/michael-brenner",
+      "found_email": "brenner@seas.harvard.edu",
+      "all_urls": [
+        "https://seas.harvard.edu/person/michael-brenner",
+        "https://www.physics.harvard.edu/people/facpages/brenner",
+        "https://brennergroup.seas.harvard.edu/people/michael-p-brenner",
+        "https://www.radcliffe.harvard.edu/people/michael-p-brenner",
+        "https://seas.harvard.edu/news/2012/07/michael-p-brenner-named-simons-investigator"
+      ],
+      "all_emails": [
+        "brenner@seas.harvard.edu"
+      ],
+      "website_exact_match": false,
+      "website_domain_match": false,
+      "website_name_in_url": true,
+      "email_exact_match": true,
+      "email_domain_match": true,
+      "queries_used": 224
+    },
+    {
+      "name": "P. R. Moorcroft",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.environment.harvard.edu/people/paul-moorcroft",
+      "found_website": "https://environment.harvard.edu/people/paul-moorcroft",
+      "found_email": "",
+      "all_urls": [
+        "https://environment.harvard.edu/people/paul-moorcroft",
+        "https://harvardforest1.fas.harvard.edu/publications/pdfs/Moorcroft_EcologicalMonographs_2001.pdf",
+        "http://energy.harvard.edu/about/faculty/paul-moorcroft",
+        "https://research.com/u/paul-r-moorcroft"
+      ],
+      "all_emails": [],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 227
+    },
+    {
+      "name": "Joshua N. Goldstein",
+      "affiliation": "Harvard Medical School",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/joshua-n-goldstein",
+      "found_website": "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/joshua-n-goldstein",
+      "found_email": "jgoldstein@mgh.harvard.edu",
+      "all_urls": [
+        "https://learn.hms.harvard.edu/about/leadership-faculty/faculty/joshua-n-goldstein",
+        "https://scholar.google.com/citations?user=Zoq17_sAAAAJ&hl=en",
+        "https://www.acep.org/siteassets/sites/acep/media/equal-documents/bio_goldsteinj.pdf",
+        "https://www.expertinstitute.com/experts/dr-joshua-norkin-goldstein-638927/",
+        "https://code-ich.org/the-team/"
+      ],
+      "all_emails": [
+        "jgoldstein@mgh.harvard.edu",
+        "858-9511info@expertinstitute.comrequest"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 230
+    },
+    {
+      "name": "Kimmie Ng",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/1245159",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/1245159",
+      "found_email": "kimmie_ng@dfci.harvard.edu",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1245159",
+        "https://www.dfhcc.harvard.edu/insider/member-detail?tx_hcc_persondetail%5Baction%5D=show&tx_hcc_persondetail%5Bcontroller%5D=Person&tx_hcc_persondetail%5Bperson%5D=902&cHash=d11b0aecf480257386803528edbf3ab6",
+        "https://news.harvard.edu/gazette/story/2018/08/harvard-doctor-explores-role-of-diet-in-colon-cancer-risk/",
+        "https://news.harvard.edu/gazette/story/2024/02/cancer-keeps-coming-for-the-young-why/",
+        "https://hcmph.sph.harvard.edu/people/kimmie-ng/"
+      ],
+      "all_emails": [
+        "kimmie_ng@dfci.harvard.edu",
+        "hcmph@hsph.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 233
+    },
+    {
+      "name": "Alessandro Doria",
+      "affiliation": "Harvard T.H. Chan School of Public Health",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://www.hsph.harvard.edu/profile/alessandro-doria",
+      "found_website": "https://hsph.harvard.edu/profile/alessandro-doria/",
+      "found_email": "alessandro.doria@joslin.harvard.edu",
+      "all_urls": [
+        "https://hsph.harvard.edu/profile/alessandro-doria/",
+        "https://www.hsph.harvard.edu/alessandro-doria/",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/1256558",
+        "https://www.hsph.harvard.edu/alessandro-doria/sites-of-note/",
+        "https://www.hsph.harvard.edu/alessandro-doria/publications-2/"
+      ],
+      "all_emails": [
+        "alessandro.doria@joslin.harvard.edu",
+        "jeffrey.bright@joslin.harvard.edu"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 236
+    },
+    {
+      "name": "Elad Sharon",
+      "affiliation": "Harvard University",
+      "department": "",
+      "gold_email": "",
+      "gold_website": "https://connects.catalyst.harvard.edu/profiles/profile/219708049",
+      "found_website": "https://connects.catalyst.harvard.edu/Profiles/profile/219708049",
+      "found_email": "sharone@mail.nih.gov",
+      "all_urls": [
+        "https://connects.catalyst.harvard.edu/Profiles/profile/219708049",
+        "https://connects.catalyst.harvard.edu/Profiles/display/person/64613/network/researchareas/details",
+        "https://connects.catalyst.harvard.edu/Profiles/profile/219708049/494",
+        "https://www.dana-farber.org/find-a-doctor/elad-sharon",
+        "https://aaadv.org/bio-pages/elad-sharon/"
+      ],
+      "all_emails": [
+        "sharone@mail.nih.gov"
+      ],
+      "website_exact_match": true,
+      "website_domain_match": true,
+      "website_name_in_url": true,
+      "email_exact_match": false,
+      "email_domain_match": false,
+      "queries_used": 239
+    }
+  ]
+}
