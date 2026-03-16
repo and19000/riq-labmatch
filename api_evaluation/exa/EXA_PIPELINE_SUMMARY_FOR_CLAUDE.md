@@ -8,14 +8,14 @@ This file is meant to be pasted or uploaded into another AI (e.g. Claude) to exp
 
 - **Goal:** Run the **same Exa search pipeline** we used for the 80-professor test, but now over the **full Harvard faculty dataset**.
 - **API used:** Exa (via `exa-py`).
-- **Entry script:** `api_evaluation/run_exa_until_credits.py`
+- **Entry script:** `api_evaluation/exa/run_exa_until_credits.py`
 - **Command used for full Harvard run:**
 
   ```bash
   cd api_evaluation
-  caffeinate -i -s ../.venv/bin/python run_exa_until_credits.py \ 
-    --input gold_standard_harvard_full.csv \ 
-    --output results_exa_until_credits \ 
+  caffeinate -i -s ../.venv/bin/python exa/run_exa_until_credits.py \
+    --input gold_standard_harvard_full.csv \
+    --output exa/results_exa_until_credits \
     --max-professors 10000
   ```
 
@@ -52,7 +52,7 @@ This is the same behavior and schema as the earlier 80-professor evaluation, jus
 
 All outputs for this Harvard-wide Exa run are under:
 
-- **Directory:** `api_evaluation/results_exa_until_credits/`
+- **Directory:** `api_evaluation/exa/results_exa_until_credits/`
 
 **Key files you should look at:**
 
@@ -268,13 +268,13 @@ For each professor:
 To let another AI actually compute these filters, you can provide:
 
 1. **This summary file:**
-   - `api_evaluation/EXA_PIPELINE_SUMMARY_FOR_CLAUDE.md`
+   - `api_evaluation/exa/EXA_PIPELINE_SUMMARY_FOR_CLAUDE.md`
 
 2. **The flat CSV of results:**
-   - `api_evaluation/results_exa_until_credits/exa_found.csv`
+   - `api_evaluation/exa/results_exa_until_credits/exa_found.csv`
 
 3. (Optional, for deeper analysis) **The full JSON of results:**
-   - `api_evaluation/results_exa_until_credits/exa_results.json`
+   - `api_evaluation/exa/results_exa_until_credits/exa_results.json`
 
 With those three, the model will know:
 - Exactly how data was generated,

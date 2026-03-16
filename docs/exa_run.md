@@ -8,7 +8,7 @@ From repo root (using venv):
 
 ```bash
 cd api_evaluation
-../.venv/bin/python run_exa_until_credits.py --input <INPUT_PATH> --output <OUTPUT_DIR> [--max-professors N] [--dry-run]
+../.venv/bin/python exa/run_exa_until_credits.py --input <INPUT_PATH> --output exa/results_exa_until_credits [--max-professors N] [--dry-run]
 ```
 
 Or with env vars:
@@ -17,9 +17,9 @@ Or with env vars:
 cd api_evaluation
 export EXA_API_KEY=your_exa_key
 export INPUT_PATH=gold_standard_affiliation_only.csv   # or path to full Harvard CSV
-export OUTPUT_DIR=results_exa_until_credits
+export OUTPUT_DIR=exa/results_exa_until_credits
 export MAX_PROFESSORS=10000   # optional cap
-../.venv/bin/python run_exa_until_credits.py
+../.venv/bin/python exa/run_exa_until_credits.py
 ```
 
 ## Required env vars
@@ -32,8 +32,8 @@ export MAX_PROFESSORS=10000   # optional cap
 
 | Variable | Description |
 |----------|-------------|
-| `INPUT_PATH` | CSV path (default: `api_evaluation/gold_standard_affiliation_only.csv`). |
-| `OUTPUT_DIR` | Output directory (default: `api_evaluation/results_exa_until_credits`). |
+| `INPUT_PATH` | CSV path (default: `api_evaluation/gold_standard_harvard_full.csv`). |
+| `OUTPUT_DIR` | Output directory (default: `api_evaluation/exa/results_exa_until_credits`). |
 | `MAX_PROFESSORS` | Stop after this many professors (default: 10000). |
 
 ## Input CSV format
@@ -58,7 +58,7 @@ Re-run the same command. The script reads `OUTPUT_DIR/checkpoint.json` and conti
 ## Cap professors
 
 ```bash
-../.venv/bin/python run_exa_until_credits.py --input gold_standard_affiliation_only.csv --output results_exa_until_credits --max-professors 500
+../.venv/bin/python exa/run_exa_until_credits.py --input gold_standard_harvard_full.csv --output exa/results_exa_until_credits --max-professors 500
 ```
 
 ## Dry-run (no Exa calls)
@@ -67,10 +67,10 @@ Validates paths and output schema by processing 2 professors with mock results:
 
 ```bash
 cd api_evaluation
-../.venv/bin/python run_exa_until_credits.py --dry-run --input gold_standard_affiliation_only.csv --output results_exa_until_credits
+../.venv/bin/python exa/run_exa_until_credits.py --dry-run --output exa/results_exa_until_credits
 ```
 
-Check `results_exa_until_credits/exa_results.json` and `exa_found.csv` for the expected format.
+Check `exa/results_exa_until_credits/exa_results.json` and `exa_found.csv` for the expected format.
 
 ## Stop conditions
 

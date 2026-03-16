@@ -51,10 +51,10 @@ Same Exa pipeline as the 80-professor test, with resume and a cap. See [../docs/
 
 ```bash
 # Dry-run (2 professors, no API calls)
-python run_exa_until_credits.py --dry-run --input gold_standard_affiliation_only.csv --output results_exa_until_credits
+python exa/run_exa_until_credits.py --dry-run --output exa/results_exa_until_credits
 
 # Full run until credits or cap (resume by re-running same command)
 export EXA_API_KEY=your_key
-python run_exa_until_credits.py --input gold_standard_affiliation_only.csv --output results_exa_until_credits
-python run_exa_until_credits.py --input gold_standard_affiliation_only.csv --output results_exa_until_credits --max-professors 500
+python exa/run_exa_until_credits.py --output exa/results_exa_until_credits
+python exa/run_exa_until_credits.py --output exa/results_exa_until_credits --max-professors 500
 ```

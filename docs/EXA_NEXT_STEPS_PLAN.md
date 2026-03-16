@@ -29,7 +29,7 @@ So “low accuracy” may be mostly a **measurement problem**, not a **results p
 - Same person (name in local part or clearly their contact).
 - Institutional (e.g. `@harvard.edu`, `@hms.harvard.edu`, `@fas.harvard.edu`) preferred; personal only if no institutional option.
 
-**Concrete step:** Document this in a short “Acceptability criteria” section (e.g. in this doc or in `EXA_PIPELINE_SUMMARY_FOR_CLAUDE.md`) so manual reviewers and any future automated checks use the same definition.
+**Concrete step:** Document this in a short “Acceptability criteria” section (e.g. in this doc or in `api_evaluation/exa/EXA_PIPELINE_SUMMARY_FOR_CLAUDE.md`) so manual reviewers and any future automated checks use the same definition.
 
 ---
 
@@ -107,7 +107,7 @@ So “low accuracy” may be mostly a **measurement problem**, not a **results p
 
 - **Exa full run CSV (1477):** `data/exa_harvard/exa_harvard_found.csv`  
 - **80-professor test CSV:** `api_evaluation/results_affiliation_only/exa_found_80.csv`  
-- **Pipeline and schema description:** `api_evaluation/EXA_PIPELINE_SUMMARY_FOR_CLAUDE.md`  
+- **Pipeline and schema description:** `api_evaluation/exa/EXA_PIPELINE_SUMMARY_FOR_CLAUDE.md`  
 - **This plan:** `docs/EXA_NEXT_STEPS_PLAN.md`
 
 If you want to implement the evaluation spreadsheet next, we can define the exact columns and a small script to generate the sheet from one of the CSVs so it’s ready for labeling.

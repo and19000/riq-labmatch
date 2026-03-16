@@ -6,9 +6,10 @@ Uses the exact same logic as evaluate.py (ExaSearch.search_professor, extract_em
 check_website_match, check_email_match, ProfessorResult). Outputs match the 80-test run.
 
 Usage:
-  python run_exa_until_credits.py --input gold_standard.csv --output results_exa_until_credits
-  python run_exa_until_credits.py --input gold_standard.csv --output results_exa_until_credits --max-professors 500
-  python run_exa_until_credits.py --dry-run --input gold_standard.csv --output results_exa_until_credits
+  python exa/run_exa_until_credits.py --input gold_standard_harvard_full.csv --output exa/results_exa_until_credits
+  python exa/run_exa_until_credits.py --output exa/results_exa_until_credits --max-professors 500
+  python exa/run_exa_until_credits.py --dry-run --output exa/results_exa_until_credits
+  (Run from api_evaluation/ so imports and paths resolve.)
 
 Resume: re-run the same command; checkpoint in OUTPUT_DIR/checkpoint.json is used automatically.
 """
@@ -21,6 +22,12 @@ from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
 
+# Allow imports from api_evaluation when this script lives in api_evaluation/exa/
+_EXA_DIR = Path(__file__).resolve().parent
+_API_EVAL_DIR = _EXA_DIR.parent
+if str(_API_EVAL_DIR) not in sys.path:
+    sys.path.insert(0, str(_API_EVAL_DIR))
+
 # Reuse exact 80-test pipeline components
 from config import EXA_API_KEY, REQUEST_DELAY
 from evaluate import (
@@ -32,7 +39,7 @@ from evaluate import (
 from extract_email import extract_emails_from_results
 from search_apis import ExaSearch
 
-SCRIPT_DIR = Path(__file__).resolve().parent
+SCRIPT_DIR = _EXA_DIR
 CHECKPOINT_FILENAME = "checkpoint.json"
 FAILURES_FILENAME = "failures.csv"
 EXA_RESULTS_FILENAME = "exa_results.json"
@@ -189,8 +196,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--input",
-        default=os.environ.get("INPUT_PATH", str(SCRIPT_DIR / "gold_standard_affiliation_only.csv")),
-        help="Input CSV (name, affiliation, department, gold_email, gold_website). Default: INPUT_PATH or gold_standard_affiliation_only.csv",
+        default=os.environ.get("INPUT_PATH", str(SCRIPT_DIR.parent / "gold_standard_harvard_full.csv")),
+        help="Input CSV (name, affiliation, department, gold_email, gold_website). Default: INPUT_PATH or gold_standard_harvard_full.csv in api_evaluation",
     )
     parser.add_argument(
         "--output",
