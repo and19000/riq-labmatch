@@ -110,7 +110,7 @@ def get_matching_service():
         _app_dir = ROOT_DIR
 
         # Priority 1: v2 combined faculty data (same data as Browse Labs)
-        v2_path = os.path.join(_app_dir, "Data", "v2", "all_faculty.json")
+        v2_path = os.path.join(_app_dir, "data", "v2", "all_faculty.json")
         if os.path.exists(v2_path) and USE_MATCHING_V2:
             try:
                 import json as _json
@@ -124,7 +124,7 @@ def get_matching_service():
                 app.logger.error(f"Failed to load v2 faculty data for matching: {e}")
 
         # Priority 2: NSF Active Awards (legacy)
-        misc_dir = os.path.join(_app_dir, "Data", "Misc jsons")
+        misc_dir = os.path.join(_app_dir, "data", "Misc jsons")
         nsf_active_path = os.path.join(misc_dir, "nsf_active.json")
         if os.path.exists(nsf_active_path):
             try:
@@ -420,7 +420,7 @@ def init_db():
 init_db()
 
 # Set up paths to our data files
-DATA_DIR = os.path.join(ROOT_DIR, "Data")
+DATA_DIR = os.path.join(ROOT_DIR, "data")
 MISC_DIR = os.path.join(DATA_DIR, "Misc jsons")
 OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
 
