@@ -1,0 +1,786 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "ameet-pinto-northeastern-university",
+    "name": "Ameet Pinto",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "a.pinto@neu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/news/new-faculty-spotlight-ameet-pinto/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "auroop-r-ganguly-northeastern-university",
+    "name": "Auroop R. Ganguly",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "a.ganguly@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/ganguly-auroop/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "brian-helmuth-northeastern-university",
+    "name": "Brian Helmuth",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "b.helmuth@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cos.northeastern.edu/people/brian-helmuth/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "h-william-detrich-northeastern-university",
+    "name": "H. William Detrich",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/h-william-detrich/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jennifer-l-bowen-northeastern-university",
+    "name": "Jennifer L. Bowen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "je.bowen@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cos.northeastern.edu/people/jennifer-bowen-2/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "justin-manjourides-northeastern-university",
+    "name": "Justin Manjourides",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://roux.northeastern.edu/people/justin-manjourides/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "luca-caracoglia-northeastern-university",
+    "name": "Luca Caracoglia",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "l.caracoglia@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/caracoglia-luca/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "madhavi-venkatesan-northeastern-university",
+    "name": "Madhavi Venkatesan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cssh.northeastern.edu/faculty/madhavi-venkatesan/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marieabele-bind-northeastern-university",
+    "name": "Marie‐Abèle Bind",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "datascience@harvard.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://datascience.harvard.edu/directory/marie-abele-bind/?cp-dir-id=10",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "matthew-j-eckelman-northeastern-university",
+    "name": "Matthew J. Eckelman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "m.eckelman@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/eckelman-matthew/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-b-kane-northeastern-university",
+    "name": "Michael B. Kane",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "mi.kane@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/kane-michael/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "r-edward-beighley-northeastern-university",
+    "name": "R. Edward Beighley",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "r.beighley@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/beighley-edward/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ronald-sandler-northeastern-university",
+    "name": "Ronald Sandler",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "r.sandler@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cssh.northeastern.edu/faculty/ronald-sandler/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "varun-narayan-mishra-northeastern-university",
+    "name": "Varun Narayan Mishra",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Environmental Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "v.mishra@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.khoury.northeastern.edu/people/varun-mishra/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

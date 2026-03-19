@@ -1,0 +1,41 @@
+{
+  "name": "Massachusetts Institute of Technology",
+  "short_name": "mit",
+  "primary_trusted_domains": [
+    "mit.edu"
+  ],
+  "secondary_trusted_domains": [],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "eecs.mit.edu": "Electrical Engineering and Computer Science",
+    "csail.mit.edu": "CSAIL",
+    "math.mit.edu": "Mathematics",
+    "physics.mit.edu": "Physics",
+    "chemistry.mit.edu": "Chemistry",
+    "biology.mit.edu": "Biology",
+    "econ.mit.edu": "Economics",
+    "medg.mit.edu": "Institute for Medical Engineering and Science",
+    "sloan.mit.edu": "MIT Sloan School of Management",
+    "architecture.mit.edu": "Architecture",
+    "cheme.mit.edu": "Chemical Engineering",
+    "meche.mit.edu": "Mechanical Engineering",
+    "aeroastro.mit.edu": "Aeronautics and Astronautics",
+    "dmse.mit.edu": "Materials Science and Engineering",
+    "cee.mit.edu": "Civil and Environmental Engineering",
+    "nuclear.mit.edu": "Nuclear Science and Engineering",
+    "whoi.edu": "Woods Hole (affiliated)"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "csaba-d-toth-tufts-university",
+    "name": "Csaba D. Tóth",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "csaba.toth@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/cs/people/faculty/csaba-toth",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "eduardo-tavares-tufts-university",
+    "name": "Eduardo Tavares",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://sigarra.up.pt/up/en/p/antigos%20estudantes%20ilustres%20-%20eduardo%20tavares",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hang-yu-tufts-university",
+    "name": "Hang Yu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "hyu08@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hangyu8123.github.io/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "low",
+      "email_confidence": "high",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hari-sundar-tufts-university",
+    "name": "Hari Sundar",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "hari.sundar@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/cs/people/faculty/hari-sundar",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hong-lu-tufts-university",
+    "name": "Hong Lu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://hong-lu-cv.github.io/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jacob-gordon-tufts-university",
+    "name": "Jacob Gordon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "jacob@cs.tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cogsci.tufts.edu/people/faculty/robert-jacob",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jamie-allen-tufts-university",
+    "name": "Jamie Allen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.jamieallen.com/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jeffrey-s-foster-tufts-university",
+    "name": "Jeffrey S. Foster",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "jeffrey.foster@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/cs/people/faculty/jeffrey-foster",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mai-vu-tufts-university",
+    "name": "Mai Vu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "mai.vu@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/ece/people/faculty/mai-vu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-cohen-tufts-university",
+    "name": "Michael Cohen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://amherststudent.amherst.edu/article/2018/02/20/fresh-faculty-michael-cohen.html",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-j-k-jacob-tufts-university",
+    "name": "Robert J. K. Jacob",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "jacob@cs.tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/cs/people/faculty/robert-jacob",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "toan-huynh-tufts-university",
+    "name": "Toan Huynh",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "xiaozhe.hu@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "http://xiaozhehu.math.tufts.edu/cv.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

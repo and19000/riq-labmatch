@@ -1,0 +1,842 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "anil-saigal-tufts-university",
+    "name": "Anil Saigal",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "anil.saigal@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/me/people/faculty/anil-saigal",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "barbara-brodsky-tufts-university",
+    "name": "Barbara Brodsky",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "barbara.brodsky@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/bme/people/faculty/barbara-brodsky",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "chunmei-li-tufts-university",
+    "name": "Chunmei Li",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "chunmei.li@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/bme/people/faculty/chunmei-li",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-l-kaplan-tufts-university",
+    "name": "David L. Kaplan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "david.kaplan@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cellularagriculture.tufts.edu/people/faculty/david-kaplan",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "e-charles-h-sykes-tufts-university",
+    "name": "E. Charles H. Sykes",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "charles.sykes@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://chem.tufts.edu/people/faculty/e-charles-sykes",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "e-v-rybak-akimova-tufts-university",
+    "name": "E.V. Rybak-Akimova",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "laura.ferguson@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://now.tufts.edu/2018/03/14/elena-rybak-akimova-professor-chemistry-dies",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "fiorenzo-g-omenetto-tufts-university",
+    "name": "Fiorenzo G. Omenetto",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "fiorenzo.omenetto@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.tufts.edu/bme/people/faculty/fiorenzo-omenetto",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hon-wai-lam-tufts-university",
+    "name": "Hon Wai Lam",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "cummingsvetcpb@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "http://wildlife.tufts.edu/comparative-pathobiology",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "i-m-bernstein-tufts-university",
+    "name": "I. M. Bernstein",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "jane.bernstein@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/music/people/faculty/jane-bernstein",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "maria-flytzanistephanopoulos-tufts-university",
+    "name": "Maria Flytzani‐Stephanopoulos",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://now.tufts.edu/2014/02/07/maria-flytzani-stephanopoulos-elected-national-academy-engineering",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peggy-cebe-tufts-university",
+    "name": "Peggy Cebe",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "peggy.cebe@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/physics/people/faculty/peggy-cebe",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-e-hayes-tufts-university",
+    "name": "Robert E. Hayes",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "robert.hayes@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ceeo.tufts.edu/people/staff/robert-hayes-0",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "samuel-w-thomas-tufts-university",
+    "name": "Samuel W. Thomas",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "sam.thomas@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://chem.tufts.edu/people/faculty/samuel-thomas",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "terry-e-haas-tufts-university",
+    "name": "Terry E. Haas",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "terry.haas@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://chem.tufts.edu/people/faculty/terry-haas",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "timothy-j-atherton-tufts-university",
+    "name": "Timothy J. Atherton",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Materials Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "timothy.atherton@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/physics/people/faculty/timothy-atherton",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "allen-f-shaughnessy-tufts-university",
+    "name": "Allen F. Shaughnessy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "allen.shaughnessy@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.tufts.edu/people/faculty/allen-shaughnessy",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "bernard-ewigman-tufts-university",
+    "name": "Bernard Ewigman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://medicine.tufts.edu/people/faculty/bernard-ewigman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-maxwell-tufts-university",
+    "name": "Daniel Maxwell",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "daniel.maxwell@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://nutrition.tufts.edu/academics/faculty/daniel-maxwell",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-a-adler-tufts-university",
+    "name": "David A. Adler",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "david.adler@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://gsbs.tufts.edu/people/faculty/david-adler",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-mackenzie-tufts-university",
+    "name": "David MacKenzie",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cepr.org/about/people/david-mckenzie",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "laurel-k-leslie-tufts-university",
+    "name": "Laurel K. Leslie",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "laurel.leslie@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://gsbs.tufts.edu/people/faculty/laurel-leslie",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-k-paascheorlow-tufts-university",
+    "name": "Michael K. Paasche‐Orlow",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.tuftsmedicine.org/doctor/michael-paascheorlow",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "parke-wilde-tufts-university",
+    "name": "Parke Wilde",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Health Professions",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "parke.wilde@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://nutrition.tufts.edu/academics/faculty/parke-wilde",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

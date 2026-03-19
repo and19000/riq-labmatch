@@ -1,0 +1,1178 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "266-results-harvard-university",
+    "name": "266 results",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "erbishop@law.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://connects.catalyst.harvard.edu/profiles/profile/person/43651",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alfonso-caramazza-harvard-university",
+    "name": "Alfonso Caramazza",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "caram@wjh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/alfonso-caramazza",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ashwini-ashokkumar-harvard-university",
+    "name": "Ashwini Ashokkumar",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "evelina.bao@nyu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.ashwinia.com/team",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "low",
+      "email_confidence": "medium",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "athulya-aravind-harvard-university",
+    "name": "Athulya Aravind",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "athulya.aravind@yale.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://psychology.fas.harvard.edu/people/athulya-aravind",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-l-schacter-harvard-university",
+    "name": "Daniel L. Schacter",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dls@wjh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/daniel-l-schacter",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "elizabeth-a-phelps-harvard-university",
+    "name": "Elizabeth A. Phelps",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "phelps@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/elizabeth-phelps-0",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "george-a-alvarez-harvard-university",
+    "name": "George A. Alvarez",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emailalvarez@wjh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/george-alvarez",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gordon-w-allport-harvard-university",
+    "name": "Gordon W. Allport",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://psychology.fas.harvard.edu/people/gordon-w-allport",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jill-m-hooley-harvard-university",
+    "name": "Jill M. Hooley",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jmh@wjh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/jill-m-hooley",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-r-weisz-harvard-university",
+    "name": "John R. Weisz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_weisz@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/john-r-weisz",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lul-abdullahi-harvard-university",
+    "name": "Lul  Abdullahi",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emaillabdullahi@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/lul-abdullahi",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mahzarin-r-banaji-harvard-university",
+    "name": "Mahzarin R. Banaji",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_banaji@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/mahzarin-r-banaji",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "maria-alexandra-acunzo-kredlow-harvard-university",
+    "name": "Maria Alexandra Acunzo (Kredlow)",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "macunzo@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/maria-alexandra-acunzo-kredlow",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marie-amalric-harvard-university",
+    "name": "Marie  Amalric",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emailmamalric@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/marie-amalric",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-l-hatzenbuehler-harvard-university",
+    "name": "Mark L. Hatzenbuehler",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "markhatzenbuehler@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/mark-l-hatzenbuehler",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peter-j-aungle-harvard-university",
+    "name": "Peter J Aungle",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "peter_aungle@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://peteraungle.rbind.io/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "low",
+      "email_confidence": "high",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "richard-j-mcnally-harvard-university",
+    "name": "Richard J. McNally",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "rjm@wjh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/richard-j-mcnally",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "roy-f-baumeister-harvard-university",
+    "name": "Roy F. Baumeister",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "r.baumeister@uq.edu.au",
+      "email_confidence": "MEDIUM",
+      "website": "https://psychology.fas.harvard.edu/people/roy-baumeister",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "samuel-j-gershman-harvard-university",
+    "name": "Samuel J. Gershman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gershman@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.fas.harvard.edu/people/samuel-j-gershman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "shahar-arzy-harvard-university",
+    "name": "Shahar Arzy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "shahar.arzy@ekmd.huji.ac.il",
+      "email_confidence": "MEDIUM",
+      "website": "https://psychology.fas.harvard.edu/people/shahar-arzy",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stephen-m-kosslyn-harvard-university",
+    "name": "Stephen M. Kosslyn",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://psychology.fas.harvard.edu/people/stephen-m-kosslyn",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

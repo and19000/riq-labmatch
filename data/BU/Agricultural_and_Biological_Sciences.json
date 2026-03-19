@@ -1,0 +1,282 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "adrien-c-finzi-boston-university",
+    "name": "Adrien C. Finzi",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://colsa.unh.edu/natural-resources-environment/distinguished-alumni-award-adrien-finzi",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "c-roxanne-rutledge-boston-university",
+    "name": "C. Roxanne Rutledge",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "rutledge@mit.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.odu.edu/directory/carolyn-rutledge",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "dilip-mookherjee-boston-university",
+    "name": "Dilip Mookherjee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "dilipm@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/econ/profile/dilip-mookherjee/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "fuguo-liu-boston-university",
+    "name": "Fuguo Liu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "fuguol@mit.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://sites.bu.edu/liugroup/research/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yaxi-liu-boston-university",
+    "name": "Yaxi Liu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://sciprofiles.com/profile/1171890",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

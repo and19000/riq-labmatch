@@ -1,0 +1,6610 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "adam-e-cohen-ph-d-harvard-university",
+    "name": "Adam E.  Cohen, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emailcohen@chemistry.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://pinphd.hms.harvard.edu/people/adam-e-cohen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "affiliate-faculty-harvard-university",
+    "name": "Affiliate Faculty",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "armitage@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hsph.harvard.edu/research/climate-health-c-change/team/affiliated-faculty/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alan-cantor-m-d-ph-d-harvard-university",
+    "name": "Alan Cantor, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "alan.cantor@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/alan-cantor-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "albert-edge-phd-harvard-university",
+    "name": "Albert Edge, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "albert_edge@meei.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/albert-edge-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alessandra-biffi-m-d-harvard-university",
+    "name": "Alessandra Biffi, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "alessandra.biffi@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/alessandra-biffi-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ali-khademhosseini-harvard-university",
+    "name": "Ali Khademhosseini",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "hsci@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/related-faculty-member/ali-khademhosseini",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "amar-sahay-ph-d-harvard-university",
+    "name": "Amar Sahay, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "asahay@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/amar-sahay-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "amy-wagers-ph-d-harvard-university",
+    "name": "Amy Wagers, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "amy.wagers@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/amy-wagers-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "april-m-craft-ph-d-harvard-university",
+    "name": "April M. Craft, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "april.craft@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/april-m-craft-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "benjamin-l-ebert-harvard-university",
+    "name": "Benjamin L. Ebert",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "benjamin_ebert@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/benjamin-l-ebert-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "benjamin-l-ebert-m-d-ph-d-harvard-university",
+    "name": "Benjamin L. Ebert, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "benjamin_ebert@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/benjamin-l-ebert-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "brian-j-wainger-m-d-ph-d-harvard-university",
+    "name": "Brian J. Wainger, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "bwainger@partners.org",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.hsci.harvard.edu/people/brian-j-wainger-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "calum-a-macrae-harvard-university",
+    "name": "Calum A. MacRae",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "camacrae@bics.bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/calum-macrae-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "calum-macrae-m-d-ph-d-harvard-university",
+    "name": "Calum MacRae, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "camacrae@bics.bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/calum-macrae-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "carla-f-kim-ph-d-harvard-university",
+    "name": "Carla F. Kim, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "carla.kim@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/carla-f-kim-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "caroline-e-burns-phd-harvard-university",
+    "name": "Caroline E. Burns, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "caroline.burns@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/caroline-e-burns-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "christopher-a-walsh-m-d-ph-d-harvard-university",
+    "name": "Christopher A. Walsh, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "christopher.walsh@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/christopher-walsh-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "clifford-j-woolf-harvard-university",
+    "name": "Clifford J. Woolf",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "clifford.woolf@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/clifford-j-woolf-mb-bch-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "clifford-j-woolf-m-b-b-ch-ph-d-harvard-university",
+    "name": "Clifford J. Woolf, M.B., B.Ch., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "clifford.woolf@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/clifford-j-woolf-mb-bch-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "constance-cepko-ph-d-harvard-university",
+    "name": "Constance Cepko, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "cepko@genetics.med.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/constance-cepko-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-e-bauer-harvard-university",
+    "name": "Daniel E. Bauer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "daniel.bauer@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/daniel-e-bauer-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-e-bauer-m-d-ph-d-harvard-university",
+    "name": "Daniel E. Bauer, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "daniel.bauer@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/daniel-e-bauer-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-g-tenen-harvard-university",
+    "name": "Daniel G. Tenen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dtenen@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/daniel-g-tenen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-g-tenen-m-d-harvard-university",
+    "name": "Daniel G. Tenen, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emaildtenen@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/daniel-g-tenen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-a-williams-m-d-harvard-university",
+    "name": "David A. Williams, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dawilliams@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/david-williams-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-breault-m-d-ph-d-harvard-university",
+    "name": "David Breault, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "david.breault@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/david-breault-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-m-langenau-phd-harvard-university",
+    "name": "David M. Langenau, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dlangenau@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/david-m-langenau-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-scadden-m-d-harvard-university",
+    "name": "David Scadden, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dscadden@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/david-scadden-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-t-armstrong-harvard-university",
+    "name": "David T. Armstrong",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_armstrong@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/scott-armstrong-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-t-scadden-harvard-university",
+    "name": "David T. Scadden",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_scadden@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/david-scadden-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "diane-mathis-ph-d-harvard-university",
+    "name": "Diane Mathis, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dennis_kasper@hms.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://kasperlab.hms.harvard.edu/people/diane-mathis-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "douglas-a-melton-ph-d-harvard-university",
+    "name": "Douglas A. Melton, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dmelton@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/douglas-melton-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "elliot-chaikof-m-d-ph-d-harvard-university",
+    "name": "Elliot Chaikof, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "echaikof@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/elliot-chaikof-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "elliot-l-chaikof-harvard-university",
+    "name": "Elliot L. Chaikof",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "echaikof@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/elliot-chaikof-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "fernando-camargo-ph-d-harvard-university",
+    "name": "Fernando Camargo, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "fernando.camargo@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/fernando-camargo-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "fernando-d-camargo-harvard-university",
+    "name": "Fernando D. Camargo",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "fernando.camargo@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/fernando-camargo-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "frank-j-slack-harvard-university",
+    "name": "Frank J. Slack",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "fslack@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/frank-j-slack-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "frank-j-slack-ph-d-harvard-university",
+    "name": "Frank J. Slack, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "fslack@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/frank-j-slack-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "george-f-murphy-m-d-harvard-university",
+    "name": "George F. Murphy, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gmurphy@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/george-f-murphy-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gordon-c-weir-harvard-university",
+    "name": "Gordon C. Weir",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gordon.weir@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/gordon-c-weir-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gordon-c-weir-m-d-harvard-university",
+    "name": "Gordon C. Weir, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gordon.weir@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/gordon-c-weir-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "guo-cheng-yuan-ph-d-harvard-university",
+    "name": "Guo-Cheng Yuan, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gcyuan@jimmy.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/guo-cheng-yuan",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "george-f-murphy-harvard-university",
+    "name": "Gëorge F. Murphy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gmurphy@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/george-f-murphy-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hanno-hock-md-phd-harvard-university",
+    "name": "Hanno Hock, MD, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "hock.hanno@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://researchers.mgh.harvard.edu/profile/3589979/Hanno-Hock",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-gusella-phd-harvard-university",
+    "name": "James Gusella, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "gusella@helix.mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://researchers.mgh.harvard.edu/profile/1785487/James-Gusella",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jason-d-buenrostro-harvard-university",
+    "name": "Jason D. Buenrostro",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jason_buenrostro@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jason-d-buenrostro-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jason-d-buenrostro-ph-d-harvard-university",
+    "name": "Jason D. Buenrostro, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jason_buenrostro@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jason-d-buenrostro-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jayaraj-rajagopal-md-harvard-university",
+    "name": "Jayaraj Rajagopal, MD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jrajagopal@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jayaraj-rajagopal-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jeffrey-d-macklis-m-d-d-sc-tech-harvard-university",
+    "name": "Jeffrey D. Macklis, M.D., D.Sc.Tech.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jeffrey_macklis@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cores.fas.harvard.edu/people/jeffrey-d-macklis-md-dsctech",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jeffrey-karp-ph-d-harvard-university",
+    "name": "Jeffrey Karp, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jeffkarp@mit.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.hsci.harvard.edu/people/jeffrey-karp-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jeffrey-m-karp-harvard-university",
+    "name": "Jeffrey M. Karp",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jeffkarp@mit.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.hsci.harvard.edu/people/jeffrey-karp-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jenna-galloway-ph-d-harvard-university",
+    "name": "Jenna Galloway, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jgalloway@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jenna-galloway-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jennifer-a-lewis-scd-harvard-university",
+    "name": "Jennifer A. Lewis, ScD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jalewis@seas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jennifer-lewis-scd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jerome-ritz-harvard-university",
+    "name": "Jerome Ritz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jerome_ritz@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jerome-ritz-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jerome-ritz-m-d-harvard-university",
+    "name": "Jerome Ritz, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jerome_ritz@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jerome-ritz-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jessica-whited-ph-d-harvard-university",
+    "name": "Jessica  Whited, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jessica_whited@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jessica-whited-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jessica-lehoczky-ph-d-harvard-university",
+    "name": "Jessica Lehoczky, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jlehoczky@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jessica-lehoczky-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jordan-a-kreidberg-m-d-ph-d-harvard-university",
+    "name": "Jordan A. Kreidberg, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jkreidbe@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jordan-kreidberg-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "joseph-v-bonventre-harvard-university",
+    "name": "Joseph V. Bonventre",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jbonventre@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/joseph-v-bonventre-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "joseph-v-bonventre-m-d-ph-d-harvard-university",
+    "name": "Joseph V. Bonventre, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jbonventre@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/joseph-v-bonventre-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jose-ordovas-montanes-ph-d-harvard-university",
+    "name": "José Ordovas-Montanes, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jose.ordovas-montanes@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/jose-ordovas-montanes-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "juan-m-melero-martin-ph-d-harvard-university",
+    "name": "Juan M. Melero-Martin, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "juan.meleromartin@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/juan-m-melero-martin-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kara-mckinley-phd-harvard-university",
+    "name": "Kara McKinley, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_mckinley@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/kara-mckinley-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kevin-kit-parker-ph-d-harvard-university",
+    "name": "Kevin Kit Parker, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "kkparker@seas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/kevin-kit-parker-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "khalid-shah-harvard-university",
+    "name": "Khalid Shah",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "kshah@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/khalid-shah-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "khalid-shah-m-s-ph-d-harvard-university",
+    "name": "Khalid Shah, M.S., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "kshah@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/khalid-shah-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "konrad-hochedlinger-ph-d-harvard-university",
+    "name": "Konrad Hochedlinger, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "khochedlinger@helix.mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/konrad-hochedlinger-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kornelia-polyak-m-d-ph-d-harvard-university",
+    "name": "Kornelia Polyak, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "kornelia_polyak@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/kornelia-polyak-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lee-l-rubin-ph-d-harvard-university",
+    "name": "Lee L. Rubin, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "lee_rubin@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/lee-l-rubin",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "leonard-i-zon-harvard-university",
+    "name": "Leonard I. Zon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zon@enders.tch.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hsci.harvard.edu/people/leonard-i-zon-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "leonard-i-zon-m-d-harvard-university",
+    "name": "Leonard I. Zon, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zon@enders.tch.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/leonard-i-zon-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marc-n-wein-md-phd-harvard-university",
+    "name": "Marc N. Wein, MD, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "mnwein@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/marc-n-wein-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marcos-simoes-costa-phd-harvard-university",
+    "name": "Marcos Simoes-Costa, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "marcos@hms.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/marcos-simoes-costa-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mario-suva-m-d-ph-d-harvard-university",
+    "name": "Mario Suva, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "suva.mario@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/mario-suva-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-c-fishman-harvard-university",
+    "name": "Mark C. Fishman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_fishman@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/mark-fishman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-c-fishman-m-d-harvard-university",
+    "name": "Mark C. Fishman, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "mark_fishman@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/mark-fishman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "markus-frank-m-d-harvard-university",
+    "name": "Markus Frank, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "markus.frank@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/markus-frank-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ole-isacson-harvard-university",
+    "name": "Ole Isacson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "ole_isacson@hms.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/ole-isacson-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ole-isacson-m-d-harvard-university",
+    "name": "Ole Isacson, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "ole_isacson@hms.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/ole-isacson-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "olivier-pourquie-harvard-university",
+    "name": "Olivier Pourquié",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "pourquie@genetics.med.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/olivier-pourqui%C3%A9-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "olivier-pourquie-ph-d-harvard-university",
+    "name": "Olivier Pourquié, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "pourquie@genetics.med.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/olivier-pourqui%C3%A9-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "paola-arlotta-ph-d-harvard-university",
+    "name": "Paola Arlotta, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "paola_arlotta@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://bbsphd.hms.harvard.edu/people/paola-arlotta",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "patricia-k-donahoe-harvard-university",
+    "name": "Patricia K. Donahoe",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "donahoe.patricia@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/patricia-k-donahoe-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "patricia-k-donahoe-m-d-harvard-university",
+    "name": "Patricia K. Donahoe, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "donahoe.patricia@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/patricia-k-donahoe-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peter-van-galen-phd-harvard-university",
+    "name": "Peter van Galen, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "pvangalen@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/peter-van-galen-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "r-grant-rowe-md-phd-harvard-university",
+    "name": "R. Grant Rowe, MD, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "robert.rowe@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/r-grant-rowe-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ramesh-a-shivdasani-harvard-university",
+    "name": "Ramesh A. Shivdasani",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_shivdasani@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/ramesh-shivdasani-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ramesh-shivdasani-md-phd-harvard-university",
+    "name": "Ramesh Shivdasani, MD, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "ramesh_shivdasani@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/ramesh-shivdasani-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "richard-lee-harvard-university",
+    "name": "Richard Lee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "rjlee@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/richard-lee-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "richard-lee-m-d-harvard-university",
+    "name": "Richard Lee, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "richard_lee@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/richard-lee-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "rohit-kulkarni-m-d-ph-d-harvard-university",
+    "name": "Rohit  Kulkarni, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "rohit.kulkarni@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/rohit-kulkarni-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "rohit-kulkarni-harvard-university",
+    "name": "Rohit Kulkarni",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "rohit.kulkarni@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/rohit-kulkarni-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ruth-franklin-phd-harvard-university",
+    "name": "Ruth Franklin, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "ruthfranklin@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/ruth-franklin-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "scott-a-armstrong-harvard-university",
+    "name": "Scott A. Armstrong",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_armstrong@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/scott-armstrong-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "scott-armstrong-m-d-ph-d-harvard-university",
+    "name": "Scott Armstrong, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "scott_armstrong@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/scott-armstrong-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sharad-ramanathan-ph-d-harvard-university",
+    "name": "Sharad Ramanathan, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "christopherdoty@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/sharad-ramanathan-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stuart-orkin-m-d-harvard-university",
+    "name": "Stuart Orkin, M.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "stuart_orkin@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/stuart-orkin-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "suneet-agarwal-md-phd-harvard-university",
+    "name": "Suneet Agarwal, MD, PhD",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "suneet.agarwal@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/suneet-agarwal-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "susan-bonner-weir-ph-d-harvard-university",
+    "name": "Susan Bonner-Weir, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "susan.bonner-weir@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/susan-bonner-weir-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "susan-dymecki-m-d-ph-d-harvard-university",
+    "name": "Susan Dymecki, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dymecki@genetics.med.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/susan-dymecki-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "thomas-s-kupper-harvard-university",
+    "name": "Thomas S. Kupper",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "tkupper@partners.org",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/thomas-s-kupper-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "tracy-young-pearse-ph-d-harvard-university",
+    "name": "Tracy Young-Pearse, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "tpearse@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/tracy-young-pearse-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "trista-e-north-ph-d-harvard-university",
+    "name": "Trista E. North, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "trista.north@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/trista-e-north-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "vicki-rosen-ph-d-harvard-university",
+    "name": "Vicki Rosen, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "vicki_rosen@hsdm.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/vicki-rosen-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "vijay-g-sankaran-m-d-ph-d-harvard-university",
+    "name": "Vijay G. Sankaran, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "sankaran@broadinstitute.org",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.hsci.harvard.edu/people/vijay-g-sankaran-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "vikram-khurana-m-d-ph-d-harvard-university",
+    "name": "Vikram Khurana, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emailvkhurana@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/vikram-khurana-mb-bs-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "wayne-a-marasco-m-d-ph-d-harvard-university",
+    "name": "Wayne A. Marasco, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "wayne_marasco@dfci.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/wayne-marasco-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-t-pu-harvard-university",
+    "name": "William T. Pu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "wpu@enders.tch.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/william-t-pu-md",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "winston-hide-ph-d-harvard-university",
+    "name": "Winston Hide, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "whide@bidmc.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/winston-hide-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ya-chieh-hsu-ph-d-harvard-university",
+    "name": "Ya-Chieh Hsu, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yachieh_hsu@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/ya-chieh-hsu-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yi-zhang-ph-d-harvard-university",
+    "name": "Yi Zhang, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yzhang@genetics.med.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/yi-zhang-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yick-w-fong-ph-d-harvard-university",
+    "name": "Yick W. Fong, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yfong@bwh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/yick-w-fong-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yingzi-yang-ph-d-harvard-university",
+    "name": "Yingzi Yang, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yingzi_yang@hsdm.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/yingzi-yang-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yu-hua-tseng-ph-d-harvard-university",
+    "name": "Yu-Hua Tseng, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yu-hua.tseng@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/yu-hua-tseng-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yuhua-tseng-harvard-university",
+    "name": "Yu‐Hua Tseng",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yu-hua.tseng@joslin.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/yu-hua-tseng-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "zhigang-he-ph-d-b-m-harvard-university",
+    "name": "Zhigang He, Ph.D., B.M.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zhigang.he@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/zhigang-he-phd-bm",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "zhixun-dou-ph-d-harvard-university",
+    "name": "Zhixun Dou, Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zdou@mgh.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsci.harvard.edu/people/zhixun-dou-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "zuzana-tothova-m-d-ph-d-harvard-university",
+    "name": "Zuzana Tothova, M.D., Ph.D.",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Stem Cell Institute",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "tothova@broadinstitute.org",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.hsci.harvard.edu/people/zuzana-tothova-md-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

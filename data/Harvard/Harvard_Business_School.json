@@ -1,0 +1,450 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "beate-lanske-harvard-university",
+    "name": "Beate Lanske",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_lanske@hsdm.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hsdm.harvard.edu/people/beate-klara-maria-lanske",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "edward-f-chang-harvard-university",
+    "name": "Edward F. Chang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "echang@cs.stanford.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1284280",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jae-h-kang-harvard-university",
+    "name": "Jae H. Kang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "hyoungkang@hanyang.ac.kr",
+      "email_confidence": "LOW",
+      "website": "https://connects.catalyst.harvard.edu/Profiles/display/Person/76630",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "low",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "josh-lerner-harvard-university",
+    "name": "Josh Lerner",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "josh@hbs.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hbs.edu/ris/Profile%20Files/CVITA.long.Latest_Lerner08052025_1c43b71d-cfad-45d0-bd6b-d5ba3a2a84c9.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "high",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kenneth-froot-harvard-university",
+    "name": "Kenneth Froot",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "kfroot@hbs.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6456",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lusheng-zhu-harvard-university",
+    "name": "Lusheng Zhu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zhuliu@tsinghua.edu.cn",
+      "email_confidence": "LOW",
+      "website": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=14938",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "low",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "richard-l-robertson-harvard-university",
+    "name": "Richard L. Robertson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "richard.robertson@childrens.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1322911",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-r-kerr-harvard-university",
+    "name": "William R. Kerr",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Business School",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "wkerr@hbs.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

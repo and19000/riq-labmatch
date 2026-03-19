@@ -1,0 +1,2074 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "adam-finkelstein-princeton-university",
+    "name": "Adam Finkelstein",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "af@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://rockefellercollege.princeton.edu/people/adam-finkelstein",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "andrea-goldsmith-princeton-university",
+    "name": "Andrea Goldsmith",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "goldsmith@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://kellercenter.princeton.edu/people/andrea-goldsmith",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "andrew-houck-princeton-university",
+    "name": "Andrew Houck",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "aahouck@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ece.princeton.edu/people/andrew-houck",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "andrew-w-appel-princeton-university",
+    "name": "Andrew W. Appel",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "appel@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/appel",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "andres-monroyhernandez-princeton-university",
+    "name": "Andrés Monroy‐Hernández",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "andresmh@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/andresmh",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "bernard-chazelle-princeton-university",
+    "name": "Bernard Chazelle",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "chazelle@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://kellercenter.princeton.edu/people/bernard-chazelle",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "brandon-stewart-princeton-university",
+    "name": "Brandon Stewart",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "bms4@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://sociology.princeton.edu/people/brandon-stewart",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-i-august-princeton-university",
+    "name": "David I. August",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "august@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://august.princeton.edu/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-walker-princeton-university",
+    "name": "David Walker",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "dpw@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://seas-reu.princeton.edu/people/david-walker",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "h-vincent-poor-princeton-university",
+    "name": "H. Vincent Poor",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "poor@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ece.princeton.edu/people/h-vincent-poor",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "herbert-g-tanner-princeton-university",
+    "name": "Herbert G. Tanner",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "btanner@udel.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://me.udel.edu/faculty/herbert-tanner/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-j-hopfield-princeton-university",
+    "name": "J. J. Hopfield",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "guestservices@fi.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://pni.princeton.edu/document/1806",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jason-d-lee-princeton-university",
+    "name": "Jason D. Lee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "jasonlee@marshall.usc.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://ece.princeton.edu/people/jason-d-lee",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jennifer-rexford-princeton-university",
+    "name": "Jennifer Rexford",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "jrex@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://provost.princeton.edu/about/directory/jennifer-rexford",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jonathan-cohen-princeton-university",
+    "name": "Jonathan Cohen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://psychology.princeton.edu/people/jonathan-cohen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "k-steiglitz-princeton-university",
+    "name": "K. Steiglitz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ken@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://dof.princeton.edu/people/kenneth-steiglitz",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kyle-jamieson-princeton-university",
+    "name": "Kyle Jamieson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://quantum.princeton.edu/people/kyle-jamieson",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "margaret-martonosi-princeton-university",
+    "name": "Margaret Martonosi",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "adwhitepal@cornell.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://mrm.scholar.princeton.edu/people/margaret-martonosi",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "maria-chudnovsky-princeton-university",
+    "name": "Maria Chudnovsky",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "mchudnov@math.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://web.math.princeton.edu/~mchudnov/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-braverman-princeton-university",
+    "name": "Mark Braverman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://mbraverm.princeton.edu/team/members/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-j-freedman-princeton-university",
+    "name": "Michael J. Freedman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "mfreed@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/mfreed",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "naomi-ehrich-leonard-princeton-university",
+    "name": "Naomi Ehrich Leonard",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://mae.princeton.edu/people/naomi-ehrich-leonard",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "noga-alon-princeton-university",
+    "name": "Noga Alon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://web.math.princeton.edu/~nalon/cvshort.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "paul-seymour-princeton-university",
+    "name": "Paul Seymour",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "pds@math.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://web.math.princeton.edu/~pds/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peter-henderson-princeton-university",
+    "name": "Peter Henderson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ph4162@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://plaw.law.princeton.edu/people/peter-henderson",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peter-j-ramadge-princeton-university",
+    "name": "Peter J. Ramadge",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ramadge@ee.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://dof.princeton.edu/people/peter-ramadge",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "pramod-viswanath-princeton-university",
+    "name": "Pramod Viswanath",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://citp.princeton.edu/people/pramod-viswanath",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "richard-peng-princeton-university",
+    "name": "Richard Peng",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "yangp@andrew.cmu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://behrend.psu.edu/person/xianghui-richard-peng",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-e-tarjan-princeton-university",
+    "name": "Robert E. Tarjan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ret@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/ret",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ryan-p-adams-princeton-university",
+    "name": "Ryan P. Adams",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "rpa@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/rpa",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-c-schwartz-princeton-university",
+    "name": "S.C. Schwartz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://dof.princeton.edu/people/stuart-carl-schwartz",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sanjeev-arora-princeton-university",
+    "name": "Sanjeev Arora",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "arora@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/arora",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "scott-lee-princeton-university",
+    "name": "Scott Lee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "aarsleff@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://paw.princeton.edu/article/mackenzie-scott-philanthropy-giving-writer-books",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sharad-malik-princeton-university",
+    "name": "Sharad Malik",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "sharad@ee.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.winlab.rutgers.edu/~crose/verdu_dimacs/www.ee.princeton.edu/people/Malik.php",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "high",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "srimat-chakradhar-princeton-university",
+    "name": "Srimat Chakradhar",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.cs.princeton.edu/~appel/voting/Wolf-Expert-Report.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "szymon-rusinkiewicz-princeton-university",
+    "name": "Szymon Rusinkiewicz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "smr@cs.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.princeton.edu/people/profile/smr",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "walter-willinger-princeton-university",
+    "name": "Walter Willinger",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "http://assets.press.princeton.edu/chapters/i9526.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

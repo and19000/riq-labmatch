@@ -1,0 +1,898 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "c-barr-taylor-stanford-university",
+    "name": "C. Barr Taylor",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "nina.bai@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/craig-taylor",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "carol-s-dweck-stanford-university",
+    "name": "Carol S. Dweck",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "dweck@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://neuroscience.stanford.edu/people/carol-s-dweck",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "eric-stice-stanford-university",
+    "name": "Eric Stice",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "estice@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://woods.stanford.edu/people/eric-stice",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hazel-rose-markus-stanford-university",
+    "name": "Hazel Rose Markus",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "hmarkus@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.stanford.edu/people/hazel-markus",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "helena-c-kraemer-stanford-university",
+    "name": "Helena C. Kraemer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://ortho.stanford.edu/profiles/helena-kraemer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ian-h-gotlib-stanford-university",
+    "name": "Ian H. Gotlib",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "ian.gotlib@stanford.eduwebsite",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.stanford.edu/people/ian-gotlib",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-j-gross-stanford-university",
+    "name": "James J. Gross",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "gross@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://neuroscience.stanford.edu/people/james-gross",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-l-mcclelland-stanford-university",
+    "name": "James L. McClelland",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "jlmcc@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://biox.stanford.edu/people/james-mcclelland",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-lock-stanford-university",
+    "name": "James Lock",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "jimlock@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/james-lock",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "laura-l-carstensen-stanford-university",
+    "name": "Laura L. Carstensen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "laura.carstensen@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.stanford.edu/people/laura-l-carstensen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marylene-cloitre-stanford-university",
+    "name": "Marylène Cloître",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "marylene.cloitre@nyu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://gmhacademy.org/faculty/marylene-cloitre/",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michele-j-gelfand-stanford-university",
+    "name": "Michele J. Gelfand",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "gelfand1@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.gsb.stanford.edu/faculty-research/faculty/michele-j-gelfand",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "philip-g-zimbardo-stanford-university",
+    "name": "Philip G. Zimbardo",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "zim@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.stanford.edu/people/philip-zimbardo",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "roy-pea-stanford-university",
+    "name": "Roy Pea",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "roypea@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ed.stanford.edu/faculty/roypea",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "slavoj-zizek-stanford-university",
+    "name": "Slavoj Žižek",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "stanfordhumanities@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://shc.stanford.edu/taxonomy/term/13956",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "w-stewart-agras-stanford-university",
+    "name": "W. Stewart Agras",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "sagras@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hai.stanford.edu/people/stewart-agras",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

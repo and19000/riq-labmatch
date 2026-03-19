@@ -1,0 +1,226 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "constantinos-daskalakis-massachusetts-institute-of-technology",
+    "name": "Constantinos Daskalakis",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Massachusetts Institute of Technology",
+      "affiliation": "Massachusetts Institute of Technology",
+      "department": "Decision Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "costis@csail.mit.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.eecs.mit.edu/people/constantinos-daskalakis/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "dimitris-bertsimas-massachusetts-institute-of-technology",
+    "name": "Dimitris Bertsimas",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Massachusetts Institute of Technology",
+      "affiliation": "Massachusetts Institute of Technology",
+      "department": "Decision Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dbertsim@mit.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mitsloan.mit.edu/faculty/directory/dimitris-bertsimas",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gabriele-farina-massachusetts-institute-of-technology",
+    "name": "Gabriele Farina",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Massachusetts Institute of Technology",
+      "affiliation": "Massachusetts Institute of Technology",
+      "department": "Decision Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "fern@csail.mit.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mitibmwatsonailab.mit.edu/people/gabriele-farina/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "pierre-azoulay-massachusetts-institute-of-technology",
+    "name": "Pierre Azoulay",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Massachusetts Institute of Technology",
+      "affiliation": "Massachusetts Institute of Technology",
+      "department": "Decision Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "pazoulay@mit.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mitsloan.mit.edu/faculty/directory/pierre-azoulay",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

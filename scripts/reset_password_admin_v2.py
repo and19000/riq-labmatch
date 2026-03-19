@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from app import app, db, User
+from backend.app import app, db, User
 
 def reset_password(email, new_password):
     """Reset password for a user by email."""

@@ -2,6 +2,7 @@
 Tavily Search API implementation.
 Docs: https://docs.tavily.com
 """
+import time
 from typing import List
 from tavily import TavilyClient
 from .base import BaseSearch, SearchResult
@@ -9,6 +10,26 @@ from .base import BaseSearch, SearchResult
 
 class TavilySearch(BaseSearch):
     """Tavily search API wrapper."""
+
+    # Substrings indicating rate-limit / throttling / quota / auth blocks.
+    # If detected, we re-raise so run_tavily_primary can rotate keys.
+    RATE_LIMIT_ERROR_SUBSTRINGS = (
+        "429",
+        "too many requests",
+        "rate limit",
+        "rate-limited",
+        "limit exceeded",
+        "quota",
+        "credit",
+        "exhausted",
+        "payment required",
+        "402",
+        "401",
+        "invalid api key",
+        "excessive requests",
+        "blocked due to",
+        "blocked",
+    )
 
     def __init__(self, api_key: str, delay: float = 0.5):
         super().__init__(api_key, delay)
@@ -22,14 +43,29 @@ class TavilySearch(BaseSearch):
     def cost_per_query(self) -> float:
         return 0.01
 
-    def search(self, query: str, num_results: int = 5) -> List[SearchResult]:
+    def _safe_search(self, query: str, num_results: int = 5) -> List[SearchResult]:
+        """
+        Tavily-specific safe wrapper.
+
+        Unlike BaseSearch._safe_search, we DO NOT swallow exceptions.
+        That allows key-rotation when Tavily rate-limits/blocks requests.
+        """
+        time.sleep(self.delay)
+        self.query_count += 1
+        self.total_cost += self.cost_per_query
+        return self.search(query, num_results=num_results, include_raw_content=True)
+
+    def search(self, query: str, num_results: int = 5, include_raw_content: bool = True) -> List[SearchResult]:
         try:
-            response = self.client.search(
-                query=query,
-                search_depth="advanced",
-                max_results=num_results,
-                include_answer=False
-            )
+            kwargs = {
+                "query": query,
+                "search_depth": "advanced",
+                "max_results": num_results,
+                "include_answer": False,
+            }
+            if include_raw_content:
+                kwargs["include_raw_content"] = True
+            response = self.client.search(**kwargs)
 
             # Tavily returns dict with "results" key
             if isinstance(response, dict):
@@ -59,6 +95,10 @@ class TavilySearch(BaseSearch):
             return results
 
         except Exception as e:
+            msg = str(e).lower()
+            # If this is a throttling/blocking/auth problem, re-raise so the caller can rotate keys.
+            if any(sub in msg for sub in self.RATE_LIMIT_ERROR_SUBSTRINGS):
+                raise
             print(f"  [Tavily] API error: {e}")
             return []
 

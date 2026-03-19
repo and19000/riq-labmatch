@@ -4,7 +4,7 @@
 # This script can run the server in the background so it stays running
 
 cd /Users/kerrynguyen/Projects/riq-labmatch
-source venv/bin/activate
+source .venv/bin/activate
 
 # Check if server is already running
 if lsof -ti:5001 > /dev/null 2>&1; then
@@ -30,13 +30,13 @@ echo ""
 if [ "$1" == "--background" ] || [ "$1" == "-b" ]; then
     echo "Starting server in background..."
     echo "Server logs will be saved to server.log"
-    echo "To stop the server, run: pkill -f 'python app.py'"
+    echo "To stop the server, run: pkill -f 'python run.py'"
     echo ""
-    nohup python app.py > server.log 2>&1 &
+    nohup python run.py > server.log 2>&1 &
     echo "Server started! PID: $!"
     echo "Check server.log for output"
 else
     echo "Press CTRL+C to stop the server"
     echo ""
-    python app.py
+    python run.py
 fi

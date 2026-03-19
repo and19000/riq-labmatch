@@ -1,0 +1,1570 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "affiliated-faculty-harvard-university",
+    "name": "Affiliated Faculty",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "flanigan@hsph.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hsph.harvard.edu/research/climate-health-c-change/team/affiliated-faculty/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alexander-young-harvard-university",
+    "name": "Alexander Young",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "_young@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/alexander-young",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "anna-seigal-harvard-university",
+    "name": "Anna Seigal",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "aseigal@seas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://seas.harvard.edu/person/anna-seigal",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-p-harrington-harvard-university",
+    "name": "David P. Harrington",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "davidharrington@g.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/david-p-harrington",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "department-faculty-harvard-university",
+    "name": "Department Faculty",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "dcarpenter@gov.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hsph.harvard.edu/profiles/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "herman-chernoff-harvard-university",
+    "name": "Herman Chernoff",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "chernoff@stat.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/herman-chernoff",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "iavor-bojinov-harvard-university",
+    "name": "Iavor Bojinov",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "datascience@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://datascience.harvard.edu/directory/iavor-i-bojinov/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-xenakis-harvard-university",
+    "name": "James Xenakis",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "emailjxenakis@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/james-xenakis",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jose-zubizarreta-harvard-university",
+    "name": "Jose Zubizarreta",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zubizarreta@hcp.med.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hcp.hms.harvard.edu/people/jose-r-zubizarreta",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "joseph-k-blitzstein-harvard-university",
+    "name": "Joseph K. Blitzstein",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "blitz@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/joseph-k-blitzstein",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "julie-vu-harvard-university",
+    "name": "Julie Vu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "julievu@g.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/julie-vu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jun-s-liu-harvard-university",
+    "name": "Jun S. Liu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "jliu@stat.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/jun-s-liu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kevin-rader-harvard-university",
+    "name": "Kevin Rader",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "rader@stat.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/kevin-rader",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lucas-janson-harvard-university",
+    "name": "Lucas Janson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "ljanson@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cbs.fas.harvard.edu/directory/lucas-janson/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "luke-miratrix-harvard-university",
+    "name": "Luke Miratrix",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "lmiratrix@g.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.gse.harvard.edu/directory/faculty/luke-miratrix",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-sellke-harvard-university",
+    "name": "Mark  Sellke",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "msellke@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/mark-sellke",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-e-glickman-harvard-university",
+    "name": "Mark E. Glickman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "datascience@harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://datascience.harvard.edu/directory/mark-glickman/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "morgane-austern-harvard-university",
+    "name": "Morgane Austern",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "maustern@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/morgane-austern",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "natesh-s-pillai-harvard-university",
+    "name": "Natesh S. Pillai",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://nateshpillai.com/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "pragya-sur-harvard-university",
+    "name": "Pragya Sur",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "pragya@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/pragya-sur-0",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "samuel-kou-harvard-university",
+    "name": "Samuel Kou",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "kou@stat.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/samuel-kou",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sham-kakade-harvard-university",
+    "name": "Sham Kakade",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "sham@seas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://kempnerinstitute.harvard.edu/people/our-people/sham-kakade/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "subhabrata-sen-harvard-university",
+    "name": "Subhabrata Sen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "subhabratasen@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/subhabrata-sen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "susan-murphy-harvard-university",
+    "name": "Susan Murphy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "samurphy@g.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://seas.harvard.edu/person/susan-murphy",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "tracy-ke-harvard-university",
+    "name": "Tracy Ke",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "zke@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/tracy-ke",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "xiao-li-meng-harvard-university",
+    "name": "Xiao-Li Meng",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "xlmeng@fas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.fas.harvard.edu/people/xiao-li-meng",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "xihong-lin-harvard-university",
+    "name": "Xihong Lin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "xlin@hsph.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hsph.harvard.edu/profile/xihong-lin/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yue-lu-harvard-university",
+    "name": "Yue  Lu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Department of Statistics",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "yuelu@seas.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://people.seas.harvard.edu/person/yue-lu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

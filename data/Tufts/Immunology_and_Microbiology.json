@@ -1,0 +1,730 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "bernard-p-arulanandam-tufts-university",
+    "name": "Bernard P. Arulanandam",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "bernard.arulanandam@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://viceprovost.tufts.edu/our-vice-provost-research",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "brigitte-t-huber-tufts-university",
+    "name": "Brigitte T. Huber",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://me-pedia.org/wiki/Brigitte_Huber",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "giovanni-widmer-tufts-university",
+    "name": "Giovanni Widmer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "giovanni.widmer@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://vet.tufts.edu/people/faculty/giovanni-widmer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "honorine-ward-tufts-university",
+    "name": "Honorine Ward",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "honorine.ward@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://gsbs.tufts.edu/people/faculty/honorine-ward",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-m-coffin-tufts-university",
+    "name": "John M. Coffin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "john.coffin@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.tufts.edu/people/faculty/john-coffin",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "miguel-j-stadecker-tufts-university",
+    "name": "Miguel J. Stadecker",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "miguel.stadecker@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://facultyprofiles.tufts.edu/miguel-stadecker",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "patrick-j-skelly-tufts-university",
+    "name": "Patrick J. Skelly",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "patrick.skelly@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://vet.tufts.edu/people/faculty/patrick-skelly",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-p-smith-tufts-university",
+    "name": "Robert P. Smith",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://medicine.tufts.edu/news-events/news/bridging-pathogens-and-progress-lyme-disease-research",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sam-r-telford-tufts-university",
+    "name": "Sam R. Telford",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "sam.telford@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://vet.tufts.edu/people/faculty/sam-telford-iii",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "saul-tzipori-tufts-university",
+    "name": "Saul Tzipori",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://vet.tufts.edu/people/faculty/saul-tzipori",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "shira-doron-tufts-university",
+    "name": "Shira Doron",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "shira.doron@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://gsbs.tufts.edu/people/faculty/shira-doron",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sidney-leskowitz-tufts-university",
+    "name": "Sidney Leskowitz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "gsbs@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "http://tuftsjournal.tufts.edu/2008/09/people/notes/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "v-koneti-rao-tufts-university",
+    "name": "V. Koneti Rao",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "korao@niaid.nih.gov",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.niaid.nih.gov/research/v-koneti-rao-md-frcpa",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "low",
+      "email_confidence": "medium",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

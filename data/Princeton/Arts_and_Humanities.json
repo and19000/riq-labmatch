@@ -1,0 +1,338 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "adele-goldberg-princeton-university",
+    "name": "Adele Ε. Goldberg",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "adele@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://adele.scholar.princeton.edu/people/adele-e-goldberg",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "bas-c-van-fraassen-princeton-university",
+    "name": "Bas C. van Fraassen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://dof.princeton.edu/people/bastiaan-cornelius-van-fraassen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gilbert-harman-princeton-university",
+    "name": "Gilbert Harman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.princeton.edu/news/2021/11/17/gilbert-harman-obituary",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "judith-milhous-princeton-university",
+    "name": "Judith Milhous",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://english.la.psu.edu/?jet_download=f361031a890ca2c608fd1a34f4ad3635a65f9583",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "natalie-zemon-davis-princeton-university",
+    "name": "Natalie Zemon Davis",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "contactus@ias.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.princeton.edu/news/2023/12/11/natalie-zemon-davis-esteemed-cultural-historian-and-cherished-mentor-dies-94",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "simon-gikandi-princeton-university",
+    "name": "Simon Gikandi",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "sgikandi@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://english.princeton.edu/people/simon-gikandi",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "Princeton University",
+  "short_name": "princeton",
+  "primary_trusted_domains": [
+    "princeton.edu"
+  ],
+  "secondary_trusted_domains": [],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "cs.princeton.edu": "Computer Science",
+    "math.princeton.edu": "Mathematics",
+    "physics.princeton.edu": "Physics",
+    "chemistry.princeton.edu": "Chemistry",
+    "molbio.princeton.edu": "Molecular Biology",
+    "econ.princeton.edu": "Economics",
+    "ee.princeton.edu": "Electrical and Computer Engineering",
+    "psych.princeton.edu": "Psychology",
+    "politics.princeton.edu": "Politics",
+    "sociology.princeton.edu": "Sociology",
+    "law.princeton.edu": "School of Public and International Affairs",
+    "princeton.edu/engineer": "School of Engineering and Applied Science"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

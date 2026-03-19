@@ -1,0 +1,58 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "department-of-immunology-harvard-university",
+    "name": "Department of Immunology",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Harvard University",
+      "affiliation": "Harvard University",
+      "department": "Harvard Medical School - Immunology",
+      "department_category": "default",
+      "title": "",
+      "location": "Cambridge, MA",
+      "specific_location": "Cambridge, MA"
+    },
+    "contact": {
+      "email": "iid@hsph.harvard.edu",
+      "email_confidence": "HIGH",
+      "website": "https://immunology.hms.harvard.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

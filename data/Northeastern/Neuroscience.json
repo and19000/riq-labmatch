@@ -1,0 +1,1010 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "bertram-scharf-northeastern-university",
+    "name": "Bertram Scharf",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "s.puffer@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "",
+      "website_confidence": "NONE",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "none",
+      "email_confidence": "high",
+      "confidence": "NONE",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "camron-d-bryant-northeastern-university",
+    "name": "Camron D. Bryant",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://bouve.northeastern.edu/directory/camron-bryant/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "clemens-bauer-northeastern-university",
+    "name": "Clemens Bauer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/clemens-c-c-bauer-hoss/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "deniz-erdogmus-northeastern-university",
+    "name": "Deniz Erdoğmuş",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "d.erdogmus@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/erdogmus-deniz/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ennio-mingolla-northeastern-university",
+    "name": "Ennio Mingolla",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "e.mingolla@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://bouve.northeastern.edu/directory/ennio-mingolla/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "eugene-tunik-northeastern-university",
+    "name": "Eugene Tunik",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "e.tunik@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://bouve.northeastern.edu/directory/eugene-tunik/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-jerger-northeastern-university",
+    "name": "James Jerger",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.audiology.org/aud-today-author/james-jerger/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jung-h-lee-northeastern-university",
+    "name": "Jung H. Lee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cssh.northeastern.edu/faculty/jung-lee/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kai-zhang-northeastern-university",
+    "name": "Kai Zhang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "ka.zhang@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cos.northeastern.edu/people/kai-zhang/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lisa-feldman-barrett-northeastern-university",
+    "name": "Lisa Feldman Barrett",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "l.barrett@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cos.northeastern.edu/people/lisa-barrett/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "matthew-s-goodwin-northeastern-university",
+    "name": "Matthew S. Goodwin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "m.goodwin@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.khoury.northeastern.edu/people/matthew-goodwin/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "miyoung-kwon-northeastern-university",
+    "name": "MiYoung Kwon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/miyoung-kwon/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "psyche-loui-northeastern-university",
+    "name": "Psyche Loui",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://camd.northeastern.edu/people/psyche-loui/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "rhea-t-eskew-northeastern-university",
+    "name": "Rhea T. Eskew",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "ellencushman@neu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cos.northeastern.edu/people/rhea-eskew/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-john-gatley-northeastern-university",
+    "name": "S. John Gatley",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://nanomedicine.sites.northeastern.edu/faculty/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stephanie-noble-northeastern-university",
+    "name": "Stephanie Noble",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "s.noble@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/noble-stephanie/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "susan-whitfieldgabrieli-northeastern-university",
+    "name": "Susan Whitfield‐Gabrieli",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "swg@mit.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://cos.northeastern.edu/people/susan-whitfield-gabrieli/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "torbjorn-u-c-jarbe-northeastern-university",
+    "name": "Torbjörn U.C. Järbe",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Neuroscience",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "tjjarome@vt.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://neuroscience.vt.edu/people/core-faculty/jarome-t.html",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

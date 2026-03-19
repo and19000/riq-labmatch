@@ -1,0 +1,394 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "anthony-mann-tufts-university",
+    "name": "Anthony Mann",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "anthony.mann@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/physics/people/faculty/w-anthony-mann",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-c-dennett-tufts-university",
+    "name": "Daniel C. Dennett",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "daniel.dennett@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://sites.tufts.edu/cogstud/daniel-dennett/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "heather-l-urry-tufts-university",
+    "name": "Heather L. Urry",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "heather.urry@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/psychology/people/faculty/heather-urry",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jody-azzouni-tufts-university",
+    "name": "Jody Azzouni",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "jody.azzouni@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/philosophy/people/faculty/jody-azzouni",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-sege-tufts-university",
+    "name": "Robert Sege",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "rsege@tuftsmedicalcenter.org",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.tuftsctsi.org/people/robert-sege/",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "theo-a-klimstra-tufts-university",
+    "name": "Theo A. Klimstra",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "theo.klimstra@tufts.edu",
+      "email_confidence": "HIGH",
+      "website": "https://as.tufts.edu/epcshd/people/faculty/theo-klimstra",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "wendy-craig-tufts-university",
+    "name": "Wendy Craig",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Tufts University",
+      "affiliation": "Tufts University",
+      "department": "Psychology",
+      "department_category": "default",
+      "title": "",
+      "location": "Medford, MA",
+      "specific_location": "Medford, MA"
+    },
+    "contact": {
+      "email": "wendy.craig@queensu.ca",
+      "email_confidence": "MEDIUM",
+      "website": "https://queensu.academia.edu/WendyCraig",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

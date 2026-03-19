@@ -1,0 +1,674 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "a-stephen-morse-yale-university",
+    "name": "A. Stephen Morse",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "as.morse@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.eng.yale.edu/controls/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "bryan-hooi-yale-university",
+    "name": "Bryan Hooi",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "bhooi@comp.nus.edu.sg",
+      "email_confidence": "MEDIUM",
+      "website": "https://bhooi.github.io/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "low",
+      "email_confidence": "medium",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "christoph-busch-yale-university",
+    "name": "Christoph Busch",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "carolina.uribe@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://law.yale.edu/christoph-busch",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-s-duncan-yale-university",
+    "name": "James S. Duncan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "james.duncan@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/james-duncan/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lawrence-h-staib-yale-university",
+    "name": "Lawrence H. Staib",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "lawrence.staib@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/lawrence-staib/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "luigi-frunzio-yale-university",
+    "name": "Luigi Frunzio",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "luigi.frunzio@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://rsl.yale.edu/profile/luigi-frunzio",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mingyang-kao-yale-university",
+    "name": "Ming‐Yang Kao",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "kao@northwestern.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.cs.yale.edu/grad/handbook2000/node22.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "nicola-santoro-yale-university",
+    "name": "Nicola Santoro",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "nicola.santoro@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/nicola-santoro/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-schoelkopf-yale-university",
+    "name": "Robert Schoelkopf",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "robert.schoelkopf@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://quantuminstitute.yale.edu/people/robert-schoelkopf",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ronald-r-coifman-yale-university",
+    "name": "Ronald R. Coifman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ronald.coifman@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/coifman-ronald/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-zhu-yale-university",
+    "name": "William Zhu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "qingbing.zhu@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/qingbing-zhu/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "xi-xiao-yale-university",
+    "name": "Xi Xiao",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/xiaosi-gu/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

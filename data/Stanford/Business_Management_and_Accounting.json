@@ -1,0 +1,58 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "jeffrey-pfeffer-stanford-university",
+    "name": "Jeffrey Pfeffer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Business, Management and Accounting",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.gsb.stanford.edu/faculty-research/faculty/jeffrey-pfeffer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

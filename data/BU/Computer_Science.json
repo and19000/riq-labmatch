@@ -1,0 +1,1010 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "alexander-v-sergienko-boston-university",
+    "name": "Alexander V. Sergienko",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "alexserg@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/eng/profile/alexander-sergienko/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ayse-k-coskun-boston-university",
+    "name": "Ayse K. Coskun",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "acoskun@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/hic/profile/ayse-coskun/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-a-castanon-boston-university",
+    "name": "David A. Castañón",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "dac@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/eng/profile/david-castanon/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "deyi-li-boston-university",
+    "name": "Deyi Li",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "pbhi@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bumc.bu.edu/pbhi/about-pbhi/the-team/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "engin-kirda-boston-university",
+    "name": "Engin Kirda",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "ek@ccs.neu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.bu.edu/pardee/profile/engin-kirda/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jiawei-han-boston-university",
+    "name": "Jiawei Han",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "http://www.cs.uiuc.edu/~hanj%22",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jinying-chen-boston-university",
+    "name": "Jinying Chen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "jinychen@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bumc.bu.edu/medicine/profile/jinying-chen/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kate-saenko-boston-university",
+    "name": "Kate Saenko",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "saenko@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/hospitality/profile/kate-saenko/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lu-gan-boston-university",
+    "name": "Lu Gan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.bu.edu/biology/undergrad/research/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "margrit-betke-boston-university",
+    "name": "Margrit Betke",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "betke@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/eng/profile/margrit-betke/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "min-zhang-boston-university",
+    "name": "Min Zhang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "mzhang2@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/met/profile/ming-zhang/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "miriam-leeser-boston-university",
+    "name": "Miriam Leeser",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "mel@ece.northeastern.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://coe.northeastern.edu/people/leeser-miriam/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "qiang-shen-boston-university",
+    "name": "Qiang Shen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "shenq3@uthscsa.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.bu.edu/astronomy/profile/xiaochen-shen/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ran-canetti-boston-university",
+    "name": "Ran Canetti",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "canetti@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/cs/profiles/ran-canetti/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stan-sclaroff-boston-university",
+    "name": "Stan Sclaroff",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "sclaroff@bu.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.bu.edu/cs/profiles/stan-sclaroff/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "usman-a-khan-boston-university",
+    "name": "Usman A. Khan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "usman.khan@bc.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.bc.edu/bc-web/schools/morrissey/departments/computer-science/people/faculty-directory/usman-khan.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "xiaohui-liang-boston-university",
+    "name": "Xiaohui Liang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "xiaohui.liang@umb.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.umb.edu/directory/xiaohuiliang/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yanzhi-wang-boston-university",
+    "name": "Yanzhi Wang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Boston University",
+      "affiliation": "Boston University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "yanz.wang@northeastern.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://coe.northeastern.edu/people/wang-yanzhi/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "barry-l-karger-northeastern-university",
+    "name": "Barry L. Karger",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/barry-karger-2/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "george-a-odoherty-northeastern-university",
+    "name": "George A. O’Doherty",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/george-odoherty/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-r-engen-northeastern-university",
+    "name": "John R. Engen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/john-engen/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "meihua-shen-northeastern-university",
+    "name": "Mei‐Hua Shen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "huashen@uw.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://calendar.northeastern.edu/lihua2_614/calendar",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "muhammad-najamulhaq-northeastern-university",
+    "name": "Muhammad Najam‐ul‐Haq",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://profiles.bzu.edu.pk/muhammadnajamulhaq",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "nikolai-slavov-northeastern-university",
+    "name": "Nikolai Slavov",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "n.slavov@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/slavov-nikolai/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "paul-vouros-northeastern-university",
+    "name": "Paul Vouros",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://cos.northeastern.edu/people/paul-vouros/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "roger-w-giese-northeastern-university",
+    "name": "Roger W. Giese",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "r.giese@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://bouve.northeastern.edu/directory/roger-giese/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "teng-fei-northeastern-university",
+    "name": "Teng Fei",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://english.neu.edu.cn/info/1003/13481.htm",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "zhang-northeastern-university",
+    "name": "Zhang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Northeastern University",
+      "affiliation": "Northeastern University",
+      "department": "Chemistry",
+      "department_category": "default",
+      "title": "",
+      "location": "Boston, MA",
+      "specific_location": "Boston, MA"
+    },
+    "contact": {
+      "email": "xu.zhang@northeastern.edu",
+      "email_confidence": "HIGH",
+      "website": "https://coe.northeastern.edu/people/zhang-xufeng/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

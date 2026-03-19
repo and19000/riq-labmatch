@@ -21,6 +21,8 @@ import sys
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
+import signal
+from contextlib import contextmanager
 
 # Allow imports from api_evaluation when this script lives in api_evaluation/exa/
 _EXA_DIR = Path(__file__).resolve().parent
@@ -38,6 +40,7 @@ from evaluate import (
 )
 from extract_email import extract_emails_from_results
 from search_apis import ExaSearch
+from search_apis.account_manager import AccountManager, AllAccountsExhausted
 
 SCRIPT_DIR = _EXA_DIR
 CHECKPOINT_FILENAME = "checkpoint.json"
@@ -57,6 +60,24 @@ QUOTA_ERROR_PATTERNS = (
     "429",
     "402",
 )
+
+
+@contextmanager
+def _time_limit(seconds: int, description: str):
+    """
+    Hard wall-clock timeout for a single professor's Exa call.
+    If the timeout is hit, raises TimeoutError so the caller can log, skip, and continue.
+    """
+    def _handler(signum, frame):
+        raise TimeoutError(f"Timeout after {seconds}s while {description}")
+
+    old_handler = signal.signal(signal.SIGALRM, _handler)
+    signal.alarm(seconds)
+    try:
+        yield
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
 
 
 def log(msg: str, log_path: Path) -> None:
@@ -215,6 +236,17 @@ def main() -> None:
         action="store_true",
         help="Process 2 professors without calling Exa (mock results); validate IO and schema.",
     )
+    parser.add_argument(
+        "--single-query",
+        action="store_true",
+        help="Use a single Exa query per professor (saves credits). When set, the caller is expected "
+        "to configure ExaSearch/search_apis to issue only the primary query.",
+    )
+    parser.add_argument(
+        "--use-account-manager",
+        action="store_true",
+        help="Use AccountManager for Exa API key rotation and credit tracking.",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -239,11 +271,24 @@ def main() -> None:
         if not results:
             results = []
     api = None
+    manager = None
     if not args.dry_run:
-        if not EXA_API_KEY:
-            log("ERROR: EXA_API_KEY not set", log_path)
-            sys.exit(1)
-        api = ExaSearch(EXA_API_KEY, delay=REQUEST_DELAY)
+        if args.use_account_manager:
+            # Keys/state paths are relative to repo root; api_evaluation is a package one level up.
+            keys_path = _API_EVAL_DIR / "keys" / "exa_keys.json"
+            state_path = _API_EVAL_DIR / "state" / "exa_account_state.json"
+            manager = AccountManager("exa", str(keys_path), str(state_path))
+            try:
+                api = manager.get_search_client()
+            except AllAccountsExhausted as e:
+                log(f"All Exa accounts exhausted before starting: {e}", log_path)
+                # Used by run_all_universities.py to switch remaining schools to Tavily.
+                sys.exit(2)
+        else:
+            if not EXA_API_KEY:
+                log("ERROR: EXA_API_KEY not set", log_path)
+                sys.exit(1)
+            api = ExaSearch(EXA_API_KEY, delay=REQUEST_DELAY)
 
     dry_run_cap = 2 if args.dry_run else None
     max_index = min(
@@ -262,6 +307,7 @@ def main() -> None:
             results=results,
             processed_indices=processed_indices,
             api=api,
+            manager=manager,
             output_dir=output_dir,
             log_path=log_path,
         )
@@ -298,6 +344,12 @@ def main() -> None:
         log(f"Stop reason: {stop_reason}", log_path)
     if api:
         log(f"Exa stats: {api.get_stats()}", log_path)
+    if manager:
+        log("Final Exa account usage:", log_path)
+        # Also print to console
+        manager.print_status()
+    if stop_reason == "all_accounts_exhausted":
+        sys.exit(2)
 
 
 def _run_loop(
@@ -308,6 +360,7 @@ def _run_loop(
     results,
     processed_indices,
     api,
+    manager,
     output_dir,
     log_path,
 ):
@@ -344,19 +397,66 @@ def _run_loop(
             continue
 
         try:
-            search_results = api.search_professor(
-                name=name,
-                affiliation=affiliation,
-                department=department,
-            )
+            # Protect each Exa call with a hard timeout so a single bad query cannot hang the run.
+            with _time_limit(180, f"querying Exa for '{name}'"):
+                if getattr(args, "single_query", False) and hasattr(api, "_safe_search"):
+                    # Single-query mode: only run the primary query
+                    query1 = f"{name} {affiliation} professor profile"
+                    search_results = api._safe_search(query1, 5)
+                else:
+                    search_results = api.search_professor(
+                        name=name,
+                        affiliation=affiliation,
+                        department=department,
+                    )
+        except AllAccountsExhausted as e:
+            log(f"All accounts exhausted: {e}", log_path)
+            stop_reason = "all_accounts_exhausted"
+            break
+        except TimeoutError as e:
+            # Log and record as a failure, then move on to the next professor.
+            append_failure(output_dir, i, name, str(e), log_path)
+            log(f"  Exa timeout: {e}", log_path)
+            continue
         except Exception as e:
             append_failure(output_dir, i, name, str(e), log_path)
             log(f"  Exa error: {e}", log_path)
-            if is_quota_error(e):
-                stop_reason = "credits_exhausted"
-                log("Stopping: quota/credits error from Exa", log_path)
-                break
-            continue
+            # If this is an auth/401-style error and we are using the account manager,
+            # rotate to the next account and retry once without counting credits.
+            err_text = str(e).lower()
+            if manager and ("401" in err_text or "invalid api key" in err_text):
+                status = manager.get_status()
+                current_label = next(
+                    (a["label"] for a in status["accounts"] if a["active"]), "unknown"
+                )
+                log(f"WARNING: {current_label} key is invalid, rotating to next account.", log_path)
+                try:
+                    manager._rotate_account()  # use public rotation behavior
+                    api = manager.get_search_client()
+                    # Retry once after rotation
+                    if getattr(args, "single_query", False) and hasattr(api, "_safe_search"):
+                        query1 = f"{name} {affiliation} professor profile"
+                        search_results = api._safe_search(query1, 5)
+                    else:
+                        search_results = api.search_professor(
+                            name=name,
+                            affiliation=affiliation,
+                            department=department,
+                        )
+                except AllAccountsExhausted as ee:
+                    log(f"All accounts exhausted after invalid keys: {ee}", log_path)
+                    stop_reason = "all_accounts_exhausted"
+                    break
+                except Exception as ee:
+                    append_failure(output_dir, i, name, str(ee), log_path)
+                    log(f"  Exa error after rotation: {ee}", log_path)
+                    continue
+            else:
+                if is_quota_error(e):
+                    stop_reason = "credits_exhausted"
+                    log("Stopping: quota/credits error from Exa", log_path)
+                    break
+                continue
 
         all_urls = [r.url for r in search_results if r.url]
         found_website = all_urls[0] if all_urls else ""
@@ -406,7 +506,16 @@ def _run_loop(
         log("  " + " | ".join(status), log_path)
 
         if not args.dry_run:
+            # Update checkpoint/results and account credits
             save_checkpoint(output_dir, i + 1, processed_indices)
+            if manager:
+                # 1 query per prof in single-query mode, else 2
+                q_per_prof = 1 if getattr(args, "single_query", False) else 2
+                manager.record_queries(q_per_prof, successful=True)
+                # Refresh client in case account rotated
+                api = manager.get_search_client()
+                if (i - start_index + 1) % 50 == 0:
+                    manager.print_status()
         save_exa_results(
             output_dir,
             results,

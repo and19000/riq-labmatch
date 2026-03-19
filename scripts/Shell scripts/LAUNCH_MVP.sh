@@ -6,10 +6,10 @@ set -e
 cd "$(dirname "$0")"
 
 # Use project venv if present (from riq-labmatch root)
-if [ -d "../venv" ]; then
-  . ../venv/bin/activate
-elif [ -d "venv" ]; then
-  . venv/bin/activate
+if [ -d "../.venv" ]; then
+  . ../.venv/bin/activate
+elif [ -d ".venv" ]; then
+  . .venv/bin/activate
 fi
 
 echo "=============================================="
@@ -23,4 +23,4 @@ echo ""
 
 export FLASK_ENV=development
 export PORT=5001
-python app.py
+python run.py

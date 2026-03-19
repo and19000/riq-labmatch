@@ -1,0 +1,3026 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "a-rosen-princeton-university",
+    "name": "A. Rosen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "asrosen@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://rosen.cbe.princeton.edu/people/andrew-s-rosen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alejandro-w-rodriguez-princeton-university",
+    "name": "Alejandro W. Rodríguez",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "arod@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://materials.princeton.edu/people/alejandro-w-rodriguez",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alexander-j-smits-princeton-university",
+    "name": "Alexander J. Smits",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://dof.princeton.edu/people/alexander-smits",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "antoine-kahn-princeton-university",
+    "name": "Antoine Kahn",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "materials@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://materials.princeton.edu/people/antoine-kahn",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "athanassios-z-panagiotopoulos-princeton-university",
+    "name": "Athanassios Z. Panagiotopoulos",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "azp@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://materials.princeton.edu/people/athanassios-z-panagiotopoulos",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "barry-p-rand-princeton-university",
+    "name": "Barry P. Rand",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "brand@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ece.princeton.edu/people/barry-p-rand-",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "branko-glisic-princeton-university",
+    "name": "Branko Glišić",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "bglisic@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cee.princeton.edu/people/branko-glisic",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "chin-pan-princeton-university",
+    "name": "Chin Pan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "accessibility@rutgers.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://www.math.rutgers.edu/academics/graduate-program/ph-d-recipients-1950-present",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "christodoulos-a-floudas-princeton-university",
+    "name": "Christodoulos A. Floudas",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "floudas@tamu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://cbe.princeton.edu/news/professor-christodoulos-chris-floudas-dies-56",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "chung-k-law-princeton-university",
+    "name": "Chung K. Law",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "cklaw@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mae.princeton.edu/people/chung-law",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "clarence-w-rowley-princeton-university",
+    "name": "Clarence W. Rowley",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "cwrowley@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mae.princeton.edu/people/clarence-rowley",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "clark-t-c-nguyen-princeton-university",
+    "name": "Clark T.‐C. Nguyen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ctnguyen@berkeley.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://bsac.berkeley.edu/people/clark-t-c-nguyen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "conor-j-walsh-princeton-university",
+    "name": "Conor J. Walsh",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "walsh@seas.harvard.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://biodesign.seas.harvard.edu/conor-walsh",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "medium",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "craig-b-arnold-princeton-university",
+    "name": "Craig B. Arnold",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://research.princeton.edu/people/craig-b-arnold",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "d-z-garbuzov-princeton-university",
+    "name": "D.Z. Garbuzov",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.cs.princeton.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daniel-j-cohen-princeton-university",
+    "name": "Daniel J. Cohen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "danielcohen@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.princeton.edu/faculty/daniel-j-cohen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-b-graves-princeton-university",
+    "name": "David B. Graves",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "dgraves@pppl.gov",
+      "email_confidence": "MEDIUM",
+      "website": "https://cbe.princeton.edu/people/david-graves",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-p-billington-princeton-university",
+    "name": "David P. Billington",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://dof.princeton.edu/people/david-perkins-billington",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "di-li-princeton-university",
+    "name": "Di Li",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://ccc.princeton.edu/people/dai-li",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "frank-von-hippel-princeton-university",
+    "name": "Frank von Hippel",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "fvhippel@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://sgs.princeton.edu/team/frank-von-hippel",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "howard-a-stone-princeton-university",
+    "name": "Howard A. Stone",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://engineering.princeton.edu/faculty/howard-stone",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hyuk-jae-kwon-princeton-university",
+    "name": "Hyuk Jae Kwon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://ece.princeton.edu/people/hyukjae-kwon",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ian-c-bourg-princeton-university",
+    "name": "Ian C. Bourg",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "bourg@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cbe.princeton.edu/people/ian-bourg",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-c-sturm-princeton-university",
+    "name": "James C. Sturm",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "materials@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ece.princeton.edu/people/james-sturm",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jesse-jenkins-princeton-university",
+    "name": "Jesse Jenkins",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://mae.princeton.edu/people/jesse-jenkins",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-t-sheridan-princeton-university",
+    "name": "John T. Sheridan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "john.sheridan@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://whitmancollege.princeton.edu/people/john-sheridan",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kaushik-sengupta-princeton-university",
+    "name": "Kaushik Sengupta",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "kaushiks@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ece.princeton.edu/people/kaushik-sengupta",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kelsey-b-hatzell-princeton-university",
+    "name": "Kelsey B. Hatzell",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://mae.princeton.edu/people/kelsey-hatzell",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marcus-hultmark-princeton-university",
+    "name": "Marcus Hultmark",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "hultmark@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://kellercenter.princeton.edu/people/marcus-hultmark",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "maria-garlock-princeton-university",
+    "name": "Maria Garlock",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "mgarlock@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://arc-hum.princeton.edu/garlock",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mikhail-n-shneider-princeton-university",
+    "name": "Mikhail N. Shneider",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "shneyder@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://dof.princeton.edu/news/2025/plasma-expert-mikhail-shneider-elected-aps-fellow",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "minjie-chen-princeton-university",
+    "name": "Minjie Chen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "minjie@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://nextg.princeton.edu/events/princeton-faculty-spotlight-series-featured-faculty-professor-minjie-chen/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "namkon-lee-princeton-university",
+    "name": "Namkon Lee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://eas.princeton.edu/person-category/lecturer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "naveen-verma-princeton-university",
+    "name": "Naveen Verma",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://engineering.purdue.edu/C-BRIC/biographies/naveen-verma",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "pablo-g-debenedetti-princeton-university",
+    "name": "Pablo G. Debenedetti",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "pdebene@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "http://pablonet.princeton.edu/pgd/html/bio.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "paul-deane-princeton-university",
+    "name": "Paul Deane",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "president@bennington.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://dof.princeton.edu/people/paul-benacerraf",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "paul-r-prucnal-princeton-university",
+    "name": "Paul R. Prucnal",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://prucnal.princeton.edu/people/paul-r-prucnal",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ping-wang-princeton-university",
+    "name": "Ping Wang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "kellercenter@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://kellercenter.princeton.edu/people/ping-wang",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-c-n-pilawa-podgurski-princeton-university",
+    "name": "Robert C. N. Pilawa-Podgurski",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "pilawa@berkeley.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://vcresearch.berkeley.edu/faculty/robert-pilawa-podgurski",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-h-austin-princeton-university",
+    "name": "Robert H. Austin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "austin@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://phy.princeton.edu/people/robert-austin",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "robert-l-kosut-princeton-university",
+    "name": "Robert L. Kosut",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.purchase.edu/help/widgets/examples/index.php?widget=news&livewhale=widget_paginate&syntax=%3Cwidget+id%3D%221_news_my_news%22%3E%3Carg+id%3D%22group%22%3E%3C%2Farg%3E%3C%2Fwidget%3E&all=1",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-wagner-princeton-university",
+    "name": "S. Wagner",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "wagner@ee.princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://dof.princeton.edu/people/sigurd-wagner",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sankaran-sundaresan-princeton-university",
+    "name": "Sankaran Sundaresan",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://dof.princeton.edu/people/sankaran-sundaresan",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sigrid-adriaenssens-princeton-university",
+    "name": "Sigrid Adriaenssens",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "sadriaen@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cee.princeton.edu/people/sigrid-adriaenssens",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "su-jin-lee-princeton-university",
+    "name": "Su-Jin Lee",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "kang-i.chang@yale.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://molbio.princeton.edu/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "subhash-shah-princeton-university",
+    "name": "Subhash Shah",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "neena.singh@case.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://inside.princeton.edu/community-news/2023/board-approves-16-faculty-appointments",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ting-wang-princeton-university",
+    "name": "Ting Wang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "twang@nospam.wustl.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://eas.princeton.edu/people/ding-wang-bramlett",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "weiliang-jin-princeton-university",
+    "name": "Weiliang Jin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://arodriguez.princeton.edu/people/weiliang-jin",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-m-j-green-princeton-university",
+    "name": "William M. J. Green",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "golf@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://dof.princeton.edu/about/endowed-professorships-preceptorships-fellowships/professorships",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-s-wong-princeton-university",
+    "name": "William S. Wong",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://chemistry.princeton.edu/faculty-research/faculty/gregory-scholes/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yiguang-ju-princeton-university",
+    "name": "Yiguang Ju",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "yju@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://acee.princeton.edu/directory/yiguang-ju/?utm_source=rss&utm_medium=rss&utm_campaign=yiguang-ju",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yiyi-li-princeton-university",
+    "name": "Yiyi Li",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "srunk@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ece.princeton.edu/people/yiyi-li",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yue-kai-huang-princeton-university",
+    "name": "Yue-Kai Huang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "yuxie@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.nec-labs.com/research/optical-networking-sensing/people/yue-kai-huang/",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "high",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yuehlin-loo-princeton-university",
+    "name": "Yueh‐Lin Loo",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Engineering",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "checomp@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cbe.princeton.edu/people/yueh-lin-loo",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

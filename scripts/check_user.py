@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Import app components
-from app import app, db, User
+from backend.app import app, db, User
 
 def check_user_and_auth():
     email = "andrewdou@college.harvard.edu"

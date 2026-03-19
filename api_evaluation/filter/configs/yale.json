@@ -1,0 +1,41 @@
+{
+  "name": "Yale University",
+  "short_name": "yale",
+  "primary_trusted_domains": [
+    "yale.edu"
+  ],
+  "secondary_trusted_domains": [
+    "ynhh.org"
+  ],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "cs.yale.edu": "Computer Science",
+    "math.yale.edu": "Mathematics",
+    "physics.yale.edu": "Physics",
+    "chemistry.yale.edu": "Chemistry",
+    "medicine.yale.edu": "Yale School of Medicine",
+    "law.yale.edu": "Yale Law School",
+    "som.yale.edu": "Yale School of Management",
+    "seas.yale.edu": "School of Engineering & Applied Science",
+    "yale.edu/arts": "School of Art",
+    "drama.yale.edu": "School of Drama",
+    "music.yale.edu": "School of Music",
+    "nursing.yale.edu": "School of Nursing",
+    "publichealth.yale.edu": "School of Public Health",
+    "divinity.yale.edu": "Divinity School",
+    "ynhh.org": "Yale New Haven Hospital"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

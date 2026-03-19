@@ -1,0 +1,674 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "allen-c-steere-stanford-university",
+    "name": "Allen C. Steere",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "swa@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://profiles.stanford.edu/steven-allen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "bali-pulendran-stanford-university",
+    "name": "Bali Pulendran",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "assistantryogold@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/bali-pulendran",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "dale-t-umetsu-stanford-university",
+    "name": "Dale T. Umetsu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://foodallergyscience.org/team/dale-umetsu/",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-katzenstein-stanford-university",
+    "name": "David Katzenstein",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://med.stanford.edu/medicine/news/current-news/standard-news/hiv-researcher-david-katzenstein-dies.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "edgar-g-engleman-stanford-university",
+    "name": "Edgar G. Engleman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "edengleman@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ccsb.stanford.edu/people/edgar-engleman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "eugene-c-butcher-stanford-university",
+    "name": "Eugene C. Butcher",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "admnistratorlourdesm@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/Eugene_Butcher",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "holden-t-maecker-stanford-university",
+    "name": "Holden T. Maecker",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "maecker@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://asianhealth.stanford.edu/people/holden-maecker-0",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lawrence-steinman-stanford-university",
+    "name": "Lawrence Steinman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "steinman@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/lawrence-steinman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marcelo-fernandez-vina-stanford-university",
+    "name": "Marcelo Fernández-Viña",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "marcelof@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/marcelo-fernandez-vina",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peter-parham-stanford-university",
+    "name": "Peter Parham",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "peropa@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://biox.stanford.edu/people/peter-parham",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "samuel-strober-stanford-university",
+    "name": "Samuel Strober",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "goldmanb@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/news/all-news/2022/03/samuel-strober-obituary.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stephen-j-galli-stanford-university",
+    "name": "Stephen J. Galli",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Immunology and Microbiology",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "sgalli@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://med.stanford.edu/profiles/stephen-galli",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

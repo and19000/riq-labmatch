@@ -1,0 +1,1290 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "adam-c-maloof-princeton-university",
+    "name": "Adam C. Maloof",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://geosciences.princeton.edu/people/adam-maloof",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "alistair-adcroft-princeton-university",
+    "name": "Alistair Adcroft",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "aadcroft@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://collaborate.princeton.edu/en/persons/alistair-james-adcroft/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "allan-m-rubin-princeton-university",
+    "name": "Allan M. Rubin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "arubin@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://geosciences.princeton.edu/people/allan-m-rubin",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "blair-schoene-princeton-university",
+    "name": "Blair Schoene",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "bschoene@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://timslab.princeton.edu/people/blair-schoene",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "curtis-deutsch-princeton-university",
+    "name": "Curtis Deutsch",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "cdeutsch@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://geosciences.princeton.edu/people/curtis-deutsch",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-d-turner-princeton-university",
+    "name": "David D. Turner",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://researchcomputing.princeton.edu/about/people-directory/david-turner",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "denise-l-mauzerall-princeton-university",
+    "name": "Denise L. Mauzerall",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "mauzerall@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cpree.princeton.edu/people/denise-l-mauzerall",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "elie-bouzeid-princeton-university",
+    "name": "Elie Bou‐Zeid",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ebouzeid@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://environment.princeton.edu/people/elie-bou-zeid/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "francois-m-m-morel-princeton-university",
+    "name": "François M. M. Morel",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "morel@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://morel.princeton.edu/people/francois-mm-morel",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "frederik-j-simons-princeton-university",
+    "name": "Frederik J. Simons",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "fjsimons@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://geosciences.princeton.edu/people/frederik-j-simons",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "george-w-scherer-princeton-university",
+    "name": "George W. Scherer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "emailscherer@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "http://gwsgroup.princeton.edu/people/george-scherer/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gerta-keller-princeton-university",
+    "name": "Gerta Keller",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "_gkeller@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://geosciences.princeton.edu/people/gerta-keller",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-a-smith-princeton-university",
+    "name": "James A. Smith",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "jerseyjsmith@princeton.eduoffice",
+      "email_confidence": "HIGH",
+      "website": "https://environment.princeton.edu/people/james-smith/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jeroen-tromp-princeton-university",
+    "name": "Jeroen Tromp",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "jtromp@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://tromp.princeton.edu/people/jeroen-tromp",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-a-higgins-princeton-university",
+    "name": "John A. Higgins",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "jahiggin@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://environment.princeton.edu/people/john-higgins/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "luc-deike-princeton-university",
+    "name": "Luc Deike",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ldeike@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mae.princeton.edu/people/luc-deike",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-l-bender-princeton-university",
+    "name": "Michael L. Bender",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "bender@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://geosciences.princeton.edu/people/michael-bender",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "n-v-sarlis-princeton-university",
+    "name": "N. V. Sarlis",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://spacephysics.princeton.edu/people/nicholas-sarlis-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ning-lin-princeton-university",
+    "name": "Ning Lin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "nlin@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://environment.princeton.edu/people/ning-lin/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-george-philander-princeton-university",
+    "name": "S. George Philander",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://dof.princeton.edu/people/samuel-george-h-philander",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stephen-m-griffies-princeton-university",
+    "name": "Stephen M. Griffies",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://loop.frontiersin.org/people/686690/bio",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "t-s-duffy-princeton-university",
+    "name": "T. S. Duffy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "duffy@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://geosciences.princeton.edu/people/thomas-s-duffy",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-k-gregory-princeton-university",
+    "name": "William K. Gregory",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Earth and Planetary Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "nrs214@nyu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://nitrogen.princeton.edu/people",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

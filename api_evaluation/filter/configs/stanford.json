@@ -1,0 +1,40 @@
+{
+  "name": "Stanford University",
+  "short_name": "stanford",
+  "primary_trusted_domains": [
+    "stanford.edu"
+  ],
+  "secondary_trusted_domains": [
+    "slac.stanford.edu"
+  ],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "cs.stanford.edu": "Computer Science",
+    "math.stanford.edu": "Mathematics",
+    "physics.stanford.edu": "Physics",
+    "chemistry.stanford.edu": "Chemistry",
+    "biology.stanford.edu": "Biology",
+    "med.stanford.edu": "Stanford Medicine",
+    "law.stanford.edu": "Stanford Law School",
+    "gsb.stanford.edu": "Graduate School of Business",
+    "ee.stanford.edu": "Electrical Engineering",
+    "engineering.stanford.edu": "School of Engineering",
+    "hums.stanford.edu": "Humanities and Sciences",
+    "psychology.stanford.edu": "Psychology",
+    "econ.stanford.edu": "Economics",
+    "slac.stanford.edu": "SLAC National Accelerator Laboratory"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Northeastern University",
+  "short_name": "northeastern",
+  "primary_trusted_domains": [
+    "northeastern.edu",
+    "neu.edu"
+  ],
+  "secondary_trusted_domains": [],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "ccs.neu.edu": "College of Computer and Information Science",
+    "ece.northeastern.edu": "Electrical and Computer Engineering",
+    "coe.northeastern.edu": "College of Engineering",
+    "cps.northeastern.edu": "College of Professional Studies",
+    "khoury.northeastern.edu": "Khoury College of Computer Sciences",
+    "math.northeastern.edu": "Mathematics",
+    "physics.northeastern.edu": "Physics",
+    "chemistry.northeastern.edu": "Chemistry",
+    "biology.northeastern.edu": "Biology",
+    "camd.northeastern.edu": "College of Arts, Media and Design",
+    "law.northeastern.edu": "School of Law",
+    "bouve.northeastern.edu": "Bouvé College of Health Sciences",
+    "business.northeastern.edu": "D'Amore-McKim School of Business",
+    "northeastern.edu/cos": "College of Science"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

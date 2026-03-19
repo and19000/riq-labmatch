@@ -1,0 +1,338 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "anna-traveset-stanford-university",
+    "name": "Anna Traveset",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://theconversation.com/profiles/anna-traveset-1156953",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-b-lobell-stanford-university",
+    "name": "David B. Lobell",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "dlobell@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cap.stanford.edu/profiles/viewCV?facultyId=14712&name=David_Lobell",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-arthur-harris-stanford-university",
+    "name": "J. Arthur Harris",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "jharris@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://profiles.stanford.edu/james-harris",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lamson-phan-tran-stanford-university",
+    "name": "Lam‐Son Phan Tran",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "tranl95@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cepa.stanford.edu/people/tran-lam",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "peter-m-vitousek-stanford-university",
+    "name": "Peter M. Vitousek",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "vitousek@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://fse.fsi.stanford.edu/people/Peter_Vitousek",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "virginia-walbot-stanford-university",
+    "name": "Virginia Walbot",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Agricultural and Biological Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "walbot@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://biology.stanford.edu/people/virginia-walbot",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

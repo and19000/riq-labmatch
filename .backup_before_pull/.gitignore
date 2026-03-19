@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+.env.local
+.env.*.local
+
+# Flask / app
+instance/
+*.db
+uploads/
+
+# Output / data (large)
+faculty_pipeline/output/*.json
+faculty_pipeline/output/*.csv
+faculty_pipeline/checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.log

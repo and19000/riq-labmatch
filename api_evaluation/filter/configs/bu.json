@@ -1,0 +1,40 @@
+{
+  "name": "Boston University",
+  "short_name": "bu",
+  "primary_trusted_domains": [
+    "bu.edu"
+  ],
+  "secondary_trusted_domains": [
+    "bumc.bu.edu"
+  ],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "cs.bu.edu": "Computer Science",
+    "math.bu.edu": "Mathematics",
+    "physics.bu.edu": "Physics",
+    "chemistry.bu.edu": "Chemistry",
+    "biology.bu.edu": "Biology",
+    "eng.bu.edu": "College of Engineering",
+    "questrom.bu.edu": "Questrom School of Business",
+    "bu.edu/law": "School of Law",
+    "sph.bu.edu": "School of Public Health",
+    "bu.edu/medicine": "Chobanian & Avedisian School of Medicine",
+    "bu.edu/com": "College of Communication",
+    "bu.edu/cas": "College of Arts and Sciences",
+    "bu.edu/wheelock": "Wheelock College of Education",
+    "bumc.bu.edu": "Boston University Medical Campus"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

@@ -1,0 +1,1066 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "alex-aiken-stanford-university",
+    "name": "Alex Aiken",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "aaiken@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://biox.stanford.edu/people/alex-aiken",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "dan-boneh-stanford-university",
+    "name": "Dan Boneh",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "dabo@cs.stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.cs.stanford.edu/people/dan-boneh",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "dan-jurafsky-stanford-university",
+    "name": "Dan Jurafsky",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "jurafsky@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hai.stanford.edu/people/dan-jurafsky",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-l-dill-stanford-university",
+    "name": "David L. Dill",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "dill@cs.stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.stanford.edu/people/david-dill",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-l-donoho-stanford-university",
+    "name": "David L. Donoho",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "donoho@stat.stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://statistics.stanford.edu/people/david-donoho",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "david-tse-stanford-university",
+    "name": "David Tse",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "dntse@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://tselab.stanford.edu/people/principal-investigator/david-tse/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gordon-wetzstein-stanford-university",
+    "name": "Gordon Wetzstein",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "gordon.wetzstein@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.stanford.edu/people/gordon-wetzstein",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "james-a-landay-stanford-university",
+    "name": "James A. Landay",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "landay@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://neuroscience.stanford.edu/people/james-landay",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-c-mitchell-stanford-university",
+    "name": "John C. Mitchell",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "john.mitchell@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://profiles.stanford.edu/john-mitchell",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "li-fei-fei-stanford-university",
+    "name": "Li Fei-Fei",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "feifeili@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.stanford.edu/people/fei-fei-li",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-a-musen-stanford-university",
+    "name": "Mark A. Musen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "musen@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://healthpolicy.fsi.stanford.edu/people/mark_a_musen",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-horowitz-stanford-university",
+    "name": "Mark Horowitz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "horowitz@ee.stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.stanford.edu/people/mark-horowitz",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "monica-s-lam-stanford-university",
+    "name": "Monica S. Lam",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "lam@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cife.stanford.edu/people/monica-lam",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "noah-d-goodman-stanford-university",
+    "name": "Noah D. Goodman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "ngoodman@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.stanford.edu/people/noah-goodman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "percy-liang-stanford-university",
+    "name": "Percy Liang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "slessard@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://mcs.stanford.edu/people/percy-liang",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stefano-ermon-stanford-university",
+    "name": "Stefano Ermon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "ermon@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://biox.stanford.edu/people/stefano-ermon",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "tina-hernandezboussard-stanford-university",
+    "name": "Tina Hernandez‐Boussard",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "boussard@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://dbds.stanford.edu/people/tina-hernandez-boussard/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "y-yamamoto-stanford-university",
+    "name": "Y. Yamamoto",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "yosihisa@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.stanford.edu/people/yoshihisa-yamamoto",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yejin-choi-stanford-university",
+    "name": "Yejin Choi",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Stanford University",
+      "affiliation": "Stanford University",
+      "department": "Computer Science",
+      "department_category": "default",
+      "title": "",
+      "location": "Stanford, CA",
+      "specific_location": "Stanford, CA"
+    },
+    "contact": {
+      "email": "yejinc@stanford.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hai.stanford.edu/people/yejin-choi",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

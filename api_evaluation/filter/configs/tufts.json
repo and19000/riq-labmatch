@@ -1,0 +1,35 @@
+{
+  "name": "Tufts University",
+  "short_name": "tufts",
+  "primary_trusted_domains": [
+    "tufts.edu"
+  ],
+  "secondary_trusted_domains": [],
+  "rejected_domains": [
+    "linkedin.com",
+    "scholar.google.com",
+    "en.wikipedia.org",
+    "scispace.com",
+    "doximity.com",
+    "researchgate.net",
+    "semanticscholar.org",
+    "amazon.com",
+    "imdb.com",
+    "ratemyprofessors.com"
+  ],
+  "url_to_department": {
+    "cs.tufts.edu": "Computer Science",
+    "math.tufts.edu": "Mathematics",
+    "physics.tufts.edu": "Physics",
+    "chemistry.tufts.edu": "Chemistry",
+    "biology.tufts.edu": "Biology",
+    "econ.tufts.edu": "Economics",
+    "engineering.tufts.edu": "School of Engineering",
+    "medicine.tufts.edu": "Tufts University School of Medicine",
+    "vet.tufts.edu": "Cummings School of Veterinary Medicine",
+    "law.tufts.edu": "Tufts Law School",
+    "fletcher.tufts.edu": "The Fletcher School"
+  },
+  "email_inference_patterns": {},
+  "phone_extraction_domains": []
+}

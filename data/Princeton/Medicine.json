@@ -1,0 +1,1682 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "daniel-a-notterman-princeton-university",
+    "name": "Daniel A. Notterman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "dan1@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://molbio.princeton.edu/people/daniel-notterman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "douglas-m-ho-princeton-university",
+    "name": "Douglas M. Ho",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "dadougherty@caltech.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://dof.princeton.edu/about/endowed-professorships-preceptorships-fellowships/professorships",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "edgar-t-overton-princeton-university",
+    "name": "Edgar T. Overton",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://commencement.princeton.edu/document/816",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "eileen-white-princeton-university",
+    "name": "Eileen White",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "epwhite@cinj.rutgers.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://ludwigcancer.princeton.edu/people/eileen-white",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "gilberto-castanedahernandez-princeton-university",
+    "name": "Gilberto Castañeda‐Hernández",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://sciprofiles.com/profile/3761168?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ileana-m-cristea-princeton-university",
+    "name": "Ileana M. Cristea",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "icristea@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://molbio.princeton.edu/people/ileana-m-cristea",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "jean-e-schwarzbauer-princeton-university",
+    "name": "Jean E. Schwarzbauer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "jschwarz@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://molbio.princeton.edu/people/jean-e-schwarzbauer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "joel-d-cooper-princeton-university",
+    "name": "Joel D. Cooper",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "psych@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://psychology.princeton.edu/people/joel-cooper",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-a-rumberger-princeton-university",
+    "name": "John A. Rumberger",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.issuewire.com/john-a-rumberger-phd-md-facc-mscct-one-of-the-worlds-top-cardiologists-and-a-leading-authority-on-ct-angiography-1822058091249237",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-rex-princeton-university",
+    "name": "John Rex",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://irr.org.uk/article/professor-john-rex-1925-2011/",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "julian-gold-princeton-university",
+    "name": "Julian Gold",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://nam.ai.princeton.edu/people/julian-gold",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kathleen-a-kennedy-princeton-university",
+    "name": "Kathleen A. Kennedy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "kcrown@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://humanities.princeton.edu/people/kathleen-crown",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "larry-alphs-princeton-university",
+    "name": "Larry Alphs",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "pawads@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://paw.princeton.edu/sites/default/files/pdf/Oct2023_issue.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "high",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "larry-ereshefsky-princeton-university",
+    "name": "Larry Ereshefsky",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://primeinc.org/faculty-biography/larry-ereshefsky-pharmd-bcpp-786",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "lynn-w-enquist-princeton-university",
+    "name": "Lynn W. Enquist",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "montondo@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://molbio.princeton.edu/people/lynn-w-enquist",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-e-mcgovern-princeton-university",
+    "name": "Mark E. McGovern",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "photoreq@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://sph.rutgers.edu/directory/mark-mcgovern",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-m-shen-princeton-university",
+    "name": "Michael M. Shen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://spacephysics.princeton.edu/people/mitchell-shen-phd",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "michael-robbins-princeton-university",
+    "name": "Michael Robbins",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "mdr7@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://politics.princeton.edu/people/michael-robbins",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mohammad-r-seyedsayamdost-princeton-university",
+    "name": "Mohammad R. Seyedsayamdost",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "mrseyed@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://environment.princeton.edu/people/mohammad-seyedsayamdost/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "monica-saumoy-princeton-university",
+    "name": "Monica Saumoy",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://connect.medicalnewstoday.com/provider/dr-monica-saumoy-1457640484",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "nicolas-louka-princeton-university",
+    "name": "Nicolas Louka",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.lsus.edu/lsus-announces-spring-2025-graduates",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "philippe-voyer-princeton-university",
+    "name": "Philippe Voyer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://ourapps.princeton.edu/index.php?a=45f4w506m3b4f406g4r42424q213u2o2v2t203z3a403m2r2z2v2&id=c42374",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "quan-dong-nguyen-princeton-university",
+    "name": "Quan Dong Nguyen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "ndquan@stanford.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://med.stanford.edu/profiles/QUAN%20DONG%20NGUYEN",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "roshan-m-patel-princeton-university",
+    "name": "Roshan M. Patel",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "roshanp@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cbe.princeton.edu/people/roshan-patel",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sarah-j-mitchell-princeton-university",
+    "name": "Sarah J. Mitchell",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "sm3272@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ludwigcancer.princeton.edu/people/sarah-mitchell",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "selene-g-parekh-princeton-university",
+    "name": "Selene G. Parekh",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "syeh@aecom.yu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://einsteinmed.edu/uploadedFiles/PHD/2010-11_Research%20Book.pdf?..",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "low",
+      "email_confidence": "medium",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "william-oh-princeton-university",
+    "name": "William Oh",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "wo2283@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medreview.odus.princeton.edu/william-oh/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "xu-xu-princeton-university",
+    "name": "Xu Xu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "xx2728@princeton.edu",
+      "email_confidence": "HIGH",
+      "website": "https://politics.princeton.edu/people/xu-xu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yaojun-zhang-princeton-university",
+    "name": "Yaojun Zhang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "yaojunz@jhu.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://molbio.princeton.edu/publications/contributor/zhang-yaojun",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "yibin-kang-princeton-university",
+    "name": "Yibin Kang",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Princeton University",
+      "affiliation": "Princeton University",
+      "department": "Medicine",
+      "department_category": "default",
+      "title": "",
+      "location": "Princeton, NJ",
+      "specific_location": "Princeton, NJ"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://molbio.princeton.edu/people/yibin-kang",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

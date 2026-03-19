@@ -31,14 +31,16 @@ client = OpenAI(api_key=_api_key) if _api_key else None
 # We use gpt-4o-mini because it's cost-effective and still very capable
 GPT_MODEL = "gpt-4o-mini"
 
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(APP_DIR)
+
 # Import Matching Service (v2 by default: 7-parameter semantic-lite with MMR reranking)
 try:
     import sys
-    _app_dir = os.path.dirname(os.path.abspath(__file__))
-    matching_path = os.path.join(_app_dir, "services", "matching")
+    matching_path = os.path.join(ROOT_DIR, "services", "matching")
     if os.path.exists(matching_path):
-        if _app_dir not in sys.path:
-            sys.path.insert(0, _app_dir)
+        if ROOT_DIR not in sys.path:
+            sys.path.insert(0, ROOT_DIR)
         # v2 matching: 7-parameter semantic-lite with MMR reranking
         from services.matching.matching_v2 import MatchingServiceV2
         # Keep v1 import for fallback (set USE_MATCHING_V2=false to revert)
@@ -105,7 +107,7 @@ def get_matching_service():
         MatchingService = MatchingServiceV2 if USE_MATCHING_V2 else MatchingServiceV1
         version_str = "v2" if USE_MATCHING_V2 else "v1"
 
-        _app_dir = os.path.dirname(os.path.abspath(__file__))
+        _app_dir = ROOT_DIR
 
         # Priority 1: v2 combined faculty data (same data as Browse Labs)
         v2_path = os.path.join(_app_dir, "Data", "v2", "all_faculty.json")
@@ -156,7 +158,11 @@ def get_matching_service():
     return _matching_service
 
 # Create our Flask application
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    static_folder=os.path.join(ROOT_DIR, "frontend", "static"),
+    template_folder=os.path.join(ROOT_DIR, "frontend", "templates"),
+)
 
 
 def dept_field_key(department):
@@ -414,9 +420,9 @@ def init_db():
 init_db()
 
 # Set up paths to our data files
-DATA_DIR = os.path.join(os.path.dirname(__file__), "Data")
+DATA_DIR = os.path.join(ROOT_DIR, "Data")
 MISC_DIR = os.path.join(DATA_DIR, "Misc jsons")
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
 
 # Primary faculty data (Harvard departments)
 FACULTY_PATH = os.path.join(MISC_DIR, "faculty_working.json")
@@ -446,6 +452,7 @@ SCHOOL_DATA_FILES = {
 # Map logo filenames for template rendering
 SCHOOL_LOGOS = {
     "MIT": "mit-logo.png",
+    "Massachusetts Institute of Technology": "mit-logo.png",
     "Harvard University": "harvard-logo.png",
     "Boston University": "bu-logo.png",
     "Northeastern University": "northeastern-logo.png",
@@ -471,7 +478,7 @@ NSF_ACTIVE_PATH = os.path.join(MISC_DIR, "nsf_active.json")
 # Legacy paths (kept for compatibility)
 NSF_ALL_PATH = os.path.join(OUTPUT_DIR, "nsf_all_faculty.json")
 MVP_FACULTY_PATH = os.path.join(OUTPUT_DIR, "harvard_mvp_1500.json")
-PIPELINE_FACULTY_PATH = os.path.join(os.path.dirname(__file__), "output", "harvard_university_20260120_162804.json")
+PIPELINE_FACULTY_PATH = os.path.join(ROOT_DIR, "output", "harvard_university_20260120_162804.json")
 
 # Access Control - restrict site to authorized users only
 # Set ALLOWED_USERS environment variable with comma-separated emails (e.g., "user1@example.com,user2@example.com")
@@ -917,146 +924,64 @@ def normalize_faculty_entry(pi):
 
 
 def load_faculty():
-    """Load faculty from JSON with caching. Prefers v2 combined file, falls back to legacy multi-file loading."""
+    """Load faculty from Data/v2/all_faculty.json only, with caching."""
     global _faculty_cache
     now = _time.time()
     if _faculty_cache["data"] is not None and _faculty_cache["loaded_at"] and (now - _faculty_cache["loaded_at"]) < CACHE_TTL:
         return _faculty_cache["data"]
 
     faculty = []
-    seen_names = set()
+    seen_name_school = set()
 
     ENABLED_SCHOOLS = {
-        "harvard university", "mit",
+        "harvard university", "mit", "massachusetts institute of technology",
         "boston university", "northeastern university", "tufts university",
         "stanford university", "yale university", "princeton university",
     }
 
-    # ── Try v2 combined data first (preferred) ──
-    if os.path.exists(V2_FACULTY_PATH):
-        try:
-            with open(V2_FACULTY_PATH, "r", encoding="utf-8") as f:
-                v2_data = json.load(f)
-            if isinstance(v2_data, list):
-                for pi in v2_data:
-                    normalized = normalize_faculty_entry(pi)
-                    if normalized:
-                        school = normalized.get("school", "").lower()
-                        if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
-                            continue
-                        if normalized.get("department", "") == "Various":
-                            continue
-                        name_lower = normalized.get("name", "").lower()
-                        if name_lower and name_lower not in seen_names:
-                            faculty.append(normalized)
-                            seen_names.add(name_lower)
-                app.logger.info(f"Loaded {len(faculty)} faculty from v2 combined file")
-                _faculty_cache["data"] = faculty
-                _faculty_cache["loaded_at"] = now
-                # Build by-name lookup
-                by_name = {}
-                for pi in faculty:
-                    by_name[pi.get("name", "").lower()] = pi
-                _faculty_cache["by_name"] = by_name
-                return faculty
-        except (FileNotFoundError, json.JSONDecodeError) as e:
-            app.logger.warning(f"Could not load v2 data, falling back to legacy: {e}")
-
-    # ── Legacy multi-file loading (fallback) ──
-    # Load primary faculty data (Harvard/existing)
-    try:
-        with open(FACULTY_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        if isinstance(data, dict) and "faculty" in data:
-            primary_faculty = data["faculty"]
-        else:
-            primary_faculty = data if isinstance(data, list) else []
-
-        for pi in primary_faculty:
-            normalized = normalize_faculty_entry(pi)
-            if normalized:
-                if normalized.get("department", "") == "Various":
-                    continue
-                school = normalized.get("school", "").lower()
-                if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
-                    continue
-                name_lower = normalized.get("name", "").lower()
-                if name_lower and name_lower not in seen_names:
-                    faculty.append(normalized)
-                    seen_names.add(name_lower)
-    except FileNotFoundError:
-        pass
-
-    for school_name, school_path in SCHOOL_DATA_FILES.items():
-        try:
-            if os.path.exists(school_path):
-                with open(school_path, "r", encoding="utf-8") as f:
-                    school_data = json.load(f)
-                if isinstance(school_data, list):
-                    loaded_count = 0
-                    for pi in school_data:
-                        normalized = normalize_faculty_entry(pi)
-                        if normalized:
-                            school = normalized.get("school", "").lower()
-                            if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
-                                continue
-                            name_lower = normalized.get("name", "").lower()
-                            if name_lower and name_lower not in seen_names:
-                                faculty.append(normalized)
-                                seen_names.add(name_lower)
-                                loaded_count += 1
-                    if loaded_count > 0:
-                        app.logger.info(f"Loaded {loaded_count} faculty from {school_name}")
-        except (FileNotFoundError, json.JSONDecodeError) as e:
-            app.logger.warning(f"Could not load {school_name} data: {e}")
+    if not os.path.exists(V2_FACULTY_PATH):
+        app.logger.error(f"Required faculty data not found: {V2_FACULTY_PATH}")
+        _faculty_cache["data"] = []
+        _faculty_cache["loaded_at"] = now
+        _faculty_cache["by_name"] = {}
+        return []
 
     try:
-        if os.path.isdir(HARVARD_DEPT_DIR):
-            harvard_dept_count = 0
-            for fname in sorted(os.listdir(HARVARD_DEPT_DIR)):
-                if not fname.endswith(".json"):
-                    continue
-                fpath = os.path.join(HARVARD_DEPT_DIR, fname)
-                try:
-                    with open(fpath, "r", encoding="utf-8") as f:
-                        dept_data = json.load(f)
-                    if isinstance(dept_data, list):
-                        for pi in dept_data:
-                            normalized = normalize_faculty_entry(pi)
-                            if normalized:
-                                school = normalized.get("school", "").lower()
-                                if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
-                                    continue
-                                name_lower = normalized.get("name", "").lower()
-                                if name_lower and name_lower not in seen_names:
-                                    faculty.append(normalized)
-                                    seen_names.add(name_lower)
-                                    harvard_dept_count += 1
-                except (json.JSONDecodeError, IOError) as e:
-                    app.logger.warning(f"Could not load Harvard dept file {fname}: {e}")
-            if harvard_dept_count > 0:
-                app.logger.info(f"Loaded {harvard_dept_count} faculty from Harvard per-department files")
-    except Exception as e:
-        app.logger.warning(f"Could not load Harvard department data: {e}")
-
-    try:
-        if os.path.exists(NSF_ACTIVE_PATH):
-            with open(NSF_ACTIVE_PATH, "r", encoding="utf-8") as f:
-                nsf_data = json.load(f)
-            if isinstance(nsf_data, list):
-                for pi in nsf_data:
-                    normalized = normalize_faculty_entry(pi)
-                    if normalized:
-                        school = normalized.get("school", "").lower()
-                        if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
-                            continue
-                        name_lower = normalized.get("name", "").lower()
-                        if name_lower and name_lower not in seen_names:
-                            faculty.append(normalized)
-                            seen_names.add(name_lower)
+        with open(V2_FACULTY_PATH, "r", encoding="utf-8") as f:
+            v2_data = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        app.logger.warning(f"Could not load NSF data: {e}")
+        app.logger.error(f"Failed to load v2 faculty data from {V2_FACULTY_PATH}: {e}")
+        _faculty_cache["data"] = []
+        _faculty_cache["loaded_at"] = now
+        _faculty_cache["by_name"] = {}
+        return []
 
+    if not isinstance(v2_data, list):
+        app.logger.error(f"Unexpected v2 faculty format in {V2_FACULTY_PATH}: expected list, got {type(v2_data)}")
+        _faculty_cache["data"] = []
+        _faculty_cache["loaded_at"] = now
+        _faculty_cache["by_name"] = {}
+        return []
+
+    for pi in v2_data:
+        normalized = normalize_faculty_entry(pi)
+        if not normalized:
+            continue
+        school = normalized.get("school", "").lower()
+        if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
+            continue
+        if normalized.get("department", "") == "Various":
+            continue
+        name_lower = normalized.get("name", "").lower()
+        if not name_lower:
+            continue
+        dedupe_key = (name_lower, school)
+        if dedupe_key in seen_name_school:
+            continue
+        faculty.append(normalized)
+        seen_name_school.add(dedupe_key)
+
+    app.logger.info(f"Loaded {len(faculty)} faculty from v2 combined file")
     _faculty_cache["data"] = faculty
     _faculty_cache["loaded_at"] = now
     _faculty_cache["by_name"] = {pi.get("name", "").lower(): pi for pi in faculty if pi.get("name")}
@@ -2672,7 +2597,7 @@ def reset_password(token):
 
 
 # This is the main entry point - it runs when you execute the file directly
-# In production, use Gunicorn instead: gunicorn app:app --bind 0.0.0.0:$PORT
+# In production, use Gunicorn instead: gunicorn backend.app:app --bind 0.0.0.0:$PORT
 if __name__ == "__main__":
     # Make sure all database tables exist before starting the server
     with app.app_context():

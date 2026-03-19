@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Tufts",
+    "input": "api_evaluation/inputs/tufts_faculty.csv",
+    "config": "api_evaluation/filter/configs/tufts.json",
+    "output_dir": "Data/tufts",
+    "api": "tavily"
+  },
+  {
+    "name": "BU",
+    "input": "api_evaluation/inputs/bu_faculty.csv",
+    "config": "api_evaluation/filter/configs/bu.json",
+    "output_dir": "Data/bu",
+    "api": "tavily"
+  },
+  {
+    "name": "Stanford",
+    "input": "api_evaluation/inputs/stanford_faculty.csv",
+    "config": "api_evaluation/filter/configs/stanford.json",
+    "output_dir": "Data/stanford",
+    "api": "tavily"
+  },
+  {
+    "name": "Yale",
+    "input": "api_evaluation/inputs/yale_faculty.csv",
+    "config": "api_evaluation/filter/configs/yale.json",
+    "output_dir": "Data/yale",
+    "api": "tavily"
+  },
+  {
+    "name": "Princeton",
+    "input": "api_evaluation/inputs/princeton_faculty.csv",
+    "config": "api_evaluation/filter/configs/princeton.json",
+    "output_dir": "Data/princeton",
+    "api": "tavily"
+  }
+]
+

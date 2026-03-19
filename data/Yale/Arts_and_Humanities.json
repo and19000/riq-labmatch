@@ -1,0 +1,170 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "julie-b-zimmerman-yale-university",
+    "name": "Julie B. Zimmerman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "julie.zimmerman@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://environment.yale.edu/directory/faculty/julie-zimmerman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "nils-holger-petersen-yale-university",
+    "name": "Nils Holger Petersen",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "nils.petersen@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/nils-petersen/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "stephen-darwall-yale-university",
+    "name": "Stephen Darwall",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Arts and Humanities",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "stephen.darwall@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://news.yale.edu/2008/09/12/stephen-darwall-named-andrew-downey-orrick-professor",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

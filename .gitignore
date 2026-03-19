@@ -15,6 +15,10 @@ build/
 output/*.json
 output/*.csv
 
+# API account state and keys (local only, never committed)
+api_evaluation/keys/
+api_evaluation/state/
+
 # Checkpoints (can be large)
 checkpoints/
 

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Yale",
+    "input": "api_evaluation/inputs/yale_faculty.csv",
+    "config": "api_evaluation/filter/configs/yale.json",
+    "output_dir": "Data/Yale",
+    "api": "tavily"
+  },
+  {
+    "name": "Princeton",
+    "input": "api_evaluation/inputs/princeton_faculty.csv",
+    "config": "api_evaluation/filter/configs/princeton.json",
+    "output_dir": "Data/Princeton",
+    "api": "tavily"
+  }
+]
+

@@ -1,0 +1,3642 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "a-augustinus-yale-university",
+    "name": "A. Augustinus",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "julie.kinsella@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ling.yale.edu/profile/augustina-p-owusu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "a-caliva-yale-university",
+    "name": "A. Calivà",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "opac@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://admissions.yale.edu/sites/default/files/classprofile2028web.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "high",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "a-loginov-yale-university",
+    "name": "A. Loginov",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "sergei.antonov@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://physics.yale.edu/news/andrey-loginov-1977-2016",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "a-rakotozafindrabe-yale-university",
+    "name": "A. Rakotozafindrabe",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://rhig.physics.yale.edu/IndexImages/ESEJets_2023.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "barbara-alicja-jereczekfossa-yale-university",
+    "name": "Barbara Alicja Jereczek‐Fossa",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://english.yale.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "berndt-muller-yale-university",
+    "name": "Berndt Müller",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "muller@phy.duke.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://wlab.yale.edu/profile/berndt-mueller",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "c-baltay-yale-university",
+    "name": "C. Baltay",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "charles.baltay@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/charles-baltay",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "c-cuenca-almenar-yale-university",
+    "name": "C. Cuenca Almenar",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "mariajose.gutierrezbarajas@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://span-port.yale.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "c-m-urry-yale-university",
+    "name": "C. M. Urry",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "meg.urry@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://campuspress.yale.edu/fdstest/meg-urry/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "c-rosenfeld-yale-university",
+    "name": "C. Rosenfeld",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "richard.rosenfeld@aya.yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cbey.yale.edu/our-community/carol-rosenfeld",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "c-varni-yale-university",
+    "name": "C. Varni",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/pathology/people/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "d-hatzifotiadou-yale-university",
+    "name": "D. Hatzifotiadou",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "despina.hatzifotiadou@cern.ch",
+      "email_confidence": "LOW",
+      "website": "https://rhig.physics.yale.edu/IndexImages/ESEJets_2023.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "medium",
+      "email_confidence": "low",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "d-k-panchal-yale-university",
+    "name": "D. K. Panchal",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "bruce.ackerman@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://politicalscience.yale.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "d-r-nygren-yale-university",
+    "name": "D. R. Nygren",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/don-nguyen/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "d-r-shope-yale-university",
+    "name": "D. R. Shope",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "karen.peart@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://news.yale.edu/2004/02/04/memoriam-world-renowned-authority-infectious-diseases-robert-e-shope",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "daisuke-nagai-yale-university",
+    "name": "Daisuke Nagai",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "daisuke.nagai@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://physics.yale.edu/people/daisuke-nagai",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "debra-a-fischer-yale-university",
+    "name": "Debra A. Fischer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "fas.dean@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://fas.yale.edu/news-announcements/faculty-retirement-and-memorial-tributes/faculty-retirement-tributes-2024/debra-fischer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "e-bakos-yale-university",
+    "name": "E. Bakos",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "balazs.kovacs@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://environment.yale.edu/directory/faculty/dorceta-taylor",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "e-botta-yale-university",
+    "name": "E. Botta",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "eugenia.buta@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ysph.yale.edu/profile/eugenia-buta/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "e-ideal-yale-university",
+    "name": "E. Ideal",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/biomedical-informatics-data-science/people/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "f-iachello-yale-university",
+    "name": "F. Iachello",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "francesco.iachello@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/francesco-iachello",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "h-caines-yale-university",
+    "name": "H. Caines",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "helen.caines@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/helen-caines",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "h-kasha-yale-university",
+    "name": "H. Kasha",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://physics.yale.edu/news/henry-kasha-1929-2017",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "h-r-band-yale-university",
+    "name": "H. R. Band",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "gradmusic.admissions@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://bands.yale.edu/staff-and-leadership",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "hajime-kato-yale-university",
+    "name": "Hajime Katô",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "hajime.kato@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/hajime-kato/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "i-c-arsene-yale-university",
+    "name": "I. C. Arsene",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/faculty/faculty-directory/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "i-p-j-shipsey-yale-university",
+    "name": "I. P. J. Shipsey",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://www.physics.ox.ac.uk/news/professor-ian-shipsey-frs",
+      "website_confidence": "LOW",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "low",
+      "email_confidence": "none",
+      "confidence": "LOW",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-d-kurfess-yale-university",
+    "name": "J. D. Kurfess",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "james.kurfess@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/james-kurfess/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-e-lambert-yale-university",
+    "name": "J. E. Lambert",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "cowles@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://cowles.yale.edu/archives/yale-staff-1955",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-goodell-yale-university",
+    "name": "J. Goodell",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://e360.yale.edu/authors/jeff-goodell",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "high",
+      "email_confidence": "none",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-l-klay-yale-university",
+    "name": "J. L. Klay",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "jennifer.klein@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://history.yale.edu/people/jennifer-klein",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "j-song-yale-university",
+    "name": "J. Song",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "rosalind.deugenio@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://faculty.som.yale.edu/jiwoongshin/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "john-i-brauman-yale-university",
+    "name": "John I. Brauman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "eric.arsenault@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://chem.yale.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "k-yip-yale-university",
+    "name": "K. Yip",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "kafai.yip@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ling.yale.edu/profile/ka-fai-yip",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "kenneth-b-wiberg-yale-university",
+    "name": "Kenneth B. Wiberg",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "kenneth.wiberg@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://chem.yale.edu/profile/kenneth-wiberg",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "l-gauthier-yale-university",
+    "name": "L. Gauthier",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "aidan.wilber-gauthier@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://earth.yale.edu/sites/default/files/2024-07/cvgauthier_2011.pdf",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "l-gladney-yale-university",
+    "name": "L. Gladney",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "larry.gladney@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://fas.yale.edu/fas-deans-office/directory/larry-gladney",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "l-i-glazman-yale-university",
+    "name": "L. I. Glazman",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "leonid.glazman@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://physics.yale.edu/people/leonid-glazman",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "m-a-slade-yale-university",
+    "name": "M. A. Slade",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/faculty/faculty-directory/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "m-arslandok-yale-university",
+    "name": "M. Arslandok",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "mesut.arslandok@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/mesut-arslandok",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "m-dasgupta-yale-university",
+    "name": "M. Dasgupta",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "opac.media@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ysph.yale.edu/news-article/dasgupta-wins-genius-grant-for-creative-and-effective-harm-reduction-work/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "m-penzin-yale-university",
+    "name": "M. Penzin",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ysm.editor@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/faculty/faculty-directory/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "m-vasileiou-yale-university",
+    "name": "M. Vasileiou",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "vasilis.vasiliou@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://ysph.yale.edu/profile/vasilis-vasiliou/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "mark-a-johnson-yale-university",
+    "name": "Mark A. Johnson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "mark.johnson@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://jlab.chem.yale.edu/people/mark-johnson",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "marla-geha-yale-university",
+    "name": "Marla Geha",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "marla.geha@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://astronomy.yale.edu/people/marla-geha",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "milton-w-cole-yale-university",
+    "name": "Milton W. Cole",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "robert.duckrow@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/robert-duckrow/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "o-k-baker-yale-university",
+    "name": "O. K. Baker",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "oliver.baker@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hep.yale.edu/people/faculty/oliver-k-baker/baker-group-group-members",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "o-vazquez-doce-yale-university",
+    "name": "O. Vázquez Doce",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "maria.m.vazquez@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://span-port.yale.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "p-schiffer-yale-university",
+    "name": "P. Schiffer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "pschiffe@illinois.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://news.yale.edu/2017/08/03/yale-appoints-first-vice-provost-research-physicist-peter-schiffer",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "p-slattery-yale-university",
+    "name": "P. Slattery",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "mssa.reference@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://www.pas.rochester.edu/people/faculty/slattery_paul/index.html",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "p-tipton-yale-university",
+    "name": "P. Tipton",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "paul.tipton@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/paul-tipton",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "r-f-casten-yale-university",
+    "name": "R. F. Casten",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "richard.casten@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/richard-casten",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-anderson-yale-university",
+    "name": "S. Anderson",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "karen.anderson@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/karen-anderson/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-bedikian-yale-university",
+    "name": "S. Bedikian",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "sourpouhi.bedikian@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://physics.yale.edu/people/all",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-demers-yale-university",
+    "name": "S. Demers",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "sarah.demers@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/sarah-demers",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-k-lamoreaux-yale-university",
+    "name": "S. K. Lamoreaux",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "steve.lamoreaux@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://wlab.yale.edu/profile/steve-lamoreaux",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "s-lai-yale-university",
+    "name": "S. Lai",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "seyla.benhabib@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://english.yale.edu/people/faculty",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "sarbani-basu-yale-university",
+    "name": "Sarbani Basu",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "sarbani.basu@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://astronomy.yale.edu/people/sarbani-basu",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "t-d-s-stanislaus-yale-university",
+    "name": "T. D. S. Stanislaus",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "vincent.wilczynski@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://isps.yale.edu/team/directory",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "thomas-j-mcmahon-yale-university",
+    "name": "Thomas J. McMahon",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "thomas.mcmahon@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://medicine.yale.edu/profile/thomas-mcmahon/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "udo-d-schwarz-yale-university",
+    "name": "Udo D. Schwarz",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "udo.schwarz@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://engineering.yale.edu/research-and-faculty/faculty-directory/udo-d-schwarz",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "victor-s-batista-yale-university",
+    "name": "Víctor S. Batista",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "victor.batista@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://chem.yale.edu/profile/victor-batista",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "xiaosong-li-yale-university",
+    "name": "Xiaosong Li",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "xsli@uw.edu",
+      "email_confidence": "MEDIUM",
+      "website": "https://chem.washington.edu/people/xiaosong-li",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "medium",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "y-alhassid-yale-university",
+    "name": "Y. Alhassid",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "yoram.alhassid@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://physics.yale.edu/people/yoram-alhassid",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "z-czyczula-yale-university",
+    "name": "Z. Czyczula",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Physics and Astronomy",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "zofia.czyczula@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://hep.yale.edu/atlas/atlas-team",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

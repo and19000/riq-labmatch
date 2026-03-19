@@ -1,0 +1,51 @@
+[
+  {
+    "name": "MIT",
+    "input": "api_evaluation/inputs/mit_faculty.csv",
+    "config": "api_evaluation/filter/configs/mit.json",
+    "output_dir": "Data/mit",
+    "api": "exa"
+  },
+  {
+    "name": "Northeastern",
+    "input": "api_evaluation/inputs/northeastern_faculty.csv",
+    "config": "api_evaluation/filter/configs/northeastern.json",
+    "output_dir": "Data/northeastern",
+    "api": "exa"
+  },
+  {
+    "name": "Tufts",
+    "input": "api_evaluation/inputs/tufts_faculty.csv",
+    "config": "api_evaluation/filter/configs/tufts.json",
+    "output_dir": "Data/tufts",
+    "api": "exa"
+  },
+  {
+    "name": "BU",
+    "input": "api_evaluation/inputs/bu_faculty.csv",
+    "config": "api_evaluation/filter/configs/bu.json",
+    "output_dir": "Data/bu",
+    "api": "exa"
+  },
+  {
+    "name": "Stanford",
+    "input": "api_evaluation/inputs/stanford_faculty.csv",
+    "config": "api_evaluation/filter/configs/stanford.json",
+    "output_dir": "Data/stanford",
+    "api": "exa"
+  },
+  {
+    "name": "Yale",
+    "input": "api_evaluation/inputs/yale_faculty.csv",
+    "config": "api_evaluation/filter/configs/yale.json",
+    "output_dir": "Data/yale",
+    "api": "exa"
+  },
+  {
+    "name": "Princeton",
+    "input": "api_evaluation/inputs/princeton_faculty.csv",
+    "config": "api_evaluation/filter/configs/princeton.json",
+    "output_dir": "Data/princeton",
+    "api": "exa"
+  }
+]

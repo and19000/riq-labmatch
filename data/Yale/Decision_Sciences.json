@@ -1,0 +1,114 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "dirk-bergemann-yale-university",
+    "name": "Dirk Bergemann",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Decision Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "dirk.bergemann@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://macmillan.yale.edu/europe/person/dirk-bergemann",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  },
+  {
+    "schema_version": "2.0",
+    "id": "ravi-dhar-yale-university",
+    "name": "Ravi Dhar",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Decision Sciences",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "ravi.dhar@yale.edu",
+      "email_confidence": "HIGH",
+      "website": "https://faculty.som.yale.edu/ravidhar/",
+      "website_confidence": "HIGH",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "complete",
+      "website_confidence": "high",
+      "email_confidence": "high",
+      "confidence": "HIGH",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]
