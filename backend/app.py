@@ -923,6 +923,84 @@ def normalize_faculty_entry(pi):
     return pi
 
 
+def _is_valid_person_name(name: str) -> bool:
+    """Runtime guard: skip obvious non-person rows (headers, UI chrome, etc.)."""
+    if not name or not name.strip():
+        return False
+    name = name.strip()
+    # Must have at least first and last name
+    if " " not in name:
+        return False
+    # Too long to be a real name
+    if len(name) > 60:
+        return False
+    # Starts with institutional/non-person words
+    non_person_prefixes = [
+        "department",
+        "division",
+        "school",
+        "center",
+        "institute",
+        "program",
+        "office",
+        "faculty",
+        "administration",
+        "clinical",
+        "students",
+        "technology",
+        "principal",
+        "research",
+        "application",
+        "deadlines",
+        "about",
+        "contact",
+        "news",
+        "events",
+        "curriculum",
+        "admission",
+        "staff",
+        "committee",
+        "board",
+        "council",
+        "library",
+        "services",
+        "resources",
+        "the ",
+        "a ",
+        "an ",
+        "affiliated",
+        "emeritus",
+        "visiting",
+    ]
+    lower = name.lower()
+    if any(lower.startswith(p) for p in non_person_prefixes):
+        return False
+    # Contains junk substrings
+    if any(
+        s in lower
+        for s in [
+            "expand_more",
+            "expand_less",
+            "read more",
+            "learn more",
+            "view all",
+            "load more",
+            "show more",
+            "see all",
+            "click here",
+            "http",
+            ".edu",
+            ".com",
+            ".org",
+        ]
+    ):
+        return False
+    # Contains digits
+    if any(c.isdigit() for c in name):
+        return False
+    return True
+
+
 def load_faculty():
     """Load faculty from Data/v2/all_faculty.json only, with caching."""
     global _faculty_cache
@@ -966,6 +1044,8 @@ def load_faculty():
     for pi in v2_data:
         normalized = normalize_faculty_entry(pi)
         if not normalized:
+            continue
+        if not _is_valid_person_name(normalized.get("name", "")):
             continue
         school = normalized.get("school", "").lower()
         if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:

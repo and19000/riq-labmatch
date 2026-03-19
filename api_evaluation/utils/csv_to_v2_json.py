@@ -6,14 +6,22 @@ import unicodedata
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
+# Prefer capital-D Data/ (runtime standard); fall back to data/ if needed
+for _candidate in ("Data/master_faculty_database.csv", "data/master_faculty_database.csv"):
+    _p = _REPO_ROOT / _candidate
+    if _p.exists():
+        INPUT_CSV = _p
+        break
+else:
+    INPUT_CSV = _REPO_ROOT / "Data" / "master_faculty_database.csv"
 
-INPUT_CSV = _REPO_ROOT / "data" / "master_faculty_database.csv"
 OUTPUT_JSON = _REPO_ROOT / "Data" / "v2" / "all_faculty.json"
 
 LOCATION_BY_UNIVERSITY = {
@@ -26,6 +34,119 @@ LOCATION_BY_UNIVERSITY = {
     "Yale University": "New Haven, CT",
     "Princeton University": "Princeton, NJ",
 }
+
+# Case-insensitive: name must not start with any of these (after strip)
+_BAD_NAME_PREFIXES = (
+    "department",
+    "division",
+    "school",
+    "center",
+    "institute",
+    "program",
+    "office",
+    "faculty",
+    "administration",
+    "clinical",
+    "students",
+    "technology",
+    "principal",
+    "research",
+    "application",
+    "deadlines",
+    "about",
+    "contact",
+    "news",
+    "events",
+    "curriculum",
+    "admission",
+    "staff",
+    "committee",
+    "board",
+    "council",
+    "library",
+    "services",
+    "resources",
+    "affiliated",
+    "emeritus",
+    "visiting",
+)
+
+# Case-insensitive substring checks
+_BAD_SUBSTRINGS = (
+    "expand_more",
+    "expand_less",
+    "read more",
+    "learn more",
+    "view all",
+    "load more",
+    "show more",
+    "see all",
+    "click here",
+    "http://",
+    "https://",
+    ".edu",
+    ".com",
+    ".org",
+)
+
+_KNOWN_JUNK_PHRASES = frozenset(
+    {
+        "principal faculty",
+        "principal faculty by research interest",
+        "administration & operations",
+        "clinical & translational research core",
+        "faculty & leadership",
+        "students, fellows & scholars",
+        "technology advancement",
+        "liver diseases expand_more",
+        "musculoskeletal diseases expand_more",
+        "nervous system diseases expand_more",
+        "skin diseases expand_more",
+    }
+)
+
+
+def _reject_reason_for_csv_name(name: str) -> Optional[str]:
+    """
+    Return a human-readable rejection reason, or None if the name is acceptable.
+    """
+    if not name or not name.strip():
+        return "empty name"
+    name = name.strip()
+
+    if " " not in name:
+        return "single word (no space)"
+
+    if len(name) > 60:
+        return "longer than 60 characters"
+
+    lower = name.lower()
+
+    for prefix in _BAD_NAME_PREFIXES:
+        if lower.startswith(prefix):
+            return f'starts with "{prefix}"'
+
+    if lower.startswith("the ") or lower.startswith("a ") or lower.startswith("an "):
+        return 'starts with article "The "/"A "/"An "'
+
+    if lower in _KNOWN_JUNK_PHRASES:
+        return "known junk phrase"
+
+    for sub in _BAD_SUBSTRINGS:
+        if sub in lower:
+            return f'contains junk substring "{sub}"'
+
+    if any(c.isdigit() for c in name):
+        return "contains digits"
+
+    letters_only = [c for c in name if c.isalpha()]
+    if letters_only and all(c.isupper() for c in letters_only):
+        # Allow "M. F. SEMMELHACK" / "J. K. ROWLING" style (initials + all-caps surname)
+        if re.match(r"^([A-Z]\.\s*)+[A-Z][A-Z'\-]*$", name.strip()):
+            return None
+        return "all uppercase (non-person heading)"
+
+    return None
 
 
 def _slugify(value: str) -> str:
@@ -70,7 +191,6 @@ def _row_to_v2(row: dict, seen_ids: set[str]) -> dict:
     unique_id = _make_unique_id(name=name, school=school, seen_ids=seen_ids)
     today = datetime.now().date().isoformat()
 
-    # Keep confidence fields both where matching/loader expects and in data_quality.
     email_conf_upper = _to_confidence_upper(email_conf)
     website_conf_upper = _to_confidence_upper(website_conf)
 
@@ -137,10 +257,19 @@ def main() -> None:
     records = []
     seen_ids: set[str] = set()
     by_school = Counter()
+    rejected: list[tuple[str, str]] = []
+    total_rows = 0
 
     with open(INPUT_CSV, "r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
+            total_rows += 1
+            raw_name = (row.get("name") or "").strip()
+            reason = _reject_reason_for_csv_name(raw_name)
+            if reason:
+                rejected.append((raw_name, reason))
+                print(f"REJECTED: {raw_name!r} — reason: {reason}")
+                continue
             v2 = _row_to_v2(row, seen_ids=seen_ids)
             records.append(v2)
             by_school[v2["affiliation"]["school"]] += 1
@@ -150,6 +279,8 @@ def main() -> None:
         json.dump(records, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
+    print(f"Total CSV rows read: {total_rows}")
+    print(f"Total rejected: {len(rejected)}")
     print(f"Converted {len(records)} professors to v2 JSON format")
     print("Output: Data/v2/all_faculty.json")
     for school in sorted(by_school):
@@ -158,4 +289,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

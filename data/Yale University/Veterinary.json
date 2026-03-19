@@ -1,0 +1,58 @@
+[
+  {
+    "schema_version": "2.0",
+    "id": "nicole-kleinstreuer-yale-university",
+    "name": "Nicole Kleinstreuer",
+    "name_alternatives": [],
+    "affiliation": {
+      "school": "Yale University",
+      "affiliation": "Yale University",
+      "department": "Veterinary",
+      "department_category": "default",
+      "title": "",
+      "location": "New Haven, CT",
+      "specific_location": "New Haven, CT"
+    },
+    "contact": {
+      "email": "",
+      "email_confidence": "NONE",
+      "website": "https://bulletin.yale.edu/sites/default/files/school-of-public-health-2021-2022.pdf",
+      "website_confidence": "MEDIUM",
+      "phone": "",
+      "google_scholar_id": "",
+      "google_scholar_url": ""
+    },
+    "metrics": {
+      "h_index": "",
+      "h_index_source": "",
+      "h_index_updated": "",
+      "citations_total": null,
+      "i10_index": null,
+      "works_count": null
+    },
+    "research": {
+      "areas": "",
+      "topics": [],
+      "techniques": []
+    },
+    "publications": {
+      "recent_papers": []
+    },
+    "funding": {
+      "nsf_awards": [],
+      "nsf_grants_count": 0,
+      "co_investigators": []
+    },
+    "data_quality": {
+      "status": "partial",
+      "website_confidence": "medium",
+      "email_confidence": "none",
+      "confidence": "MEDIUM",
+      "confidence_reason": "",
+      "last_updated": "2026-03-19",
+      "sources": [
+        "master_faculty_database.csv"
+      ]
+    }
+  }
+]

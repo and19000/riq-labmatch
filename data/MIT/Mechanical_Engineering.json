@@ -953,62 +953,6 @@
   },
   {
     "schema_version": "2.0",
-    "id": "meche-covid-19-resources-massachusetts-institute-of-technology",
-    "name": "MechE Covid-19 Resources",
-    "name_alternatives": [],
-    "affiliation": {
-      "school": "Massachusetts Institute of Technology",
-      "affiliation": "Massachusetts Institute of Technology",
-      "department": "Mechanical Engineering",
-      "department_category": "default",
-      "title": "",
-      "location": "Cambridge, MA",
-      "specific_location": "Cambridge, MA"
-    },
-    "contact": {
-      "email": "rohan@mit.edu",
-      "email_confidence": "HIGH",
-      "website": "https://meche.mit.edu/people",
-      "website_confidence": "HIGH",
-      "phone": "",
-      "google_scholar_id": "",
-      "google_scholar_url": ""
-    },
-    "metrics": {
-      "h_index": "",
-      "h_index_source": "",
-      "h_index_updated": "",
-      "citations_total": null,
-      "i10_index": null,
-      "works_count": null
-    },
-    "research": {
-      "areas": "",
-      "topics": [],
-      "techniques": []
-    },
-    "publications": {
-      "recent_papers": []
-    },
-    "funding": {
-      "nsf_awards": [],
-      "nsf_grants_count": 0,
-      "co_investigators": []
-    },
-    "data_quality": {
-      "status": "complete",
-      "website_confidence": "high",
-      "email_confidence": "high",
-      "confidence": "HIGH",
-      "confidence_reason": "",
-      "last_updated": "2026-03-19",
-      "sources": [
-        "master_faculty_database.csv"
-      ]
-    }
-  },
-  {
-    "schema_version": "2.0",
     "id": "meche-faculty-openings-massachusetts-institute-of-technology",
     "name": "MechE Faculty Openings",
     "name_alternatives": [],
@@ -1417,62 +1361,6 @@
       "email": "ovc@mit.edu",
       "email_confidence": "HIGH",
       "website": "https://libraries.mit.edu/distinctive-collections/thesis-specs/",
-      "website_confidence": "HIGH",
-      "phone": "",
-      "google_scholar_id": "",
-      "google_scholar_url": ""
-    },
-    "metrics": {
-      "h_index": "",
-      "h_index_source": "",
-      "h_index_updated": "",
-      "citations_total": null,
-      "i10_index": null,
-      "works_count": null
-    },
-    "research": {
-      "areas": "",
-      "topics": [],
-      "techniques": []
-    },
-    "publications": {
-      "recent_papers": []
-    },
-    "funding": {
-      "nsf_awards": [],
-      "nsf_grants_count": 0,
-      "co_investigators": []
-    },
-    "data_quality": {
-      "status": "complete",
-      "website_confidence": "high",
-      "email_confidence": "high",
-      "confidence": "HIGH",
-      "confidence_reason": "",
-      "last_updated": "2026-03-19",
-      "sources": [
-        "master_faculty_database.csv"
-      ]
-    }
-  },
-  {
-    "schema_version": "2.0",
-    "id": "online-2a-contract-massachusetts-institute-of-technology",
-    "name": "Online 2A Contract",
-    "name_alternatives": [],
-    "affiliation": {
-      "school": "Massachusetts Institute of Technology",
-      "affiliation": "Massachusetts Institute of Technology",
-      "department": "Mechanical Engineering",
-      "department_category": "default",
-      "title": "",
-      "location": "Cambridge, MA",
-      "specific_location": "Cambridge, MA"
-    },
-    "contact": {
-      "email": "rohan@mit.edu",
-      "email_confidence": "HIGH",
-      "website": "https://www.csail.mit.edu/person/adam-chlipala",
       "website_confidence": "HIGH",
       "phone": "",
       "google_scholar_id": "",
@@ -1977,62 +1865,6 @@
       "email": "ceepr@mit.edu",
       "email_confidence": "HIGH",
       "website": "https://mitsloan.mit.edu/faculty/academic-groups/information-technology/faculty-research-centers",
-      "website_confidence": "HIGH",
-      "phone": "",
-      "google_scholar_id": "",
-      "google_scholar_url": ""
-    },
-    "metrics": {
-      "h_index": "",
-      "h_index_source": "",
-      "h_index_updated": "",
-      "citations_total": null,
-      "i10_index": null,
-      "works_count": null
-    },
-    "research": {
-      "areas": "",
-      "topics": [],
-      "techniques": []
-    },
-    "publications": {
-      "recent_papers": []
-    },
-    "funding": {
-      "nsf_awards": [],
-      "nsf_grants_count": 0,
-      "co_investigators": []
-    },
-    "data_quality": {
-      "status": "complete",
-      "website_confidence": "high",
-      "email_confidence": "high",
-      "confidence": "HIGH",
-      "confidence_reason": "",
-      "last_updated": "2026-03-19",
-      "sources": [
-        "master_faculty_database.csv"
-      ]
-    }
-  },
-  {
-    "schema_version": "2.0",
-    "id": "staff-resources-massachusetts-institute-of-technology",
-    "name": "Staff Resources",
-    "name_alternatives": [],
-    "affiliation": {
-      "school": "Massachusetts Institute of Technology",
-      "affiliation": "Massachusetts Institute of Technology",
-      "department": "Mechanical Engineering",
-      "department_category": "default",
-      "title": "",
-      "location": "Cambridge, MA",
-      "specific_location": "Cambridge, MA"
-    },
-    "contact": {
-      "email": "jhow@mit.edu",
-      "email_confidence": "HIGH",
-      "website": "https://web.mit.edu/directory/",
       "website_confidence": "HIGH",
       "phone": "",
       "google_scholar_id": "",
