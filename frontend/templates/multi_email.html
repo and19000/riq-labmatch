@@ -13,7 +13,7 @@
             <div class="checkbox-item">
               <input type="checkbox" id="pi_{{ pi.id }}" name="pi_ids" value="{{ pi.id }}" checked>
               <label for="pi_{{ pi.id }}">
-                <strong>{{ pi.name }}</strong> — {{ pi.department }}, {{ pi.school }}
+                <strong>{{ pi.name }}</strong> — <span class="department-badge" data-field="{{ dept_field_key(pi.department) }}">{{ pi.department }}</span>, {{ pi.school }}
                 <br><small>{{ pi.research_areas }}</small>
               </label>
             </div>

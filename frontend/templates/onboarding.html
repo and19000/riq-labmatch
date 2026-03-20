@@ -135,7 +135,7 @@
           <input type="text" 
                  id="research_field_input" 
                  class="autocomplete-input form-control"
-                 placeholder="Start typing to search fields..."
+                 placeholder="Type to search fields..."
                  autocomplete="off"
                  value="{{ profile.research_field if profile and profile.research_field else '' }}">
           <input type="hidden" name="research_field" id="research_field" value="{{ profile.research_field if profile and profile.research_field else '' }}">
@@ -151,7 +151,7 @@
           <input type="text" 
                  id="research_topics_input" 
                  class="autocomplete-input form-control"
-                 placeholder="Start typing to add topics..."
+                 placeholder="Type to add topics..."
                  autocomplete="off">
           <input type="hidden" name="research_topics" id="research_topics" value="">
           <div class="autocomplete-dropdown" id="research_topics_dropdown"></div>
@@ -166,7 +166,7 @@
           <input type="text" 
                  id="institution_input" 
                  class="autocomplete-input form-control"
-                 placeholder="Start typing your school name..."
+                 placeholder="Type to search schools..."
                  autocomplete="off"
                  value="{{ profile.institution if profile and profile.institution else '' }}">
           <input type="hidden" name="institution" id="institution" value="{{ profile.institution if profile and profile.institution else '' }}">

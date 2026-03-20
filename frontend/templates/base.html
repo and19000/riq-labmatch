@@ -41,7 +41,7 @@
               <a href="{{ url_for('account') }}">{{ session.get('username', 'Account') }}</a>
               <a href="{{ url_for('logout') }}">Logout</a>
             {% else %}
-              <a href="{{ url_for('login') }}">Log in</a>
+              <a href="{{ url_for('login') }}">Log In</a>
               <a href="{{ url_for('signup') }}" class="btn-nav-signup">Sign Up</a>
             {% endif %}
           </div>          
@@ -69,7 +69,7 @@
     <!-- Footer with copyright and info -->
     <footer>
       <div class="footer-content">
-        <p>&copy; 2025 RIQ Lab Matcher. Connecting students with research opportunities.</p>
+        <p>&copy; {{ current_year }} RIQ Lab Matcher. Connecting students with research opportunities.</p>
         <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
           Currently featuring labs from 8 top institutions across the US.
           Data updated regularly from institutional sources.

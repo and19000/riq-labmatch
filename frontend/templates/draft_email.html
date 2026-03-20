@@ -22,7 +22,7 @@
           {% if pi.research_topics %}
           <p class="research-topics">{{ (pi.research_topics or [])[:3] | join(' · ') }}</p>
           {% endif %}
-          <small>{{ pi.department }}, {{ pi.school }}</small>
+          <small><span class="department-badge" data-field="{{ dept_field_key(pi.department) }}">{{ pi.department }}</span>, {{ pi.school }}</small>
           {% if pi.email and pi.email.strip() %}
             <p style="margin-top: 0.5rem; color: var(--text-muted);"><strong>Email:</strong> {{ pi.email }}</p>
           {% else %}
@@ -33,14 +33,14 @@
       {% else %}
         {% if saved_pis and saved_pis|length > 0 %}
           <select id="pi_id" name="pi_id" required class="pi-select custom-select" onchange="updatePIEmail()">
-            <option value="" data-email="" data-name="">-- Select a saved PI --</option>
+            <option value="" data-email="" data-name="">Select a saved PI...</option>
             {% for saved_pi in saved_pis %}
               <option value="{{ saved_pi.id }}" data-email="{{ saved_pi.email or '' }}" data-name="{{ saved_pi.name }}">{{ saved_pi.name }} — {{ saved_pi.department }}, {{ saved_pi.school }}</option>
             {% endfor %}
           </select>
           <input type="hidden" id="pi_email" value="">
           <input type="hidden" id="pi_name" value="">
-          <p><small>Only showing your saved PIs. <a href="{{ url_for('saved_pis') }}">View all saved PIs</a> or <a href="{{ url_for('general') }}">browse all PIs</a>.</small></p>
+          <p><small>Only showing your saved PIs. <a href="{{ url_for('saved_pis') }}">View all saved PIs</a> or <a href="{{ url_for('general') }}">Browse All PIs</a>.</small></p>
         {% else %}
           <div class="no-saved-pis-message" style="padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
             <p style="margin-bottom: 0.5rem;">You haven't saved any PIs yet.</p>

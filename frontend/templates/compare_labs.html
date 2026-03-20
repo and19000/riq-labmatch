@@ -55,7 +55,7 @@
           <tr>
             <td><strong>Department</strong></td>
             {% for lab in labs %}
-              <td>{{ lab.department }}</td>
+              <td><span class="department-badge" data-field="{{ dept_field_key(lab.department) }}">{{ lab.department }}</span></td>
             {% endfor %}
           </tr>
           <tr>
@@ -98,7 +98,11 @@
             <td><strong>Email</strong></td>
             {% for lab in labs %}
               <td>
-                <a href="mailto:{{ lab.email }}" class="table-email">{{ lab.email }}</a>
+                {% if lab.email and lab.email.strip() %}
+                  <a href="mailto:{{ lab.email }}" class="table-email">{{ lab.email }}</a>
+                {% else %}
+                  <span class="text-dim-sm">Not available</span>
+                {% endif %}
               </td>
             {% endfor %}
           </tr>
@@ -118,13 +122,13 @@
       {% endif %}
 
       <div class="compare-actions">
-        <a href="{{ url_for('saved_pis') }}" class="btn-secondary">← Back to Saved Labs</a>
+        <a href="{{ url_for('saved_pis') }}" class="btn-secondary">← Back to Saved PIs</a>
       </div>
     </div>
   {% else %}
     <div class="no-results">
       <p>No labs selected for comparison.</p>
-      <a href="{{ url_for('saved_pis') }}" class="btn-primary">Go to Saved Labs</a>
+      <a href="{{ url_for('saved_pis') }}" class="btn-primary">Go to Saved PIs</a>
     </div>
   {% endif %}
 {% endblock %}

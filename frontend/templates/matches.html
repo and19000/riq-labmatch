@@ -71,7 +71,7 @@
                 {% endif %}
                 <div class="table-lab-info" style="margin-top: 0.25rem; font-size: 0.85rem; color: var(--text-dim);">{{ pi.get('specific_location', pi.location) }}</div>
                 {% if pi.id in saved_pi_ids %}
-                  <span class="saved-badge" style="margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;">✓ Saved</span>
+                  <span class="saved-badge" style="margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;">Saved</span>
                 {% endif %}
               </td>
               <td>
@@ -83,7 +83,7 @@
                 {% endif %}
                 {% if pi.get('google_scholar') %}
                   <a href="{{ pi.google_scholar }}" target="_blank" class="table-link" style="font-size: 0.85rem; color: #4285f4; display: block; margin-top: 0.25rem;">
-                    📚 Google Scholar
+                    Google Scholar
                   </a>
                 {% endif %}
               </td>
@@ -103,7 +103,7 @@
               <td>
                 <div style="display: flex; flex-direction: column; gap: 0.5rem;">
             {% if pi.id in saved_pi_ids %}
-                    <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Already saved</span>
+                    <span class="saved-indicator" style="font-size: 0.85rem; text-align: center;">Saved</span>
                     <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary" style="padding: 0.5rem; font-size: 0.85rem; text-align: center;">Email</a>
             {% else %}
               <button type="button" class="btn-primary save-pi-btn" data-pi-id="{{ pi.id }}" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">Save PI</button>
@@ -251,7 +251,7 @@
           .then(data => {
             if (data.success) {
               // Update button to show saved state
-              this.textContent = '✓ Saved';
+              this.textContent = 'Saved';
               this.classList.remove('btn-primary');
               this.classList.add('btn-secondary');
               this.style.backgroundColor = '#28a745';
@@ -266,7 +266,7 @@
                   const badge = document.createElement('span');
                   badge.className = 'saved-badge';
                   badge.style.cssText = 'margin-top: 0.5rem; display: inline-block; font-size: 0.75rem;';
-                  badge.textContent = '✓ Saved';
+                  badge.textContent = 'Saved';
                   nameCell.appendChild(badge);
                 }
               }

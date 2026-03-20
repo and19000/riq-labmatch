@@ -40,7 +40,7 @@
         
         <div class="pi-info" style="margin: 1rem 0; padding: 1rem; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
           <p style="margin: 0.25rem 0;"><strong>{{ email_data.pi.title }}</strong></p>
-          <p style="margin: 0.25rem 0;">{{ email_data.pi.department }}, {{ email_data.pi.school }}</p>
+          <p style="margin: 0.25rem 0;"><span class="department-badge" data-field="{{ dept_field_key(email_data.pi.department) }}">{{ email_data.pi.department }}</span>, {{ email_data.pi.school }}</p>
           <p style="margin: 0.25rem 0;"><strong>Email:</strong> {{ email_data.pi_email }}</p>
         </div>
         

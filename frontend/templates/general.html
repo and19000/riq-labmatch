@@ -219,7 +219,7 @@
                         {% endif %}
                         <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Email</a>
                       {% else %}
-                        <a href="{{ url_for('login') }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Login</a>
+                        <a href="{{ url_for('login') }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Log In</a>
                       {% endif %}
                     </div>
                   </td>
@@ -453,7 +453,7 @@
         }
         actionsHtml += ' <a href="/draft-email?pi_id=' + encodeURIComponent(pi.id) + '" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Email</a>';
         {% else %}
-        actionsHtml = '<a href="{{ url_for("login") }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Login</a>';
+        actionsHtml = '<a href="{{ url_for("login") }}" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Log In</a>';
         {% endif %}
 
         return '<tr class="pi-row">' +

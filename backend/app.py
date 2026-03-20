@@ -988,6 +988,13 @@ def _is_valid_person_name(name: str) -> bool:
             "show more",
             "see all",
             "click here",
+            "privacy",
+            "more about",
+            "database list",
+            "timeline & faq",
+            "policy award",
+            "follow us",
+            "health law",
             "http",
             ".edu",
             ".com",
@@ -1051,6 +1058,11 @@ def load_faculty():
         if ENABLED_SCHOOLS is not None and school not in ENABLED_SCHOOLS:
             continue
         if normalized.get("department", "") == "Various":
+            continue
+        # Filter low-quality entries: no department, no research areas, no h_index
+        if (not normalized.get("department", "").strip()
+                and not normalized.get("research_areas", "").strip()
+                and normalized.get("h_index") is None):
             continue
         name_lower = normalized.get("name", "").lower()
         if not name_lower:
@@ -1374,8 +1386,9 @@ Only include labs with score >= 50. Rank highest to lowest."""
 
 @app.context_processor
 def inject_admin():
-    """Make is_admin available in all templates."""
-    return {"is_admin": session.get("is_admin", False)}
+    """Make is_admin and current_year available in all templates."""
+    import datetime as _dt
+    return {"is_admin": session.get("is_admin", False), "current_year": _dt.datetime.now().year}
 
 # Track page views for admin dashboard (GET requests to main pages only)
 _PAGE_VIEW_PATHS = frozenset(["/", "/general", "/matches", "/login", "/signup", "/saved", "/account", "/onboarding", "/help", "/draft-email", "/bulk-email"])
@@ -2499,8 +2512,8 @@ def signup():
             return render_template("signup.html", error=error)
         
         # Enforce minimum password length
-        if len(password) < 6:
-            error = "Password must be at least 6 characters long."
+        if len(password) < 8:
+            error = "Password must be at least 8 characters long."
             return render_template("signup.html", error=error)
 
         # Make sure the username isn't already taken
