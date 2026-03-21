@@ -11,19 +11,22 @@
 
   <div class="admin-stats">
     <div class="stat-card">
-      <span class="stat-value">{{ total_page_views }}</span>
+      <span class="stat-value">{{ "{:,}".format(total_page_views) }}</span>
       <span class="stat-label">Total page views</span>
+      {% if page_views_tracked is not none %}
+        <p class="stat-sublabel">Actually tracked from the site: {{ "{:,}".format(page_views_tracked) }}</p>
+      {% endif %}
     </div>
     <div class="stat-card">
-      <span class="stat-value">{{ total_users }}</span>
+      <span class="stat-value">{{ "{:,}".format(total_users) }}</span>
       <span class="stat-label">Registered users</span>
     </div>
     <div class="stat-card">
-      <span class="stat-value">{{ total_saved }}</span>
+      <span class="stat-value">{{ "{:,}".format(total_saved) }}</span>
       <span class="stat-label">Saved PIs (total)</span>
     </div>
     <div class="stat-card">
-      <span class="stat-value">{{ total_resumes }}</span>
+      <span class="stat-value">{{ "{:,}".format(total_resumes) }}</span>
       <span class="stat-label">Resumes uploaded</span>
     </div>
   </div>

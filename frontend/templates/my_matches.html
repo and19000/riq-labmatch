@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="my-matches-page">
+    <header class="my-matches-hero">
+      <h1>My Matches</h1>
+      <p class="subtitle">Answer a few questions — we’ll rank up to five professors from our database using a fast tag match (no AI).</p>
+    </header>
+
+    <section class="my-matches-form-section">
+      <h2 class="my-matches-section-title">Find My Match</h2>
+      <form method="post" action="{{ url_for('matches') }}" class="my-matches-form" id="my-matches-form">
+        <div class="my-matches-fields">
+          <label class="my-matches-label">
+            <span>What research area interests you most?</span>
+            <select name="research_area" required class="my-matches-select">
+              <option value="" disabled {% if not form_values.research_area %}selected{% endif %}>Select a research area…</option>
+              {% for opt in ui_options.research_areas %}
+                <option value="{{ opt }}" {% if form_values.research_area == opt %}selected{% endif %}>{{ opt }}</option>
+              {% endfor %}
+            </select>
+          </label>
+
+          <label class="my-matches-label">
+            <span>What type of work do you prefer?</span>
+            <select name="work_type" required class="my-matches-select">
+              <option value="" disabled {% if not form_values.work_type %}selected{% endif %}>Select from lab techniques &amp; areas in our data…</option>
+              {% for opt in ui_options.work_types %}
+                <option value="{{ opt }}" {% if form_values.work_type == opt %}selected{% endif %}>{{ opt }}</option>
+              {% endfor %}
+            </select>
+          </label>
+
+          <label class="my-matches-label">
+            <span>What is your preferred involvement level?</span>
+            <select name="involvement" required class="my-matches-select">
+              <option value="" disabled {% if not form_values.involvement %}selected{% endif %}>Select involvement…</option>
+              {% for key, label in ui_options.involvement %}
+                <option value="{{ key }}" {% if form_values.involvement == key %}selected{% endif %}>{{ label }}</option>
+              {% endfor %}
+            </select>
+          </label>
+
+          <label class="my-matches-label">
+            <span>What year are you?</span>
+            <select name="year" required class="my-matches-select">
+              <option value="" disabled {% if not form_values.year %}selected{% endif %}>Select year…</option>
+              {% for y in ui_options.years %}
+                <option value="{{ y }}" {% if form_values.year == y %}selected{% endif %}>{{ y }}</option>
+              {% endfor %}
+            </select>
+          </label>
+        </div>
+
+        <div class="my-matches-actions">
+          <button type="submit" class="btn-primary my-matches-submit">Find My Match</button>
+          <a href="{{ url_for('general') }}" class="btn-secondary">Browse all labs</a>
+        </div>
+      </form>
+    </section>
+
+    {% if results is not none %}
+    <section class="my-matches-results" aria-live="polite">
+      <h2 class="my-matches-section-title">Your top matches</h2>
+      <p class="my-matches-results-hint">Ranked by overlap with your choices. Same answers always produce the same ordering.</p>
+
+      {% if results|length == 0 %}
+        <p class="my-matches-results-hint">No faculty data is loaded — check that <code>data/v2/all_faculty.json</code> exists.</p>
+      {% else %}
+      <div class="my-matches-cards">
+        {% for pi in results %}
+          <article class="my-match-card">
+            <div class="my-match-card-top">
+              <div class="my-match-card-logo">
+                {% if pi.school in SCHOOL_LOGOS %}
+                  <img src="{{ url_for('static', filename='images/' + SCHOOL_LOGOS[pi.school]) }}" alt="" class="institution-logo my-match-logo-img">
+                {% else %}
+                  <span class="my-match-logo-fallback">{{ (pi.school or "?")[0]|upper }}</span>
+                {% endif %}
+              </div>
+              <div class="my-match-card-head">
+                <h3 class="my-match-name">{{ pi.name }}</h3>
+                <p class="my-match-school">{{ pi.school }}</p>
+                {% if pi.department %}
+                  <span class="department-badge" data-field="{{ dept_field_key(pi.department) }}">{{ pi.department }}</span>
+                {% endif %}
+              </div>
+              <div class="my-match-score-wrap" title="Weighted tag match score (max 100)">
+                <span class="my-match-pct">{{ pi.match_pct }}%</span>
+                <span class="my-match-pct-label">match</span>
+              </div>
+            </div>
+
+            <p class="my-match-research"><strong>Research:</strong> {{ pi.research_snippet }}</p>
+
+            <div class="my-match-card-actions">
+              {% if pi.website %}
+                <a href="{{ pi.website }}" target="_blank" rel="noopener" class="btn-secondary btn-small">Website</a>
+              {% endif %}
+              {% if pi.email %}
+                <a href="mailto:{{ pi.email }}" class="btn-secondary btn-small">Email</a>
+              {% endif %}
+              {% if pi.id in saved_pi_ids %}
+                <span class="saved-indicator">Saved</span>
+                <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-primary btn-small">Draft email</a>
+              {% else %}
+                <button type="button" class="btn-primary btn-small save-pi-btn" data-pi-id="{{ pi.id }}">Save PI</button>
+                <a href="{{ url_for('draft_email', pi_id=pi.id) }}" class="btn-secondary btn-small">Draft email</a>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.my-matches-results .save-pi-btn').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          var piId = this.getAttribute('data-pi-id');
+          var original = this.textContent;
+          this.disabled = true;
+          this.textContent = 'Saving…';
+          fetch('/save-pi/' + encodeURIComponent(piId), {
+            method: 'POST',
+            headers: { 'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json' },
+            credentials: 'same-origin'
+          })
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            if (data.success) {
+              btn.textContent = 'Saved';
+              btn.classList.remove('btn-primary');
+              btn.classList.add('btn-secondary');
+            } else {
+              btn.disabled = false;
+              btn.textContent = original;
+              alert(data.error || 'Could not save');
+            }
+          })
+          .catch(function() {
+            btn.disabled = false;
+            btn.textContent = original;
+            alert('Could not save. Try again.');
+          });
+        });
+      });
+    });
+  </script>
+{% endblock %}

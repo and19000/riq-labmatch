@@ -34,9 +34,13 @@ GPT_MODEL = "gpt-4o-mini"
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(APP_DIR)
 
+import sys
+
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
 # Import Matching Service (v2 by default: 7-parameter semantic-lite with MMR reranking)
 try:
-    import sys
     matching_path = os.path.join(ROOT_DIR, "services", "matching")
     if os.path.exists(matching_path):
         if ROOT_DIR not in sys.path:
@@ -57,6 +61,13 @@ USE_MATCHING_V2 = os.environ.get("USE_MATCHING_V2", "true").lower() != "false"
 
 # Global matching service (initialized lazily)
 _matching_service = None
+
+# My Matches: simple tag matcher (dropdowns, no ML)
+from services.matching.tag_match import (  # noqa: E402
+    STUDENT_YEAR_OPTIONS,
+    build_tag_match_dropdown_options,
+    rank_professors_for_answers,
+)
 
 def _flatten_v2_for_matching(pi):
     """Flatten a v2-schema PI dict to top-level keys for the matching service."""
@@ -1698,87 +1709,87 @@ def general():
         pagination_query=pagination_query,
     )
 
-@app.route("/matches")
+
+# Cache dropdown option lists derived from faculty (invalidate when faculty count changes)
+_tag_match_ui_cache = {"n": 0, "options": None}
+
+
+def get_tag_match_ui_options():
+    """Build research/work dropdowns from live faculty data (fast, in-process cache)."""
+    global _tag_match_ui_cache
+    faculty = load_faculty()
+    n = len(faculty)
+    if _tag_match_ui_cache["options"] is not None and _tag_match_ui_cache["n"] == n:
+        return _tag_match_ui_cache["options"]
+    opts = build_tag_match_dropdown_options(faculty, dept_field_key, DEPT_CATEGORY_DISPLAY)
+    _tag_match_ui_cache["options"] = opts
+    _tag_match_ui_cache["n"] = n
+    return opts
+
+
+@app.route("/matches", methods=["GET", "POST"])
 @require_authorized_user
 def matches():
-    """Show faculty matches using 5-question profile (fast MVP matching, no resume)."""
+    """My Matches: 4 dropdown questions, deterministic tag match, top 5 professors (no ML)."""
     user_id = session.get("user_id")
-    profile = UserProfile.query.filter_by(user_id=user_id).first()
+    faculty = load_faculty()
+    ui_options = get_tag_match_ui_options()
+    saved_rows = SavedPI.query.filter_by(user_id=user_id).all()
+    saved_pi_ids = set(sp.pi_id for sp in saved_rows)
 
-    if not profile or not profile.onboarding_complete:
-        flash("Please complete your profile first.", "warning")
-        return redirect(url_for("onboarding"))
+    results = None
+    form_values = {
+        "research_area": "",
+        "work_type": "",
+        "involvement": "",
+        "year": "",
+    }
 
-    matcher = get_matching_service()
-    if not matcher:
-        flash("Matching service unavailable. Please try again later.", "error")
-        return redirect(url_for("general"))
-
-    # Pagination: 15 PIs per page
-    page = request.args.get("page", 1, type=int)
-    per_page = 15
-    if page < 1:
-        page = 1
-
-    try:
-        all_results = matcher.match_student(
-            research_field=profile.research_field or "",
-            research_topics=profile.research_topics or "",
-            academic_level=profile.academic_level or "undergrad",
-            work_style=profile.work_style or "both",
-            needs_funding=bool(profile.needs_funding),
-            top_k=500,
-        )
-    except Exception as e:
-        app.logger.error(f"Matching error: {e}")
-        flash("Error generating matches. Please try again.", "error")
-        return redirect(url_for("general"))
-
-    total_results = len(all_results)
-    total_pages = max(1, (total_results + per_page - 1) // per_page)
-    page = min(page, total_pages)
-    start_idx = (page - 1) * per_page
-    end_idx = start_idx + per_page
-    page_results = all_results[start_idx:end_idx]
-
-    saved_pi_ids = set(sp.pi_id for sp in SavedPI.query.filter_by(user_id=user_id).all())
-
-    ranked_matches = []
-    for r in page_results:
-        research_topics = r.get("research_topics", []) or []
-        match_dict = {
-            "id": r.get("id") or r.get("name", ""),
-            "name": r.get("name", ""),
-            "email": r.get("email", ""),
-            "email_quality": r.get("email_quality", "uncertain"),
-            "website": r.get("website", ""),
-            "department": r.get("department", ""),
-            "school": r.get("school", ""),
-            "title": r.get("title", ""),
-            "location": r.get("location", ""),
-            "specific_location": r.get("specific_location", ""),
-            "google_scholar": r.get("google_scholar", ""),
-            "lab_techniques": r.get("lab_techniques", ""),
-            "h_index": r.get("h_index", 0),
-            "match_score": int(r.get("total_score", 0)),
-            "match_reason": r.get("explanation", ""),
-            "research_areas": ", ".join(research_topics[:5]),
-            "research_topics": research_topics[:5],
+    if request.method == "POST":
+        research_area = (request.form.get("research_area") or "").strip()
+        work_type = (request.form.get("work_type") or "").strip()
+        involvement = (request.form.get("involvement") or "").strip()
+        year = (request.form.get("year") or "").strip()
+        form_values = {
+            "research_area": research_area,
+            "work_type": work_type,
+            "involvement": involvement,
+            "year": year,
         }
-        match_dict["is_saved"] = match_dict["id"] in saved_pi_ids or match_dict["name"] in saved_pi_ids
-        ranked_matches.append(match_dict)
+        valid_inv = {k for k, _ in ui_options["involvement"]}
+        ok = (
+            research_area
+            and work_type
+            and involvement
+            and year
+            and research_area in ui_options["research_areas"]
+            and work_type in ui_options["work_types"]
+            and involvement in valid_inv
+            and year in STUDENT_YEAR_OPTIONS
+        )
+        if not ok:
+            flash("Please choose an option for every question.", "warning")
+        else:
+            results = rank_professors_for_answers(
+                faculty,
+                research_area,
+                work_type,
+                involvement,
+                year,
+                dept_field_key,
+                DEPT_CATEGORY_DISPLAY,
+                top_k=5,
+            )
 
     return render_template(
-        "matches.html",
-        matches=ranked_matches,
+        "my_matches.html",
+        ui_options=ui_options,
+        results=results,
+        form_values=form_values,
         saved_pi_ids=saved_pi_ids,
-        has_resume=False,
-        total_faculty=matcher.get_faculty_count(),
-        page=page,
-        per_page=per_page,
-        total_results=total_results,
-        total_pages=total_pages,
+        total_faculty=len(faculty),
     )
+
 
 @app.route("/save-pi", methods=["POST"])
 @app.route("/save-pi/<pi_id>", methods=["POST"])
@@ -2379,19 +2390,41 @@ def account():
 # Admin dashboard (requires ADMIN_EMAILS env var)
 # -----------------------------------------------------------------------------
 
+def _admin_page_views_for_display(tracked: int):
+    """How many page views to show on the admin dashboard.
+
+    In development, the displayed total is at least 10,000 so the dashboard
+    looks realistic for demos (tracked tally shown smaller when it applies).
+    Override with ADMIN_PAGE_VIEWS_MIN_DISPLAY (0 = off, or any minimum).
+    """
+    raw = os.getenv("ADMIN_PAGE_VIEWS_MIN_DISPLAY", "").strip()
+    if raw != "":
+        min_display = max(0, int(raw))
+    else:
+        min_display = 10000 if env == "development" else 0
+    if min_display <= 0:
+        return tracked, None
+    display = max(tracked, min_display)
+    if display > tracked:
+        return display, tracked
+    return display, None
+
+
 @app.route("/admin")
 @admin_required
 def admin_dashboard():
     """Admin dashboard: site stats and recent activity."""
     stats = SiteStats.query.get(1)
-    total_views = (stats.total_page_views or 0) if stats else 0
+    tracked_views = (stats.total_page_views or 0) if stats else 0
+    display_views, tracked_only = _admin_page_views_for_display(tracked_views)
     total_users = User.query.count()
     total_saved = db.session.query(db.func.count(SavedPI.id)).scalar() or 0
     total_resumes = db.session.query(db.func.count(Resume.id)).scalar() or 0
     recent_users = User.query.order_by(User.created_at.desc()).limit(10).all()
     return render_template(
         "admin/dashboard.html",
-        total_page_views=total_views,
+        total_page_views=display_views,
+        page_views_tracked=tracked_only,
         total_users=total_users,
         total_saved=total_saved,
         total_resumes=total_resumes,

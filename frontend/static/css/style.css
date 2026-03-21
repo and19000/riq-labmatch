@@ -4132,6 +4132,13 @@ footer {
   font-size: 0.85rem;
   color: var(--text-muted);
 }
+.admin-stats .stat-sublabel {
+  margin: 0.5rem 0 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+  opacity: 0.9;
+}
 .admin-section { margin-bottom: 2rem; }
 .admin-section h2 { margin-bottom: 1rem; font-size: 1.1rem; }
 .admin-table {
@@ -4156,3 +4163,170 @@ footer {
 }
 .admin-table tbody tr:last-child td { border-bottom: none; }
 .admin-table tbody tr:hover { background: var(--bg-elevated); }
+
+/* ============================================
+   My Matches — tag match (dropdowns, top 5)
+   ============================================ */
+.my-matches-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 3rem;
+}
+.my-matches-hero .subtitle {
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  max-width: 42rem;
+}
+.my-matches-section-title {
+  font-size: 1.15rem;
+  margin: 2rem 0 1rem;
+  font-weight: 600;
+}
+.my-matches-form-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-card);
+}
+.my-matches-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.my-matches-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  color: var(--text-main);
+}
+.my-matches-label span {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+.my-matches-select {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated);
+  color: var(--text-main);
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+}
+.my-matches-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  align-items: center;
+}
+.my-matches-submit {
+  min-width: 160px;
+}
+.my-matches-results-hint {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+.my-matches-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.my-match-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  box-shadow: var(--shadow-soft);
+}
+.my-match-card-top {
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  gap: 0.75rem 1rem;
+  align-items: start;
+}
+.my-match-logo-img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+.my-match-logo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+.my-match-name {
+  font-size: 1.15rem;
+  margin: 0;
+  font-weight: 600;
+}
+.my-match-school {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0.15rem 0 0.35rem;
+}
+.my-match-score-wrap {
+  text-align: right;
+  min-width: 72px;
+}
+.my-match-pct {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.1;
+}
+.my-match-pct-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.my-match-research {
+  margin: 0.85rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+.my-match-research strong {
+  color: var(--text-main);
+}
+.my-match-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+.my-match-card-actions .btn-small {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.85rem;
+}
+@media (max-width: 640px) {
+  .my-match-card-top {
+    grid-template-columns: 44px 1fr;
+  }
+  .my-match-score-wrap {
+    grid-column: 1 / -1;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+  }
+  .my-match-pct {
+    display: inline;
+    font-size: 1.2rem;
+  }
+}
